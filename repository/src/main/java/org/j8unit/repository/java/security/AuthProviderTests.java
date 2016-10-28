@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.security;
 
+import java.security.AuthProvider;
+import javax.security.auth.Subject;
+import javax.security.auth.callback.CallbackHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.AuthProvider class java.security.AuthProvider}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link AuthProviderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link AuthProvider
+ * public abstract class java.security.AuthProvider}.
  * </p>
  *
- * @see java.security.AuthProvider class java.security.AuthProvider (the hereby targeted class-under-test class)
- * @see AuthProviderClassTests AuthProviderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.AuthProviderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AuthProviderTests<SUT extends java.security.AuthProvider>
-extends ProviderTests<SUT> {
+public abstract interface AuthProviderTests<SUT extends AuthProvider>
+extends org.j8unit.repository.java.security.ProviderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.AuthProvider]
 
     /**
      * <p>
-     * Test method for {@link java.security.AuthProvider#logout() public abstract void
-     * java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
-     *
-     * <p>
-     * Test method for {@link java.security.AuthProvider#logout() public abstract void
+     * Test method for the hereby targeted method-under-test {@link AuthProvider#logout() public abstract void
      * java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +44,7 @@ extends ProviderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.AuthProvider#logout() public abstract void java.security.AuthProvider.logout() throws
-     *      javax.security.auth.login.LoginException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,16 +58,8 @@ extends ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.AuthProvider#login(javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler)
-     * public abstract void
-     * java.security.AuthProvider.login(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler) throws
-     * javax.security.auth.login.LoginException}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.security.AuthProvider#login(javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test {@link AuthProvider#login(Subject, CallbackHandler) public
+     * abstract void
      * java.security.AuthProvider.login(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler) throws
      * javax.security.auth.login.LoginException}.
      *
@@ -73,10 +68,7 @@ extends ProviderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.AuthProvider#login(javax.security.auth.Subject, javax.security.auth.callback.CallbackHandler)
-     *      public abstract void
-     *      java.security.AuthProvider.login(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
-     *      throws javax.security.auth.login.LoginException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -90,23 +82,16 @@ extends ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.AuthProvider#setCallbackHandler(javax.security.auth.callback.CallbackHandler) public
-     * abstract void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.security.AuthProvider#setCallbackHandler(javax.security.auth.callback.CallbackHandler) public
-     * abstract void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler)}.
+     * Test method for the hereby targeted method-under-test {@link AuthProvider#setCallbackHandler(CallbackHandler)
+     * public abstract void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.AuthProvider#setCallbackHandler(javax.security.auth.callback.CallbackHandler) public abstract
-     *      void java.security.AuthProvider.setCallbackHandler(javax.security.auth.callback.CallbackHandler) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,5 +102,7 @@ extends ProviderTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.AuthProvider]
 
 }

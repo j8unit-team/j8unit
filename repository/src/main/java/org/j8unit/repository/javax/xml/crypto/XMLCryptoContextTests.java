@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.xml.crypto;
 
+import javax.xml.crypto.KeySelector;
+import javax.xml.crypto.URIDereferencer;
+import javax.xml.crypto.XMLCryptoContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,43 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.crypto.XMLCryptoContext interface
- * javax.xml.crypto.XMLCryptoContext}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link XMLCryptoContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link XMLCryptoContext public abstract interface javax.xml.crypto.XMLCryptoContext}.
  * </p>
  *
- * @see javax.xml.crypto.XMLCryptoContext interface javax.xml.crypto.XMLCryptoContext (the hereby targeted
- *      class-under-test class)
- * @see XMLCryptoContextClassTests XMLCryptoContextClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLCryptoContextTests<SUT extends javax.xml.crypto.XMLCryptoContext>
+public abstract interface XMLCryptoContextTests<SUT extends XMLCryptoContext>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.XMLCryptoContext]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setDefaultNamespacePrefix(String) public abstract void
-     * javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setDefaultNamespacePrefix(String) public abstract void
-     * javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#setDefaultNamespacePrefix(String)
+     * public abstract void javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#setDefaultNamespacePrefix(String) public abstract void
-     *      javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,20 +59,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getBaseURI() public abstract java.lang.String
-     * javax.xml.crypto.XMLCryptoContext.getBaseURI()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getBaseURI() public abstract java.lang.String
-     * javax.xml.crypto.XMLCryptoContext.getBaseURI()}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getBaseURI() public abstract
+     * java.lang.String javax.xml.crypto.XMLCryptoContext.getBaseURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getBaseURI() public abstract java.lang.String
-     *      javax.xml.crypto.XMLCryptoContext.getBaseURI() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,21 +81,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#putNamespacePrefix(String, String) public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#putNamespacePrefix(String, String) public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#putNamespacePrefix(String, String)
+     * public abstract java.lang.String
+     * javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#putNamespacePrefix(String, String) public abstract java.lang.String
-     *      javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,20 +104,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getURIDereferencer() public abstract
-     * javax.xml.crypto.URIDereferencer javax.xml.crypto.XMLCryptoContext.getURIDereferencer()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getURIDereferencer() public abstract
-     * javax.xml.crypto.URIDereferencer javax.xml.crypto.XMLCryptoContext.getURIDereferencer()}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getURIDereferencer() public
+     * abstract javax.xml.crypto.URIDereferencer javax.xml.crypto.XMLCryptoContext.getURIDereferencer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getURIDereferencer() public abstract javax.xml.crypto.URIDereferencer
-     *      javax.xml.crypto.XMLCryptoContext.getURIDereferencer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,11 +126,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public
-     * abstract void javax.xml.crypto.XMLCryptoContext.setKeySelector(javax.xml.crypto.KeySelector)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#setKeySelector(KeySelector) public
      * abstract void javax.xml.crypto.XMLCryptoContext.setKeySelector(javax.xml.crypto.KeySelector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,9 +134,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public abstract void
-     *      javax.xml.crypto.XMLCryptoContext.setKeySelector(javax.xml.crypto.KeySelector) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,21 +148,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getNamespacePrefix(String, String) public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.getNamespacePrefix(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getNamespacePrefix(String, String) public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.getNamespacePrefix(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getNamespacePrefix(String, String)
+     * public abstract java.lang.String
+     * javax.xml.crypto.XMLCryptoContext.getNamespacePrefix(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getNamespacePrefix(String, String) public abstract java.lang.String
-     *      javax.xml.crypto.XMLCryptoContext.getNamespacePrefix(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -197,66 +171,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#get(Object) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.get(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#get(Object) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.get(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.crypto.XMLCryptoContext#get(Object) public abstract java.lang.Object
-     *      javax.xml.crypto.XMLCryptoContext.get(java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setProperty(String, Object) public abstract
-     * java.lang.Object javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setProperty(String, Object) public abstract
-     * java.lang.Object javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.crypto.XMLCryptoContext#setProperty(String, Object) public abstract java.lang.Object
-     *      javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getKeySelector() public abstract
-     * javax.xml.crypto.KeySelector javax.xml.crypto.XMLCryptoContext.getKeySelector()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getKeySelector() public abstract
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getKeySelector() public abstract
      * javax.xml.crypto.KeySelector javax.xml.crypto.XMLCryptoContext.getKeySelector()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -264,8 +179,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getKeySelector() public abstract javax.xml.crypto.KeySelector
-     *      javax.xml.crypto.XMLCryptoContext.getKeySelector() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,25 +193,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getDefaultNamespacePrefix() public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getDefaultNamespacePrefix() public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix()}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#setProperty(String, Object) public
+     * abstract java.lang.Object javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getDefaultNamespacePrefix() public abstract java.lang.String
-     *      javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultNamespacePrefix()
+    public default void test_setProperty_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -306,20 +215,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setBaseURI(String) public abstract void
-     * javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setBaseURI(String) public abstract void
-     * javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#get(Object) public abstract
+     * java.lang.Object javax.xml.crypto.XMLCryptoContext.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#setBaseURI(String) public abstract void
-     *      javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#setBaseURI(String) public abstract
+     * void javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -333,11 +259,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
-     * public abstract void javax.xml.crypto.XMLCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getDefaultNamespacePrefix() public
+     * abstract java.lang.String javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultNamespacePrefix()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#setURIDereferencer(URIDereferencer)
      * public abstract void javax.xml.crypto.XMLCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -345,9 +289,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer) public abstract void
-     *      javax.xml.crypto.XMLCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,21 +303,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#put(Object, Object) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.put(java.lang.Object,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#put(Object, Object) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.put(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#put(Object, Object) public abstract
+     * java.lang.Object javax.xml.crypto.XMLCryptoContext.put(java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#put(Object, Object) public abstract java.lang.Object
-     *      javax.xml.crypto.XMLCryptoContext.put(java.lang.Object,java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -389,20 +325,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getProperty(String) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getProperty(String) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link XMLCryptoContext#getProperty(String) public abstract
+     * java.lang.Object javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.XMLCryptoContext#getProperty(String) public abstract java.lang.Object
-     *      javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -413,5 +344,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.XMLCryptoContext]
 
 }

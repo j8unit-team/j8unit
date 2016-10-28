@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.xml.soap;
 
+import java.util.Locale;
+import javax.xml.namespace.QName;
+import javax.xml.soap.Name;
+import javax.xml.soap.SOAPFault;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.soap.SOAPFault interface javax.xml.soap.SOAPFault}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SOAPFaultClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SOAPFault
+ * public abstract interface javax.xml.soap.SOAPFault}.
  * </p>
  *
- * @see javax.xml.soap.SOAPFault interface javax.xml.soap.SOAPFault (the hereby targeted class-under-test class)
- * @see SOAPFaultClassTests SOAPFaultClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.soap.SOAPFaultClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPFaultTests<SUT extends javax.xml.soap.SOAPFault>
-extends SOAPBodyElementTests<SUT> {
+public abstract interface SOAPFaultTests<SUT extends SOAPFault>
+extends org.j8unit.repository.javax.xml.soap.SOAPBodyElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPFault]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCodeAsQName() public abstract javax.xml.namespace.QName
-     * javax.xml.soap.SOAPFault.getFaultCodeAsQName()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCodeAsQName() public abstract javax.xml.namespace.QName
-     * javax.xml.soap.SOAPFault.getFaultCodeAsQName()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultCodeAsQName() public abstract
+     * javax.xml.namespace.QName javax.xml.soap.SOAPFault.getFaultCodeAsQName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultCodeAsQName() public abstract javax.xml.namespace.QName
-     *      javax.xml.soap.SOAPFault.getFaultCodeAsQName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +59,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultActor() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultActor()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultActor() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultActor()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultActor() public abstract
+     * java.lang.String javax.xml.soap.SOAPFault.getFaultActor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultActor() public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultActor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +81,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCodeAsName() public abstract javax.xml.soap.Name
-     * javax.xml.soap.SOAPFault.getFaultCodeAsName()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCodeAsName() public abstract javax.xml.soap.Name
-     * javax.xml.soap.SOAPFault.getFaultCodeAsName()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultCodeAsName() public abstract
+     * javax.xml.soap.Name javax.xml.soap.SOAPFault.getFaultCodeAsName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultCodeAsName() public abstract javax.xml.soap.Name
-     *      javax.xml.soap.SOAPFault.getFaultCodeAsName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,11 +103,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#hasDetail() public abstract boolean
-     * javax.xml.soap.SOAPFault.hasDetail()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#hasDetail() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#hasDetail() public abstract boolean
      * javax.xml.soap.SOAPFault.hasDetail()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,8 +111,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#hasDetail() public abstract boolean javax.xml.soap.SOAPFault.hasDetail() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,49 +125,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultString(String, java.util.Locale) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultString(java.lang.String,java.util.Locale) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultString(String, java.util.Locale) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultString(java.lang.String,java.util.Locale) throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultString(String) public abstract
+     * void javax.xml.soap.SOAPFault.setFaultString(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#setFaultString(String, java.util.Locale) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultString(java.lang.String,java.util.Locale) throws
-     *      javax.xml.soap.SOAPException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFaultString_String_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultString(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultString(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultString(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultString(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#setFaultString(String) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultString(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,26 +147,21 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonTexts() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultReasonTexts() throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonTexts() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultReasonTexts() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultString(String, Locale) public
+     * abstract void javax.xml.soap.SOAPFault.setFaultString(java.lang.String,java.util.Locale) throws
+     * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultReasonTexts() public abstract java.util.Iterator
-     *      javax.xml.soap.SOAPFault.getFaultReasonTexts() throws javax.xml.soap.SOAPException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFaultReasonTexts()
+    public default void test_setFaultString_String_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,38 +170,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultRole() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultRole()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultRole() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultRole()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#getFaultRole() public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultRole() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFaultRole()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultRole(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultRole(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultRole(String) public abstract void
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultRole(String) public abstract void
      * javax.xml.soap.SOAPFault.setFaultRole(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,9 +178,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#setFaultRole(String) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultRole(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,13 +192,52 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#addFaultReasonText(String, java.util.Locale) public abstract void
-     * javax.xml.soap.SOAPFault.addFaultReasonText(java.lang.String,java.util.Locale) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultRole() public abstract
+     * java.lang.String javax.xml.soap.SOAPFault.getFaultRole()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFaultRole()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#addFaultReasonText(String, java.util.Locale) public abstract void
-     * javax.xml.soap.SOAPFault.addFaultReasonText(java.lang.String,java.util.Locale) throws
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultReasonTexts() public abstract
+     * java.util.Iterator javax.xml.soap.SOAPFault.getFaultReasonTexts() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFaultReasonTexts()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#addFaultReasonText(String, Locale) public
+     * abstract void javax.xml.soap.SOAPFault.addFaultReasonText(java.lang.String,java.util.Locale) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,9 +245,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#addFaultReasonText(String, java.util.Locale) public abstract void
-     *      javax.xml.soap.SOAPFault.addFaultReasonText(java.lang.String,java.util.Locale) throws
-     *      javax.xml.soap.SOAPException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -305,20 +259,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#removeAllFaultSubcodes() public abstract void
-     * javax.xml.soap.SOAPFault.removeAllFaultSubcodes()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#removeAllFaultSubcodes() public abstract void
-     * javax.xml.soap.SOAPFault.removeAllFaultSubcodes()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#removeAllFaultSubcodes() public abstract
+     * void javax.xml.soap.SOAPFault.removeAllFaultSubcodes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#removeAllFaultSubcodes() public abstract void
-     *      javax.xml.soap.SOAPFault.removeAllFaultSubcodes() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,20 +281,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getDetail() public abstract javax.xml.soap.Detail
-     * javax.xml.soap.SOAPFault.getDetail()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getDetail() public abstract javax.xml.soap.Detail
-     * javax.xml.soap.SOAPFault.getDetail()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getDetail() public abstract
+     * javax.xml.soap.Detail javax.xml.soap.SOAPFault.getDetail()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getDetail() public abstract javax.xml.soap.Detail
-     *      javax.xml.soap.SOAPFault.getDetail() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,47 +303,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultNode() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultNode()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultNode() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultNode()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultString() public abstract
+     * java.lang.String javax.xml.soap.SOAPFault.getFaultString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultNode() public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultNode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFaultNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultString() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultString()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultString() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#getFaultString() public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -413,20 +325,37 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultSubcodes() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultSubcodes()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultSubcodes() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultSubcodes()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultNode() public abstract
+     * java.lang.String javax.xml.soap.SOAPFault.getFaultNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultSubcodes() public abstract java.util.Iterator
-     *      javax.xml.soap.SOAPFault.getFaultSubcodes() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFaultNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultSubcodes() public abstract
+     * java.util.Iterator javax.xml.soap.SOAPFault.getFaultSubcodes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -440,21 +369,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonLocales() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultReasonLocales() throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonLocales() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPFault.getFaultReasonLocales() throws javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultReasonLocales() public abstract
+     * java.util.Iterator javax.xml.soap.SOAPFault.getFaultReasonLocales() throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultReasonLocales() public abstract java.util.Iterator
-     *      javax.xml.soap.SOAPFault.getFaultReasonLocales() throws javax.xml.soap.SOAPException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -468,122 +391,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#addDetail() public abstract javax.xml.soap.Detail
-     * javax.xml.soap.SOAPFault.addDetail() throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#addDetail() public abstract javax.xml.soap.Detail
-     * javax.xml.soap.SOAPFault.addDetail() throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#addDetail() public abstract javax.xml.soap.Detail
-     *      javax.xml.soap.SOAPFault.addDetail() throws javax.xml.soap.SOAPException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addDetail()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCode() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultCode() public abstract java.lang.String
-     * javax.xml.soap.SOAPFault.getFaultCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#getFaultCode() public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultCode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFaultCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(javax.xml.namespace.QName) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultCode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(javax.xml.namespace.QName) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultCode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#setFaultCode(javax.xml.namespace.QName) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultCode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFaultCode_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultCode(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultCode(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.SOAPFault#setFaultCode(String) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultCode(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFaultCode_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(javax.xml.soap.Name) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultCode(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultCode(javax.xml.soap.Name) public abstract void
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultCode(Name) public abstract void
      * javax.xml.soap.SOAPFault.setFaultCode(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -591,9 +399,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#setFaultCode(javax.xml.soap.Name) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultCode(javax.xml.soap.Name) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -607,12 +413,95 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonText(java.util.Locale) public abstract
-     * java.lang.String javax.xml.soap.SOAPFault.getFaultReasonText(java.util.Locale) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultCode(String) public abstract void
+     * javax.xml.soap.SOAPFault.setFaultCode(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFaultCode_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultReasonText(java.util.Locale) public abstract
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultCode(QName) public abstract void
+     * javax.xml.soap.SOAPFault.setFaultCode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFaultCode_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultCode() public abstract
+     * java.lang.String javax.xml.soap.SOAPFault.getFaultCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFaultCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#addDetail() public abstract
+     * javax.xml.soap.Detail javax.xml.soap.SOAPFault.addDetail() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addDetail()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultReasonText(Locale) public abstract
      * java.lang.String javax.xml.soap.SOAPFault.getFaultReasonText(java.util.Locale) throws
      * javax.xml.soap.SOAPException}.
      *
@@ -621,9 +510,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultReasonText(java.util.Locale) public abstract java.lang.String
-     *      javax.xml.soap.SOAPFault.getFaultReasonText(java.util.Locale) throws javax.xml.soap.SOAPException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -637,20 +524,15 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultStringLocale() public abstract java.util.Locale
-     * javax.xml.soap.SOAPFault.getFaultStringLocale()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#getFaultStringLocale() public abstract java.util.Locale
-     * javax.xml.soap.SOAPFault.getFaultStringLocale()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#getFaultStringLocale() public abstract
+     * java.util.Locale javax.xml.soap.SOAPFault.getFaultStringLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#getFaultStringLocale() public abstract java.util.Locale
-     *      javax.xml.soap.SOAPFault.getFaultStringLocale() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -664,11 +546,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultNode(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultNode(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultNode(String) public abstract void
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultNode(String) public abstract void
      * javax.xml.soap.SOAPFault.setFaultNode(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -676,9 +554,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#setFaultNode(String) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultNode(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -692,11 +568,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultActor(String) public abstract void
-     * javax.xml.soap.SOAPFault.setFaultActor(java.lang.String) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#setFaultActor(String) public abstract void
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#setFaultActor(String) public abstract void
      * javax.xml.soap.SOAPFault.setFaultActor(java.lang.String) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -704,9 +576,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#setFaultActor(String) public abstract void
-     *      javax.xml.soap.SOAPFault.setFaultActor(java.lang.String) throws javax.xml.soap.SOAPException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -720,11 +590,7 @@ extends SOAPBodyElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#appendFaultSubcode(javax.xml.namespace.QName) public abstract
-     * void javax.xml.soap.SOAPFault.appendFaultSubcode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFault#appendFaultSubcode(javax.xml.namespace.QName) public abstract
+     * Test method for the hereby targeted method-under-test {@link SOAPFault#appendFaultSubcode(QName) public abstract
      * void javax.xml.soap.SOAPFault.appendFaultSubcode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -732,9 +598,7 @@ extends SOAPBodyElementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.SOAPFault#appendFaultSubcode(javax.xml.namespace.QName) public abstract void
-     *      javax.xml.soap.SOAPFault.appendFaultSubcode(javax.xml.namespace.QName) throws javax.xml.soap.SOAPException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -745,5 +609,7 @@ extends SOAPBodyElementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPFault]
 
 }

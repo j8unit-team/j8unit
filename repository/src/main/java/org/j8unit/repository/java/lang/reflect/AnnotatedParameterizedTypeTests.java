@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang.reflect;
 
+import java.lang.reflect.AnnotatedParameterizedType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,46 +9,42 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.lang.reflect.AnnotatedParameterizedType interface
- * java.lang.reflect.AnnotatedParameterizedType}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AnnotatedParameterizedTypeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AnnotatedParameterizedType public abstract interface java.lang.reflect.AnnotatedParameterizedType}.
  * </p>
  *
- * @see java.lang.reflect.AnnotatedParameterizedType interface java.lang.reflect.AnnotatedParameterizedType (the hereby
- *      targeted class-under-test class)
- * @see AnnotatedParameterizedTypeClassTests AnnotatedParameterizedTypeClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.reflect.AnnotatedParameterizedTypeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AnnotatedParameterizedTypeTests<SUT extends java.lang.reflect.AnnotatedParameterizedType>
-extends AnnotatedTypeTests<SUT> {
+public abstract interface AnnotatedParameterizedTypeTests<SUT extends AnnotatedParameterizedType>
+extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.AnnotatedParameterizedType]
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public
-     * abstract java.lang.reflect.AnnotatedType[]
-     * java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments()}.
-     *
-     * <p>
-     * Test method for {@link java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public
-     * abstract java.lang.reflect.AnnotatedType[]
-     * java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public abstract
+     * java.lang.reflect.AnnotatedType[] java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.lang.reflect.AnnotatedParameterizedType#getAnnotatedActualTypeArguments() public abstract
-     *      java.lang.reflect.AnnotatedType[]
-     *      java.lang.reflect.AnnotatedParameterizedType.getAnnotatedActualTypeArguments() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,5 +55,7 @@ extends AnnotatedTypeTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.AnnotatedParameterizedType]
 
 }

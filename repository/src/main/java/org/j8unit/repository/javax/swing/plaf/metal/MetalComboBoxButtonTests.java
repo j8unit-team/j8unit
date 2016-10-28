@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
+import java.awt.Graphics;
+import javax.swing.Icon;
+import javax.swing.JComboBox;
+import javax.swing.plaf.metal.MetalComboBoxButton;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalComboBoxButton class
- * javax.swing.plaf.metal.MetalComboBoxButton}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link MetalComboBoxButtonClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MetalComboBoxButton public class javax.swing.plaf.metal.MetalComboBoxButton}.
  * </p>
  *
- * @see javax.swing.plaf.metal.MetalComboBoxButton class javax.swing.plaf.metal.MetalComboBoxButton (the hereby targeted
- *      class-under-test class)
- * @see MetalComboBoxButtonClassTests MetalComboBoxButtonClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxButtonClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalComboBoxButtonTests<SUT extends javax.swing.plaf.metal.MetalComboBoxButton>
+public abstract interface MetalComboBoxButtonTests<SUT extends MetalComboBoxButton>
 extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxButton]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setIconOnly(boolean) public final void
-     * javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setIconOnly(boolean) public final void
-     * javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#setIconOnly(boolean) public
+     * final void javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#setIconOnly(boolean) public final void
-     *      javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +59,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setEnabled(boolean) public void
-     * javax.swing.plaf.metal.MetalComboBoxButton.setEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setEnabled(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#setEnabled(boolean) public void
      * javax.swing.plaf.metal.MetalComboBoxButton.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +67,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#setEnabled(boolean) public void
-     *      javax.swing.plaf.metal.MetalComboBoxButton.setEnabled(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -85,20 +82,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalComboBoxButton.getMinimumSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalComboBoxButton.getMinimumSize()}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#getMinimumSize() public
+     * java.awt.Dimension javax.swing.plaf.metal.MetalComboBoxButton.getMinimumSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#getMinimumSize() public java.awt.Dimension
-     *      javax.swing.plaf.metal.MetalComboBoxButton.getMinimumSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -113,47 +105,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboIcon() public final javax.swing.Icon
-     * javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboIcon() public final javax.swing.Icon
-     * javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon()}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#isIconOnly() public final
+     * boolean javax.swing.plaf.metal.MetalComboBoxButton.isIconOnly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#getComboIcon() public final javax.swing.Icon
-     *      javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComboIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isIconOnly() public final boolean
-     * javax.swing.plaf.metal.MetalComboBoxButton.isIconOnly()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isIconOnly() public final boolean
-     * javax.swing.plaf.metal.MetalComboBoxButton.isIconOnly()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#isIconOnly() public final boolean
-     *      javax.swing.plaf.metal.MetalComboBoxButton.isIconOnly() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,11 +127,29 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboBox() public final
-     * javax.swing.JComboBox javax.swing.plaf.metal.MetalComboBoxButton.getComboBox()}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#getComboIcon() public final
+     * javax.swing.Icon javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComboIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboBox() public final
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#getComboBox() public final
      * javax.swing.JComboBox javax.swing.plaf.metal.MetalComboBoxButton.getComboBox()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +157,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#getComboBox() public final javax.swing.JComboBox
-     *      javax.swing.plaf.metal.MetalComboBoxButton.getComboBox() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,20 +171,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isFocusTraversable() public boolean
-     * javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isFocusTraversable() public boolean
-     * javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable()}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#isFocusTraversable() public
+     * boolean javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#isFocusTraversable() public boolean
-     *      javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -222,21 +194,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#paintComponent(java.awt.Graphics) public void
-     * javax.swing.plaf.metal.MetalComboBoxButton.paintComponent(java.awt.Graphics)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#paintComponent(java.awt.Graphics) public void
-     * javax.swing.plaf.metal.MetalComboBoxButton.paintComponent(java.awt.Graphics)}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#paintComponent(Graphics) public
+     * void javax.swing.plaf.metal.MetalComboBoxButton.paintComponent(java.awt.Graphics)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#paintComponent(java.awt.Graphics) public void
-     *      javax.swing.plaf.metal.MetalComboBoxButton.paintComponent(java.awt.Graphics) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,11 +216,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboIcon(javax.swing.Icon) public final
-     * void javax.swing.plaf.metal.MetalComboBoxButton.setComboIcon(javax.swing.Icon)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboIcon(javax.swing.Icon) public final
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#setComboIcon(Icon) public final
      * void javax.swing.plaf.metal.MetalComboBoxButton.setComboIcon(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,9 +224,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#setComboIcon(javax.swing.Icon) public final void
-     *      javax.swing.plaf.metal.MetalComboBoxButton.setComboIcon(javax.swing.Icon) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,21 +238,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboBox(javax.swing.JComboBox) public final
-     * void javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboBox(javax.swing.JComboBox) public final
-     * void javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox)}.
+     * Test method for the hereby targeted method-under-test {@link MetalComboBoxButton#setComboBox(JComboBox) public
+     * final void javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalComboBoxButton#setComboBox(javax.swing.JComboBox) public final void
-     *      javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -303,5 +257,7 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxButton]
 
 }

@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.Files;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.Files class java.nio.file.Files}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link FilesClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Files public
+ * final class java.nio.file.Files}.
  * </p>
  *
- * @see java.nio.file.Files class java.nio.file.Files (the hereby targeted class-under-test class)
- * @see FilesClassTests FilesClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.FilesClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FilesTests<SUT extends java.nio.file.Files>
+public abstract interface FilesTests<SUT extends Files>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.Files]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.Files]
 
 }

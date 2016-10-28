@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.NotificationEmitter;
+import javax.management.NotificationFilter;
+import javax.management.NotificationListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +11,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.NotificationEmitter interface
- * javax.management.NotificationEmitter}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link NotificationEmitterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NotificationEmitter public abstract interface javax.management.NotificationEmitter}.
  * </p>
  *
- * @see javax.management.NotificationEmitter interface javax.management.NotificationEmitter (the hereby targeted
- *      class-under-test class)
- * @see NotificationEmitterClassTests NotificationEmitterClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.NotificationEmitterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NotificationEmitterTests<SUT extends javax.management.NotificationEmitter>
-extends NotificationBroadcasterTests<SUT> {
+public abstract interface NotificationEmitterTests<SUT extends NotificationEmitter>
+extends org.j8unit.repository.javax.management.NotificationBroadcasterTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotificationEmitter]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.NotificationEmitter#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public abstract void
-     * javax.management.NotificationEmitter.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws javax.management.ListenerNotFoundException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.NotificationEmitter#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link NotificationEmitter#removeNotificationListener(NotificationListener, NotificationFilter, Object) public
+     * abstract void
      * javax.management.NotificationEmitter.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -48,11 +47,7 @@ extends NotificationBroadcasterTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.NotificationEmitter#removeNotificationListener(javax.management.NotificationListener,
-     *      javax.management.NotificationFilter, Object) public abstract void
-     *      javax.management.NotificationEmitter.removeNotificationListener(javax.management.NotificationListener,javax.
-     *      management.NotificationFilter,java.lang.Object) throws javax.management.ListenerNotFoundException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +58,7 @@ extends NotificationBroadcasterTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationEmitter]
 
 }

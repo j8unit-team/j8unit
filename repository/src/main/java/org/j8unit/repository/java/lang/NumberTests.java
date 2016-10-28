@@ -8,37 +8,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain Number class java.lang.Number}. The complementary j8unit test interface
- * containing the class relevant aspects is {@link NumberClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Number public
+ * abstract class java.lang.Number}.
  * </p>
  *
- * @see Number class java.lang.Number (the hereby targeted class-under-test class)
- * @see NumberClassTests NumberClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.NumberClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NumberTests<SUT extends Number>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Number]
 
     /**
      * <p>
-     * Test method for {@link Number#longValue() public abstract long java.lang.Number.longValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#longValue() public abstract long java.lang.Number.longValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#longValue() public abstract long
+     * java.lang.Number.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#longValue() public abstract long java.lang.Number.longValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,17 +55,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Number#byteValue() public byte java.lang.Number.byteValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#byteValue() public byte java.lang.Number.byteValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#byteValue() public byte
+     * java.lang.Number.byteValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#byteValue() public byte java.lang.Number.byteValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -76,18 +77,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Number#floatValue() public abstract float java.lang.Number.floatValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#floatValue() public abstract float java.lang.Number.floatValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#floatValue() public abstract float
+     * java.lang.Number.floatValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#floatValue() public abstract float java.lang.Number.floatValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -101,17 +99,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Number#shortValue() public short java.lang.Number.shortValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#shortValue() public short java.lang.Number.shortValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#shortValue() public short
+     * java.lang.Number.shortValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#shortValue() public short java.lang.Number.shortValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -125,18 +121,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Number#doubleValue() public abstract double java.lang.Number.doubleValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#doubleValue() public abstract double java.lang.Number.doubleValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#doubleValue() public abstract double
+     * java.lang.Number.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#doubleValue() public abstract double java.lang.Number.doubleValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -150,17 +143,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Number#intValue() public abstract int java.lang.Number.intValue()}.
-     *
-     * <p>
-     * Test method for {@link Number#intValue() public abstract int java.lang.Number.intValue()}.
+     * Test method for the hereby targeted method-under-test {@link Number#intValue() public abstract int
+     * java.lang.Number.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Number#intValue() public abstract int java.lang.Number.intValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,5 +162,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Number]
 
 }

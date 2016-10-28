@@ -6,45 +6,49 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.Object;
+import org.omg.PortableInterceptor.ClientRequestInterceptor;
+import org.omg.PortableInterceptor.IORInterceptor;
+import org.omg.PortableInterceptor.ORBInitInfoOperations;
+import org.omg.PortableInterceptor.PolicyFactory;
+import org.omg.PortableInterceptor.ServerRequestInterceptor;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.ORBInitInfoOperations interface
- * org.omg.PortableInterceptor.ORBInitInfoOperations}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link ORBInitInfoOperationsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ORBInitInfoOperations public abstract interface org.omg.PortableInterceptor.ORBInitInfoOperations}.
  * </p>
  *
- * @see org.omg.PortableInterceptor.ORBInitInfoOperations interface org.omg.PortableInterceptor.ORBInitInfoOperations
- *      (the hereby targeted class-under-test class)
- * @see ORBInitInfoOperationsClassTests ORBInitInfoOperationsClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ORBInitInfoOperationsTests<SUT extends org.omg.PortableInterceptor.ORBInitInfoOperations>
+public abstract interface ORBInitInfoOperationsTests<SUT extends ORBInitInfoOperations>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ORBInitInfoOperations]
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#allocate_slot_id() public abstract int
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#allocate_slot_id() public abstract int
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id()}.
+     * Test method for the hereby targeted method-under-test {@link ORBInitInfoOperations#allocate_slot_id() public
+     * abstract int org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#allocate_slot_id() public abstract int
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,11 +62,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#arguments() public abstract
-     * java.lang.String[] org.omg.PortableInterceptor.ORBInitInfoOperations.arguments()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#arguments() public abstract
+     * Test method for the hereby targeted method-under-test {@link ORBInitInfoOperations#arguments() public abstract
      * java.lang.String[] org.omg.PortableInterceptor.ORBInitInfoOperations.arguments()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +70,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#arguments() public abstract java.lang.String[]
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.arguments() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,52 +84,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
-     *      public abstract void
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.add_client_request_interceptor(org.omg.PortableInterceptor
-     *      .ClientRequestInterceptor) throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_client_request_interceptor_ClientRequestInterceptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(String, org.omg.CORBA.Object)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(String, org.omg.CORBA.Object)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#register_initial_reference(String, Object) public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
      * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
      *
@@ -139,11 +94,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(String, org.omg.CORBA.Object)
-     *      public abstract void
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.
-     *      Object) throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,16 +108,32 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#add_client_request_interceptor(ClientRequestInterceptor) public abstract void
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
      * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_client_request_interceptor_ClientRequestInterceptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#add_server_request_interceptor(ServerRequestInterceptor) public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
      * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
      *
@@ -175,11 +142,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
-     *      public abstract void
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.add_server_request_interceptor(org.omg.PortableInterceptor
-     *      .ServerRequestInterceptor) throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,49 +156,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(String)
-     * public abstract org.omg.CORBA.Object
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(String)
-     * public abstract org.omg.CORBA.Object
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(String) public abstract
-     *      org.omg.CORBA.Object
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
-     *      org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resolve_initial_references_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#add_ior_interceptor(IORInterceptor) public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
      * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
      *
@@ -244,11 +166,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     *      public abstract void
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.add_ior_interceptor(org.omg.PortableInterceptor.
-     *      IORInterceptor) throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -262,20 +180,39 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#codec_factory() public abstract
-     * org.omg.IOP.CodecFactory org.omg.PortableInterceptor.ORBInitInfoOperations.codec_factory()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#codec_factory() public abstract
-     * org.omg.IOP.CodecFactory org.omg.PortableInterceptor.ORBInitInfoOperations.codec_factory()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#resolve_initial_references(String) public abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#codec_factory() public abstract org.omg.IOP.CodecFactory
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.codec_factory() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resolve_initial_references_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ORBInitInfoOperations#codec_factory() public
+     * abstract org.omg.IOP.CodecFactory org.omg.PortableInterceptor.ORBInitInfoOperations.codec_factory()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -289,11 +226,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#orb_id() public abstract
-     * java.lang.String org.omg.PortableInterceptor.ORBInitInfoOperations.orb_id()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#orb_id() public abstract
+     * Test method for the hereby targeted method-under-test {@link ORBInitInfoOperations#orb_id() public abstract
      * java.lang.String org.omg.PortableInterceptor.ORBInitInfoOperations.orb_id()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -301,8 +234,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#orb_id() public abstract java.lang.String
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.orb_id() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -316,16 +248,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_policy_factory(int, org.omg.PortableInterceptor.PolicyFactory)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_policy_factory(int, org.omg.PortableInterceptor.PolicyFactory)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ORBInitInfoOperations#register_policy_factory(int, PolicyFactory) public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)}
      * .
      *
@@ -334,10 +258,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.ORBInitInfoOperations#register_policy_factory(int,
-     *      org.omg.PortableInterceptor.PolicyFactory) public abstract void
-     *      org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.
-     *      PolicyFactory) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -348,5 +269,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ORBInitInfoOperations]
 
 }

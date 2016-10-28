@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
+import javax.swing.plaf.metal.DefaultMetalTheme;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.DefaultMetalTheme class
- * javax.swing.plaf.metal.DefaultMetalTheme}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link DefaultMetalThemeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultMetalTheme public class javax.swing.plaf.metal.DefaultMetalTheme}.
  * </p>
  *
- * @see javax.swing.plaf.metal.DefaultMetalTheme class javax.swing.plaf.metal.DefaultMetalTheme (the hereby targeted
- *      class-under-test class)
- * @see DefaultMetalThemeClassTests DefaultMetalThemeClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultMetalThemeTests<SUT extends javax.swing.plaf.metal.DefaultMetalTheme>
-extends MetalThemeTests<SUT> {
+public abstract interface DefaultMetalThemeTests<SUT extends DefaultMetalTheme>
+extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.DefaultMetalTheme]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getSystemTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSystemTextFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getSystemTextFont() public
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getSystemTextFont() public
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSystemTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getSystemTextFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getSystemTextFont() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +57,7 @@ extends MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getWindowTitleFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getWindowTitleFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getWindowTitleFont() public
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getWindowTitleFont() public
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getWindowTitleFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +65,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getWindowTitleFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getWindowTitleFont() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,11 +80,7 @@ extends MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getMenuTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getMenuTextFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getMenuTextFont() public
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getMenuTextFont() public
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getMenuTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +88,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getMenuTextFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getMenuTextFont() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,39 +103,7 @@ extends MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getControlTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getControlTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getControlTextFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getControlTextFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getSubTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSubTextFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getSubTextFont() public
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getSubTextFont() public
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getSubTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,8 +111,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getSubTextFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getSubTextFont() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -170,11 +126,30 @@ extends MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getName() public java.lang.String
-     * javax.swing.plaf.metal.DefaultMetalTheme.getName()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getControlTextFont() public
+     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getControlTextFont()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getControlTextFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getName() public java.lang.String
      * javax.swing.plaf.metal.DefaultMetalTheme.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,8 +157,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getName() public java.lang.String
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -198,11 +172,7 @@ extends MetalThemeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getUserTextFont() public
-     * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getUserTextFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.DefaultMetalTheme#getUserTextFont() public
+     * Test method for the hereby targeted method-under-test {@link DefaultMetalTheme#getUserTextFont() public
      * javax.swing.plaf.FontUIResource javax.swing.plaf.metal.DefaultMetalTheme.getUserTextFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +180,7 @@ extends MetalThemeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.DefaultMetalTheme#getUserTextFont() public javax.swing.plaf.FontUIResource
-     *      javax.swing.plaf.metal.DefaultMetalTheme.getUserTextFont() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -223,5 +192,7 @@ extends MetalThemeTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.DefaultMetalTheme]
 
 }

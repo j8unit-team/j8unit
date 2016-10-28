@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.rmi.registry;
 
+import java.rmi.registry.RegistryHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,33 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.registry.RegistryHandler interface
- * java.rmi.registry.RegistryHandler}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link RegistryHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RegistryHandler
+ * public abstract interface java.rmi.registry.RegistryHandler}.
  * </p>
  *
- * @see java.rmi.registry.RegistryHandler interface java.rmi.registry.RegistryHandler (the hereby targeted
- *      class-under-test class)
- * @see RegistryHandlerClassTests RegistryHandlerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.registry.RegistryHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RegistryHandlerTests<SUT extends java.rmi.registry.RegistryHandler>
+public abstract interface RegistryHandlerTests<SUT extends RegistryHandler>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.registry.RegistryHandler]
 
     /**
      * <p>
-     * Test method for {@link java.rmi.registry.RegistryHandler#registryImpl(int) public abstract
-     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException}.
-     *
-     * <p>
-     * Test method for {@link java.rmi.registry.RegistryHandler#registryImpl(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link RegistryHandler#registryImpl(int) public abstract
      * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,9 +43,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.rmi.registry.RegistryHandler#registryImpl(int) public abstract java.rmi.registry.Registry
-     *      java.rmi.registry.RegistryHandler.registryImpl(int) throws java.rmi.RemoteException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,13 +57,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract
-     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
-     * java.rmi.RemoteException,java.rmi.UnknownHostException}.
-     *
-     * <p>
-     * Test method for {@link java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract
-     * java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
+     * Test method for the hereby targeted method-under-test {@link RegistryHandler#registryStub(String, int) public
+     * abstract java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
      * java.rmi.RemoteException,java.rmi.UnknownHostException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -73,9 +66,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.rmi.registry.RegistryHandler#registryStub(String, int) public abstract java.rmi.registry.Registry
-     *      java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int) throws
-     *      java.rmi.RemoteException,java.rmi.UnknownHostException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,5 +77,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.registry.RegistryHandler]
 
 }

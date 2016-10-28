@@ -1,28 +1,34 @@
 package org.j8unit.repository.java.rmi.activation;
 
+import java.rmi.activation.UnknownGroupException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.activation.UnknownGroupException class
- * java.rmi.activation.UnknownGroupException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link UnknownGroupExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link UnknownGroupException public class java.rmi.activation.UnknownGroupException}.
  * </p>
  *
- * @see java.rmi.activation.UnknownGroupException class java.rmi.activation.UnknownGroupException (the hereby targeted
- *      class-under-test class)
- * @see UnknownGroupExceptionClassTests UnknownGroupExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.activation.UnknownGroupExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnknownGroupExceptionTests<SUT extends java.rmi.activation.UnknownGroupException>
-extends ActivationExceptionTests<SUT> {
+public abstract interface UnknownGroupExceptionTests<SUT extends UnknownGroupException>
+extends org.j8unit.repository.java.rmi.activation.ActivationExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.nio;
 
+import java.nio.ShortBuffer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,67 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.ShortBuffer class java.nio.ShortBuffer}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link ShortBufferClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ShortBuffer
+ * public abstract class java.nio.ShortBuffer}.
  * </p>
  *
- * @see java.nio.ShortBuffer class java.nio.ShortBuffer (the hereby targeted class-under-test class)
- * @see ShortBufferClassTests ShortBufferClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.ShortBufferClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ShortBufferTests<SUT extends java.nio.ShortBuffer>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffer>, BufferTests<SUT> {
+public abstract interface ShortBufferTests<SUT extends ShortBuffer>
+extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j8unit.repository.java.nio.BufferTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.ShortBuffer]
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#compareTo(java.nio.ShortBuffer) public int
-     * java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#compareTo(java.nio.ShortBuffer) public int
-     * java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#duplicate() public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.duplicate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#compareTo(java.nio.ShortBuffer) public int
-     *      java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareTo_ShortBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#duplicate() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.duplicate()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#duplicate() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.duplicate()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#duplicate() public abstract java.nio.ShortBuffer java.nio.ShortBuffer.duplicate() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,25 +56,20 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short[]) public final java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short[])}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short[]) public final java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short[])}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#compareTo(ShortBuffer) public int
+     * java.nio.ShortBuffer.compareTo(java.nio.ShortBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#put(short[]) public final java.nio.ShortBuffer java.nio.ShortBuffer.put(short[]) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_shortArray()
+    public default void test_compareTo_ShortBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,128 +78,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short[], int, int) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short[],int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short[], int, int) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#asReadOnlyBuffer() public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.asReadOnlyBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#put(short[], int, int) public java.nio.ShortBuffer
-     *      java.nio.ShortBuffer.put(short[],int,int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(int, short) public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(int,short)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(int, short) public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(int,short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#put(int, short) public abstract java.nio.ShortBuffer
-     *      java.nio.ShortBuffer.put(int,short) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_int_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(java.nio.ShortBuffer) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(java.nio.ShortBuffer)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(java.nio.ShortBuffer) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(java.nio.ShortBuffer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#put(java.nio.ShortBuffer) public java.nio.ShortBuffer
-     *      java.nio.ShortBuffer.put(java.nio.ShortBuffer) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_ShortBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short) public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#put(short) public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.put(short)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#put(short) public abstract java.nio.ShortBuffer java.nio.ShortBuffer.put(short) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#asReadOnlyBuffer() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.asReadOnlyBuffer()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#asReadOnlyBuffer() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.asReadOnlyBuffer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#asReadOnlyBuffer() public abstract java.nio.ShortBuffer
-     *      java.nio.ShortBuffer.asReadOnlyBuffer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,18 +100,125 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#hasArray() public final boolean java.nio.ShortBuffer.hasArray()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#hasArray() public final boolean java.nio.ShortBuffer.hasArray()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short) public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.put(short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#hasArray() public final boolean java.nio.ShortBuffer.hasArray() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(ShortBuffer) public
+     * java.nio.ShortBuffer java.nio.ShortBuffer.put(java.nio.ShortBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_ShortBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(int, short) public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.put(int,short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_int_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short[], int, int) public
+     * java.nio.ShortBuffer java.nio.ShortBuffer.put(short[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_shortArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#put(short[]) public final
+     * java.nio.ShortBuffer java.nio.ShortBuffer.put(short[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_shortArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#hasArray() public final boolean
+     * java.nio.ShortBuffer.hasArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -270,20 +233,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#compact() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.compact()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#compact() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.compact()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#compact() public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.compact()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#compact() public abstract java.nio.ShortBuffer java.nio.ShortBuffer.compact() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -297,18 +255,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#arrayOffset() public final int java.nio.ShortBuffer.arrayOffset()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#arrayOffset() public final int java.nio.ShortBuffer.arrayOffset()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#arrayOffset() public final int
+     * java.nio.ShortBuffer.arrayOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#arrayOffset() public final int java.nio.ShortBuffer.arrayOffset() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -323,18 +278,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#toString() public java.lang.String java.nio.ShortBuffer.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#toString() public java.lang.String java.nio.ShortBuffer.toString()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#toString() public java.lang.String
+     * java.nio.ShortBuffer.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#toString() public java.lang.String java.nio.ShortBuffer.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -349,18 +301,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#isDirect() public abstract boolean java.nio.ShortBuffer.isDirect()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#isDirect() public abstract boolean java.nio.ShortBuffer.isDirect()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#isDirect() public abstract boolean
+     * java.nio.ShortBuffer.isDirect()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#isDirect() public abstract boolean java.nio.ShortBuffer.isDirect() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -375,20 +324,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#order() public abstract java.nio.ByteOrder
-     * java.nio.ShortBuffer.order()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#order() public abstract java.nio.ByteOrder
-     * java.nio.ShortBuffer.order()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#order() public abstract
+     * java.nio.ByteOrder java.nio.ShortBuffer.order()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#order() public abstract java.nio.ByteOrder java.nio.ShortBuffer.order() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -402,18 +346,37 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#array() public final short[] java.nio.ShortBuffer.array()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#array() public final short[] java.nio.ShortBuffer.array()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#slice() public abstract
+     * java.nio.ShortBuffer java.nio.ShortBuffer.slice()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#array() public final short[] java.nio.ShortBuffer.array() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_slice()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#array() public final short[]
+     * java.nio.ShortBuffer.array()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -428,142 +391,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#slice() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.slice()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#slice() public abstract java.nio.ShortBuffer
-     * java.nio.ShortBuffer.slice()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#slice() public abstract java.nio.ShortBuffer java.nio.ShortBuffer.slice() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_slice()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(short[], int, int) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.get(short[],int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(short[], int, int) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.get(short[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#get(short[], int, int) public java.nio.ShortBuffer
-     *      java.nio.ShortBuffer.get(short[],int,int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(short[]) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.get(short[])}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(short[]) public java.nio.ShortBuffer
-     * java.nio.ShortBuffer.get(short[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#get(short[]) public java.nio.ShortBuffer java.nio.ShortBuffer.get(short[]) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get() public abstract short java.nio.ShortBuffer.get()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get() public abstract short java.nio.ShortBuffer.get()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#get() public abstract short java.nio.ShortBuffer.get() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(int) public abstract short java.nio.ShortBuffer.get(int)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#get(int) public abstract short java.nio.ShortBuffer.get(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.ShortBuffer#get(int) public abstract short java.nio.ShortBuffer.get(int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#equals(Object) public boolean
-     * java.nio.ShortBuffer.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#equals(Object) public boolean
      * java.nio.ShortBuffer.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -571,8 +399,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#equals(Object) public boolean java.nio.ShortBuffer.equals(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -587,18 +414,103 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.ShortBuffer#hashCode() public int java.nio.ShortBuffer.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.ShortBuffer#hashCode() public int java.nio.ShortBuffer.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(int) public abstract short
+     * java.nio.ShortBuffer.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.ShortBuffer#hashCode() public int java.nio.ShortBuffer.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get() public abstract short
+     * java.nio.ShortBuffer.get()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(short[]) public java.nio.ShortBuffer
+     * java.nio.ShortBuffer.get(short[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_shortArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#get(short[], int, int) public
+     * java.nio.ShortBuffer java.nio.ShortBuffer.get(short[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_shortArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ShortBuffer#hashCode() public int
+     * java.nio.ShortBuffer.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -610,5 +522,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffe
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ShortBuffer]
 
 }

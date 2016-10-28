@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import javax.swing.JList;
+import javax.swing.plaf.basic.BasicComboBoxRenderer;
+import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,16 +11,16 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboBoxRenderer class
- * javax.swing.plaf.basic.BasicComboBoxRenderer}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicComboBoxRendererClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicComboBoxRenderer public class javax.swing.plaf.basic.BasicComboBoxRenderer}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicComboBoxRenderer class javax.swing.plaf.basic.BasicComboBoxRenderer (the hereby
- *      targeted class-under-test class)
- * @see BasicComboBoxRendererClassTests BasicComboBoxRendererClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
@@ -26,28 +29,22 @@ import org.junit.experimental.categories.Category;
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboBoxRendererTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer>
-extends org.j8unit.repository.javax.swing.ListCellRendererTests, org.j8unit.repository.java.io.SerializableTests,
-org.j8unit.repository.javax.swing.JLabelTests {
+public abstract interface BasicComboBoxRendererTests<SUT extends BasicComboBoxRenderer>
+extends org.j8unit.repository.javax.swing.ListCellRendererTests, org.j8unit.repository.javax.swing.JLabelTests {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
 
     // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this J8Unit test interface
-    // (caused by the "rawtypes" nature of the class-under-test).
+    // because of the "rawtypes" nature of this j8unit test interface
+    // (caused by the "rawtypes" nature of the type-under-test).
     @Override
     public abstract SUT createNewSUT();
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
-     * public java.awt.Component
-     * javax.swing.plaf.basic.BasicComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
-     * public java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link BasicComboBoxRenderer#getListCellRendererComponent(JList, Object, int, boolean, boolean) public
+     * java.awt.Component
      * javax.swing.plaf.basic.BasicComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
      * .
      *
@@ -56,10 +53,7 @@ org.j8unit.repository.javax.swing.JLabelTests {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int,
-     *      boolean, boolean) public java.awt.Component
-     *      javax.swing.plaf.basic.BasicComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object
-     *      ,int,boolean,boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -74,20 +68,15 @@ org.j8unit.repository.javax.swing.JLabelTests {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getPreferredSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxRenderer#getPreferredSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize()}.
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxRenderer#getPreferredSize() public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxRenderer#getPreferredSize() public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicComboBoxRenderer.getPreferredSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -100,18 +89,20 @@ org.j8unit.repository.javax.swing.JLabelTests {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource class
-     * javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BasicComboBoxRendererClassTests.UIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link UIResource
+     * public static class javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource class
-     *      javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource (the hereby targeted class-under-test class)
-     * @see BasicComboBoxRendererClassTests.UIResourceClassTests BasicComboBoxRendererClassTests.UIResourceClassTests
-     *      (the complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests.UIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
@@ -120,14 +111,18 @@ org.j8unit.repository.javax.swing.JLabelTests {
     @SuppressWarnings("rawtypes")
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests, BasicComboBoxRendererTests {
+    public static abstract interface UIResourceTests<SUT extends UIResource>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 
         // The definition of the SUT factory method must be repeated
-        // because of the "rawtypes" nature of this J8Unit test interface
-        // (caused by the "rawtypes" nature of the class-under-test).
+        // because of the "rawtypes" nature of this j8unit test interface
+        // (caused by the "rawtypes" nature of the type-under-test).
         @Override
         public abstract SUT createNewSUT();
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 
     }
 

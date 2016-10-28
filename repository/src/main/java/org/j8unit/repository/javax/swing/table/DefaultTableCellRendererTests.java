@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.swing.table;
 
+import java.awt.Color;
+import java.awt.Rectangle;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableCellRenderer.UIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +13,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.table.DefaultTableCellRenderer class
- * javax.swing.table.DefaultTableCellRenderer}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link DefaultTableCellRendererClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultTableCellRenderer public class javax.swing.table.DefaultTableCellRenderer}.
  * </p>
  *
- * @see javax.swing.table.DefaultTableCellRenderer class javax.swing.table.DefaultTableCellRenderer (the hereby targeted
- *      class-under-test class)
- * @see DefaultTableCellRendererClassTests DefaultTableCellRendererClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultTableCellRendererTests<SUT extends javax.swing.table.DefaultTableCellRenderer>
-extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.JLabelTests<SUT> {
+public abstract interface DefaultTableCellRendererTests<SUT extends DefaultTableCellRenderer>
+extends org.j8unit.repository.javax.swing.table.TableCellRendererTests<SUT>, org.j8unit.repository.javax.swing.JLabelTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#firePropertyChange(String, boolean, boolean)
-     * public void javax.swing.table.DefaultTableCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#firePropertyChange(String, boolean, boolean)
-     * public void javax.swing.table.DefaultTableCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTableCellRenderer#firePropertyChange(String, boolean, boolean) public void
+     * javax.swing.table.DefaultTableCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#firePropertyChange(String, boolean, boolean) public void
-     *      javax.swing.table.DefaultTableCellRenderer.firePropertyChange(java.lang.String,boolean,boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +62,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#revalidate() public void
-     * javax.swing.table.DefaultTableCellRenderer.revalidate()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#revalidate() public void
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#revalidate() public void
      * javax.swing.table.DefaultTableCellRenderer.revalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +70,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#revalidate() public void
-     *      javax.swing.table.DefaultTableCellRenderer.revalidate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +85,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#isOpaque() public boolean
-     * javax.swing.table.DefaultTableCellRenderer.isOpaque()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#isOpaque() public boolean
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#isOpaque() public boolean
      * javax.swing.table.DefaultTableCellRenderer.isOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,8 +93,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#isOpaque() public boolean
-     *      javax.swing.table.DefaultTableCellRenderer.isOpaque() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,11 +108,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#invalidate() public void
-     * javax.swing.table.DefaultTableCellRenderer.invalidate()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#invalidate() public void
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#invalidate() public void
      * javax.swing.table.DefaultTableCellRenderer.invalidate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +116,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#invalidate() public void
-     *      javax.swing.table.DefaultTableCellRenderer.invalidate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -143,73 +131,9 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#updateUI() public void
-     * javax.swing.table.DefaultTableCellRenderer.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#updateUI() public void
-     * javax.swing.table.DefaultTableCellRenderer.updateUI()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.DefaultTableCellRenderer#updateUI() public void
-     *      javax.swing.table.DefaultTableCellRenderer.updateUI() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_updateUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#setForeground(java.awt.Color) public void
-     * javax.swing.table.DefaultTableCellRenderer.setForeground(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#setForeground(java.awt.Color) public void
-     * javax.swing.table.DefaultTableCellRenderer.setForeground(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.DefaultTableCellRenderer#setForeground(java.awt.Color) public void
-     *      javax.swing.table.DefaultTableCellRenderer.setForeground(java.awt.Color) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setForeground_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.DefaultTableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean, boolean, int, int)
-     * public java.awt.Component
-     * javax.swing.table.DefaultTableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.DefaultTableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean, boolean, int, int)
-     * public java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTableCellRenderer#getTableCellRendererComponent(JTable, Object, boolean, boolean, int, int) public
+     * java.awt.Component
      * javax.swing.table.DefaultTableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int)}
      * .
      *
@@ -218,10 +142,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object,
-     *      boolean, boolean, int, int) public java.awt.Component
-     *      javax.swing.table.DefaultTableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object
-     *      ,boolean,boolean,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -236,11 +157,53 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#validate() public void
-     * javax.swing.table.DefaultTableCellRenderer.validate()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#updateUI() public void
+     * javax.swing.table.DefaultTableCellRenderer.updateUI()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_updateUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#validate() public void
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#setForeground(Color) public
+     * void javax.swing.table.DefaultTableCellRenderer.setForeground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setForeground_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#validate() public void
      * javax.swing.table.DefaultTableCellRenderer.validate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -248,8 +211,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#validate() public void
-     *      javax.swing.table.DefaultTableCellRenderer.validate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -264,50 +226,15 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint(long, int, int, int, int) public void
-     * javax.swing.table.DefaultTableCellRenderer.repaint(long,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint(long, int, int, int, int) public void
-     * javax.swing.table.DefaultTableCellRenderer.repaint(long,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#repaint(Rectangle) public
+     * void javax.swing.table.DefaultTableCellRenderer.repaint(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#repaint(long, int, int, int, int) public void
-     *      javax.swing.table.DefaultTableCellRenderer.repaint(long,int,int,int,int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_repaint_long_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint(java.awt.Rectangle) public void
-     * javax.swing.table.DefaultTableCellRenderer.repaint(java.awt.Rectangle)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint(java.awt.Rectangle) public void
-     * javax.swing.table.DefaultTableCellRenderer.repaint(java.awt.Rectangle)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.DefaultTableCellRenderer#repaint(java.awt.Rectangle) public void
-     *      javax.swing.table.DefaultTableCellRenderer.repaint(java.awt.Rectangle) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -322,11 +249,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint() public void
-     * javax.swing.table.DefaultTableCellRenderer.repaint()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#repaint() public void
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#repaint() public void
      * javax.swing.table.DefaultTableCellRenderer.repaint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -334,8 +257,7 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#repaint() public void
-     *      javax.swing.table.DefaultTableCellRenderer.repaint() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -350,21 +272,39 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#setBackground(java.awt.Color) public void
-     * javax.swing.table.DefaultTableCellRenderer.setBackground(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableCellRenderer#setBackground(java.awt.Color) public void
-     * javax.swing.table.DefaultTableCellRenderer.setBackground(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTableCellRenderer#repaint(long, int, int, int, int) public void
+     * javax.swing.table.DefaultTableCellRenderer.repaint(long,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer#setBackground(java.awt.Color) public void
-     *      javax.swing.table.DefaultTableCellRenderer.setBackground(java.awt.Color) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_repaint_long_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultTableCellRenderer#setBackground(Color) public
+     * void javax.swing.table.DefaultTableCellRenderer.setBackground(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -377,28 +317,34 @@ extends TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableT
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.table.DefaultTableCellRenderer.UIResource class
-     * javax.swing.table.DefaultTableCellRenderer$UIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link DefaultTableCellRendererClassTests.UIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link UIResource
+     * public static class javax.swing.table.DefaultTableCellRenderer$UIResource}.
      * </p>
      *
-     * @see javax.swing.table.DefaultTableCellRenderer.UIResource class
-     *      javax.swing.table.DefaultTableCellRenderer$UIResource (the hereby targeted class-under-test class)
-     * @see DefaultTableCellRendererClassTests.UIResourceClassTests
-     *      DefaultTableCellRendererClassTests.UIResourceClassTests (the complementary j8unit test interface containing
-     *      the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests.UIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceTests<SUT extends javax.swing.table.DefaultTableCellRenderer.UIResource>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, DefaultTableCellRendererTests<SUT> {
+    public static abstract interface UIResourceTests<SUT extends UIResource>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 
     }
 

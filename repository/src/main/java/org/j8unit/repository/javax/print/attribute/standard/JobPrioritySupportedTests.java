@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.print.attribute.standard;
 
+import javax.print.attribute.standard.JobPrioritySupported;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +9,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.attribute.standard.JobPrioritySupported class
- * javax.print.attribute.standard.JobPrioritySupported}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link JobPrioritySupportedClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link JobPrioritySupported public final class javax.print.attribute.standard.JobPrioritySupported}.
  * </p>
  *
- * @see javax.print.attribute.standard.JobPrioritySupported class javax.print.attribute.standard.JobPrioritySupported
- *      (the hereby targeted class-under-test class)
- * @see JobPrioritySupportedClassTests JobPrioritySupportedClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.attribute.standard.JobPrioritySupportedClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JobPrioritySupportedTests<SUT extends javax.print.attribute.standard.JobPrioritySupported>
+public abstract interface JobPrioritySupportedTests<SUT extends JobPrioritySupported>
 extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobPrioritySupported]
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#getCategory() public final
+     * Test method for the hereby targeted method-under-test {@link JobPrioritySupported#getCategory() public final
      * java.lang.Class<? extends javax.print.attribute.Attribute>
      * javax.print.attribute.standard.JobPrioritySupported.getCategory()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#getCategory() public final
-     * java.lang.Class javax.print.attribute.standard.JobPrioritySupported.getCategory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.JobPrioritySupported#getCategory() public final java.lang.Class
-     *      javax.print.attribute.standard.JobPrioritySupported.getCategory() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +58,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#getName() public final
-     * java.lang.String javax.print.attribute.standard.JobPrioritySupported.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#getName() public final
+     * Test method for the hereby targeted method-under-test {@link JobPrioritySupported#getName() public final
      * java.lang.String javax.print.attribute.standard.JobPrioritySupported.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +66,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.JobPrioritySupported#getName() public final java.lang.String
-     *      javax.print.attribute.standard.JobPrioritySupported.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +81,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#equals(Object) public boolean
-     * javax.print.attribute.standard.JobPrioritySupported.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.JobPrioritySupported#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link JobPrioritySupported#equals(Object) public boolean
      * javax.print.attribute.standard.JobPrioritySupported.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,9 +89,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
      * methods soon.
      * </p>
      *
-     * @see javax.print.attribute.standard.JobPrioritySupported#equals(Object) public boolean
-     *      javax.print.attribute.standard.JobPrioritySupported.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -113,5 +101,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobPrioritySupported]
 
 }

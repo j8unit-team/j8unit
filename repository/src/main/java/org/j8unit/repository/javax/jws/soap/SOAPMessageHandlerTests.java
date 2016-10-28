@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.jws.soap;
 
+import javax.jws.soap.SOAPMessageHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.jws.soap.SOAPMessageHandler interface
- * javax.jws.soap.SOAPMessageHandler}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link SOAPMessageHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SOAPMessageHandler public abstract @interface javax.jws.soap.SOAPMessageHandler}.
  * </p>
  *
- * @see javax.jws.soap.SOAPMessageHandler interface javax.jws.soap.SOAPMessageHandler (the hereby targeted
- *      class-under-test class)
- * @see SOAPMessageHandlerClassTests SOAPMessageHandlerClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.jws.soap.SOAPMessageHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPMessageHandlerTests<SUT extends javax.jws.soap.SOAPMessageHandler>
+public abstract interface SOAPMessageHandlerTests<SUT extends SOAPMessageHandler>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPMessageHandler]
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#roles() public abstract java.lang.String[]
-     * javax.jws.soap.SOAPMessageHandler.roles()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#roles() public abstract java.lang.String[]
-     * javax.jws.soap.SOAPMessageHandler.roles()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#roles() public abstract
+     * java.lang.String[] javax.jws.soap.SOAPMessageHandler.roles()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPMessageHandler#roles() public abstract java.lang.String[]
-     *      javax.jws.soap.SOAPMessageHandler.roles() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#initParams() public abstract javax.jws.soap.InitParam[]
-     * javax.jws.soap.SOAPMessageHandler.initParams()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#initParams() public abstract javax.jws.soap.InitParam[]
-     * javax.jws.soap.SOAPMessageHandler.initParams()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#initParams() public abstract
+     * javax.jws.soap.InitParam[] javax.jws.soap.SOAPMessageHandler.initParams()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPMessageHandler#initParams() public abstract javax.jws.soap.InitParam[]
-     *      javax.jws.soap.SOAPMessageHandler.initParams() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#headers() public abstract java.lang.String[]
-     * javax.jws.soap.SOAPMessageHandler.headers()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#headers() public abstract java.lang.String[]
-     * javax.jws.soap.SOAPMessageHandler.headers()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#headers() public abstract
+     * java.lang.String[] javax.jws.soap.SOAPMessageHandler.headers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPMessageHandler#headers() public abstract java.lang.String[]
-     *      javax.jws.soap.SOAPMessageHandler.headers() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +100,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#className() public abstract java.lang.String
-     * javax.jws.soap.SOAPMessageHandler.className()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#className() public abstract java.lang.String
-     * javax.jws.soap.SOAPMessageHandler.className()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#className() public abstract
+     * java.lang.String javax.jws.soap.SOAPMessageHandler.className()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPMessageHandler#className() public abstract java.lang.String
-     *      javax.jws.soap.SOAPMessageHandler.className() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +122,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#name() public abstract java.lang.String
-     * javax.jws.soap.SOAPMessageHandler.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#name() public abstract java.lang.String
-     * javax.jws.soap.SOAPMessageHandler.name()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPMessageHandler#name() public abstract
+     * java.lang.String javax.jws.soap.SOAPMessageHandler.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPMessageHandler#name() public abstract java.lang.String
-     *      javax.jws.soap.SOAPMessageHandler.name() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,5 +141,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPMessageHandler]
 
 }

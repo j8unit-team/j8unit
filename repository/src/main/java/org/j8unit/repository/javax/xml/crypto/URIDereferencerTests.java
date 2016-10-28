@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.xml.crypto;
 
+import javax.xml.crypto.URIDereferencer;
+import javax.xml.crypto.URIReference;
+import javax.xml.crypto.XMLCryptoContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,38 +12,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.crypto.URIDereferencer interface
- * javax.xml.crypto.URIDereferencer}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link URIDereferencerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link URIDereferencer
+ * public abstract interface javax.xml.crypto.URIDereferencer}.
  * </p>
  *
- * @see javax.xml.crypto.URIDereferencer interface javax.xml.crypto.URIDereferencer (the hereby targeted
- *      class-under-test class)
- * @see URIDereferencerClassTests URIDereferencerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.crypto.URIDereferencerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface URIDereferencerTests<SUT extends javax.xml.crypto.URIDereferencer>
+public abstract interface URIDereferencerTests<SUT extends URIDereferencer>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.URIDereferencer]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.crypto.URIDereferencer#dereference(javax.xml.crypto.URIReference, javax.xml.crypto.XMLCryptoContext)
-     * public abstract javax.xml.crypto.Data
-     * javax.xml.crypto.URIDereferencer.dereference(javax.xml.crypto.URIReference,javax.xml.crypto.XMLCryptoContext)
-     * throws javax.xml.crypto.URIReferenceException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.crypto.URIDereferencer#dereference(javax.xml.crypto.URIReference, javax.xml.crypto.XMLCryptoContext)
-     * public abstract javax.xml.crypto.Data
+     * Test method for the hereby targeted method-under-test
+     * {@link URIDereferencer#dereference(URIReference, XMLCryptoContext) public abstract javax.xml.crypto.Data
      * javax.xml.crypto.URIDereferencer.dereference(javax.xml.crypto.URIReference,javax.xml.crypto.XMLCryptoContext)
      * throws javax.xml.crypto.URIReferenceException}.
      *
@@ -49,10 +47,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.crypto.URIDereferencer#dereference(javax.xml.crypto.URIReference,
-     *      javax.xml.crypto.XMLCryptoContext) public abstract javax.xml.crypto.Data
-     *      javax.xml.crypto.URIDereferencer.dereference(javax.xml.crypto.URIReference,javax.xml.crypto.
-     *      XMLCryptoContext) throws javax.xml.crypto.URIReferenceException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +58,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.URIDereferencer]
 
 }

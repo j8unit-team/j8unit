@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.swing.tree;
 
+import java.beans.PropertyChangeListener;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.DefaultTreeSelectionModel;
+import javax.swing.tree.RowMapper;
+import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,71 +13,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.tree.DefaultTreeSelectionModel class
- * javax.swing.tree.DefaultTreeSelectionModel}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link DefaultTreeSelectionModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultTreeSelectionModel public class javax.swing.tree.DefaultTreeSelectionModel}.
  * </p>
  *
- * @see javax.swing.tree.DefaultTreeSelectionModel class javax.swing.tree.DefaultTreeSelectionModel (the hereby targeted
- *      class-under-test class)
- * @see DefaultTreeSelectionModelClassTests DefaultTreeSelectionModelClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeSelectionModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultTreeSelectionModelTests<SUT extends javax.swing.tree.DefaultTreeSelectionModel>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, TreeSelectionModelTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface DefaultTreeSelectionModelTests<SUT extends DefaultTreeSelectionModel>
+extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.javax.swing.tree.TreeSelectionModelTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionMode() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionMode() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getMaxSelectionRow()
+     * public int javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getSelectionMode() public int
-     *      javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getMaxSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getMaxSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getMaxSelectionRow() public int
-     *      javax.swing.tree.DefaultTreeSelectionModel.getMaxSelectionRow() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +62,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getSelectionPath()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionMode() public
+     * int javax.swing.tree.DefaultTreeSelectionModel.getSelectionMode()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPath() public
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionPath() public
      * javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,8 +93,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getSelectionPath() public javax.swing.tree.TreePath
-     *      javax.swing.tree.DefaultTreeSelectionModel.getSelectionPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,24 +108,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getTreeSelectionListeners() public
-     * javax.swing.event.TreeSelectionListener[] javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getTreeSelectionListeners() public
-     * javax.swing.event.TreeSelectionListener[] javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners()}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#getTreeSelectionListeners() public javax.swing.event.TreeSelectionListener[]
+     * javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getTreeSelectionListeners() public
-     *      javax.swing.event.TreeSelectionListener[]
-     *      javax.swing.tree.DefaultTreeSelectionModel.getTreeSelectionListeners() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -146,15 +131,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void
-     * javax.swing.tree.DefaultTreeSelectionModel.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#removeTreeSelectionListener(TreeSelectionListener) public void
      * javax.swing.tree.DefaultTreeSelectionModel.removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,9 +140,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#removeTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     *      public void javax.swing.tree.DefaultTreeSelectionModel.removeTreeSelectionListener(javax.swing.event.
-     *      TreeSelectionListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -179,21 +155,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getListeners(Class) public <T> T[]
-     * javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class<T>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getListeners(Class) public
-     * java.util.EventListener[] javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getListeners(Class) public
+     * <T> T[] javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getListeners(Class) public java.util.EventListener[]
-     *      javax.swing.tree.DefaultTreeSelectionModel.getListeners(java.lang.Class) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,48 +177,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPaths() public
-     * javax.swing.tree.TreePath[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionPaths() public
-     * javax.swing.tree.TreePath[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#resetRowSelection() public
+     * void javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getSelectionPaths() public javax.swing.tree.TreePath[]
-     *      javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionPaths()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#resetRowSelection() public void
-     * javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#resetRowSelection() public void
-     * javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#resetRowSelection() public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.resetRowSelection() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -263,21 +200,39 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionPaths() public
+     * javax.swing.tree.TreePath[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionPaths()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionPaths()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#removeSelectionPath(TreePath) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -292,11 +247,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isPathSelected(javax.swing.tree.TreePath)
-     * public boolean javax.swing.tree.DefaultTreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isPathSelected(javax.swing.tree.TreePath)
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isPathSelected(TreePath)
      * public boolean javax.swing.tree.DefaultTreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,9 +255,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#isPathSelected(javax.swing.tree.TreePath) public boolean
-     *      javax.swing.tree.DefaultTreeSelectionModel.isPathSelected(javax.swing.tree.TreePath) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -321,39 +270,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isRowSelected(int) public boolean
-     * javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isRowSelected(int) public boolean
-     * javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#isRowSelected(int) public boolean
-     *      javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isRowSelected_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath)
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#addSelectionPath(TreePath)
      * public void javax.swing.tree.DefaultTreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -361,9 +278,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -378,32 +293,21 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
-     * javax.swing.tree.DefaultTreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
-     * javax.swing.tree.DefaultTreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isRowSelected(int) public
+     * boolean javax.swing.tree.DefaultTreeSelectionModel.isRowSelected(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     *      public synchronized void
-     *      javax.swing.tree.DefaultTreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_addPropertyChangeListener_PropertyChangeListener()
+    public default void test_isRowSelected_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -412,48 +316,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isSelectionEmpty() public boolean
-     * javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#isSelectionEmpty() public boolean
-     * javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionRows() public
+     * int[] javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#isSelectionEmpty() public boolean
-     *      javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSelectionEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionRows() public int[]
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionRows() public int[]
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getSelectionRows() public int[]
-     *      javax.swing.tree.DefaultTreeSelectionModel.getSelectionRows() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -468,20 +339,62 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionPath() public
-     * javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#isSelectionEmpty() public
+     * boolean javax.swing.tree.DefaultTreeSelectionModel.isSelectionEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionPath() public javax.swing.tree.TreePath
-     *      javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isSelectionEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#addPropertyChangeListener(PropertyChangeListener) public synchronized void
+     * javax.swing.tree.DefaultTreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addPropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getLeadSelectionPath()
+     * public javax.swing.tree.TreePath javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionPath()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -496,20 +409,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionCount() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getSelectionCount() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getSelectionCount() public
+     * int javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getSelectionCount() public int
-     *      javax.swing.tree.DefaultTreeSelectionModel.getSelectionCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -524,20 +432,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#clearSelection() public void
-     * javax.swing.tree.DefaultTreeSelectionModel.clearSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#clearSelection() public void
-     * javax.swing.tree.DefaultTreeSelectionModel.clearSelection()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#clearSelection() public
+     * void javax.swing.tree.DefaultTreeSelectionModel.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#clearSelection() public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.clearSelection() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -552,49 +455,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionMode(int) public void
-     * javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionMode(int) public void
-     * javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setRowMapper(RowMapper)
+     * public void javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#setSelectionMode(int) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectionMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public
-     * void javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public
-     * void javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -609,20 +478,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getMinSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getMinSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setSelectionMode(int)
+     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getMinSelectionRow() public int
-     *      javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectionMode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getMinSelectionRow()
+     * public int javax.swing.tree.DefaultTreeSelectionModel.getMinSelectionRow()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -637,15 +524,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
-     * javax.swing.tree.DefaultTreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#removePropertyChangeListener(PropertyChangeListener) public synchronized void
      * javax.swing.tree.DefaultTreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -653,10 +533,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     *      public synchronized void
-     *      javax.swing.tree.DefaultTreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -671,13 +548,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
-     * javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#removeSelectionPaths(TreePath[]) public void
      * javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -685,9 +557,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -702,21 +572,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getPropertyChangeListeners() public
-     * java.beans.PropertyChangeListener[] javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getPropertyChangeListeners() public
-     * java.beans.PropertyChangeListener[] javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#getPropertyChangeListeners() public java.beans.PropertyChangeListener[]
+     * javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getPropertyChangeListeners() public
-     *      java.beans.PropertyChangeListener[] javax.swing.tree.DefaultTreeSelectionModel.getPropertyChangeListeners()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -730,11 +595,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath)
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath)
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#setSelectionPath(TreePath)
      * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -742,9 +603,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -759,39 +618,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#toString() public java.lang.String
-     * javax.swing.tree.DefaultTreeSelectionModel.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#toString() public java.lang.String
-     * javax.swing.tree.DefaultTreeSelectionModel.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#toString() public java.lang.String
-     *      javax.swing.tree.DefaultTreeSelectionModel.toString() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getRowMapper() public
-     * javax.swing.tree.RowMapper javax.swing.tree.DefaultTreeSelectionModel.getRowMapper()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getRowMapper() public
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getRowMapper() public
      * javax.swing.tree.RowMapper javax.swing.tree.DefaultTreeSelectionModel.getRowMapper()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -799,8 +626,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getRowMapper() public javax.swing.tree.RowMapper
-     *      javax.swing.tree.DefaultTreeSelectionModel.getRowMapper() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -815,21 +641,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#clone() public java.lang.Object
-     * javax.swing.tree.DefaultTreeSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#clone() public java.lang.Object
-     * javax.swing.tree.DefaultTreeSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#toString() public
+     * java.lang.String javax.swing.tree.DefaultTreeSelectionModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#clone() public java.lang.Object
-     *      javax.swing.tree.DefaultTreeSelectionModel.clone() throws java.lang.CloneNotSupportedException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#clone() public
+     * java.lang.Object javax.swing.tree.DefaultTreeSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -843,54 +686,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#addTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void
-     * javax.swing.tree.DefaultTreeSelectionModel.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeSelectionModel#addTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     * public void
-     * javax.swing.tree.DefaultTreeSelectionModel.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultTreeSelectionModel#getLeadSelectionRow()
+     * public int javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#addTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     *      public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addTreeSelectionListener_TreeSelectionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionRow() public int
-     * javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#getLeadSelectionRow() public int
-     *      javax.swing.tree.DefaultTreeSelectionModel.getLeadSelectionRow() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -905,21 +709,40 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[])
-     * public void javax.swing.tree.DefaultTreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[])
-     * public void javax.swing.tree.DefaultTreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#addTreeSelectionListener(TreeSelectionListener) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.addTreeSelectionListener(javax.swing.event.TreeSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addTreeSelectionListener_TreeSelectionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#addSelectionPaths(TreePath[]) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -934,21 +757,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[])
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.tree.DefaultTreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[])
-     * public void javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultTreeSelectionModel#setSelectionPaths(TreePath[]) public void
+     * javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.DefaultTreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[]) public void
-     *      javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -960,5 +778,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
 
 }

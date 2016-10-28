@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.util;
 
+import java.util.Formatter;
+import java.util.Formatter.BigDecimalLayoutForm;
+import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.Formatter class java.util.Formatter}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link FormatterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Formatter
+ * public final class java.util.Formatter}.
  * </p>
  *
- * @see java.util.Formatter class java.util.Formatter (the hereby targeted class-under-test class)
- * @see FormatterClassTests FormatterClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.FormatterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormatterTests<SUT extends java.util.Formatter>
+public abstract interface FormatterTests<SUT extends Formatter>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter]
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#out() public java.lang.Appendable java.util.Formatter.out()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#out() public java.lang.Appendable java.util.Formatter.out()}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#out() public java.lang.Appendable
+     * java.util.Formatter.out()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#out() public java.lang.Appendable java.util.Formatter.out() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +58,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#ioException() public java.io.IOException
-     * java.util.Formatter.ioException()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#ioException() public java.io.IOException
+     * Test method for the hereby targeted method-under-test {@link Formatter#ioException() public java.io.IOException
      * java.util.Formatter.ioException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +66,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#ioException() public java.io.IOException java.util.Formatter.ioException() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,17 +80,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#close() public void java.util.Formatter.close()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#close() public void java.util.Formatter.close()}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#close() public void
+     * java.util.Formatter.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#close() public void java.util.Formatter.close() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -105,18 +103,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#locale() public java.util.Locale java.util.Formatter.locale()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#locale() public java.util.Locale java.util.Formatter.locale()}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#locale() public java.util.Locale
+     * java.util.Formatter.locale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#locale() public java.util.Locale java.util.Formatter.locale() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -130,18 +125,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#toString() public java.lang.String java.util.Formatter.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#toString() public java.lang.String java.util.Formatter.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#toString() public java.lang.String
+     * java.util.Formatter.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#toString() public java.lang.String java.util.Formatter.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -156,48 +148,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#format(java.util.Locale, String, Object...) public java.util.Formatter
-     * java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object...)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#format(java.util.Locale, String, Object...) public java.util.Formatter
-     * java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object...)}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#format(String, Object...) public
+     * java.util.Formatter java.util.Formatter.format(java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#format(java.util.Locale, String, Object...) public java.util.Formatter
-     *      java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object[]) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_Locale_String_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Formatter#format(String, Object...) public java.util.Formatter
-     * java.util.Formatter.format(java.lang.String,java.lang.Object...)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#format(String, Object...) public java.util.Formatter
-     * java.util.Formatter.format(java.lang.String,java.lang.Object...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Formatter#format(String, Object...) public java.util.Formatter
-     *      java.util.Formatter.format(java.lang.String,java.lang.Object[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,17 +170,37 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.Formatter#flush() public void java.util.Formatter.flush()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Formatter#flush() public void java.util.Formatter.flush()}.
+     * Test method for the hereby targeted method-under-test {@link Formatter#format(Locale, String, Object...) public
+     * java.util.Formatter java.util.Formatter.format(java.util.Locale,java.lang.String,java.lang.Object...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Formatter#flush() public void java.util.Formatter.flush() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_Locale_String_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Formatter#flush() public void
+     * java.util.Formatter.flush()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -234,27 +213,34 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.util.Formatter.BigDecimalLayoutForm class
-     * java.util.Formatter$BigDecimalLayoutForm}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link FormatterClassTests.BigDecimalLayoutFormClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BigDecimalLayoutForm public static final enum java.util.Formatter$BigDecimalLayoutForm}.
      * </p>
      *
-     * @see java.util.Formatter.BigDecimalLayoutForm class java.util.Formatter$BigDecimalLayoutForm (the hereby targeted
-     *      class-under-test class)
-     * @see FormatterClassTests.BigDecimalLayoutFormClassTests FormatterClassTests.BigDecimalLayoutFormClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BigDecimalLayoutFormTests<SUT extends java.util.Formatter.BigDecimalLayoutForm>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.Formatter.BigDecimalLayoutForm> {
+    public static abstract interface BigDecimalLayoutFormTests<SUT extends BigDecimalLayoutForm>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, BigDecimalLayoutForm> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
     }
 

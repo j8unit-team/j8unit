@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.security.cert;
 
+import java.security.cert.CertPath;
+import java.security.cert.CertPathParameters;
+import java.security.cert.CertPathValidator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.cert.CertPathValidator class
- * java.security.cert.CertPathValidator}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link CertPathValidatorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CertPathValidator public class java.security.cert.CertPathValidator}.
  * </p>
  *
- * @see java.security.cert.CertPathValidator class java.security.cert.CertPathValidator (the hereby targeted
- *      class-under-test class)
- * @see CertPathValidatorClassTests CertPathValidatorClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.cert.CertPathValidatorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CertPathValidatorTests<SUT extends java.security.cert.CertPathValidator>
+public abstract interface CertPathValidatorTests<SUT extends CertPathValidator>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidator]
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getProvider() public final java.security.Provider
-     * java.security.cert.CertPathValidator.getProvider()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getProvider() public final java.security.Provider
-     * java.security.cert.CertPathValidator.getProvider()}.
+     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getProvider() public final
+     * java.security.Provider java.security.cert.CertPathValidator.getProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidator#getProvider() public final java.security.Provider
-     *      java.security.cert.CertPathValidator.getProvider() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,16 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.cert.CertPathValidator#validate(java.security.cert.CertPath, java.security.cert.CertPathParameters)
-     * public final java.security.cert.CertPathValidatorResult
-     * java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
-     * throws java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.security.cert.CertPathValidator#validate(java.security.cert.CertPath, java.security.cert.CertPathParameters)
-     * public final java.security.cert.CertPathValidatorResult
+     * Test method for the hereby targeted method-under-test
+     * {@link CertPathValidator#validate(CertPath, CertPathParameters) public final
+     * java.security.cert.CertPathValidatorResult
      * java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
      * throws java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException}.
      *
@@ -75,12 +69,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidator#validate(java.security.cert.CertPath,
-     *      java.security.cert.CertPathParameters) public final java.security.cert.CertPathValidatorResult
-     *      java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.
-     *      CertPathParameters) throws
-     *      java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -94,20 +83,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getRevocationChecker() public final
-     * java.security.cert.CertPathChecker java.security.cert.CertPathValidator.getRevocationChecker()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getRevocationChecker() public final
-     * java.security.cert.CertPathChecker java.security.cert.CertPathValidator.getRevocationChecker()}.
+     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getRevocationChecker() public
+     * final java.security.cert.CertPathChecker java.security.cert.CertPathValidator.getRevocationChecker()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidator#getRevocationChecker() public final java.security.cert.CertPathChecker
-     *      java.security.cert.CertPathValidator.getRevocationChecker() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,20 +105,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getAlgorithm() public final java.lang.String
-     * java.security.cert.CertPathValidator.getAlgorithm()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getAlgorithm() public final java.lang.String
-     * java.security.cert.CertPathValidator.getAlgorithm()}.
+     * Test method for the hereby targeted method-under-test {@link CertPathValidator#getAlgorithm() public final
+     * java.lang.String java.security.cert.CertPathValidator.getAlgorithm()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.CertPathValidator#getAlgorithm() public final java.lang.String
-     *      java.security.cert.CertPathValidator.getAlgorithm() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,5 +124,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidator]
 
 }

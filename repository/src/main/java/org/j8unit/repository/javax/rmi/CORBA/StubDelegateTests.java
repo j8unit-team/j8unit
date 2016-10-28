@@ -1,40 +1,45 @@
 package org.j8unit.repository.javax.rmi.CORBA;
 
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import javax.rmi.CORBA.Stub;
+import javax.rmi.CORBA.StubDelegate;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.ORB;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.rmi.CORBA.StubDelegate interface javax.rmi.CORBA.StubDelegate}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link StubDelegateClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StubDelegate
+ * public abstract interface javax.rmi.CORBA.StubDelegate}.
  * </p>
  *
- * @see javax.rmi.CORBA.StubDelegate interface javax.rmi.CORBA.StubDelegate (the hereby targeted class-under-test class)
- * @see StubDelegateClassTests StubDelegateClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.rmi.CORBA.StubDelegateClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StubDelegateTests<SUT extends javax.rmi.CORBA.StubDelegate>
+public abstract interface StubDelegateTests<SUT extends StubDelegate>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.CORBA.StubDelegate]
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#readObject(javax.rmi.CORBA.Stub, java.io.ObjectInputStream)
-     * public abstract void javax.rmi.CORBA.StubDelegate.readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
-     * throws java.io.IOException,java.lang.ClassNotFoundException}.
-     *
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#readObject(javax.rmi.CORBA.Stub, java.io.ObjectInputStream)
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#readObject(Stub, ObjectInputStream)
      * public abstract void javax.rmi.CORBA.StubDelegate.readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
      * throws java.io.IOException,java.lang.ClassNotFoundException}.
      *
@@ -43,9 +48,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.rmi.CORBA.StubDelegate#readObject(javax.rmi.CORBA.Stub, java.io.ObjectInputStream) public abstract
-     *      void javax.rmi.CORBA.StubDelegate.readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream) throws
-     *      java.io.IOException,java.lang.ClassNotFoundException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,23 +62,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#connect(javax.rmi.CORBA.Stub, org.omg.CORBA.ORB) public
-     * abstract void javax.rmi.CORBA.StubDelegate.connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) throws
-     * java.rmi.RemoteException}.
-     *
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#connect(javax.rmi.CORBA.Stub, org.omg.CORBA.ORB) public
-     * abstract void javax.rmi.CORBA.StubDelegate.connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) throws
-     * java.rmi.RemoteException}.
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#connect(Stub, ORB) public abstract void
+     * javax.rmi.CORBA.StubDelegate.connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.rmi.CORBA.StubDelegate#connect(javax.rmi.CORBA.Stub, org.omg.CORBA.ORB) public abstract void
-     *      javax.rmi.CORBA.StubDelegate.connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) throws java.rmi.RemoteException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,11 +84,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#toString(javax.rmi.CORBA.Stub) public abstract
-     * java.lang.String javax.rmi.CORBA.StubDelegate.toString(javax.rmi.CORBA.Stub)}.
-     *
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#toString(javax.rmi.CORBA.Stub) public abstract
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#toString(Stub) public abstract
      * java.lang.String javax.rmi.CORBA.StubDelegate.toString(javax.rmi.CORBA.Stub)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,8 +92,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.rmi.CORBA.StubDelegate#toString(javax.rmi.CORBA.Stub) public abstract java.lang.String
-     *      javax.rmi.CORBA.StubDelegate.toString(javax.rmi.CORBA.Stub) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,21 +106,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#equals(javax.rmi.CORBA.Stub, Object) public abstract boolean
-     * javax.rmi.CORBA.StubDelegate.equals(javax.rmi.CORBA.Stub,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#equals(javax.rmi.CORBA.Stub, Object) public abstract boolean
-     * javax.rmi.CORBA.StubDelegate.equals(javax.rmi.CORBA.Stub,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#equals(Stub, Object) public abstract
+     * boolean javax.rmi.CORBA.StubDelegate.equals(javax.rmi.CORBA.Stub,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.rmi.CORBA.StubDelegate#equals(javax.rmi.CORBA.Stub, Object) public abstract boolean
-     *      javax.rmi.CORBA.StubDelegate.equals(javax.rmi.CORBA.Stub,java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,11 +128,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#hashCode(javax.rmi.CORBA.Stub) public abstract int
-     * javax.rmi.CORBA.StubDelegate.hashCode(javax.rmi.CORBA.Stub)}.
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#writeObject(Stub, ObjectOutputStream)
+     * public abstract void javax.rmi.CORBA.StubDelegate.writeObject(javax.rmi.CORBA.Stub,java.io.ObjectOutputStream)
+     * throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeObject_Stub_ObjectOutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#hashCode(javax.rmi.CORBA.Stub) public abstract int
+     * Test method for the hereby targeted method-under-test {@link StubDelegate#hashCode(Stub) public abstract int
      * javax.rmi.CORBA.StubDelegate.hashCode(javax.rmi.CORBA.Stub)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,8 +159,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.rmi.CORBA.StubDelegate#hashCode(javax.rmi.CORBA.Stub) public abstract int
-     *      javax.rmi.CORBA.StubDelegate.hashCode(javax.rmi.CORBA.Stub) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,34 +171,6 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#writeObject(javax.rmi.CORBA.Stub, java.io.ObjectOutputStream)
-     * public abstract void javax.rmi.CORBA.StubDelegate.writeObject(javax.rmi.CORBA.Stub,java.io.ObjectOutputStream)
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#writeObject(javax.rmi.CORBA.Stub, java.io.ObjectOutputStream)
-     * public abstract void javax.rmi.CORBA.StubDelegate.writeObject(javax.rmi.CORBA.Stub,java.io.ObjectOutputStream)
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.rmi.CORBA.StubDelegate#writeObject(javax.rmi.CORBA.Stub, java.io.ObjectOutputStream) public abstract
-     *      void javax.rmi.CORBA.StubDelegate.writeObject(javax.rmi.CORBA.Stub,java.io.ObjectOutputStream) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeObject_Stub_ObjectOutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.StubDelegate]
 
 }

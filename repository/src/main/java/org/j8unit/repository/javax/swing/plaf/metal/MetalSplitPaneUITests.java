@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.metal;
 
+import javax.swing.plaf.metal.MetalSplitPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.metal.MetalSplitPaneUI class
- * javax.swing.plaf.metal.MetalSplitPaneUI}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link MetalSplitPaneUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MetalSplitPaneUI public class javax.swing.plaf.metal.MetalSplitPaneUI}.
  * </p>
  *
- * @see javax.swing.plaf.metal.MetalSplitPaneUI class javax.swing.plaf.metal.MetalSplitPaneUI (the hereby targeted
- *      class-under-test class)
- * @see MetalSplitPaneUIClassTests MetalSplitPaneUIClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalSplitPaneUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MetalSplitPaneUITests<SUT extends javax.swing.plaf.metal.MetalSplitPaneUI>
+public abstract interface MetalSplitPaneUITests<SUT extends MetalSplitPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalSplitPaneUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalSplitPaneUI#createDefaultDivider() public
-     * javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.metal.MetalSplitPaneUI.createDefaultDivider()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalSplitPaneUI#createDefaultDivider() public
+     * Test method for the hereby targeted method-under-test {@link MetalSplitPaneUI#createDefaultDivider() public
      * javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.metal.MetalSplitPaneUI.createDefaultDivider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +42,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.metal.MetalSplitPaneUI#createDefaultDivider() public
-     *      javax.swing.plaf.basic.BasicSplitPaneDivider javax.swing.plaf.metal.MetalSplitPaneUI.createDefaultDivider()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,5 +54,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests<SUT> 
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalSplitPaneUI]
 
 }

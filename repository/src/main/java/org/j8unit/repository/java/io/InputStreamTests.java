@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.io;
 
+import java.io.InputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.InputStream class java.io.InputStream}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link InputStreamClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link InputStream
+ * public abstract class java.io.InputStream}.
  * </p>
  *
- * @see java.io.InputStream class java.io.InputStream (the hereby targeted class-under-test class)
- * @see InputStreamClassTests InputStreamClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.InputStreamClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InputStreamTests<SUT extends java.io.InputStream>
-extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface InputStreamTests<SUT extends InputStream>
+extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.InputStream]
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#mark(int) public synchronized void java.io.InputStream.mark(int)}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#mark(int) public synchronized void java.io.InputStream.mark(int)}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#mark(int) public synchronized void
+     * java.io.InputStream.mark(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#mark(int) public synchronized void java.io.InputStream.mark(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,20 +56,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#close() public void java.io.InputStream.close() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#close() public void java.io.InputStream.close() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#close() public void
+     * java.io.InputStream.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#close() public void java.io.InputStream.close() throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -81,20 +79,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#skip(long) public long java.io.InputStream.skip(long) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#skip(long) public long java.io.InputStream.skip(long) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#skip(long) public long
+     * java.io.InputStream.skip(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#skip(long) public long java.io.InputStream.skip(long) throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,20 +101,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#reset() public synchronized void java.io.InputStream.reset() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#reset() public synchronized void java.io.InputStream.reset() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#reset() public synchronized void
+     * java.io.InputStream.reset() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#reset() public synchronized void java.io.InputStream.reset() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -135,20 +123,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#available() public int java.io.InputStream.available() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#available() public int java.io.InputStream.available() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#available() public int
+     * java.io.InputStream.available() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#available() public int java.io.InputStream.available() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,18 +145,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#markSupported() public boolean java.io.InputStream.markSupported()}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#markSupported() public boolean java.io.InputStream.markSupported()}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#markSupported() public boolean
+     * java.io.InputStream.markSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#markSupported() public boolean java.io.InputStream.markSupported() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,25 +167,20 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#read(byte[], int, int) public int
-     * java.io.InputStream.read(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#read(byte[], int, int) public int
-     * java.io.InputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#read() public abstract int
+     * java.io.InputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#read(byte[], int, int) public int java.io.InputStream.read(byte[],int,int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
+    public default void test_read()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -214,20 +189,15 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#read(byte[]) public int java.io.InputStream.read(byte[]) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#read(byte[]) public int java.io.InputStream.read(byte[]) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#read(byte[]) public int
+     * java.io.InputStream.read(byte[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#read(byte[]) public int java.io.InputStream.read(byte[]) throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,29 +211,26 @@ extends CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.InputStream#read() public abstract int java.io.InputStream.read() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.InputStream#read() public abstract int java.io.InputStream.read() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link InputStream#read(byte[], int, int) public int
+     * java.io.InputStream.read(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.InputStream#read() public abstract int java.io.InputStream.read() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read()
+    public default void test_read_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.InputStream]
 
 }

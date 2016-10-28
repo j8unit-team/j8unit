@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.xml.bind.annotation;
 
+import javax.xml.bind.annotation.XmlElementDecl;
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.XmlElementDecl interface
- * javax.xml.bind.annotation.XmlElementDecl}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link XmlElementDeclClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XmlElementDecl
+ * public abstract @interface javax.xml.bind.annotation.XmlElementDecl}.
  * </p>
  *
- * @see javax.xml.bind.annotation.XmlElementDecl interface javax.xml.bind.annotation.XmlElementDecl (the hereby targeted
- *      class-under-test class)
- * @see XmlElementDeclClassTests XmlElementDeclClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XmlElementDeclTests<SUT extends javax.xml.bind.annotation.XmlElementDecl>
+public abstract interface XmlElementDeclTests<SUT extends XmlElementDecl>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadNamespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadNamespace() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#substitutionHeadNamespace() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl#substitutionHeadNamespace() public abstract java.lang.String
-     *      javax.xml.bind.annotation.XmlElementDecl.substitutionHeadNamespace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,47 +57,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#name() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#name() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.name()}.
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#namespace() public abstract
+     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.namespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl#name() public abstract java.lang.String
-     *      javax.xml.bind.annotation.XmlElementDecl.name() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#namespace() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.namespace()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#namespace() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.namespace()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.bind.annotation.XmlElementDecl#namespace() public abstract java.lang.String
-     *      javax.xml.bind.annotation.XmlElementDecl.namespace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +79,37 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadName() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#substitutionHeadName() public abstract
-     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName()}.
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#name() public abstract
+     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl#substitutionHeadName() public abstract java.lang.String
-     *      javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#substitutionHeadName() public
+     * abstract java.lang.String javax.xml.bind.annotation.XmlElementDecl.substitutionHeadName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +123,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#defaultValue() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.defaultValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#defaultValue() public abstract java.lang.String
-     * javax.xml.bind.annotation.XmlElementDecl.defaultValue()}.
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#defaultValue() public abstract
+     * java.lang.String javax.xml.bind.annotation.XmlElementDecl.defaultValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl#defaultValue() public abstract java.lang.String
-     *      javax.xml.bind.annotation.XmlElementDecl.defaultValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +145,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#scope() public abstract java.lang.Class
-     * javax.xml.bind.annotation.XmlElementDecl.scope()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlElementDecl#scope() public abstract java.lang.Class
-     * javax.xml.bind.annotation.XmlElementDecl.scope()}.
+     * Test method for the hereby targeted method-under-test {@link XmlElementDecl#scope() public abstract
+     * java.lang.Class javax.xml.bind.annotation.XmlElementDecl.scope()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl#scope() public abstract java.lang.Class
-     *      javax.xml.bind.annotation.XmlElementDecl.scope() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,27 +165,34 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.xml.bind.annotation.XmlElementDecl.GLOBAL class
-     * javax.xml.bind.annotation.XmlElementDecl$GLOBAL}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link XmlElementDeclClassTests.GLOBALClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link GLOBAL
+     * public static final class javax.xml.bind.annotation.XmlElementDecl$GLOBAL}.
      * </p>
      *
-     * @see javax.xml.bind.annotation.XmlElementDecl.GLOBAL class javax.xml.bind.annotation.XmlElementDecl$GLOBAL (the
-     *      hereby targeted class-under-test class)
-     * @see XmlElementDeclClassTests.GLOBALClassTests XmlElementDeclClassTests.GLOBALClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface GLOBALTests<SUT extends javax.xml.bind.annotation.XmlElementDecl.GLOBAL>
+    public static abstract interface GLOBALTests<SUT extends GLOBAL>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 
     }
 

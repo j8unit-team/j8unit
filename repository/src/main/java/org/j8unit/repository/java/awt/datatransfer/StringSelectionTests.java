@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.StringSelection;
+import java.awt.datatransfer.Transferable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,46 +12,42 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.datatransfer.StringSelection class
- * java.awt.datatransfer.StringSelection}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link StringSelectionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StringSelection
+ * public class java.awt.datatransfer.StringSelection}.
  * </p>
  *
- * @see java.awt.datatransfer.StringSelection class java.awt.datatransfer.StringSelection (the hereby targeted
- *      class-under-test class)
- * @see StringSelectionClassTests StringSelectionClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.datatransfer.StringSelectionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StringSelectionTests<SUT extends java.awt.datatransfer.StringSelection>
-extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StringSelectionTests<SUT extends StringSelection>
+extends org.j8unit.repository.java.awt.datatransfer.TransferableTests<SUT>, org.j8unit.repository.java.awt.datatransfer.ClipboardOwnerTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.StringSelection]
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.StringSelection#getTransferData(java.awt.datatransfer.DataFlavor)
-     * public java.lang.Object java.awt.datatransfer.StringSelection.getTransferData(java.awt.datatransfer.DataFlavor)
-     * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.awt.datatransfer.StringSelection#getTransferData(java.awt.datatransfer.DataFlavor)
-     * public java.lang.Object java.awt.datatransfer.StringSelection.getTransferData(java.awt.datatransfer.DataFlavor)
-     * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link StringSelection#getTransferData(DataFlavor) public
+     * java.lang.Object java.awt.datatransfer.StringSelection.getTransferData(java.awt.datatransfer.DataFlavor) throws
+     * java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.datatransfer.StringSelection#getTransferData(java.awt.datatransfer.DataFlavor) public
-     *      java.lang.Object java.awt.datatransfer.StringSelection.getTransferData(java.awt.datatransfer.DataFlavor)
-     *      throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -62,11 +62,7 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.StringSelection#getTransferDataFlavors() public
-     * java.awt.datatransfer.DataFlavor[] java.awt.datatransfer.StringSelection.getTransferDataFlavors()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.datatransfer.StringSelection#getTransferDataFlavors() public
+     * Test method for the hereby targeted method-under-test {@link StringSelection#getTransferDataFlavors() public
      * java.awt.datatransfer.DataFlavor[] java.awt.datatransfer.StringSelection.getTransferDataFlavors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -74,8 +70,7 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
      * methods soon.
      * </p>
      *
-     * @see java.awt.datatransfer.StringSelection#getTransferDataFlavors() public java.awt.datatransfer.DataFlavor[]
-     *      java.awt.datatransfer.StringSelection.getTransferDataFlavors() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -90,23 +85,15 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.StringSelection#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public
-     * boolean java.awt.datatransfer.StringSelection.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.StringSelection#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public
-     * boolean java.awt.datatransfer.StringSelection.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
+     * Test method for the hereby targeted method-under-test {@link StringSelection#isDataFlavorSupported(DataFlavor)
+     * public boolean java.awt.datatransfer.StringSelection.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.datatransfer.StringSelection#isDataFlavorSupported(java.awt.datatransfer.DataFlavor) public boolean
-     *      java.awt.datatransfer.StringSelection.isDataFlavorSupported(java.awt.datatransfer.DataFlavor) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -121,16 +108,8 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.StringSelection#lostOwnership(java.awt.datatransfer.Clipboard, java.awt.datatransfer.Transferable)
-     * public void
-     * java.awt.datatransfer.StringSelection.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.StringSelection#lostOwnership(java.awt.datatransfer.Clipboard, java.awt.datatransfer.Transferable)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link StringSelection#lostOwnership(Clipboard, Transferable) public void
      * java.awt.datatransfer.StringSelection.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)}
      * .
      *
@@ -139,10 +118,7 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
      * methods soon.
      * </p>
      *
-     * @see java.awt.datatransfer.StringSelection#lostOwnership(java.awt.datatransfer.Clipboard,
-     *      java.awt.datatransfer.Transferable) public void
-     *      java.awt.datatransfer.StringSelection.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.
-     *      Transferable) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -154,5 +130,7 @@ extends TransferableTests<SUT>, ClipboardOwnerTests<SUT>, org.j8unit.repository.
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.StringSelection]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.imageio.spi;
 
+import javax.imageio.spi.ImageTranscoderSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.imageio.spi.ImageTranscoderSpi class
- * javax.imageio.spi.ImageTranscoderSpi}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link ImageTranscoderSpiClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ImageTranscoderSpi public abstract class javax.imageio.spi.ImageTranscoderSpi}.
  * </p>
  *
- * @see javax.imageio.spi.ImageTranscoderSpi class javax.imageio.spi.ImageTranscoderSpi (the hereby targeted
- *      class-under-test class)
- * @see ImageTranscoderSpiClassTests ImageTranscoderSpiClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.imageio.spi.ImageTranscoderSpiClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageTranscoderSpiTests<SUT extends javax.imageio.spi.ImageTranscoderSpi>
-extends IIOServiceProviderTests<SUT> {
+public abstract interface ImageTranscoderSpiTests<SUT extends ImageTranscoderSpi>
+extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getReaderServiceProviderName() public abstract
-     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getReaderServiceProviderName() public abstract
-     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName()}.
+     * Test method for the hereby targeted method-under-test {@link ImageTranscoderSpi#getReaderServiceProviderName()
+     * public abstract java.lang.String javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageTranscoderSpi#getReaderServiceProviderName() public abstract java.lang.String
-     *      javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,21 +56,37 @@ extends IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#createTranscoderInstance() public abstract
-     * javax.imageio.ImageTranscoder javax.imageio.spi.ImageTranscoderSpi.createTranscoderInstance()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#createTranscoderInstance() public abstract
-     * javax.imageio.ImageTranscoder javax.imageio.spi.ImageTranscoderSpi.createTranscoderInstance()}.
+     * Test method for the hereby targeted method-under-test {@link ImageTranscoderSpi#getWriterServiceProviderName()
+     * public abstract java.lang.String javax.imageio.spi.ImageTranscoderSpi.getWriterServiceProviderName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageTranscoderSpi#createTranscoderInstance() public abstract
-     *      javax.imageio.ImageTranscoder javax.imageio.spi.ImageTranscoderSpi.createTranscoderInstance() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWriterServiceProviderName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageTranscoderSpi#createTranscoderInstance() public
+     * abstract javax.imageio.ImageTranscoder javax.imageio.spi.ImageTranscoderSpi.createTranscoderInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,31 +98,6 @@ extends IIOServiceProviderTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getWriterServiceProviderName() public abstract
-     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getWriterServiceProviderName()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getWriterServiceProviderName() public abstract
-     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getWriterServiceProviderName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.spi.ImageTranscoderSpi#getWriterServiceProviderName() public abstract java.lang.String
-     *      javax.imageio.spi.ImageTranscoderSpi.getWriterServiceProviderName() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWriterServiceProviderName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
 
 }

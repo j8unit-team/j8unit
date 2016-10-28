@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing.tree;
 
+import javax.swing.JTree;
+import javax.swing.tree.TreeCellEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,37 +10,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.tree.TreeCellEditor interface javax.swing.tree.TreeCellEditor}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link TreeCellEditorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TreeCellEditor
+ * public abstract interface javax.swing.tree.TreeCellEditor}.
  * </p>
  *
- * @see javax.swing.tree.TreeCellEditor interface javax.swing.tree.TreeCellEditor (the hereby targeted class-under-test
- *      class)
- * @see TreeCellEditorClassTests TreeCellEditorClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TreeCellEditorTests<SUT extends javax.swing.tree.TreeCellEditor>
+public abstract interface TreeCellEditorTests<SUT extends TreeCellEditor>
 extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.TreeCellEditor]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.tree.TreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
-     * public abstract java.awt.Component
-     * javax.swing.tree.TreeCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.TreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int)
-     * public abstract java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link TreeCellEditor#getTreeCellEditorComponent(JTree, Object, boolean, boolean, boolean, int) public abstract
+     * java.awt.Component
      * javax.swing.tree.TreeCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
      * .
      *
@@ -47,10 +46,7 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.tree.TreeCellEditor#getTreeCellEditorComponent(javax.swing.JTree, Object, boolean, boolean,
-     *      boolean, int) public abstract java.awt.Component
-     *      javax.swing.tree.TreeCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,
-     *      boolean,boolean,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,5 +57,7 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.TreeCellEditor]
 
 }

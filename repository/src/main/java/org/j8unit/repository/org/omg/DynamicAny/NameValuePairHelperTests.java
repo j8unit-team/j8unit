@@ -2,27 +2,33 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.NameValuePairHelper;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.NameValuePairHelper class
- * org.omg.DynamicAny.NameValuePairHelper}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link NameValuePairHelperClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NameValuePairHelper public abstract class org.omg.DynamicAny.NameValuePairHelper}.
  * </p>
  *
- * @see org.omg.DynamicAny.NameValuePairHelper class org.omg.DynamicAny.NameValuePairHelper (the hereby targeted
- *      class-under-test class)
- * @see NameValuePairHelperClassTests NameValuePairHelperClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.NameValuePairHelperClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NameValuePairHelperTests<SUT extends org.omg.DynamicAny.NameValuePairHelper>
+public abstract interface NameValuePairHelperTests<SUT extends NameValuePairHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.NameValuePairHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.NameValuePairHelper]
 
 }

@@ -1,5 +1,13 @@
 package org.j8unit.repository.java.text;
 
+import java.text.DateFormat;
+import java.text.DateFormat.Field;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
+import java.text.ParsePosition;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +16,62 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.text.DateFormat class java.text.DateFormat}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link DateFormatClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DateFormat
+ * public abstract class java.text.DateFormat}.
  * </p>
  *
- * @see java.text.DateFormat class java.text.DateFormat (the hereby targeted class-under-test class)
- * @see DateFormatClassTests DateFormatClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.text.DateFormatClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateFormatTests<SUT extends java.text.DateFormat>
-extends FormatTests<SUT> {
+public abstract interface DateFormatTests<SUT extends DateFormat>
+extends org.j8unit.repository.java.text.FormatTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormat]
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#clone() public java.lang.Object java.text.DateFormat.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#clone() public java.lang.Object java.text.DateFormat.clone()}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#setTimeZone(TimeZone) public void
+     * java.text.DateFormat.setTimeZone(java.util.TimeZone)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#clone() public java.lang.Object java.text.DateFormat.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTimeZone_TimeZone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DateFormat#clone() public java.lang.Object
+     * java.text.DateFormat.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,45 +86,15 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#setTimeZone(java.util.TimeZone) public void
-     * java.text.DateFormat.setTimeZone(java.util.TimeZone)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#setTimeZone(java.util.TimeZone) public void
-     * java.text.DateFormat.setTimeZone(java.util.TimeZone)}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#hashCode() public int
+     * java.text.DateFormat.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#setTimeZone(java.util.TimeZone) public void
-     *      java.text.DateFormat.setTimeZone(java.util.TimeZone) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTimeZone_TimeZone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormat#hashCode() public int java.text.DateFormat.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#hashCode() public int java.text.DateFormat.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DateFormat#hashCode() public int java.text.DateFormat.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -107,11 +109,7 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#equals(Object) public boolean
-     * java.text.DateFormat.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link DateFormat#equals(Object) public boolean
      * java.text.DateFormat.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -119,8 +117,7 @@ extends FormatTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#equals(Object) public boolean java.text.DateFormat.equals(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -135,20 +132,15 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#getNumberFormat() public java.text.NumberFormat
-     * java.text.DateFormat.getNumberFormat()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#getNumberFormat() public java.text.NumberFormat
-     * java.text.DateFormat.getNumberFormat()}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#getNumberFormat() public
+     * java.text.NumberFormat java.text.DateFormat.getNumberFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#getNumberFormat() public java.text.NumberFormat java.text.DateFormat.getNumberFormat()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -162,11 +154,7 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#setCalendar(java.util.Calendar) public void
-     * java.text.DateFormat.setCalendar(java.util.Calendar)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#setCalendar(java.util.Calendar) public void
+     * Test method for the hereby targeted method-under-test {@link DateFormat#setCalendar(Calendar) public void
      * java.text.DateFormat.setCalendar(java.util.Calendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -174,8 +162,7 @@ extends FormatTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#setCalendar(java.util.Calendar) public void
-     *      java.text.DateFormat.setCalendar(java.util.Calendar) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -189,21 +176,15 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#parseObject(String, java.text.ParsePosition) public java.lang.Object
-     * java.text.DateFormat.parseObject(java.lang.String,java.text.ParsePosition)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#parseObject(String, java.text.ParsePosition) public java.lang.Object
-     * java.text.DateFormat.parseObject(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#parseObject(String, ParsePosition) public
+     * java.lang.Object java.text.DateFormat.parseObject(java.lang.String,java.text.ParsePosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#parseObject(String, java.text.ParsePosition) public java.lang.Object
-     *      java.text.DateFormat.parseObject(java.lang.String,java.text.ParsePosition) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,65 +199,7 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#setLenient(boolean) public void
-     * java.text.DateFormat.setLenient(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#setLenient(boolean) public void
-     * java.text.DateFormat.setLenient(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DateFormat#setLenient(boolean) public void java.text.DateFormat.setLenient(boolean) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLenient_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormat#getCalendar() public java.util.Calendar
-     * java.text.DateFormat.getCalendar()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#getCalendar() public java.util.Calendar
-     * java.text.DateFormat.getCalendar()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DateFormat#getCalendar() public java.util.Calendar java.text.DateFormat.getCalendar() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCalendar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormat#setNumberFormat(java.text.NumberFormat) public void
-     * java.text.DateFormat.setNumberFormat(java.text.NumberFormat)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#setNumberFormat(java.text.NumberFormat) public void
+     * Test method for the hereby targeted method-under-test {@link DateFormat#setNumberFormat(NumberFormat) public void
      * java.text.DateFormat.setNumberFormat(java.text.NumberFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,8 +207,7 @@ extends FormatTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#setNumberFormat(java.text.NumberFormat) public void
-     *      java.text.DateFormat.setNumberFormat(java.text.NumberFormat) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,25 +221,20 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#parse(String) public java.util.Date
-     * java.text.DateFormat.parse(java.lang.String) throws java.text.ParseException}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#parse(String) public java.util.Date
-     * java.text.DateFormat.parse(java.lang.String) throws java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#getCalendar() public java.util.Calendar
+     * java.text.DateFormat.getCalendar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#parse(String) public java.util.Date java.text.DateFormat.parse(java.lang.String) throws
-     *      java.text.ParseException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_String()
+    public default void test_getCalendar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -326,20 +243,37 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#parse(String, java.text.ParsePosition) public abstract java.util.Date
-     * java.text.DateFormat.parse(java.lang.String,java.text.ParsePosition)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#parse(String, java.text.ParsePosition) public abstract java.util.Date
-     * java.text.DateFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#setLenient(boolean) public void
+     * java.text.DateFormat.setLenient(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#parse(String, java.text.ParsePosition) public abstract java.util.Date
-     *      java.text.DateFormat.parse(java.lang.String,java.text.ParsePosition) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLenient_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DateFormat#parse(String, ParsePosition) public
+     * abstract java.util.Date java.text.DateFormat.parse(java.lang.String,java.text.ParsePosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -353,13 +287,75 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#format(Object, StringBuffer, java.text.FieldPosition) public final
-     * java.lang.StringBuffer
-     * java.text.DateFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#parse(String) public java.util.Date
+     * java.text.DateFormat.parse(java.lang.String) throws java.text.ParseException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.text.DateFormat#format(Object, StringBuffer, java.text.FieldPosition) public final
-     * java.lang.StringBuffer
+     * Test method for the hereby targeted method-under-test {@link DateFormat#format(Date, StringBuffer, FieldPosition)
+     * public abstract java.lang.StringBuffer
+     * java.text.DateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_Date_StringBuffer_FieldPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DateFormat#format(Date) public final
+     * java.lang.String java.text.DateFormat.format(java.util.Date)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_Date()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DateFormat#format(Object, StringBuffer, FieldPosition) public final java.lang.StringBuffer
      * java.text.DateFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -367,10 +363,7 @@ extends FormatTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#format(Object, StringBuffer, java.text.FieldPosition) public final
-     *      java.lang.StringBuffer
-     *      java.text.DateFormat.format(java.lang.Object,java.lang.StringBuffer,java.text.FieldPosition) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -385,76 +378,15 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#format(java.util.Date) public final java.lang.String
-     * java.text.DateFormat.format(java.util.Date)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#format(java.util.Date) public final java.lang.String
-     * java.text.DateFormat.format(java.util.Date)}.
+     * Test method for the hereby targeted method-under-test {@link DateFormat#isLenient() public boolean
+     * java.text.DateFormat.isLenient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#format(java.util.Date) public final java.lang.String
-     *      java.text.DateFormat.format(java.util.Date) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormat#format(java.util.Date, StringBuffer, java.text.FieldPosition) public
-     * abstract java.lang.StringBuffer
-     * java.text.DateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition)}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#format(java.util.Date, StringBuffer, java.text.FieldPosition) public
-     * abstract java.lang.StringBuffer
-     * java.text.DateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DateFormat#format(java.util.Date, StringBuffer, java.text.FieldPosition) public abstract
-     *      java.lang.StringBuffer
-     *      java.text.DateFormat.format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_Date_StringBuffer_FieldPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormat#isLenient() public boolean java.text.DateFormat.isLenient()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#isLenient() public boolean java.text.DateFormat.isLenient()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.text.DateFormat#isLenient() public boolean java.text.DateFormat.isLenient() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -468,11 +400,7 @@ extends FormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.DateFormat#getTimeZone() public java.util.TimeZone
-     * java.text.DateFormat.getTimeZone()}.
-     *
-     * <p>
-     * Test method for {@link java.text.DateFormat#getTimeZone() public java.util.TimeZone
+     * Test method for the hereby targeted method-under-test {@link DateFormat#getTimeZone() public java.util.TimeZone
      * java.text.DateFormat.getTimeZone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,8 +408,7 @@ extends FormatTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.DateFormat#getTimeZone() public java.util.TimeZone java.text.DateFormat.getTimeZone() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -493,34 +420,36 @@ extends FormatTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.DateFormat]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.text.DateFormat.Field class java.text.DateFormat$Field}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link DateFormatClassTests.FieldClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Field
+     * public static class java.text.DateFormat$Field}.
      * </p>
      *
-     * @see java.text.DateFormat.Field class java.text.DateFormat$Field (the hereby targeted class-under-test class)
-     * @see DateFormatClassTests.FieldClassTests DateFormatClassTests.FieldClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.text.DateFormatClassTests.FieldClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface FieldTests<SUT extends java.text.DateFormat.Field>
-    extends FormatTests.FieldTests<SUT> {
+    public static abstract interface FieldTests<SUT extends Field>
+    extends org.j8unit.repository.java.text.FormatTests.FieldTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormat$Field]
 
         /**
          * <p>
-         * Test method for {@link java.text.DateFormat.Field#getCalendarField() public int
-         * java.text.DateFormat$Field.getCalendarField()}.
-         *
-         * <p>
-         * Test method for {@link java.text.DateFormat.Field#getCalendarField() public int
+         * Test method for the hereby targeted method-under-test {@link Field#getCalendarField() public int
          * java.text.DateFormat$Field.getCalendarField()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -528,8 +457,7 @@ extends FormatTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see java.text.DateFormat.Field#getCalendarField() public int java.text.DateFormat$Field.getCalendarField()
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -540,6 +468,8 @@ extends FormatTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.DateFormat$Field]
 
     }
 

@@ -2,26 +2,33 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynEnumHelper;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynEnumHelper class org.omg.DynamicAny.DynEnumHelper}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link DynEnumHelperClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DynEnumHelper
+ * public abstract class org.omg.DynamicAny.DynEnumHelper}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynEnumHelper class org.omg.DynamicAny.DynEnumHelper (the hereby targeted class-under-test
- *      class)
- * @see DynEnumHelperClassTests DynEnumHelperClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynEnumHelperTests<SUT extends org.omg.DynamicAny.DynEnumHelper>
+public abstract interface DynEnumHelperTests<SUT extends DynEnumHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynEnumHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynEnumHelper]
 
 }

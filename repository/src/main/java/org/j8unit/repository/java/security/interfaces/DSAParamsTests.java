@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.security.interfaces;
 
+import java.security.interfaces.DSAParams;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.interfaces.DSAParams interface
- * java.security.interfaces.DSAParams}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link DSAParamsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DSAParams
+ * public abstract interface java.security.interfaces.DSAParams}.
  * </p>
  *
- * @see java.security.interfaces.DSAParams interface java.security.interfaces.DSAParams (the hereby targeted
- *      class-under-test class)
- * @see DSAParamsClassTests DSAParamsClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.interfaces.DSAParamsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DSAParamsTests<SUT extends java.security.interfaces.DSAParams>
+public abstract interface DSAParamsTests<SUT extends DSAParams>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.interfaces.DSAParams]
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getQ() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getQ()}.
-     *
-     * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getQ() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getQ()}.
+     * Test method for the hereby targeted method-under-test {@link DSAParams#getQ() public abstract
+     * java.math.BigInteger java.security.interfaces.DSAParams.getQ()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.interfaces.DSAParams#getQ() public abstract java.math.BigInteger
-     *      java.security.interfaces.DSAParams.getQ() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getP() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getP()}.
-     *
-     * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getP() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getP()}.
+     * Test method for the hereby targeted method-under-test {@link DSAParams#getP() public abstract
+     * java.math.BigInteger java.security.interfaces.DSAParams.getP()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.interfaces.DSAParams#getP() public abstract java.math.BigInteger
-     *      java.security.interfaces.DSAParams.getP() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,20 +79,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getG() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getG()}.
-     *
-     * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getG() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getG()}.
+     * Test method for the hereby targeted method-under-test {@link DSAParams#getG() public abstract
+     * java.math.BigInteger java.security.interfaces.DSAParams.getG()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.interfaces.DSAParams#getG() public abstract java.math.BigInteger
-     *      java.security.interfaces.DSAParams.getG() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,5 +98,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.DSAParams]
 
 }

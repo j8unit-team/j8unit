@@ -1,50 +1,44 @@
 package org.j8unit.repository.javax.lang.model.util;
 
 import static org.junit.Assert.assertTrue;
+import javax.lang.model.util.AbstractAnnotationValueVisitor6;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain javax.lang.model.util.AbstractAnnotationValueVisitor6 class
- * javax.lang.model.util.AbstractAnnotationValueVisitor6}, containing all type relevant aspects (e.&thinsp;g., runtime
- * constraints and further type specific requirements). (In addition, the runtime type of this j8unit test interface's
- * generic type is verified by {@link #verifyGenericType()}).
- * </p>
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AbstractAnnotationValueVisitor6 public abstract class javax.lang.model.util.AbstractAnnotationValueVisitor6
+ * <R,P>}.
  *
- * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see
- * {@link AbstractAnnotationValueVisitor6Tests}).
- * </p>
- *
- * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
- * </p>
- *
- * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link AbstractAnnotationValueVisitor6Tests}.
+ * {@link org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor6Tests}.
  * </p>
  *
- * @see javax.lang.model.util.AbstractAnnotationValueVisitor6 class
- *      javax.lang.model.util.AbstractAnnotationValueVisitor6 (the hereby targeted class-under-test class)
- * @see AbstractAnnotationValueVisitor6Tests AbstractAnnotationValueVisitor6Tests (The complementary j8unit test
- *      interface containing the instance relevant test methods)
+ * <p>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+ * </p>
+ *
+ * <p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+ *
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
+ *
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
@@ -53,12 +47,13 @@ import org.junit.experimental.categories.Category;
 @SuppressWarnings("rawtypes")
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractAnnotationValueVisitor6ClassTests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor6>
+public abstract interface AbstractAnnotationValueVisitor6ClassTests<SUT extends AbstractAnnotationValueVisitor6>
 extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.AbstractAnnotationValueVisitor6]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
@@ -69,8 +64,10 @@ extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorCla
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.lang.model.util.AbstractAnnotationValueVisitor6.class!",
-                   javax.lang.model.util.AbstractAnnotationValueVisitor6.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AbstractAnnotationValueVisitor6.class!",
+                   AbstractAnnotationValueVisitor6.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.AbstractAnnotationValueVisitor6]
 
 }

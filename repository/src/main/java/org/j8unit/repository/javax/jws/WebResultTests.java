@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.jws;
 
+import javax.jws.WebResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.jws.WebResult interface javax.jws.WebResult}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link WebResultClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link WebResult
+ * public abstract @interface javax.jws.WebResult}.
  * </p>
  *
- * @see javax.jws.WebResult interface javax.jws.WebResult (the hereby targeted class-under-test class)
- * @see WebResultClassTests WebResultClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.jws.WebResultClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebResultTests<SUT extends javax.jws.WebResult>
+public abstract interface WebResultTests<SUT extends WebResult>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebResult]
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name()}.
+     * Test method for the hereby targeted method-under-test {@link WebResult#name() public abstract java.lang.String
+     * javax.jws.WebResult.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,18 +56,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header()}.
+     * Test method for the hereby targeted method-under-test {@link WebResult#header() public abstract boolean
+     * javax.jws.WebResult.header()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -78,20 +78,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#partName() public abstract java.lang.String
-     * javax.jws.WebResult.partName()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebResult#partName() public abstract java.lang.String
-     * javax.jws.WebResult.partName()}.
+     * Test method for the hereby targeted method-under-test {@link WebResult#partName() public abstract
+     * java.lang.String javax.jws.WebResult.partName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebResult#partName() public abstract java.lang.String javax.jws.WebResult.partName() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,20 +100,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#targetNamespace() public abstract java.lang.String
-     * javax.jws.WebResult.targetNamespace()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebResult#targetNamespace() public abstract java.lang.String
-     * javax.jws.WebResult.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link WebResult#targetNamespace() public abstract
+     * java.lang.String javax.jws.WebResult.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebResult#targetNamespace() public abstract java.lang.String javax.jws.WebResult.targetNamespace()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,5 +119,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.WebResult]
 
 }

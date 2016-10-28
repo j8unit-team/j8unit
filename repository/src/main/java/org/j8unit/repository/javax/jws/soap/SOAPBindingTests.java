@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.jws.soap;
 
+import javax.jws.soap.SOAPBinding;
+import javax.jws.soap.SOAPBinding.ParameterStyle;
+import javax.jws.soap.SOAPBinding.Style;
+import javax.jws.soap.SOAPBinding.Use;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.jws.soap.SOAPBinding interface javax.jws.soap.SOAPBinding}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SOAPBindingClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SOAPBinding
+ * public abstract @interface javax.jws.soap.SOAPBinding}.
  * </p>
  *
- * @see javax.jws.soap.SOAPBinding interface javax.jws.soap.SOAPBinding (the hereby targeted class-under-test class)
- * @see SOAPBindingClassTests SOAPBindingClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SOAPBindingTests<SUT extends javax.jws.soap.SOAPBinding>
+public abstract interface SOAPBindingTests<SUT extends SOAPBinding>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#use() public abstract javax.jws.soap.SOAPBinding$Use
-     * javax.jws.soap.SOAPBinding.use()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#use() public abstract javax.jws.soap.SOAPBinding$Use
-     * javax.jws.soap.SOAPBinding.use()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPBinding#use() public abstract
+     * javax.jws.soap.SOAPBinding$Use javax.jws.soap.SOAPBinding.use()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding#use() public abstract javax.jws.soap.SOAPBinding$Use
-     *      javax.jws.soap.SOAPBinding.use() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +59,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#parameterStyle() public abstract
-     * javax.jws.soap.SOAPBinding$ParameterStyle javax.jws.soap.SOAPBinding.parameterStyle()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#parameterStyle() public abstract
+     * Test method for the hereby targeted method-under-test {@link SOAPBinding#parameterStyle() public abstract
      * javax.jws.soap.SOAPBinding$ParameterStyle javax.jws.soap.SOAPBinding.parameterStyle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding#parameterStyle() public abstract javax.jws.soap.SOAPBinding$ParameterStyle
-     *      javax.jws.soap.SOAPBinding.parameterStyle() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +81,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#style() public abstract javax.jws.soap.SOAPBinding$Style
-     * javax.jws.soap.SOAPBinding.style()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPBinding#style() public abstract javax.jws.soap.SOAPBinding$Style
-     * javax.jws.soap.SOAPBinding.style()}.
+     * Test method for the hereby targeted method-under-test {@link SOAPBinding#style() public abstract
+     * javax.jws.soap.SOAPBinding$Style javax.jws.soap.SOAPBinding.style()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding#style() public abstract javax.jws.soap.SOAPBinding$Style
-     *      javax.jws.soap.SOAPBinding.style() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,75 +101,92 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.jws.soap.SOAPBinding.ParameterStyle class
-     * javax.jws.soap.SOAPBinding$ParameterStyle}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link SOAPBindingClassTests.ParameterStyleClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Style
+     * public static final enum javax.jws.soap.SOAPBinding$Style}.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding.ParameterStyle class javax.jws.soap.SOAPBinding$ParameterStyle (the hereby
-     *      targeted class-under-test class)
-     * @see SOAPBindingClassTests.ParameterStyleClassTests SOAPBindingClassTests.ParameterStyleClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.StyleClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParameterStyleTests<SUT extends javax.jws.soap.SOAPBinding.ParameterStyle>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.jws.soap.SOAPBinding.ParameterStyle> {
+    public static abstract interface StyleTests<SUT extends Style>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, Style> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.jws.soap.SOAPBinding.Use class javax.jws.soap.SOAPBinding$Use}.
-     * The complementary j8unit test interface containing the class relevant aspects is
-     * {@link SOAPBindingClassTests.UseClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ParameterStyle public static final enum javax.jws.soap.SOAPBinding$ParameterStyle}.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding.Use class javax.jws.soap.SOAPBinding$Use (the hereby targeted class-under-test
-     *      class)
-     * @see SOAPBindingClassTests.UseClassTests SOAPBindingClassTests.UseClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.ParameterStyleClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UseTests<SUT extends javax.jws.soap.SOAPBinding.Use>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.jws.soap.SOAPBinding.Use> {
+    public static abstract interface ParameterStyleTests<SUT extends ParameterStyle>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, ParameterStyle> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.jws.soap.SOAPBinding.Style class
-     * javax.jws.soap.SOAPBinding$Style}. The complementary j8unit test interface containing the class relevant aspects
-     * is {@link SOAPBindingClassTests.StyleClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Use public
+     * static final enum javax.jws.soap.SOAPBinding$Use}.
      * </p>
      *
-     * @see javax.jws.soap.SOAPBinding.Style class javax.jws.soap.SOAPBinding$Style (the hereby targeted
-     *      class-under-test class)
-     * @see SOAPBindingClassTests.StyleClassTests SOAPBindingClassTests.StyleClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.jws.soap.SOAPBindingClassTests.UseClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StyleTests<SUT extends javax.jws.soap.SOAPBinding.Style>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.jws.soap.SOAPBinding.Style> {
+    public static abstract interface UseTests<SUT extends Use>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, Use> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
 
     }
 

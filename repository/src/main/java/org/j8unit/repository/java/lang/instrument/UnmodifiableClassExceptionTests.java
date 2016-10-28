@@ -1,28 +1,34 @@
 package org.j8unit.repository.java.lang.instrument;
 
+import java.lang.instrument.UnmodifiableClassException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.lang.instrument.UnmodifiableClassException class
- * java.lang.instrument.UnmodifiableClassException}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link UnmodifiableClassExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link UnmodifiableClassException public class java.lang.instrument.UnmodifiableClassException}.
  * </p>
  *
- * @see java.lang.instrument.UnmodifiableClassException class java.lang.instrument.UnmodifiableClassException (the
- *      hereby targeted class-under-test class)
- * @see UnmodifiableClassExceptionClassTests UnmodifiableClassExceptionClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.instrument.UnmodifiableClassExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UnmodifiableClassExceptionTests<SUT extends java.lang.instrument.UnmodifiableClassException>
+public abstract interface UnmodifiableClassExceptionTests<SUT extends UnmodifiableClassException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.instrument.UnmodifiableClassException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.instrument.UnmodifiableClassException]
 
 }

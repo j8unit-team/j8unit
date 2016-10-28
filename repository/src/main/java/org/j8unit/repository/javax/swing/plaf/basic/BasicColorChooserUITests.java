@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import java.beans.PropertyChangeEvent;
+import javax.swing.JComponent;
+import javax.swing.plaf.basic.BasicColorChooserUI;
+import javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicColorChooserUI class
- * javax.swing.plaf.basic.BasicColorChooserUI}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicColorChooserUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicColorChooserUI public class javax.swing.plaf.basic.BasicColorChooserUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicColorChooserUI class javax.swing.plaf.basic.BasicColorChooserUI (the hereby targeted
- *      class-under-test class)
- * @see BasicColorChooserUIClassTests BasicColorChooserUIClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicColorChooserUITests<SUT extends javax.swing.plaf.basic.BasicColorChooserUI>
+public abstract interface BasicColorChooserUITests<SUT extends BasicColorChooserUI>
 extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicColorChooserUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicColorChooserUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicColorChooserUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicColorChooserUI.installUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicColorChooserUI#installUI(JComponent) public
+     * void javax.swing.plaf.basic.BasicColorChooserUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicColorChooserUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicColorChooserUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,21 +60,15 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicColorChooserUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicColorChooserUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicColorChooserUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicColorChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicColorChooserUI#uninstallUI(JComponent) public
+     * void javax.swing.plaf.basic.BasicColorChooserUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicColorChooserUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicColorChooserUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,40 +81,38 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler class
-     * javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler}. The complementary j8unit test interface containing
-     * the class relevant aspects is {@link BasicColorChooserUIClassTests.PropertyHandlerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PropertyHandler public class javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler class
-     *      javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler (the hereby targeted class-under-test class)
-     * @see BasicColorChooserUIClassTests.PropertyHandlerClassTests
-     *      BasicColorChooserUIClassTests.PropertyHandlerClassTests (the complementary j8unit test interface containing
-     *      the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClassTests.PropertyHandlerClassTests}
+     * ).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyHandlerTests<SUT extends javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler>
+    public static abstract interface PropertyHandlerTests<SUT extends PropertyHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler.propertyChange(java.beans.PropertyChangeEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link PropertyHandler#propertyChange(PropertyChangeEvent) public void
          * javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler.propertyChange(java.beans.PropertyChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,9 +120,7 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler#propertyChange(java.beans.PropertyChangeEvent)
-         *      public void javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler.propertyChange(java.beans.
-         *      PropertyChangeEvent) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -141,6 +132,8 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 
     }
 

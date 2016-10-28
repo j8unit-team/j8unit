@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.border;
 
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Insets;
+import javax.swing.border.EtchedBorder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,59 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.border.EtchedBorder class javax.swing.border.EtchedBorder}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link EtchedBorderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link EtchedBorder
+ * public class javax.swing.border.EtchedBorder}.
  * </p>
  *
- * @see javax.swing.border.EtchedBorder class javax.swing.border.EtchedBorder (the hereby targeted class-under-test
- *      class)
- * @see EtchedBorderClassTests EtchedBorderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.border.EtchedBorderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EtchedBorderTests<SUT extends javax.swing.border.EtchedBorder>
-extends AbstractBorderTests<SUT> {
+public abstract interface EtchedBorderTests<SUT extends EtchedBorder>
+extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.border.EtchedBorder]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor(java.awt.Component) public java.awt.Color
-     * javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor(java.awt.Component) public java.awt.Color
-     * javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.border.EtchedBorder#getShadowColor(java.awt.Component) public java.awt.Color
-     *      javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShadowColor_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor() public java.awt.Color
-     * javax.swing.border.EtchedBorder.getShadowColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor() public java.awt.Color
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getShadowColor() public java.awt.Color
      * javax.swing.border.EtchedBorder.getShadowColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +45,7 @@ extends AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#getShadowColor() public java.awt.Color
-     *      javax.swing.border.EtchedBorder.getShadowColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,11 +59,29 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#isBorderOpaque() public boolean
-     * javax.swing.border.EtchedBorder.isBorderOpaque()}.
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getShadowColor(Component) public
+     * java.awt.Color javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShadowColor_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#isBorderOpaque() public boolean
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#isBorderOpaque() public boolean
      * javax.swing.border.EtchedBorder.isBorderOpaque()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,8 +89,7 @@ extends AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#isBorderOpaque() public boolean
-     *      javax.swing.border.EtchedBorder.isBorderOpaque() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,11 +104,7 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
-     * public java.awt.Insets javax.swing.border.EtchedBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getBorderInsets(java.awt.Component, java.awt.Insets)
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getBorderInsets(Component, Insets)
      * public java.awt.Insets javax.swing.border.EtchedBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,9 +112,7 @@ extends AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#getBorderInsets(java.awt.Component, java.awt.Insets) public java.awt.Insets
-     *      javax.swing.border.EtchedBorder.getBorderInsets(java.awt.Component,java.awt.Insets) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,11 +127,7 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getEtchType() public int
-     * javax.swing.border.EtchedBorder.getEtchType()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getEtchType() public int
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getEtchType() public int
      * javax.swing.border.EtchedBorder.getEtchType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +135,7 @@ extends AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#getEtchType() public int javax.swing.border.EtchedBorder.getEtchType() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,24 +149,16 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.EtchedBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     * public void javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.border.EtchedBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     * public void javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link EtchedBorder#paintBorder(Component, Graphics, int, int, int, int) public void
+     * javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#paintBorder(java.awt.Component, java.awt.Graphics, int, int, int, int)
-     *      public void
-     *      javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -199,11 +173,7 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getHighlightColor(java.awt.Component) public
-     * java.awt.Color javax.swing.border.EtchedBorder.getHighlightColor(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getHighlightColor(java.awt.Component) public
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getHighlightColor(Component) public
      * java.awt.Color javax.swing.border.EtchedBorder.getHighlightColor(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,9 +181,7 @@ extends AbstractBorderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#getHighlightColor(java.awt.Component) public java.awt.Color
-     *      javax.swing.border.EtchedBorder.getHighlightColor(java.awt.Component) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,20 +195,15 @@ extends AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getHighlightColor() public java.awt.Color
-     * javax.swing.border.EtchedBorder.getHighlightColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getHighlightColor() public java.awt.Color
-     * javax.swing.border.EtchedBorder.getHighlightColor()}.
+     * Test method for the hereby targeted method-under-test {@link EtchedBorder#getHighlightColor() public
+     * java.awt.Color javax.swing.border.EtchedBorder.getHighlightColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.border.EtchedBorder#getHighlightColor() public java.awt.Color
-     *      javax.swing.border.EtchedBorder.getHighlightColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -251,5 +214,7 @@ extends AbstractBorderTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.border.EtchedBorder]
 
 }

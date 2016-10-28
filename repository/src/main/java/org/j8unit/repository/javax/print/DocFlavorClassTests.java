@@ -1,60 +1,67 @@
 package org.j8unit.repository.javax.print;
 
 import static org.junit.Assert.assertTrue;
+import javax.print.DocFlavor;
+import javax.print.DocFlavor.BYTE_ARRAY;
+import javax.print.DocFlavor.CHAR_ARRAY;
+import javax.print.DocFlavor.INPUT_STREAM;
+import javax.print.DocFlavor.READER;
+import javax.print.DocFlavor.SERVICE_FORMATTED;
+import javax.print.DocFlavor.STRING;
+import javax.print.DocFlavor.URL;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor class javax.print.DocFlavor}, containing all
- * type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements). (In addition, the
- * runtime type of this j8unit test interface's generic type is verified by {@link #verifyGenericType()}).
+ * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
+ * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link DocFlavor public
+ * class javax.print.DocFlavor}.
+ *
+ * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+ * {@link #verifyGenericType()}).
  * </p>
  *
  * <p>
- * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
- * this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
- * complementarySetup test interface containing the instance relevant aspects (see {@link DocFlavorTests}).
+ * The complementary j8unit test interface containing the instance relevant aspects is
+ * {@link org.j8unit.repository.javax.print.DocFlavorTests}.
  * </p>
  *
  * <p>
- * <strong>What? Testing the class itself? What is it good for?</strong>
+ * <strong>What? Testing the class/the type itself? What is it good for?</strong>
  * </p>
  *
  * <p>
- * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
- * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
- * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable test
- * methods:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()},
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()},
- * and {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
- * </p>
+ * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
  *
- * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is {@link DocFlavorTests}.
- * </p>
+ * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+ * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision of
+ * specific constructors (and its individual requirements) should be covered by according test methods. (Note, this is
+ * not limited to constructors only; Just think of factory methods and further.)
  *
- * @see javax.print.DocFlavor class javax.print.DocFlavor (the hereby targeted class-under-test class)
- * @see DocFlavorTests DocFlavorTests (The complementary j8unit test interface containing the instance relevant test
- *      methods)
+ * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+ * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+ * </p>
  *
  * @param SUT
  *            the class' type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocFlavorClassTests<SUT extends javax.print.DocFlavor>
+public abstract interface DocFlavorClassTests<SUT extends DocFlavor>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor]
     /**
-     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class) (the
-     *      hereby targeted method-under-test)
+     * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+     *      (the hereby targeted method-under-test)
      *
      * @since 0.9.2
      */
@@ -65,204 +72,58 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         final Class<SUT> sut = createNewSUT();
         // assert assignability
-        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.class!",
-                   javax.print.DocFlavor.class.isAssignableFrom(sut));
+        assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DocFlavor.class!",
+                   DocFlavor.class.isAssignableFrom(sut));
     }
+
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor]
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.CHAR_ARRAY class
-     * javax.print.DocFlavor$CHAR_ARRAY}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
-     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
-     * is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link INPUT_STREAM public static class javax.print.DocFlavor$INPUT_STREAM}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.CHAR_ARRAYTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.CHAR_ARRAYTests}.
-     * </p>
-     *
-     * @see javax.print.DocFlavor.CHAR_ARRAY class javax.print.DocFlavor$CHAR_ARRAY (the hereby targeted
-     *      class-under-test class)
-     * @see DocFlavorTests.CHAR_ARRAYTests DocFlavorTests.CHAR_ARRAYTests (The complementary j8unit test interface
-     *      containing the instance relevant test methods)
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CHAR_ARRAYClassTests<SUT extends javax.print.DocFlavor.CHAR_ARRAY>
-    extends DocFlavorClassTests<SUT> {
-
-        /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
-         *      (the hereby targeted method-under-test)
-         *
-         * @since 0.9.2
-         */
-        @Override
-        @BeforeClass
-        public default void verifyGenericType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.CHAR_ARRAY.class!",
-                       javax.print.DocFlavor.CHAR_ARRAY.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.INPUT_STREAM class
-     * javax.print.DocFlavor$INPUT_STREAM}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
-     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
-     * is verified by {@link #verifyGenericType()}).
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.INPUT_STREAMTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.INPUT_STREAMTests}.
-     * </p>
-     *
-     * @see javax.print.DocFlavor.INPUT_STREAM class javax.print.DocFlavor$INPUT_STREAM (the hereby targeted
-     *      class-under-test class)
-     * @see DocFlavorTests.INPUT_STREAMTests DocFlavorTests.INPUT_STREAMTests (The complementary j8unit test interface
-     *      containing the instance relevant test methods)
-     *
-     * @param SUT
-     *            the class' type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface INPUT_STREAMClassTests<SUT extends javax.print.DocFlavor.INPUT_STREAM>
-    extends DocFlavorClassTests<SUT> {
-
-        /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
-         *      (the hereby targeted method-under-test)
-         *
-         * @since 0.9.2
-         */
-        @Override
-        @BeforeClass
-        public default void verifyGenericType()
-        throws Exception {
-            // create new instance
-            final Class<SUT> sut = createNewSUT();
-            // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.INPUT_STREAM.class!",
-                       javax.print.DocFlavor.INPUT_STREAM.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.URL class javax.print.DocFlavor$URL},
-     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see {@link DocFlavorTests.URLTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.URLTests}.
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}.
      * </p>
      *
-     * @see javax.print.DocFlavor.URL class javax.print.DocFlavor$URL (the hereby targeted class-under-test class)
-     * @see DocFlavorTests.URLTests DocFlavorTests.URLTests (The complementary j8unit test interface containing the
-     *      instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface URLClassTests<SUT extends javax.print.DocFlavor.URL>
-    extends DocFlavorClassTests<SUT> {
+    public static abstract interface INPUT_STREAMClassTests<SUT extends INPUT_STREAM>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
@@ -274,65 +135,60 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.URL.class!",
-                       javax.print.DocFlavor.URL.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to INPUT_STREAM.class!",
+                              INPUT_STREAM.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$INPUT_STREAM]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.STRING class javax.print.DocFlavor$STRING},
-     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link READER public static class javax.print.DocFlavor$READER}.
+     *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.STRINGTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.STRINGTests}.
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}.
      * </p>
      *
-     * @see javax.print.DocFlavor.STRING class javax.print.DocFlavor$STRING (the hereby targeted class-under-test class)
-     * @see DocFlavorTests.STRINGTests DocFlavorTests.STRINGTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface STRINGClassTests<SUT extends javax.print.DocFlavor.STRING>
-    extends DocFlavorClassTests<SUT> {
+    public static abstract interface READERClassTests<SUT extends READER>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$READER]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
@@ -344,65 +200,60 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.STRING.class!",
-                       javax.print.DocFlavor.STRING.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to READER.class!",
+                              READER.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$READER]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.READER class javax.print.DocFlavor$READER},
-     * containing all type relevant aspects (e.&thinsp;g., runtime constraints and further type specific requirements).
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link URL
+     * public static class javax.print.DocFlavor$URL}.
+     *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.READERTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
-     * </p>
-     *
-     * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.READERTests}.
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}.
      * </p>
      *
-     * @see javax.print.DocFlavor.READER class javax.print.DocFlavor$READER (the hereby targeted class-under-test class)
-     * @see DocFlavorTests.READERTests DocFlavorTests.READERTests (The complementary j8unit test interface containing
-     *      the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface READERClassTests<SUT extends javax.print.DocFlavor.READER>
-    extends DocFlavorClassTests<SUT> {
+    public static abstract interface URLClassTests<SUT extends URL>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$URL]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
@@ -414,66 +265,60 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.READER.class!",
-                       javax.print.DocFlavor.READER.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to URL.class!",
+                              URL.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$URL]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.SERVICE_FORMATTED class
-     * javax.print.DocFlavor$SERVICE_FORMATTED}, containing all type relevant aspects (e.&thinsp;g., runtime constraints
-     * and further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic
-     * type is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link CHAR_ARRAY public static class javax.print.DocFlavor$CHAR_ARRAY}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.SERVICE_FORMATTEDTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.SERVICE_FORMATTEDTests}.
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests}.
      * </p>
      *
-     * @see javax.print.DocFlavor.SERVICE_FORMATTED class javax.print.DocFlavor$SERVICE_FORMATTED (the hereby targeted
-     *      class-under-test class)
-     * @see DocFlavorTests.SERVICE_FORMATTEDTests DocFlavorTests.SERVICE_FORMATTEDTests (The complementary j8unit test
-     *      interface containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends javax.print.DocFlavor.SERVICE_FORMATTED>
-    extends DocFlavorClassTests<SUT> {
+    public static abstract interface CHAR_ARRAYClassTests<SUT extends CHAR_ARRAY>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$CHAR_ARRAY]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
@@ -485,66 +330,60 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.SERVICE_FORMATTED.class!",
-                       javax.print.DocFlavor.SERVICE_FORMATTED.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CHAR_ARRAY.class!",
+                              CHAR_ARRAY.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$CHAR_ARRAY]
 
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface for {@linkplain javax.print.DocFlavor.BYTE_ARRAY class
-     * javax.print.DocFlavor$BYTE_ARRAY}, containing all type relevant aspects (e.&thinsp;g., runtime constraints and
-     * further type specific requirements). (In addition, the runtime type of this j8unit test interface's generic type
-     * is verified by {@link #verifyGenericType()}).
-     * </p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link SERVICE_FORMATTED public static class javax.print.DocFlavor$SERVICE_FORMATTED}.
      *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit provides this reusable test interface covering type relevant aspects as well as a
-     * complementarySetup test interface containing the instance relevant aspects (see
-     * {@link DocFlavorTests.BYTE_ARRAYTests}).
-     * </p>
-     *
-     * <p>
-     * <strong>What? Testing the class itself? What is it good for?</strong>
-     * </p>
-     *
-     * <p>
-     * Classes may have its own requirements and/or constraints; and all of these needs to be tested too. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause</q> (JLS, Sec.&thinsp;9.6.1</a>).
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides corresponding, reusable
-     * test methods:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveFormalParameters()}
-     * ,
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveTypeParameters()}
-     * , and
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#declaredMethodsCannotHaveThrowsClause()}.
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link DocFlavorTests.BYTE_ARRAYTests}.
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests}.
      * </p>
      *
-     * @see javax.print.DocFlavor.BYTE_ARRAY class javax.print.DocFlavor$BYTE_ARRAY (the hereby targeted
-     *      class-under-test class)
-     * @see DocFlavorTests.BYTE_ARRAYTests DocFlavorTests.BYTE_ARRAYTests (The complementary j8unit test interface
-     *      containing the instance relevant test methods)
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
      *
      * @param SUT
      *            the class' type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BYTE_ARRAYClassTests<SUT extends javax.print.DocFlavor.BYTE_ARRAY>
-    extends DocFlavorClassTests<SUT> {
+    public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends SERVICE_FORMATTED>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
 
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
         /**
-         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class)
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
@@ -556,9 +395,141 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to javax.print.DocFlavor.BYTE_ARRAY.class!",
-                       javax.print.DocFlavor.BYTE_ARRAY.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SERVICE_FORMATTED.class!",
+                              SERVICE_FORMATTED.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link BYTE_ARRAY public static class javax.print.DocFlavor$BYTE_ARRAY}.
+     *
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests}.
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BYTE_ARRAYClassTests<SUT extends BYTE_ARRAY>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$BYTE_ARRAY]
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BYTE_ARRAY.class!",
+                              BYTE_ARRAY.class.isAssignableFrom(sut));
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$BYTE_ARRAY]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link STRING public static class javax.print.DocFlavor$STRING}.
+     *
+     * (In addition, the runtime type of this j8unit test interface's generic type is verified by
+     * {@link #verifyGenericType()}).
+     * </p>
+     *
+     * <p>
+     * The complementary j8unit test interface containing the instance relevant aspects is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}.
+     * </p>
+     *
+     * <p>
+     * <strong>What? Testing the class/the type itself? What is it good for?</strong>
+     * </p>
+     *
+     * <p>
+     * Classes/Types may have its own requirements and/or constraints; and all of these needs to be tested too!
+     *
+     * For example, all sub-types of {@link Throwable} should provide a zero-argument and a {@link String}-argument
+     * constructor. Obviously, this is a class-specific behaviour. In general, all constraints refering to the provision
+     * of specific constructors (and its individual requirements) should be covered by according test methods. (Note,
+     * this is not limited to constructors only; Just think of factory methods and further.)
+     *
+     * For another example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the <em>AnnotationTypeElementDeclaration</em> production, a method declaration in an annotation
+     * type declaration cannot have formal parameters, type parameters, or a {@code throws} clause</q> (JLS,
+     * Sec.&thinsp;9.6.1</a>). Obviously, this is a type-specific behaviour too; And it must be tested!
+     * </p>
+     *
+     * @param SUT
+     *            the class' type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface STRINGClassTests<SUT extends STRING>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.DocFlavor$STRING]
+        /**
+         * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
+         *      (the hereby targeted method-under-test)
+         *
+         * @since 0.9.2
+         */
+        @Override
+        @BeforeClass
+        public default void verifyGenericType()
+        throws Exception {
+            // create new instance
+            final Class<SUT> sut = createNewSUT();
+            // assert assignability
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to STRING.class!",
+                              STRING.class.isAssignableFrom(sut));
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocFlavor$STRING]
 
     }
 

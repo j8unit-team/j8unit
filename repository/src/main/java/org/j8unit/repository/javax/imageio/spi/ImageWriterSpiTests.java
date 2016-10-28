@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.imageio.spi;
 
+import java.awt.image.RenderedImage;
+import javax.imageio.ImageTypeSpecifier;
+import javax.imageio.ImageWriter;
+import javax.imageio.spi.ImageWriterSpi;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,41 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.imageio.spi.ImageWriterSpi class javax.imageio.spi.ImageWriterSpi}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link ImageWriterSpiClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ImageWriterSpi
+ * public abstract class javax.imageio.spi.ImageWriterSpi}.
  * </p>
  *
- * @see javax.imageio.spi.ImageWriterSpi class javax.imageio.spi.ImageWriterSpi (the hereby targeted class-under-test
- *      class)
- * @see ImageWriterSpiClassTests ImageWriterSpiClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.imageio.spi.ImageWriterSpiClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageWriterSpiTests<SUT extends javax.imageio.spi.ImageWriterSpi>
-extends ImageReaderWriterSpiTests<SUT> {
+public abstract interface ImageWriterSpiTests<SUT extends ImageWriterSpi>
+extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ImageWriterSpi]
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getOutputTypes() public java.lang.Class[]
-     * javax.imageio.spi.ImageWriterSpi.getOutputTypes()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getOutputTypes() public java.lang.Class[]
-     * javax.imageio.spi.ImageWriterSpi.getOutputTypes()}.
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#getOutputTypes() public
+     * java.lang.Class[] javax.imageio.spi.ImageWriterSpi.getOutputTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#getOutputTypes() public java.lang.Class[]
-     *      javax.imageio.spi.ImageWriterSpi.getOutputTypes() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,21 +59,15 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isOwnWriter(javax.imageio.ImageWriter) public boolean
-     * javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter)}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isOwnWriter(javax.imageio.ImageWriter) public boolean
-     * javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter)}.
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#isOwnWriter(ImageWriter) public
+     * boolean javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#isOwnWriter(javax.imageio.ImageWriter) public boolean
-     *      javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,49 +81,15 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(java.awt.image.RenderedImage) public
-     * boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(java.awt.image.RenderedImage)}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(java.awt.image.RenderedImage) public
-     * boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(java.awt.image.RenderedImage)}.
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#canEncodeImage(ImageTypeSpecifier)
+     * public abstract boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#canEncodeImage(java.awt.image.RenderedImage) public boolean
-     *      javax.imageio.spi.ImageWriterSpi.canEncodeImage(java.awt.image.RenderedImage) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canEncodeImage_RenderedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(javax.imageio.ImageTypeSpecifier) public
-     * abstract boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier)}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(javax.imageio.ImageTypeSpecifier) public
-     * abstract boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.imageio.spi.ImageWriterSpi#canEncodeImage(javax.imageio.ImageTypeSpecifier) public abstract boolean
-     *      javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,21 +103,37 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance() public javax.imageio.ImageWriter
-     * javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance() public javax.imageio.ImageWriter
-     * javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#canEncodeImage(RenderedImage) public
+     * boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(java.awt.image.RenderedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#createWriterInstance() public javax.imageio.ImageWriter
-     *      javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canEncodeImage_RenderedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#createWriterInstance() public
+     * javax.imageio.ImageWriter javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,13 +147,8 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance(Object) public abstract
-     * javax.imageio.ImageWriter javax.imageio.spi.ImageWriterSpi.createWriterInstance(java.lang.Object) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance(Object) public abstract
-     * javax.imageio.ImageWriter javax.imageio.spi.ImageWriterSpi.createWriterInstance(java.lang.Object) throws
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#createWriterInstance(Object) public
+     * abstract javax.imageio.ImageWriter javax.imageio.spi.ImageWriterSpi.createWriterInstance(java.lang.Object) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,9 +156,7 @@ extends ImageReaderWriterSpiTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#createWriterInstance(Object) public abstract javax.imageio.ImageWriter
-     *      javax.imageio.spi.ImageWriterSpi.createWriterInstance(java.lang.Object) throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -198,11 +170,7 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isFormatLossless() public boolean
-     * javax.imageio.spi.ImageWriterSpi.isFormatLossless()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isFormatLossless() public boolean
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#isFormatLossless() public boolean
      * javax.imageio.spi.ImageWriterSpi.isFormatLossless()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -210,8 +178,7 @@ extends ImageReaderWriterSpiTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#isFormatLossless() public boolean
-     *      javax.imageio.spi.ImageWriterSpi.isFormatLossless() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,20 +192,15 @@ extends ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getImageReaderSpiNames() public java.lang.String[]
-     * javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames()}.
-     *
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getImageReaderSpiNames() public java.lang.String[]
-     * javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames()}.
+     * Test method for the hereby targeted method-under-test {@link ImageWriterSpi#getImageReaderSpiNames() public
+     * java.lang.String[] javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.imageio.spi.ImageWriterSpi#getImageReaderSpiNames() public java.lang.String[]
-     *      javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,5 +211,7 @@ extends ImageReaderWriterSpiTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageWriterSpi]
 
 }

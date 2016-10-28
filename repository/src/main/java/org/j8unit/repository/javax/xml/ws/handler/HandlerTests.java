@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.xml.ws.handler;
 
+import javax.xml.ws.handler.Handler;
+import javax.xml.ws.handler.MessageContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,41 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.ws.handler.Handler interface javax.xml.ws.handler.Handler}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link HandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Handler public
+ * abstract interface javax.xml.ws.handler.Handler<C>}.
  * </p>
  *
- * @see javax.xml.ws.handler.Handler interface javax.xml.ws.handler.Handler (the hereby targeted class-under-test class)
- * @see HandlerClassTests HandlerClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.ws.handler.HandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HandlerTests<SUT extends javax.xml.ws.handler.Handler<C>, C extends javax.xml.ws.handler.MessageContext>
+public abstract interface HandlerTests<SUT extends Handler<C>, C extends MessageContext>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.handler.Handler]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#handleFault(javax.xml.ws.handler.MessageContext) public
-     * abstract boolean javax.xml.ws.handler.Handler.handleFault(C)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#handleFault(javax.xml.ws.handler.MessageContext) public
-     * abstract boolean javax.xml.ws.handler.Handler.handleFault(javax.xml.ws.handler.MessageContext)}.
+     * Test method for the hereby targeted method-under-test {@link Handler#handleFault(MessageContext) public abstract
+     * boolean javax.xml.ws.handler.Handler.handleFault(C)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.handler.Handler#handleFault(javax.xml.ws.handler.MessageContext) public abstract boolean
-     *      javax.xml.ws.handler.Handler.handleFault(javax.xml.ws.handler.MessageContext) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,21 +58,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#handleMessage(javax.xml.ws.handler.MessageContext) public
+     * Test method for the hereby targeted method-under-test {@link Handler#handleMessage(MessageContext) public
      * abstract boolean javax.xml.ws.handler.Handler.handleMessage(C)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#handleMessage(javax.xml.ws.handler.MessageContext) public
-     * abstract boolean javax.xml.ws.handler.Handler.handleMessage(javax.xml.ws.handler.MessageContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.handler.Handler#handleMessage(javax.xml.ws.handler.MessageContext) public abstract boolean
-     *      javax.xml.ws.handler.Handler.handleMessage(javax.xml.ws.handler.MessageContext) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,21 +80,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract
-     * void javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract
-     * void javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
+     * Test method for the hereby targeted method-under-test {@link Handler#close(MessageContext) public abstract void
+     * javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract void
-     *      javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,5 +99,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.Handler]
 
 }

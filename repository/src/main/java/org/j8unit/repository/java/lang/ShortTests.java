@@ -8,62 +8,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain Short class java.lang.Short}. The complementary j8unit test interface
- * containing the class relevant aspects is {@link ShortClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Short public
+ * final class java.lang.Short}.
  * </p>
  *
- * @see Short class java.lang.Short (the hereby targeted class-under-test class)
- * @see ShortClassTests ShortClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.ShortClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortTests<SUT extends Short>
-extends ComparableTests<SUT, Short>, NumberTests<SUT> {
+extends org.j8unit.repository.java.lang.ComparableTests<SUT, Short>, org.j8unit.repository.java.lang.NumberTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Short]
 
     /**
      * <p>
-     * Test method for {@link Short#hashCode() public int java.lang.Short.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link Short#hashCode() public int java.lang.Short.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Short#intValue() public int
+     * java.lang.Short.intValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#hashCode() public int java.lang.Short.hashCode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Short#intValue() public int java.lang.Short.intValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#intValue() public int java.lang.Short.intValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Short#intValue() public int java.lang.Short.intValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -78,18 +56,38 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#equals(Object) public boolean java.lang.Short.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link Short#equals(Object) public boolean java.lang.Short.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Short#hashCode() public int
+     * java.lang.Short.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#equals(Object) public boolean java.lang.Short.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Short#equals(Object) public boolean
+     * java.lang.Short.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -104,17 +102,15 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#longValue() public long java.lang.Short.longValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#longValue() public long java.lang.Short.longValue()}.
+     * Test method for the hereby targeted method-under-test {@link Short#longValue() public long
+     * java.lang.Short.longValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#longValue() public long java.lang.Short.longValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -129,17 +125,15 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#byteValue() public byte java.lang.Short.byteValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#byteValue() public byte java.lang.Short.byteValue()}.
+     * Test method for the hereby targeted method-under-test {@link Short#byteValue() public byte
+     * java.lang.Short.byteValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#byteValue() public byte java.lang.Short.byteValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -154,42 +148,15 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#toString() public java.lang.String java.lang.Short.toString()}.
-     *
-     * <p>
-     * Test method for {@link Short#toString() public java.lang.String java.lang.Short.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Short#shortValue() public short
+     * java.lang.Short.shortValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#toString() public java.lang.String java.lang.Short.toString() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Short#shortValue() public short java.lang.Short.shortValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#shortValue() public short java.lang.Short.shortValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Short#shortValue() public short java.lang.Short.shortValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -204,23 +171,21 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#compareTo(Short) public int java.lang.Short.compareTo(java.lang.Short)}.
-     *
-     * <p>
-     * Test method for {@link Short#compareTo(Short) public int java.lang.Short.compareTo(java.lang.Short)}.
+     * Test method for the hereby targeted method-under-test {@link Short#toString() public java.lang.String
+     * java.lang.Short.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#compareTo(Short) public int java.lang.Short.compareTo(java.lang.Short) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_Short()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,17 +194,15 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#doubleValue() public double java.lang.Short.doubleValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#doubleValue() public double java.lang.Short.doubleValue()}.
+     * Test method for the hereby targeted method-under-test {@link Short#doubleValue() public double
+     * java.lang.Short.doubleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#doubleValue() public double java.lang.Short.doubleValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -254,17 +217,37 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Short#floatValue() public float java.lang.Short.floatValue()}.
-     *
-     * <p>
-     * Test method for {@link Short#floatValue() public float java.lang.Short.floatValue()}.
+     * Test method for the hereby targeted method-under-test {@link Short#compareTo(Short) public int
+     * java.lang.Short.compareTo(java.lang.Short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Short#floatValue() public float java.lang.Short.floatValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_Short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Short#floatValue() public float
+     * java.lang.Short.floatValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -276,5 +259,7 @@ extends ComparableTests<SUT, Short>, NumberTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Short]
 
 }

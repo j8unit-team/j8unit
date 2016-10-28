@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.script;
 
+import java.util.Map;
+import javax.script.Bindings;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.script.Bindings interface javax.script.Bindings}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link BindingsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Bindings public
+ * abstract interface javax.script.Bindings}.
  * </p>
  *
- * @see javax.script.Bindings interface javax.script.Bindings (the hereby targeted class-under-test class)
- * @see BindingsClassTests BindingsClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.script.BindingsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BindingsTests<SUT extends javax.script.Bindings>
+public abstract interface BindingsTests<SUT extends Bindings>
 extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.Bindings]
 
     /**
      * <p>
-     * Test method for {@link javax.script.Bindings#containsKey(Object) public abstract boolean
-     * javax.script.Bindings.containsKey(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.script.Bindings#containsKey(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Bindings#containsKey(Object) public abstract boolean
      * javax.script.Bindings.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
      * methods soon.
      * </p>
      *
-     * @see javax.script.Bindings#containsKey(Object) public abstract boolean
-     *      javax.script.Bindings.containsKey(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,48 +58,15 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.script.Bindings#get(Object) public abstract java.lang.Object
-     * javax.script.Bindings.get(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.script.Bindings#get(Object) public abstract java.lang.Object
-     * javax.script.Bindings.get(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.script.Bindings#get(Object) public abstract java.lang.Object
-     *      javax.script.Bindings.get(java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.Bindings#putAll(java.util.Map) public abstract void
+     * Test method for the hereby targeted method-under-test {@link Bindings#putAll(Map) public abstract void
      * javax.script.Bindings.putAll(java.util.Map<? extends java.lang.String, ?>)}.
      *
-     * <p>
-     * Test method for {@link javax.script.Bindings#putAll(java.util.Map) public abstract void
-     * javax.script.Bindings.putAll(java.util.Map)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.script.Bindings#putAll(java.util.Map) public abstract void javax.script.Bindings.putAll(java.util.Map)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,20 +81,60 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.script.Bindings#remove(Object) public abstract java.lang.Object
-     * javax.script.Bindings.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.script.Bindings#remove(Object) public abstract java.lang.Object
-     * javax.script.Bindings.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Bindings#get(Object) public abstract
+     * java.lang.Object javax.script.Bindings.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.script.Bindings#remove(Object) public abstract java.lang.Object
-     *      javax.script.Bindings.remove(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Bindings#put(String, Object) public abstract
+     * java.lang.Object javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Bindings#remove(Object) public abstract
+     * java.lang.Object javax.script.Bindings.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -138,31 +147,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.script.Bindings#put(String, Object) public abstract java.lang.Object
-     * javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.script.Bindings#put(String, Object) public abstract java.lang.Object
-     * javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.script.Bindings#put(String, Object) public abstract java.lang.Object
-     *      javax.script.Bindings.put(java.lang.String,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.Bindings]
 
 }

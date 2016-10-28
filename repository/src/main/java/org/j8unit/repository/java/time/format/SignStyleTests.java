@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.time.format;
 
+import java.time.format.SignStyle;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.format.SignStyle class java.time.format.SignStyle}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SignStyleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SignStyle
+ * public final enum java.time.format.SignStyle}.
  * </p>
  *
- * @see java.time.format.SignStyle class java.time.format.SignStyle (the hereby targeted class-under-test class)
- * @see SignStyleClassTests SignStyleClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.format.SignStyleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SignStyleTests<SUT extends java.time.format.SignStyle>
-extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.SignStyle> {
+public abstract interface SignStyleTests<SUT extends SignStyle>
+extends org.j8unit.repository.java.lang.EnumTests<SUT, SignStyle> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.SignStyle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.SignStyle]
 
 }

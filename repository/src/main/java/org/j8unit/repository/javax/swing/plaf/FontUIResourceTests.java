@@ -1,27 +1,34 @@
 package org.j8unit.repository.javax.swing.plaf;
 
+import javax.swing.plaf.FontUIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.FontUIResource class javax.swing.plaf.FontUIResource}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link FontUIResourceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link FontUIResource
+ * public class javax.swing.plaf.FontUIResource}.
  * </p>
  *
- * @see javax.swing.plaf.FontUIResource class javax.swing.plaf.FontUIResource (the hereby targeted class-under-test
- *      class)
- * @see FontUIResourceClassTests FontUIResourceClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.FontUIResourceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FontUIResourceTests<SUT extends javax.swing.plaf.FontUIResource>
-extends UIResourceTests<SUT>, org.j8unit.repository.java.awt.FontTests<SUT> {
+public abstract interface FontUIResourceTests<SUT extends FontUIResource>
+extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.java.awt.FontTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
 
 }

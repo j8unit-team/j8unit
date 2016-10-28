@@ -1,26 +1,35 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.LinkOption;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.LinkOption class java.nio.file.LinkOption}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LinkOptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LinkOption
+ * public final enum java.nio.file.LinkOption}.
  * </p>
  *
- * @see java.nio.file.LinkOption class java.nio.file.LinkOption (the hereby targeted class-under-test class)
- * @see LinkOptionClassTests LinkOptionClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.LinkOptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkOptionTests<SUT extends java.nio.file.LinkOption>
-extends OpenOptionTests<SUT>, CopyOptionTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.nio.file.LinkOption> {
+public abstract interface LinkOptionTests<SUT extends LinkOption>
+extends org.j8unit.repository.java.nio.file.OpenOptionTests<SUT>, org.j8unit.repository.java.nio.file.CopyOptionTests<SUT>,
+org.j8unit.repository.java.lang.EnumTests<SUT, LinkOption> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.LinkOption]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.LinkOption]
 
 }

@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
+import java.util.List;
+import javax.swing.SpinnerListModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.SpinnerListModel class javax.swing.SpinnerListModel}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SpinnerListModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SpinnerListModel public class javax.swing.SpinnerListModel}.
  * </p>
  *
- * @see javax.swing.SpinnerListModel class javax.swing.SpinnerListModel (the hereby targeted class-under-test class)
- * @see SpinnerListModelClassTests SpinnerListModelClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.SpinnerListModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SpinnerListModelTests<SUT extends javax.swing.SpinnerListModel>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerModelTests<SUT> {
+public abstract interface SpinnerListModelTests<SUT extends SpinnerListModel>
+extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpinnerListModel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getList() public java.util.List
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getList() public java.util.List
      * <?> javax.swing.SpinnerListModel.getList()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getList() public java.util.List
-     * javax.swing.SpinnerListModel.getList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#getList() public java.util.List javax.swing.SpinnerListModel.getList() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#setValue(Object) public void
-     * javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#setValue(Object) public void
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#setValue(Object) public void
      * javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +65,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#setValue(Object) public void
-     *      javax.swing.SpinnerListModel.setValue(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,20 +80,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getPreviousValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getPreviousValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getPreviousValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getPreviousValue()}.
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getPreviousValue() public
+     * java.lang.Object javax.swing.SpinnerListModel.getPreviousValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#getPreviousValue() public java.lang.Object
-     *      javax.swing.SpinnerListModel.getPreviousValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,11 +103,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getValue() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getValue() public java.lang.Object
      * javax.swing.SpinnerListModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +111,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#getValue() public java.lang.Object javax.swing.SpinnerListModel.getValue() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -139,20 +126,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#setList(java.util.List) public void
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#setList(List) public void
      * javax.swing.SpinnerListModel.setList(java.util.List<?>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#setList(java.util.List) public void
-     * javax.swing.SpinnerListModel.setList(java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#setList(java.util.List) public void
-     *      javax.swing.SpinnerListModel.setList(java.util.List) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,20 +148,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getNextValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getNextValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getNextValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getNextValue()}.
+     * Test method for the hereby targeted method-under-test {@link SpinnerListModel#getNextValue() public
+     * java.lang.Object javax.swing.SpinnerListModel.getNextValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SpinnerListModel#getNextValue() public java.lang.Object
-     *      javax.swing.SpinnerListModel.getNextValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -191,5 +168,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, AbstractSpinnerMod
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SpinnerListModel]
 
 }

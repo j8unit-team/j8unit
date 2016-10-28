@@ -2,27 +2,33 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.xml.sax.helpers.XMLReaderFactory;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.xml.sax.helpers.XMLReaderFactory class
- * org.xml.sax.helpers.XMLReaderFactory}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link XMLReaderFactoryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link XMLReaderFactory public final class org.xml.sax.helpers.XMLReaderFactory}.
  * </p>
  *
- * @see org.xml.sax.helpers.XMLReaderFactory class org.xml.sax.helpers.XMLReaderFactory (the hereby targeted
- *      class-under-test class)
- * @see XMLReaderFactoryClassTests XMLReaderFactoryClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.xml.sax.helpers.XMLReaderFactoryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLReaderFactoryTests<SUT extends org.xml.sax.helpers.XMLReaderFactory>
+public abstract interface XMLReaderFactoryTests<SUT extends XMLReaderFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderFactory]
 
 }

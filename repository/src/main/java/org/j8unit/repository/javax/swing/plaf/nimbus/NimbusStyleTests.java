@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.nimbus;
 
+import java.awt.Insets;
+import javax.swing.plaf.nimbus.NimbusStyle;
+import javax.swing.plaf.synth.SynthContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.nimbus.NimbusStyle class
- * javax.swing.plaf.nimbus.NimbusStyle}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link NimbusStyleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link NimbusStyle
+ * public final class javax.swing.plaf.nimbus.NimbusStyle}.
  * </p>
  *
- * @see javax.swing.plaf.nimbus.NimbusStyle class javax.swing.plaf.nimbus.NimbusStyle (the hereby targeted
- *      class-under-test class)
- * @see NimbusStyleClassTests NimbusStyleClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.nimbus.NimbusStyleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NimbusStyleTests<SUT extends javax.swing.plaf.nimbus.NimbusStyle>
+public abstract interface NimbusStyleTests<SUT extends NimbusStyle>
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusStyle]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.plaf.synth.SynthPainter
-     * javax.swing.plaf.nimbus.NimbusStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#getPainter(SynthContext) public
      * javax.swing.plaf.synth.SynthPainter
      * javax.swing.plaf.nimbus.NimbusStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
      *
@@ -44,10 +45,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
-     *      javax.swing.plaf.synth.SynthPainter
-     *      javax.swing.plaf.nimbus.NimbusStyle.getPainter(javax.swing.plaf.synth.SynthContext) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -62,24 +60,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getBorderPainter(javax.swing.plaf.synth.SynthContext)
-     * public javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBorderPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getBorderPainter(javax.swing.plaf.synth.SynthContext)
-     * public javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBorderPainter(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#getBorderPainter(SynthContext) public
+     * javax.swing.Painter javax.swing.plaf.nimbus.NimbusStyle.getBorderPainter(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#getBorderPainter(javax.swing.plaf.synth.SynthContext) public
-     *      javax.swing.Painter
-     *      javax.swing.plaf.nimbus.NimbusStyle.getBorderPainter(javax.swing.plaf.synth.SynthContext) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -93,14 +82,30 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
-     * java.awt.Insets
-     * javax.swing.plaf.nimbus.NimbusStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#getBackgroundPainter(SynthContext)
+     * public javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBackgroundPainter_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#getInsets(SynthContext, Insets) public
      * java.awt.Insets
      * javax.swing.plaf.nimbus.NimbusStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets)}.
      *
@@ -109,10 +114,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
-     *      java.awt.Insets
-     *      javax.swing.plaf.nimbus.NimbusStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -127,54 +129,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#isOpaque(SynthContext) public boolean
+     * javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
-     *      javax.swing.Painter
-     *      javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackgroundPainter_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public
-     * boolean javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public
-     * boolean javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public boolean
-     *      javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -189,21 +152,38 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#installDefaults(javax.swing.plaf.synth.SynthContext)
-     * public void javax.swing.plaf.nimbus.NimbusStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#installDefaults(javax.swing.plaf.synth.SynthContext)
-     * public void javax.swing.plaf.nimbus.NimbusStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#getForegroundPainter(SynthContext)
+     * public javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#installDefaults(javax.swing.plaf.synth.SynthContext) public void
-     *      javax.swing.plaf.nimbus.NimbusStyle.installDefaults(javax.swing.plaf.synth.SynthContext) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getForegroundPainter_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#installDefaults(SynthContext) public
+     * void javax.swing.plaf.nimbus.NimbusStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,56 +198,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for the hereby targeted method-under-test {@link NimbusStyle#get(SynthContext, Object) public
+     * java.lang.Object javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
-     *      javax.swing.Painter
-     *      javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getForegroundPainter_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#get(javax.swing.plaf.synth.SynthContext, Object)
-     * public java.lang.Object
-     * javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#get(javax.swing.plaf.synth.SynthContext, Object)
-     * public java.lang.Object
-     * javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.nimbus.NimbusStyle#get(javax.swing.plaf.synth.SynthContext, Object) public java.lang.Object
-     *      javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -279,5 +218,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusStyle]
 
 }

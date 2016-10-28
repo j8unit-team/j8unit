@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.sql.rowset.spi;
 
+import java.io.Reader;
+import javax.sql.rowset.WebRowSet;
+import javax.sql.rowset.spi.XmlReader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +11,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sql.rowset.spi.XmlReader interface javax.sql.rowset.spi.XmlReader}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link XmlReaderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XmlReader
+ * public abstract interface javax.sql.rowset.spi.XmlReader}.
  * </p>
  *
- * @see javax.sql.rowset.spi.XmlReader interface javax.sql.rowset.spi.XmlReader (the hereby targeted class-under-test
- *      class)
- * @see XmlReaderClassTests XmlReaderClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sql.rowset.spi.XmlReaderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XmlReaderTests<SUT extends javax.sql.rowset.spi.XmlReader>
+public abstract interface XmlReaderTests<SUT extends XmlReader>
 extends org.j8unit.repository.javax.sql.RowSetReaderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.spi.XmlReader]
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.XmlReader#readXML(javax.sql.rowset.WebRowSet, java.io.Reader) public
-     * abstract void javax.sql.rowset.spi.XmlReader.readXML(javax.sql.rowset.WebRowSet,java.io.Reader) throws
-     * java.sql.SQLException}.
-     *
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.XmlReader#readXML(javax.sql.rowset.WebRowSet, java.io.Reader) public
-     * abstract void javax.sql.rowset.spi.XmlReader.readXML(javax.sql.rowset.WebRowSet,java.io.Reader) throws
+     * Test method for the hereby targeted method-under-test {@link XmlReader#readXML(WebRowSet, Reader) public abstract
+     * void javax.sql.rowset.spi.XmlReader.readXML(javax.sql.rowset.WebRowSet,java.io.Reader) throws
      * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,9 +45,7 @@ extends org.j8unit.repository.javax.sql.RowSetReaderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sql.rowset.spi.XmlReader#readXML(javax.sql.rowset.WebRowSet, java.io.Reader) public abstract void
-     *      javax.sql.rowset.spi.XmlReader.readXML(javax.sql.rowset.WebRowSet,java.io.Reader) throws
-     *      java.sql.SQLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,5 +56,7 @@ extends org.j8unit.repository.javax.sql.RowSetReaderTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.XmlReader]
 
 }

@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.PropertyChangeEvent;
+import java.beans.VetoableChangeListener;
+import java.beans.VetoableChangeListenerProxy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,35 +11,35 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.VetoableChangeListenerProxy class
- * java.beans.VetoableChangeListenerProxy}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link VetoableChangeListenerProxyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link VetoableChangeListenerProxy public class java.beans.VetoableChangeListenerProxy}.
  * </p>
  *
- * @see java.beans.VetoableChangeListenerProxy class java.beans.VetoableChangeListenerProxy (the hereby targeted
- *      class-under-test class)
- * @see VetoableChangeListenerProxyClassTests VetoableChangeListenerProxyClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.VetoableChangeListenerProxyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VetoableChangeListenerProxyTests<SUT extends java.beans.VetoableChangeListenerProxy>
-extends VetoableChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyTests<SUT, java.beans.VetoableChangeListener> {
+public abstract interface VetoableChangeListenerProxyTests<SUT extends VetoableChangeListenerProxy>
+extends org.j8unit.repository.java.beans.VetoableChangeListenerTests<SUT>,
+org.j8unit.repository.java.util.EventListenerProxyTests<SUT, VetoableChangeListener> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.VetoableChangeListenerProxy]
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeListenerProxy#vetoableChange(java.beans.PropertyChangeEvent)
-     * public void java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
-     * java.beans.PropertyVetoException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeListenerProxy#vetoableChange(java.beans.PropertyChangeEvent)
-     * public void java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link VetoableChangeListenerProxy#vetoableChange(PropertyChangeEvent) public void
+     * java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +47,7 @@ extends VetoableChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeListenerProxy#vetoableChange(java.beans.PropertyChangeEvent) public void
-     *      java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
-     *      java.beans.PropertyVetoException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -61,20 +62,15 @@ extends VetoableChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
-     * java.beans.VetoableChangeListenerProxy.getPropertyName()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
-     * java.beans.VetoableChangeListenerProxy.getPropertyName()}.
+     * Test method for the hereby targeted method-under-test {@link VetoableChangeListenerProxy#getPropertyName() public
+     * java.lang.String java.beans.VetoableChangeListenerProxy.getPropertyName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
-     *      java.beans.VetoableChangeListenerProxy.getPropertyName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,5 +81,7 @@ extends VetoableChangeListenerTests<SUT>, org.j8unit.repository.java.util.EventL
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.VetoableChangeListenerProxy]
 
 }

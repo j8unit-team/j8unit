@@ -6,43 +6,47 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.Node;
+import org.w3c.dom.ls.LSInput;
+import org.w3c.dom.ls.LSParser;
+import org.w3c.dom.ls.LSParserFilter;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.ls.LSParser interface org.w3c.dom.ls.LSParser}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LSParserClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LSParser public
+ * abstract interface org.w3c.dom.ls.LSParser}.
  * </p>
  *
- * @see org.w3c.dom.ls.LSParser interface org.w3c.dom.ls.LSParser (the hereby targeted class-under-test class)
- * @see LSParserClassTests LSParserClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.ls.LSParserClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LSParserTests<SUT extends org.w3c.dom.ls.LSParser>
+public abstract interface LSParserTests<SUT extends LSParser>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.ls.LSParser]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getFilter() public abstract org.w3c.dom.ls.LSParserFilter
-     * org.w3c.dom.ls.LSParser.getFilter()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getFilter() public abstract org.w3c.dom.ls.LSParserFilter
-     * org.w3c.dom.ls.LSParser.getFilter()}.
+     * Test method for the hereby targeted method-under-test {@link LSParser#getFilter() public abstract
+     * org.w3c.dom.ls.LSParserFilter org.w3c.dom.ls.LSParser.getFilter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#getFilter() public abstract org.w3c.dom.ls.LSParserFilter
-     *      org.w3c.dom.ls.LSParser.getFilter() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,11 +60,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getBusy() public abstract boolean
-     * org.w3c.dom.ls.LSParser.getBusy()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getBusy() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link LSParser#getBusy() public abstract boolean
      * org.w3c.dom.ls.LSParser.getBusy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +68,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#getBusy() public abstract boolean org.w3c.dom.ls.LSParser.getBusy() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,46 +82,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#abort() public abstract void org.w3c.dom.ls.LSParser.abort()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#abort() public abstract void org.w3c.dom.ls.LSParser.abort()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.ls.LSParser#abort() public abstract void org.w3c.dom.ls.LSParser.abort() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_abort()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parseURI(String) public abstract org.w3c.dom.Document
-     * org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parseURI(String) public abstract org.w3c.dom.Document
-     * org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
+     * Test method for the hereby targeted method-under-test {@link LSParser#parseURI(String) public abstract
+     * org.w3c.dom.Document org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
+     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#parseURI(String) public abstract org.w3c.dom.Document
-     *      org.w3c.dom.ls.LSParser.parseURI(java.lang.String) throws
-     *      org.w3c.dom.DOMException,org.w3c.dom.ls.LSException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,25 +105,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     * org.w3c.dom.ls.LSParser.getDomConfig()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     * org.w3c.dom.ls.LSParser.getDomConfig()}.
+     * Test method for the hereby targeted method-under-test {@link LSParser#abort() public abstract void
+     * org.w3c.dom.ls.LSParser.abort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     *      org.w3c.dom.ls.LSParser.getDomConfig() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDomConfig()
+    public default void test_abort()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,13 +127,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short)
-     * public abstract org.w3c.dom.Node
-     * org.w3c.dom.ls.LSParser.parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short) throws
-     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short)
+     * Test method for the hereby targeted method-under-test {@link LSParser#parseWithContext(LSInput, Node, short)
      * public abstract org.w3c.dom.Node
      * org.w3c.dom.ls.LSParser.parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
@@ -179,9 +137,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#parseWithContext(org.w3c.dom.ls.LSInput, org.w3c.dom.Node, short) public abstract
-     *      org.w3c.dom.Node org.w3c.dom.ls.LSParser.parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short)
-     *      throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,23 +151,38 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parse(org.w3c.dom.ls.LSInput) public abstract org.w3c.dom.Document
-     * org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}
-     * .
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#parse(org.w3c.dom.ls.LSInput) public abstract org.w3c.dom.Document
-     * org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link LSParser#getDomConfig() public abstract
+     * org.w3c.dom.DOMConfiguration org.w3c.dom.ls.LSParser.getDomConfig()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#parse(org.w3c.dom.ls.LSInput) public abstract org.w3c.dom.Document
-     *      org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws
-     *      org.w3c.dom.DOMException,org.w3c.dom.ls.LSException (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDomConfig()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link LSParser#parse(LSInput) public abstract
+     * org.w3c.dom.Document org.w3c.dom.ls.LSParser.parse(org.w3c.dom.ls.LSInput) throws
+     * org.w3c.dom.DOMException,org.w3c.dom.ls.LSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,11 +196,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getAsync() public abstract boolean
-     * org.w3c.dom.ls.LSParser.getAsync()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#getAsync() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link LSParser#getAsync() public abstract boolean
      * org.w3c.dom.ls.LSParser.getAsync()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -237,8 +204,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#getAsync() public abstract boolean org.w3c.dom.ls.LSParser.getAsync() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,20 +218,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#setFilter(org.w3c.dom.ls.LSParserFilter) public abstract void
-     * org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSParser#setFilter(org.w3c.dom.ls.LSParserFilter) public abstract void
-     * org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter)}.
+     * Test method for the hereby targeted method-under-test {@link LSParser#setFilter(LSParserFilter) public abstract
+     * void org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.ls.LSParser#setFilter(org.w3c.dom.ls.LSParserFilter) public abstract void
-     *      org.w3c.dom.ls.LSParser.setFilter(org.w3c.dom.ls.LSParserFilter) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,5 +237,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.ls.LSParser]
 
 }

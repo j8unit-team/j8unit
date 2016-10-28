@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.util.concurrent.atomic;
 
+import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+import java.util.function.BinaryOperator;
+import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +11,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.atomic.AtomicReferenceFieldUpdater class
- * java.util.concurrent.atomic.AtomicReferenceFieldUpdater}. The complementary j8unit test interface containing the
- * class relevant aspects is {@link AtomicReferenceFieldUpdaterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AtomicReferenceFieldUpdater public abstract class java.util.concurrent.atomic.AtomicReferenceFieldUpdater
+ * <T,V>}.
  * </p>
  *
- * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater class
- *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater (the hereby targeted class-under-test class)
- * @see AtomicReferenceFieldUpdaterClassTests AtomicReferenceFieldUpdaterClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFieldUpdaterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AtomicReferenceFieldUpdaterTests<SUT extends java.util.concurrent.atomic.AtomicReferenceFieldUpdater<T, V>, T, V>
+public abstract interface AtomicReferenceFieldUpdaterTests<SUT extends AtomicReferenceFieldUpdater<T, V>, T, V>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicReferenceFieldUpdater]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#get(Object) public abstract V
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(T)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#get(Object) public abstract
-     * java.lang.Object java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AtomicReferenceFieldUpdater#get(Object) public
+     * abstract V java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#get(Object) public abstract java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,59 +59,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#compareAndSet(Object, Object, Object) public
-     * abstract boolean java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(T,V,V)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#compareAndSet(Object, Object, Object) public
-     * abstract boolean
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#weakCompareAndSet(Object, Object, Object) public abstract boolean
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(T,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#compareAndSet(Object, Object, Object) public
-     *      abstract boolean
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(java.lang.Object,java.lang.Object,java
-     *      .lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareAndSet_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#weakCompareAndSet(Object, Object, Object) public
-     * abstract boolean java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(T,V,V)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#weakCompareAndSet(Object, Object, Object) public
-     * abstract boolean
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#weakCompareAndSet(Object, Object, Object) public
-     *      abstract boolean
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(java.lang.Object,java.lang.Object,
-     *      java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -124,21 +82,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#set(Object, Object) public
-     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(T,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#set(Object, Object) public
-     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#compareAndSet(Object, Object, Object) public abstract boolean
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.compareAndSet(T,V,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#set(Object, Object) public abstract void
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(java.lang.Object,java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareAndSet_Object_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AtomicReferenceFieldUpdater#set(Object, Object)
+     * public abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(T,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,28 +127,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndAccumulate(Object, Object, java.util.function.BinaryOperator)
-     * public final V
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#getAndAccumulate(Object, Object, BinaryOperator) public final V
      * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndAccumulate(T,V,java.util.function.BinaryOperator
      * <V>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndAccumulate(Object, Object, java.util.function.BinaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndAccumulate(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)}
-     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndAccumulate(Object, Object,
-     *      java.util.function.BinaryOperator) public final java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndAccumulate(java.lang.Object,java.lang.Object,
-     *      java.util.function.BinaryOperator) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,28 +151,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#accumulateAndGet(Object, Object, java.util.function.BinaryOperator)
-     * public final V
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#accumulateAndGet(Object, Object, BinaryOperator) public final V
      * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.accumulateAndGet(T,V,java.util.function.BinaryOperator
      * <V>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#accumulateAndGet(Object, Object, java.util.function.BinaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.accumulateAndGet(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)}
-     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#accumulateAndGet(Object, Object,
-     *      java.util.function.BinaryOperator) public final java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.accumulateAndGet(java.lang.Object,java.lang.Object,
-     *      java.util.function.BinaryOperator) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,27 +175,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#updateAndGet(Object, java.util.function.UnaryOperator)
-     * public final V
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#updateAndGet(Object, UnaryOperator) public final V
      * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.updateAndGet(T,java.util.function.UnaryOperator<V>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#updateAndGet(Object, java.util.function.UnaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.updateAndGet(java.lang.Object,java.util.function.UnaryOperator)}
-     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#updateAndGet(Object,
-     *      java.util.function.UnaryOperator) public final java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.updateAndGet(java.lang.Object,java.util.function.
-     *      UnaryOperator) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -256,56 +198,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndSet(Object, Object) public V
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndSet(T,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndSet(Object, Object) public
-     * java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndSet(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndSet(Object, Object) public java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndSet(java.lang.Object,java.lang.Object) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAndSet_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndUpdate(Object, java.util.function.UnaryOperator)
-     * public final V
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#getAndUpdate(Object, UnaryOperator) public final V
      * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndUpdate(T,java.util.function.UnaryOperator<V>)}.
      *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndUpdate(Object, java.util.function.UnaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndUpdate(java.lang.Object,java.util.function.UnaryOperator)}
-     * .
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#getAndUpdate(Object,
-     *      java.util.function.UnaryOperator) public final java.lang.Object
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndUpdate(java.lang.Object,java.util.function.
-     *      UnaryOperator) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -319,22 +221,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#lazySet(Object, Object) public
-     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.lazySet(T,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#lazySet(Object, Object) public
-     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.lazySet(java.lang.Object,java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link AtomicReferenceFieldUpdater#getAndSet(Object, Object) public V
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.getAndSet(T,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.atomic.AtomicReferenceFieldUpdater#lazySet(Object, Object) public abstract void
-     *      java.util.concurrent.atomic.AtomicReferenceFieldUpdater.lazySet(java.lang.Object,java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAndSet_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AtomicReferenceFieldUpdater#lazySet(Object, Object)
+     * public abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.lazySet(T,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,5 +263,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.AtomicReferenceFieldUpdater]
 
 }

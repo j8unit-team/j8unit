@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.security;
 
+import java.security.PrivilegedActionException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.PrivilegedActionException class
- * java.security.PrivilegedActionException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link PrivilegedActionExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PrivilegedActionException public class java.security.PrivilegedActionException}.
  * </p>
  *
- * @see java.security.PrivilegedActionException class java.security.PrivilegedActionException (the hereby targeted
- *      class-under-test class)
- * @see PrivilegedActionExceptionClassTests PrivilegedActionExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.PrivilegedActionExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrivilegedActionExceptionTests<SUT extends java.security.PrivilegedActionException>
+public abstract interface PrivilegedActionExceptionTests<SUT extends PrivilegedActionException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.PrivilegedActionException]
 
     /**
      * <p>
-     * Test method for {@link java.security.PrivilegedActionException#getException() public java.lang.Exception
-     * java.security.PrivilegedActionException.getException()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PrivilegedActionException#getException() public java.lang.Exception
-     * java.security.PrivilegedActionException.getException()}.
+     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#getException() public
+     * java.lang.Exception java.security.PrivilegedActionException.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.PrivilegedActionException#getException() public java.lang.Exception
-     *      java.security.PrivilegedActionException.getException() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.PrivilegedActionException#toString() public java.lang.String
-     * java.security.PrivilegedActionException.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PrivilegedActionException#toString() public java.lang.String
-     * java.security.PrivilegedActionException.toString()}.
+     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#toString() public
+     * java.lang.String java.security.PrivilegedActionException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.PrivilegedActionException#toString() public java.lang.String
-     *      java.security.PrivilegedActionException.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -85,20 +79,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.PrivilegedActionException#getCause() public java.lang.Throwable
-     * java.security.PrivilegedActionException.getCause()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PrivilegedActionException#getCause() public java.lang.Throwable
-     * java.security.PrivilegedActionException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link PrivilegedActionException#getCause() public
+     * java.lang.Throwable java.security.PrivilegedActionException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.PrivilegedActionException#getCause() public java.lang.Throwable
-     *      java.security.PrivilegedActionException.getCause() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,5 +99,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PrivilegedActionException]
 
 }

@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.io;
 
+import java.io.DataOutput;
+import java.io.DataOutputStream;
+import java.io.FilterOutputStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,65 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.DataOutputStream class java.io.DataOutputStream}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DataOutputStreamClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DataOutputStream public class java.io.DataOutputStream}.
  * </p>
  *
- * @see java.io.DataOutputStream class java.io.DataOutputStream (the hereby targeted class-under-test class)
- * @see DataOutputStreamClassTests DataOutputStreamClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.DataOutputStreamClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DataOutputStreamTests<SUT extends java.io.DataOutputStream>
-extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
+public abstract interface DataOutputStreamTests<SUT extends DataOutputStream>
+extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.DataOutputStream]
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#size() public final int java.io.DataOutputStream.size()}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#size() public final int java.io.DataOutputStream.size()}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#flush() public void
+     * java.io.DataOutputStream.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#size() public final int java.io.DataOutputStream.size() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#flush() public void java.io.DataOutputStream.flush() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#flush() public void java.io.DataOutputStream.flush() throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataOutputStream#flush() public void java.io.DataOutputStream.flush() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -81,11 +59,29 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeChar(int) public final void
-     * java.io.DataOutputStream.writeChar(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#size() public final int
+     * java.io.DataOutputStream.size()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeChar(int) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeChar(int) public final void
      * java.io.DataOutputStream.writeChar(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,8 +89,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeChar(int) public final void java.io.DataOutputStream.writeChar(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -109,11 +104,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeLong(long) public final void
-     * java.io.DataOutputStream.writeLong(long) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeLong(long) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeLong(long) public final void
      * java.io.DataOutputStream.writeLong(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,8 +112,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeLong(long) public final void java.io.DataOutputStream.writeLong(long) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -137,21 +127,15 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeBytes(String) public final void
-     * java.io.DataOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeBytes(String) public final void
-     * java.io.DataOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeBytes(String) public final
+     * void java.io.DataOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeBytes(String) public final void
-     *      java.io.DataOutputStream.writeBytes(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -166,49 +150,15 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#write(int) public synchronized void
-     * java.io.DataOutputStream.write(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#write(int) public synchronized void
-     * java.io.DataOutputStream.write(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#write(byte[], int, int) public
+     * synchronized void java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#write(int) public synchronized void java.io.DataOutputStream.write(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#write(byte[], int, int) public synchronized void
-     * java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#write(byte[], int, int) public synchronized void
-     * java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataOutputStream#write(byte[], int, int) public synchronized void
-     *      java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -223,21 +173,38 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeBoolean(boolean) public final void
-     * java.io.DataOutputStream.writeBoolean(boolean) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeBoolean(boolean) public final void
-     * java.io.DataOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#write(int) public synchronized void
+     * java.io.DataOutputStream.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeBoolean(boolean) public final void
-     *      java.io.DataOutputStream.writeBoolean(boolean) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeBoolean(boolean) public final
+     * void java.io.DataOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -252,20 +219,15 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeDouble(double) public final void
-     * java.io.DataOutputStream.writeDouble(double) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeDouble(double) public final void
-     * java.io.DataOutputStream.writeDouble(double) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeDouble(double) public final
+     * void java.io.DataOutputStream.writeDouble(double) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeDouble(double) public final void java.io.DataOutputStream.writeDouble(double)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -280,11 +242,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeUTF(String) public final void
-     * java.io.DataOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeUTF(String) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeUTF(String) public final void
      * java.io.DataOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -292,9 +250,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeUTF(String) public final void
-     *      java.io.DataOutputStream.writeUTF(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -309,11 +265,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeShort(int) public final void
-     * java.io.DataOutputStream.writeShort(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeShort(int) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeShort(int) public final void
      * java.io.DataOutputStream.writeShort(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -321,8 +273,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeShort(int) public final void java.io.DataOutputStream.writeShort(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -337,21 +288,15 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeChars(String) public final void
-     * java.io.DataOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeChars(String) public final void
-     * java.io.DataOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeChars(String) public final
+     * void java.io.DataOutputStream.writeChars(java.lang.String) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeChars(String) public final void
-     *      java.io.DataOutputStream.writeChars(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -366,11 +311,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeInt(int) public final void
-     * java.io.DataOutputStream.writeInt(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeInt(int) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeInt(int) public final void
      * java.io.DataOutputStream.writeInt(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -378,8 +319,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeInt(int) public final void java.io.DataOutputStream.writeInt(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -394,11 +334,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeByte(int) public final void
-     * java.io.DataOutputStream.writeByte(int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeByte(int) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeByte(int) public final void
      * java.io.DataOutputStream.writeByte(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -406,8 +342,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeByte(int) public final void java.io.DataOutputStream.writeByte(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -422,11 +357,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataOutputStream#writeFloat(float) public final void
-     * java.io.DataOutputStream.writeFloat(float) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataOutputStream#writeFloat(float) public final void
+     * Test method for the hereby targeted method-under-test {@link DataOutputStream#writeFloat(float) public final void
      * java.io.DataOutputStream.writeFloat(float) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -434,8 +365,7 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataOutputStream#writeFloat(float) public final void java.io.DataOutputStream.writeFloat(float)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -454,15 +384,17 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.io.FilterOutputStream#write(byte[]) class java.io.FilterOutputStream}</li>
-     * <li>{@linkplain java.io.DataOutput#write(byte[]) interface java.io.DataOutput}</li>
+     * <li>{@link DataOutput#write(byte[]) interface java.io.DataOutput}</li>
+     * <li>{@link FilterOutputStream#write(byte[]) class java.io.FilterOutputStream}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -470,6 +402,10 @@ extends DataOutputTests<SUT>, FilterOutputStreamTests<SUT> {
     @Category(Draft.class)
     public default void test_write_byteArray()
     throws Exception {
+        org.j8unit.repository.java.io.DataOutputTests.super.test_write_byteArray();
+        org.j8unit.repository.java.io.FilterOutputStreamTests.super.test_write_byteArray();
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataOutputStream]
 
 }

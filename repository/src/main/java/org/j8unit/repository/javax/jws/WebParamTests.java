@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.jws;
 
+import javax.jws.WebParam;
+import javax.jws.WebParam.Mode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.jws.WebParam interface javax.jws.WebParam}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link WebParamClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link WebParam public
+ * abstract @interface javax.jws.WebParam}.
  * </p>
  *
- * @see javax.jws.WebParam interface javax.jws.WebParam (the hereby targeted class-under-test class)
- * @see WebParamClassTests WebParamClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.jws.WebParamClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WebParamTests<SUT extends javax.jws.WebParam>
+public abstract interface WebParamTests<SUT extends WebParam>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebParam]
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebParam#mode() public abstract javax.jws.WebParam$Mode
-     * javax.jws.WebParam.mode()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebParam#mode() public abstract javax.jws.WebParam$Mode
-     * javax.jws.WebParam.mode()}.
+     * Test method for the hereby targeted method-under-test {@link WebParam#mode() public abstract
+     * javax.jws.WebParam$Mode javax.jws.WebParam.mode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebParam#mode() public abstract javax.jws.WebParam$Mode javax.jws.WebParam.mode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebParam#targetNamespace() public abstract java.lang.String
-     * javax.jws.WebParam.targetNamespace()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebParam#targetNamespace() public abstract java.lang.String
-     * javax.jws.WebParam.targetNamespace()}.
+     * Test method for the hereby targeted method-under-test {@link WebParam#targetNamespace() public abstract
+     * java.lang.String javax.jws.WebParam.targetNamespace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebParam#targetNamespace() public abstract java.lang.String javax.jws.WebParam.targetNamespace()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,18 +79,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebParam#header() public abstract boolean javax.jws.WebParam.header()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebParam#header() public abstract boolean javax.jws.WebParam.header()}.
+     * Test method for the hereby targeted method-under-test {@link WebParam#header() public abstract boolean
+     * javax.jws.WebParam.header()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebParam#header() public abstract boolean javax.jws.WebParam.header() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,18 +101,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebParam#name() public abstract java.lang.String javax.jws.WebParam.name()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebParam#name() public abstract java.lang.String javax.jws.WebParam.name()}.
+     * Test method for the hereby targeted method-under-test {@link WebParam#name() public abstract java.lang.String
+     * javax.jws.WebParam.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebParam#name() public abstract java.lang.String javax.jws.WebParam.name() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,11 +123,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebParam#partName() public abstract java.lang.String
-     * javax.jws.WebParam.partName()}.
-     *
-     * <p>
-     * Test method for {@link javax.jws.WebParam#partName() public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test {@link WebParam#partName() public abstract java.lang.String
      * javax.jws.WebParam.partName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +131,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.jws.WebParam#partName() public abstract java.lang.String javax.jws.WebParam.partName() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,26 +143,34 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.WebParam]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.jws.WebParam.Mode class javax.jws.WebParam$Mode}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link WebParamClassTests.ModeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Mode public
+     * static final enum javax.jws.WebParam$Mode}.
      * </p>
      *
-     * @see javax.jws.WebParam.Mode class javax.jws.WebParam$Mode (the hereby targeted class-under-test class)
-     * @see WebParamClassTests.ModeClassTests WebParamClassTests.ModeClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.jws.WebParamClassTests.ModeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ModeTests<SUT extends javax.jws.WebParam.Mode>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.jws.WebParam.Mode> {
+    public static abstract interface ModeTests<SUT extends Mode>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, Mode> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebParam$Mode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.WebParam$Mode]
 
     }
 

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.RuntimeOperationsException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.RuntimeOperationsException class
- * javax.management.RuntimeOperationsException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RuntimeOperationsExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RuntimeOperationsException public class javax.management.RuntimeOperationsException}.
  * </p>
  *
- * @see javax.management.RuntimeOperationsException class javax.management.RuntimeOperationsException (the hereby
- *      targeted class-under-test class)
- * @see RuntimeOperationsExceptionClassTests RuntimeOperationsExceptionClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.RuntimeOperationsExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RuntimeOperationsExceptionTests<SUT extends javax.management.RuntimeOperationsException>
-extends JMRuntimeExceptionTests<SUT> {
+public abstract interface RuntimeOperationsExceptionTests<SUT extends RuntimeOperationsException>
+extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.RuntimeOperationsException]
 
     /**
      * <p>
-     * Test method for {@link javax.management.RuntimeOperationsException#getCause() public java.lang.Throwable
-     * javax.management.RuntimeOperationsException.getCause()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.RuntimeOperationsException#getCause() public java.lang.Throwable
-     * javax.management.RuntimeOperationsException.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link RuntimeOperationsException#getCause() public
+     * java.lang.Throwable javax.management.RuntimeOperationsException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.RuntimeOperationsException#getCause() public java.lang.Throwable
-     *      javax.management.RuntimeOperationsException.getCause() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.RuntimeOperationsException#getTargetException() public
-     * java.lang.RuntimeException javax.management.RuntimeOperationsException.getTargetException()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.RuntimeOperationsException#getTargetException() public
-     * java.lang.RuntimeException javax.management.RuntimeOperationsException.getTargetException()}.
+     * Test method for the hereby targeted method-under-test {@link RuntimeOperationsException#getTargetException()
+     * public java.lang.RuntimeException javax.management.RuntimeOperationsException.getTargetException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.RuntimeOperationsException#getTargetException() public java.lang.RuntimeException
-     *      javax.management.RuntimeOperationsException.getTargetException() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,5 +76,7 @@ extends JMRuntimeExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.RuntimeOperationsException]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.parsers;
 
+import javax.xml.parsers.FactoryConfigurationError;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.parsers.FactoryConfigurationError class
- * javax.xml.parsers.FactoryConfigurationError}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link FactoryConfigurationErrorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link FactoryConfigurationError public class javax.xml.parsers.FactoryConfigurationError}.
  * </p>
  *
- * @see javax.xml.parsers.FactoryConfigurationError class javax.xml.parsers.FactoryConfigurationError (the hereby
- *      targeted class-under-test class)
- * @see FactoryConfigurationErrorClassTests FactoryConfigurationErrorClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FactoryConfigurationErrorTests<SUT extends javax.xml.parsers.FactoryConfigurationError>
+public abstract interface FactoryConfigurationErrorTests<SUT extends FactoryConfigurationError>
 extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getCause() public java.lang.Throwable
-     * javax.xml.parsers.FactoryConfigurationError.getCause()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getCause() public java.lang.Throwable
-     * javax.xml.parsers.FactoryConfigurationError.getCause()}.
+     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getCause() public
+     * java.lang.Throwable javax.xml.parsers.FactoryConfigurationError.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.parsers.FactoryConfigurationError#getCause() public java.lang.Throwable
-     *      javax.xml.parsers.FactoryConfigurationError.getCause() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getMessage() public java.lang.String
-     * javax.xml.parsers.FactoryConfigurationError.getMessage()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getMessage() public java.lang.String
-     * javax.xml.parsers.FactoryConfigurationError.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getMessage() public
+     * java.lang.String javax.xml.parsers.FactoryConfigurationError.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.parsers.FactoryConfigurationError#getMessage() public java.lang.String
-     *      javax.xml.parsers.FactoryConfigurationError.getMessage() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,20 +80,15 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
-     * javax.xml.parsers.FactoryConfigurationError.getException()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
-     * javax.xml.parsers.FactoryConfigurationError.getException()}.
+     * Test method for the hereby targeted method-under-test {@link FactoryConfigurationError#getException() public
+     * java.lang.Exception javax.xml.parsers.FactoryConfigurationError.getException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
-     *      javax.xml.parsers.FactoryConfigurationError.getException() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,5 +99,7 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
 
 }

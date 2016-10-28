@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.ws.http;
 
+import javax.xml.ws.http.HTTPException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,32 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.ws.http.HTTPException class javax.xml.ws.http.HTTPException}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link HTTPExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HTTPException
+ * public class javax.xml.ws.http.HTTPException}.
  * </p>
  *
- * @see javax.xml.ws.http.HTTPException class javax.xml.ws.http.HTTPException (the hereby targeted class-under-test
- *      class)
- * @see HTTPExceptionClassTests HTTPExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.ws.http.HTTPExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTTPExceptionTests<SUT extends javax.xml.ws.http.HTTPException>
+public abstract interface HTTPExceptionTests<SUT extends HTTPException>
 extends org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.http.HTTPException]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.http.HTTPException#getStatusCode() public int
-     * javax.xml.ws.http.HTTPException.getStatusCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.ws.http.HTTPException#getStatusCode() public int
+     * Test method for the hereby targeted method-under-test {@link HTTPException#getStatusCode() public int
      * javax.xml.ws.http.HTTPException.getStatusCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,8 +42,7 @@ extends org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.ws.http.HTTPException#getStatusCode() public int javax.xml.ws.http.HTTPException.getStatusCode()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,5 +53,7 @@ extends org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.http.HTTPException]
 
 }

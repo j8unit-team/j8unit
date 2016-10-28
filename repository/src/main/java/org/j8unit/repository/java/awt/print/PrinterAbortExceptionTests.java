@@ -1,28 +1,34 @@
 package org.j8unit.repository.java.awt.print;
 
+import java.awt.print.PrinterAbortException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.print.PrinterAbortException class
- * java.awt.print.PrinterAbortException}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link PrinterAbortExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PrinterAbortException public class java.awt.print.PrinterAbortException}.
  * </p>
  *
- * @see java.awt.print.PrinterAbortException class java.awt.print.PrinterAbortException (the hereby targeted
- *      class-under-test class)
- * @see PrinterAbortExceptionClassTests PrinterAbortExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.print.PrinterAbortExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrinterAbortExceptionTests<SUT extends java.awt.print.PrinterAbortException>
-extends PrinterExceptionTests<SUT> {
+public abstract interface PrinterAbortExceptionTests<SUT extends PrinterAbortException>
+extends org.j8unit.repository.java.awt.print.PrinterExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PrinterAbortException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.io;
 
+import java.io.ObjectOutput;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,41 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.ObjectOutput interface java.io.ObjectOutput}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link ObjectOutputClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ObjectOutput
+ * public abstract interface java.io.ObjectOutput}.
  * </p>
  *
- * @see java.io.ObjectOutput interface java.io.ObjectOutput (the hereby targeted class-under-test class)
- * @see ObjectOutputClassTests ObjectOutputClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.ObjectOutputClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectOutputTests<SUT extends java.io.ObjectOutput>
-extends DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
+public abstract interface ObjectOutputTests<SUT extends ObjectOutput>
+extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutput]
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#writeObject(Object) public abstract void
-     * java.io.ObjectOutput.writeObject(java.lang.Object) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#writeObject(Object) public abstract void
-     * java.io.ObjectOutput.writeObject(java.lang.Object) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#writeObject(Object) public abstract
+     * void java.io.ObjectOutput.writeObject(java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutput#writeObject(Object) public abstract void
-     *      java.io.ObjectOutput.writeObject(java.lang.Object) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +56,15 @@ extends DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#flush() public abstract void java.io.ObjectOutput.flush() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#flush() public abstract void java.io.ObjectOutput.flush() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#flush() public abstract void
+     * java.io.ObjectOutput.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutput#flush() public abstract void java.io.ObjectOutput.flush() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,26 +78,21 @@ extends DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#write(byte[]) public abstract void java.io.ObjectOutput.write(byte[])
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#write(byte[]) public abstract void java.io.ObjectOutput.write(byte[])
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#close() public abstract void
+     * java.io.ObjectOutput.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutput#write(byte[]) public abstract void java.io.ObjectOutput.write(byte[]) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_write_byteArray()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,48 +101,15 @@ extends DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#write(int) public abstract void java.io.ObjectOutput.write(int)
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#write(int) public abstract void java.io.ObjectOutput.write(int)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#write(byte[], int, int) public abstract
+     * void java.io.ObjectOutput.write(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutput#write(int) public abstract void java.io.ObjectOutput.write(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#write(byte[], int, int) public abstract void
-     * java.io.ObjectOutput.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#write(byte[], int, int) public abstract void
-     * java.io.ObjectOutput.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.ObjectOutput#write(byte[], int, int) public abstract void java.io.ObjectOutput.write(byte[],int,int)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -167,30 +124,50 @@ extends DataOutputTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectOutput#close() public abstract void java.io.ObjectOutput.close() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectOutput#close() public abstract void java.io.ObjectOutput.close() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#write(int) public abstract void
+     * java.io.ObjectOutput.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectOutput#close() public abstract void java.io.ObjectOutput.close() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_close()
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ObjectOutput#write(byte[]) public abstract void
+     * java.io.ObjectOutput.write(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutput]
 
 }

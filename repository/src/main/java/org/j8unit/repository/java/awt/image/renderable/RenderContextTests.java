@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.awt.image.renderable;
 
+import java.awt.RenderingHints;
+import java.awt.Shape;
+import java.awt.geom.AffineTransform;
+import java.awt.image.renderable.RenderContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,35 +12,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.image.renderable.RenderContext class
- * java.awt.image.renderable.RenderContext}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RenderContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RenderContext
+ * public class java.awt.image.renderable.RenderContext}.
  * </p>
  *
- * @see java.awt.image.renderable.RenderContext class java.awt.image.renderable.RenderContext (the hereby targeted
- *      class-under-test class)
- * @see RenderContextClassTests RenderContextClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.image.renderable.RenderContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RenderContextTests<SUT extends java.awt.image.renderable.RenderContext>
+public abstract interface RenderContextTests<SUT extends RenderContext>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.renderable.RenderContext]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcetenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcetenateTransform(java.awt.geom.AffineTransform) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link RenderContext#preConcetenateTransform(AffineTransform) public void
      * java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +46,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#preConcetenateTransform(java.awt.geom.AffineTransform) public void
-     *      java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,50 +60,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#concetenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.concetenateTransform(java.awt.geom.AffineTransform)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#concetenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.concetenateTransform(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test {@link RenderContext#getAreaOfInterest() public
+     * java.awt.Shape java.awt.image.renderable.RenderContext.getAreaOfInterest()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#concetenateTransform(java.awt.geom.AffineTransform) public void
-     *      java.awt.image.renderable.RenderContext.concetenateTransform(java.awt.geom.AffineTransform) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_concetenateTransform_AffineTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getAreaOfInterest() public java.awt.Shape
-     * java.awt.image.renderable.RenderContext.getAreaOfInterest()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getAreaOfInterest() public java.awt.Shape
-     * java.awt.image.renderable.RenderContext.getAreaOfInterest()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.renderable.RenderContext#getAreaOfInterest() public java.awt.Shape
-     *      java.awt.image.renderable.RenderContext.getAreaOfInterest() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -117,11 +82,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setTransform(java.awt.geom.AffineTransform) public
-     * void java.awt.image.renderable.RenderContext.setTransform(java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test {@link RenderContext#concetenateTransform(AffineTransform)
+     * public void java.awt.image.renderable.RenderContext.concetenateTransform(java.awt.geom.AffineTransform)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_concetenateTransform_AffineTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setTransform(java.awt.geom.AffineTransform) public
+     * Test method for the hereby targeted method-under-test {@link RenderContext#setTransform(AffineTransform) public
      * void java.awt.image.renderable.RenderContext.setTransform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,9 +112,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#setTransform(java.awt.geom.AffineTransform) public void
-     *      java.awt.image.renderable.RenderContext.setTransform(java.awt.geom.AffineTransform) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -145,11 +126,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setAreaOfInterest(java.awt.Shape) public void
-     * java.awt.image.renderable.RenderContext.setAreaOfInterest(java.awt.Shape)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setAreaOfInterest(java.awt.Shape) public void
+     * Test method for the hereby targeted method-under-test {@link RenderContext#setAreaOfInterest(Shape) public void
      * java.awt.image.renderable.RenderContext.setAreaOfInterest(java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -157,9 +134,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#setAreaOfInterest(java.awt.Shape) public void
-     *      java.awt.image.renderable.RenderContext.setAreaOfInterest(java.awt.Shape) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,13 +148,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcatenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.preConcatenateTransform(java.awt.geom.AffineTransform)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcatenateTransform(java.awt.geom.AffineTransform) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link RenderContext#preConcatenateTransform(AffineTransform) public void
      * java.awt.image.renderable.RenderContext.preConcatenateTransform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -187,9 +157,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#preConcatenateTransform(java.awt.geom.AffineTransform) public void
-     *      java.awt.image.renderable.RenderContext.preConcatenateTransform(java.awt.geom.AffineTransform) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -203,21 +171,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setRenderingHints(java.awt.RenderingHints) public
-     * void java.awt.image.renderable.RenderContext.setRenderingHints(java.awt.RenderingHints)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setRenderingHints(java.awt.RenderingHints) public
-     * void java.awt.image.renderable.RenderContext.setRenderingHints(java.awt.RenderingHints)}.
+     * Test method for the hereby targeted method-under-test {@link RenderContext#setRenderingHints(RenderingHints)
+     * public void java.awt.image.renderable.RenderContext.setRenderingHints(java.awt.RenderingHints)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#setRenderingHints(java.awt.RenderingHints) public void
-     *      java.awt.image.renderable.RenderContext.setRenderingHints(java.awt.RenderingHints) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -231,50 +193,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#clone() public java.lang.Object
-     * java.awt.image.renderable.RenderContext.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#clone() public java.lang.Object
-     * java.awt.image.renderable.RenderContext.clone()}.
+     * Test method for the hereby targeted method-under-test {@link RenderContext#concatenateTransform(AffineTransform)
+     * public void java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#clone() public java.lang.Object
-     *      java.awt.image.renderable.RenderContext.clone() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#concatenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#concatenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.renderable.RenderContext#concatenateTransform(java.awt.geom.AffineTransform) public void
-     *      java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -288,20 +215,37 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getRenderingHints() public java.awt.RenderingHints
-     * java.awt.image.renderable.RenderContext.getRenderingHints()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getRenderingHints() public java.awt.RenderingHints
-     * java.awt.image.renderable.RenderContext.getRenderingHints()}.
+     * Test method for the hereby targeted method-under-test {@link RenderContext#clone() public java.lang.Object
+     * java.awt.image.renderable.RenderContext.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#getRenderingHints() public java.awt.RenderingHints
-     *      java.awt.image.renderable.RenderContext.getRenderingHints() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link RenderContext#getRenderingHints() public
+     * java.awt.RenderingHints java.awt.image.renderable.RenderContext.getRenderingHints()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -315,11 +259,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getTransform() public
-     * java.awt.geom.AffineTransform java.awt.image.renderable.RenderContext.getTransform()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getTransform() public
+     * Test method for the hereby targeted method-under-test {@link RenderContext#getTransform() public
      * java.awt.geom.AffineTransform java.awt.image.renderable.RenderContext.getTransform()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -327,8 +267,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.renderable.RenderContext#getTransform() public java.awt.geom.AffineTransform
-     *      java.awt.image.renderable.RenderContext.getTransform() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -339,5 +278,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.renderable.RenderContext]
 
 }

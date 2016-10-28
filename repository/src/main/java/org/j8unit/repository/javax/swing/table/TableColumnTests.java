@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.table;
 
+import java.beans.PropertyChangeListener;
+import javax.swing.table.TableCellEditor;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.table.TableColumn class javax.swing.table.TableColumn}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link TableColumnClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TableColumn
+ * public class javax.swing.table.TableColumn}.
  * </p>
  *
- * @see javax.swing.table.TableColumn class javax.swing.table.TableColumn (the hereby targeted class-under-test class)
- * @see TableColumnClassTests TableColumnClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.table.TableColumnClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TableColumnTests<SUT extends javax.swing.table.TableColumn>
+public abstract interface TableColumnTests<SUT extends TableColumn>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableColumn]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setResizable(boolean) public void
-     * javax.swing.table.TableColumn.setResizable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setResizable(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setResizable(boolean) public void
      * javax.swing.table.TableColumn.setResizable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +45,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setResizable(boolean) public void
-     *      javax.swing.table.TableColumn.setResizable(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +59,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getPreferredWidth() public int
-     * javax.swing.table.TableColumn.getPreferredWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getPreferredWidth() public int
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getPreferredWidth() public int
      * javax.swing.table.TableColumn.getPreferredWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +67,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getPreferredWidth() public int
-     *      javax.swing.table.TableColumn.getPreferredWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,21 +81,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getPropertyChangeListeners() public synchronized
-     * java.beans.PropertyChangeListener[] javax.swing.table.TableColumn.getPropertyChangeListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getPropertyChangeListeners() public synchronized
-     * java.beans.PropertyChangeListener[] javax.swing.table.TableColumn.getPropertyChangeListeners()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getPropertyChangeListeners() public
+     * synchronized java.beans.PropertyChangeListener[] javax.swing.table.TableColumn.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getPropertyChangeListeners() public synchronized
-     *      java.beans.PropertyChangeListener[] javax.swing.table.TableColumn.getPropertyChangeListeners() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,24 +103,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumn#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     * synchronized void javax.swing.table.TableColumn.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumn#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     * synchronized void javax.swing.table.TableColumn.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link TableColumn#removePropertyChangeListener(PropertyChangeListener) public synchronized void
+     * javax.swing.table.TableColumn.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     *      synchronized void
-     *      javax.swing.table.TableColumn.removePropertyChangeListener(java.beans.PropertyChangeListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,20 +126,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getCellRenderer() public javax.swing.table.TableCellRenderer
-     * javax.swing.table.TableColumn.getCellRenderer()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getCellRenderer() public javax.swing.table.TableCellRenderer
-     * javax.swing.table.TableColumn.getCellRenderer()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getCellRenderer() public
+     * javax.swing.table.TableCellRenderer javax.swing.table.TableColumn.getCellRenderer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getCellRenderer() public javax.swing.table.TableCellRenderer
-     *      javax.swing.table.TableColumn.getCellRenderer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -168,48 +148,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setWidth(int) public void
-     * javax.swing.table.TableColumn.setWidth(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setWidth(int) public void
-     * javax.swing.table.TableColumn.setWidth(int)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setCellEditor(TableCellEditor) public
+     * void javax.swing.table.TableColumn.setCellEditor(javax.swing.table.TableCellEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setWidth(int) public void javax.swing.table.TableColumn.setWidth(int) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWidth_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setCellEditor(javax.swing.table.TableCellEditor) public void
-     * javax.swing.table.TableColumn.setCellEditor(javax.swing.table.TableCellEditor)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setCellEditor(javax.swing.table.TableCellEditor) public void
-     * javax.swing.table.TableColumn.setCellEditor(javax.swing.table.TableCellEditor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.TableColumn#setCellEditor(javax.swing.table.TableCellEditor) public void
-     *      javax.swing.table.TableColumn.setCellEditor(javax.swing.table.TableCellEditor) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,11 +170,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setMaxWidth(int) public void
-     * javax.swing.table.TableColumn.setMaxWidth(int)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setWidth(int) public void
+     * javax.swing.table.TableColumn.setWidth(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWidth_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setMaxWidth(int) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setMaxWidth(int) public void
      * javax.swing.table.TableColumn.setMaxWidth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,8 +200,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setMaxWidth(int) public void javax.swing.table.TableColumn.setMaxWidth(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,11 +214,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setHeaderValue(Object) public void
-     * javax.swing.table.TableColumn.setHeaderValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setHeaderValue(Object) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setHeaderValue(Object) public void
      * javax.swing.table.TableColumn.setHeaderValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +222,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setHeaderValue(Object) public void
-     *      javax.swing.table.TableColumn.setHeaderValue(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,11 +236,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getHeaderRenderer() public
-     * javax.swing.table.TableCellRenderer javax.swing.table.TableColumn.getHeaderRenderer()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getHeaderRenderer() public
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getHeaderRenderer() public
      * javax.swing.table.TableCellRenderer javax.swing.table.TableColumn.getHeaderRenderer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,8 +244,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getHeaderRenderer() public javax.swing.table.TableCellRenderer
-     *      javax.swing.table.TableColumn.getHeaderRenderer() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -304,11 +258,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#enableResizedPosting() public void
-     * javax.swing.table.TableColumn.enableResizedPosting()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#enableResizedPosting() public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#enableResizedPosting() public void
      * javax.swing.table.TableColumn.enableResizedPosting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -316,8 +266,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#enableResizedPosting() public void
-     *      javax.swing.table.TableColumn.enableResizedPosting() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,11 +280,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setHeaderRenderer(javax.swing.table.TableCellRenderer)
-     * public void javax.swing.table.TableColumn.setHeaderRenderer(javax.swing.table.TableCellRenderer)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setHeaderRenderer(javax.swing.table.TableCellRenderer)
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setHeaderRenderer(TableCellRenderer)
      * public void javax.swing.table.TableColumn.setHeaderRenderer(javax.swing.table.TableCellRenderer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -343,9 +288,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setHeaderRenderer(javax.swing.table.TableCellRenderer) public void
-     *      javax.swing.table.TableColumn.setHeaderRenderer(javax.swing.table.TableCellRenderer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,11 +302,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#disableResizedPosting() public void
-     * javax.swing.table.TableColumn.disableResizedPosting()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#disableResizedPosting() public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#disableResizedPosting() public void
      * javax.swing.table.TableColumn.disableResizedPosting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,8 +310,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#disableResizedPosting() public void
-     *      javax.swing.table.TableColumn.disableResizedPosting() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -386,11 +324,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setIdentifier(Object) public void
-     * javax.swing.table.TableColumn.setIdentifier(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setIdentifier(Object) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setIdentifier(Object) public void
      * javax.swing.table.TableColumn.setIdentifier(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -398,8 +332,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setIdentifier(Object) public void
-     *      javax.swing.table.TableColumn.setIdentifier(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -413,11 +346,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setMinWidth(int) public void
-     * javax.swing.table.TableColumn.setMinWidth(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setMinWidth(int) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setMinWidth(int) public void
      * javax.swing.table.TableColumn.setMinWidth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -425,8 +354,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setMinWidth(int) public void javax.swing.table.TableColumn.setMinWidth(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -440,11 +368,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getResizable() public boolean
-     * javax.swing.table.TableColumn.getResizable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getResizable() public boolean
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getResizable() public boolean
      * javax.swing.table.TableColumn.getResizable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -452,8 +376,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getResizable() public boolean javax.swing.table.TableColumn.getResizable()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -467,38 +390,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getMaxWidth() public int
-     * javax.swing.table.TableColumn.getMaxWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getMaxWidth() public int
-     * javax.swing.table.TableColumn.getMaxWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.TableColumn#getMaxWidth() public int javax.swing.table.TableColumn.getMaxWidth() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setModelIndex(int) public void
-     * javax.swing.table.TableColumn.setModelIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setModelIndex(int) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setModelIndex(int) public void
      * javax.swing.table.TableColumn.setModelIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -506,8 +398,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setModelIndex(int) public void
-     *      javax.swing.table.TableColumn.setModelIndex(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -521,11 +412,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#sizeWidthToFit() public void
-     * javax.swing.table.TableColumn.sizeWidthToFit()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getMaxWidth() public int
+     * javax.swing.table.TableColumn.getMaxWidth()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#sizeWidthToFit() public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#sizeWidthToFit() public void
      * javax.swing.table.TableColumn.sizeWidthToFit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -533,8 +442,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#sizeWidthToFit() public void javax.swing.table.TableColumn.sizeWidthToFit()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -548,11 +456,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getHeaderValue() public java.lang.Object
-     * javax.swing.table.TableColumn.getHeaderValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getHeaderValue() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getHeaderValue() public java.lang.Object
      * javax.swing.table.TableColumn.getHeaderValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -560,8 +464,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getHeaderValue() public java.lang.Object
-     *      javax.swing.table.TableColumn.getHeaderValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -575,11 +478,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getWidth() public int
-     * javax.swing.table.TableColumn.getWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getWidth() public int
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getWidth() public int
      * javax.swing.table.TableColumn.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -587,8 +486,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getWidth() public int javax.swing.table.TableColumn.getWidth() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -602,11 +500,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getIdentifier() public java.lang.Object
-     * javax.swing.table.TableColumn.getIdentifier()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getIdentifier() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getIdentifier() public java.lang.Object
      * javax.swing.table.TableColumn.getIdentifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -614,8 +508,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getIdentifier() public java.lang.Object
-     *      javax.swing.table.TableColumn.getIdentifier() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -629,11 +522,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setPreferredWidth(int) public void
-     * javax.swing.table.TableColumn.setPreferredWidth(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setPreferredWidth(int) public void
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setPreferredWidth(int) public void
      * javax.swing.table.TableColumn.setPreferredWidth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -641,8 +530,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setPreferredWidth(int) public void
-     *      javax.swing.table.TableColumn.setPreferredWidth(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -656,11 +544,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getMinWidth() public int
-     * javax.swing.table.TableColumn.getMinWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getMinWidth() public int
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getMinWidth() public int
      * javax.swing.table.TableColumn.getMinWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -668,8 +552,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getMinWidth() public int javax.swing.table.TableColumn.getMinWidth() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -683,11 +566,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getModelIndex() public int
-     * javax.swing.table.TableColumn.getModelIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getModelIndex() public int
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getModelIndex() public int
      * javax.swing.table.TableColumn.getModelIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -695,8 +574,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getModelIndex() public int javax.swing.table.TableColumn.getModelIndex() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -710,13 +588,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
-     * javax.swing.table.TableColumn.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void
+     * Test method for the hereby targeted method-under-test
+     * {@link TableColumn#addPropertyChangeListener(PropertyChangeListener) public synchronized void
      * javax.swing.table.TableColumn.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -724,9 +597,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     *      synchronized void javax.swing.table.TableColumn.addPropertyChangeListener(java.beans.PropertyChangeListener)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -740,20 +611,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getCellEditor() public javax.swing.table.TableCellEditor
-     * javax.swing.table.TableColumn.getCellEditor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#getCellEditor() public javax.swing.table.TableCellEditor
-     * javax.swing.table.TableColumn.getCellEditor()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#getCellEditor() public
+     * javax.swing.table.TableCellEditor javax.swing.table.TableColumn.getCellEditor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#getCellEditor() public javax.swing.table.TableCellEditor
-     *      javax.swing.table.TableColumn.getCellEditor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -767,21 +633,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setCellRenderer(javax.swing.table.TableCellRenderer) public
-     * void javax.swing.table.TableColumn.setCellRenderer(javax.swing.table.TableCellRenderer)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumn#setCellRenderer(javax.swing.table.TableCellRenderer) public
-     * void javax.swing.table.TableColumn.setCellRenderer(javax.swing.table.TableCellRenderer)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumn#setCellRenderer(TableCellRenderer)
+     * public void javax.swing.table.TableColumn.setCellRenderer(javax.swing.table.TableCellRenderer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumn#setCellRenderer(javax.swing.table.TableCellRenderer) public void
-     *      javax.swing.table.TableColumn.setCellRenderer(javax.swing.table.TableCellRenderer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -792,5 +652,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.TableColumn]
 
 }

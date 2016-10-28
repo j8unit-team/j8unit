@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.MBeanFeatureInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.MBeanFeatureInfo class javax.management.MBeanFeatureInfo}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link MBeanFeatureInfoClassTests}
- * .
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MBeanFeatureInfo public class javax.management.MBeanFeatureInfo}.
  * </p>
  *
- * @see javax.management.MBeanFeatureInfo class javax.management.MBeanFeatureInfo (the hereby targeted class-under-test
- *      class)
- * @see MBeanFeatureInfoClassTests MBeanFeatureInfoClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MBeanFeatureInfoTests<SUT extends javax.management.MBeanFeatureInfo>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface MBeanFeatureInfoTests<SUT extends MBeanFeatureInfo>
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.management.DescriptorReadTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanFeatureInfo]
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#equals(Object) public boolean
-     * javax.management.MBeanFeatureInfo.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#equals(Object) public boolean
      * javax.management.MBeanFeatureInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanFeatureInfo#equals(Object) public boolean
-     *      javax.management.MBeanFeatureInfo.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +58,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#hashCode() public int
-     * javax.management.MBeanFeatureInfo.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#hashCode() public int
      * javax.management.MBeanFeatureInfo.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +66,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanFeatureInfo#hashCode() public int javax.management.MBeanFeatureInfo.hashCode() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,11 +81,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getName() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getName() public java.lang.String
      * javax.management.MBeanFeatureInfo.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +89,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanFeatureInfo#getName() public java.lang.String
-     *      javax.management.MBeanFeatureInfo.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,20 +103,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getDescriptor() public javax.management.Descriptor
-     * javax.management.MBeanFeatureInfo.getDescriptor()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getDescriptor() public javax.management.Descriptor
-     * javax.management.MBeanFeatureInfo.getDescriptor()}.
+     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getDescriptor() public
+     * javax.management.Descriptor javax.management.MBeanFeatureInfo.getDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanFeatureInfo#getDescriptor() public javax.management.Descriptor
-     *      javax.management.MBeanFeatureInfo.getDescriptor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -141,20 +126,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getDescription() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getDescription() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link MBeanFeatureInfo#getDescription() public
+     * java.lang.String javax.management.MBeanFeatureInfo.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanFeatureInfo#getDescription() public java.lang.String
-     *      javax.management.MBeanFeatureInfo.getDescription() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,5 +145,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, DescriptorReadTest
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanFeatureInfo]
 
 }

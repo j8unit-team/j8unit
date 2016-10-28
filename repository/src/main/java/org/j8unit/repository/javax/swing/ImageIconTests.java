@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.swing;
 
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.image.ImageObserver;
+import javax.swing.ImageIcon;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,59 +13,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.ImageIcon class javax.swing.ImageIcon}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link ImageIconClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ImageIcon
+ * public class javax.swing.ImageIcon}.
  * </p>
  *
- * @see javax.swing.ImageIcon class javax.swing.ImageIcon (the hereby targeted class-under-test class)
- * @see ImageIconClassTests ImageIconClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.ImageIconClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ImageIconTests<SUT extends javax.swing.ImageIcon>
-extends IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ImageIconTests<SUT extends ImageIcon>
+extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ImageIcon]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#setDescription(String) public void
-     * javax.swing.ImageIcon.setDescription(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#setDescription(String) public void
-     * javax.swing.ImageIcon.setDescription(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.ImageIcon#setDescription(String) public void
-     *      javax.swing.ImageIcon.setDescription(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDescription_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageLoadStatus() public int
-     * javax.swing.ImageIcon.getImageLoadStatus()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageLoadStatus() public int
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getImageLoadStatus() public int
      * javax.swing.ImageIcon.getImageLoadStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +47,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#getImageLoadStatus() public int javax.swing.ImageIcon.getImageLoadStatus() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,20 +61,37 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#toString() public java.lang.String javax.swing.ImageIcon.toString()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#toString() public java.lang.String javax.swing.ImageIcon.toString()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#setDescription(String) public void
+     * javax.swing.ImageIcon.setDescription(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#toString() public java.lang.String javax.swing.ImageIcon.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDescription_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#toString() public java.lang.String
+     * javax.swing.ImageIcon.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,20 +106,81 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.ImageIcon.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.ImageIcon.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getImageObserver() public
+     * java.awt.image.ImageObserver javax.swing.ImageIcon.getImageObserver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.ImageIcon.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getDescription() public java.lang.String
+     * javax.swing.ImageIcon.getDescription()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescription()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getImage() public java.awt.Image
+     * javax.swing.ImageIcon.getImage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.ImageIcon.getAccessibleContext()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -139,100 +195,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImage() public java.awt.Image javax.swing.ImageIcon.getImage()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImage() public java.awt.Image javax.swing.ImageIcon.getImage()}.
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#paintIcon(Component, Graphics, int, int)
+     * public synchronized void javax.swing.ImageIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#getImage() public java.awt.Image javax.swing.ImageIcon.getImage() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getDescription() public java.lang.String
-     * javax.swing.ImageIcon.getDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getDescription() public java.lang.String
-     * javax.swing.ImageIcon.getDescription()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.ImageIcon#getDescription() public java.lang.String javax.swing.ImageIcon.getDescription() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDescription()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageObserver() public java.awt.image.ImageObserver
-     * javax.swing.ImageIcon.getImageObserver()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageObserver() public java.awt.image.ImageObserver
-     * javax.swing.ImageIcon.getImageObserver()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.ImageIcon#getImageObserver() public java.awt.image.ImageObserver
-     *      javax.swing.ImageIcon.getImageObserver() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImageObserver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public
-     * synchronized void javax.swing.ImageIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public
-     * synchronized void javax.swing.ImageIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.ImageIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int) public synchronized void
-     *      javax.swing.ImageIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -247,11 +218,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#setImage(java.awt.Image) public void
-     * javax.swing.ImageIcon.setImage(java.awt.Image)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#setImage(java.awt.Image) public void
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#setImage(Image) public void
      * javax.swing.ImageIcon.setImage(java.awt.Image)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +226,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#setImage(java.awt.Image) public void javax.swing.ImageIcon.setImage(java.awt.Image)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,18 +240,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconWidth() public int javax.swing.ImageIcon.getIconWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconWidth() public int javax.swing.ImageIcon.getIconWidth()}.
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getIconWidth() public int
+     * javax.swing.ImageIcon.getIconWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#getIconWidth() public int javax.swing.ImageIcon.getIconWidth() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -300,20 +263,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#setImageObserver(java.awt.image.ImageObserver) public void
-     * javax.swing.ImageIcon.setImageObserver(java.awt.image.ImageObserver)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#setImageObserver(java.awt.image.ImageObserver) public void
-     * javax.swing.ImageIcon.setImageObserver(java.awt.image.ImageObserver)}.
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#setImageObserver(ImageObserver) public
+     * void javax.swing.ImageIcon.setImageObserver(java.awt.image.ImageObserver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#setImageObserver(java.awt.image.ImageObserver) public void
-     *      javax.swing.ImageIcon.setImageObserver(java.awt.image.ImageObserver) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -327,18 +285,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconHeight() public int javax.swing.ImageIcon.getIconHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconHeight() public int javax.swing.ImageIcon.getIconHeight()}.
+     * Test method for the hereby targeted method-under-test {@link ImageIcon#getIconHeight() public int
+     * javax.swing.ImageIcon.getIconHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ImageIcon#getIconHeight() public int javax.swing.ImageIcon.getIconHeight() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -350,5 +305,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ImageIcon]
 
 }

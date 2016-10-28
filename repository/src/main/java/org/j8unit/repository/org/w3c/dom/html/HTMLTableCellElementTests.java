@@ -5,45 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.html.HTMLTableCellElement;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.html.HTMLTableCellElement interface
- * org.w3c.dom.html.HTMLTableCellElement}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link HTMLTableCellElementClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HTMLTableCellElement public abstract interface org.w3c.dom.html.HTMLTableCellElement}.
  * </p>
  *
- * @see org.w3c.dom.html.HTMLTableCellElement interface org.w3c.dom.html.HTMLTableCellElement (the hereby targeted
- *      class-under-test class)
- * @see HTMLTableCellElementClassTests HTMLTableCellElementClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableCellElementClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HTMLTableCellElementTests<SUT extends org.w3c.dom.html.HTMLTableCellElement>
-extends HTMLElementTests<SUT> {
+public abstract interface HTMLTableCellElementTests<SUT extends HTMLTableCellElement>
+extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLTableCellElement]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getWidth() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getWidth()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getWidth() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getWidth() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getWidth() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getCh()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getCh()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getCh() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getCh()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getCh() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getCh() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setChOff(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setChOff(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setChOff(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setChOff(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setChOff(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setChOff(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setChOff(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setChOff(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +100,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getCellIndex() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getCellIndex()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getCellIndex() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getCellIndex()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getCellIndex() public abstract
+     * int org.w3c.dom.html.HTMLTableCellElement.getCellIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getCellIndex() public abstract int
-     *      org.w3c.dom.html.HTMLTableCellElement.getCellIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +122,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAbbr() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAbbr()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAbbr() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAbbr()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getAbbr() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getAbbr()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getAbbr() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getAbbr() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,20 +144,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setVAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setVAlign(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setVAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setVAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setVAlign(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setVAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setVAlign(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setVAlign(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,20 +166,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getVAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getVAlign()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getVAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getVAlign()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getVAlign() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getVAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getVAlign() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getVAlign() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,20 +188,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getHeight() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getHeight()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getHeight() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getHeight() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getHeight() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getHeight() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -246,20 +210,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getChOff() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getChOff()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getChOff() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getChOff()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getChOff() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getChOff()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getChOff() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getChOff() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,20 +232,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setBgColor(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setBgColor(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setBgColor(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setBgColor(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setBgColor(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setBgColor(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setBgColor(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setBgColor(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,47 +254,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAxis(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAxis(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAxis(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAxis(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setNoWrap(boolean) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setNoWrap(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setAxis(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setAxis(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAxis_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setNoWrap(boolean) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setNoWrap(boolean)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setNoWrap(boolean) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setNoWrap(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setNoWrap(boolean) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setNoWrap(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,20 +276,37 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAxis() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAxis()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAxis() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAxis()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setAxis(String) public abstract
+     * void org.w3c.dom.html.HTMLTableCellElement.setAxis(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getAxis() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getAxis() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAxis_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getAxis() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getAxis()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,20 +320,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAlign()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getAlign()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getAlign() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getAlign()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getAlign() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getAlign() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -408,74 +342,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setHeight(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setHeight(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setHeight(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setHeight(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getColSpan() public abstract
+     * int org.w3c.dom.html.HTMLTableCellElement.getColSpan()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setHeight(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setHeight(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHeight_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setWidth(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setWidth(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setWidth(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setWidth(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setWidth(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setWidth(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWidth_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getColSpan() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getColSpan()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getColSpan() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getColSpan()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getColSpan() public abstract int
-     *      org.w3c.dom.html.HTMLTableCellElement.getColSpan() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -489,20 +364,59 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setCh(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setCh(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setCh(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setCh(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setHeight(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setHeight(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setCh(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setCh(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHeight_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setWidth(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setWidth(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWidth_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setCh(String) public abstract
+     * void org.w3c.dom.html.HTMLTableCellElement.setCh(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -516,20 +430,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setColSpan(int) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setColSpan(int)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setColSpan(int) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setColSpan(int)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setColSpan(int) public abstract
+     * void org.w3c.dom.html.HTMLTableCellElement.setColSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setColSpan(int) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setColSpan(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -543,47 +452,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setHeaders(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setHeaders(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setHeaders(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setHeaders(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setRowSpan(int) public abstract
+     * void org.w3c.dom.html.HTMLTableCellElement.setRowSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setHeaders(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setHeaders(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHeaders_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setRowSpan(int) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setRowSpan(int)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setRowSpan(int) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setRowSpan(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setRowSpan(int) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setRowSpan(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -597,20 +474,37 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getHeaders() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getHeaders()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getHeaders() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getHeaders()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setHeaders(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setHeaders(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getHeaders() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getHeaders() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHeaders_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getHeaders() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getHeaders()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -624,47 +518,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getRowSpan() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getRowSpan()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getRowSpan() public abstract int
-     * org.w3c.dom.html.HTMLTableCellElement.getRowSpan()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getBgColor() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getBgColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getRowSpan() public abstract int
-     *      org.w3c.dom.html.HTMLTableCellElement.getRowSpan() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowSpan()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getBgColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getBgColor()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getBgColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getBgColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getBgColor() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getBgColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -678,20 +540,37 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getScope() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getScope()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getScope() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableCellElement.getScope()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getRowSpan() public abstract
+     * int org.w3c.dom.html.HTMLTableCellElement.getRowSpan()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getScope() public abstract java.lang.String
-     *      org.w3c.dom.html.HTMLTableCellElement.getScope() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowSpan()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getScope() public abstract
+     * java.lang.String org.w3c.dom.html.HTMLTableCellElement.getScope()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -705,20 +584,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setScope(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setScope(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setScope(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setScope(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setScope(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setScope(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setScope(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setScope(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -732,20 +606,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getNoWrap() public abstract boolean
-     * org.w3c.dom.html.HTMLTableCellElement.getNoWrap()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#getNoWrap() public abstract boolean
-     * org.w3c.dom.html.HTMLTableCellElement.getNoWrap()}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#getNoWrap() public abstract
+     * boolean org.w3c.dom.html.HTMLTableCellElement.getNoWrap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#getNoWrap() public abstract boolean
-     *      org.w3c.dom.html.HTMLTableCellElement.getNoWrap() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -759,20 +628,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAlign(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAlign(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAlign(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setAlign(String) public
+     * abstract void org.w3c.dom.html.HTMLTableCellElement.setAlign(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setAlign(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setAlign(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -786,20 +650,15 @@ extends HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAbbr(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAbbr(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableCellElement#setAbbr(String) public abstract void
-     * org.w3c.dom.html.HTMLTableCellElement.setAbbr(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HTMLTableCellElement#setAbbr(String) public abstract
+     * void org.w3c.dom.html.HTMLTableCellElement.setAbbr(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.html.HTMLTableCellElement#setAbbr(String) public abstract void
-     *      org.w3c.dom.html.HTMLTableCellElement.setAbbr(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -810,5 +669,7 @@ extends HTMLElementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.html.HTMLTableCellElement]
 
 }

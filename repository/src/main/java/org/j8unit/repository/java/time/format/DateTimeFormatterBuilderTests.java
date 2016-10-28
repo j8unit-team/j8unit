@@ -1,5 +1,15 @@
 package org.j8unit.repository.java.time.format;
 
+import java.time.chrono.ChronoLocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.format.FormatStyle;
+import java.time.format.SignStyle;
+import java.time.format.TextStyle;
+import java.time.temporal.TemporalField;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +18,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.format.DateTimeFormatterBuilder class
- * java.time.format.DateTimeFormatterBuilder}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link DateTimeFormatterBuilderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DateTimeFormatterBuilder public final class java.time.format.DateTimeFormatterBuilder}.
  * </p>
  *
- * @see java.time.format.DateTimeFormatterBuilder class java.time.format.DateTimeFormatterBuilder (the hereby targeted
- *      class-under-test class)
- * @see DateTimeFormatterBuilderClassTests DateTimeFormatterBuilderClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.format.DateTimeFormatterBuilderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DateTimeFormatterBuilderTests<SUT extends java.time.format.DateTimeFormatterBuilder>
+public abstract interface DateTimeFormatterBuilderTests<SUT extends DateTimeFormatterBuilder>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.DateTimeFormatterBuilder]
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#padNext(int, char) public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.padNext(int,char)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#padNext(int, char) public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#padNext(int, char) public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.padNext(int,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +51,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#padNext(int, char) public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.padNext(int,char) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,11 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#padNext(int) public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.padNext(int)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#padNext(int) public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#padNext(int) public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.padNext(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +73,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#padNext(int) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.padNext(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,46 +87,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendPattern(String) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendPattern(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendPattern(String) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendPattern(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendPattern(String) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendPattern(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendPattern_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendLocalizedOffset(java.time.format.TextStyle) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendLocalizedOffset(java.time.format.TextStyle)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendLocalizedOffset(java.time.format.TextStyle) public
-     * java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendLocalizedOffset(TextStyle) public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendLocalizedOffset(java.time.format.TextStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,10 +96,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendLocalizedOffset(java.time.format.TextStyle) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendLocalizedOffset(java.time.format.TextStyle) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -149,13 +110,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendOffset(String, String) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendOffset(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendPattern(String)
+     * public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendPattern(java.lang.String)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendPattern_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendOffset(String, String) public
-     * java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendOffset(String, String) public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendOffset(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,10 +142,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendOffset(String, String) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendOffset(java.lang.String,java.lang.String) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,21 +156,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneOrOffsetId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneOrOffsetId()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneOrOffsetId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneOrOffsetId()}.
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendZoneOrOffsetId()
+     * public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendZoneOrOffsetId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendZoneOrOffsetId() public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneOrOffsetId()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -208,66 +179,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendInstant(int) public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant(int)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendInstant(int) public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendInstant(int) public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant(int) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendInstant_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendInstant() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendInstant() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendInstant() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendInstant() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendInstant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseStrict() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseStrict()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseStrict() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#parseStrict() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseStrict()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -275,8 +187,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#parseStrict() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.parseStrict() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -290,21 +201,60 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseCaseInsensitive() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseInsensitive()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseCaseInsensitive() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseInsensitive()}.
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendInstant() public
+     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#parseCaseInsensitive() public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseInsensitive()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendInstant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendInstant(int) public
+     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendInstant(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendInstant_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#parseCaseInsensitive()
+     * public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.parseCaseInsensitive()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -318,13 +268,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendChronologyText(java.time.format.TextStyle)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendChronologyText(java.time.format.TextStyle)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendChronologyText(java.time.format.TextStyle)
-     * public java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendChronologyText(TextStyle) public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendChronologyText(java.time.format.TextStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -332,10 +277,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendChronologyText(java.time.format.TextStyle) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendChronologyText(java.time.format.TextStyle) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -349,15 +291,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendFraction(java.time.temporal.TemporalField, int, int, boolean)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendFraction(java.time.temporal.TemporalField,int,int,boolean)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendFraction(java.time.temporal.TemporalField, int, int, boolean)
-     * public java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendFraction(TemporalField, int, int, boolean) public
+     * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendFraction(java.time.temporal.TemporalField,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -365,10 +301,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendFraction(java.time.temporal.TemporalField, int, int,
-     *      boolean) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendFraction(java.time.temporal.TemporalField,int,int,boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,50 +315,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField, java.util.Map)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.util.Map<java.lang.Long,
-     * java.lang.String>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField, java.util.Map)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.util.Map)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField, java.util.Map) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.util.Map) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendText_TemporalField_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField, java.time.format.TextStyle)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.time.format.TextStyle)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField, java.time.format.TextStyle)
-     * public java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendText(TemporalField, TextStyle) public
+     * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.time.format.TextStyle)}
      * .
      *
@@ -434,10 +326,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField,
-     *      java.time.format.TextStyle) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.time.format.
-     *      TextStyle) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -451,12 +340,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendText(TemporalField, Map) public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField,java.util.Map<java.lang.Long,
+     * java.lang.String>)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendText_TemporalField_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField)
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendText(TemporalField)
      * public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField)}.
      *
@@ -465,10 +373,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendText(java.time.temporal.TemporalField) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendText(java.time.temporal.TemporalField) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -482,11 +387,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseLenient() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseLenient()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseLenient() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#parseLenient() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseLenient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -494,8 +395,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#parseLenient() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.parseLenient() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -509,11 +409,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#optionalEnd() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.optionalEnd()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#optionalEnd() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#optionalEnd() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.optionalEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -521,8 +417,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#optionalEnd() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.optionalEnd() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -536,11 +431,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneRegionId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneRegionId()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneRegionId() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendZoneRegionId() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneRegionId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -548,9 +439,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendZoneRegionId() public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneRegionId()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -564,11 +453,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendChronologyId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendChronologyId()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendChronologyId() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendChronologyId() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendChronologyId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -576,9 +461,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendChronologyId() public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendChronologyId()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -592,41 +475,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#optionalStart() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.optionalStart()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#optionalStart() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.optionalStart()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#optionalStart() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.optionalStart() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_optionalStart()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendOptional(java.time.format.DateTimeFormatter) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendOptional(java.time.format.DateTimeFormatter)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendOptional(java.time.format.DateTimeFormatter) public
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendOptional(DateTimeFormatter) public
      * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendOptional(java.time.format.DateTimeFormatter)}.
      *
@@ -635,10 +485,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendOptional(java.time.format.DateTimeFormatter) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendOptional(java.time.format.DateTimeFormatter) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -652,11 +499,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseCaseSensitive() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseSensitive()}.
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#optionalStart() public
+     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.optionalStart()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_optionalStart()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#parseCaseSensitive() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#parseCaseSensitive() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseSensitive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -664,9 +529,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#parseCaseSensitive() public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.parseCaseSensitive()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -680,11 +543,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#toFormatter(java.util.Locale) public
-     * java.time.format.DateTimeFormatter java.time.format.DateTimeFormatterBuilder.toFormatter(java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#toFormatter(java.util.Locale) public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#toFormatter(Locale) public
      * java.time.format.DateTimeFormatter java.time.format.DateTimeFormatterBuilder.toFormatter(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -692,9 +551,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#toFormatter(java.util.Locale) public
-     *      java.time.format.DateTimeFormatter java.time.format.DateTimeFormatterBuilder.toFormatter(java.util.Locale)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -708,11 +565,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#toFormatter() public
-     * java.time.format.DateTimeFormatter java.time.format.DateTimeFormatterBuilder.toFormatter()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#toFormatter() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#toFormatter() public
      * java.time.format.DateTimeFormatter java.time.format.DateTimeFormatterBuilder.toFormatter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -720,8 +573,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#toFormatter() public java.time.format.DateTimeFormatter
-     *      java.time.format.DateTimeFormatterBuilder.toFormatter() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -735,11 +587,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendOffsetId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendOffsetId()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendOffsetId() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendOffsetId() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendOffsetId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -747,8 +595,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendOffsetId() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendOffsetId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -762,11 +609,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendLiteral(char) public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendLiteral(char)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendLiteral(char) public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendLiteral(char) public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendLiteral(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -774,9 +617,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendLiteral(char) public
-     *      java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendLiteral(char) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -790,13 +631,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendLiteral(String) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendLiteral(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendLiteral(String) public
-     * java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendLiteral(String)
+     * public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendLiteral(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -804,10 +640,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendLiteral(String) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendLiteral(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -821,16 +654,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendLocalized(java.time.format.FormatStyle, java.time.format.FormatStyle)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendLocalized(java.time.format.FormatStyle,java.time.format.FormatStyle)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendLocalized(java.time.format.FormatStyle, java.time.format.FormatStyle)
-     * public java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendLocalized(FormatStyle, FormatStyle) public
+     * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendLocalized(java.time.format.FormatStyle,java.time.format.FormatStyle)}
      * .
      *
@@ -839,10 +665,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendLocalized(java.time.format.FormatStyle,
-     *      java.time.format.FormatStyle) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendLocalized(java.time.format.FormatStyle,java.time.format.
-     *      FormatStyle) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -856,12 +679,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle)
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendZoneText(TextStyle)
      * public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle)}.
      *
@@ -870,10 +688,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -887,27 +702,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle, java.util.Set) public
-     * java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendZoneText(TextStyle, Set) public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle,java.util.Set
      * <java.time.ZoneId>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle, java.util.Set) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle,java.util.Set)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendZoneText(java.time.format.TextStyle, java.util.Set) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendZoneText(java.time.format.TextStyle,java.util.Set) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -921,11 +726,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneId() public
-     * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneId()}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendZoneId() public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendZoneId() public
      * java.time.format.DateTimeFormatterBuilder java.time.format.DateTimeFormatterBuilder.appendZoneId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -933,8 +734,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendZoneId() public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendZoneId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -948,50 +748,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int, java.time.chrono.ChronoLocalDate)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,java.time.chrono.ChronoLocalDate)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int, java.time.chrono.ChronoLocalDate)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,java.time.chrono.ChronoLocalDate)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int,
-     *      java.time.chrono.ChronoLocalDate) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,java.
-     *      time.chrono.ChronoLocalDate) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendValueReduced_TemporalField_int_int_ChronoLocalDate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int, int)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int, int)
-     * public java.time.format.DateTimeFormatterBuilder
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendValueReduced(TemporalField, int, int, int) public
+     * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -999,10 +758,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendValueReduced(java.time.temporal.TemporalField, int, int,
-     *      int) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1016,29 +772,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendValueReduced(TemporalField, int, int, ChronoLocalDate) public
+     * java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendValueReduced(java.time.temporal.TemporalField,int,int,java.time.chrono.ChronoLocalDate)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_appendValue_TemporalField()
+    public default void test_appendValueReduced_TemporalField_int_int_ChronoLocalDate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1047,49 +797,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendValue(TemporalField, int, int, SignStyle) public
      * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendValue_TemporalField_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int, int, java.time.format.SignStyle)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int,int,java.time.format.SignStyle)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int, int, java.time.format.SignStyle)
-     * public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int,int,java.time.format.SignStyle)}
      * .
      *
@@ -1098,10 +808,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#appendValue(java.time.temporal.TemporalField, int, int,
-     *      java.time.format.SignStyle) public java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int,int,java.time.
-     *      format.SignStyle) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1115,14 +822,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#parseDefaulting(java.time.temporal.TemporalField, long) public
-     * java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.parseDefaulting(java.time.temporal.TemporalField,long)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#appendValue(TemporalField, int) public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField,int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendValue_TemporalField_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link java.time.format.DateTimeFormatterBuilder#parseDefaulting(java.time.temporal.TemporalField, long) public
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#appendValue(TemporalField)
+     * public java.time.format.DateTimeFormatterBuilder
+     * java.time.format.DateTimeFormatterBuilder.appendValue(java.time.temporal.TemporalField)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_appendValue_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DateTimeFormatterBuilder#parseDefaulting(TemporalField, long) public
      * java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.parseDefaulting(java.time.temporal.TemporalField,long)}.
      *
@@ -1131,10 +878,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#parseDefaulting(java.time.temporal.TemporalField, long) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.parseDefaulting(java.time.temporal.TemporalField,long) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1148,12 +892,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#append(java.time.format.DateTimeFormatter)
-     * public java.time.format.DateTimeFormatterBuilder
-     * java.time.format.DateTimeFormatterBuilder.append(java.time.format.DateTimeFormatter)}.
-     *
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatterBuilder#append(java.time.format.DateTimeFormatter)
+     * Test method for the hereby targeted method-under-test {@link DateTimeFormatterBuilder#append(DateTimeFormatter)
      * public java.time.format.DateTimeFormatterBuilder
      * java.time.format.DateTimeFormatterBuilder.append(java.time.format.DateTimeFormatter)}.
      *
@@ -1162,10 +901,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.time.format.DateTimeFormatterBuilder#append(java.time.format.DateTimeFormatter) public
-     *      java.time.format.DateTimeFormatterBuilder
-     *      java.time.format.DateTimeFormatterBuilder.append(java.time.format.DateTimeFormatter) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1176,5 +912,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.DateTimeFormatterBuilder]
 
 }

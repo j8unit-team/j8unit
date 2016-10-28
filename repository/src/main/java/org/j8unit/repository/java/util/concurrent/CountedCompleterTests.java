@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.CountedCompleter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,69 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.CountedCompleter class
- * java.util.concurrent.CountedCompleter}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link CountedCompleterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CountedCompleter public abstract class java.util.concurrent.CountedCompleter<T>}.
  * </p>
  *
- * @see java.util.concurrent.CountedCompleter class java.util.concurrent.CountedCompleter (the hereby targeted
- *      class-under-test class)
- * @see CountedCompleterClassTests CountedCompleterClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.CountedCompleterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CountedCompleterTests<SUT extends java.util.concurrent.CountedCompleter<T>, T>
-extends ForkJoinTaskTests<SUT, T> {
+public abstract interface CountedCompleterTests<SUT extends CountedCompleter<T>, T>
+extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CountedCompleter]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#nextComplete() public final
-     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.nextComplete()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#nextComplete() public final
-     * java.util.concurrent.CountedCompleter java.util.concurrent.CountedCompleter.nextComplete()}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#setPendingCount(int) public final
+     * void java.util.concurrent.CountedCompleter.setPendingCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#nextComplete() public final java.util.concurrent.CountedCompleter
-     *      java.util.concurrent.CountedCompleter.nextComplete() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextComplete()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#setPendingCount(int) public final void
-     * java.util.concurrent.CountedCompleter.setPendingCount(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#setPendingCount(int) public final void
-     * java.util.concurrent.CountedCompleter.setPendingCount(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.CountedCompleter#setPendingCount(int) public final void
-     *      java.util.concurrent.CountedCompleter.setPendingCount(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,11 +56,29 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getPendingCount() public final int
-     * java.util.concurrent.CountedCompleter.getPendingCount()}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#nextComplete() public final
+     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.nextComplete()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextComplete()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getPendingCount() public final int
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#getPendingCount() public final int
      * java.util.concurrent.CountedCompleter.getPendingCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +86,7 @@ extends ForkJoinTaskTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#getPendingCount() public final int
-     *      java.util.concurrent.CountedCompleter.getPendingCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,11 +100,7 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#compute() public abstract void
-     * java.util.concurrent.CountedCompleter.compute()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#compute() public abstract void
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#compute() public abstract void
      * java.util.concurrent.CountedCompleter.compute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +108,7 @@ extends ForkJoinTaskTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#compute() public abstract void
-     *      java.util.concurrent.CountedCompleter.compute() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,11 +122,7 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#tryComplete() public final void
-     * java.util.concurrent.CountedCompleter.tryComplete()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#tryComplete() public final void
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#tryComplete() public final void
      * java.util.concurrent.CountedCompleter.tryComplete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +130,7 @@ extends ForkJoinTaskTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#tryComplete() public final void
-     *      java.util.concurrent.CountedCompleter.tryComplete() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,21 +144,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#compareAndSetPendingCount(int, int) public final
-     * boolean java.util.concurrent.CountedCompleter.compareAndSetPendingCount(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#compareAndSetPendingCount(int, int) public final
-     * boolean java.util.concurrent.CountedCompleter.compareAndSetPendingCount(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#compareAndSetPendingCount(int, int)
+     * public final boolean java.util.concurrent.CountedCompleter.compareAndSetPendingCount(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#compareAndSetPendingCount(int, int) public final boolean
-     *      java.util.concurrent.CountedCompleter.compareAndSetPendingCount(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,11 +166,7 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getRawResult() public T
-     * java.util.concurrent.CountedCompleter.getRawResult()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getRawResult() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#getRawResult() public T
      * java.util.concurrent.CountedCompleter.getRawResult()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -205,8 +174,7 @@ extends ForkJoinTaskTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#getRawResult() public java.lang.Object
-     *      java.util.concurrent.CountedCompleter.getRawResult() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -221,47 +189,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getRoot() public final
-     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getRoot()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getRoot() public final
-     * java.util.concurrent.CountedCompleter java.util.concurrent.CountedCompleter.getRoot()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.CountedCompleter#getRoot() public final java.util.concurrent.CountedCompleter
-     *      java.util.concurrent.CountedCompleter.getRoot() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoot()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#complete(Object) public void
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#complete(Object) public void
      * java.util.concurrent.CountedCompleter.complete(T)}.
      *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#complete(Object) public void
-     * java.util.concurrent.CountedCompleter.complete(java.lang.Object)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#complete(Object) public void
-     *      java.util.concurrent.CountedCompleter.complete(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -276,20 +212,37 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#quietlyCompleteRoot() public final void
-     * java.util.concurrent.CountedCompleter.quietlyCompleteRoot()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#quietlyCompleteRoot() public final void
-     * java.util.concurrent.CountedCompleter.quietlyCompleteRoot()}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#getRoot() public final
+     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getRoot()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#quietlyCompleteRoot() public final void
-     *      java.util.concurrent.CountedCompleter.quietlyCompleteRoot() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoot()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#quietlyCompleteRoot() public final
+     * void java.util.concurrent.CountedCompleter.quietlyCompleteRoot()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -303,20 +256,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#propagateCompletion() public final void
-     * java.util.concurrent.CountedCompleter.propagateCompletion()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#propagateCompletion() public final void
-     * java.util.concurrent.CountedCompleter.propagateCompletion()}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#propagateCompletion() public final
+     * void java.util.concurrent.CountedCompleter.propagateCompletion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#propagateCompletion() public final void
-     *      java.util.concurrent.CountedCompleter.propagateCompletion() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -330,20 +278,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#firstComplete() public final
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#firstComplete() public final
      * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.firstComplete()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#firstComplete() public final
-     * java.util.concurrent.CountedCompleter java.util.concurrent.CountedCompleter.firstComplete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#firstComplete() public final java.util.concurrent.CountedCompleter
-     *      java.util.concurrent.CountedCompleter.firstComplete() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,21 +300,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#onCompletion(java.util.concurrent.CountedCompleter)
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#onCompletion(CountedCompleter)
      * public void java.util.concurrent.CountedCompleter.onCompletion(java.util.concurrent.CountedCompleter<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#onCompletion(java.util.concurrent.CountedCompleter)
-     * public void java.util.concurrent.CountedCompleter.onCompletion(java.util.concurrent.CountedCompleter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#onCompletion(java.util.concurrent.CountedCompleter) public void
-     *      java.util.concurrent.CountedCompleter.onCompletion(java.util.concurrent.CountedCompleter) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -385,11 +322,7 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#helpComplete(int) public final void
-     * java.util.concurrent.CountedCompleter.helpComplete(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#helpComplete(int) public final void
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#helpComplete(int) public final void
      * java.util.concurrent.CountedCompleter.helpComplete(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,8 +330,7 @@ extends ForkJoinTaskTests<SUT, T> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#helpComplete(int) public final void
-     *      java.util.concurrent.CountedCompleter.helpComplete(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,20 +344,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#addToPendingCount(int) public final void
-     * java.util.concurrent.CountedCompleter.addToPendingCount(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#addToPendingCount(int) public final void
-     * java.util.concurrent.CountedCompleter.addToPendingCount(int)}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#addToPendingCount(int) public final
+     * void java.util.concurrent.CountedCompleter.addToPendingCount(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#addToPendingCount(int) public final void
-     *      java.util.concurrent.CountedCompleter.addToPendingCount(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -439,25 +366,22 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getCompleter() public final
-     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getCompleter()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#getCompleter() public final
-     * java.util.concurrent.CountedCompleter java.util.concurrent.CountedCompleter.getCompleter()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link CountedCompleter#onExceptionalCompletion(Throwable, CountedCompleter) public boolean
+     * java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.CountedCompleter
+     * <?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#getCompleter() public final java.util.concurrent.CountedCompleter
-     *      java.util.concurrent.CountedCompleter.getCompleter() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompleter()
+    public default void test_onExceptionalCompletion_Throwable_CountedCompleter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -466,21 +390,15 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#decrementPendingCountUnlessZero() public final int
-     * java.util.concurrent.CountedCompleter.decrementPendingCountUnlessZero()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.CountedCompleter#decrementPendingCountUnlessZero() public final int
-     * java.util.concurrent.CountedCompleter.decrementPendingCountUnlessZero()}.
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#decrementPendingCountUnlessZero()
+     * public final int java.util.concurrent.CountedCompleter.decrementPendingCountUnlessZero()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#decrementPendingCountUnlessZero() public final int
-     *      java.util.concurrent.CountedCompleter.decrementPendingCountUnlessZero() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,37 +412,26 @@ extends ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.CountedCompleter#onExceptionalCompletion(Throwable, java.util.concurrent.CountedCompleter)
-     * public boolean
-     * java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.CountedCompleter
-     * <?>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.CountedCompleter#onExceptionalCompletion(Throwable, java.util.concurrent.CountedCompleter)
-     * public boolean
-     * java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.CountedCompleter)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link CountedCompleter#getCompleter() public final
+     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getCompleter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.CountedCompleter#onExceptionalCompletion(Throwable,
-     *      java.util.concurrent.CountedCompleter) public boolean
-     *      java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.
-     *      CountedCompleter) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_onExceptionalCompletion_Throwable_CountedCompleter()
+    public default void test_getCompleter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CountedCompleter]
 
 }

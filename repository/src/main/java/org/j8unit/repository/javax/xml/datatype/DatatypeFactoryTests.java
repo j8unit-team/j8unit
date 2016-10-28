@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.xml.datatype;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.GregorianCalendar;
+import javax.xml.datatype.DatatypeFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,210 +12,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.datatype.DatatypeFactory class
- * javax.xml.datatype.DatatypeFactory}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link DatatypeFactoryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DatatypeFactory
+ * public abstract class javax.xml.datatype.DatatypeFactory}.
  * </p>
  *
- * @see javax.xml.datatype.DatatypeFactory class javax.xml.datatype.DatatypeFactory (the hereby targeted
- *      class-under-test class)
- * @see DatatypeFactoryClassTests DatatypeFactoryClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.datatype.DatatypeFactoryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DatatypeFactoryTests<SUT extends javax.xml.datatype.DatatypeFactory>
+public abstract interface DatatypeFactoryTests<SUT extends DatatypeFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, int, int, int, int) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, int, int, int, int) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, int, int, int, int) public
-     *      javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,int,int,int,int)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationDayTime_boolean_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeFactory]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(long) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(long)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(long) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationDayTime(long) public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationDayTime(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationDayTime_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(String) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(String) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationDayTime(String) public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationDayTime(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationDayTime_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
-     * public javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger)
-     * public javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationDayTime(boolean, java.math.BigInteger, java.math.BigInteger,
-     *      java.math.BigInteger, java.math.BigInteger) public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,java.math.BigInteger,java.math.BigInteger,java
-     *      .math.BigInteger,java.math.BigInteger) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationDayTime_boolean_BigInteger_BigInteger_BigInteger_BigInteger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(long) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(long)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(long) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationYearMonth(long) public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationYearMonth(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationYearMonth_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(String) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(String) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationYearMonth(String) public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationYearMonth(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDurationYearMonth_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, java.math.BigInteger, java.math.BigInteger)
-     * public javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,java.math.BigInteger,java.math.BigInteger)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, java.math.BigInteger, java.math.BigInteger)
-     * public javax.xml.datatype.Duration
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDurationYearMonth(boolean, BigInteger, BigInteger) public javax.xml.datatype.Duration
      * javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,java.math.BigInteger,java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,10 +46,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, java.math.BigInteger, java.math.BigInteger)
-     *      public javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,java.math.BigInteger,java.math.BigInteger)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,21 +60,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, int, int) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, int, int) public
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDurationYearMonth(String) public
+     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newDurationYearMonth(boolean, int, int) public
-     *      javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDurationYearMonth_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDurationYearMonth(boolean, int, int) public javax.xml.datatype.Duration
+     * javax.xml.datatype.DatatypeFactory.newDurationYearMonth(boolean,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -264,29 +105,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.util.GregorianCalendar)
-     * public abstract javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.util.GregorianCalendar)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.util.GregorianCalendar)
-     * public abstract javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.util.GregorianCalendar)}.
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDurationYearMonth(long) public
+     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationYearMonth(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.util.GregorianCalendar) public abstract
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.util.GregorianCalendar) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newXMLGregorianCalendar_GregorianCalendar()
+    public default void test_newDurationYearMonth_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -295,31 +127,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(int, int, int, int, int, int, int, int) public
-     * javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(int,int,int,int,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(int, int, int, int, int, int, int, int) public
-     * javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(int,int,int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDurationDayTime(long) public
+     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(int, int, int, int, int, int, int, int) public
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(int,int,int,int,int,int,int,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newXMLGregorianCalendar_int_int_int_int_int_int_int_int()
+    public default void test_newDurationDayTime_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -328,33 +149,68 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.math.BigInteger, int, int, int, int, int, java.math.BigDecimal, int)
-     * public abstract javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.math.BigInteger,int,int,int,int,int,java.math.BigDecimal,int)}
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDurationDayTime(String) public
+     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDurationDayTime(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDurationDayTime_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDurationDayTime(boolean, int, int, int, int) public javax.xml.datatype.Duration
+     * javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDurationDayTime_boolean_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDurationDayTime(boolean, BigInteger, BigInteger, BigInteger, BigInteger) public
+     * javax.xml.datatype.Duration
+     * javax.xml.datatype.DatatypeFactory.newDurationDayTime(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)}
      * .
      *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.math.BigInteger, int, int, int, int, int, java.math.BigDecimal, int)
-     * public abstract javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.math.BigInteger,int,int,int,int,int,java.math.BigDecimal,int)}
-     * .
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(java.math.BigInteger, int, int, int, int, int,
-     *      java.math.BigDecimal, int) public abstract javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.math.BigInteger,int,int,int,int,int,java.
-     *      math.BigDecimal,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newXMLGregorianCalendar_BigInteger_int_int_int_int_int_BigDecimal_int()
+    public default void test_newDurationDayTime_boolean_BigInteger_BigInteger_BigInteger_BigInteger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -363,21 +219,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar() public abstract
-     * javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar() public abstract
-     * javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar()}.
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newXMLGregorianCalendar() public
+     * abstract javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar() public abstract
-     *      javax.xml.datatype.XMLGregorianCalendar javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,13 +241,57 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(String) public abstract
-     * javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendar(BigInteger, int, int, int, int, int, BigDecimal, int) public
+     * abstract javax.xml.datatype.XMLGregorianCalendar
+     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.math.BigInteger,int,int,int,int,int,java.math.BigDecimal,int)}
+     * .
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newXMLGregorianCalendar_BigInteger_int_int_int_int_int_BigDecimal_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(String) public abstract
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendar(GregorianCalendar) public abstract
      * javax.xml.datatype.XMLGregorianCalendar
+     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.util.GregorianCalendar)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newXMLGregorianCalendar_GregorianCalendar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newXMLGregorianCalendar(String)
+     * public abstract javax.xml.datatype.XMLGregorianCalendar
      * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -405,10 +299,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendar(String) public abstract
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -422,35 +313,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDuration(boolean, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigDecimal)
-     * public abstract javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDuration(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigDecimal)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newDuration(boolean, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigDecimal)
-     * public abstract javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDuration(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigDecimal)}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendar(int, int, int, int, int, int, int, int) public
+     * javax.xml.datatype.XMLGregorianCalendar
+     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendar(int,int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newDuration(boolean, java.math.BigInteger, java.math.BigInteger,
-     *      java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.math.BigDecimal) public abstract
-     *      javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDuration(boolean,java.math.BigInteger,java.math.BigInteger,java.math.
-     *      BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigDecimal) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newDuration_boolean_BigInteger_BigInteger_BigInteger_BigInteger_BigInteger_BigDecimal()
+    public default void test_newXMLGregorianCalendar_int_int_int_int_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -459,38 +337,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(long) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(long)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(long) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newDuration(long) public abstract javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDuration(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDuration_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(String) public abstract
-     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(String) public abstract
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDuration(String) public abstract
      * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -498,8 +345,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newDuration(String) public abstract javax.xml.datatype.Duration
-     *      javax.xml.datatype.DatatypeFactory.newDuration(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,13 +359,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(boolean, int, int, int, int, int, int)
-     * public javax.xml.datatype.Duration
-     * javax.xml.datatype.DatatypeFactory.newDuration(boolean,int,int,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link DatatypeFactory#newDuration(long) public abstract
+     * javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(long)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDuration_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newDuration(boolean, int, int, int, int, int, int)
-     * public javax.xml.datatype.Duration
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDuration(boolean, int, int, int, int, int, int) public javax.xml.datatype.Duration
      * javax.xml.datatype.DatatypeFactory.newDuration(boolean,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,9 +390,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newDuration(boolean, int, int, int, int, int, int) public
-     *      javax.xml.datatype.Duration javax.xml.datatype.DatatypeFactory.newDuration(boolean,int,int,int,int,int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -543,12 +404,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarDate(int, int, int, int) public
-     * javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarDate(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newDuration(boolean, BigInteger, BigInteger, BigInteger, BigInteger, BigInteger, BigDecimal)
+     * public abstract javax.xml.datatype.Duration
+     * javax.xml.datatype.DatatypeFactory.newDuration(boolean,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigDecimal)}
+     * .
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDuration_boolean_BigInteger_BigInteger_BigInteger_BigInteger_BigInteger_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarDate(int, int, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendarDate(int, int, int, int) public
      * javax.xml.datatype.XMLGregorianCalendar
      * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarDate(int,int,int,int)}.
      *
@@ -557,10 +439,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarDate(int, int, int, int) public
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarDate(int,int,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,13 +453,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int, int)
-     * public javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int, int)
-     * public javax.xml.datatype.XMLGregorianCalendar
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int, int) public
+     * javax.xml.datatype.XMLGregorianCalendar
      * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -588,10 +463,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int, int) public
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -605,12 +477,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, BigDecimal, int) public
      * javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int)}.
+     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,java.math.BigDecimal,int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newXMLGregorianCalendarTime_int_int_int_BigDecimal_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int) public
+     * Test method for the hereby targeted method-under-test
+     * {@link DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int) public
      * javax.xml.datatype.XMLGregorianCalendar
      * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int)}.
      *
@@ -619,10 +511,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, int) public
-     *      javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -634,37 +523,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, java.math.BigDecimal, int)
-     * public javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,java.math.BigDecimal,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, java.math.BigDecimal, int)
-     * public javax.xml.datatype.XMLGregorianCalendar
-     * javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,java.math.BigDecimal,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.datatype.DatatypeFactory#newXMLGregorianCalendarTime(int, int, int, java.math.BigDecimal, int)
-     *      public javax.xml.datatype.XMLGregorianCalendar
-     *      javax.xml.datatype.DatatypeFactory.newXMLGregorianCalendarTime(int,int,int,java.math.BigDecimal,int) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newXMLGregorianCalendarTime_int_int_int_BigDecimal_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeFactory]
 
 }

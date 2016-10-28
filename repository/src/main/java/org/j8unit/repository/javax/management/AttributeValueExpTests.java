@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.AttributeValueExp;
+import javax.management.MBeanServer;
+import javax.management.ObjectName;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.AttributeValueExp class
- * javax.management.AttributeValueExp}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link AttributeValueExpClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AttributeValueExp public class javax.management.AttributeValueExp}.
  * </p>
  *
- * @see javax.management.AttributeValueExp class javax.management.AttributeValueExp (the hereby targeted
- *      class-under-test class)
- * @see AttributeValueExpClassTests AttributeValueExpClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.AttributeValueExpClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AttributeValueExpTests<SUT extends javax.management.AttributeValueExp>
-extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface AttributeValueExpTests<SUT extends AttributeValueExp>
+extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeValueExp]
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public
-     * void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public
+     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#setMBeanServer(MBeanServer) public
      * void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +44,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public void
-     *      javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +59,15 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeValueExp#getAttributeName() public java.lang.String
-     * javax.management.AttributeValueExp.getAttributeName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.AttributeValueExp#getAttributeName() public java.lang.String
-     * javax.management.AttributeValueExp.getAttributeName()}.
+     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#getAttributeName() public
+     * java.lang.String javax.management.AttributeValueExp.getAttributeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.AttributeValueExp#getAttributeName() public java.lang.String
-     *      javax.management.AttributeValueExp.getAttributeName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,11 +81,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeValueExp#toString() public java.lang.String
-     * javax.management.AttributeValueExp.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.AttributeValueExp#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#toString() public java.lang.String
      * javax.management.AttributeValueExp.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +89,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.AttributeValueExp#toString() public java.lang.String
-     *      javax.management.AttributeValueExp.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,13 +104,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeValueExp#apply(javax.management.ObjectName) public
-     * javax.management.ValueExp javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
-     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.management.AttributeValueExp#apply(javax.management.ObjectName) public
+     * Test method for the hereby targeted method-under-test {@link AttributeValueExp#apply(ObjectName) public
      * javax.management.ValueExp javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
      * .
@@ -130,11 +114,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.AttributeValueExp#apply(javax.management.ObjectName) public javax.management.ValueExp
-     *      javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
-     *      javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.
-     *      BadAttributeValueExpException,javax.management.InvalidApplicationException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -146,5 +126,7 @@ extends ValueExpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.AttributeValueExp]
 
 }

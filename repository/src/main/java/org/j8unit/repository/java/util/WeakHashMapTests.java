@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.util;
 
+import java.util.Map;
+import java.util.WeakHashMap;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.WeakHashMap class java.util.WeakHashMap}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link WeakHashMapClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link WeakHashMap
+ * public class java.util.WeakHashMap<K,V>}.
  * </p>
  *
- * @see java.util.WeakHashMap class java.util.WeakHashMap (the hereby targeted class-under-test class)
- * @see WeakHashMapClassTests WeakHashMapClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.WeakHashMapClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WeakHashMapTests<SUT extends java.util.WeakHashMap<K, V>, K, V>
-extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
+public abstract interface WeakHashMapTests<SUT extends WeakHashMap<K, V>, K, V>
+extends org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.WeakHashMap]
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#keySet() public java.util.Set<K> java.util.WeakHashMap.keySet()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#keySet() public java.util.Set java.util.WeakHashMap.keySet()}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#keySet() public java.util.Set
+     * <K> java.util.WeakHashMap.keySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#keySet() public java.util.Set java.util.WeakHashMap.keySet() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,47 +60,15 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#get(Object) public V java.util.WeakHashMap.get(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#get(Object) public java.lang.Object
-     * java.util.WeakHashMap.get(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.WeakHashMap#get(Object) public java.lang.Object java.util.WeakHashMap.get(java.lang.Object) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#putAll(java.util.Map) public void
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#putAll(Map) public void
      * java.util.WeakHashMap.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#putAll(java.util.Map) public void
-     * java.util.WeakHashMap.putAll(java.util.Map)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#putAll(java.util.Map) public void java.util.WeakHashMap.putAll(java.util.Map) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -109,17 +83,38 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#size() public int java.util.WeakHashMap.size()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#size() public int java.util.WeakHashMap.size()}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#get(Object) public V
+     * java.util.WeakHashMap.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#size() public int java.util.WeakHashMap.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#size() public int
+     * java.util.WeakHashMap.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -134,66 +129,7 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#remove(Object) public V
-     * java.util.WeakHashMap.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#remove(Object) public java.lang.Object
-     * java.util.WeakHashMap.remove(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.WeakHashMap#remove(Object) public java.lang.Object java.util.WeakHashMap.remove(java.lang.Object)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#put(Object, Object) public V java.util.WeakHashMap.put(K,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#put(Object, Object) public java.lang.Object
-     * java.util.WeakHashMap.put(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.WeakHashMap#put(Object, Object) public java.lang.Object
-     *      java.util.WeakHashMap.put(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_put_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#containsValue(Object) public boolean
-     * java.util.WeakHashMap.containsValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#containsValue(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#containsValue(Object) public boolean
      * java.util.WeakHashMap.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +137,7 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#containsValue(Object) public boolean
-     *      java.util.WeakHashMap.containsValue(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -217,20 +152,61 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
-     * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
-     * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction)}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#put(Object, Object) public V
+     * java.util.WeakHashMap.put(K,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
-     *      java.util.WeakHashMap.replaceAll(java.util.function.BiFunction) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_put_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#remove(Object) public V
+     * java.util.WeakHashMap.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#replaceAll(BiFunction) public void
+     * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -245,44 +221,15 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#clear() public void java.util.WeakHashMap.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#clear() public void java.util.WeakHashMap.clear()}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#isEmpty() public boolean
+     * java.util.WeakHashMap.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#clear() public void java.util.WeakHashMap.clear() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#isEmpty() public boolean java.util.WeakHashMap.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#isEmpty() public boolean java.util.WeakHashMap.isEmpty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.WeakHashMap#isEmpty() public boolean java.util.WeakHashMap.isEmpty() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -297,26 +244,21 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#containsKey(Object) public boolean
-     * java.util.WeakHashMap.containsKey(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#containsKey(Object) public boolean
-     * java.util.WeakHashMap.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#clear() public void
+     * java.util.WeakHashMap.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#containsKey(Object) public boolean java.util.WeakHashMap.containsKey(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_containsKey_Object()
+    public default void test_clear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -325,20 +267,15 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#forEach(BiConsumer) public void
      * java.util.WeakHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
-     * java.util.WeakHashMap.forEach(java.util.function.BiConsumer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
-     *      java.util.WeakHashMap.forEach(java.util.function.BiConsumer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -353,20 +290,38 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#values() public java.util.Collection
-     * <V> java.util.WeakHashMap.values()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#values() public java.util.Collection java.util.WeakHashMap.values()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#containsKey(Object) public boolean
+     * java.util.WeakHashMap.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#values() public java.util.Collection java.util.WeakHashMap.values() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsKey_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#values() public java.util.Collection
+     * <V> java.util.WeakHashMap.values()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -381,19 +336,15 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#entrySet() public java.util.Set<java.util.Map.java.util.Map$Entry<K,
-     * V>> java.util.WeakHashMap.entrySet()}.
-     *
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#entrySet() public java.util.Set java.util.WeakHashMap.entrySet()}.
+     * Test method for the hereby targeted method-under-test {@link WeakHashMap#entrySet() public
+     * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.WeakHashMap.entrySet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.WeakHashMap#entrySet() public java.util.Set java.util.WeakHashMap.entrySet() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -406,52 +357,6 @@ extends MapTests<SUT, K, V>, AbstractMapTests<SUT, K, V> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractMap#hashCode() class java.util.AbstractMap}</li>
-     * <li>{@linkplain java.util.Map#hashCode() interface java.util.Map}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractMap#equals(Object) class java.util.AbstractMap}</li>
-     * <li>{@linkplain java.util.Map#equals(Object) interface java.util.Map}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.WeakHashMap]
 
 }

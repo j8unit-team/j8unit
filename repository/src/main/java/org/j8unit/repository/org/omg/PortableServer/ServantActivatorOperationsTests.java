@@ -5,41 +5,39 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.PortableServer.POA;
+import org.omg.PortableServer.Servant;
+import org.omg.PortableServer.ServantActivatorOperations;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableServer.ServantActivatorOperations interface
- * org.omg.PortableServer.ServantActivatorOperations}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link ServantActivatorOperationsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ServantActivatorOperations public abstract interface org.omg.PortableServer.ServantActivatorOperations}.
  * </p>
  *
- * @see org.omg.PortableServer.ServantActivatorOperations interface org.omg.PortableServer.ServantActivatorOperations
- *      (the hereby targeted class-under-test class)
- * @see ServantActivatorOperationsClassTests ServantActivatorOperationsClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServantActivatorOperationsTests<SUT extends org.omg.PortableServer.ServantActivatorOperations>
-extends ServantManagerOperationsTests<SUT> {
+public abstract interface ServantActivatorOperationsTests<SUT extends ServantActivatorOperations>
+extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[], org.omg.PortableServer.POA) public
-     * abstract org.omg.PortableServer.Servant
-     * org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
-     * org.omg.PortableServer.ForwardRequest}.
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[], org.omg.PortableServer.POA) public
-     * abstract org.omg.PortableServer.Servant
+     * Test method for the hereby targeted method-under-test {@link ServantActivatorOperations#incarnate(byte[], POA)
+     * public abstract org.omg.PortableServer.Servant
      * org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
      * org.omg.PortableServer.ForwardRequest}.
      *
@@ -48,10 +46,7 @@ extends ServantManagerOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[], org.omg.PortableServer.POA) public
-     *      abstract org.omg.PortableServer.Servant
-     *      org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
-     *      org.omg.PortableServer.ForwardRequest (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -65,16 +60,8 @@ extends ServantManagerOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorOperations#etherealize(byte[], org.omg.PortableServer.POA, org.omg.PortableServer.Servant, boolean, boolean)
-     * public abstract void
-     * org.omg.PortableServer.ServantActivatorOperations.etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorOperations#etherealize(byte[], org.omg.PortableServer.POA, org.omg.PortableServer.Servant, boolean, boolean)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ServantActivatorOperations#etherealize(byte[], POA, Servant, boolean, boolean) public abstract void
      * org.omg.PortableServer.ServantActivatorOperations.etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)}
      * .
      *
@@ -83,10 +70,7 @@ extends ServantManagerOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableServer.ServantActivatorOperations#etherealize(byte[], org.omg.PortableServer.POA,
-     *      org.omg.PortableServer.Servant, boolean, boolean) public abstract void
-     *      org.omg.PortableServer.ServantActivatorOperations.etherealize(byte[],org.omg.PortableServer.POA,org.omg.
-     *      PortableServer.Servant,boolean,boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -97,5 +81,7 @@ extends ServantManagerOperationsTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
 
 }

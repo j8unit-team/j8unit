@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.DefaultListSelectionModel;
+import javax.swing.event.ListSelectionListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +10,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.DefaultListSelectionModel class
- * javax.swing.DefaultListSelectionModel}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link DefaultListSelectionModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultListSelectionModel public class javax.swing.DefaultListSelectionModel}.
  * </p>
  *
- * @see javax.swing.DefaultListSelectionModel class javax.swing.DefaultListSelectionModel (the hereby targeted
- *      class-under-test class)
- * @see DefaultListSelectionModelClassTests DefaultListSelectionModelClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.DefaultListSelectionModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultListSelectionModelTests<SUT extends javax.swing.DefaultListSelectionModel>
-extends ListSelectionModelTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface DefaultListSelectionModelTests<SUT extends DefaultListSelectionModel>
+extends org.j8unit.repository.javax.swing.ListSelectionModelTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
+org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#addSelectionInterval(int, int) public void
-     * javax.swing.DefaultListSelectionModel.addSelectionInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#addSelectionInterval(int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#addSelectionInterval(int, int) public void
      * javax.swing.DefaultListSelectionModel.addSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +45,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#addSelectionInterval(int, int) public void
-     *      javax.swing.DefaultListSelectionModel.addSelectionInterval(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +60,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getMinSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getMinSelectionIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getMinSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getMinSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#setLeadAnchorNotificationEnabled(boolean) public void
+     * javax.swing.DefaultListSelectionModel.setLeadAnchorNotificationEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#getMinSelectionIndex() public int
-     *      javax.swing.DefaultListSelectionModel.getMinSelectionIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLeadAnchorNotificationEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getMinSelectionIndex()
+     * public int javax.swing.DefaultListSelectionModel.getMinSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,76 +106,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setLeadAnchorNotificationEnabled(boolean) public
-     * void javax.swing.DefaultListSelectionModel.setLeadAnchorNotificationEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setLeadAnchorNotificationEnabled(boolean) public
-     * void javax.swing.DefaultListSelectionModel.setLeadAnchorNotificationEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getSelectionMode() public
+     * int javax.swing.DefaultListSelectionModel.getSelectionMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#setLeadAnchorNotificationEnabled(boolean) public void
-     *      javax.swing.DefaultListSelectionModel.setLeadAnchorNotificationEnabled(boolean) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLeadAnchorNotificationEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getListSelectionListeners() public
-     * javax.swing.event.ListSelectionListener[] javax.swing.DefaultListSelectionModel.getListSelectionListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getListSelectionListeners() public
-     * javax.swing.event.ListSelectionListener[] javax.swing.DefaultListSelectionModel.getListSelectionListeners()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultListSelectionModel#getListSelectionListeners() public
-     *      javax.swing.event.ListSelectionListener[] javax.swing.DefaultListSelectionModel.getListSelectionListeners()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListSelectionListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getSelectionMode() public int
-     * javax.swing.DefaultListSelectionModel.getSelectionMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getSelectionMode() public int
-     * javax.swing.DefaultListSelectionModel.getSelectionMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultListSelectionModel#getSelectionMode() public int
-     *      javax.swing.DefaultListSelectionModel.getSelectionMode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -171,20 +129,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getMaxSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getMaxSelectionIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getMaxSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getMaxSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#getListSelectionListeners() public javax.swing.event.ListSelectionListener[]
+     * javax.swing.DefaultListSelectionModel.getListSelectionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#getMaxSelectionIndex() public int
-     *      javax.swing.DefaultListSelectionModel.getMaxSelectionIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListSelectionListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getMaxSelectionIndex()
+     * public int javax.swing.DefaultListSelectionModel.getMaxSelectionIndex()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -199,38 +175,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getListeners(Class) public <T> T[]
-     * javax.swing.DefaultListSelectionModel.getListeners(java.lang.Class<T>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getListeners(Class) public java.util.EventListener[]
-     * javax.swing.DefaultListSelectionModel.getListeners(java.lang.Class)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultListSelectionModel#getListeners(Class) public java.util.EventListener[]
-     *      javax.swing.DefaultListSelectionModel.getListeners(java.lang.Class) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#removeIndexInterval(int, int) public void
-     * javax.swing.DefaultListSelectionModel.removeIndexInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#removeIndexInterval(int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#removeIndexInterval(int, int) public void
      * javax.swing.DefaultListSelectionModel.removeIndexInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +184,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#removeIndexInterval(int, int) public void
-     *      javax.swing.DefaultListSelectionModel.removeIndexInterval(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -254,15 +199,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultListSelectionModel#removeListSelectionListener(javax.swing.event.ListSelectionListener)
-     * public void
-     * javax.swing.DefaultListSelectionModel.removeListSelectionListener(javax.swing.event.ListSelectionListener)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getListeners(Class) public
+     * <T> T[] javax.swing.DefaultListSelectionModel.getListeners(java.lang.Class<T>)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultListSelectionModel#removeListSelectionListener(javax.swing.event.ListSelectionListener)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#removeListSelectionListener(ListSelectionListener) public void
      * javax.swing.DefaultListSelectionModel.removeListSelectionListener(javax.swing.event.ListSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,10 +230,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#removeListSelectionListener(javax.swing.event.ListSelectionListener)
-     *      public void
-     *      javax.swing.DefaultListSelectionModel.removeListSelectionListener(javax.swing.event.ListSelectionListener)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -288,20 +245,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isSelectionEmpty() public boolean
-     * javax.swing.DefaultListSelectionModel.isSelectionEmpty()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isSelectionEmpty() public boolean
-     * javax.swing.DefaultListSelectionModel.isSelectionEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#isSelectionEmpty() public
+     * boolean javax.swing.DefaultListSelectionModel.isSelectionEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#isSelectionEmpty() public boolean
-     *      javax.swing.DefaultListSelectionModel.isSelectionEmpty() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -316,20 +268,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#clearSelection() public void
-     * javax.swing.DefaultListSelectionModel.clearSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#clearSelection() public void
-     * javax.swing.DefaultListSelectionModel.clearSelection()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#clearSelection() public
+     * void javax.swing.DefaultListSelectionModel.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#clearSelection() public void
-     *      javax.swing.DefaultListSelectionModel.clearSelection() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -344,40 +291,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#insertIndexInterval(int, int, boolean) public void
-     * javax.swing.DefaultListSelectionModel.insertIndexInterval(int,int,boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#insertIndexInterval(int, int, boolean) public void
-     * javax.swing.DefaultListSelectionModel.insertIndexInterval(int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultListSelectionModel#insertIndexInterval(int, int, boolean) public void
-     *      javax.swing.DefaultListSelectionModel.insertIndexInterval(int,int,boolean) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insertIndexInterval_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setAnchorSelectionIndex(int) public void
-     * javax.swing.DefaultListSelectionModel.setAnchorSelectionIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setAnchorSelectionIndex(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#setAnchorSelectionIndex(int) public void
      * javax.swing.DefaultListSelectionModel.setAnchorSelectionIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -385,8 +300,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#setAnchorSelectionIndex(int) public void
-     *      javax.swing.DefaultListSelectionModel.setAnchorSelectionIndex(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -401,26 +315,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getLeadSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getLeadSelectionIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getLeadSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getLeadSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#insertIndexInterval(int, int, boolean) public void
+     * javax.swing.DefaultListSelectionModel.insertIndexInterval(int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#getLeadSelectionIndex() public int
-     *      javax.swing.DefaultListSelectionModel.getLeadSelectionIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getLeadSelectionIndex()
+    public default void test_insertIndexInterval_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -429,20 +339,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setSelectionMode(int) public void
-     * javax.swing.DefaultListSelectionModel.setSelectionMode(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setSelectionMode(int) public void
-     * javax.swing.DefaultListSelectionModel.setSelectionMode(int)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#setSelectionMode(int)
+     * public void javax.swing.DefaultListSelectionModel.setSelectionMode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#setSelectionMode(int) public void
-     *      javax.swing.DefaultListSelectionModel.setSelectionMode(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -457,11 +362,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setSelectionInterval(int, int) public void
-     * javax.swing.DefaultListSelectionModel.setSelectionInterval(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getLeadSelectionIndex()
+     * public int javax.swing.DefaultListSelectionModel.getLeadSelectionIndex()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLeadSelectionIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setSelectionInterval(int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#setSelectionInterval(int, int) public void
      * javax.swing.DefaultListSelectionModel.setSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -469,8 +394,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#setSelectionInterval(int, int) public void
-     *      javax.swing.DefaultListSelectionModel.setSelectionInterval(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -485,11 +409,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isLeadAnchorNotificationEnabled() public boolean
-     * javax.swing.DefaultListSelectionModel.isLeadAnchorNotificationEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isLeadAnchorNotificationEnabled() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#isLeadAnchorNotificationEnabled() public boolean
      * javax.swing.DefaultListSelectionModel.isLeadAnchorNotificationEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -497,9 +418,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#isLeadAnchorNotificationEnabled() public boolean
-     *      javax.swing.DefaultListSelectionModel.isLeadAnchorNotificationEnabled() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -513,15 +432,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultListSelectionModel#addListSelectionListener(javax.swing.event.ListSelectionListener)
-     * public void
-     * javax.swing.DefaultListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.DefaultListSelectionModel#addListSelectionListener(javax.swing.event.ListSelectionListener)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#addListSelectionListener(ListSelectionListener) public void
      * javax.swing.DefaultListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -529,10 +441,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#addListSelectionListener(javax.swing.event.ListSelectionListener)
-     *      public void
-     *      javax.swing.DefaultListSelectionModel.addListSelectionListener(javax.swing.event.ListSelectionListener) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -547,11 +456,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#moveLeadSelectionIndex(int) public void
-     * javax.swing.DefaultListSelectionModel.moveLeadSelectionIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#moveLeadSelectionIndex(int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#moveLeadSelectionIndex(int) public void
      * javax.swing.DefaultListSelectionModel.moveLeadSelectionIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -559,8 +465,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#moveLeadSelectionIndex(int) public void
-     *      javax.swing.DefaultListSelectionModel.moveLeadSelectionIndex(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -574,20 +479,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getValueIsAdjusting() public boolean
-     * javax.swing.DefaultListSelectionModel.getValueIsAdjusting()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getValueIsAdjusting() public boolean
-     * javax.swing.DefaultListSelectionModel.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getValueIsAdjusting()
+     * public boolean javax.swing.DefaultListSelectionModel.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#getValueIsAdjusting() public boolean
-     *      javax.swing.DefaultListSelectionModel.getValueIsAdjusting() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -602,48 +502,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#toString() public java.lang.String
-     * javax.swing.DefaultListSelectionModel.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#toString() public java.lang.String
-     * javax.swing.DefaultListSelectionModel.toString()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#setLeadSelectionIndex(int)
+     * public void javax.swing.DefaultListSelectionModel.setLeadSelectionIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#toString() public java.lang.String
-     *      javax.swing.DefaultListSelectionModel.toString() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setLeadSelectionIndex(int) public void
-     * javax.swing.DefaultListSelectionModel.setLeadSelectionIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setLeadSelectionIndex(int) public void
-     * javax.swing.DefaultListSelectionModel.setLeadSelectionIndex(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.DefaultListSelectionModel#setLeadSelectionIndex(int) public void
-     *      javax.swing.DefaultListSelectionModel.setLeadSelectionIndex(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -658,21 +525,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#clone() public java.lang.Object
-     * javax.swing.DefaultListSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#clone() public java.lang.Object
-     * javax.swing.DefaultListSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#toString() public
+     * java.lang.String javax.swing.DefaultListSelectionModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#clone() public java.lang.Object
-     *      javax.swing.DefaultListSelectionModel.clone() throws java.lang.CloneNotSupportedException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#clone() public
+     * java.lang.Object javax.swing.DefaultListSelectionModel.clone() throws java.lang.CloneNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -686,20 +570,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isSelectedIndex(int) public boolean
-     * javax.swing.DefaultListSelectionModel.isSelectedIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#isSelectedIndex(int) public boolean
-     * javax.swing.DefaultListSelectionModel.isSelectedIndex(int)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#isSelectedIndex(int)
+     * public boolean javax.swing.DefaultListSelectionModel.isSelectedIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#isSelectedIndex(int) public boolean
-     *      javax.swing.DefaultListSelectionModel.isSelectedIndex(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -714,11 +593,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setValueIsAdjusting(boolean) public void
-     * javax.swing.DefaultListSelectionModel.setValueIsAdjusting(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#setValueIsAdjusting(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#setValueIsAdjusting(boolean) public void
      * javax.swing.DefaultListSelectionModel.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -726,8 +602,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#setValueIsAdjusting(boolean) public void
-     *      javax.swing.DefaultListSelectionModel.setValueIsAdjusting(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -742,11 +617,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#removeSelectionInterval(int, int) public void
-     * javax.swing.DefaultListSelectionModel.removeSelectionInterval(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#removeSelectionInterval(int, int) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultListSelectionModel#removeSelectionInterval(int, int) public void
      * javax.swing.DefaultListSelectionModel.removeSelectionInterval(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -754,9 +626,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#removeSelectionInterval(int, int) public void
-     *      javax.swing.DefaultListSelectionModel.removeSelectionInterval(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -771,20 +641,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getAnchorSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getAnchorSelectionIndex()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultListSelectionModel#getAnchorSelectionIndex() public int
-     * javax.swing.DefaultListSelectionModel.getAnchorSelectionIndex()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultListSelectionModel#getAnchorSelectionIndex()
+     * public int javax.swing.DefaultListSelectionModel.getAnchorSelectionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultListSelectionModel#getAnchorSelectionIndex() public int
-     *      javax.swing.DefaultListSelectionModel.getAnchorSelectionIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -796,5 +661,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
 
 }

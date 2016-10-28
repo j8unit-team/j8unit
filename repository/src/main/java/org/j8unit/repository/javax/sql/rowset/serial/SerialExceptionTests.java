@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.sql.rowset.serial;
 
+import javax.sql.rowset.serial.SerialException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sql.rowset.serial.SerialException class
- * javax.sql.rowset.serial.SerialException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SerialExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SerialException
+ * public class javax.sql.rowset.serial.SerialException}.
  * </p>
  *
- * @see javax.sql.rowset.serial.SerialException class javax.sql.rowset.serial.SerialException (the hereby targeted
- *      class-under-test class)
- * @see SerialExceptionClassTests SerialExceptionClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SerialExceptionTests<SUT extends javax.sql.rowset.serial.SerialException>
+public abstract interface SerialExceptionTests<SUT extends SerialException>
 extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
 
 }

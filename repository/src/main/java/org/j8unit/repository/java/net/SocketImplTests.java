@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.net;
 
+import java.net.SocketImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.net.SocketImpl class java.net.SocketImpl}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link SocketImplClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SocketImpl
+ * public abstract class java.net.SocketImpl}.
  * </p>
  *
- * @see java.net.SocketImpl class java.net.SocketImpl (the hereby targeted class-under-test class)
- * @see SocketImplClassTests SocketImplClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.net.SocketImplClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SocketImplTests<SUT extends java.net.SocketImpl>
-extends SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface SocketImplTests<SUT extends SocketImpl>
+extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketImpl]
 
     /**
      * <p>
-     * Test method for {@link java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString()}.
+     * Test method for the hereby targeted method-under-test {@link SocketImpl#toString() public java.lang.String
+     * java.net.SocketImpl.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.SocketImpl#toString() public java.lang.String java.net.SocketImpl.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -51,5 +54,7 @@ extends SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketImpl]
 
 }

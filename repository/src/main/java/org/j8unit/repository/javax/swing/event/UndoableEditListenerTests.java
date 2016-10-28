@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing.event;
 
+import javax.swing.event.UndoableEditEvent;
+import javax.swing.event.UndoableEditListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,46 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.event.UndoableEditListener interface
- * javax.swing.event.UndoableEditListener}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link UndoableEditListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link UndoableEditListener public abstract interface javax.swing.event.UndoableEditListener}.
  * </p>
  *
- * @see javax.swing.event.UndoableEditListener interface javax.swing.event.UndoableEditListener (the hereby targeted
- *      class-under-test class)
- * @see UndoableEditListenerClassTests UndoableEditListenerClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface UndoableEditListenerTests<SUT extends javax.swing.event.UndoableEditListener>
+public abstract interface UndoableEditListenerTests<SUT extends UndoableEditListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.UndoableEditListener]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.event.UndoableEditListener#undoableEditHappened(javax.swing.event.UndoableEditEvent) public
-     * abstract void javax.swing.event.UndoableEditListener.undoableEditHappened(javax.swing.event.UndoableEditEvent)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.event.UndoableEditListener#undoableEditHappened(javax.swing.event.UndoableEditEvent) public
-     * abstract void javax.swing.event.UndoableEditListener.undoableEditHappened(javax.swing.event.UndoableEditEvent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link UndoableEditListener#undoableEditHappened(UndoableEditEvent) public abstract void
+     * javax.swing.event.UndoableEditListener.undoableEditHappened(javax.swing.event.UndoableEditEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.UndoableEditListener#undoableEditHappened(javax.swing.event.UndoableEditEvent) public
-     *      abstract void
-     *      javax.swing.event.UndoableEditListener.undoableEditHappened(javax.swing.event.UndoableEditEvent) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,5 +55,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.UndoableEditListener]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.crypto.spec;
 
+import javax.crypto.spec.RC2ParameterSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.spec.RC2ParameterSpec class
- * javax.crypto.spec.RC2ParameterSpec}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link RC2ParameterSpecClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RC2ParameterSpec public class javax.crypto.spec.RC2ParameterSpec}.
  * </p>
  *
- * @see javax.crypto.spec.RC2ParameterSpec class javax.crypto.spec.RC2ParameterSpec (the hereby targeted
- *      class-under-test class)
- * @see RC2ParameterSpecClassTests RC2ParameterSpecClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.spec.RC2ParameterSpecClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RC2ParameterSpecTests<SUT extends javax.crypto.spec.RC2ParameterSpec>
+public abstract interface RC2ParameterSpecTests<SUT extends RC2ParameterSpec>
 extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.RC2ParameterSpec]
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#getEffectiveKeyBits() public int
-     * javax.crypto.spec.RC2ParameterSpec.getEffectiveKeyBits()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#getEffectiveKeyBits() public int
+     * Test method for the hereby targeted method-under-test {@link RC2ParameterSpec#getEffectiveKeyBits() public int
      * javax.crypto.spec.RC2ParameterSpec.getEffectiveKeyBits()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.RC2ParameterSpec#getEffectiveKeyBits() public int
-     *      javax.crypto.spec.RC2ParameterSpec.getEffectiveKeyBits() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +56,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#getIV() public byte[]
-     * javax.crypto.spec.RC2ParameterSpec.getIV()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#getIV() public byte[]
+     * Test method for the hereby targeted method-under-test {@link RC2ParameterSpec#getIV() public byte[]
      * javax.crypto.spec.RC2ParameterSpec.getIV()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +64,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.RC2ParameterSpec#getIV() public byte[] javax.crypto.spec.RC2ParameterSpec.getIV() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,11 +78,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#equals(Object) public boolean
-     * javax.crypto.spec.RC2ParameterSpec.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link RC2ParameterSpec#equals(Object) public boolean
      * javax.crypto.spec.RC2ParameterSpec.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +86,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.RC2ParameterSpec#equals(Object) public boolean
-     *      javax.crypto.spec.RC2ParameterSpec.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,11 +101,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#hashCode() public int
-     * javax.crypto.spec.RC2ParameterSpec.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link RC2ParameterSpec#hashCode() public int
      * javax.crypto.spec.RC2ParameterSpec.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +109,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.spec.RC2ParameterSpec#hashCode() public int javax.crypto.spec.RC2ParameterSpec.hashCode() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -137,5 +121,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.RC2ParameterSpec]
 
 }

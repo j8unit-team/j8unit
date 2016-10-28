@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.MBeanServer;
+import javax.management.MBeanServerBuilder;
+import javax.management.MBeanServerDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.MBeanServerBuilder class
- * javax.management.MBeanServerBuilder}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link MBeanServerBuilderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MBeanServerBuilder public class javax.management.MBeanServerBuilder}.
  * </p>
  *
- * @see javax.management.MBeanServerBuilder class javax.management.MBeanServerBuilder (the hereby targeted
- *      class-under-test class)
- * @see MBeanServerBuilderClassTests MBeanServerBuilderClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.MBeanServerBuilderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MBeanServerBuilderTests<SUT extends javax.management.MBeanServerBuilder>
+public abstract interface MBeanServerBuilderTests<SUT extends MBeanServerBuilder>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServerBuilder]
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanServerBuilder#newMBeanServerDelegate() public
-     * javax.management.MBeanServerDelegate javax.management.MBeanServerBuilder.newMBeanServerDelegate()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.MBeanServerBuilder#newMBeanServerDelegate() public
+     * Test method for the hereby targeted method-under-test {@link MBeanServerBuilder#newMBeanServerDelegate() public
      * javax.management.MBeanServerDelegate javax.management.MBeanServerBuilder.newMBeanServerDelegate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +44,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanServerBuilder#newMBeanServerDelegate() public javax.management.MBeanServerDelegate
-     *      javax.management.MBeanServerBuilder.newMBeanServerDelegate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,16 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.MBeanServerBuilder#newMBeanServer(String, javax.management.MBeanServer, javax.management.MBeanServerDelegate)
-     * public javax.management.MBeanServer
-     * javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.management.MBeanServerDelegate)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.MBeanServerBuilder#newMBeanServer(String, javax.management.MBeanServer, javax.management.MBeanServerDelegate)
-     * public javax.management.MBeanServer
+     * Test method for the hereby targeted method-under-test
+     * {@link MBeanServerBuilder#newMBeanServer(String, MBeanServer, MBeanServerDelegate) public
+     * javax.management.MBeanServer
      * javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.management.MBeanServerDelegate)}
      * .
      *
@@ -75,10 +69,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.management.MBeanServerBuilder#newMBeanServer(String, javax.management.MBeanServer,
-     *      javax.management.MBeanServerDelegate) public javax.management.MBeanServer
-     *      javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.
-     *      management.MBeanServerDelegate) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -89,5 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerBuilder]
 
 }

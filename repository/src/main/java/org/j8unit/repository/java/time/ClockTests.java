@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.time;
 
+import java.time.Clock;
+import java.time.ZoneId;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.Clock class java.time.Clock}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link ClockClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Clock public
+ * abstract class java.time.Clock}.
  * </p>
  *
- * @see java.time.Clock class java.time.Clock (the hereby targeted class-under-test class)
- * @see ClockClassTests ClockClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.ClockClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClockTests<SUT extends java.time.Clock>
+public abstract interface ClockTests<SUT extends Clock>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.Clock]
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#getZone() public abstract java.time.ZoneId java.time.Clock.getZone()}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#getZone() public abstract java.time.ZoneId java.time.Clock.getZone()}.
+     * Test method for the hereby targeted method-under-test {@link Clock#getZone() public abstract java.time.ZoneId
+     * java.time.Clock.getZone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#getZone() public abstract java.time.ZoneId java.time.Clock.getZone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,17 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#millis() public long java.time.Clock.millis()}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#millis() public long java.time.Clock.millis()}.
+     * Test method for the hereby targeted method-under-test {@link Clock#millis() public long java.time.Clock.millis()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#millis() public long java.time.Clock.millis() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -77,18 +79,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#instant() public abstract java.time.Instant java.time.Clock.instant()}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#instant() public abstract java.time.Instant java.time.Clock.instant()}.
+     * Test method for the hereby targeted method-under-test {@link Clock#instant() public abstract java.time.Instant
+     * java.time.Clock.instant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#instant() public abstract java.time.Instant java.time.Clock.instant() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,20 +101,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#withZone(java.time.ZoneId) public abstract java.time.Clock
-     * java.time.Clock.withZone(java.time.ZoneId)}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#withZone(java.time.ZoneId) public abstract java.time.Clock
-     * java.time.Clock.withZone(java.time.ZoneId)}.
+     * Test method for the hereby targeted method-under-test {@link Clock#withZone(ZoneId) public abstract
+     * java.time.Clock java.time.Clock.withZone(java.time.ZoneId)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#withZone(java.time.ZoneId) public abstract java.time.Clock
-     *      java.time.Clock.withZone(java.time.ZoneId) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,18 +123,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#equals(Object) public boolean java.time.Clock.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#equals(Object) public boolean java.time.Clock.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Clock#equals(Object) public boolean
+     * java.time.Clock.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#equals(Object) public boolean java.time.Clock.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -155,17 +146,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Clock#hashCode() public int java.time.Clock.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.time.Clock#hashCode() public int java.time.Clock.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Clock#hashCode() public int
+     * java.time.Clock.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.Clock#hashCode() public int java.time.Clock.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -177,5 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Clock]
 
 }

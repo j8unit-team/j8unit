@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.util;
 
+import java.util.FormattableFlags;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.FormattableFlags class java.util.FormattableFlags}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link FormattableFlagsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link FormattableFlags public class java.util.FormattableFlags}.
  * </p>
  *
- * @see java.util.FormattableFlags class java.util.FormattableFlags (the hereby targeted class-under-test class)
- * @see FormattableFlagsClassTests FormattableFlagsClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.FormattableFlagsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FormattableFlagsTests<SUT extends java.util.FormattableFlags>
+public abstract interface FormattableFlagsTests<SUT extends FormattableFlags>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.FormattableFlags]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.FormattableFlags]
 
 }

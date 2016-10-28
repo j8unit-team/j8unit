@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.event;
 
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentEvent.ElementChange;
+import javax.swing.event.DocumentEvent.EventType;
+import javax.swing.text.Element;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,33 +13,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.event.DocumentEvent interface javax.swing.event.DocumentEvent}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link DocumentEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DocumentEvent
+ * public abstract interface javax.swing.event.DocumentEvent}.
  * </p>
  *
- * @see javax.swing.event.DocumentEvent interface javax.swing.event.DocumentEvent (the hereby targeted class-under-test
- *      class)
- * @see DocumentEventClassTests DocumentEventClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentEventTests<SUT extends javax.swing.event.DocumentEvent>
+public abstract interface DocumentEventTests<SUT extends DocumentEvent>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getChange(javax.swing.text.Element) public abstract
-     * javax.swing.event.DocumentEvent$ElementChange
-     * javax.swing.event.DocumentEvent.getChange(javax.swing.text.Element)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getChange(javax.swing.text.Element) public abstract
+     * Test method for the hereby targeted method-under-test {@link DocumentEvent#getChange(Element) public abstract
      * javax.swing.event.DocumentEvent$ElementChange
      * javax.swing.event.DocumentEvent.getChange(javax.swing.text.Element)}.
      *
@@ -44,9 +47,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent#getChange(javax.swing.text.Element) public abstract
-     *      javax.swing.event.DocumentEvent$ElementChange
-     *      javax.swing.event.DocumentEvent.getChange(javax.swing.text.Element) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,11 +61,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getLength() public abstract int
-     * javax.swing.event.DocumentEvent.getLength()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getLength() public abstract int
+     * Test method for the hereby targeted method-under-test {@link DocumentEvent#getLength() public abstract int
      * javax.swing.event.DocumentEvent.getLength()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -72,8 +69,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent#getLength() public abstract int javax.swing.event.DocumentEvent.getLength()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,11 +83,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getType() public abstract
-     * javax.swing.event.DocumentEvent$EventType javax.swing.event.DocumentEvent.getType()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getType() public abstract
+     * Test method for the hereby targeted method-under-test {@link DocumentEvent#getType() public abstract
      * javax.swing.event.DocumentEvent$EventType javax.swing.event.DocumentEvent.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,8 +91,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent#getType() public abstract javax.swing.event.DocumentEvent$EventType
-     *      javax.swing.event.DocumentEvent.getType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,20 +105,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getDocument() public abstract javax.swing.text.Document
-     * javax.swing.event.DocumentEvent.getDocument()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getDocument() public abstract javax.swing.text.Document
-     * javax.swing.event.DocumentEvent.getDocument()}.
+     * Test method for the hereby targeted method-under-test {@link DocumentEvent#getDocument() public abstract
+     * javax.swing.text.Document javax.swing.event.DocumentEvent.getDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent#getDocument() public abstract javax.swing.text.Document
-     *      javax.swing.event.DocumentEvent.getDocument() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,11 +127,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getOffset() public abstract int
-     * javax.swing.event.DocumentEvent.getOffset()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getOffset() public abstract int
+     * Test method for the hereby targeted method-under-test {@link DocumentEvent#getOffset() public abstract int
      * javax.swing.event.DocumentEvent.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -153,8 +135,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent#getOffset() public abstract int javax.swing.event.DocumentEvent.getOffset()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,72 +147,44 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.event.DocumentEvent.ElementChange interface
-     * javax.swing.event.DocumentEvent$ElementChange}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link DocumentEventClassTests.ElementChangeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ElementChange public abstract static interface javax.swing.event.DocumentEvent$ElementChange}.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent.ElementChange interface javax.swing.event.DocumentEvent$ElementChange (the
-     *      hereby targeted class-under-test class)
-     * @see DocumentEventClassTests.ElementChangeClassTests DocumentEventClassTests.ElementChangeClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ElementChangeTests<SUT extends javax.swing.event.DocumentEvent.ElementChange>
+    public static abstract interface ElementChangeTests<SUT extends ElementChange>
     extends RepositoryTests<SUT> {
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getElement() public abstract
-         * javax.swing.text.Element javax.swing.event.DocumentEvent$ElementChange.getElement()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getElement() public abstract
-         * javax.swing.text.Element javax.swing.event.DocumentEvent$ElementChange.getElement()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.event.DocumentEvent.ElementChange#getElement() public abstract javax.swing.text.Element
-         *      javax.swing.event.DocumentEvent$ElementChange.getElement() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getElement()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenRemoved() public abstract
-         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenRemoved() public abstract
-         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved()}.
+         * Test method for the hereby targeted method-under-test {@link ElementChange#getChildrenRemoved() public
+         * abstract javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.event.DocumentEvent.ElementChange#getChildrenRemoved() public abstract
-         *      javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved() (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -245,11 +198,29 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenAdded() public abstract
-         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenAdded()}.
+         * Test method for the hereby targeted method-under-test {@link ElementChange#getElement() public abstract
+         * javax.swing.text.Element javax.swing.event.DocumentEvent$ElementChange.getElement()}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getElement()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenAdded() public abstract
+         * Test method for the hereby targeted method-under-test {@link ElementChange#getChildrenAdded() public abstract
          * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenAdded()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -257,9 +228,7 @@ extends RepositoryTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.event.DocumentEvent.ElementChange#getChildrenAdded() public abstract
-         *      javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenAdded() (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -273,11 +242,7 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getIndex() public abstract int
-         * javax.swing.event.DocumentEvent$ElementChange.getIndex()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getIndex() public abstract int
+         * Test method for the hereby targeted method-under-test {@link ElementChange#getIndex() public abstract int
          * javax.swing.event.DocumentEvent$ElementChange.getIndex()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -285,8 +250,7 @@ extends RepositoryTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.event.DocumentEvent.ElementChange#getIndex() public abstract int
-         *      javax.swing.event.DocumentEvent$ElementChange.getIndex() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -298,37 +262,38 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.event.DocumentEvent.EventType class
-     * javax.swing.event.DocumentEvent$EventType}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link DocumentEventClassTests.EventTypeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link EventType
+     * public static final class javax.swing.event.DocumentEvent$EventType}.
      * </p>
      *
-     * @see javax.swing.event.DocumentEvent.EventType class javax.swing.event.DocumentEvent$EventType (the hereby
-     *      targeted class-under-test class)
-     * @see DocumentEventClassTests.EventTypeClassTests DocumentEventClassTests.EventTypeClassTests (the complementary
-     *      j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.event.DocumentEventClassTests.EventTypeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EventTypeTests<SUT extends javax.swing.event.DocumentEvent.EventType>
+    public static abstract interface EventTypeTests<SUT extends EventType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.EventType#toString() public java.lang.String
-         * javax.swing.event.DocumentEvent$EventType.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.EventType#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test {@link EventType#toString() public java.lang.String
          * javax.swing.event.DocumentEvent$EventType.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -336,8 +301,7 @@ extends RepositoryTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.event.DocumentEvent.EventType#toString() public java.lang.String
-         *      javax.swing.event.DocumentEvent$EventType.toString() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -349,6 +313,8 @@ extends RepositoryTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
     }
 

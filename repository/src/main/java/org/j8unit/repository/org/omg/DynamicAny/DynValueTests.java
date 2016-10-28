@@ -2,25 +2,33 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynValue;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynValue interface org.omg.DynamicAny.DynValue}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link DynValueClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DynValue public
+ * abstract interface org.omg.DynamicAny.DynValue}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynValue interface org.omg.DynamicAny.DynValue (the hereby targeted class-under-test class)
- * @see DynValueClassTests DynValueClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynValueTests<SUT extends org.omg.DynamicAny.DynValue>
-extends DynValueOperationsTests<SUT>, DynValueCommonTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+public abstract interface DynValueTests<SUT extends DynValue>
+extends org.j8unit.repository.org.omg.DynamicAny.DynValueOperationsTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynValueCommonTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynValue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynValue]
 
 }

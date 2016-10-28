@@ -2,27 +2,33 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.DynamicAny.DynValueCommon;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny.DynValueCommon interface
- * org.omg.DynamicAny.DynValueCommon}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link DynValueCommonClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DynValueCommon
+ * public abstract interface org.omg.DynamicAny.DynValueCommon}.
  * </p>
  *
- * @see org.omg.DynamicAny.DynValueCommon interface org.omg.DynamicAny.DynValueCommon (the hereby targeted
- *      class-under-test class)
- * @see DynValueCommonClassTests DynValueCommonClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueCommonClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DynValueCommonTests<SUT extends org.omg.DynamicAny.DynValueCommon>
-extends DynValueCommonOperationsTests<SUT>, DynAnyTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+public abstract interface DynValueCommonTests<SUT extends DynValueCommon>
+extends org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynValueCommon]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynValueCommon]
 
 }

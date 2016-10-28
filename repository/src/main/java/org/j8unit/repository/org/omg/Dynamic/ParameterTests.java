@@ -2,25 +2,33 @@ package org.j8unit.repository.org.omg.Dynamic;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.Dynamic.Parameter;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.Dynamic.Parameter class org.omg.Dynamic.Parameter}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ParameterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Parameter
+ * public final class org.omg.Dynamic.Parameter}.
  * </p>
  *
- * @see org.omg.Dynamic.Parameter class org.omg.Dynamic.Parameter (the hereby targeted class-under-test class)
- * @see ParameterClassTests ParameterClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.Dynamic.ParameterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ParameterTests<SUT extends org.omg.Dynamic.Parameter>
+public abstract interface ParameterTests<SUT extends Parameter>
 extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.Dynamic.Parameter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.Dynamic.Parameter]
 
 }

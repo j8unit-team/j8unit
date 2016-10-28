@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.time.zone;
 
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+import java.time.zone.ZoneOffsetTransitionRule;
+import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,88 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.zone.ZoneOffsetTransitionRule class
- * java.time.zone.ZoneOffsetTransitionRule}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ZoneOffsetTransitionRuleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ZoneOffsetTransitionRule public final class java.time.zone.ZoneOffsetTransitionRule}.
  * </p>
  *
- * @see java.time.zone.ZoneOffsetTransitionRule class java.time.zone.ZoneOffsetTransitionRule (the hereby targeted
- *      class-under-test class)
- * @see ZoneOffsetTransitionRuleClassTests ZoneOffsetTransitionRuleClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ZoneOffsetTransitionRuleTests<SUT extends java.time.zone.ZoneOffsetTransitionRule>
+public abstract interface ZoneOffsetTransitionRuleTests<SUT extends ZoneOffsetTransitionRule>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getMonth() public java.time.Month
-     * java.time.zone.ZoneOffsetTransitionRule.getMonth()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getMonth() public java.time.Month
-     * java.time.zone.ZoneOffsetTransitionRule.getMonth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getMonth() public java.time.Month
-     *      java.time.zone.ZoneOffsetTransitionRule.getMonth() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMonth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#createTransition(int) public
-     * java.time.zone.ZoneOffsetTransition java.time.zone.ZoneOffsetTransitionRule.createTransition(int)}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#createTransition(int) public
-     * java.time.zone.ZoneOffsetTransition java.time.zone.ZoneOffsetTransitionRule.createTransition(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule#createTransition(int) public java.time.zone.ZoneOffsetTransition
-     *      java.time.zone.ZoneOffsetTransitionRule.createTransition(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTransition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getTimeDefinition() public
-     * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
-     * java.time.zone.ZoneOffsetTransitionRule.getTimeDefinition()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getTimeDefinition() public
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getTimeDefinition() public
      * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
      * java.time.zone.ZoneOffsetTransitionRule.getTimeDefinition()}.
      *
@@ -98,9 +46,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getTimeDefinition() public
-     *      java.time.zone.ZoneOffsetTransitionRule$TimeDefinition
-     *      java.time.zone.ZoneOffsetTransitionRule.getTimeDefinition() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,20 +60,125 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#toString() public java.lang.String
-     * java.time.zone.ZoneOffsetTransitionRule.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#toString() public java.lang.String
-     * java.time.zone.ZoneOffsetTransitionRule.toString()}.
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#createTransition(int)
+     * public java.time.zone.ZoneOffsetTransition java.time.zone.ZoneOffsetTransitionRule.createTransition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#toString() public java.lang.String
-     *      java.time.zone.ZoneOffsetTransitionRule.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createTransition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getMonth() public
+     * java.time.Month java.time.zone.ZoneOffsetTransitionRule.getMonth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMonth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getOffsetBefore() public
+     * java.time.ZoneOffset java.time.zone.ZoneOffsetTransitionRule.getOffsetBefore()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffsetBefore()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getOffsetAfter() public
+     * java.time.ZoneOffset java.time.zone.ZoneOffsetTransitionRule.getOffsetAfter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffsetAfter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getStandardOffset() public
+     * java.time.ZoneOffset java.time.zone.ZoneOffsetTransitionRule.getStandardOffset()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStandardOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#toString() public
+     * java.lang.String java.time.zone.ZoneOffsetTransitionRule.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -142,47 +193,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getStandardOffset() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getStandardOffset()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getStandardOffset() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getStandardOffset()}.
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getDayOfMonthIndicator()
+     * public int java.time.zone.ZoneOffsetTransitionRule.getDayOfMonthIndicator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getStandardOffset() public java.time.ZoneOffset
-     *      java.time.zone.ZoneOffsetTransitionRule.getStandardOffset() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStandardOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getDayOfMonthIndicator() public int
-     * java.time.zone.ZoneOffsetTransitionRule.getDayOfMonthIndicator()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getDayOfMonthIndicator() public int
-     * java.time.zone.ZoneOffsetTransitionRule.getDayOfMonthIndicator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getDayOfMonthIndicator() public int
-     *      java.time.zone.ZoneOffsetTransitionRule.getDayOfMonthIndicator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -196,47 +215,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getDayOfWeek() public java.time.DayOfWeek
-     * java.time.zone.ZoneOffsetTransitionRule.getDayOfWeek()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getDayOfWeek() public java.time.DayOfWeek
-     * java.time.zone.ZoneOffsetTransitionRule.getDayOfWeek()}.
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#isMidnightEndOfDay() public
+     * boolean java.time.zone.ZoneOffsetTransitionRule.isMidnightEndOfDay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getDayOfWeek() public java.time.DayOfWeek
-     *      java.time.zone.ZoneOffsetTransitionRule.getDayOfWeek() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDayOfWeek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#isMidnightEndOfDay() public boolean
-     * java.time.zone.ZoneOffsetTransitionRule.isMidnightEndOfDay()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#isMidnightEndOfDay() public boolean
-     * java.time.zone.ZoneOffsetTransitionRule.isMidnightEndOfDay()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule#isMidnightEndOfDay() public boolean
-     *      java.time.zone.ZoneOffsetTransitionRule.isMidnightEndOfDay() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,20 +237,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#equals(Object) public boolean
-     * java.time.zone.ZoneOffsetTransitionRule.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#equals(Object) public boolean
-     * java.time.zone.ZoneOffsetTransitionRule.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getDayOfWeek() public
+     * java.time.DayOfWeek java.time.zone.ZoneOffsetTransitionRule.getDayOfWeek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#equals(Object) public boolean
-     *      java.time.zone.ZoneOffsetTransitionRule.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDayOfWeek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#equals(Object) public
+     * boolean java.time.zone.ZoneOffsetTransitionRule.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -278,11 +282,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#hashCode() public int
-     * java.time.zone.ZoneOffsetTransitionRule.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#hashCode() public int
      * java.time.zone.ZoneOffsetTransitionRule.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,8 +290,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#hashCode() public int
-     *      java.time.zone.ZoneOffsetTransitionRule.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -306,20 +305,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getLocalTime() public java.time.LocalTime
-     * java.time.zone.ZoneOffsetTransitionRule.getLocalTime()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getLocalTime() public java.time.LocalTime
-     * java.time.zone.ZoneOffsetTransitionRule.getLocalTime()}.
+     * Test method for the hereby targeted method-under-test {@link ZoneOffsetTransitionRule#getLocalTime() public
+     * java.time.LocalTime java.time.zone.ZoneOffsetTransitionRule.getLocalTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getLocalTime() public java.time.LocalTime
-     *      java.time.zone.ZoneOffsetTransitionRule.getLocalTime() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -331,95 +325,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getOffsetAfter() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getOffsetAfter()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getOffsetAfter() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getOffsetAfter()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getOffsetAfter() public java.time.ZoneOffset
-     *      java.time.zone.ZoneOffsetTransitionRule.getOffsetAfter() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffsetAfter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getOffsetBefore() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getOffsetBefore()}.
-     *
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransitionRule#getOffsetBefore() public java.time.ZoneOffset
-     * java.time.zone.ZoneOffsetTransitionRule.getOffsetBefore()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link TimeDefinition public static final enum java.time.zone.ZoneOffsetTransitionRule$TimeDefinition}.
      * </p>
      *
-     * @see java.time.zone.ZoneOffsetTransitionRule#getOffsetBefore() public java.time.ZoneOffset
-     *      java.time.zone.ZoneOffsetTransitionRule.getOffsetBefore() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffsetBefore()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.time.zone.ZoneOffsetTransitionRule.TimeDefinition class
-     * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests}.
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests}).
      * </p>
-     *
-     * @see java.time.zone.ZoneOffsetTransitionRule.TimeDefinition class
-     *      java.time.zone.ZoneOffsetTransitionRule$TimeDefinition (the hereby targeted class-under-test class)
-     * @see ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests
-     *      ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TimeDefinitionTests<SUT extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition> {
+    public static abstract interface TimeDefinitionTests<SUT extends TimeDefinition>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeDefinition> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
         /**
          * <p>
-         * Test method for
-         * {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#createDateTime(java.time.LocalDateTime, java.time.ZoneOffset, java.time.ZoneOffset)
-         * public java.time.LocalDateTime
-         * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition.createDateTime(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneOffset)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#createDateTime(java.time.LocalDateTime, java.time.ZoneOffset, java.time.ZoneOffset)
-         * public java.time.LocalDateTime
+         * Test method for the hereby targeted method-under-test
+         * {@link TimeDefinition#createDateTime(LocalDateTime, ZoneOffset, ZoneOffset) public java.time.LocalDateTime
          * java.time.zone.ZoneOffsetTransitionRule$TimeDefinition.createDateTime(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneOffset)}
          * .
          *
@@ -428,10 +364,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * test methods soon.
          * </p>
          *
-         * @see java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#createDateTime(java.time.LocalDateTime,
-         *      java.time.ZoneOffset, java.time.ZoneOffset) public java.time.LocalDateTime
-         *      java.time.zone.ZoneOffsetTransitionRule$TimeDefinition.createDateTime(java.time.LocalDateTime,java.time.
-         *      ZoneOffset,java.time.ZoneOffset) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -442,6 +375,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
     }
 

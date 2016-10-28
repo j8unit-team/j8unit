@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.crypto;
 
+import javax.crypto.NoSuchPaddingException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.NoSuchPaddingException class
- * javax.crypto.NoSuchPaddingException}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link NoSuchPaddingExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NoSuchPaddingException public class javax.crypto.NoSuchPaddingException}.
  * </p>
  *
- * @see javax.crypto.NoSuchPaddingException class javax.crypto.NoSuchPaddingException (the hereby targeted
- *      class-under-test class)
- * @see NoSuchPaddingExceptionClassTests NoSuchPaddingExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.NoSuchPaddingExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NoSuchPaddingExceptionTests<SUT extends javax.crypto.NoSuchPaddingException>
+public abstract interface NoSuchPaddingExceptionTests<SUT extends NoSuchPaddingException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 
 }

@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.text;
 
+import java.awt.Shape;
+import javax.swing.event.DocumentEvent;
+import javax.swing.text.LabelView;
+import javax.swing.text.ViewFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.LabelView class javax.swing.text.LabelView}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LabelViewClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LabelView
+ * public class javax.swing.text.LabelView}.
  * </p>
  *
- * @see javax.swing.text.LabelView class javax.swing.text.LabelView (the hereby targeted class-under-test class)
- * @see LabelViewClassTests LabelViewClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.LabelViewClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LabelViewTests<SUT extends javax.swing.text.LabelView>
-extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
+public abstract interface LabelViewTests<SUT extends LabelView>
+extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.LabelView]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#getForeground() public java.awt.Color
-     * javax.swing.text.LabelView.getForeground()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#getForeground() public java.awt.Color
+     * Test method for the hereby targeted method-under-test {@link LabelView#getForeground() public java.awt.Color
      * javax.swing.text.LabelView.getForeground()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +45,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#getForeground() public java.awt.Color javax.swing.text.LabelView.getForeground()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,11 +60,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isUnderline() public boolean
-     * javax.swing.text.LabelView.isUnderline()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#isUnderline() public boolean
+     * Test method for the hereby targeted method-under-test {@link LabelView#isUnderline() public boolean
      * javax.swing.text.LabelView.isUnderline()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +68,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#isUnderline() public boolean javax.swing.text.LabelView.isUnderline() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +83,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#getFont() public java.awt.Font
-     * javax.swing.text.LabelView.getFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#getFont() public java.awt.Font
+     * Test method for the hereby targeted method-under-test {@link LabelView#getFont() public java.awt.Font
      * javax.swing.text.LabelView.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +91,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#getFont() public java.awt.Font javax.swing.text.LabelView.getFont() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,39 +106,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isStrikeThrough() public boolean
-     * javax.swing.text.LabelView.isStrikeThrough()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#isStrikeThrough() public boolean
-     * javax.swing.text.LabelView.isStrikeThrough()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.LabelView#isStrikeThrough() public boolean javax.swing.text.LabelView.isStrikeThrough()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isStrikeThrough()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#isSuperscript() public boolean
-     * javax.swing.text.LabelView.isSuperscript()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#isSuperscript() public boolean
+     * Test method for the hereby targeted method-under-test {@link LabelView#isSuperscript() public boolean
      * javax.swing.text.LabelView.isSuperscript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +114,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#isSuperscript() public boolean javax.swing.text.LabelView.isSuperscript() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -168,11 +129,30 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isSubscript() public boolean
-     * javax.swing.text.LabelView.isSubscript()}.
+     * Test method for the hereby targeted method-under-test {@link LabelView#isStrikeThrough() public boolean
+     * javax.swing.text.LabelView.isStrikeThrough()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isStrikeThrough()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isSubscript() public boolean
+     * Test method for the hereby targeted method-under-test {@link LabelView#isSubscript() public boolean
      * javax.swing.text.LabelView.isSubscript()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,8 +160,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#isSubscript() public boolean javax.swing.text.LabelView.isSubscript() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -196,44 +175,8 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#getBackground() public java.awt.Color
-     * javax.swing.text.LabelView.getBackground()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.LabelView#getBackground() public java.awt.Color
-     * javax.swing.text.LabelView.getBackground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.LabelView#getBackground() public java.awt.Color javax.swing.text.LabelView.getBackground()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link LabelView#changedUpdate(DocumentEvent, Shape, ViewFactory) public void
      * javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
      * .
      *
@@ -242,10 +185,7 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape,
-     *      javax.swing.text.ViewFactory) public void
-     *      javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.
-     *      ViewFactory) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -260,53 +200,27 @@ extends TabableViewTests<SUT>, GlyphViewTests<SUT> {
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain javax.swing.text.TabableView#getTabbedSpan(float, javax.swing.text.TabExpander) interface
-     * javax.swing.text.TabableView}</li>
-     * <li>{@linkplain javax.swing.text.GlyphView#getTabbedSpan(float, javax.swing.text.TabExpander) class
-     * javax.swing.text.GlyphView}</li>
-     * </ul>
+     * Test method for the hereby targeted method-under-test {@link LabelView#getBackground() public java.awt.Color
+     * javax.swing.text.LabelView.getBackground()}.
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getTabbedSpan_float_TabExpander()
+    public default void test_getBackground()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain javax.swing.text.TabableView#getPartialSpan(int, int) interface javax.swing.text.TabableView}
-     * </li>
-     * <li>{@linkplain javax.swing.text.GlyphView#getPartialSpan(int, int) class javax.swing.text.GlyphView}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getPartialSpan_int_int()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LabelView]
 
 }

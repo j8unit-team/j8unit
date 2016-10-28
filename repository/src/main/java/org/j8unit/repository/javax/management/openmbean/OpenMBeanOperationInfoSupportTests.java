@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.management.openmbean;
 
+import javax.management.MBeanFeatureInfo;
+import javax.management.MBeanOperationInfo;
+import javax.management.openmbean.OpenMBeanOperationInfo;
+import javax.management.openmbean.OpenMBeanOperationInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.openmbean.OpenMBeanOperationInfoSupport class
- * javax.management.openmbean.OpenMBeanOperationInfoSupport}. The complementary j8unit test interface containing the
- * class relevant aspects is {@link OpenMBeanOperationInfoSupportClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link OpenMBeanOperationInfoSupport public class javax.management.openmbean.OpenMBeanOperationInfoSupport}.
  * </p>
  *
- * @see javax.management.openmbean.OpenMBeanOperationInfoSupport class
- *      javax.management.openmbean.OpenMBeanOperationInfoSupport (the hereby targeted class-under-test class)
- * @see OpenMBeanOperationInfoSupportClassTests OpenMBeanOperationInfoSupportClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoSupportClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface OpenMBeanOperationInfoSupportTests<SUT extends javax.management.openmbean.OpenMBeanOperationInfoSupport>
-extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanOperationInfoTests<SUT> {
+public abstract interface OpenMBeanOperationInfoSupportTests<SUT extends OpenMBeanOperationInfoSupport>
+extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanOperationInfoTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#toString() public
-     * java.lang.String javax.management.openmbean.OpenMBeanOperationInfoSupport.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#toString() public
+     * Test method for the hereby targeted method-under-test {@link OpenMBeanOperationInfoSupport#toString() public
      * java.lang.String javax.management.openmbean.OpenMBeanOperationInfoSupport.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +45,7 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanOperationInfoSupport#toString() public java.lang.String
-     *      javax.management.openmbean.OpenMBeanOperationInfoSupport.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,24 +60,16 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#getReturnOpenType() public
-     * javax.management.openmbean.OpenType
+     * Test method for the hereby targeted method-under-test {@link OpenMBeanOperationInfoSupport#getReturnOpenType()
+     * public javax.management.openmbean.OpenType
      * <?> javax.management.openmbean.OpenMBeanOperationInfoSupport.getReturnOpenType()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#getReturnOpenType() public
-     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanOperationInfoSupport.getReturnOpenType()}
-     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanOperationInfoSupport#getReturnOpenType() public
-     *      javax.management.openmbean.OpenType
-     *      javax.management.openmbean.OpenMBeanOperationInfoSupport.getReturnOpenType() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -90,11 +84,7 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#hashCode() public int
-     * javax.management.openmbean.OpenMBeanOperationInfoSupport.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link OpenMBeanOperationInfoSupport#hashCode() public int
      * javax.management.openmbean.OpenMBeanOperationInfoSupport.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +92,7 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanOperationInfoSupport#hashCode() public int
-     *      javax.management.openmbean.OpenMBeanOperationInfoSupport.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -118,21 +107,15 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#equals(Object) public boolean
-     * javax.management.openmbean.OpenMBeanOperationInfoSupport.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#equals(Object) public boolean
-     * javax.management.openmbean.OpenMBeanOperationInfoSupport.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link OpenMBeanOperationInfoSupport#equals(Object) public
+     * boolean javax.management.openmbean.OpenMBeanOperationInfoSupport.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.openmbean.OpenMBeanOperationInfoSupport#equals(Object) public boolean
-     *      javax.management.openmbean.OpenMBeanOperationInfoSupport.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -151,17 +134,18 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain javax.management.openmbean.OpenMBeanOperationInfo#getSignature() interface
-     * javax.management.openmbean.OpenMBeanOperationInfo}</li>
-     * <li>{@linkplain javax.management.MBeanOperationInfo#getSignature() class javax.management.MBeanOperationInfo}
+     * <li>{@link OpenMBeanOperationInfo#getSignature() interface javax.management.openmbean.OpenMBeanOperationInfo}
      * </li>
+     * <li>{@link MBeanOperationInfo#getSignature() class javax.management.MBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -169,6 +153,8 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
     @Category(Draft.class)
     public default void test_getSignature()
     throws Exception {
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getSignature();
+        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getSignature();
     }
 
     /**
@@ -177,16 +163,18 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo}</li>
-     * <li>{@linkplain javax.management.openmbean.OpenMBeanOperationInfo#getName() interface
-     * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent node(s)
+     * {@link MBeanOperationInfo MBeanOperationInfo})</li>
+     * <li>{@link OpenMBeanOperationInfo#getName() interface javax.management.openmbean.OpenMBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -194,6 +182,8 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
     @Category(Draft.class)
     public default void test_getName()
     throws Exception {
+        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getName();
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getName();
     }
 
     /**
@@ -202,16 +192,19 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo}</li>
-     * <li>{@linkplain javax.management.openmbean.OpenMBeanOperationInfo#getDescription() interface
-     * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via parent node(s)
+     * {@link MBeanOperationInfo MBeanOperationInfo})</li>
+     * <li>{@link OpenMBeanOperationInfo#getDescription() interface javax.management.openmbean.OpenMBeanOperationInfo}
+     * </li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -219,6 +212,8 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
+        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getDescription();
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getDescription();
     }
 
     /**
@@ -227,42 +222,17 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain javax.management.openmbean.OpenMBeanOperationInfo#getReturnType() interface
-     * javax.management.openmbean.OpenMBeanOperationInfo}</li>
-     * <li>{@linkplain javax.management.MBeanOperationInfo#getReturnType() class javax.management.MBeanOperationInfo}
-     * </li>
+     * <li>{@link OpenMBeanOperationInfo#getImpact() interface javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link MBeanOperationInfo#getImpact() class javax.management.MBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getReturnType()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain javax.management.openmbean.OpenMBeanOperationInfo#getImpact() interface
-     * javax.management.openmbean.OpenMBeanOperationInfo}</li>
-     * <li>{@linkplain javax.management.MBeanOperationInfo#getImpact() class javax.management.MBeanOperationInfo}</li>
-     * </ul>
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -270,6 +240,39 @@ extends OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management
     @Category(Draft.class)
     public default void test_getImpact()
     throws Exception {
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getImpact();
+        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getImpact();
     }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link OpenMBeanOperationInfo#getReturnType() interface javax.management.openmbean.OpenMBeanOperationInfo}
+     * </li>
+     * <li>{@link MBeanOperationInfo#getReturnType() class javax.management.MBeanOperationInfo}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getReturnType()
+    throws Exception {
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getReturnType();
+        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getReturnType();
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
 
 }

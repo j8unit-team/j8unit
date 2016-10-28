@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
+import java.io.InputStream;
+import java.net.URL;
+import javax.swing.plaf.synth.SynthLookAndFeel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.synth.SynthLookAndFeel class
- * javax.swing.plaf.synth.SynthLookAndFeel}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SynthLookAndFeelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SynthLookAndFeel public class javax.swing.plaf.synth.SynthLookAndFeel}.
  * </p>
  *
- * @see javax.swing.plaf.synth.SynthLookAndFeel class javax.swing.plaf.synth.SynthLookAndFeel (the hereby targeted
- *      class-under-test class)
- * @see SynthLookAndFeelClassTests SynthLookAndFeelClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SynthLookAndFeelTests<SUT extends javax.swing.plaf.synth.SynthLookAndFeel>
+public abstract interface SynthLookAndFeelTests<SUT extends SynthLookAndFeel>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthLookAndFeel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDescription() public java.lang.String
-     * javax.swing.plaf.synth.SynthLookAndFeel.getDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDescription() public java.lang.String
-     * javax.swing.plaf.synth.SynthLookAndFeel.getDescription()}.
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#getDescription() public
+     * java.lang.String javax.swing.plaf.synth.SynthLookAndFeel.getDescription()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#getDescription() public java.lang.String
-     *      javax.swing.plaf.synth.SynthLookAndFeel.getDescription() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +59,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getID() public java.lang.String
-     * javax.swing.plaf.synth.SynthLookAndFeel.getID()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getID() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#getID() public java.lang.String
      * javax.swing.plaf.synth.SynthLookAndFeel.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +67,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#getID() public java.lang.String
-     *      javax.swing.plaf.synth.SynthLookAndFeel.getID() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,11 +82,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#initialize() public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.initialize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#initialize() public void
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#initialize() public void
      * javax.swing.plaf.synth.SynthLookAndFeel.initialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#initialize() public void
-     *      javax.swing.plaf.synth.SynthLookAndFeel.initialize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,11 +105,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#uninitialize() public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.uninitialize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#uninitialize() public void
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#uninitialize() public void
      * javax.swing.plaf.synth.SynthLookAndFeel.uninitialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +113,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#uninitialize() public void
-     *      javax.swing.plaf.synth.SynthLookAndFeel.uninitialize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -142,48 +128,15 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.synth.SynthLookAndFeel.getDefaults()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.synth.SynthLookAndFeel.getDefaults()}.
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#isNativeLookAndFeel() public
+     * boolean javax.swing.plaf.synth.SynthLookAndFeel.isNativeLookAndFeel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     *      javax.swing.plaf.synth.SynthLookAndFeel.getDefaults() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaults()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isNativeLookAndFeel() public boolean
-     * javax.swing.plaf.synth.SynthLookAndFeel.isNativeLookAndFeel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isNativeLookAndFeel() public boolean
-     * javax.swing.plaf.synth.SynthLookAndFeel.isNativeLookAndFeel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#isNativeLookAndFeel() public boolean
-     *      javax.swing.plaf.synth.SynthLookAndFeel.isNativeLookAndFeel() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -198,28 +151,21 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#load(java.io.InputStream, Class) public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.load(java.io.InputStream,java.lang.Class<?>) throws
-     * java.text.ParseException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#load(java.io.InputStream, Class) public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.load(java.io.InputStream,java.lang.Class) throws
-     * java.text.ParseException}.
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#getDefaults() public
+     * javax.swing.UIDefaults javax.swing.plaf.synth.SynthLookAndFeel.getDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#load(java.io.InputStream, Class) public void
-     *      javax.swing.plaf.synth.SynthLookAndFeel.load(java.io.InputStream,java.lang.Class) throws
-     *      java.text.ParseException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_load_InputStream_Class()
+    public default void test_getDefaults()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,11 +174,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#load(java.net.URL) public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.load(java.net.URL) throws java.text.ParseException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#load(java.net.URL) public void
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#load(URL) public void
      * javax.swing.plaf.synth.SynthLookAndFeel.load(java.net.URL) throws java.text.ParseException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,9 +182,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#load(java.net.URL) public void
-     *      javax.swing.plaf.synth.SynthLookAndFeel.load(java.net.URL) throws
-     *      java.text.ParseException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -256,20 +196,38 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isSupportedLookAndFeel() public boolean
-     * javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isSupportedLookAndFeel() public boolean
-     * javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel()}.
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#load(InputStream, Class) public
+     * void javax.swing.plaf.synth.SynthLookAndFeel.load(java.io.InputStream,java.lang.Class<?>) throws
+     * java.text.ParseException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#isSupportedLookAndFeel() public boolean
-     *      javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_load_InputStream_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#isSupportedLookAndFeel() public
+     * boolean javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -284,11 +242,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getName() public java.lang.String
-     * javax.swing.plaf.synth.SynthLookAndFeel.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link SynthLookAndFeel#getName() public java.lang.String
      * javax.swing.plaf.synth.SynthLookAndFeel.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -296,8 +250,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#getName() public java.lang.String
-     *      javax.swing.plaf.synth.SynthLookAndFeel.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -312,21 +265,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#shouldUpdateStyleOnAncestorChanged() public
-     * boolean javax.swing.plaf.synth.SynthLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#shouldUpdateStyleOnAncestorChanged() public
-     * boolean javax.swing.plaf.synth.SynthLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SynthLookAndFeel#shouldUpdateStyleOnAncestorChanged() public boolean
+     * javax.swing.plaf.synth.SynthLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthLookAndFeel#shouldUpdateStyleOnAncestorChanged() public boolean
-     *      javax.swing.plaf.synth.SynthLookAndFeel.shouldUpdateStyleOnAncestorChanged() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,5 +285,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthLookAndFeel]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.security.auth.login;
 
+import javax.security.auth.login.LoginContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.login.LoginContext class
- * javax.security.auth.login.LoginContext}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link LoginContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LoginContext
+ * public class javax.security.auth.login.LoginContext}.
  * </p>
  *
- * @see javax.security.auth.login.LoginContext class javax.security.auth.login.LoginContext (the hereby targeted
- *      class-under-test class)
- * @see LoginContextClassTests LoginContextClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.login.LoginContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LoginContextTests<SUT extends javax.security.auth.login.LoginContext>
+public abstract interface LoginContextTests<SUT extends LoginContext>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.LoginContext]
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#login() public void
-     * javax.security.auth.login.LoginContext.login() throws javax.security.auth.login.LoginException}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#login() public void
+     * Test method for the hereby targeted method-under-test {@link LoginContext#login() public void
      * javax.security.auth.login.LoginContext.login() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.login.LoginContext#login() public void javax.security.auth.login.LoginContext.login()
-     *      throws javax.security.auth.login.LoginException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#logout() public void
-     * javax.security.auth.login.LoginContext.logout() throws javax.security.auth.login.LoginException}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#logout() public void
+     * Test method for the hereby targeted method-under-test {@link LoginContext#logout() public void
      * javax.security.auth.login.LoginContext.logout() throws javax.security.auth.login.LoginException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.login.LoginContext#logout() public void javax.security.auth.login.LoginContext.logout()
-     *      throws javax.security.auth.login.LoginException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#getSubject() public javax.security.auth.Subject
-     * javax.security.auth.login.LoginContext.getSubject()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.login.LoginContext#getSubject() public javax.security.auth.Subject
-     * javax.security.auth.login.LoginContext.getSubject()}.
+     * Test method for the hereby targeted method-under-test {@link LoginContext#getSubject() public
+     * javax.security.auth.Subject javax.security.auth.login.LoginContext.getSubject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.login.LoginContext#getSubject() public javax.security.auth.Subject
-     *      javax.security.auth.login.LoginContext.getSubject() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -108,5 +97,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.LoginContext]
 
 }

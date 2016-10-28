@@ -1,5 +1,12 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import java.awt.Component;
+import java.awt.Container;
+import java.beans.PropertyChangeEvent;
+import javax.swing.JComponent;
+import javax.swing.plaf.basic.BasicInternalFrameUI;
+import javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout;
+import javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,60 +15,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameUI class
- * javax.swing.plaf.basic.BasicInternalFrameUI}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicInternalFrameUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicInternalFrameUI public class javax.swing.plaf.basic.BasicInternalFrameUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicInternalFrameUI class javax.swing.plaf.basic.BasicInternalFrameUI (the hereby
- *      targeted class-under-test class)
- * @see BasicInternalFrameUIClassTests BasicInternalFrameUIClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicInternalFrameUITests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI>
+public abstract interface BasicInternalFrameUITests<SUT extends BasicInternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getWestPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getWestPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getWestPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getWestPane()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getWestPane() public javax.swing.JComponent
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getWestPane() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWestPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setEastPane(javax.swing.JComponent) public
-     * void javax.swing.plaf.basic.BasicInternalFrameUI.setEastPane(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setEastPane(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#setEastPane(JComponent) public
      * void javax.swing.plaf.basic.BasicInternalFrameUI.setEastPane(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,9 +48,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#setEastPane(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.setEastPane(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,25 +62,20 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getEastPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getEastPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getEastPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getEastPane()}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getWestPane() public
+     * javax.swing.JComponent javax.swing.plaf.basic.BasicInternalFrameUI.getWestPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getEastPane() public javax.swing.JComponent
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getEastPane() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEastPane()
+    public default void test_getWestPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,11 +84,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setNorthPane(javax.swing.JComponent) public
-     * void javax.swing.plaf.basic.BasicInternalFrameUI.setNorthPane(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setNorthPane(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#setNorthPane(JComponent) public
      * void javax.swing.plaf.basic.BasicInternalFrameUI.setNorthPane(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,9 +92,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#setNorthPane(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.setNorthPane(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,20 +106,37 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getSouthPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getSouthPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getSouthPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getSouthPane()}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getEastPane() public
+     * javax.swing.JComponent javax.swing.plaf.basic.BasicInternalFrameUI.getEastPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getSouthPane() public javax.swing.JComponent
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getSouthPane() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEastPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getSouthPane() public
+     * javax.swing.JComponent javax.swing.plaf.basic.BasicInternalFrameUI.getSouthPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,21 +150,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getMaximumSize(JComponent)
+     * public java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -196,11 +173,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setWestPane(javax.swing.JComponent) public
-     * void javax.swing.plaf.basic.BasicInternalFrameUI.setWestPane(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setWestPane(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#setWestPane(JComponent) public
      * void javax.swing.plaf.basic.BasicInternalFrameUI.setWestPane(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,9 +181,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#setWestPane(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.setWestPane(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -224,11 +195,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setSouthPane(javax.swing.JComponent) public
-     * void javax.swing.plaf.basic.BasicInternalFrameUI.setSouthPane(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#setSouthPane(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#setSouthPane(JComponent) public
      * void javax.swing.plaf.basic.BasicInternalFrameUI.setSouthPane(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -236,9 +203,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#setSouthPane(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.setSouthPane(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -252,20 +217,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#isKeyBindingActive() public final boolean
-     * javax.swing.plaf.basic.BasicInternalFrameUI.isKeyBindingActive()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#isKeyBindingActive() public final boolean
-     * javax.swing.plaf.basic.BasicInternalFrameUI.isKeyBindingActive()}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#isKeyBindingActive() public
+     * final boolean javax.swing.plaf.basic.BasicInternalFrameUI.isKeyBindingActive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#isKeyBindingActive() public final boolean
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.isKeyBindingActive() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -279,11 +239,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#uninstallUI(javax.swing.JComponent) public
-     * void javax.swing.plaf.basic.BasicInternalFrameUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#uninstallUI(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#uninstallUI(JComponent) public
      * void javax.swing.plaf.basic.BasicInternalFrameUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,9 +247,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -308,20 +262,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getNorthPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getNorthPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getNorthPane() public javax.swing.JComponent
-     * javax.swing.plaf.basic.BasicInternalFrameUI.getNorthPane()}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getNorthPane() public
+     * javax.swing.JComponent javax.swing.plaf.basic.BasicInternalFrameUI.getNorthPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getNorthPane() public javax.swing.JComponent
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getNorthPane() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,21 +284,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getMinimumSize(JComponent)
+     * public java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.getMinimumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -364,11 +307,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getPreferredSize(javax.swing.JComponent)
-     * public java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getPreferredSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#getPreferredSize(javax.swing.JComponent)
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#getPreferredSize(JComponent)
      * public java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,9 +315,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#getPreferredSize(javax.swing.JComponent) public
-     *      java.awt.Dimension javax.swing.plaf.basic.BasicInternalFrameUI.getPreferredSize(javax.swing.JComponent) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -393,21 +330,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicInternalFrameUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicInternalFrameUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicInternalFrameUI.installUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicInternalFrameUI#installUI(JComponent) public
+     * void javax.swing.plaf.basic.BasicInternalFrameUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicInternalFrameUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -420,44 +351,40 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of
-     * {@linkplain javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener class
-     * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener}. The complementary j8unit test
-     * interface containing the class relevant aspects is
-     * {@link BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InternalFramePropertyChangeListener public class
+     * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener class
-     *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener (the hereby targeted
-     *      class-under-test class)
-     * @see BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests
-     *      BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests}
+     * ).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFramePropertyChangeListenerTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener>
+    public static abstract interface InternalFramePropertyChangeListenerTests<SUT extends InternalFramePropertyChangeListener>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener.propertyChange(java.beans.PropertyChangeEvent)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link InternalFramePropertyChangeListener#propertyChange(PropertyChangeEvent) public void
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener.propertyChange(java.beans.PropertyChangeEvent)}
          * .
          *
@@ -466,10 +393,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
-         *      public void
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener.propertyChange(java.
-         *      beans.PropertyChangeEvent) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -482,42 +406,41 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
+
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout class
-     * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout}. The complementary j8unit test interface
-     * containing the class relevant aspects is {@link BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link InternalFrameLayout public class javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout class
-     *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout (the hereby targeted class-under-test class)
-     * @see BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests
-     *      BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests}
+     * ).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InternalFrameLayoutTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout>
+    public static abstract interface InternalFrameLayoutTests<SUT extends InternalFrameLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#removeLayoutComponent(java.awt.Component)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.removeLayoutComponent(java.awt.Component)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#removeLayoutComponent(java.awt.Component)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link InternalFrameLayout#removeLayoutComponent(Component) public void
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.removeLayoutComponent(java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -525,10 +448,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#removeLayoutComponent(java.awt.Component)
-         *      public void
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.removeLayoutComponent(java.awt.
-         *      Component) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -543,15 +463,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#preferredLayoutSize(java.awt.Container)
-         * public java.awt.Dimension
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.preferredLayoutSize(java.awt.Container)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#preferredLayoutSize(java.awt.Container)
-         * public java.awt.Dimension
+         * Test method for the hereby targeted method-under-test
+         * {@link InternalFrameLayout#preferredLayoutSize(Container) public java.awt.Dimension
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.preferredLayoutSize(java.awt.Container)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -559,10 +472,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#preferredLayoutSize(java.awt.Container)
-         *      public java.awt.Dimension
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.preferredLayoutSize(java.awt.Container)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -577,14 +487,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#minimumLayoutSize(java.awt.Container)
-         * public java.awt.Dimension
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.minimumLayoutSize(java.awt.Container)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#minimumLayoutSize(java.awt.Container)
+         * Test method for the hereby targeted method-under-test {@link InternalFrameLayout#minimumLayoutSize(Container)
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.minimumLayoutSize(java.awt.Container)}.
          *
@@ -593,10 +496,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#minimumLayoutSize(java.awt.Container)
-         *      public java.awt.Dimension
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.minimumLayoutSize(java.awt.Container)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -611,14 +511,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#layoutContainer(java.awt.Container)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.layoutContainer(java.awt.Container)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#layoutContainer(java.awt.Container)
+         * Test method for the hereby targeted method-under-test {@link InternalFrameLayout#layoutContainer(Container)
          * public void
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.layoutContainer(java.awt.Container)}.
          *
@@ -627,10 +520,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#layoutContainer(java.awt.Container)
-         *      public void
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.layoutContainer(java.awt.Container) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -645,16 +535,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#addLayoutComponent(String, java.awt.Component)
-         * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#addLayoutComponent(String, java.awt.Component)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link InternalFrameLayout#addLayoutComponent(String, Component) public void
          * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
          * .
          *
@@ -663,10 +545,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#addLayoutComponent(String,
-         *      java.awt.Component) public void
-         *      javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.addLayoutComponent(java.lang.String,java
-         *      .awt.Component) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -678,6 +557,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
     }
 

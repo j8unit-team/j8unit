@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.rmi.server;
 
+import java.rmi.server.RemoteStub;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.server.RemoteStub class java.rmi.server.RemoteStub}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link RemoteStubClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RemoteStub
+ * public abstract class java.rmi.server.RemoteStub}.
  * </p>
  *
- * @see java.rmi.server.RemoteStub class java.rmi.server.RemoteStub (the hereby targeted class-under-test class)
- * @see RemoteStubClassTests RemoteStubClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.server.RemoteStubClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RemoteStubTests<SUT extends java.rmi.server.RemoteStub>
-extends RemoteObjectTests<SUT> {
+public abstract interface RemoteStubTests<SUT extends RemoteStub>
+extends org.j8unit.repository.java.rmi.server.RemoteObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.RemoteStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteStub]
 
 }

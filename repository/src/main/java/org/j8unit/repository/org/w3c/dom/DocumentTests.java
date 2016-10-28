@@ -5,43 +5,45 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.Document interface org.w3c.dom.Document}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link DocumentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Document public
+ * abstract interface org.w3c.dom.Document}.
  * </p>
  *
- * @see org.w3c.dom.Document interface org.w3c.dom.Document (the hereby targeted class-under-test class)
- * @see DocumentClassTests DocumentClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.DocumentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentTests<SUT extends org.w3c.dom.Document>
-extends NodeTests<SUT> {
+public abstract interface DocumentTests<SUT extends Document>
+extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.Document]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getDocumentURI() public abstract java.lang.String
-     * org.w3c.dom.Document.getDocumentURI()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getDocumentURI() public abstract java.lang.String
-     * org.w3c.dom.Document.getDocumentURI()}.
+     * Test method for the hereby targeted method-under-test {@link Document#getDocumentURI() public abstract
+     * java.lang.String org.w3c.dom.Document.getDocumentURI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getDocumentURI() public abstract java.lang.String org.w3c.dom.Document.getDocumentURI()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +57,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlEncoding() public abstract java.lang.String
-     * org.w3c.dom.Document.getXmlEncoding()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlEncoding() public abstract java.lang.String
-     * org.w3c.dom.Document.getXmlEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link Document#getXmlEncoding() public abstract
+     * java.lang.String org.w3c.dom.Document.getXmlEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getXmlEncoding() public abstract java.lang.String org.w3c.dom.Document.getXmlEncoding()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,21 +79,16 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementsByTagNameNS(String, String) public abstract
-     * org.w3c.dom.NodeList org.w3c.dom.Document.getElementsByTagNameNS(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementsByTagNameNS(String, String) public abstract
-     * org.w3c.dom.NodeList org.w3c.dom.Document.getElementsByTagNameNS(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link Document#getElementsByTagNameNS(String, String)
+     * public abstract org.w3c.dom.NodeList
+     * org.w3c.dom.Document.getElementsByTagNameNS(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getElementsByTagNameNS(String, String) public abstract org.w3c.dom.NodeList
-     *      org.w3c.dom.Document.getElementsByTagNameNS(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,20 +102,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementsByTagName(String) public abstract org.w3c.dom.NodeList
-     * org.w3c.dom.Document.getElementsByTagName(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementsByTagName(String) public abstract org.w3c.dom.NodeList
-     * org.w3c.dom.Document.getElementsByTagName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link Document#getElementsByTagName(String) public
+     * abstract org.w3c.dom.NodeList org.w3c.dom.Document.getElementsByTagName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getElementsByTagName(String) public abstract org.w3c.dom.NodeList
-     *      org.w3c.dom.Document.getElementsByTagName(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,20 +124,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     * org.w3c.dom.Document.getDomConfig()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     * org.w3c.dom.Document.getDomConfig()}.
+     * Test method for the hereby targeted method-under-test {@link Document#getDomConfig() public abstract
+     * org.w3c.dom.DOMConfiguration org.w3c.dom.Document.getDomConfig()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
-     *      org.w3c.dom.Document.getDomConfig() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,23 +146,16 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#renameNode(org.w3c.dom.Node, String, String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Document.renameNode(org.w3c.dom.Node,java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#renameNode(org.w3c.dom.Node, String, String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Document.renameNode(org.w3c.dom.Node,java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#renameNode(Node, String, String) public
+     * abstract org.w3c.dom.Node org.w3c.dom.Document.renameNode(org.w3c.dom.Node,java.lang.String,java.lang.String)
+     * throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#renameNode(org.w3c.dom.Node, String, String) public abstract org.w3c.dom.Node
-     *      org.w3c.dom.Document.renameNode(org.w3c.dom.Node,java.lang.String,java.lang.String) throws
-     *      org.w3c.dom.DOMException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,48 +169,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getImplementation() public abstract org.w3c.dom.DOMImplementation
-     * org.w3c.dom.Document.getImplementation()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getImplementation() public abstract org.w3c.dom.DOMImplementation
-     * org.w3c.dom.Document.getImplementation()}.
+     * Test method for the hereby targeted method-under-test {@link Document#setXmlStandalone(boolean) public abstract
+     * void org.w3c.dom.Document.setXmlStandalone(boolean) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getImplementation() public abstract org.w3c.dom.DOMImplementation
-     *      org.w3c.dom.Document.getImplementation() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplementation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setXmlStandalone(boolean) public abstract void
-     * org.w3c.dom.Document.setXmlStandalone(boolean) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setXmlStandalone(boolean) public abstract void
-     * org.w3c.dom.Document.setXmlStandalone(boolean) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#setXmlStandalone(boolean) public abstract void
-     *      org.w3c.dom.Document.setXmlStandalone(boolean) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,20 +191,37 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createTextNode(String) public abstract org.w3c.dom.Text
-     * org.w3c.dom.Document.createTextNode(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createTextNode(String) public abstract org.w3c.dom.Text
-     * org.w3c.dom.Document.createTextNode(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link Document#getImplementation() public abstract
+     * org.w3c.dom.DOMImplementation org.w3c.dom.Document.getImplementation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createTextNode(String) public abstract org.w3c.dom.Text
-     *      org.w3c.dom.Document.createTextNode(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplementation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Document#createTextNode(String) public abstract
+     * org.w3c.dom.Text org.w3c.dom.Document.createTextNode(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,77 +235,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementById(String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.getElementById(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getElementById(String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.getElementById(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link Document#setStrictErrorChecking(boolean) public
+     * abstract void org.w3c.dom.Document.setStrictErrorChecking(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getElementById(String) public abstract org.w3c.dom.Element
-     *      org.w3c.dom.Document.getElementById(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElementById_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createEntityReference(String) public abstract
-     * org.w3c.dom.EntityReference org.w3c.dom.Document.createEntityReference(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createEntityReference(String) public abstract
-     * org.w3c.dom.EntityReference org.w3c.dom.Document.createEntityReference(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#createEntityReference(String) public abstract org.w3c.dom.EntityReference
-     *      org.w3c.dom.Document.createEntityReference(java.lang.String) throws org.w3c.dom.DOMException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createEntityReference_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setStrictErrorChecking(boolean) public abstract void
-     * org.w3c.dom.Document.setStrictErrorChecking(boolean)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setStrictErrorChecking(boolean) public abstract void
-     * org.w3c.dom.Document.setStrictErrorChecking(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#setStrictErrorChecking(boolean) public abstract void
-     *      org.w3c.dom.Document.setStrictErrorChecking(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -360,20 +257,60 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createComment(String) public abstract org.w3c.dom.Comment
-     * org.w3c.dom.Document.createComment(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createComment(String) public abstract org.w3c.dom.Comment
-     * org.w3c.dom.Document.createComment(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link Document#createEntityReference(String) public
+     * abstract org.w3c.dom.EntityReference org.w3c.dom.Document.createEntityReference(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createComment(String) public abstract org.w3c.dom.Comment
-     *      org.w3c.dom.Document.createComment(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createEntityReference_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Document#getElementById(String) public abstract
+     * org.w3c.dom.Element org.w3c.dom.Document.getElementById(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElementById_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Document#createComment(String) public abstract
+     * org.w3c.dom.Comment org.w3c.dom.Document.createComment(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,21 +324,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#adoptNode(org.w3c.dom.Node) public abstract org.w3c.dom.Node
-     * org.w3c.dom.Document.adoptNode(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#adoptNode(org.w3c.dom.Node) public abstract org.w3c.dom.Node
-     * org.w3c.dom.Document.adoptNode(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#adoptNode(Node) public abstract
+     * org.w3c.dom.Node org.w3c.dom.Document.adoptNode(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#adoptNode(org.w3c.dom.Node) public abstract org.w3c.dom.Node
-     *      org.w3c.dom.Document.adoptNode(org.w3c.dom.Node) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -415,20 +346,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlVersion() public abstract java.lang.String
-     * org.w3c.dom.Document.getXmlVersion()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlVersion() public abstract java.lang.String
-     * org.w3c.dom.Document.getXmlVersion()}.
+     * Test method for the hereby targeted method-under-test {@link Document#getXmlVersion() public abstract
+     * java.lang.String org.w3c.dom.Document.getXmlVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getXmlVersion() public abstract java.lang.String org.w3c.dom.Document.getXmlVersion()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,20 +368,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createDocumentFragment() public abstract org.w3c.dom.DocumentFragment
-     * org.w3c.dom.Document.createDocumentFragment()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createDocumentFragment() public abstract org.w3c.dom.DocumentFragment
-     * org.w3c.dom.Document.createDocumentFragment()}.
+     * Test method for the hereby targeted method-under-test {@link Document#createDocumentFragment() public abstract
+     * org.w3c.dom.DocumentFragment org.w3c.dom.Document.createDocumentFragment()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createDocumentFragment() public abstract org.w3c.dom.DocumentFragment
-     *      org.w3c.dom.Document.createDocumentFragment() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -469,11 +390,7 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#normalizeDocument() public abstract void
-     * org.w3c.dom.Document.normalizeDocument()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#normalizeDocument() public abstract void
+     * Test method for the hereby targeted method-under-test {@link Document#normalizeDocument() public abstract void
      * org.w3c.dom.Document.normalizeDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -481,8 +398,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#normalizeDocument() public abstract void org.w3c.dom.Document.normalizeDocument() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -496,20 +412,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getStrictErrorChecking() public abstract boolean
-     * org.w3c.dom.Document.getStrictErrorChecking()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getStrictErrorChecking() public abstract boolean
-     * org.w3c.dom.Document.getStrictErrorChecking()}.
+     * Test method for the hereby targeted method-under-test {@link Document#getStrictErrorChecking() public abstract
+     * boolean org.w3c.dom.Document.getStrictErrorChecking()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getStrictErrorChecking() public abstract boolean
-     *      org.w3c.dom.Document.getStrictErrorChecking() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,48 +434,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getDoctype() public abstract org.w3c.dom.DocumentType
-     * org.w3c.dom.Document.getDoctype()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getDoctype() public abstract org.w3c.dom.DocumentType
-     * org.w3c.dom.Document.getDoctype()}.
+     * Test method for the hereby targeted method-under-test {@link Document#createAttribute(String) public abstract
+     * org.w3c.dom.Attr org.w3c.dom.Document.createAttribute(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getDoctype() public abstract org.w3c.dom.DocumentType org.w3c.dom.Document.getDoctype()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDoctype()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createAttribute(String) public abstract org.w3c.dom.Attr
-     * org.w3c.dom.Document.createAttribute(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createAttribute(String) public abstract org.w3c.dom.Attr
-     * org.w3c.dom.Document.createAttribute(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#createAttribute(String) public abstract org.w3c.dom.Attr
-     *      org.w3c.dom.Document.createAttribute(java.lang.String) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -578,14 +456,30 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createProcessingInstruction(String, String) public abstract
-     * org.w3c.dom.ProcessingInstruction
-     * org.w3c.dom.Document.createProcessingInstruction(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#getDoctype() public abstract
+     * org.w3c.dom.DocumentType org.w3c.dom.Document.getDoctype()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDoctype()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createProcessingInstruction(String, String) public abstract
-     * org.w3c.dom.ProcessingInstruction
+     * Test method for the hereby targeted method-under-test {@link Document#createProcessingInstruction(String, String)
+     * public abstract org.w3c.dom.ProcessingInstruction
      * org.w3c.dom.Document.createProcessingInstruction(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      *
@@ -594,10 +488,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createProcessingInstruction(String, String) public abstract
-     *      org.w3c.dom.ProcessingInstruction
-     *      org.w3c.dom.Document.createProcessingInstruction(java.lang.String,java.lang.String) throws
-     *      org.w3c.dom.DOMException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -611,21 +502,16 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createElementNS(String, String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.createElementNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createElementNS(String, String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.createElementNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#createElementNS(String, String) public
+     * abstract org.w3c.dom.Element org.w3c.dom.Document.createElementNS(java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createElementNS(String, String) public abstract org.w3c.dom.Element
-     *      org.w3c.dom.Document.createElementNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -639,11 +525,7 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#setXmlVersion(String) public abstract void
-     * org.w3c.dom.Document.setXmlVersion(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setXmlVersion(String) public abstract void
+     * Test method for the hereby targeted method-under-test {@link Document#setXmlVersion(String) public abstract void
      * org.w3c.dom.Document.setXmlVersion(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -651,9 +533,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#setXmlVersion(String) public abstract void
-     *      org.w3c.dom.Document.setXmlVersion(java.lang.String) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -667,21 +547,16 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createAttributeNS(String, String) public abstract org.w3c.dom.Attr
-     * org.w3c.dom.Document.createAttributeNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createAttributeNS(String, String) public abstract org.w3c.dom.Attr
-     * org.w3c.dom.Document.createAttributeNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#createAttributeNS(String, String) public
+     * abstract org.w3c.dom.Attr org.w3c.dom.Document.createAttributeNS(java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createAttributeNS(String, String) public abstract org.w3c.dom.Attr
-     *      org.w3c.dom.Document.createAttributeNS(java.lang.String,java.lang.String) throws org.w3c.dom.DOMException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -695,11 +570,7 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#setDocumentURI(String) public abstract void
-     * org.w3c.dom.Document.setDocumentURI(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#setDocumentURI(String) public abstract void
+     * Test method for the hereby targeted method-under-test {@link Document#setDocumentURI(String) public abstract void
      * org.w3c.dom.Document.setDocumentURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -707,8 +578,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#setDocumentURI(String) public abstract void
-     *      org.w3c.dom.Document.setDocumentURI(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -722,11 +592,7 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlStandalone() public abstract boolean
-     * org.w3c.dom.Document.getXmlStandalone()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getXmlStandalone() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Document#getXmlStandalone() public abstract boolean
      * org.w3c.dom.Document.getXmlStandalone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -734,8 +600,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getXmlStandalone() public abstract boolean org.w3c.dom.Document.getXmlStandalone() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -749,11 +614,7 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#importNode(org.w3c.dom.Node, boolean) public abstract
-     * org.w3c.dom.Node org.w3c.dom.Document.importNode(org.w3c.dom.Node,boolean) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#importNode(org.w3c.dom.Node, boolean) public abstract
+     * Test method for the hereby targeted method-under-test {@link Document#importNode(Node, boolean) public abstract
      * org.w3c.dom.Node org.w3c.dom.Document.importNode(org.w3c.dom.Node,boolean) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -761,9 +622,7 @@ extends NodeTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#importNode(org.w3c.dom.Node, boolean) public abstract org.w3c.dom.Node
-     *      org.w3c.dom.Document.importNode(org.w3c.dom.Node,boolean) throws org.w3c.dom.DOMException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -777,48 +636,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#createElement(String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.createElement(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createElement(String) public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.createElement(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link Document#getInputEncoding() public abstract
+     * java.lang.String org.w3c.dom.Document.getInputEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#createElement(String) public abstract org.w3c.dom.Element
-     *      org.w3c.dom.Document.createElement(java.lang.String) throws org.w3c.dom.DOMException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createElement_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getInputEncoding() public abstract java.lang.String
-     * org.w3c.dom.Document.getInputEncoding()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getInputEncoding() public abstract java.lang.String
-     * org.w3c.dom.Document.getInputEncoding()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#getInputEncoding() public abstract java.lang.String
-     *      org.w3c.dom.Document.getInputEncoding() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -832,20 +658,60 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Document#getDocumentElement() public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.getDocumentElement()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#getDocumentElement() public abstract org.w3c.dom.Element
-     * org.w3c.dom.Document.getDocumentElement()}.
+     * Test method for the hereby targeted method-under-test {@link Document#createElement(String) public abstract
+     * org.w3c.dom.Element org.w3c.dom.Document.createElement(java.lang.String) throws org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Document#getDocumentElement() public abstract org.w3c.dom.Element
-     *      org.w3c.dom.Document.getDocumentElement() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createElement_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Document#createCDATASection(String) public abstract
+     * org.w3c.dom.CDATASection org.w3c.dom.Document.createCDATASection(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCDATASection_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Document#getDocumentElement() public abstract
+     * org.w3c.dom.Element org.w3c.dom.Document.getDocumentElement()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -857,32 +723,6 @@ extends NodeTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createCDATASection(String) public abstract org.w3c.dom.CDATASection
-     * org.w3c.dom.Document.createCDATASection(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Document#createCDATASection(String) public abstract org.w3c.dom.CDATASection
-     * org.w3c.dom.Document.createCDATASection(java.lang.String) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Document#createCDATASection(String) public abstract org.w3c.dom.CDATASection
-     *      org.w3c.dom.Document.createCDATASection(java.lang.String) throws org.w3c.dom.DOMException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createCDATASection_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.Document]
 
 }

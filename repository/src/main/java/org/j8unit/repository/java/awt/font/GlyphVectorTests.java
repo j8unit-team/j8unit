@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.awt.font;
 
+import java.awt.font.FontRenderContext;
+import java.awt.font.GlyphVector;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Point2D;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.font.GlyphVector class java.awt.font.GlyphVector}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link GlyphVectorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link GlyphVector
+ * public abstract class java.awt.font.GlyphVector}.
  * </p>
  *
- * @see java.awt.font.GlyphVector class java.awt.font.GlyphVector (the hereby targeted class-under-test class)
- * @see GlyphVectorClassTests GlyphVectorClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.font.GlyphVectorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface GlyphVectorTests<SUT extends java.awt.font.GlyphVector>
+public abstract interface GlyphVectorTests<SUT extends GlyphVector>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.GlyphVector]
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getNumGlyphs() public abstract int
-     * java.awt.font.GlyphVector.getNumGlyphs()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getNumGlyphs() public abstract int
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getNumGlyphs() public abstract int
      * java.awt.font.GlyphVector.getNumGlyphs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +45,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getNumGlyphs() public abstract int java.awt.font.GlyphVector.getNumGlyphs() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,48 +59,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCodes(int, int, int[]) public abstract int[]
-     * java.awt.font.GlyphVector.getGlyphCodes(int,int,int[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCodes(int, int, int[]) public abstract int[]
-     * java.awt.font.GlyphVector.getGlyphCodes(int,int,int[])}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#setGlyphPosition(int, Point2D) public
+     * abstract void java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphCodes(int, int, int[]) public abstract int[]
-     *      java.awt.font.GlyphVector.getGlyphCodes(int,int,int[]) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphCodes_int_int_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphPosition(int, java.awt.geom.Point2D) public abstract
-     * void java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphPosition(int, java.awt.geom.Point2D) public abstract
-     * void java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.GlyphVector#setGlyphPosition(int, java.awt.geom.Point2D) public abstract void
-     *      java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,25 +81,20 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphLogicalBounds(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphLogicalBounds(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphLogicalBounds(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphLogicalBounds(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphCodes(int, int, int[]) public
+     * abstract int[] java.awt.font.GlyphVector.getGlyphCodes(int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphLogicalBounds(int) public abstract java.awt.Shape
-     *      java.awt.font.GlyphVector.getGlyphLogicalBounds(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphLogicalBounds_int()
+    public default void test_getGlyphCodes_int_int_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,21 +103,16 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getPixelBounds(java.awt.font.FontRenderContext, float, float)
-     * public java.awt.Rectangle java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getPixelBounds(java.awt.font.FontRenderContext, float, float)
-     * public java.awt.Rectangle java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link GlyphVector#getPixelBounds(FontRenderContext, float, float) public java.awt.Rectangle
+     * java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getPixelBounds(java.awt.font.FontRenderContext, float, float) public
-     *      java.awt.Rectangle java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,11 +126,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getFont() public abstract java.awt.Font
-     * java.awt.font.GlyphVector.getFont()}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphLogicalBounds(int) public
+     * abstract java.awt.Shape java.awt.font.GlyphVector.getGlyphLogicalBounds(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphLogicalBounds_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getFont() public abstract java.awt.Font
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getFont() public abstract java.awt.Font
      * java.awt.font.GlyphVector.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +156,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getFont() public abstract java.awt.Font java.awt.font.GlyphVector.getFont() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,21 +170,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphTransform(int, java.awt.geom.AffineTransform) public
-     * abstract void java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphTransform(int, java.awt.geom.AffineTransform) public
-     * abstract void java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#setGlyphTransform(int, AffineTransform)
+     * public abstract void java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#setGlyphTransform(int, java.awt.geom.AffineTransform) public abstract void
-     *      java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,47 +192,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCode(int) public abstract int
-     * java.awt.font.GlyphVector.getGlyphCode(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCode(int) public abstract int
-     * java.awt.font.GlyphVector.getGlyphCode(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphPositions(int, int, float[])
+     * public abstract float[] java.awt.font.GlyphVector.getGlyphPositions(int,int,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphCode(int) public abstract int java.awt.font.GlyphVector.getGlyphCode(int)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphCode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPositions(int, int, float[]) public abstract float[]
-     * java.awt.font.GlyphVector.getGlyphPositions(int,int,float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPositions(int, int, float[]) public abstract float[]
-     * java.awt.font.GlyphVector.getGlyphPositions(int,int,float[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.GlyphVector#getGlyphPositions(int, int, float[]) public abstract float[]
-     *      java.awt.font.GlyphVector.getGlyphPositions(int,int,float[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,25 +214,20 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphOutline(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphOutline(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphCode(int) public abstract int
+     * java.awt.font.GlyphVector.getGlyphCode(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphOutline(int) public abstract java.awt.Shape
-     *      java.awt.font.GlyphVector.getGlyphOutline(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphOutline_int()
+    public default void test_getGlyphCode_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -301,20 +236,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int, float, float) public java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int, float, float) public java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphOutline(int, float, float)
+     * public java.awt.Shape java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphOutline(int, float, float) public java.awt.Shape
-     *      java.awt.font.GlyphVector.getGlyphOutline(int,float,float) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -328,11 +258,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphTransform(int) public abstract
-     * java.awt.geom.AffineTransform java.awt.font.GlyphVector.getGlyphTransform(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphOutline(int) public abstract
+     * java.awt.Shape java.awt.font.GlyphVector.getGlyphOutline(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphOutline_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphTransform(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphTransform(int) public abstract
      * java.awt.geom.AffineTransform java.awt.font.GlyphVector.getGlyphTransform(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -340,8 +288,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphTransform(int) public abstract java.awt.geom.AffineTransform
-     *      java.awt.font.GlyphVector.getGlyphTransform(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,20 +302,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#equals(java.awt.font.GlyphVector) public abstract boolean
-     * java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#equals(java.awt.font.GlyphVector) public abstract boolean
-     * java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#equals(GlyphVector) public abstract
+     * boolean java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#equals(java.awt.font.GlyphVector) public abstract boolean
-     *      java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,20 +324,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPosition(int) public abstract java.awt.geom.Point2D
-     * java.awt.font.GlyphVector.getGlyphPosition(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPosition(int) public abstract java.awt.geom.Point2D
-     * java.awt.font.GlyphVector.getGlyphPosition(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphPosition(int) public abstract
+     * java.awt.geom.Point2D java.awt.font.GlyphVector.getGlyphPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphPosition(int) public abstract java.awt.geom.Point2D
-     *      java.awt.font.GlyphVector.getGlyphPosition(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,20 +346,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getVisualBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getVisualBounds()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getVisualBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getVisualBounds()}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getVisualBounds() public abstract
+     * java.awt.geom.Rectangle2D java.awt.font.GlyphVector.getVisualBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getVisualBounds() public abstract java.awt.geom.Rectangle2D
-     *      java.awt.font.GlyphVector.getVisualBounds() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -436,15 +368,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.font.GlyphVector#getGlyphPixelBounds(int, java.awt.font.FontRenderContext, float, float) public
-     * java.awt.Rectangle
-     * java.awt.font.GlyphVector.getGlyphPixelBounds(int,java.awt.font.FontRenderContext,float,float)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.font.GlyphVector#getGlyphPixelBounds(int, java.awt.font.FontRenderContext, float, float) public
-     * java.awt.Rectangle
+     * Test method for the hereby targeted method-under-test
+     * {@link GlyphVector#getGlyphPixelBounds(int, FontRenderContext, float, float) public java.awt.Rectangle
      * java.awt.font.GlyphVector.getGlyphPixelBounds(int,java.awt.font.FontRenderContext,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -452,10 +377,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphPixelBounds(int, java.awt.font.FontRenderContext, float, float) public
-     *      java.awt.Rectangle
-     *      java.awt.font.GlyphVector.getGlyphPixelBounds(int,java.awt.font.FontRenderContext,float,float) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -469,47 +391,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndices(int, int, int[]) public int[]
-     * java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndices(int, int, int[]) public int[]
-     * java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getLogicalBounds() public abstract
+     * java.awt.geom.Rectangle2D java.awt.font.GlyphVector.getLogicalBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphCharIndices(int, int, int[]) public int[]
-     *      java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[]) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphCharIndices_int_int_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getLogicalBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getLogicalBounds()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getLogicalBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getLogicalBounds()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.GlyphVector#getLogicalBounds() public abstract java.awt.geom.Rectangle2D
-     *      java.awt.font.GlyphVector.getLogicalBounds() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,20 +413,37 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphVisualBounds(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphVisualBounds(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphVisualBounds(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphVisualBounds(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphCharIndices(int, int, int[])
+     * public int[] java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphVisualBounds(int) public abstract java.awt.Shape
-     *      java.awt.font.GlyphVector.getGlyphVisualBounds(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphCharIndices_int_int_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphVisualBounds(int) public
+     * abstract java.awt.Shape java.awt.font.GlyphVector.getGlyphVisualBounds(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -550,11 +457,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getLayoutFlags() public int
-     * java.awt.font.GlyphVector.getLayoutFlags()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getLayoutFlags() public int
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getLayoutFlags() public int
      * java.awt.font.GlyphVector.getLayoutFlags()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -562,8 +465,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getLayoutFlags() public int java.awt.font.GlyphVector.getLayoutFlags() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -577,11 +479,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndex(int) public int
-     * java.awt.font.GlyphVector.getGlyphCharIndex(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndex(int) public int
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphCharIndex(int) public int
      * java.awt.font.GlyphVector.getGlyphCharIndex(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -589,8 +487,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphCharIndex(int) public int java.awt.font.GlyphVector.getGlyphCharIndex(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -604,20 +501,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getOutline(float, float) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getOutline(float,float)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getOutline(float, float) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getOutline(float,float)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getOutline(float, float) public abstract
+     * java.awt.Shape java.awt.font.GlyphVector.getOutline(float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getOutline(float, float) public abstract java.awt.Shape
-     *      java.awt.font.GlyphVector.getOutline(float,float) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -631,20 +523,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getOutline() public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getOutline()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getOutline() public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getOutline()}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getOutline() public abstract
+     * java.awt.Shape java.awt.font.GlyphVector.getOutline()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getOutline() public abstract java.awt.Shape java.awt.font.GlyphVector.getOutline()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -658,11 +545,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getFontRenderContext() public abstract
-     * java.awt.font.FontRenderContext java.awt.font.GlyphVector.getFontRenderContext()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getFontRenderContext() public abstract
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getFontRenderContext() public abstract
      * java.awt.font.FontRenderContext java.awt.font.GlyphVector.getFontRenderContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -670,8 +553,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getFontRenderContext() public abstract java.awt.font.FontRenderContext
-     *      java.awt.font.GlyphVector.getFontRenderContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -685,20 +567,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphMetrics(int) public abstract java.awt.font.GlyphMetrics
-     * java.awt.font.GlyphVector.getGlyphMetrics(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphMetrics(int) public abstract java.awt.font.GlyphMetrics
-     * java.awt.font.GlyphVector.getGlyphMetrics(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphMetrics(int) public abstract
+     * java.awt.font.GlyphMetrics java.awt.font.GlyphVector.getGlyphMetrics(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphMetrics(int) public abstract java.awt.font.GlyphMetrics
-     *      java.awt.font.GlyphVector.getGlyphMetrics(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -712,21 +589,37 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphJustificationInfo(int) public abstract
-     * java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphJustificationInfo(int) public abstract
-     * java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int)}.
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#performDefaultLayout() public abstract
+     * void java.awt.font.GlyphVector.performDefaultLayout()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.GlyphVector#getGlyphJustificationInfo(int) public abstract
-     *      java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_performDefaultLayout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link GlyphVector#getGlyphJustificationInfo(int) public
+     * abstract java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -738,31 +631,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#performDefaultLayout() public abstract void
-     * java.awt.font.GlyphVector.performDefaultLayout()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#performDefaultLayout() public abstract void
-     * java.awt.font.GlyphVector.performDefaultLayout()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.GlyphVector#performDefaultLayout() public abstract void
-     *      java.awt.font.GlyphVector.performDefaultLayout() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_performDefaultLayout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.GlyphVector]
 
 }

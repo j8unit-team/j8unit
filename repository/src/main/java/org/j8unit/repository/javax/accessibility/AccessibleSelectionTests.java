@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.accessibility;
 
+import javax.accessibility.AccessibleSelection;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,71 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleSelection interface
- * javax.accessibility.AccessibleSelection}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AccessibleSelectionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccessibleSelection public abstract interface javax.accessibility.AccessibleSelection}.
  * </p>
  *
- * @see javax.accessibility.AccessibleSelection interface javax.accessibility.AccessibleSelection (the hereby targeted
- *      class-under-test class)
- * @see AccessibleSelectionClassTests AccessibleSelectionClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleSelectionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleSelectionTests<SUT extends javax.accessibility.AccessibleSelection>
+public abstract interface AccessibleSelectionTests<SUT extends AccessibleSelection>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
-     * javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
-     * javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
-     *      javax.accessibility.AccessibleSelection.getAccessibleSelectionCount() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleSelectionCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleSelection]
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract
-     * void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract
-     * void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#selectAllAccessibleSelection()
+     * public abstract void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract void
-     *      javax.accessibility.AccessibleSelection.selectAllAccessibleSelection() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,25 +57,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#clearAccessibleSelection() public abstract void
-     * javax.accessibility.AccessibleSelection.clearAccessibleSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#clearAccessibleSelection() public abstract void
-     * javax.accessibility.AccessibleSelection.clearAccessibleSelection()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#getAccessibleSelectionCount()
+     * public abstract int javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#clearAccessibleSelection() public abstract void
-     *      javax.accessibility.AccessibleSelection.clearAccessibleSelection() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clearAccessibleSelection()
+    public default void test_getAccessibleSelectionCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,21 +79,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract
-     * void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract
-     * void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#removeAccessibleSelection(int)
+     * public abstract void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract void
-     *      javax.accessibility.AccessibleSelection.removeAccessibleSelection(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -142,21 +101,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#isAccessibleChildSelected(int) public abstract
-     * boolean javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#isAccessibleChildSelected(int) public abstract
-     * boolean javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#clearAccessibleSelection()
+     * public abstract void javax.accessibility.AccessibleSelection.clearAccessibleSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#isAccessibleChildSelected(int) public abstract boolean
-     *      javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearAccessibleSelection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#isAccessibleChildSelected(int)
+     * public abstract boolean javax.accessibility.AccessibleSelection.isAccessibleChildSelected(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -170,21 +145,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#getAccessibleSelection(int)
+     * public abstract javax.accessibility.Accessible
+     * javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
-     *      javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -198,20 +168,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
-     * javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
-     * javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleSelection#addAccessibleSelection(int)
+     * public abstract void javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
-     *      javax.accessibility.AccessibleSelection.addAccessibleSelection(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,5 +187,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleSelection]
 
 }

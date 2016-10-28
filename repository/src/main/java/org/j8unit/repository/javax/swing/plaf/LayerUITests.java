@@ -1,5 +1,13 @@
 package org.j8unit.repository.javax.swing.plaf;
 
+import java.awt.AWTEvent;
+import java.awt.Component;
+import java.awt.Graphics;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import javax.swing.JComponent;
+import javax.swing.JLayer;
+import javax.swing.plaf.LayerUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,98 +16,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.LayerUI class javax.swing.plaf.LayerUI}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LayerUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LayerUI public
+ * class javax.swing.plaf.LayerUI<V>}.
  * </p>
  *
- * @see javax.swing.plaf.LayerUI class javax.swing.plaf.LayerUI (the hereby targeted class-under-test class)
- * @see LayerUIClassTests LayerUIClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.LayerUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LayerUITests<SUT extends javax.swing.plaf.LayerUI<V>, V extends java.awt.Component>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<SUT> {
+public abstract interface LayerUITests<SUT extends LayerUI<V>, V extends Component>
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.LayerUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void javax.swing.plaf.LayerUI.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void javax.swing.plaf.LayerUI.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.LayerUI#addPropertyChangeListener(java.beans.PropertyChangeListener) public void
-     *      javax.swing.plaf.LayerUI.addPropertyChangeListener(java.beans.PropertyChangeListener) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPropertyChangeListener_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public void
-     * javax.swing.plaf.LayerUI.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public void
-     * javax.swing.plaf.LayerUI.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.LayerUI#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public void
-     *      javax.swing.plaf.LayerUI.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPropertyChangeListener_String_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#doLayout(javax.swing.JLayer) public void
+     * Test method for the hereby targeted method-under-test {@link LayerUI#doLayout(JLayer) public void
      * javax.swing.plaf.LayerUI.doLayout(javax.swing.JLayer<? extends V>)}.
      *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#doLayout(javax.swing.JLayer) public void
-     * javax.swing.plaf.LayerUI.doLayout(javax.swing.JLayer)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#doLayout(javax.swing.JLayer) public void
-     *      javax.swing.plaf.LayerUI.doLayout(javax.swing.JLayer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,11 +63,53 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.LayerUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link LayerUI#addPropertyChangeListener(PropertyChangeListener) public void
+     * javax.swing.plaf.LayerUI.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addPropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#uninstallUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link LayerUI#addPropertyChangeListener(String, PropertyChangeListener) public void
+     * javax.swing.plaf.LayerUI.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addPropertyChangeListener_String_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link LayerUI#uninstallUI(JComponent) public void
      * javax.swing.plaf.LayerUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +117,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.LayerUI.uninstallUI(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -141,21 +132,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paintImmediately(int, int, int, int, javax.swing.JLayer) public
-     * void javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer<? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paintImmediately(int, int, int, int, javax.swing.JLayer) public
-     * void javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer)}.
+     * Test method for the hereby targeted method-under-test {@link LayerUI#paintImmediately(int, int, int, int, JLayer)
+     * public void javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer<? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#paintImmediately(int, int, int, int, javax.swing.JLayer) public void
-     *      javax.swing.plaf.LayerUI.paintImmediately(int,int,int,int,javax.swing.JLayer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,20 +154,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.LayerUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.LayerUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getMinimumSize(JComponent) public
+     * java.awt.Dimension javax.swing.plaf.LayerUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.LayerUI.getMinimumSize(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -197,12 +177,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getBaselineResizeBehavior(javax.swing.JComponent) public
-     * java.awt.Component$BaselineResizeBehavior
-     * javax.swing.plaf.LayerUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getBaselineResizeBehavior(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getBaselineResizeBehavior(JComponent) public
      * java.awt.Component$BaselineResizeBehavior
      * javax.swing.plaf.LayerUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      *
@@ -211,10 +186,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getBaselineResizeBehavior(javax.swing.JComponent) public
-     *      java.awt.Component$BaselineResizeBehavior
-     *      javax.swing.plaf.LayerUI.getBaselineResizeBehavior(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -229,11 +201,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.LayerUI.getPreferredSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPreferredSize(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getPreferredSize(JComponent) public
      * java.awt.Dimension javax.swing.plaf.LayerUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -241,8 +209,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.LayerUI.getPreferredSize(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -257,11 +224,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.LayerUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#installUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link LayerUI#installUI(JComponent) public void
      * javax.swing.plaf.LayerUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -269,8 +232,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.LayerUI.installUI(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -285,11 +247,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent, int, int) public int
-     * javax.swing.plaf.LayerUI.getBaseline(javax.swing.JComponent,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent, int, int) public int
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getBaseline(JComponent, int, int) public int
      * javax.swing.plaf.LayerUI.getBaseline(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -297,8 +255,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getBaseline(javax.swing.JComponent, int, int) public int
-     *      javax.swing.plaf.LayerUI.getBaseline(javax.swing.JComponent,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -313,79 +270,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(String, java.beans.PropertyChangeListener) public
-     * void javax.swing.plaf.LayerUI.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(String, java.beans.PropertyChangeListener) public
-     * void javax.swing.plaf.LayerUI.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.LayerUI#removePropertyChangeListener(String, java.beans.PropertyChangeListener) public void
-     *      javax.swing.plaf.LayerUI.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void javax.swing.plaf.LayerUI.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void javax.swing.plaf.LayerUI.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.LayerUI#removePropertyChangeListener(java.beans.PropertyChangeListener) public void
-     *      javax.swing.plaf.LayerUI.removePropertyChangeListener(java.beans.PropertyChangeListener) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent, javax.swing.JLayer) public
+     * Test method for the hereby targeted method-under-test {@link LayerUI#eventDispatched(AWTEvent, JLayer) public
      * void javax.swing.plaf.LayerUI.eventDispatched(java.awt.AWTEvent,javax.swing.JLayer<? extends V>)}.
      *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent, javax.swing.JLayer) public
-     * void javax.swing.plaf.LayerUI.eventDispatched(java.awt.AWTEvent,javax.swing.JLayer)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#eventDispatched(java.awt.AWTEvent, javax.swing.JLayer) public void
-     *      javax.swing.plaf.LayerUI.eventDispatched(java.awt.AWTEvent,javax.swing.JLayer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -399,24 +292,62 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent, javax.swing.JLayer) public
-     * void javax.swing.plaf.LayerUI.applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer<? extends
-     * V>)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent, javax.swing.JLayer) public
-     * void javax.swing.plaf.LayerUI.applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link LayerUI#removePropertyChangeListener(PropertyChangeListener) public void
+     * javax.swing.plaf.LayerUI.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#applyPropertyChange(java.beans.PropertyChangeEvent, javax.swing.JLayer) public void
-     *      javax.swing.plaf.LayerUI.applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link LayerUI#removePropertyChangeListener(String, PropertyChangeListener) public void
+     * javax.swing.plaf.LayerUI.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link LayerUI#applyPropertyChange(PropertyChangeEvent, JLayer) public void
+     * javax.swing.plaf.LayerUI.applyPropertyChange(java.beans.PropertyChangeEvent,javax.swing.JLayer<? extends V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -430,11 +361,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.LayerUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link LayerUI#paint(Graphics, JComponent) public void
      * javax.swing.plaf.LayerUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -442,9 +369,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.LayerUI.paint(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -459,20 +384,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#updateUI(javax.swing.JLayer) public void
+     * Test method for the hereby targeted method-under-test {@link LayerUI#updateUI(JLayer) public void
      * javax.swing.plaf.LayerUI.updateUI(javax.swing.JLayer<? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#updateUI(javax.swing.JLayer) public void
-     * javax.swing.plaf.LayerUI.updateUI(javax.swing.JLayer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#updateUI(javax.swing.JLayer) public void
-     *      javax.swing.plaf.LayerUI.updateUI(javax.swing.JLayer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -486,20 +406,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.LayerUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.LayerUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getMaximumSize(JComponent) public
+     * java.awt.Dimension javax.swing.plaf.LayerUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.LayerUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -514,11 +429,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners(String) public
-     * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners(String) public
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getPropertyChangeListeners(String) public
      * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -526,9 +437,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getPropertyChangeListeners(String) public java.beans.PropertyChangeListener[]
-     *      javax.swing.plaf.LayerUI.getPropertyChangeListeners(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -542,11 +451,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners() public
-     * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.LayerUI#getPropertyChangeListeners() public
+     * Test method for the hereby targeted method-under-test {@link LayerUI#getPropertyChangeListeners() public
      * java.beans.PropertyChangeListener[] javax.swing.plaf.LayerUI.getPropertyChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -554,8 +459,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.LayerUI#getPropertyChangeListeners() public java.beans.PropertyChangeListener[]
-     *      javax.swing.plaf.LayerUI.getPropertyChangeListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -566,5 +470,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComponentUITests<S
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.LayerUI]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.SimpleBeanInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,68 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.SimpleBeanInfo class java.beans.SimpleBeanInfo}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link SimpleBeanInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SimpleBeanInfo
+ * public class java.beans.SimpleBeanInfo}.
  * </p>
  *
- * @see java.beans.SimpleBeanInfo class java.beans.SimpleBeanInfo (the hereby targeted class-under-test class)
- * @see SimpleBeanInfoClassTests SimpleBeanInfoClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.SimpleBeanInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SimpleBeanInfoTests<SUT extends java.beans.SimpleBeanInfo>
-extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface SimpleBeanInfoTests<SUT extends SimpleBeanInfo>
+extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
-     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
-     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getPropertyDescriptors() public
+     * java.beans.PropertyDescriptor[] java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
-     *      java.beans.SimpleBeanInfo.getEventSetDescriptors() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getEventSetDescriptors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
-     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
-     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
-     *      java.beans.SimpleBeanInfo.getPropertyDescriptors() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +57,30 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getEventSetDescriptors() public
+     * java.beans.EventSetDescriptor[] java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getEventSetDescriptors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getDefaultEventIndex() public int
      * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +88,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getDefaultEventIndex() public int java.beans.SimpleBeanInfo.getDefaultEventIndex()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,20 +103,15 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
-     * java.beans.SimpleBeanInfo.getBeanDescriptor()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
-     * java.beans.SimpleBeanInfo.getBeanDescriptor()}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getBeanDescriptor() public
+     * java.beans.BeanDescriptor java.beans.SimpleBeanInfo.getBeanDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getBeanDescriptor() public java.beans.BeanDescriptor
-     *      java.beans.SimpleBeanInfo.getBeanDescriptor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,20 +126,15 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
-     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
-     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#loadImage(String) public
+     * java.awt.Image java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#loadImage(String) public java.awt.Image
-     *      java.beans.SimpleBeanInfo.loadImage(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,11 +148,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image
-     * java.beans.SimpleBeanInfo.getIcon(int)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getIcon(int) public java.awt.Image
      * java.beans.SimpleBeanInfo.getIcon(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +156,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image java.beans.SimpleBeanInfo.getIcon(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -195,20 +171,15 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
-     * java.beans.SimpleBeanInfo.getMethodDescriptors()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
-     * java.beans.SimpleBeanInfo.getMethodDescriptors()}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getMethodDescriptors() public
+     * java.beans.MethodDescriptor[] java.beans.SimpleBeanInfo.getMethodDescriptors()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getMethodDescriptors() public java.beans.MethodDescriptor[]
-     *      java.beans.SimpleBeanInfo.getMethodDescriptors() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -223,20 +194,15 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
-     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
-     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getAdditionalBeanInfo() public
+     * java.beans.BeanInfo[] java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
-     *      java.beans.SimpleBeanInfo.getAdditionalBeanInfo() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -251,11 +217,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
+     * Test method for the hereby targeted method-under-test {@link SimpleBeanInfo#getDefaultPropertyIndex() public int
      * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +225,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
-     *      java.beans.SimpleBeanInfo.getDefaultPropertyIndex() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -276,5 +237,7 @@ extends BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 
 }

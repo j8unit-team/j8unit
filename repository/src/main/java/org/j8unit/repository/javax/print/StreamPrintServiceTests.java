@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.print;
 
+import javax.print.PrintService;
+import javax.print.StreamPrintService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.StreamPrintService class javax.print.StreamPrintService}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link StreamPrintServiceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link StreamPrintService public abstract class javax.print.StreamPrintService}.
  * </p>
  *
- * @see javax.print.StreamPrintService class javax.print.StreamPrintService (the hereby targeted class-under-test class)
- * @see StreamPrintServiceClassTests StreamPrintServiceClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.StreamPrintServiceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StreamPrintServiceTests<SUT extends javax.print.StreamPrintService>
-extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StreamPrintServiceTests<SUT extends StreamPrintService>
+extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.StreamPrintService]
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintService.getOutputFormat()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintService.getOutputFormat()}.
+     * Test method for the hereby targeted method-under-test {@link StreamPrintService#getOutputFormat() public abstract
+     * java.lang.String javax.print.StreamPrintService.getOutputFormat()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
-     *      javax.print.StreamPrintService.getOutputFormat() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +57,7 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
-     * javax.print.StreamPrintService.isDisposed()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
+     * Test method for the hereby targeted method-under-test {@link StreamPrintService#isDisposed() public boolean
      * javax.print.StreamPrintService.isDisposed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +65,7 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintService#isDisposed() public boolean javax.print.StreamPrintService.isDisposed() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,38 +79,7 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
-     * javax.print.StreamPrintService.getOutputStream()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
-     * javax.print.StreamPrintService.getOutputStream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
-     *      javax.print.StreamPrintService.getOutputStream() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#dispose() public void
-     * javax.print.StreamPrintService.dispose()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#dispose() public void
+     * Test method for the hereby targeted method-under-test {@link StreamPrintService#dispose() public void
      * javax.print.StreamPrintService.dispose()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,8 +87,7 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
      * methods soon.
      * </p>
      *
-     * @see javax.print.StreamPrintService#dispose() public void javax.print.StreamPrintService.dispose() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,26 +101,24 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain Object#hashCode() class java.lang.Object}</li>
-     * <li>{@linkplain javax.print.PrintService#hashCode() interface javax.print.PrintService}</li>
-     * </ul>
+     * Test method for the hereby targeted method-under-test {@link StreamPrintService#getOutputStream() public
+     * java.io.OutputStream javax.print.StreamPrintService.getOutputStream()}.
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_getOutputStream()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -164,15 +127,45 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain Object#equals(Object) class java.lang.Object}</li>
-     * <li>{@linkplain javax.print.PrintService#equals(Object) interface javax.print.PrintService}</li>
+     * <li>{@link PrintService#hashCode() interface javax.print.PrintService}</li>
+     * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        org.j8unit.repository.javax.print.PrintServiceTests.super.test_hashCode();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link PrintService#equals(Object) interface javax.print.PrintService}</li>
+     * <li>{@link Object#equals(Object) class java.lang.Object}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -180,6 +173,10 @@ extends PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Category(Draft.class)
     public default void test_equals_Object()
     throws Exception {
+        org.j8unit.repository.javax.print.PrintServiceTests.super.test_equals_Object();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintService]
 
 }

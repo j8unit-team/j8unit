@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.naming;
 
+import javax.naming.AuthenticationNotSupportedException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.AuthenticationNotSupportedException class
- * javax.naming.AuthenticationNotSupportedException}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link AuthenticationNotSupportedExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AuthenticationNotSupportedException public class javax.naming.AuthenticationNotSupportedException}.
  * </p>
  *
- * @see javax.naming.AuthenticationNotSupportedException class javax.naming.AuthenticationNotSupportedException (the
- *      hereby targeted class-under-test class)
- * @see AuthenticationNotSupportedExceptionClassTests AuthenticationNotSupportedExceptionClassTests (the complementary
- *      j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.AuthenticationNotSupportedExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AuthenticationNotSupportedExceptionTests<SUT extends javax.naming.AuthenticationNotSupportedException>
-extends NamingSecurityExceptionTests<SUT> {
+public abstract interface AuthenticationNotSupportedExceptionTests<SUT extends AuthenticationNotSupportedException>
+extends org.j8unit.repository.javax.naming.NamingSecurityExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.AuthenticationNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.AuthenticationNotSupportedException]
 
 }

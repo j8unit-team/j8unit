@@ -1,5 +1,32 @@
 package org.j8unit.repository.javax.swing.text;
 
+import java.awt.Color;
+import java.awt.ComponentOrientation;
+import java.awt.Insets;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.event.InputMethodListener;
+import java.awt.event.MouseEvent;
+import java.io.Reader;
+import java.io.Writer;
+import java.text.MessageFormat;
+import javax.print.PrintService;
+import javax.print.attribute.PrintRequestAttributeSet;
+import javax.swing.DropMode;
+import javax.swing.event.CaretEvent;
+import javax.swing.event.CaretListener;
+import javax.swing.event.DocumentEvent;
+import javax.swing.plaf.TextUI;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.Caret;
+import javax.swing.text.Document;
+import javax.swing.text.Highlighter;
+import javax.swing.text.JTextComponent;
+import javax.swing.text.JTextComponent.AccessibleJTextComponent;
+import javax.swing.text.JTextComponent.DropLocation;
+import javax.swing.text.JTextComponent.KeyBinding;
+import javax.swing.text.Keymap;
+import javax.swing.text.NavigationFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +35,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.JTextComponent class javax.swing.text.JTextComponent}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link JTextComponentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JTextComponent
+ * public abstract class javax.swing.text.JTextComponent}.
  * </p>
  *
- * @see javax.swing.text.JTextComponent class javax.swing.text.JTextComponent (the hereby targeted class-under-test
- *      class)
- * @see JTextComponentClassTests JTextComponentClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JTextComponentTests<SUT extends javax.swing.text.JTextComponent>
+public abstract interface JTextComponentTests<SUT extends JTextComponent>
 extends org.j8unit.repository.javax.swing.ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,
 org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent]
+
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.text.JTextComponent.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.text.JTextComponent.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +69,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.text.JTextComponent.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,21 +84,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setHighlighter(javax.swing.text.Highlighter) public void
-     * javax.swing.text.JTextComponent.setHighlighter(javax.swing.text.Highlighter)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setHighlighter(javax.swing.text.Highlighter) public void
-     * javax.swing.text.JTextComponent.setHighlighter(javax.swing.text.Highlighter)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setHighlighter(Highlighter) public
+     * void javax.swing.text.JTextComponent.setHighlighter(javax.swing.text.Highlighter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setHighlighter(javax.swing.text.Highlighter) public void
-     *      javax.swing.text.JTextComponent.setHighlighter(javax.swing.text.Highlighter) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,11 +106,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setMargin(java.awt.Insets) public void
-     * javax.swing.text.JTextComponent.setMargin(java.awt.Insets)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setMargin(java.awt.Insets) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setMargin(Insets) public void
      * javax.swing.text.JTextComponent.setMargin(java.awt.Insets)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +114,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setMargin(java.awt.Insets) public void
-     *      javax.swing.text.JTextComponent.setMargin(java.awt.Insets) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,47 +128,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDisabledTextColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getDisabledTextColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDisabledTextColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getDisabledTextColor()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getPreferredScrollableViewportSize()
+     * public java.awt.Dimension javax.swing.text.JTextComponent.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getDisabledTextColor() public java.awt.Color
-     *      javax.swing.text.JTextComponent.getDisabledTextColor() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisabledTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getPreferredScrollableViewportSize() public
-     * java.awt.Dimension javax.swing.text.JTextComponent.getPreferredScrollableViewportSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getPreferredScrollableViewportSize() public
-     * java.awt.Dimension javax.swing.text.JTextComponent.getPreferredScrollableViewportSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getPreferredScrollableViewportSize() public java.awt.Dimension
-     *      javax.swing.text.JTextComponent.getPreferredScrollableViewportSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -168,11 +151,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#moveCaretPosition(int) public void
-     * javax.swing.text.JTextComponent.moveCaretPosition(int)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getDisabledTextColor() public
+     * java.awt.Color javax.swing.text.JTextComponent.getDisabledTextColor()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#moveCaretPosition(int) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#moveCaretPosition(int) public void
      * javax.swing.text.JTextComponent.moveCaretPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,8 +181,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#moveCaretPosition(int) public void
-     *      javax.swing.text.JTextComponent.moveCaretPosition(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -195,20 +195,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getSelectionColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getSelectionColor()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getSelectionColor() public
+     * java.awt.Color javax.swing.text.JTextComponent.getSelectionColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getSelectionColor() public java.awt.Color
-     *      javax.swing.text.JTextComponent.getSelectionColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,47 +217,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getKeymap() public javax.swing.text.Keymap
-     * javax.swing.text.JTextComponent.getKeymap()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getKeymap() public javax.swing.text.Keymap
-     * javax.swing.text.JTextComponent.getKeymap()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getSelectedTextColor() public
+     * java.awt.Color javax.swing.text.JTextComponent.getSelectedTextColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getKeymap() public javax.swing.text.Keymap
-     *      javax.swing.text.JTextComponent.getKeymap() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeymap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectedTextColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getSelectedTextColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectedTextColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getSelectedTextColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getSelectedTextColor() public java.awt.Color
-     *      javax.swing.text.JTextComponent.getSelectedTextColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,21 +239,38 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setComponentOrientation(java.awt.ComponentOrientation)
-     * public void javax.swing.text.JTextComponent.setComponentOrientation(java.awt.ComponentOrientation)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setComponentOrientation(java.awt.ComponentOrientation)
-     * public void javax.swing.text.JTextComponent.setComponentOrientation(java.awt.ComponentOrientation)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getKeymap() public
+     * javax.swing.text.Keymap javax.swing.text.JTextComponent.getKeymap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setComponentOrientation(java.awt.ComponentOrientation) public void
-     *      javax.swing.text.JTextComponent.setComponentOrientation(java.awt.ComponentOrientation) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeymap()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#setComponentOrientation(ComponentOrientation) public void
+     * javax.swing.text.JTextComponent.setComponentOrientation(java.awt.ComponentOrientation)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -305,20 +285,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDisabledTextColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setDisabledTextColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDisabledTextColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setDisabledTextColor(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setDisabledTextColor(Color) public
+     * void javax.swing.text.JTextComponent.setDisabledTextColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setDisabledTextColor(java.awt.Color) public void
-     *      javax.swing.text.JTextComponent.setDisabledTextColor(java.awt.Color) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -332,11 +307,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionEnd() public int
-     * javax.swing.text.JTextComponent.getSelectionEnd()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionEnd() public int
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getSelectionEnd() public int
      * javax.swing.text.JTextComponent.getSelectionEnd()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -344,8 +315,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getSelectionEnd() public int
-     *      javax.swing.text.JTextComponent.getSelectionEnd() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -359,11 +329,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setText(String) public void
-     * javax.swing.text.JTextComponent.setText(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setText(String) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setText(String) public void
      * javax.swing.text.JTextComponent.setText(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -371,8 +337,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setText(String) public void
-     *      javax.swing.text.JTextComponent.setText(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -386,11 +351,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getToolTipText(java.awt.event.MouseEvent) public
-     * java.lang.String javax.swing.text.JTextComponent.getToolTipText(java.awt.event.MouseEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getToolTipText(java.awt.event.MouseEvent) public
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getToolTipText(MouseEvent) public
      * java.lang.String javax.swing.text.JTextComponent.getToolTipText(java.awt.event.MouseEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -398,9 +359,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
-     *      javax.swing.text.JTextComponent.getToolTipText(java.awt.event.MouseEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -415,11 +374,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaretPosition(int) public void
-     * javax.swing.text.JTextComponent.setCaretPosition(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaretPosition(int) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setCaretPosition(int) public void
      * javax.swing.text.JTextComponent.setCaretPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -427,8 +382,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setCaretPosition(int) public void
-     *      javax.swing.text.JTextComponent.setCaretPosition(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -442,21 +396,16 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#addInputMethodListener(java.awt.event.InputMethodListener)
-     * public void javax.swing.text.JTextComponent.addInputMethodListener(java.awt.event.InputMethodListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#addInputMethodListener(java.awt.event.InputMethodListener)
-     * public void javax.swing.text.JTextComponent.addInputMethodListener(java.awt.event.InputMethodListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#addInputMethodListener(InputMethodListener) public void
+     * javax.swing.text.JTextComponent.addInputMethodListener(java.awt.event.InputMethodListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#addInputMethodListener(java.awt.event.InputMethodListener) public void
-     *      javax.swing.text.JTextComponent.addInputMethodListener(java.awt.event.InputMethodListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -471,47 +420,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaret() public javax.swing.text.Caret
-     * javax.swing.text.JTextComponent.getCaret()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaret() public javax.swing.text.Caret
-     * javax.swing.text.JTextComponent.getCaret()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setDropMode(DropMode) public final
+     * void javax.swing.text.JTextComponent.setDropMode(javax.swing.DropMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getCaret() public javax.swing.text.Caret
-     *      javax.swing.text.JTextComponent.getCaret() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaret()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDropMode(javax.swing.DropMode) public final void
-     * javax.swing.text.JTextComponent.setDropMode(javax.swing.DropMode)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDropMode(javax.swing.DropMode) public final void
-     * javax.swing.text.JTextComponent.setDropMode(javax.swing.DropMode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#setDropMode(javax.swing.DropMode) public final void
-     *      javax.swing.text.JTextComponent.setDropMode(javax.swing.DropMode) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -525,11 +442,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setEditable(boolean) public void
-     * javax.swing.text.JTextComponent.setEditable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setEditable(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setEditable(boolean) public void
      * javax.swing.text.JTextComponent.setEditable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -537,8 +450,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setEditable(boolean) public void
-     *      javax.swing.text.JTextComponent.setEditable(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -552,28 +464,20 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat)
-     * public boolean javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat) throws
-     * java.awt.print.PrinterException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat)
-     * public boolean javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat) throws
-     * java.awt.print.PrinterException}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getCaret() public
+     * javax.swing.text.Caret javax.swing.text.JTextComponent.getCaret()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat) public boolean
-     *      javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat) throws
-     *      java.awt.print.PrinterException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_MessageFormat_MessageFormat()
+    public default void test_getCaret()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -582,74 +486,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#print() public boolean
-     * javax.swing.text.JTextComponent.print() throws java.awt.print.PrinterException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#print() public boolean
-     * javax.swing.text.JTextComponent.print() throws java.awt.print.PrinterException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#print() public boolean javax.swing.text.JTextComponent.print() throws
-     *      java.awt.print.PrinterException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_print()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat, boolean, javax.print.PrintService, javax.print.attribute.PrintRequestAttributeSet, boolean)
-     * public boolean
-     * javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.PrintService,javax.print.attribute.PrintRequestAttributeSet,boolean)
-     * throws java.awt.print.PrinterException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat, boolean, javax.print.PrintService, javax.print.attribute.PrintRequestAttributeSet, boolean)
-     * public boolean
-     * javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.PrintService,javax.print.attribute.PrintRequestAttributeSet,boolean)
-     * throws java.awt.print.PrinterException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#print(java.text.MessageFormat, java.text.MessageFormat, boolean,
-     *      javax.print.PrintService, javax.print.attribute.PrintRequestAttributeSet, boolean) public boolean
-     *      javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.
-     *      PrintService,javax.print.attribute.PrintRequestAttributeSet,boolean) throws java.awt.print.PrinterException
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_print_MessageFormat_MessageFormat_boolean_PrintService_PrintRequestAttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setUI(javax.swing.plaf.TextUI) public void
-     * javax.swing.text.JTextComponent.setUI(javax.swing.plaf.TextUI)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setUI(javax.swing.plaf.TextUI) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setUI(TextUI) public void
      * javax.swing.text.JTextComponent.setUI(javax.swing.plaf.TextUI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -657,8 +494,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setUI(javax.swing.plaf.TextUI) public void
-     *      javax.swing.text.JTextComponent.setUI(javax.swing.plaf.TextUI) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -672,11 +508,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDocument(javax.swing.text.Document) public void
-     * javax.swing.text.JTextComponent.setDocument(javax.swing.text.Document)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDocument(javax.swing.text.Document) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setDocument(Document) public void
      * javax.swing.text.JTextComponent.setDocument(javax.swing.text.Document)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -684,9 +516,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setDocument(javax.swing.text.Document) public void
-     *      javax.swing.text.JTextComponent.setDocument(javax.swing.text.Document) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -700,21 +530,86 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#modelToView(int) public java.awt.Rectangle
-     * javax.swing.text.JTextComponent.modelToView(int) throws javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#modelToView(int) public java.awt.Rectangle
-     * javax.swing.text.JTextComponent.modelToView(int) throws javax.swing.text.BadLocationException}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#print(MessageFormat, MessageFormat)
+     * public boolean javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat) throws
+     * java.awt.print.PrinterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#modelToView(int) public java.awt.Rectangle
-     *      javax.swing.text.JTextComponent.modelToView(int) throws javax.swing.text.BadLocationException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_print_MessageFormat_MessageFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#print(MessageFormat, MessageFormat, boolean, PrintService, PrintRequestAttributeSet, boolean)
+     * public boolean
+     * javax.swing.text.JTextComponent.print(java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.PrintService,javax.print.attribute.PrintRequestAttributeSet,boolean)
+     * throws java.awt.print.PrinterException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_print_MessageFormat_MessageFormat_boolean_PrintService_PrintRequestAttributeSet_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#print() public boolean
+     * javax.swing.text.JTextComponent.print() throws java.awt.print.PrinterException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_print()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#modelToView(int) public
+     * java.awt.Rectangle javax.swing.text.JTextComponent.modelToView(int) throws javax.swing.text.BadLocationException}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -728,11 +623,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#updateUI() public void
-     * javax.swing.text.JTextComponent.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#updateUI() public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#updateUI() public void
      * javax.swing.text.JTextComponent.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -740,8 +631,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#updateUI() public void javax.swing.text.JTextComponent.updateUI() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -756,21 +646,16 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableBlockIncrement(java.awt.Rectangle, int, int)
-     * public int javax.swing.text.JTextComponent.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableBlockIncrement(java.awt.Rectangle, int, int)
-     * public int javax.swing.text.JTextComponent.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#getScrollableBlockIncrement(Rectangle, int, int) public int
+     * javax.swing.text.JTextComponent.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
-     *      javax.swing.text.JTextComponent.getScrollableBlockIncrement(java.awt.Rectangle,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -785,11 +670,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#paste() public void
-     * javax.swing.text.JTextComponent.paste()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#paste() public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#paste() public void
      * javax.swing.text.JTextComponent.paste()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -797,8 +678,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#paste() public void javax.swing.text.JTextComponent.paste() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -812,38 +692,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getActions() public javax.swing.Action[]
-     * javax.swing.text.JTextComponent.getActions()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getActions() public javax.swing.Action[]
-     * javax.swing.text.JTextComponent.getActions()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getActions() public javax.swing.Action[]
-     *      javax.swing.text.JTextComponent.getActions() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setFocusAccelerator(char) public void
-     * javax.swing.text.JTextComponent.setFocusAccelerator(char)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setFocusAccelerator(char) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setFocusAccelerator(char) public void
      * javax.swing.text.JTextComponent.setFocusAccelerator(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -851,8 +700,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setFocusAccelerator(char) public void
-     *      javax.swing.text.JTextComponent.setFocusAccelerator(char) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -866,20 +714,37 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectedTextColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setSelectedTextColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectedTextColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setSelectedTextColor(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getActions() public
+     * javax.swing.Action[] javax.swing.text.JTextComponent.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setSelectedTextColor(java.awt.Color) public void
-     *      javax.swing.text.JTextComponent.setSelectedTextColor(java.awt.Color) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getActions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setSelectedTextColor(Color) public
+     * void javax.swing.text.JTextComponent.setSelectedTextColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -893,18 +758,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#cut() public void javax.swing.text.JTextComponent.cut()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#cut() public void javax.swing.text.JTextComponent.cut()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#cut() public void
+     * javax.swing.text.JTextComponent.cut()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#cut() public void javax.swing.text.JTextComponent.cut() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -918,20 +780,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#copy() public void javax.swing.text.JTextComponent.copy()}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#copy() public void javax.swing.text.JTextComponent.copy()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#copy() public void
+     * javax.swing.text.JTextComponent.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#copy() public void javax.swing.text.JTextComponent.copy() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -945,21 +802,16 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableUnitIncrement(java.awt.Rectangle, int, int)
-     * public int javax.swing.text.JTextComponent.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableUnitIncrement(java.awt.Rectangle, int, int)
-     * public int javax.swing.text.JTextComponent.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#getScrollableUnitIncrement(Rectangle, int, int) public int
+     * javax.swing.text.JTextComponent.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getScrollableUnitIncrement(java.awt.Rectangle, int, int) public int
-     *      javax.swing.text.JTextComponent.getScrollableUnitIncrement(java.awt.Rectangle,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -974,11 +826,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getFocusAccelerator() public char
-     * javax.swing.text.JTextComponent.getFocusAccelerator()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getFocusAccelerator() public char
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getFocusAccelerator() public char
      * javax.swing.text.JTextComponent.getFocusAccelerator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -986,8 +834,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getFocusAccelerator() public char
-     *      javax.swing.text.JTextComponent.getFocusAccelerator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1001,20 +848,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableTracksViewportHeight() public boolean
-     * javax.swing.text.JTextComponent.getScrollableTracksViewportHeight()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableTracksViewportHeight() public boolean
-     * javax.swing.text.JTextComponent.getScrollableTracksViewportHeight()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getScrollableTracksViewportHeight()
+     * public boolean javax.swing.text.JTextComponent.getScrollableTracksViewportHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getScrollableTracksViewportHeight() public boolean
-     *      javax.swing.text.JTextComponent.getScrollableTracksViewportHeight() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1029,20 +871,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDropMode() public final javax.swing.DropMode
-     * javax.swing.text.JTextComponent.getDropMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDropMode() public final javax.swing.DropMode
-     * javax.swing.text.JTextComponent.getDropMode()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getDropMode() public final
+     * javax.swing.DropMode javax.swing.text.JTextComponent.getDropMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getDropMode() public final javax.swing.DropMode
-     *      javax.swing.text.JTextComponent.getDropMode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1056,75 +893,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getText() public java.lang.String
-     * javax.swing.text.JTextComponent.getText()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getText() public java.lang.String
-     * javax.swing.text.JTextComponent.getText()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getDocument() public
+     * javax.swing.text.Document javax.swing.text.JTextComponent.getDocument()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getText() public java.lang.String javax.swing.text.JTextComponent.getText()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getText(int, int) public java.lang.String
-     * javax.swing.text.JTextComponent.getText(int,int) throws javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getText(int, int) public java.lang.String
-     * javax.swing.text.JTextComponent.getText(int,int) throws javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getText(int, int) public java.lang.String
-     *      javax.swing.text.JTextComponent.getText(int,int) throws javax.swing.text.BadLocationException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getText_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDocument() public javax.swing.text.Document
-     * javax.swing.text.JTextComponent.getDocument()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDocument() public javax.swing.text.Document
-     * javax.swing.text.JTextComponent.getDocument()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getDocument() public javax.swing.text.Document
-     *      javax.swing.text.JTextComponent.getDocument() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1138,20 +915,59 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getHighlighter() public javax.swing.text.Highlighter
-     * javax.swing.text.JTextComponent.getHighlighter()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getHighlighter() public javax.swing.text.Highlighter
-     * javax.swing.text.JTextComponent.getHighlighter()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getText(int, int) public
+     * java.lang.String javax.swing.text.JTextComponent.getText(int,int) throws javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getHighlighter() public javax.swing.text.Highlighter
-     *      javax.swing.text.JTextComponent.getHighlighter() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getText_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getText() public java.lang.String
+     * javax.swing.text.JTextComponent.getText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getHighlighter() public
+     * javax.swing.text.Highlighter javax.swing.text.JTextComponent.getHighlighter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1165,11 +981,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#read(java.io.Reader, Object) public void
-     * javax.swing.text.JTextComponent.read(java.io.Reader,java.lang.Object) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#read(java.io.Reader, Object) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#read(Reader, Object) public void
      * javax.swing.text.JTextComponent.read(java.io.Reader,java.lang.Object) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1177,9 +989,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#read(java.io.Reader, Object) public void
-     *      javax.swing.text.JTextComponent.read(java.io.Reader,java.lang.Object) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1193,11 +1003,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDragEnabled(boolean) public void
-     * javax.swing.text.JTextComponent.setDragEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setDragEnabled(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setDragEnabled(boolean) public void
      * javax.swing.text.JTextComponent.setDragEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1205,8 +1011,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setDragEnabled(boolean) public void
-     *      javax.swing.text.JTextComponent.setDragEnabled(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1220,11 +1025,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#removeNotify() public void
-     * javax.swing.text.JTextComponent.removeNotify()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#removeNotify() public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#removeNotify() public void
      * javax.swing.text.JTextComponent.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1232,8 +1033,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#removeNotify() public void javax.swing.text.JTextComponent.removeNotify()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1248,38 +1048,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getNavigationFilter() public
-     * javax.swing.text.NavigationFilter javax.swing.text.JTextComponent.getNavigationFilter()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getNavigationFilter() public
-     * javax.swing.text.NavigationFilter javax.swing.text.JTextComponent.getNavigationFilter()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getNavigationFilter() public javax.swing.text.NavigationFilter
-     *      javax.swing.text.JTextComponent.getNavigationFilter() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNavigationFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setNavigationFilter(javax.swing.text.NavigationFilter)
-     * public void javax.swing.text.JTextComponent.setNavigationFilter(javax.swing.text.NavigationFilter)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setNavigationFilter(javax.swing.text.NavigationFilter)
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setNavigationFilter(NavigationFilter)
      * public void javax.swing.text.JTextComponent.setNavigationFilter(javax.swing.text.NavigationFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1287,9 +1056,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setNavigationFilter(javax.swing.text.NavigationFilter) public void
-     *      javax.swing.text.JTextComponent.setNavigationFilter(javax.swing.text.NavigationFilter) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1303,11 +1070,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setKeymap(javax.swing.text.Keymap) public void
-     * javax.swing.text.JTextComponent.setKeymap(javax.swing.text.Keymap)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getNavigationFilter() public
+     * javax.swing.text.NavigationFilter javax.swing.text.JTextComponent.getNavigationFilter()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNavigationFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setKeymap(javax.swing.text.Keymap) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setKeymap(Keymap) public void
      * javax.swing.text.JTextComponent.setKeymap(javax.swing.text.Keymap)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1315,8 +1100,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setKeymap(javax.swing.text.Keymap) public void
-     *      javax.swing.text.JTextComponent.setKeymap(javax.swing.text.Keymap) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1330,20 +1114,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getUI() public javax.swing.plaf.TextUI
-     * javax.swing.text.JTextComponent.getUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getUI() public javax.swing.plaf.TextUI
-     * javax.swing.text.JTextComponent.getUI()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getUI() public
+     * javax.swing.plaf.TextUI javax.swing.text.JTextComponent.getUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getUI() public javax.swing.plaf.TextUI
-     *      javax.swing.text.JTextComponent.getUI() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1357,11 +1136,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#selectAll() public void
-     * javax.swing.text.JTextComponent.selectAll()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#selectAll() public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#selectAll() public void
      * javax.swing.text.JTextComponent.selectAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1369,8 +1144,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#selectAll() public void javax.swing.text.JTextComponent.selectAll() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1384,11 +1158,51 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getInputMethodRequests() public
-     * java.awt.im.InputMethodRequests javax.swing.text.JTextComponent.getInputMethodRequests()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setCaret(Caret) public void
+     * javax.swing.text.JTextComponent.setCaret(javax.swing.text.Caret)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCaret_Caret()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getInputMethodRequests() public
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getCaretPosition() public int
+     * javax.swing.text.JTextComponent.getCaretPosition()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCaretPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getInputMethodRequests() public
      * java.awt.im.InputMethodRequests javax.swing.text.JTextComponent.getInputMethodRequests()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1396,8 +1210,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getInputMethodRequests() public java.awt.im.InputMethodRequests
-     *      javax.swing.text.JTextComponent.getInputMethodRequests() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1412,74 +1225,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaret(javax.swing.text.Caret) public void
-     * javax.swing.text.JTextComponent.setCaret(javax.swing.text.Caret)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaret(javax.swing.text.Caret) public void
-     * javax.swing.text.JTextComponent.setCaret(javax.swing.text.Caret)}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getScrollableTracksViewportWidth()
+     * public boolean javax.swing.text.JTextComponent.getScrollableTracksViewportWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setCaret(javax.swing.text.Caret) public void
-     *      javax.swing.text.JTextComponent.setCaret(javax.swing.text.Caret) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCaret_Caret()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretPosition() public int
-     * javax.swing.text.JTextComponent.getCaretPosition()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretPosition() public int
-     * javax.swing.text.JTextComponent.getCaretPosition()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getCaretPosition() public int
-     *      javax.swing.text.JTextComponent.getCaretPosition() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCaretPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableTracksViewportWidth() public boolean
-     * javax.swing.text.JTextComponent.getScrollableTracksViewportWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getScrollableTracksViewportWidth() public boolean
-     * javax.swing.text.JTextComponent.getScrollableTracksViewportWidth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getScrollableTracksViewportWidth() public boolean
-     *      javax.swing.text.JTextComponent.getScrollableTracksViewportWidth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1494,11 +1248,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaretColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setCaretColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setCaretColor(java.awt.Color) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setCaretColor(Color) public void
      * javax.swing.text.JTextComponent.setCaretColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1506,8 +1256,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setCaretColor(java.awt.Color) public void
-     *      javax.swing.text.JTextComponent.setCaretColor(java.awt.Color) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1521,11 +1270,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getMargin() public java.awt.Insets
-     * javax.swing.text.JTextComponent.getMargin()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getMargin() public java.awt.Insets
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getMargin() public java.awt.Insets
      * javax.swing.text.JTextComponent.getMargin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1533,8 +1278,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getMargin() public java.awt.Insets
-     *      javax.swing.text.JTextComponent.getMargin() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1548,44 +1292,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.JTextComponent#getPrintable(java.text.MessageFormat, java.text.MessageFormat) public
-     * java.awt.print.Printable
-     * javax.swing.text.JTextComponent.getPrintable(java.text.MessageFormat,java.text.MessageFormat)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.JTextComponent#getPrintable(java.text.MessageFormat, java.text.MessageFormat) public
-     * java.awt.print.Printable
-     * javax.swing.text.JTextComponent.getPrintable(java.text.MessageFormat,java.text.MessageFormat)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#getPrintable(java.text.MessageFormat, java.text.MessageFormat) public
-     *      java.awt.print.Printable
-     *      javax.swing.text.JTextComponent.getPrintable(java.text.MessageFormat,java.text.MessageFormat) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrintable_MessageFormat_MessageFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionColor(java.awt.Color) public void
-     * javax.swing.text.JTextComponent.setSelectionColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionColor(java.awt.Color) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setSelectionColor(Color) public void
      * javax.swing.text.JTextComponent.setSelectionColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1593,8 +1300,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setSelectionColor(java.awt.Color) public void
-     *      javax.swing.text.JTextComponent.setSelectionColor(java.awt.Color) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1608,25 +1314,21 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectedText() public java.lang.String
-     * javax.swing.text.JTextComponent.getSelectedText()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectedText() public java.lang.String
-     * javax.swing.text.JTextComponent.getSelectedText()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link JTextComponent#getPrintable(MessageFormat, MessageFormat) public java.awt.print.Printable
+     * javax.swing.text.JTextComponent.getPrintable(java.text.MessageFormat,java.text.MessageFormat)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getSelectedText() public java.lang.String
-     *      javax.swing.text.JTextComponent.getSelectedText() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSelectedText()
+    public default void test_getPrintable_MessageFormat_MessageFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1635,11 +1337,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#replaceSelection(String) public void
-     * javax.swing.text.JTextComponent.replaceSelection(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#replaceSelection(String) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#replaceSelection(String) public void
      * javax.swing.text.JTextComponent.replaceSelection(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1647,8 +1345,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#replaceSelection(String) public void
-     *      javax.swing.text.JTextComponent.replaceSelection(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1662,11 +1359,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionStart() public int
-     * javax.swing.text.JTextComponent.getSelectionStart()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getSelectedText() public
+     * java.lang.String javax.swing.text.JTextComponent.getSelectedText()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getSelectionStart() public int
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getSelectionStart() public int
      * javax.swing.text.JTextComponent.getSelectionStart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1674,8 +1389,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getSelectionStart() public int
-     *      javax.swing.text.JTextComponent.getSelectionStart() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1689,11 +1403,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#select(int, int) public void
-     * javax.swing.text.JTextComponent.select(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#select(int, int) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#select(int, int) public void
      * javax.swing.text.JTextComponent.select(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1701,8 +1411,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#select(int, int) public void javax.swing.text.JTextComponent.select(int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1716,11 +1425,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#write(java.io.Writer) public void
-     * javax.swing.text.JTextComponent.write(java.io.Writer) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#write(java.io.Writer) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#write(Writer) public void
      * javax.swing.text.JTextComponent.write(java.io.Writer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1728,9 +1433,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#write(java.io.Writer) public void
-     *      javax.swing.text.JTextComponent.write(java.io.Writer) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1744,11 +1447,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretListeners() public
-     * javax.swing.event.CaretListener[] javax.swing.text.JTextComponent.getCaretListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretListeners() public
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getCaretListeners() public
      * javax.swing.event.CaretListener[] javax.swing.text.JTextComponent.getCaretListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1756,8 +1455,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getCaretListeners() public javax.swing.event.CaretListener[]
-     *      javax.swing.text.JTextComponent.getCaretListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1771,11 +1469,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDragEnabled() public boolean
-     * javax.swing.text.JTextComponent.getDragEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDragEnabled() public boolean
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getDragEnabled() public boolean
      * javax.swing.text.JTextComponent.getDragEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1783,8 +1477,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getDragEnabled() public boolean
-     *      javax.swing.text.JTextComponent.getDragEnabled() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1798,11 +1491,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDropLocation() public final
-     * javax.swing.text.JTextComponent$DropLocation javax.swing.text.JTextComponent.getDropLocation()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getDropLocation() public final
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getDropLocation() public final
      * javax.swing.text.JTextComponent$DropLocation javax.swing.text.JTextComponent.getDropLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1810,8 +1499,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getDropLocation() public final javax.swing.text.JTextComponent$DropLocation
-     *      javax.swing.text.JTextComponent.getDropLocation() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1825,11 +1513,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#removeCaretListener(javax.swing.event.CaretListener)
-     * public void javax.swing.text.JTextComponent.removeCaretListener(javax.swing.event.CaretListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#removeCaretListener(javax.swing.event.CaretListener)
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#removeCaretListener(CaretListener)
      * public void javax.swing.text.JTextComponent.removeCaretListener(javax.swing.event.CaretListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1837,9 +1521,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#removeCaretListener(javax.swing.event.CaretListener) public void
-     *      javax.swing.text.JTextComponent.removeCaretListener(javax.swing.event.CaretListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1853,11 +1535,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionStart(int) public void
-     * javax.swing.text.JTextComponent.setSelectionStart(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionStart(int) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setSelectionStart(int) public void
      * javax.swing.text.JTextComponent.setSelectionStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1865,8 +1543,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setSelectionStart(int) public void
-     *      javax.swing.text.JTextComponent.setSelectionStart(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1880,48 +1557,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#isEditable() public boolean
-     * javax.swing.text.JTextComponent.isEditable()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#isEditable() public boolean
-     * javax.swing.text.JTextComponent.isEditable()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#addCaretListener(CaretListener)
+     * public void javax.swing.text.JTextComponent.addCaretListener(javax.swing.event.CaretListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#isEditable() public boolean javax.swing.text.JTextComponent.isEditable()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#addCaretListener(javax.swing.event.CaretListener) public
-     * void javax.swing.text.JTextComponent.addCaretListener(javax.swing.event.CaretListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#addCaretListener(javax.swing.event.CaretListener) public
-     * void javax.swing.text.JTextComponent.addCaretListener(javax.swing.event.CaretListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent#addCaretListener(javax.swing.event.CaretListener) public void
-     *      javax.swing.text.JTextComponent.addCaretListener(javax.swing.event.CaretListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1935,11 +1579,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretColor() public java.awt.Color
-     * javax.swing.text.JTextComponent.getCaretColor()}.
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#isEditable() public boolean
+     * javax.swing.text.JTextComponent.isEditable()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEditable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#getCaretColor() public java.awt.Color
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#getCaretColor() public java.awt.Color
      * javax.swing.text.JTextComponent.getCaretColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1947,8 +1609,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#getCaretColor() public java.awt.Color
-     *      javax.swing.text.JTextComponent.getCaretColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1962,11 +1623,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionEnd(int) public void
-     * javax.swing.text.JTextComponent.setSelectionEnd(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#setSelectionEnd(int) public void
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#setSelectionEnd(int) public void
      * javax.swing.text.JTextComponent.setSelectionEnd(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1974,8 +1631,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#setSelectionEnd(int) public void
-     *      javax.swing.text.JTextComponent.setSelectionEnd(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1989,11 +1645,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#viewToModel(java.awt.Point) public int
-     * javax.swing.text.JTextComponent.viewToModel(java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.JTextComponent#viewToModel(java.awt.Point) public int
+     * Test method for the hereby targeted method-under-test {@link JTextComponent#viewToModel(Point) public int
      * javax.swing.text.JTextComponent.viewToModel(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -2001,8 +1653,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent#viewToModel(java.awt.Point) public int
-     *      javax.swing.text.JTextComponent.viewToModel(java.awt.Point) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -2014,176 +1665,40 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.JTextComponent.DropLocation class
-     * javax.swing.text.JTextComponent$DropLocation}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link JTextComponentClassTests.DropLocationClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link AccessibleJTextComponent public class javax.swing.text.JTextComponent$AccessibleJTextComponent}.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent.DropLocation class javax.swing.text.JTextComponent$DropLocation (the hereby
-     *      targeted class-under-test class)
-     * @see JTextComponentClassTests.DropLocationClassTests JTextComponentClassTests.DropLocationClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DropLocationTests<SUT extends javax.swing.text.JTextComponent.DropLocation>
-    extends org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#getIndex() public int
-         * javax.swing.text.JTextComponent$DropLocation.getIndex()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#getIndex() public int
-         * javax.swing.text.JTextComponent$DropLocation.getIndex()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.DropLocation#getIndex() public int
-         *      javax.swing.text.JTextComponent$DropLocation.getIndex() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getIndex()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#getBias() public
-         * javax.swing.text.Position$Bias javax.swing.text.JTextComponent$DropLocation.getBias()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#getBias() public
-         * javax.swing.text.Position$Bias javax.swing.text.JTextComponent$DropLocation.getBias()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.DropLocation#getBias() public javax.swing.text.Position$Bias
-         *      javax.swing.text.JTextComponent$DropLocation.getBias() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getBias()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#toString() public java.lang.String
-         * javax.swing.text.JTextComponent$DropLocation.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.DropLocation#toString() public java.lang.String
-         * javax.swing.text.JTextComponent$DropLocation.toString()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.DropLocation#toString() public java.lang.String
-         *      javax.swing.text.JTextComponent$DropLocation.toString() (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.JTextComponent.AccessibleJTextComponent class
-     * javax.swing.text.JTextComponent$AccessibleJTextComponent}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link JTextComponentClassTests.AccessibleJTextComponentClassTests}.
-     * </p>
-     *
-     * @see javax.swing.text.JTextComponent.AccessibleJTextComponent class
-     *      javax.swing.text.JTextComponent$AccessibleJTextComponent (the hereby targeted class-under-test class)
-     * @see JTextComponentClassTests.AccessibleJTextComponentClassTests
-     *      JTextComponentClassTests.AccessibleJTextComponentClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface AccessibleJTextComponentTests<SUT extends javax.swing.text.JTextComponent.AccessibleJTextComponent>
-    extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT>, org.j8unit.repository.javax.swing.event.CaretListenerTests<SUT>,
-    org.j8unit.repository.javax.swing.event.DocumentListenerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>,
-    org.j8unit.repository.javax.accessibility.AccessibleEditableTextTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleExtendedTextTests<SUT>,
+    public static abstract interface AccessibleJTextComponentTests<SUT extends AccessibleJTextComponent>
+    extends org.j8unit.repository.javax.swing.event.CaretListenerTests<SUT>, org.j8unit.repository.javax.swing.event.DocumentListenerTests<SUT>,
+    org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleEditableTextTests<SUT>,
+    org.j8unit.repository.javax.accessibility.AccessibleExtendedTextTests<SUT>,
     org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests<SUT> {
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#doAccessibleAction(int)
-         * public boolean javax.swing.text.JTextComponent$AccessibleJTextComponent.doAccessibleAction(int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#doAccessibleAction(int)
-         * public boolean javax.swing.text.JTextComponent$AccessibleJTextComponent.doAccessibleAction(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#doAccessibleAction(int) public boolean
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.doAccessibleAction(int) (the hereby targeted
-         *      method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_doAccessibleAction_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterAttribute(int)
-         * public javax.swing.text.AttributeSet
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterAttribute(int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterAttribute(int)
-         * public javax.swing.text.AttributeSet
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getCharacterAttribute(int) public javax.swing.text.AttributeSet
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterAttribute(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2191,10 +1706,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterAttribute(int) public
-         *      javax.swing.text.AttributeSet
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterAttribute(int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2209,13 +1721,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleRole() public
-         * javax.accessibility.AccessibleRole
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleRole()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#doAccessibleAction(int)
+         * public boolean javax.swing.text.JTextComponent$AccessibleJTextComponent.doAccessibleAction(int)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_doAccessibleAction_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleRole() public
-         * javax.accessibility.AccessibleRole
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAccessibleRole()
+         * public javax.accessibility.AccessibleRole
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleRole()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2223,10 +1753,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleRole() public
-         *      javax.accessibility.AccessibleRole
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleRole() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2241,14 +1768,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAfter(int, int) public
-         * javax.accessibility.AccessibleTextSequence
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAfter(int,int)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAfter(int, int) public
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getTextSequenceAfter(int, int) public
          * javax.accessibility.AccessibleTextSequence
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAfter(int,int)}.
          *
@@ -2257,10 +1778,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAfter(int, int) public
-         *      javax.accessibility.AccessibleTextSequence
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAfter(int,int) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2275,13 +1793,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleAction() public
-         * javax.accessibility.AccessibleAction
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleAction()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleAction() public
-         * javax.accessibility.AccessibleAction
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAccessibleAction()
+         * public javax.accessibility.AccessibleAction
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleAction()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2289,10 +1802,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleAction() public
-         *      javax.accessibility.AccessibleAction
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleAction() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2307,23 +1817,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getIndexAtPoint(java.awt.Point) public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getIndexAtPoint(java.awt.Point)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getIndexAtPoint(java.awt.Point) public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getIndexAtPoint(java.awt.Point)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getIndexAtPoint(Point)
+         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getIndexAtPoint(java.awt.Point)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getIndexAtPoint(java.awt.Point) public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getIndexAtPoint(java.awt.Point) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2338,21 +1840,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionEnd() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionEnd()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionEnd() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionEnd()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getSelectionEnd()
+         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionEnd()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionEnd() public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionEnd() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2367,44 +1863,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterBounds(int)
-         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterBounds(int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterBounds(int)
-         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterBounds(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharacterBounds(int) public
-         *      java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterBounds(int) (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getCharacterBounds_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#insertUpdate(javax.swing.event.DocumentEvent)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.insertUpdate(javax.swing.event.DocumentEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#insertUpdate(javax.swing.event.DocumentEvent)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#insertUpdate(DocumentEvent) public void
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.insertUpdate(javax.swing.event.DocumentEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2412,10 +1872,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#insertUpdate(javax.swing.event.DocumentEvent)
-         *      public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.insertUpdate(javax.swing.event.DocumentEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2430,13 +1887,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#insertTextAtIndex(int, String) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.insertTextAtIndex(int,java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getCharacterBounds(int)
+         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharacterBounds(int)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getCharacterBounds_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#insertTextAtIndex(int, String) public void
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#insertTextAtIndex(int, String) public void
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.insertTextAtIndex(int,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2444,9 +1919,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#insertTextAtIndex(int, String) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.insertTextAtIndex(int,java.lang.String) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2461,11 +1934,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAfterIndex(int, int)
-         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getAfterIndex(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAfterIndex(int, int)
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAfterIndex(int, int)
          * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getAfterIndex(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2473,9 +1942,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAfterIndex(int, int) public java.lang.String
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAfterIndex(int,int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2490,21 +1957,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharCount() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharCount()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharCount() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharCount()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getCharCount() public
+         * int javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharCount()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getCharCount() public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getCharCount() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2519,13 +1980,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAt(int, int)
-         * public javax.accessibility.AccessibleTextSequence
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAt(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAt(int, int)
-         * public javax.accessibility.AccessibleTextSequence
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getTextSequenceAt(int, int) public javax.accessibility.AccessibleTextSequence
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAt(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2533,10 +1989,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceAt(int, int) public
-         *      javax.accessibility.AccessibleTextSequence
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceAt(int,int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2551,49 +2004,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#caretUpdate(javax.swing.event.CaretEvent)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.caretUpdate(javax.swing.event.CaretEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#caretUpdate(javax.swing.event.CaretEvent)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.caretUpdate(javax.swing.event.CaretEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#caretUpdate(javax.swing.event.CaretEvent)
-         *      public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.caretUpdate(javax.swing.event.CaretEvent) (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_caretUpdate_CaretEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#removeUpdate(javax.swing.event.DocumentEvent)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.removeUpdate(javax.swing.event.DocumentEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#removeUpdate(javax.swing.event.DocumentEvent)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#removeUpdate(DocumentEvent) public void
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.removeUpdate(javax.swing.event.DocumentEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2601,10 +2013,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#removeUpdate(javax.swing.event.DocumentEvent)
-         *      public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.removeUpdate(javax.swing.event.DocumentEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2619,27 +2028,22 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextBounds(int, int)
-         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextBounds(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextBounds(int, int)
-         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextBounds(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#caretUpdate(CaretEvent)
+         * public void
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.caretUpdate(javax.swing.event.CaretEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextBounds(int, int) public
-         *      java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextBounds(int,int) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getTextBounds_int_int()
+        public default void test_caretUpdate_CaretEvent()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -2648,21 +2052,16 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#replaceText(int, int, String)
-         * public void javax.swing.text.JTextComponent$AccessibleJTextComponent.replaceText(int,int,java.lang.String)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#replaceText(int, int, String)
-         * public void javax.swing.text.JTextComponent$AccessibleJTextComponent.replaceText(int,int,java.lang.String)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#replaceText(int, int, String) public void
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.replaceText(int,int,java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#replaceText(int, int, String) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.replaceText(int,int,java.lang.String) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2677,21 +2076,39 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionCount()
-         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionCount()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionCount()
-         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionCount()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getTextBounds(int, int)
+         * public java.awt.Rectangle javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextBounds(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionCount() public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionCount() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getTextBounds_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getAccessibleActionCount() public int
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionCount()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2706,15 +2123,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionDescription(int) public
-         * java.lang.String
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionDescription(int)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionDescription(int) public
-         * java.lang.String
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getAccessibleActionDescription(int) public java.lang.String
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionDescription(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2722,10 +2132,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleActionDescription(int) public
-         *      java.lang.String
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleActionDescription(int) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2740,13 +2147,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleEditableText()
-         * public javax.accessibility.AccessibleEditableText
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleEditableText()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleEditableText()
-         * public javax.accessibility.AccessibleEditableText
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getAccessibleEditableText() public javax.accessibility.AccessibleEditableText
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleEditableText()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2754,10 +2156,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleEditableText() public
-         *      javax.accessibility.AccessibleEditableText
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleEditableText() (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2772,44 +2171,8 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAtIndex(int, int) public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getAtIndex(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAtIndex(int, int) public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getAtIndex(int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAtIndex(int, int) public java.lang.String
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAtIndex(int,int) (the hereby targeted
-         *      method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getAtIndex_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#changedUpdate(javax.swing.event.DocumentEvent)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.changedUpdate(javax.swing.event.DocumentEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#changedUpdate(javax.swing.event.DocumentEvent)
-         * public void
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#changedUpdate(DocumentEvent) public void
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.changedUpdate(javax.swing.event.DocumentEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2817,10 +2180,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#changedUpdate(javax.swing.event.DocumentEvent)
-         *      public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.changedUpdate(javax.swing.event.DocumentEvent)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2835,14 +2195,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceBefore(int, int) public
-         * javax.accessibility.AccessibleTextSequence
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceBefore(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAtIndex(int, int)
+         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getAtIndex(int,int)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getAtIndex_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceBefore(int, int) public
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getTextSequenceBefore(int, int) public
          * javax.accessibility.AccessibleTextSequence
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceBefore(int,int)}.
          *
@@ -2851,10 +2228,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextSequenceBefore(int, int) public
-         *      javax.accessibility.AccessibleTextSequence
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextSequenceBefore(int,int) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2869,21 +2243,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#selectText(int, int) public
-         * void javax.swing.text.JTextComponent$AccessibleJTextComponent.selectText(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#selectText(int, int) public
-         * void javax.swing.text.JTextComponent$AccessibleJTextComponent.selectText(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#selectText(int, int)
+         * public void javax.swing.text.JTextComponent$AccessibleJTextComponent.selectText(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#selectText(int, int) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.selectText(int,int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2898,21 +2266,16 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getBeforeIndex(int, int)
-         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getBeforeIndex(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getBeforeIndex(int, int)
-         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getBeforeIndex(int,int)}.
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#getBeforeIndex(int, int) public java.lang.String
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getBeforeIndex(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getBeforeIndex(int, int) public
-         *      java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getBeforeIndex(int,int) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2927,11 +2290,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#setTextContents(String)
-         * public void javax.swing.text.JTextComponent$AccessibleJTextComponent.setTextContents(java.lang.String)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#setTextContents(String)
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#setTextContents(String)
          * public void javax.swing.text.JTextComponent$AccessibleJTextComponent.setTextContents(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -2939,9 +2298,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#setTextContents(String) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.setTextContents(java.lang.String) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2956,21 +2313,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionStart() public
-         * int javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionStart()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionStart() public
-         * int javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionStart()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getSelectionStart()
+         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionStart()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectionStart() public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectionStart() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -2985,12 +2336,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleStateSet()
-         * public javax.accessibility.AccessibleStateSet
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleStateSet()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleStateSet()
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAccessibleStateSet()
          * public javax.accessibility.AccessibleStateSet
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleStateSet()}.
          *
@@ -2999,10 +2345,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleStateSet() public
-         *      javax.accessibility.AccessibleStateSet
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleStateSet() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3017,21 +2360,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectedText() public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectedText()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectedText() public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectedText()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getSelectedText()
+         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectedText()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getSelectedText() public java.lang.String
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getSelectedText() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3046,21 +2383,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#cut(int, int) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.cut(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#cut(int, int) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.cut(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#cut(int, int) public
+         * void javax.swing.text.JTextComponent$AccessibleJTextComponent.cut(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#cut(int, int) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.cut(int,int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3075,50 +2406,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#delete(int, int) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.delete(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#delete(int, int) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.delete(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getCaretPosition()
+         * public int javax.swing.text.JTextComponent$AccessibleJTextComponent.getCaretPosition()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#delete(int, int) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.delete(int,int) (the hereby targeted
-         *      method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_delete_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCaretPosition() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCaretPosition()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getCaretPosition() public int
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getCaretPosition()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getCaretPosition() public int
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getCaretPosition() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3133,30 +2429,21 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleText() public
-         * javax.accessibility.AccessibleText
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleText()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleText() public
-         * javax.accessibility.AccessibleText
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleText()}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#delete(int, int) public
+         * void javax.swing.text.JTextComponent$AccessibleJTextComponent.delete(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getAccessibleText() public
-         *      javax.accessibility.AccessibleText
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleText() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getAccessibleText()
+        public default void test_delete_int_int()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -3165,21 +2452,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextRange(int, int) public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextRange(int,int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextRange(int, int) public
-         * java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextRange(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getTextRange(int, int)
+         * public java.lang.String javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextRange(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#getTextRange(int, int) public java.lang.String
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.getTextRange(int,int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3194,34 +2475,22 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#setAttributes(int, int, javax.swing.text.AttributeSet)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.setAttributes(int,int,javax.swing.text.AttributeSet)}
-         * .
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#setAttributes(int, int, javax.swing.text.AttributeSet)
-         * public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.setAttributes(int,int,javax.swing.text.AttributeSet)}
-         * .
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#getAccessibleText()
+         * public javax.accessibility.AccessibleText
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.getAccessibleText()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#setAttributes(int, int,
-         *      javax.swing.text.AttributeSet) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.setAttributes(int,int,javax.swing.text.
-         *      AttributeSet) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_setAttributes_int_int_AttributeSet()
+        public default void test_getAccessibleText()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -3230,11 +2499,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#paste(int) public void
-         * javax.swing.text.JTextComponent$AccessibleJTextComponent.paste(int)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.JTextComponent.AccessibleJTextComponent#paste(int) public void
+         * Test method for the hereby targeted method-under-test {@link AccessibleJTextComponent#paste(int) public void
          * javax.swing.text.JTextComponent$AccessibleJTextComponent.paste(int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -3242,9 +2507,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.JTextComponent.AccessibleJTextComponent#paste(int) public void
-         *      javax.swing.text.JTextComponent$AccessibleJTextComponent.paste(int) (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -3257,29 +2520,157 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link AccessibleJTextComponent#setAttributes(int, int, AttributeSet) public void
+         * javax.swing.text.JTextComponent$AccessibleJTextComponent.setAttributes(int,int,javax.swing.text.AttributeSet)}
+         * .
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_setAttributes_int_int_AttributeSet()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
     }
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.JTextComponent.KeyBinding class
-     * javax.swing.text.JTextComponent$KeyBinding}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link JTextComponentClassTests.KeyBindingClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link DropLocation public static final class javax.swing.text.JTextComponent$DropLocation}.
      * </p>
      *
-     * @see javax.swing.text.JTextComponent.KeyBinding class javax.swing.text.JTextComponent$KeyBinding (the hereby
-     *      targeted class-under-test class)
-     * @see JTextComponentClassTests.KeyBindingClassTests JTextComponentClassTests.KeyBindingClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.DropLocationClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface KeyBindingTests<SUT extends javax.swing.text.JTextComponent.KeyBinding>
+    public static abstract interface DropLocationTests<SUT extends DropLocation>
+    extends org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$DropLocation]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link DropLocation#getIndex() public int
+         * javax.swing.text.JTextComponent$DropLocation.getIndex()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getIndex()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link DropLocation#getBias() public
+         * javax.swing.text.Position$Bias javax.swing.text.JTextComponent$DropLocation.getBias()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getBias()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link DropLocation#toString() public java.lang.String
+         * javax.swing.text.JTextComponent$DropLocation.toString()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_toString()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$DropLocation]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link KeyBinding
+     * public static class javax.swing.text.JTextComponent$KeyBinding}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.KeyBindingClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface KeyBindingTests<SUT extends KeyBinding>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
 
     }
 

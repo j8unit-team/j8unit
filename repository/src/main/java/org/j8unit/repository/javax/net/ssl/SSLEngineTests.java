@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.net.ssl;
 
+import java.nio.ByteBuffer;
+import javax.net.ssl.SSLEngine;
+import javax.net.ssl.SSLParameters;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,93 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.net.ssl.SSLEngine class javax.net.ssl.SSLEngine}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link SSLEngineClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SSLEngine
+ * public abstract class javax.net.ssl.SSLEngine}.
  * </p>
  *
- * @see javax.net.ssl.SSLEngine class javax.net.ssl.SSLEngine (the hereby targeted class-under-test class)
- * @see SSLEngineClassTests SSLEngineClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.net.ssl.SSLEngineClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SSLEngineTests<SUT extends javax.net.ssl.SSLEngine>
+public abstract interface SSLEngineTests<SUT extends SSLEngine>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[]) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[]) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) public
-     *      javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[])
-     *      throws javax.net.ssl.SSLException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_ByteBuffer_ByteBufferArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngine]
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public
-     *      javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
-     *      javax.net.ssl.SSLException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_ByteBuffer_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[], int, int)
-     * public abstract javax.net.ssl.SSLEngineResult
-     * javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[],int,int) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[], int, int)
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#unwrap(ByteBuffer, ByteBuffer[], int, int)
      * public abstract javax.net.ssl.SSLEngineResult
      * javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[],int,int) throws
      * javax.net.ssl.SSLException}.
@@ -104,10 +46,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[], int, int) public abstract
-     *      javax.net.ssl.SSLEngineResult
-     *      javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[],int,int) throws
-     *      javax.net.ssl.SSLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -121,11 +60,53 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#closeOutbound() public abstract void
-     * javax.net.ssl.SSLEngine.closeOutbound()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#unwrap(ByteBuffer, ByteBuffer) public
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
+     * javax.net.ssl.SSLException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_ByteBuffer_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#closeOutbound() public abstract void
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#unwrap(ByteBuffer, ByteBuffer[]) public
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[]) throws
+     * javax.net.ssl.SSLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_ByteBuffer_ByteBufferArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#closeOutbound() public abstract void
      * javax.net.ssl.SSLEngine.closeOutbound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,8 +114,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#closeOutbound() public abstract void javax.net.ssl.SSLEngine.closeOutbound() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -148,11 +128,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#isOutboundDone() public abstract boolean
-     * javax.net.ssl.SSLEngine.isOutboundDone()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#isOutboundDone() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#isOutboundDone() public abstract boolean
      * javax.net.ssl.SSLEngine.isOutboundDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -160,8 +136,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#isOutboundDone() public abstract boolean javax.net.ssl.SSLEngine.isOutboundDone()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,20 +150,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setWantClientAuth(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setWantClientAuth(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setWantClientAuth(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setWantClientAuth(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setWantClientAuth(boolean) public abstract
+     * void javax.net.ssl.SSLEngine.setWantClientAuth(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setWantClientAuth(boolean) public abstract void
-     *      javax.net.ssl.SSLEngine.setWantClientAuth(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,20 +172,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSSLParameters() public javax.net.ssl.SSLParameters
-     * javax.net.ssl.SSLEngine.getSSLParameters()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSSLParameters() public javax.net.ssl.SSLParameters
-     * javax.net.ssl.SSLEngine.getSSLParameters()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getSSLParameters() public
+     * javax.net.ssl.SSLParameters javax.net.ssl.SSLEngine.getSSLParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getSSLParameters() public javax.net.ssl.SSLParameters
-     *      javax.net.ssl.SSLEngine.getSSLParameters() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -229,18 +194,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getPeerPort() public int javax.net.ssl.SSLEngine.getPeerPort()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getPeerPort() public int javax.net.ssl.SSLEngine.getPeerPort()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getPeerPort() public int
+     * javax.net.ssl.SSLEngine.getPeerPort()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getPeerPort() public int javax.net.ssl.SSLEngine.getPeerPort() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,11 +216,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#beginHandshake() public abstract void
-     * javax.net.ssl.SSLEngine.beginHandshake() throws javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#beginHandshake() public abstract void
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#beginHandshake() public abstract void
      * javax.net.ssl.SSLEngine.beginHandshake() throws javax.net.ssl.SSLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -266,8 +224,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#beginHandshake() public abstract void javax.net.ssl.SSLEngine.beginHandshake()
-     *      throws javax.net.ssl.SSLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -281,20 +238,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setUseClientMode(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setUseClientMode(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setUseClientMode(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setUseClientMode(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setUseClientMode(boolean) public abstract
+     * void javax.net.ssl.SSLEngine.setUseClientMode(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setUseClientMode(boolean) public abstract void
-     *      javax.net.ssl.SSLEngine.setUseClientMode(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -308,11 +260,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getPeerHost() public java.lang.String
-     * javax.net.ssl.SSLEngine.getPeerHost()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getPeerHost() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getPeerHost() public java.lang.String
      * javax.net.ssl.SSLEngine.getPeerHost()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -320,8 +268,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getPeerHost() public java.lang.String javax.net.ssl.SSLEngine.getPeerHost() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -335,21 +282,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setSSLParameters(javax.net.ssl.SSLParameters) public void
-     * javax.net.ssl.SSLEngine.setSSLParameters(javax.net.ssl.SSLParameters)}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setSSLParameters(javax.net.ssl.SSLParameters) public void
-     * javax.net.ssl.SSLEngine.setSSLParameters(javax.net.ssl.SSLParameters)}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setSSLParameters(SSLParameters) public
+     * void javax.net.ssl.SSLEngine.setSSLParameters(javax.net.ssl.SSLParameters)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setSSLParameters(javax.net.ssl.SSLParameters) public void
-     *      javax.net.ssl.SSLEngine.setSSLParameters(javax.net.ssl.SSLParameters) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -363,20 +304,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnabledProtocols(String[]) public abstract void
-     * javax.net.ssl.SSLEngine.setEnabledProtocols(java.lang.String[])}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnabledProtocols(String[]) public abstract void
-     * javax.net.ssl.SSLEngine.setEnabledProtocols(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setEnabledProtocols(String[]) public
+     * abstract void javax.net.ssl.SSLEngine.setEnabledProtocols(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setEnabledProtocols(String[]) public abstract void
-     *      javax.net.ssl.SSLEngine.setEnabledProtocols(java.lang.String[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -390,20 +326,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getHandshakeSession() public javax.net.ssl.SSLSession
-     * javax.net.ssl.SSLEngine.getHandshakeSession()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getHandshakeSession() public javax.net.ssl.SSLSession
-     * javax.net.ssl.SSLEngine.getHandshakeSession()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getHandshakeSession() public
+     * javax.net.ssl.SSLSession javax.net.ssl.SSLEngine.getHandshakeSession()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getHandshakeSession() public javax.net.ssl.SSLSession
-     *      javax.net.ssl.SSLEngine.getHandshakeSession() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -417,20 +348,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnabledCipherSuites(String[]) public abstract void
-     * javax.net.ssl.SSLEngine.setEnabledCipherSuites(java.lang.String[])}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnabledCipherSuites(String[]) public abstract void
-     * javax.net.ssl.SSLEngine.setEnabledCipherSuites(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setEnabledCipherSuites(String[]) public
+     * abstract void javax.net.ssl.SSLEngine.setEnabledCipherSuites(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setEnabledCipherSuites(String[]) public abstract void
-     *      javax.net.ssl.SSLEngine.setEnabledCipherSuites(java.lang.String[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -444,20 +370,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getDelegatedTask() public abstract java.lang.Runnable
-     * javax.net.ssl.SSLEngine.getDelegatedTask()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getDelegatedTask() public abstract java.lang.Runnable
-     * javax.net.ssl.SSLEngine.getDelegatedTask()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getDelegatedTask() public abstract
+     * java.lang.Runnable javax.net.ssl.SSLEngine.getDelegatedTask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getDelegatedTask() public abstract java.lang.Runnable
-     *      javax.net.ssl.SSLEngine.getDelegatedTask() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -471,20 +392,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnableSessionCreation(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setEnableSessionCreation(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setEnableSessionCreation(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setEnableSessionCreation(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setEnableSessionCreation(boolean) public
+     * abstract void javax.net.ssl.SSLEngine.setEnableSessionCreation(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setEnableSessionCreation(boolean) public abstract void
-     *      javax.net.ssl.SSLEngine.setEnableSessionCreation(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -498,38 +414,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnabledProtocols() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getEnabledProtocols()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnabledProtocols() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getEnabledProtocols()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#getEnabledProtocols() public abstract java.lang.String[]
-     *      javax.net.ssl.SSLEngine.getEnabledProtocols() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnabledProtocols()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#isInboundDone() public abstract boolean
-     * javax.net.ssl.SSLEngine.isInboundDone()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#isInboundDone() public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#isInboundDone() public abstract boolean
      * javax.net.ssl.SSLEngine.isInboundDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -537,8 +422,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#isInboundDone() public abstract boolean javax.net.ssl.SSLEngine.isInboundDone() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -552,25 +436,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSupportedProtocols() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getSupportedProtocols()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSupportedProtocols() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getSupportedProtocols()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getEnabledProtocols() public abstract
+     * java.lang.String[] javax.net.ssl.SSLEngine.getEnabledProtocols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getSupportedProtocols() public abstract java.lang.String[]
-     *      javax.net.ssl.SSLEngine.getSupportedProtocols() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSupportedProtocols()
+    public default void test_getEnabledProtocols()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -579,47 +458,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnableSessionCreation() public abstract boolean
-     * javax.net.ssl.SSLEngine.getEnableSessionCreation()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnableSessionCreation() public abstract boolean
-     * javax.net.ssl.SSLEngine.getEnableSessionCreation()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getNeedClientAuth() public abstract
+     * boolean javax.net.ssl.SSLEngine.getNeedClientAuth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getEnableSessionCreation() public abstract boolean
-     *      javax.net.ssl.SSLEngine.getEnableSessionCreation() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnableSessionCreation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getNeedClientAuth() public abstract boolean
-     * javax.net.ssl.SSLEngine.getNeedClientAuth()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getNeedClientAuth() public abstract boolean
-     * javax.net.ssl.SSLEngine.getNeedClientAuth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#getNeedClientAuth() public abstract boolean
-     *      javax.net.ssl.SSLEngine.getNeedClientAuth() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -633,28 +480,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getEnableSessionCreation() public abstract
+     * boolean javax.net.ssl.SSLEngine.getEnableSessionCreation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], java.nio.ByteBuffer) public
-     *      javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],java.nio.ByteBuffer) throws
-     *      javax.net.ssl.SSLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_wrap_ByteBufferArray_ByteBuffer()
+    public default void test_getEnableSessionCreation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -663,28 +502,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getSupportedProtocols() public abstract
+     * java.lang.String[] javax.net.ssl.SSLEngine.getSupportedProtocols()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer, java.nio.ByteBuffer) public javax.net.ssl.SSLEngineResult
-     *      javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws javax.net.ssl.SSLException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_wrap_ByteBuffer_ByteBuffer()
+    public default void test_getSupportedProtocols()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -693,53 +524,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) public
-     * abstract javax.net.ssl.SSLEngineResult
-     * javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) public
-     * abstract javax.net.ssl.SSLEngineResult
-     * javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer) throws
-     * javax.net.ssl.SSLException}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getSession() public abstract
+     * javax.net.ssl.SSLSession javax.net.ssl.SSLEngine.getSession()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) public abstract
-     *      javax.net.ssl.SSLEngineResult
-     *      javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer) throws
-     *      javax.net.ssl.SSLException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrap_ByteBufferArray_int_int_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSession() public abstract javax.net.ssl.SSLSession
-     * javax.net.ssl.SSLEngine.getSession()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSession() public abstract javax.net.ssl.SSLSession
-     * javax.net.ssl.SSLEngine.getSession()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#getSession() public abstract javax.net.ssl.SSLSession
-     *      javax.net.ssl.SSLEngine.getSession() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -753,20 +546,85 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setNeedClientAuth(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setNeedClientAuth(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#setNeedClientAuth(boolean) public abstract void
-     * javax.net.ssl.SSLEngine.setNeedClientAuth(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#wrap(ByteBuffer[], int, int, ByteBuffer)
+     * public abstract javax.net.ssl.SSLEngineResult
+     * javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer) throws
+     * javax.net.ssl.SSLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#setNeedClientAuth(boolean) public abstract void
-     *      javax.net.ssl.SSLEngine.setNeedClientAuth(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_ByteBufferArray_int_int_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#wrap(ByteBuffer, ByteBuffer) public
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer,java.nio.ByteBuffer) throws
+     * javax.net.ssl.SSLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_ByteBuffer_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#wrap(ByteBuffer[], ByteBuffer) public
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],java.nio.ByteBuffer) throws
+     * javax.net.ssl.SSLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_ByteBufferArray_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#setNeedClientAuth(boolean) public abstract
+     * void javax.net.ssl.SSLEngine.setNeedClientAuth(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -780,20 +638,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSupportedCipherSuites() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getSupportedCipherSuites()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getSupportedCipherSuites() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getSupportedCipherSuites()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getSupportedCipherSuites() public abstract
+     * java.lang.String[] javax.net.ssl.SSLEngine.getSupportedCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getSupportedCipherSuites() public abstract java.lang.String[]
-     *      javax.net.ssl.SSLEngine.getSupportedCipherSuites() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -807,38 +660,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnabledCipherSuites() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getEnabledCipherSuites()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getEnabledCipherSuites() public abstract java.lang.String[]
-     * javax.net.ssl.SSLEngine.getEnabledCipherSuites()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#getEnabledCipherSuites() public abstract java.lang.String[]
-     *      javax.net.ssl.SSLEngine.getEnabledCipherSuites() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnabledCipherSuites()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getHandshakeStatus() public abstract
-     * javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngine.getHandshakeStatus()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getHandshakeStatus() public abstract
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getHandshakeStatus() public abstract
      * javax.net.ssl.SSLEngineResult$HandshakeStatus javax.net.ssl.SSLEngine.getHandshakeStatus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -846,8 +668,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getHandshakeStatus() public abstract javax.net.ssl.SSLEngineResult$HandshakeStatus
-     *      javax.net.ssl.SSLEngine.getHandshakeStatus() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -861,20 +682,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getWantClientAuth() public abstract boolean
-     * javax.net.ssl.SSLEngine.getWantClientAuth()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getWantClientAuth() public abstract boolean
-     * javax.net.ssl.SSLEngine.getWantClientAuth()}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getEnabledCipherSuites() public abstract
+     * java.lang.String[] javax.net.ssl.SSLEngine.getEnabledCipherSuites()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#getWantClientAuth() public abstract boolean
-     *      javax.net.ssl.SSLEngine.getWantClientAuth() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEnabledCipherSuites()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getWantClientAuth() public abstract
+     * boolean javax.net.ssl.SSLEngine.getWantClientAuth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -888,11 +726,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#closeInbound() public abstract void
-     * javax.net.ssl.SSLEngine.closeInbound() throws javax.net.ssl.SSLException}.
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#getUseClientMode() public abstract boolean
+     * javax.net.ssl.SSLEngine.getUseClientMode()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUseClientMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#closeInbound() public abstract void
+     * Test method for the hereby targeted method-under-test {@link SSLEngine#closeInbound() public abstract void
      * javax.net.ssl.SSLEngine.closeInbound() throws javax.net.ssl.SSLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -900,8 +756,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.SSLEngine#closeInbound() public abstract void javax.net.ssl.SSLEngine.closeInbound() throws
-     *      javax.net.ssl.SSLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -913,31 +768,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getUseClientMode() public abstract boolean
-     * javax.net.ssl.SSLEngine.getUseClientMode()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLEngine#getUseClientMode() public abstract boolean
-     * javax.net.ssl.SSLEngine.getUseClientMode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.net.ssl.SSLEngine#getUseClientMode() public abstract boolean
-     *      javax.net.ssl.SSLEngine.getUseClientMode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUseClientMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngine]
 
 }

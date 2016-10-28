@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.security;
 
+import java.security.PrivateKey;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.PrivateKey interface java.security.PrivateKey}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PrivateKeyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PrivateKey
+ * public abstract interface java.security.PrivateKey}.
  * </p>
  *
- * @see java.security.PrivateKey interface java.security.PrivateKey (the hereby targeted class-under-test class)
- * @see PrivateKeyClassTests PrivateKeyClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.PrivateKeyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrivateKeyTests<SUT extends java.security.PrivateKey>
-extends KeyTests<SUT>, org.j8unit.repository.javax.security.auth.DestroyableTests<SUT> {
+public abstract interface PrivateKeyTests<SUT extends PrivateKey>
+extends org.j8unit.repository.java.security.KeyTests<SUT>, org.j8unit.repository.javax.security.auth.DestroyableTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.PrivateKey]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PrivateKey]
 
 }

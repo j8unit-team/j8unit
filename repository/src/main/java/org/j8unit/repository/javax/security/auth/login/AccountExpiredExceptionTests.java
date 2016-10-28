@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.security.auth.login;
 
+import javax.security.auth.login.AccountExpiredException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.login.AccountExpiredException class
- * javax.security.auth.login.AccountExpiredException}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link AccountExpiredExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccountExpiredException public class javax.security.auth.login.AccountExpiredException}.
  * </p>
  *
- * @see javax.security.auth.login.AccountExpiredException class javax.security.auth.login.AccountExpiredException (the
- *      hereby targeted class-under-test class)
- * @see AccountExpiredExceptionClassTests AccountExpiredExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.login.AccountExpiredExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccountExpiredExceptionTests<SUT extends javax.security.auth.login.AccountExpiredException>
-extends AccountExceptionTests<SUT> {
+public abstract interface AccountExpiredExceptionTests<SUT extends AccountExpiredException>
+extends org.j8unit.repository.javax.security.auth.login.AccountExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
 
 }

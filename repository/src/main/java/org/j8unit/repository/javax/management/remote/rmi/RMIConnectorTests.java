@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.management.remote.rmi;
 
+import java.util.Map;
+import javax.management.NotificationFilter;
+import javax.management.NotificationListener;
+import javax.management.remote.rmi.RMIConnector;
+import javax.security.auth.Subject;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,39 +13,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.remote.rmi.RMIConnector class
- * javax.management.remote.rmi.RMIConnector}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RMIConnectorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RMIConnector
+ * public class javax.management.remote.rmi.RMIConnector}.
  * </p>
  *
- * @see javax.management.remote.rmi.RMIConnector class javax.management.remote.rmi.RMIConnector (the hereby targeted
- *      class-under-test class)
- * @see RMIConnectorClassTests RMIConnectorClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RMIConnectorTests<SUT extends javax.management.remote.rmi.RMIConnector>
+public abstract interface RMIConnectorTests<SUT extends RMIConnector>
 extends org.j8unit.repository.javax.management.remote.JMXConnectorTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
 org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi.RMIConnector]
+
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener)
-     * public void
-     * javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.NotificationListener)
-     * throws javax.management.ListenerNotFoundException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link RMIConnector#removeConnectionNotificationListener(NotificationListener) public void
      * javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.NotificationListener)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -49,10 +49,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener)
-     *      public void javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.
-     *      NotificationListener) throws javax.management.ListenerNotFoundException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -67,16 +64,9 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public void
-     * javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws javax.management.ListenerNotFoundException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link RMIConnector#removeConnectionNotificationListener(NotificationListener, NotificationFilter, Object) public
+     * void
      * javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
      * throws javax.management.ListenerNotFoundException}.
      *
@@ -85,11 +75,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#removeConnectionNotificationListener(javax.management.NotificationListener,
-     *      javax.management.NotificationFilter, Object) public void
-     *      javax.management.remote.rmi.RMIConnector.removeConnectionNotificationListener(javax.management.
-     *      NotificationListener,javax.management.NotificationFilter,java.lang.Object) throws
-     *      javax.management.ListenerNotFoundException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -104,39 +90,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#toString() public java.lang.String
-     * javax.management.remote.rmi.RMIConnector.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#toString() public java.lang.String
-     * javax.management.remote.rmi.RMIConnector.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.remote.rmi.RMIConnector#toString() public java.lang.String
-     *      javax.management.remote.rmi.RMIConnector.toString() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getAddress() public
-     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnector.getAddress()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getAddress() public
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#getAddress() public
      * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnector.getAddress()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +98,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#getAddress() public javax.management.remote.JMXServiceURL
-     *      javax.management.remote.rmi.RMIConnector.getAddress() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -160,27 +113,21 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#close() public synchronized void
-     * javax.management.remote.rmi.RMIConnector.close() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#close() public synchronized void
-     * javax.management.remote.rmi.RMIConnector.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#toString() public java.lang.String
+     * javax.management.remote.rmi.RMIConnector.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#close() public synchronized void
-     *      javax.management.remote.rmi.RMIConnector.close() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_close()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -189,11 +136,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getConnectionId() public synchronized
-     * java.lang.String javax.management.remote.rmi.RMIConnector.getConnectionId() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getConnectionId() public synchronized
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#getConnectionId() public synchronized
      * java.lang.String javax.management.remote.rmi.RMIConnector.getConnectionId() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,9 +144,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#getConnectionId() public synchronized java.lang.String
-     *      javax.management.remote.rmi.RMIConnector.getConnectionId() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,27 +159,21 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#connect() public void
-     * javax.management.remote.rmi.RMIConnector.connect() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#connect() public void
-     * javax.management.remote.rmi.RMIConnector.connect() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#close() public synchronized void
+     * javax.management.remote.rmi.RMIConnector.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#connect() public void
-     *      javax.management.remote.rmi.RMIConnector.connect() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_connect()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -247,21 +182,15 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#connect(java.util.Map) public synchronized void
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#connect(Map) public synchronized void
      * javax.management.remote.rmi.RMIConnector.connect(java.util.Map<java.lang.String, ?>) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#connect(java.util.Map) public synchronized void
-     * javax.management.remote.rmi.RMIConnector.connect(java.util.Map) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#connect(java.util.Map) public synchronized void
-     *      javax.management.remote.rmi.RMIConnector.connect(java.util.Map) throws java.io.IOException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -276,16 +205,32 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#addConnectionNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public void
-     * javax.management.remote.rmi.RMIConnector.addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#connect() public void
+     * javax.management.remote.rmi.RMIConnector.connect() throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_connect()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#addConnectionNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link RMIConnector#addConnectionNotificationListener(NotificationListener, NotificationFilter, Object) public
+     * void
      * javax.management.remote.rmi.RMIConnector.addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
      * .
      *
@@ -294,11 +239,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#addConnectionNotificationListener(javax.management.NotificationListener,
-     *      javax.management.NotificationFilter, Object) public void
-     *      javax.management.remote.rmi.RMIConnector.addConnectionNotificationListener(javax.management.
-     *      NotificationListener,javax.management.NotificationFilter,java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -313,23 +254,16 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getMBeanServerConnection() public synchronized
-     * javax.management.MBeanServerConnection javax.management.remote.rmi.RMIConnector.getMBeanServerConnection() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnector#getMBeanServerConnection() public synchronized
-     * javax.management.MBeanServerConnection javax.management.remote.rmi.RMIConnector.getMBeanServerConnection() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#getMBeanServerConnection() public
+     * synchronized javax.management.MBeanServerConnection
+     * javax.management.remote.rmi.RMIConnector.getMBeanServerConnection() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#getMBeanServerConnection() public synchronized
-     *      javax.management.MBeanServerConnection javax.management.remote.rmi.RMIConnector.getMBeanServerConnection()
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -344,16 +278,8 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#getMBeanServerConnection(javax.security.auth.Subject) public
-     * synchronized javax.management.MBeanServerConnection
-     * javax.management.remote.rmi.RMIConnector.getMBeanServerConnection(javax.security.auth.Subject) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#getMBeanServerConnection(javax.security.auth.Subject) public
-     * synchronized javax.management.MBeanServerConnection
+     * Test method for the hereby targeted method-under-test {@link RMIConnector#getMBeanServerConnection(Subject)
+     * public synchronized javax.management.MBeanServerConnection
      * javax.management.remote.rmi.RMIConnector.getMBeanServerConnection(javax.security.auth.Subject) throws
      * java.io.IOException}.
      *
@@ -362,10 +288,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * methods soon.
      * </p>
      *
-     * @see javax.management.remote.rmi.RMIConnector#getMBeanServerConnection(javax.security.auth.Subject) public
-     *      synchronized javax.management.MBeanServerConnection
-     *      javax.management.remote.rmi.RMIConnector.getMBeanServerConnection(javax.security.auth.Subject) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -377,5 +300,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi.RMIConnector]
 
 }

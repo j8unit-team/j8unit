@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.lang.model.util;
 
+import javax.lang.model.type.UnionType;
+import javax.lang.model.util.SimpleTypeVisitor7;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,47 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.lang.model.util.SimpleTypeVisitor7 class
- * javax.lang.model.util.SimpleTypeVisitor7}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SimpleTypeVisitor7ClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SimpleTypeVisitor7 public class javax.lang.model.util.SimpleTypeVisitor7<R,P>}.
  * </p>
  *
- * @see javax.lang.model.util.SimpleTypeVisitor7 class javax.lang.model.util.SimpleTypeVisitor7 (the hereby targeted
- *      class-under-test class)
- * @see SimpleTypeVisitor7ClassTests SimpleTypeVisitor7ClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor7ClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SimpleTypeVisitor7Tests<SUT extends javax.lang.model.util.SimpleTypeVisitor7<R, P>, R, P>
-extends SimpleTypeVisitor6Tests<SUT, R, P> {
+public abstract interface SimpleTypeVisitor7Tests<SUT extends SimpleTypeVisitor7<R, P>, R, P>
+extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT, R, P> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.SimpleTypeVisitor7]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public R
-     * javax.lang.model.util.SimpleTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,P)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
-     * java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link SimpleTypeVisitor7#visitUnion(UnionType, Object)
+     * public R javax.lang.model.util.SimpleTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.SimpleTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
-     *      java.lang.Object
-     *      javax.lang.model.util.SimpleTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -60,5 +55,7 @@ extends SimpleTypeVisitor6Tests<SUT, R, P> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.SimpleTypeVisitor7]
 
 }

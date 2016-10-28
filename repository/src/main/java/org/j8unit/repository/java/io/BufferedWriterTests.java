@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.io;
 
+import java.io.BufferedWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.BufferedWriter class java.io.BufferedWriter}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link BufferedWriterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BufferedWriter
+ * public class java.io.BufferedWriter}.
  * </p>
  *
- * @see java.io.BufferedWriter class java.io.BufferedWriter (the hereby targeted class-under-test class)
- * @see BufferedWriterClassTests BufferedWriterClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.BufferedWriterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BufferedWriterTests<SUT extends java.io.BufferedWriter>
-extends WriterTests<SUT> {
+public abstract interface BufferedWriterTests<SUT extends BufferedWriter>
+extends org.j8unit.repository.java.io.WriterTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.BufferedWriter]
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedWriter#flush() public void java.io.BufferedWriter.flush() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#flush() public void java.io.BufferedWriter.flush() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#flush() public void
+     * java.io.BufferedWriter.flush() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.BufferedWriter#flush() public void java.io.BufferedWriter.flush() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,20 +57,15 @@ extends WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedWriter#newLine() public void java.io.BufferedWriter.newLine() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#newLine() public void java.io.BufferedWriter.newLine() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#newLine() public void
+     * java.io.BufferedWriter.newLine() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.BufferedWriter#newLine() public void java.io.BufferedWriter.newLine() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,26 +79,21 @@ extends WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedWriter#write(char[], int, int) public void
-     * java.io.BufferedWriter.write(char[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#write(char[], int, int) public void
-     * java.io.BufferedWriter.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#close() public void
+     * java.io.BufferedWriter.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.BufferedWriter#write(char[], int, int) public void java.io.BufferedWriter.write(char[],int,int)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_write_charArray_int_int()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,49 +102,15 @@ extends WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedWriter#write(String, int, int) public void
-     * java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#write(String, int, int) public void
-     * java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(int) public void
+     * java.io.BufferedWriter.write(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.BufferedWriter#write(String, int, int) public void
-     *      java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_String_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#write(int) public void java.io.BufferedWriter.write(int) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#write(int) public void java.io.BufferedWriter.write(int) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.BufferedWriter#write(int) public void java.io.BufferedWriter.write(int) throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -168,30 +125,50 @@ extends WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedWriter#close() public void java.io.BufferedWriter.close() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.BufferedWriter#close() public void java.io.BufferedWriter.close() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(String, int, int) public void
+     * java.io.BufferedWriter.write(java.lang.String,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.BufferedWriter#close() public void java.io.BufferedWriter.close() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_close()
+    public default void test_write_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BufferedWriter#write(char[], int, int) public void
+     * java.io.BufferedWriter.write(char[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.BufferedWriter]
 
 }

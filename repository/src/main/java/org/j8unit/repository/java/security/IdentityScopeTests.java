@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.security;
 
+import java.security.Identity;
+import java.security.IdentityScope;
+import java.security.Principal;
+import java.security.PublicKey;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.IdentityScope class java.security.IdentityScope}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link IdentityScopeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link IdentityScope
+ * public abstract class java.security.IdentityScope}.
  * </p>
  *
- * @see java.security.IdentityScope class java.security.IdentityScope (the hereby targeted class-under-test class)
- * @see IdentityScopeClassTests IdentityScopeClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.IdentityScopeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IdentityScopeTests<SUT extends java.security.IdentityScope>
-extends IdentityTests<SUT> {
+public abstract interface IdentityScopeTests<SUT extends IdentityScope>
+extends org.j8unit.repository.java.security.IdentityTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.IdentityScope]
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#toString() public java.lang.String
-     * java.security.IdentityScope.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#toString() public java.lang.String
      * java.security.IdentityScope.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +45,7 @@ extends IdentityTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#toString() public java.lang.String java.security.IdentityScope.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,21 +60,16 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#addIdentity(java.security.Identity) public abstract void
-     * java.security.IdentityScope.addIdentity(java.security.Identity) throws java.security.KeyManagementException}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#addIdentity(java.security.Identity) public abstract void
-     * java.security.IdentityScope.addIdentity(java.security.Identity) throws java.security.KeyManagementException}.
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#addIdentity(Identity) public abstract
+     * void java.security.IdentityScope.addIdentity(java.security.Identity) throws java.security.KeyManagementException}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#addIdentity(java.security.Identity) public abstract void
-     *      java.security.IdentityScope.addIdentity(java.security.Identity) throws java.security.KeyManagementException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,21 +83,16 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#removeIdentity(java.security.Identity) public abstract void
-     * java.security.IdentityScope.removeIdentity(java.security.Identity) throws java.security.KeyManagementException}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#removeIdentity(java.security.Identity) public abstract void
-     * java.security.IdentityScope.removeIdentity(java.security.Identity) throws java.security.KeyManagementException}.
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#removeIdentity(Identity) public
+     * abstract void java.security.IdentityScope.removeIdentity(java.security.Identity) throws
+     * java.security.KeyManagementException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#removeIdentity(java.security.Identity) public abstract void
-     *      java.security.IdentityScope.removeIdentity(java.security.Identity) throws
-     *      java.security.KeyManagementException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,20 +106,15 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#identities() public abstract java.util.Enumeration
-     * <java.security.Identity> java.security.IdentityScope.identities()}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#identities() public abstract java.util.Enumeration
-     * java.security.IdentityScope.identities()}.
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#identities() public abstract
+     * java.util.Enumeration<java.security.Identity> java.security.IdentityScope.identities()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#identities() public abstract java.util.Enumeration
-     *      java.security.IdentityScope.identities() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,38 +128,7 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.PublicKey) public abstract
-     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.PublicKey)}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.PublicKey) public abstract
-     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.PublicKey)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.security.IdentityScope#getIdentity(java.security.PublicKey) public abstract java.security.Identity
-     *      java.security.IdentityScope.getIdentity(java.security.PublicKey) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIdentity_PublicKey()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.Principal) public
-     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.Principal)}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.Principal) public
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#getIdentity(Principal) public
      * java.security.Identity java.security.IdentityScope.getIdentity(java.security.Principal)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,8 +136,7 @@ extends IdentityTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#getIdentity(java.security.Principal) public java.security.Identity
-     *      java.security.IdentityScope.getIdentity(java.security.Principal) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,20 +150,37 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(String) public abstract java.security.Identity
-     * java.security.IdentityScope.getIdentity(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(String) public abstract java.security.Identity
-     * java.security.IdentityScope.getIdentity(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#getIdentity(PublicKey) public abstract
+     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.PublicKey)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#getIdentity(String) public abstract java.security.Identity
-     *      java.security.IdentityScope.getIdentity(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIdentity_PublicKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#getIdentity(String) public abstract
+     * java.security.Identity java.security.IdentityScope.getIdentity(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,20 +194,15 @@ extends IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#size() public abstract int java.security.IdentityScope.size()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.security.IdentityScope#size() public abstract int java.security.IdentityScope.size()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link IdentityScope#size() public abstract int
+     * java.security.IdentityScope.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.IdentityScope#size() public abstract int java.security.IdentityScope.size() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,5 +213,7 @@ extends IdentityTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.IdentityScope]
 
 }

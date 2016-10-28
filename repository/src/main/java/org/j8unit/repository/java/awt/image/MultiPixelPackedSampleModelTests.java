@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.awt.image;
 
+import java.awt.image.DataBuffer;
+import java.awt.image.MultiPixelPackedSampleModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,70 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.image.MultiPixelPackedSampleModel class
- * java.awt.image.MultiPixelPackedSampleModel}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link MultiPixelPackedSampleModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MultiPixelPackedSampleModel public class java.awt.image.MultiPixelPackedSampleModel}.
  * </p>
  *
- * @see java.awt.image.MultiPixelPackedSampleModel class java.awt.image.MultiPixelPackedSampleModel (the hereby targeted
- *      class-under-test class)
- * @see MultiPixelPackedSampleModelClassTests MultiPixelPackedSampleModelClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.image.MultiPixelPackedSampleModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MultiPixelPackedSampleModelTests<SUT extends java.awt.image.MultiPixelPackedSampleModel>
-extends SampleModelTests<SUT> {
+public abstract interface MultiPixelPackedSampleModelTests<SUT extends MultiPixelPackedSampleModel>
+extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.MultiPixelPackedSampleModel]
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createDataBuffer() public
-     * java.awt.image.DataBuffer java.awt.image.MultiPixelPackedSampleModel.createDataBuffer()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createDataBuffer() public
-     * java.awt.image.DataBuffer java.awt.image.MultiPixelPackedSampleModel.createDataBuffer()}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getTransferType() public
+     * int java.awt.image.MultiPixelPackedSampleModel.getTransferType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#createDataBuffer() public java.awt.image.DataBuffer
-     *      java.awt.image.MultiPixelPackedSampleModel.createDataBuffer() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_createDataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getTransferType() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getTransferType()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getTransferType() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getTransferType()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getTransferType() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getTransferType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,20 +58,60 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#equals(Object) public boolean
-     * java.awt.image.MultiPixelPackedSampleModel.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#equals(Object) public boolean
-     * java.awt.image.MultiPixelPackedSampleModel.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#createDataBuffer()
+     * public java.awt.image.DataBuffer java.awt.image.MultiPixelPackedSampleModel.createDataBuffer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#equals(Object) public boolean
-     *      java.awt.image.MultiPixelPackedSampleModel.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_createDataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getScanlineStride()
+     * public int java.awt.image.MultiPixelPackedSampleModel.getScanlineStride()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScanlineStride()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#equals(Object) public
+     * boolean java.awt.image.MultiPixelPackedSampleModel.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,76 +126,16 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getScanlineStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getScanlineStride()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getScanlineStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getScanlineStride()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
+     * java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getScanlineStride() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getScanlineStride() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScanlineStride()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#hashCode() public int
-     * java.awt.image.MultiPixelPackedSampleModel.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#hashCode() public int
-     * java.awt.image.MultiPixelPackedSampleModel.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.MultiPixelPackedSampleModel#hashCode() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.hashCode() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createCompatibleSampleModel(int, int) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createCompatibleSampleModel(int, int) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.MultiPixelPackedSampleModel#createCompatibleSampleModel(int, int) public
-     *      java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -198,20 +150,38 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getPixelBitStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getPixelBitStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride()}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#hashCode() public int
+     * java.awt.image.MultiPixelPackedSampleModel.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getPixelBitStride() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getPixelBitStride()
+     * public int java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -225,23 +195,16 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public
-     * void java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public
-     * void java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#setSample(int, int, int, int, DataBuffer) public void
+     * java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public
-     *      void java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -256,13 +219,8 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#getSample(int, int, int, DataBuffer) public int
      * java.awt.image.MultiPixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -270,9 +228,7 @@ extends SampleModelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getSample(int, int, int, java.awt.image.DataBuffer) public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -287,15 +243,8 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer)
-     * public java.lang.Object
-     * java.awt.image.MultiPixelPackedSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer)
-     * public java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#getDataElements(int, int, Object, DataBuffer) public java.lang.Object
      * java.awt.image.MultiPixelPackedSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -303,10 +252,7 @@ extends SampleModelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getDataElements(int, int, Object, java.awt.image.DataBuffer)
-     *      public java.lang.Object
-     *      java.awt.image.MultiPixelPackedSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.
-     *      DataBuffer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -321,15 +267,8 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer)
-     * public void
-     * java.awt.image.MultiPixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#setDataElements(int, int, Object, DataBuffer) public void
      * java.awt.image.MultiPixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -337,10 +276,7 @@ extends SampleModelTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#setDataElements(int, int, Object, java.awt.image.DataBuffer)
-     *      public void
-     *      java.awt.image.MultiPixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.
-     *      DataBuffer) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -355,20 +291,15 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getOffset(int, int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getOffset(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getOffset(int, int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getOffset(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getOffset(int, int)
+     * public int java.awt.image.MultiPixelPackedSampleModel.getOffset(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getOffset(int, int) public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getOffset(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,20 +313,15 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getDataBitOffset() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getDataBitOffset() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset()}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getDataBitOffset()
+     * public int java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getDataBitOffset() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -409,20 +335,15 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getBitOffset(int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getBitOffset(int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int)}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getBitOffset(int) public
+     * int java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getBitOffset(int) public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -436,23 +357,16 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public
-     * void java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public
-     * void java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#setPixel(int, int, int[], DataBuffer) public void
+     * java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#setPixel(int, int, int[], java.awt.image.DataBuffer) public void
-     *      java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -467,21 +381,16 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[])}.
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public java.awt.image.SampleModel
+     * java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public java.awt.image.SampleModel
-     *      java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[]) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -496,79 +405,15 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public
-     * int[] java.awt.image.MultiPixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public
-     * int[] java.awt.image.MultiPixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getSampleSize(int)
+     * public int java.awt.image.MultiPixelPackedSampleModel.getSampleSize(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getPixel(int, int, int[], java.awt.image.DataBuffer) public int[]
-     *      java.awt.image.MultiPixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getPixel_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getSampleSize() public int[]
-     * java.awt.image.MultiPixelPackedSampleModel.getSampleSize()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getSampleSize() public int[]
-     * java.awt.image.MultiPixelPackedSampleModel.getSampleSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getSampleSize() public int[]
-     *      java.awt.image.MultiPixelPackedSampleModel.getSampleSize() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSampleSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getSampleSize(int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getSampleSize(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getSampleSize(int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getSampleSize(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getSampleSize(int) public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getSampleSize(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -583,20 +428,62 @@ extends SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getNumDataElements() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getNumDataElements()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getNumDataElements() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getNumDataElements()}.
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getSampleSize() public
+     * int[] java.awt.image.MultiPixelPackedSampleModel.getSampleSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.image.MultiPixelPackedSampleModel#getNumDataElements() public int
-     *      java.awt.image.MultiPixelPackedSampleModel.getNumDataElements() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSampleSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiPixelPackedSampleModel#getPixel(int, int, int[], DataBuffer) public int[]
+     * java.awt.image.MultiPixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getPixel_int_int_intArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MultiPixelPackedSampleModel#getNumDataElements()
+     * public int java.awt.image.MultiPixelPackedSampleModel.getNumDataElements()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -608,5 +495,7 @@ extends SampleModelTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.MultiPixelPackedSampleModel]
 
 }

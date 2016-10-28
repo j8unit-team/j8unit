@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.sound.midi;
 
+import javax.sound.midi.Patch;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sound.midi.Patch class javax.sound.midi.Patch}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link PatchClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Patch public
+ * class javax.sound.midi.Patch}.
  * </p>
  *
- * @see javax.sound.midi.Patch class javax.sound.midi.Patch (the hereby targeted class-under-test class)
- * @see PatchClassTests PatchClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sound.midi.PatchClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PatchTests<SUT extends javax.sound.midi.Patch>
+public abstract interface PatchTests<SUT extends Patch>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.Patch]
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Patch#getProgram() public int javax.sound.midi.Patch.getProgram()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.Patch#getProgram() public int javax.sound.midi.Patch.getProgram()}.
+     * Test method for the hereby targeted method-under-test {@link Patch#getProgram() public int
+     * javax.sound.midi.Patch.getProgram()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.Patch#getProgram() public int javax.sound.midi.Patch.getProgram() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,18 +56,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Patch#getBank() public int javax.sound.midi.Patch.getBank()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.Patch#getBank() public int javax.sound.midi.Patch.getBank()}.
+     * Test method for the hereby targeted method-under-test {@link Patch#getBank() public int
+     * javax.sound.midi.Patch.getBank()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.Patch#getBank() public int javax.sound.midi.Patch.getBank() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -75,5 +75,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Patch]
 
 }

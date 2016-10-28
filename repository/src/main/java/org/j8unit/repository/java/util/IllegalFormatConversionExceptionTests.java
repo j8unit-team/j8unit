@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import java.util.IllegalFormatConversionException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.IllegalFormatConversionException class
- * java.util.IllegalFormatConversionException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link IllegalFormatConversionExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link IllegalFormatConversionException public class java.util.IllegalFormatConversionException}.
  * </p>
  *
- * @see java.util.IllegalFormatConversionException class java.util.IllegalFormatConversionException (the hereby targeted
- *      class-under-test class)
- * @see IllegalFormatConversionExceptionClassTests IllegalFormatConversionExceptionClassTests (the complementary j8unit
- *      test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.IllegalFormatConversionExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IllegalFormatConversionExceptionTests<SUT extends java.util.IllegalFormatConversionException>
-extends IllegalFormatExceptionTests<SUT> {
+public abstract interface IllegalFormatConversionExceptionTests<SUT extends IllegalFormatConversionException>
+extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IllegalFormatConversionException]
 
     /**
      * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getMessage() public java.lang.String
-     * java.util.IllegalFormatConversionException.getMessage()}.
-     *
-     * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getMessage() public java.lang.String
-     * java.util.IllegalFormatConversionException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getMessage() public
+     * java.lang.String java.util.IllegalFormatConversionException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.IllegalFormatConversionException#getMessage() public java.lang.String
-     *      java.util.IllegalFormatConversionException.getMessage() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getArgumentClass() public java.lang.Class
-     * <?> java.util.IllegalFormatConversionException.getArgumentClass()}.
-     *
-     * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getArgumentClass() public java.lang.Class
-     * java.util.IllegalFormatConversionException.getArgumentClass()}.
+     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getArgumentClass()
+     * public java.lang.Class<?> java.util.IllegalFormatConversionException.getArgumentClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.IllegalFormatConversionException#getArgumentClass() public java.lang.Class
-     *      java.util.IllegalFormatConversionException.getArgumentClass() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,20 +79,15 @@ extends IllegalFormatExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getConversion() public char
-     * java.util.IllegalFormatConversionException.getConversion()}.
-     *
-     * <p>
-     * Test method for {@link java.util.IllegalFormatConversionException#getConversion() public char
-     * java.util.IllegalFormatConversionException.getConversion()}.
+     * Test method for the hereby targeted method-under-test {@link IllegalFormatConversionException#getConversion()
+     * public char java.util.IllegalFormatConversionException.getConversion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.IllegalFormatConversionException#getConversion() public char
-     *      java.util.IllegalFormatConversionException.getConversion() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,5 +98,7 @@ extends IllegalFormatExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IllegalFormatConversionException]
 
 }

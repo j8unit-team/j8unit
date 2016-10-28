@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.Expression;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.Expression class java.beans.Expression}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link ExpressionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Expression
+ * public class java.beans.Expression}.
  * </p>
  *
- * @see java.beans.Expression class java.beans.Expression (the hereby targeted class-under-test class)
- * @see ExpressionClassTests ExpressionClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.ExpressionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExpressionTests<SUT extends java.beans.Expression>
-extends StatementTests<SUT> {
+public abstract interface ExpressionTests<SUT extends Expression>
+extends org.j8unit.repository.java.beans.StatementTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Expression]
 
     /**
      * <p>
-     * Test method for {@link java.beans.Expression#getValue() public java.lang.Object java.beans.Expression.getValue()
-     * throws java.lang.Exception}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Expression#getValue() public java.lang.Object java.beans.Expression.getValue()
-     * throws java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link Expression#getValue() public java.lang.Object
+     * java.beans.Expression.getValue() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Expression#getValue() public java.lang.Object java.beans.Expression.getValue() throws
-     *      java.lang.Exception (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Expression#setValue(Object) public void
-     * java.beans.Expression.setValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Expression#setValue(Object) public void
+     * Test method for the hereby targeted method-under-test {@link Expression#setValue(Object) public void
      * java.beans.Expression.setValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends StatementTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.Expression#setValue(Object) public void java.beans.Expression.setValue(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +78,15 @@ extends StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Expression#toString() public java.lang.String java.beans.Expression.toString()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.beans.Expression#toString() public java.lang.String java.beans.Expression.toString()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link Expression#toString() public java.lang.String
+     * java.beans.Expression.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Expression#toString() public java.lang.String java.beans.Expression.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,20 +101,15 @@ extends StatementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Expression#execute() public void java.beans.Expression.execute() throws
-     * java.lang.Exception}.
-     *
-     * <p>
-     * Test method for {@link java.beans.Expression#execute() public void java.beans.Expression.execute() throws
-     * java.lang.Exception}.
+     * Test method for the hereby targeted method-under-test {@link Expression#execute() public void
+     * java.beans.Expression.execute() throws java.lang.Exception}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.Expression#execute() public void java.beans.Expression.execute() throws java.lang.Exception (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -135,5 +121,7 @@ extends StatementTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Expression]
 
 }

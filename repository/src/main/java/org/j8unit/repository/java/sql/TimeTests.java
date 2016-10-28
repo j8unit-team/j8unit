@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.sql;
 
+import java.sql.Time;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,37 +9,39 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.sql.Time class java.sql.Time}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link TimeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Time public
+ * class java.sql.Time}.
  * </p>
  *
- * @see java.sql.Time class java.sql.Time (the hereby targeted class-under-test class)
- * @see TimeClassTests TimeClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.sql.TimeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimeTests<SUT extends java.sql.Time>
+public abstract interface TimeTests<SUT extends Time>
 extends org.j8unit.repository.java.util.DateTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Time]
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#getYear() public int java.sql.Time.getYear()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#getYear() public int java.sql.Time.getYear()}.
+     * Test method for the hereby targeted method-under-test {@link Time#getYear() public int java.sql.Time.getYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#getYear() public int java.sql.Time.getYear() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -53,17 +56,15 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#setMonth(int) public void java.sql.Time.setMonth(int)}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#setMonth(int) public void java.sql.Time.setMonth(int)}.
+     * Test method for the hereby targeted method-under-test {@link Time#setMonth(int) public void
+     * java.sql.Time.setMonth(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#setMonth(int) public void java.sql.Time.setMonth(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -78,43 +79,15 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#setYear(int) public void java.sql.Time.setYear(int)}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#setYear(int) public void java.sql.Time.setYear(int)}.
+     * Test method for the hereby targeted method-under-test {@link Time#toInstant() public java.time.Instant
+     * java.sql.Time.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#setYear(int) public void java.sql.Time.setYear(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setYear_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Time#toInstant() public java.time.Instant java.sql.Time.toInstant()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#toInstant() public java.time.Instant java.sql.Time.toInstant()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.sql.Time#toInstant() public java.time.Instant java.sql.Time.toInstant() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -129,17 +102,37 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#getDay() public int java.sql.Time.getDay()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#getDay() public int java.sql.Time.getDay()}.
+     * Test method for the hereby targeted method-under-test {@link Time#setYear(int) public void
+     * java.sql.Time.setYear(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#getDay() public int java.sql.Time.getDay() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setYear_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Time#getDay() public int java.sql.Time.getDay()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -154,17 +147,15 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#setTime(long) public void java.sql.Time.setTime(long)}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#setTime(long) public void java.sql.Time.setTime(long)}.
+     * Test method for the hereby targeted method-under-test {@link Time#setTime(long) public void
+     * java.sql.Time.setTime(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#setTime(long) public void java.sql.Time.setTime(long) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -179,18 +170,15 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#toLocalTime() public java.time.LocalTime java.sql.Time.toLocalTime()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#toLocalTime() public java.time.LocalTime java.sql.Time.toLocalTime()}.
+     * Test method for the hereby targeted method-under-test {@link Time#toLocalTime() public java.time.LocalTime
+     * java.sql.Time.toLocalTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#toLocalTime() public java.time.LocalTime java.sql.Time.toLocalTime() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -204,17 +192,15 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#setDate(int) public void java.sql.Time.setDate(int)}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#setDate(int) public void java.sql.Time.setDate(int)}.
+     * Test method for the hereby targeted method-under-test {@link Time#setDate(int) public void
+     * java.sql.Time.setDate(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#setDate(int) public void java.sql.Time.setDate(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -229,43 +215,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#toString() public java.lang.String java.sql.Time.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#toString() public java.lang.String java.sql.Time.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Time#getDate() public int java.sql.Time.getDate()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#toString() public java.lang.String java.sql.Time.toString() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Time#getDate() public int java.sql.Time.getDate()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#getDate() public int java.sql.Time.getDate()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.sql.Time#getDate() public int java.sql.Time.getDate() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -280,17 +237,38 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Time#getMonth() public int java.sql.Time.getMonth()}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Time#getMonth() public int java.sql.Time.getMonth()}.
+     * Test method for the hereby targeted method-under-test {@link Time#toString() public java.lang.String
+     * java.sql.Time.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Time#getMonth() public int java.sql.Time.getMonth() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Time#getMonth() public int java.sql.Time.getMonth()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -302,5 +280,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Time]
 
 }

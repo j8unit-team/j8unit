@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.Transparency;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.Transparency interface java.awt.Transparency}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link TransparencyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Transparency
+ * public abstract interface java.awt.Transparency}.
  * </p>
  *
- * @see java.awt.Transparency interface java.awt.Transparency (the hereby targeted class-under-test class)
- * @see TransparencyClassTests TransparencyClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.TransparencyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TransparencyTests<SUT extends java.awt.Transparency>
+public abstract interface TransparencyTests<SUT extends Transparency>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Transparency]
 
     /**
      * <p>
-     * Test method for {@link java.awt.Transparency#getTransparency() public abstract int
-     * java.awt.Transparency.getTransparency()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Transparency#getTransparency() public abstract int
+     * Test method for the hereby targeted method-under-test {@link Transparency#getTransparency() public abstract int
      * java.awt.Transparency.getTransparency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,8 +43,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.Transparency#getTransparency() public abstract int java.awt.Transparency.getTransparency() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,5 +54,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Transparency]
 
 }

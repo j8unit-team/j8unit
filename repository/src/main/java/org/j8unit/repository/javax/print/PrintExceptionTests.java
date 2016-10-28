@@ -1,26 +1,34 @@
 package org.j8unit.repository.javax.print;
 
+import javax.print.PrintException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.PrintException class javax.print.PrintException}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PrintExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PrintException
+ * public class javax.print.PrintException}.
  * </p>
  *
- * @see javax.print.PrintException class javax.print.PrintException (the hereby targeted class-under-test class)
- * @see PrintExceptionClassTests PrintExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.PrintExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrintExceptionTests<SUT extends javax.print.PrintException>
+public abstract interface PrintExceptionTests<SUT extends PrintException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.PrintException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.PrintException]
 
 }

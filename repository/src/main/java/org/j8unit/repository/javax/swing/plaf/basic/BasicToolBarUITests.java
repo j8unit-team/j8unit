@@ -1,5 +1,12 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Point;
+import java.awt.event.MouseEvent;
+import javax.swing.JComponent;
+import javax.swing.plaf.basic.BasicToolBarUI;
+import javax.swing.plaf.basic.BasicToolBarUI.DockingListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,179 +15,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicToolBarUI class
- * javax.swing.plaf.basic.BasicToolBarUI}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link BasicToolBarUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicToolBarUI
+ * public class javax.swing.plaf.basic.BasicToolBarUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicToolBarUI class javax.swing.plaf.basic.BasicToolBarUI (the hereby targeted
- *      class-under-test class)
- * @see BasicToolBarUIClassTests BasicToolBarUIClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicToolBarUITests<SUT extends javax.swing.plaf.basic.BasicToolBarUI>
+public abstract interface BasicToolBarUITests<SUT extends BasicToolBarUI>
 extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setRolloverBorders(boolean) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setRolloverBorders(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setRolloverBorders(boolean) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setRolloverBorders(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setRolloverBorders(boolean) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setRolloverBorders(boolean) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRolloverBorders_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setOrientation(int) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setOrientation(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setOrientation(int) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setOrientation(int)}.
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#getFloatingColor() public
+     * java.awt.Color javax.swing.plaf.basic.BasicToolBarUI.getFloatingColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setOrientation(int) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setOrientation(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOrientation_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloating(boolean, java.awt.Point) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setFloating(boolean,java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloating(boolean, java.awt.Point) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setFloating(boolean,java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setFloating(boolean, java.awt.Point) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setFloating(boolean,java.awt.Point) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFloating_boolean_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#isRolloverBorders() public boolean
-     * javax.swing.plaf.basic.BasicToolBarUI.isRolloverBorders()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#isRolloverBorders() public boolean
-     * javax.swing.plaf.basic.BasicToolBarUI.isRolloverBorders()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#isRolloverBorders() public boolean
-     *      javax.swing.plaf.basic.BasicToolBarUI.isRolloverBorders() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRolloverBorders()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setDockingColor(java.awt.Color) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setDockingColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setDockingColor(java.awt.Color) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setDockingColor(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setDockingColor(java.awt.Color) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setDockingColor(java.awt.Color) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDockingColor_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#getFloatingColor() public java.awt.Color
-     * javax.swing.plaf.basic.BasicToolBarUI.getFloatingColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#getFloatingColor() public java.awt.Color
-     * javax.swing.plaf.basic.BasicToolBarUI.getFloatingColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#getFloatingColor() public java.awt.Color
-     *      javax.swing.plaf.basic.BasicToolBarUI.getFloatingColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -194,11 +62,51 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.installUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setRolloverBorders(boolean) public
+     * void javax.swing.plaf.basic.BasicToolBarUI.setRolloverBorders(boolean)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRolloverBorders_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#installUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setOrientation(int) public void
+     * javax.swing.plaf.basic.BasicToolBarUI.setOrientation(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOrientation_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#installUI(JComponent) public void
      * javax.swing.plaf.basic.BasicToolBarUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -206,9 +114,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -223,11 +129,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloatingColor(java.awt.Color) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setFloatingColor(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloatingColor(java.awt.Color) public void
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setFloatingColor(Color) public void
      * javax.swing.plaf.basic.BasicToolBarUI.setFloatingColor(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,9 +137,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setFloatingColor(java.awt.Color) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setFloatingColor(java.awt.Color) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -251,11 +151,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#isFloating() public boolean
-     * javax.swing.plaf.basic.BasicToolBarUI.isFloating()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#isFloating() public boolean
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#isFloating() public boolean
      * javax.swing.plaf.basic.BasicToolBarUI.isFloating()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -263,8 +159,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#isFloating() public boolean
-     *      javax.swing.plaf.basic.BasicToolBarUI.isFloating() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -278,11 +173,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#uninstallUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#uninstallUI(JComponent) public void
      * javax.swing.plaf.basic.BasicToolBarUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,9 +181,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -307,20 +196,15 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#getDockingColor() public java.awt.Color
-     * javax.swing.plaf.basic.BasicToolBarUI.getDockingColor()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#getDockingColor() public java.awt.Color
-     * javax.swing.plaf.basic.BasicToolBarUI.getDockingColor()}.
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#getDockingColor() public
+     * java.awt.Color javax.swing.plaf.basic.BasicToolBarUI.getDockingColor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#getDockingColor() public java.awt.Color
-     *      javax.swing.plaf.basic.BasicToolBarUI.getDockingColor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,20 +218,81 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloatingLocation(int, int) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setFloatingLocation(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#setFloatingLocation(int, int) public void
-     * javax.swing.plaf.basic.BasicToolBarUI.setFloatingLocation(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setFloating(boolean, Point) public
+     * void javax.swing.plaf.basic.BasicToolBarUI.setFloating(boolean,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#setFloatingLocation(int, int) public void
-     *      javax.swing.plaf.basic.BasicToolBarUI.setFloatingLocation(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFloating_boolean_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setDockingColor(Color) public void
+     * javax.swing.plaf.basic.BasicToolBarUI.setDockingColor(java.awt.Color)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDockingColor_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#isRolloverBorders() public boolean
+     * javax.swing.plaf.basic.BasicToolBarUI.isRolloverBorders()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRolloverBorders()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#setFloatingLocation(int, int) public
+     * void javax.swing.plaf.basic.BasicToolBarUI.setFloatingLocation(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,11 +306,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#canDock(java.awt.Component, java.awt.Point) public
-     * boolean javax.swing.plaf.basic.BasicToolBarUI.canDock(java.awt.Component,java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolBarUI#canDock(java.awt.Component, java.awt.Point) public
+     * Test method for the hereby targeted method-under-test {@link BasicToolBarUI#canDock(Component, Point) public
      * boolean javax.swing.plaf.basic.BasicToolBarUI.canDock(java.awt.Component,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -373,9 +314,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI#canDock(java.awt.Component, java.awt.Point) public boolean
-     *      javax.swing.plaf.basic.BasicToolBarUI.canDock(java.awt.Component,java.awt.Point) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -387,37 +326,36 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicToolBarUI.DockingListener class
-     * javax.swing.plaf.basic.BasicToolBarUI$DockingListener}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BasicToolBarUIClassTests.DockingListenerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link DockingListener public class javax.swing.plaf.basic.BasicToolBarUI$DockingListener}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener class
-     *      javax.swing.plaf.basic.BasicToolBarUI$DockingListener (the hereby targeted class-under-test class)
-     * @see BasicToolBarUIClassTests.DockingListenerClassTests BasicToolBarUIClassTests.DockingListenerClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests.DockingListenerClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface DockingListenerTests<SUT extends javax.swing.plaf.basic.BasicToolBarUI.DockingListener>
+    public static abstract interface DockingListenerTests<SUT extends DockingListener>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseMoved(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseMoved(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseMoved(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseMoved(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseMoved(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -425,9 +363,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseMoved(java.awt.event.MouseEvent) public void
-         *      javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseMoved(java.awt.event.MouseEvent) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -442,13 +378,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mousePressed(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mousePressed(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mousePressed(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mousePressed(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mousePressed(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,9 +386,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mousePressed(java.awt.event.MouseEvent) public
-         *      void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mousePressed(java.awt.event.MouseEvent) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -473,13 +401,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseReleased(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseReleased(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseReleased(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseReleased(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseReleased(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -487,9 +409,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseReleased(java.awt.event.MouseEvent) public
-         *      void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseReleased(java.awt.event.MouseEvent) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -504,44 +424,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseDragged(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseDragged(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseDragged(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseDragged(java.awt.event.MouseEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseDragged(java.awt.event.MouseEvent) public
-         *      void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseDragged(java.awt.event.MouseEvent) (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_mouseDragged_MouseEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseExited(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseExited(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseExited(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseExited(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseExited(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -549,9 +432,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseExited(java.awt.event.MouseEvent) public void
-         *      javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseExited(java.awt.event.MouseEvent) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -566,13 +447,30 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseEntered(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseEntered(java.awt.event.MouseEvent)}.
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseDragged(MouseEvent) public
+         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseDragged(java.awt.event.MouseEvent)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_mouseDragged_MouseEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseEntered(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseEntered(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseEntered(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -580,9 +478,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseEntered(java.awt.event.MouseEvent) public
-         *      void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseEntered(java.awt.event.MouseEvent) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -597,13 +493,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseClicked(java.awt.event.MouseEvent) public
-         * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseClicked(java.awt.event.MouseEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseClicked(java.awt.event.MouseEvent) public
+         * Test method for the hereby targeted method-under-test {@link DockingListener#mouseClicked(MouseEvent) public
          * void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseClicked(java.awt.event.MouseEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -611,9 +501,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicToolBarUI.DockingListener#mouseClicked(java.awt.event.MouseEvent) public
-         *      void javax.swing.plaf.basic.BasicToolBarUI$DockingListener.mouseClicked(java.awt.event.MouseEvent) (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -625,6 +513,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 
     }
 

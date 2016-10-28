@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.accessibility;
 
+import javax.accessibility.AccessibleRelation;
+import javax.accessibility.AccessibleRelationSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleRelationSet class
- * javax.accessibility.AccessibleRelationSet}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AccessibleRelationSetClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccessibleRelationSet public class javax.accessibility.AccessibleRelationSet}.
  * </p>
  *
- * @see javax.accessibility.AccessibleRelationSet class javax.accessibility.AccessibleRelationSet (the hereby targeted
- *      class-under-test class)
- * @see AccessibleRelationSetClassTests AccessibleRelationSetClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleRelationSetClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleRelationSetTests<SUT extends javax.accessibility.AccessibleRelationSet>
+public abstract interface AccessibleRelationSetTests<SUT extends AccessibleRelationSet>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleRelationSet]
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#contains(String) public boolean
-     * javax.accessibility.AccessibleRelationSet.contains(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#contains(String) public boolean
-     * javax.accessibility.AccessibleRelationSet.contains(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#contains(String) public
+     * boolean javax.accessibility.AccessibleRelationSet.contains(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#contains(String) public boolean
-     *      javax.accessibility.AccessibleRelationSet.contains(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,21 +57,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#add(javax.accessibility.AccessibleRelation)
-     * public boolean javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#add(javax.accessibility.AccessibleRelation)
-     * public boolean javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#add(AccessibleRelation) public
+     * boolean javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#add(javax.accessibility.AccessibleRelation) public boolean
-     *      javax.accessibility.AccessibleRelationSet.add(javax.accessibility.AccessibleRelation) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +79,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#get(String) public
-     * javax.accessibility.AccessibleRelation javax.accessibility.AccessibleRelationSet.get(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#get(String) public
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#get(String) public
      * javax.accessibility.AccessibleRelation javax.accessibility.AccessibleRelationSet.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +87,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#get(String) public javax.accessibility.AccessibleRelation
-     *      javax.accessibility.AccessibleRelationSet.get(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,11 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#addAll(javax.accessibility.AccessibleRelation[])
-     * public void javax.accessibility.AccessibleRelationSet.addAll(javax.accessibility.AccessibleRelation[])}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#addAll(javax.accessibility.AccessibleRelation[])
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#addAll(AccessibleRelation[])
      * public void javax.accessibility.AccessibleRelationSet.addAll(javax.accessibility.AccessibleRelation[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,9 +109,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#addAll(javax.accessibility.AccessibleRelation[]) public void
-     *      javax.accessibility.AccessibleRelationSet.addAll(javax.accessibility.AccessibleRelation[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,11 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#size() public int
-     * javax.accessibility.AccessibleRelationSet.size()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#size() public int
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#size() public int
      * javax.accessibility.AccessibleRelationSet.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +131,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#size() public int javax.accessibility.AccessibleRelationSet.size()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -167,20 +145,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#toString() public java.lang.String
-     * javax.accessibility.AccessibleRelationSet.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#toString() public java.lang.String
-     * javax.accessibility.AccessibleRelationSet.toString()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#toString() public
+     * java.lang.String javax.accessibility.AccessibleRelationSet.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#toString() public java.lang.String
-     *      javax.accessibility.AccessibleRelationSet.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -195,38 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#clear() public void
-     * javax.accessibility.AccessibleRelationSet.clear()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#clear() public void
-     * javax.accessibility.AccessibleRelationSet.clear()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleRelationSet#clear() public void
-     *      javax.accessibility.AccessibleRelationSet.clear() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#toArray() public
-     * javax.accessibility.AccessibleRelation[] javax.accessibility.AccessibleRelationSet.toArray()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#toArray() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#toArray() public
      * javax.accessibility.AccessibleRelation[] javax.accessibility.AccessibleRelationSet.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -234,8 +176,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#toArray() public javax.accessibility.AccessibleRelation[]
-     *      javax.accessibility.AccessibleRelationSet.toArray() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -249,11 +190,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#remove(javax.accessibility.AccessibleRelation)
-     * public boolean javax.accessibility.AccessibleRelationSet.remove(javax.accessibility.AccessibleRelation)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#clear() public void
+     * javax.accessibility.AccessibleRelationSet.clear()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelationSet#remove(javax.accessibility.AccessibleRelation)
+     * Test method for the hereby targeted method-under-test {@link AccessibleRelationSet#remove(AccessibleRelation)
      * public boolean javax.accessibility.AccessibleRelationSet.remove(javax.accessibility.AccessibleRelation)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -261,9 +220,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleRelationSet#remove(javax.accessibility.AccessibleRelation) public boolean
-     *      javax.accessibility.AccessibleRelationSet.remove(javax.accessibility.AccessibleRelation) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,5 +231,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleRelationSet]
 
 }

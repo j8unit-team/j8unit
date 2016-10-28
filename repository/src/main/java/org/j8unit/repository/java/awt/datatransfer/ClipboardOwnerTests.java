@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.awt.datatransfer;
 
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.ClipboardOwner;
+import java.awt.datatransfer.Transferable;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,38 +12,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.datatransfer.ClipboardOwner interface
- * java.awt.datatransfer.ClipboardOwner}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link ClipboardOwnerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ClipboardOwner
+ * public abstract interface java.awt.datatransfer.ClipboardOwner}.
  * </p>
  *
- * @see java.awt.datatransfer.ClipboardOwner interface java.awt.datatransfer.ClipboardOwner (the hereby targeted
- *      class-under-test class)
- * @see ClipboardOwnerClassTests ClipboardOwnerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.datatransfer.ClipboardOwnerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ClipboardOwnerTests<SUT extends java.awt.datatransfer.ClipboardOwner>
+public abstract interface ClipboardOwnerTests<SUT extends ClipboardOwner>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.ClipboardOwner]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.ClipboardOwner#lostOwnership(java.awt.datatransfer.Clipboard, java.awt.datatransfer.Transferable)
-     * public abstract void
-     * java.awt.datatransfer.ClipboardOwner.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.ClipboardOwner#lostOwnership(java.awt.datatransfer.Clipboard, java.awt.datatransfer.Transferable)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link ClipboardOwner#lostOwnership(Clipboard, Transferable) public abstract void
      * java.awt.datatransfer.ClipboardOwner.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)}
      * .
      *
@@ -49,10 +47,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.datatransfer.ClipboardOwner#lostOwnership(java.awt.datatransfer.Clipboard,
-     *      java.awt.datatransfer.Transferable) public abstract void
-     *      java.awt.datatransfer.ClipboardOwner.lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.
-     *      Transferable) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +58,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.ClipboardOwner]
 
 }

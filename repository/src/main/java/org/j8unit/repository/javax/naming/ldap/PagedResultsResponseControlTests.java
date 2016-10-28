@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.naming.ldap;
 
+import javax.naming.ldap.PagedResultsResponseControl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.ldap.PagedResultsResponseControl class
- * javax.naming.ldap.PagedResultsResponseControl}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link PagedResultsResponseControlClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PagedResultsResponseControl public final class javax.naming.ldap.PagedResultsResponseControl}.
  * </p>
  *
- * @see javax.naming.ldap.PagedResultsResponseControl class javax.naming.ldap.PagedResultsResponseControl (the hereby
- *      targeted class-under-test class)
- * @see PagedResultsResponseControlClassTests PagedResultsResponseControlClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.ldap.PagedResultsResponseControlClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PagedResultsResponseControlTests<SUT extends javax.naming.ldap.PagedResultsResponseControl>
-extends BasicControlTests<SUT> {
+public abstract interface PagedResultsResponseControlTests<SUT extends PagedResultsResponseControl>
+extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.PagedResultsResponseControl]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getResultSize() public int
-     * javax.naming.ldap.PagedResultsResponseControl.getResultSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getResultSize() public int
-     * javax.naming.ldap.PagedResultsResponseControl.getResultSize()}.
+     * Test method for the hereby targeted method-under-test {@link PagedResultsResponseControl#getResultSize() public
+     * int javax.naming.ldap.PagedResultsResponseControl.getResultSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.PagedResultsResponseControl#getResultSize() public int
-     *      javax.naming.ldap.PagedResultsResponseControl.getResultSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getCookie() public byte[]
-     * javax.naming.ldap.PagedResultsResponseControl.getCookie()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getCookie() public byte[]
-     * javax.naming.ldap.PagedResultsResponseControl.getCookie()}.
+     * Test method for the hereby targeted method-under-test {@link PagedResultsResponseControl#getCookie() public
+     * byte[] javax.naming.ldap.PagedResultsResponseControl.getCookie()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.PagedResultsResponseControl#getCookie() public byte[]
-     *      javax.naming.ldap.PagedResultsResponseControl.getCookie() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,5 +75,7 @@ extends BasicControlTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.PagedResultsResponseControl]
 
 }

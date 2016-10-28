@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.security.auth.kerberos;
 
+import javax.security.auth.kerberos.KerberosPrincipal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +9,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.kerberos.KerberosPrincipal class
- * javax.security.auth.kerberos.KerberosPrincipal}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link KerberosPrincipalClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link KerberosPrincipal public final class javax.security.auth.kerberos.KerberosPrincipal}.
  * </p>
  *
- * @see javax.security.auth.kerberos.KerberosPrincipal class javax.security.auth.kerberos.KerberosPrincipal (the hereby
- *      targeted class-under-test class)
- * @see KerberosPrincipalClassTests KerberosPrincipalClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KerberosPrincipalTests<SUT extends javax.security.auth.kerberos.KerberosPrincipal>
+public abstract interface KerberosPrincipalTests<SUT extends KerberosPrincipal>
 extends org.j8unit.repository.java.security.PrincipalTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.kerberos.KerberosPrincipal]
+
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#hashCode() public int
-     * javax.security.auth.kerberos.KerberosPrincipal.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#hashCode() public int
      * javax.security.auth.kerberos.KerberosPrincipal.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +43,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#hashCode() public int
-     *      javax.security.auth.kerberos.KerberosPrincipal.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,11 +58,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#equals(Object) public boolean
-     * javax.security.auth.kerberos.KerberosPrincipal.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#equals(Object) public boolean
      * javax.security.auth.kerberos.KerberosPrincipal.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,9 +66,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#equals(Object) public boolean
-     *      javax.security.auth.kerberos.KerberosPrincipal.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -88,11 +81,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getNameType() public int
-     * javax.security.auth.kerberos.KerberosPrincipal.getNameType()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getNameType() public int
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getNameType() public int
      * javax.security.auth.kerberos.KerberosPrincipal.getNameType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,8 +89,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#getNameType() public int
-     *      javax.security.auth.kerberos.KerberosPrincipal.getNameType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -115,11 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getName() public java.lang.String
-     * javax.security.auth.kerberos.KerberosPrincipal.getName()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getName() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +111,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#getName() public java.lang.String
-     *      javax.security.auth.kerberos.KerberosPrincipal.getName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -143,11 +126,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#toString() public java.lang.String
-     * javax.security.auth.kerberos.KerberosPrincipal.toString()}.
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#getRealm() public java.lang.String
+     * javax.security.auth.kerberos.KerberosPrincipal.getRealm()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRealm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link KerberosPrincipal#toString() public java.lang.String
      * javax.security.auth.kerberos.KerberosPrincipal.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +156,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#toString() public java.lang.String
-     *      javax.security.auth.kerberos.KerberosPrincipal.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -169,31 +169,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getRealm() public java.lang.String
-     * javax.security.auth.kerberos.KerberosPrincipal.getRealm()}.
-     *
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosPrincipal#getRealm() public java.lang.String
-     * javax.security.auth.kerberos.KerberosPrincipal.getRealm()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.security.auth.kerberos.KerberosPrincipal#getRealm() public java.lang.String
-     *      javax.security.auth.kerberos.KerberosPrincipal.getRealm() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRealm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.kerberos.KerberosPrincipal]
 
 }

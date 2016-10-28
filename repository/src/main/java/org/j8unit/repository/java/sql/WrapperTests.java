@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.sql;
 
+import java.sql.Wrapper;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.sql.Wrapper interface java.sql.Wrapper}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link WrapperClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Wrapper public
+ * abstract interface java.sql.Wrapper}.
  * </p>
  *
- * @see java.sql.Wrapper interface java.sql.Wrapper (the hereby targeted class-under-test class)
- * @see WrapperClassTests WrapperClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.sql.WrapperClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface WrapperTests<SUT extends java.sql.Wrapper>
+public abstract interface WrapperTests<SUT extends Wrapper>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Wrapper]
 
     /**
      * <p>
-     * Test method for {@link java.sql.Wrapper#isWrapperFor(Class) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Wrapper#isWrapperFor(Class) public abstract boolean
      * java.sql.Wrapper.isWrapperFor(java.lang.Class<?>) throws java.sql.SQLException}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Wrapper#isWrapperFor(Class) public abstract boolean
-     * java.sql.Wrapper.isWrapperFor(java.lang.Class) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Wrapper#isWrapperFor(Class) public abstract boolean java.sql.Wrapper.isWrapperFor(java.lang.Class)
-     *      throws java.sql.SQLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Wrapper#unwrap(Class) public abstract <T> T
+     * Test method for the hereby targeted method-under-test {@link Wrapper#unwrap(Class) public abstract <T> T
      * java.sql.Wrapper.unwrap(java.lang.Class<T>) throws java.sql.SQLException}.
-     *
-     * <p>
-     * Test method for {@link java.sql.Wrapper#unwrap(Class) public abstract java.lang.Object
-     * java.sql.Wrapper.unwrap(java.lang.Class) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.sql.Wrapper#unwrap(Class) public abstract java.lang.Object java.sql.Wrapper.unwrap(java.lang.Class)
-     *      throws java.sql.SQLException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,5 +76,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Wrapper]
 
 }

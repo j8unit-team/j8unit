@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.font;
 
+import java.awt.font.TextHitInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.font.TextHitInfo class java.awt.font.TextHitInfo}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link TextHitInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TextHitInfo
+ * public final class java.awt.font.TextHitInfo}.
  * </p>
  *
- * @see java.awt.font.TextHitInfo class java.awt.font.TextHitInfo (the hereby targeted class-under-test class)
- * @see TextHitInfoClassTests TextHitInfoClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.font.TextHitInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TextHitInfoTests<SUT extends java.awt.font.TextHitInfo>
+public abstract interface TextHitInfoTests<SUT extends TextHitInfo>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TextHitInfo]
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getCharIndex() public int
-     * java.awt.font.TextHitInfo.getCharIndex()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getCharIndex() public int
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#getCharIndex() public int
      * java.awt.font.TextHitInfo.getCharIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#getCharIndex() public int java.awt.font.TextHitInfo.getCharIndex() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getInsertionIndex() public int
-     * java.awt.font.TextHitInfo.getInsertionIndex()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getInsertionIndex() public int
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#getInsertionIndex() public int
      * java.awt.font.TextHitInfo.getInsertionIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#getInsertionIndex() public int java.awt.font.TextHitInfo.getInsertionIndex() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#toString() public java.lang.String
-     * java.awt.font.TextHitInfo.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#toString() public java.lang.String
      * java.awt.font.TextHitInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +86,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#toString() public java.lang.String java.awt.font.TextHitInfo.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,38 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getOffsetHit(int) public java.awt.font.TextHitInfo
-     * java.awt.font.TextHitInfo.getOffsetHit(int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getOffsetHit(int) public java.awt.font.TextHitInfo
-     * java.awt.font.TextHitInfo.getOffsetHit(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.TextHitInfo#getOffsetHit(int) public java.awt.font.TextHitInfo
-     *      java.awt.font.TextHitInfo.getOffsetHit(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffsetHit_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#isLeadingEdge() public boolean
-     * java.awt.font.TextHitInfo.isLeadingEdge()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#isLeadingEdge() public boolean
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#isLeadingEdge() public boolean
      * java.awt.font.TextHitInfo.isLeadingEdge()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +109,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#isLeadingEdge() public boolean java.awt.font.TextHitInfo.isLeadingEdge() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,18 +123,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#hashCode() public int java.awt.font.TextHitInfo.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#hashCode() public int java.awt.font.TextHitInfo.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#getOffsetHit(int) public
+     * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.getOffsetHit(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#hashCode() public int java.awt.font.TextHitInfo.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffsetHit_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#hashCode() public int
+     * java.awt.font.TextHitInfo.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -190,11 +168,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#equals(Object) public boolean
-     * java.awt.font.TextHitInfo.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#equals(TextHitInfo) public boolean
+     * java.awt.font.TextHitInfo.equals(java.awt.font.TextHitInfo)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_TextHitInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#equals(Object) public boolean
      * java.awt.font.TextHitInfo.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +198,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#equals(Object) public boolean java.awt.font.TextHitInfo.equals(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,47 +213,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#equals(java.awt.font.TextHitInfo) public boolean
-     * java.awt.font.TextHitInfo.equals(java.awt.font.TextHitInfo)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#equals(java.awt.font.TextHitInfo) public boolean
-     * java.awt.font.TextHitInfo.equals(java.awt.font.TextHitInfo)}.
+     * Test method for the hereby targeted method-under-test {@link TextHitInfo#getOtherHit() public
+     * java.awt.font.TextHitInfo java.awt.font.TextHitInfo.getOtherHit()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.font.TextHitInfo#equals(java.awt.font.TextHitInfo) public boolean
-     *      java.awt.font.TextHitInfo.equals(java.awt.font.TextHitInfo) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_TextHitInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getOtherHit() public java.awt.font.TextHitInfo
-     * java.awt.font.TextHitInfo.getOtherHit()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.font.TextHitInfo#getOtherHit() public java.awt.font.TextHitInfo
-     * java.awt.font.TextHitInfo.getOtherHit()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.font.TextHitInfo#getOtherHit() public java.awt.font.TextHitInfo
-     *      java.awt.font.TextHitInfo.getOtherHit() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,5 +232,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextHitInfo]
 
 }

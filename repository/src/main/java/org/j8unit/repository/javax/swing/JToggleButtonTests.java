@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.JToggleButton;
+import javax.swing.JToggleButton.ToggleButtonModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JToggleButton class javax.swing.JToggleButton}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link JToggleButtonClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JToggleButton
+ * public class javax.swing.JToggleButton}.
  * </p>
  *
- * @see javax.swing.JToggleButton class javax.swing.JToggleButton (the hereby targeted class-under-test class)
- * @see JToggleButtonClassTests JToggleButtonClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JToggleButtonTests<SUT extends javax.swing.JToggleButton>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, AbstractButtonTests<SUT> {
+public abstract interface JToggleButtonTests<SUT extends JToggleButton>
+extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToggleButton#updateUI() public void javax.swing.JToggleButton.updateUI()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToggleButton#updateUI() public void javax.swing.JToggleButton.updateUI()}.
+     * Test method for the hereby targeted method-under-test {@link JToggleButton#updateUI() public void
+     * javax.swing.JToggleButton.updateUI()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToggleButton#updateUI() public void javax.swing.JToggleButton.updateUI() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,11 +58,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToggleButton#getUIClassID() public java.lang.String
-     * javax.swing.JToggleButton.getUIClassID()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToggleButton#getUIClassID() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link JToggleButton#getUIClassID() public java.lang.String
      * javax.swing.JToggleButton.getUIClassID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +66,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToggleButton#getUIClassID() public java.lang.String javax.swing.JToggleButton.getUIClassID()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -82,11 +81,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JToggleButton#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JToggleButton.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JToggleButton#getAccessibleContext() public
+     * Test method for the hereby targeted method-under-test {@link JToggleButton#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JToggleButton.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +89,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JToggleButton#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JToggleButton.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -108,35 +102,36 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToggleButton]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.JToggleButton.ToggleButtonModel class
-     * javax.swing.JToggleButton$ToggleButtonModel}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link JToggleButtonClassTests.ToggleButtonModelClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ToggleButtonModel public static class javax.swing.JToggleButton$ToggleButtonModel}.
      * </p>
      *
-     * @see javax.swing.JToggleButton.ToggleButtonModel class javax.swing.JToggleButton$ToggleButtonModel (the hereby
-     *      targeted class-under-test class)
-     * @see JToggleButtonClassTests.ToggleButtonModelClassTests JToggleButtonClassTests.ToggleButtonModelClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ToggleButtonModelTests<SUT extends javax.swing.JToggleButton.ToggleButtonModel>
-    extends DefaultButtonModelTests<SUT> {
+    public static abstract interface ToggleButtonModelTests<SUT extends ToggleButtonModel>
+    extends org.j8unit.repository.javax.swing.DefaultButtonModelTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#isSelected() public boolean
-         * javax.swing.JToggleButton$ToggleButtonModel.isSelected()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#isSelected() public boolean
+         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#isSelected() public boolean
          * javax.swing.JToggleButton$ToggleButtonModel.isSelected()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -144,8 +139,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JToggleButton.ToggleButtonModel#isSelected() public boolean
-         *      javax.swing.JToggleButton$ToggleButtonModel.isSelected() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -160,20 +154,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#setPressed(boolean) public void
-         * javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#setPressed(boolean) public void
-         * javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean)}.
+         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#setPressed(boolean) public
+         * void javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JToggleButton.ToggleButtonModel#setPressed(boolean) public void
-         *      javax.swing.JToggleButton$ToggleButtonModel.setPressed(boolean) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -188,20 +177,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
 
         /**
          * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#setSelected(boolean) public void
-         * javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean)}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.JToggleButton.ToggleButtonModel#setSelected(boolean) public void
-         * javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean)}.
+         * Test method for the hereby targeted method-under-test {@link ToggleButtonModel#setSelected(boolean) public
+         * void javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.JToggleButton.ToggleButtonModel#setSelected(boolean) public void
-         *      javax.swing.JToggleButton$ToggleButtonModel.setSelected(boolean) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -213,6 +197,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, Abstract
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 
     }
 

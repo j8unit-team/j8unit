@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.util;
 
+import java.util.AbstractCollection;
+import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,96 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.AbstractCollection class java.util.AbstractCollection}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link AbstractCollectionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AbstractCollection public abstract class java.util.AbstractCollection<E>}.
  * </p>
  *
- * @see java.util.AbstractCollection class java.util.AbstractCollection (the hereby targeted class-under-test class)
- * @see AbstractCollectionClassTests AbstractCollectionClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.AbstractCollectionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractCollectionTests<SUT extends java.util.AbstractCollection<E>, E>
-extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface AbstractCollectionTests<SUT extends AbstractCollection<E>, E>
+extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractCollection]
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#contains(Object) public boolean
-     * java.util.AbstractCollection.contains(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#contains(Object) public boolean
-     * java.util.AbstractCollection.contains(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#removeAll(Collection) public
+     * boolean java.util.AbstractCollection.removeAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#contains(Object) public boolean
-     *      java.util.AbstractCollection.contains(java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#iterator() public abstract java.util.Iterator
-     * <E> java.util.AbstractCollection.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#iterator() public abstract java.util.Iterator
-     * java.util.AbstractCollection.iterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractCollection#iterator() public abstract java.util.Iterator
-     *      java.util.AbstractCollection.iterator() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#removeAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.removeAll(java.util.Collection<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#removeAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.removeAll(java.util.Collection)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractCollection#removeAll(java.util.Collection) public boolean
-     *      java.util.AbstractCollection.removeAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,11 +58,53 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#size() public abstract int
-     * java.util.AbstractCollection.size()}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#iterator() public abstract
+     * java.util.Iterator<E> java.util.AbstractCollection.iterator()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#size() public abstract int
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#contains(Object) public boolean
+     * java.util.AbstractCollection.contains(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_contains_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#size() public abstract int
      * java.util.AbstractCollection.size()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +112,7 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#size() public abstract int java.util.AbstractCollection.size() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,20 +127,15 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#addAll(java.util.Collection) public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#addAll(Collection) public boolean
      * java.util.AbstractCollection.addAll(java.util.Collection<? extends E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#addAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.addAll(java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#addAll(java.util.Collection) public boolean
-     *      java.util.AbstractCollection.addAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -168,20 +150,15 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#toString() public java.lang.String
-     * java.util.AbstractCollection.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#toString() public java.lang.String
-     * java.util.AbstractCollection.toString()}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toString() public
+     * java.lang.String java.util.AbstractCollection.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#toString() public java.lang.String java.util.AbstractCollection.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -196,48 +173,15 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#toArray() public java.lang.Object[]
-     * java.util.AbstractCollection.toArray()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#toArray() public java.lang.Object[]
-     * java.util.AbstractCollection.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractCollection#toArray() public java.lang.Object[] java.util.AbstractCollection.toArray() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#toArray(Object[]) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toArray(Object[]) public <T> T[]
      * java.util.AbstractCollection.toArray(T[])}.
      *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#toArray(Object[]) public java.lang.Object[]
-     * java.util.AbstractCollection.toArray(java.lang.Object[])}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#toArray(Object[]) public java.lang.Object[]
-     *      java.util.AbstractCollection.toArray(java.lang.Object[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -252,20 +196,38 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#retainAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.retainAll(java.util.Collection<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#retainAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.retainAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#toArray() public
+     * java.lang.Object[] java.util.AbstractCollection.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#retainAll(java.util.Collection) public boolean
-     *      java.util.AbstractCollection.retainAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#retainAll(Collection) public
+     * boolean java.util.AbstractCollection.retainAll(java.util.Collection<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -280,20 +242,15 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#add(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#add(Object) public boolean
      * java.util.AbstractCollection.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#add(Object) public boolean
-     * java.util.AbstractCollection.add(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#add(Object) public boolean java.util.AbstractCollection.add(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -308,20 +265,15 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#containsAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.containsAll(java.util.Collection<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#containsAll(java.util.Collection) public boolean
-     * java.util.AbstractCollection.containsAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#containsAll(Collection) public
+     * boolean java.util.AbstractCollection.containsAll(java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#containsAll(java.util.Collection) public boolean
-     *      java.util.AbstractCollection.containsAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -336,37 +288,7 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#clear() public void java.util.AbstractCollection.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#clear() public void java.util.AbstractCollection.clear()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractCollection#clear() public void java.util.AbstractCollection.clear() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#isEmpty() public boolean
-     * java.util.AbstractCollection.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractCollection#isEmpty() public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#isEmpty() public boolean
      * java.util.AbstractCollection.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -374,8 +296,7 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#isEmpty() public boolean java.util.AbstractCollection.isEmpty() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -390,11 +311,30 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#remove(Object) public boolean
-     * java.util.AbstractCollection.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#clear() public void
+     * java.util.AbstractCollection.clear()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.AbstractCollection#remove(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractCollection#remove(Object) public boolean
      * java.util.AbstractCollection.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,8 +342,7 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractCollection#remove(Object) public boolean
-     *      java.util.AbstractCollection.remove(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -422,15 +361,17 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.Collection#hashCode() interface java.util.Collection}</li>
-     * <li>{@linkplain Object#hashCode() class java.lang.Object}</li>
+     * <li>{@link Collection#hashCode() interface java.util.Collection}</li>
+     * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -438,6 +379,8 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
     @Category(Draft.class)
     public default void test_hashCode()
     throws Exception {
+        org.j8unit.repository.java.util.CollectionTests.super.test_hashCode();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
     }
 
     /**
@@ -446,15 +389,17 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.Collection#equals(Object) interface java.util.Collection}</li>
-     * <li>{@linkplain Object#equals(Object) class java.lang.Object}</li>
+     * <li>{@link Collection#equals(Object) interface java.util.Collection}</li>
+     * <li>{@link Object#equals(Object) class java.lang.Object}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -462,6 +407,10 @@ extends CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT
     @Category(Draft.class)
     public default void test_equals_Object()
     throws Exception {
+        org.j8unit.repository.java.util.CollectionTests.super.test_equals_Object();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractCollection]
 
 }

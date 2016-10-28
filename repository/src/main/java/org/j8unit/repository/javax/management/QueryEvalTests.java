@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.MBeanServer;
+import javax.management.QueryEval;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.QueryEval class javax.management.QueryEval}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link QueryEvalClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link QueryEval
+ * public abstract class javax.management.QueryEval}.
  * </p>
  *
- * @see javax.management.QueryEval class javax.management.QueryEval (the hereby targeted class-under-test class)
- * @see QueryEvalClassTests QueryEvalClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.QueryEvalClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface QueryEvalTests<SUT extends javax.management.QueryEval>
+public abstract interface QueryEvalTests<SUT extends QueryEval>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.QueryEval]
 
     /**
      * <p>
-     * Test method for {@link javax.management.QueryEval#setMBeanServer(javax.management.MBeanServer) public void
-     * javax.management.QueryEval.setMBeanServer(javax.management.MBeanServer)}.
-     *
-     * <p>
-     * Test method for {@link javax.management.QueryEval#setMBeanServer(javax.management.MBeanServer) public void
+     * Test method for the hereby targeted method-under-test {@link QueryEval#setMBeanServer(MBeanServer) public void
      * javax.management.QueryEval.setMBeanServer(javax.management.MBeanServer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,9 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.management.QueryEval#setMBeanServer(javax.management.MBeanServer) public void
-     *      javax.management.QueryEval.setMBeanServer(javax.management.MBeanServer) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,5 +54,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.QueryEval]
 
 }

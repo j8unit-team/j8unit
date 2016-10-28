@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.transaction;
 
+import javax.transaction.TransactionRequiredException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.transaction.TransactionRequiredException class
- * javax.transaction.TransactionRequiredException}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link TransactionRequiredExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TransactionRequiredException public class javax.transaction.TransactionRequiredException}.
  * </p>
  *
- * @see javax.transaction.TransactionRequiredException class javax.transaction.TransactionRequiredException (the hereby
- *      targeted class-under-test class)
- * @see TransactionRequiredExceptionClassTests TransactionRequiredExceptionClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.transaction.TransactionRequiredExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TransactionRequiredExceptionTests<SUT extends javax.transaction.TransactionRequiredException>
+public abstract interface TransactionRequiredExceptionTests<SUT extends TransactionRequiredException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 
 }

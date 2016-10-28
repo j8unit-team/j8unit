@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import javax.swing.JComponent;
+import javax.swing.event.ChangeEvent;
+import javax.swing.plaf.basic.BasicMenuUI;
+import javax.swing.plaf.basic.BasicMenuUI.ChangeHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicMenuUI class
- * javax.swing.plaf.basic.BasicMenuUI}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link BasicMenuUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicMenuUI
+ * public class javax.swing.plaf.basic.BasicMenuUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicMenuUI class javax.swing.plaf.basic.BasicMenuUI (the hereby targeted
- *      class-under-test class)
- * @see BasicMenuUIClassTests BasicMenuUIClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicMenuUITests<SUT extends javax.swing.plaf.basic.BasicMenuUI>
-extends BasicMenuItemUITests<SUT> {
+public abstract interface BasicMenuUITests<SUT extends BasicMenuUI>
+extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuUI#getMaximumSize(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link BasicMenuUI#getMaximumSize(JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicMenuUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +45,7 @@ extends BasicMenuItemUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.basic.BasicMenuUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -57,37 +58,36 @@ extends BasicMenuItemUITests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicMenuUI.ChangeHandler class
-     * javax.swing.plaf.basic.BasicMenuUI$ChangeHandler}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link BasicMenuUIClassTests.ChangeHandlerClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ChangeHandler public class javax.swing.plaf.basic.BasicMenuUI$ChangeHandler}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicMenuUI.ChangeHandler class javax.swing.plaf.basic.BasicMenuUI$ChangeHandler (the
-     *      hereby targeted class-under-test class)
-     * @see BasicMenuUIClassTests.ChangeHandlerClassTests BasicMenuUIClassTests.ChangeHandlerClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests.ChangeHandlerClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicMenuUI.ChangeHandler>
+    public static abstract interface ChangeHandlerTests<SUT extends ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 
         /**
          * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicMenuUI.ChangeHandler#stateChanged(javax.swing.event.ChangeEvent) public
-         * void javax.swing.plaf.basic.BasicMenuUI$ChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
-         *
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicMenuUI.ChangeHandler#stateChanged(javax.swing.event.ChangeEvent) public
+         * Test method for the hereby targeted method-under-test {@link ChangeHandler#stateChanged(ChangeEvent) public
          * void javax.swing.plaf.basic.BasicMenuUI$ChangeHandler.stateChanged(javax.swing.event.ChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,9 +95,7 @@ extends BasicMenuItemUITests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.plaf.basic.BasicMenuUI.ChangeHandler#stateChanged(javax.swing.event.ChangeEvent) public void
-         *      javax.swing.plaf.basic.BasicMenuUI$ChangeHandler.stateChanged(javax.swing.event.ChangeEvent) (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -109,6 +107,8 @@ extends BasicMenuItemUITests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 
     }
 

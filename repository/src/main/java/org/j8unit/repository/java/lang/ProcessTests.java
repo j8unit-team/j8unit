@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang;
 
+import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain Process class java.lang.Process}. The complementary j8unit test interface
- * containing the class relevant aspects is {@link ProcessClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Process public
+ * abstract class java.lang.Process}.
  * </p>
  *
- * @see Process class java.lang.Process (the hereby targeted class-under-test class)
- * @see ProcessClassTests ProcessClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.ProcessClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProcessTests<SUT extends Process>
-extends ObjectTests<SUT> {
+extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Process]
 
     /**
      * <p>
-     * Test method for {@link Process#exitValue() public abstract int java.lang.Process.exitValue()}.
-     *
-     * <p>
-     * Test method for {@link Process#exitValue() public abstract int java.lang.Process.exitValue()}.
+     * Test method for the hereby targeted method-under-test {@link Process#exitValue() public abstract int
+     * java.lang.Process.exitValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Process#exitValue() public abstract int java.lang.Process.exitValue() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,42 +56,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Process#isAlive() public boolean java.lang.Process.isAlive()}.
-     *
-     * <p>
-     * Test method for {@link Process#isAlive() public boolean java.lang.Process.isAlive()}.
+     * Test method for the hereby targeted method-under-test {@link Process#destroyForcibly() public java.lang.Process
+     * java.lang.Process.destroyForcibly()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Process#isAlive() public boolean java.lang.Process.isAlive() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAlive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Process#destroyForcibly() public java.lang.Process java.lang.Process.destroyForcibly()}.
-     *
-     * <p>
-     * Test method for {@link Process#destroyForcibly() public java.lang.Process java.lang.Process.destroyForcibly()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Process#destroyForcibly() public java.lang.Process java.lang.Process.destroyForcibly() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -102,20 +78,37 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Process#getErrorStream() public abstract java.io.InputStream
-     * java.lang.Process.getErrorStream()}.
-     *
-     * <p>
-     * Test method for {@link Process#getErrorStream() public abstract java.io.InputStream
-     * java.lang.Process.getErrorStream()}.
+     * Test method for the hereby targeted method-under-test {@link Process#isAlive() public boolean
+     * java.lang.Process.isAlive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Process#getErrorStream() public abstract java.io.InputStream java.lang.Process.getErrorStream() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAlive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Process#getErrorStream() public abstract
+     * java.io.InputStream java.lang.Process.getErrorStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -129,65 +122,7 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Process#getInputStream() public abstract java.io.InputStream
-     * java.lang.Process.getInputStream()}.
-     *
-     * <p>
-     * Test method for {@link Process#getInputStream() public abstract java.io.InputStream
-     * java.lang.Process.getInputStream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Process#getInputStream() public abstract java.io.InputStream java.lang.Process.getInputStream() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Process#waitFor() public abstract int java.lang.Process.waitFor() throws
-     * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link Process#waitFor() public abstract int java.lang.Process.waitFor() throws
-     * java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see Process#waitFor() public abstract int java.lang.Process.waitFor() throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_waitFor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Process#waitFor(long, java.util.concurrent.TimeUnit) public boolean
-     * java.lang.Process.waitFor(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link Process#waitFor(long, java.util.concurrent.TimeUnit) public boolean
+     * Test method for the hereby targeted method-under-test {@link Process#waitFor(long, TimeUnit) public boolean
      * java.lang.Process.waitFor(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -195,9 +130,7 @@ extends ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see Process#waitFor(long, java.util.concurrent.TimeUnit) public boolean
-     *      java.lang.Process.waitFor(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -211,17 +144,59 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Process#destroy() public abstract void java.lang.Process.destroy()}.
-     *
-     * <p>
-     * Test method for {@link Process#destroy() public abstract void java.lang.Process.destroy()}.
+     * Test method for the hereby targeted method-under-test {@link Process#waitFor() public abstract int
+     * java.lang.Process.waitFor() throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Process#destroy() public abstract void java.lang.Process.destroy() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_waitFor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Process#getInputStream() public abstract
+     * java.io.InputStream java.lang.Process.getInputStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Process#destroy() public abstract void
+     * java.lang.Process.destroy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -235,20 +210,15 @@ extends ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link Process#getOutputStream() public abstract java.io.OutputStream
-     * java.lang.Process.getOutputStream()}.
-     *
-     * <p>
-     * Test method for {@link Process#getOutputStream() public abstract java.io.OutputStream
-     * java.lang.Process.getOutputStream()}.
+     * Test method for the hereby targeted method-under-test {@link Process#getOutputStream() public abstract
+     * java.io.OutputStream java.lang.Process.getOutputStream()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see Process#getOutputStream() public abstract java.io.OutputStream java.lang.Process.getOutputStream() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -259,5 +229,7 @@ extends ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Process]
 
 }

@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.table;
 
+import javax.swing.ListSelectionModel;
+import javax.swing.event.TableColumnModelListener;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,33 +13,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.table.TableColumnModel interface
- * javax.swing.table.TableColumnModel}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link TableColumnModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TableColumnModel public abstract interface javax.swing.table.TableColumnModel}.
  * </p>
  *
- * @see javax.swing.table.TableColumnModel interface javax.swing.table.TableColumnModel (the hereby targeted
- *      class-under-test class)
- * @see TableColumnModelClassTests TableColumnModelClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.table.TableColumnModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TableColumnModelTests<SUT extends javax.swing.table.TableColumnModel>
+public abstract interface TableColumnModelTests<SUT extends TableColumnModel>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableColumnModel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectionModel() public abstract
-     * javax.swing.ListSelectionModel javax.swing.table.TableColumnModel.getSelectionModel()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectionModel() public abstract
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getSelectionModel() public abstract
      * javax.swing.ListSelectionModel javax.swing.table.TableColumnModel.getSelectionModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,8 +46,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getSelectionModel() public abstract javax.swing.ListSelectionModel
-     *      javax.swing.table.TableColumnModel.getSelectionModel() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,20 +60,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnIndexAtX(int) public abstract int
-     * javax.swing.table.TableColumnModel.getColumnIndexAtX(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnIndexAtX(int) public abstract int
-     * javax.swing.table.TableColumnModel.getColumnIndexAtX(int)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumnIndexAtX(int) public
+     * abstract int javax.swing.table.TableColumnModel.getColumnIndexAtX(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumnIndexAtX(int) public abstract int
-     *      javax.swing.table.TableColumnModel.getColumnIndexAtX(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,38 +82,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectedColumnCount() public abstract int
-     * javax.swing.table.TableColumnModel.getSelectedColumnCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectedColumnCount() public abstract int
-     * javax.swing.table.TableColumnModel.getSelectedColumnCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.TableColumnModel#getSelectedColumnCount() public abstract int
-     *      javax.swing.table.TableColumnModel.getSelectedColumnCount() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedColumnCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#addColumn(javax.swing.table.TableColumn) public
-     * abstract void javax.swing.table.TableColumnModel.addColumn(javax.swing.table.TableColumn)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#addColumn(javax.swing.table.TableColumn) public
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#addColumn(TableColumn) public
      * abstract void javax.swing.table.TableColumnModel.addColumn(javax.swing.table.TableColumn)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,9 +90,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#addColumn(javax.swing.table.TableColumn) public abstract void
-     *      javax.swing.table.TableColumnModel.addColumn(javax.swing.table.TableColumn) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,15 +104,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumnModel#removeColumnModelListener(javax.swing.event.TableColumnModelListener)
-     * public abstract void
-     * javax.swing.table.TableColumnModel.removeColumnModelListener(javax.swing.event.TableColumnModelListener)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getSelectedColumnCount() public
+     * abstract int javax.swing.table.TableColumnModel.getSelectedColumnCount()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumnModel#removeColumnModelListener(javax.swing.event.TableColumnModelListener)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link TableColumnModel#removeColumnModelListener(TableColumnModelListener) public abstract void
      * javax.swing.table.TableColumnModel.removeColumnModelListener(javax.swing.event.TableColumnModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,10 +135,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#removeColumnModelListener(javax.swing.event.TableColumnModelListener)
-     *      public abstract void
-     *      javax.swing.table.TableColumnModel.removeColumnModelListener(javax.swing.event.TableColumnModelListener)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -173,20 +149,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumns() public abstract java.util.Enumeration
-     * <javax.swing.table.TableColumn> javax.swing.table.TableColumnModel.getColumns()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumns() public abstract java.util.Enumeration
-     * javax.swing.table.TableColumnModel.getColumns()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumns() public abstract
+     * java.util.Enumeration<javax.swing.table.TableColumn> javax.swing.table.TableColumnModel.getColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumns() public abstract java.util.Enumeration
-     *      javax.swing.table.TableColumnModel.getColumns() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -200,20 +171,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnMargin() public abstract int
-     * javax.swing.table.TableColumnModel.getColumnMargin()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnMargin() public abstract int
-     * javax.swing.table.TableColumnModel.getColumnMargin()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumnMargin() public abstract
+     * int javax.swing.table.TableColumnModel.getColumnMargin()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumnMargin() public abstract int
-     *      javax.swing.table.TableColumnModel.getColumnMargin() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -227,20 +193,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnCount() public abstract int
-     * javax.swing.table.TableColumnModel.getColumnCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnCount() public abstract int
-     * javax.swing.table.TableColumnModel.getColumnCount()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumnCount() public abstract
+     * int javax.swing.table.TableColumnModel.getColumnCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumnCount() public abstract int
-     *      javax.swing.table.TableColumnModel.getColumnCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -254,21 +215,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setSelectionModel(javax.swing.ListSelectionModel)
-     * public abstract void javax.swing.table.TableColumnModel.setSelectionModel(javax.swing.ListSelectionModel)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setSelectionModel(javax.swing.ListSelectionModel)
-     * public abstract void javax.swing.table.TableColumnModel.setSelectionModel(javax.swing.ListSelectionModel)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link TableColumnModel#setSelectionModel(ListSelectionModel) public abstract void
+     * javax.swing.table.TableColumnModel.setSelectionModel(javax.swing.ListSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#setSelectionModel(javax.swing.ListSelectionModel) public abstract void
-     *      javax.swing.table.TableColumnModel.setSelectionModel(javax.swing.ListSelectionModel) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -282,48 +238,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnSelectionAllowed() public abstract boolean
-     * javax.swing.table.TableColumnModel.getColumnSelectionAllowed()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnSelectionAllowed() public abstract boolean
-     * javax.swing.table.TableColumnModel.getColumnSelectionAllowed()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#setColumnSelectionAllowed(boolean)
+     * public abstract void javax.swing.table.TableColumnModel.setColumnSelectionAllowed(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumnSelectionAllowed() public abstract boolean
-     *      javax.swing.table.TableColumnModel.getColumnSelectionAllowed() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnSelectionAllowed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setColumnSelectionAllowed(boolean) public abstract void
-     * javax.swing.table.TableColumnModel.setColumnSelectionAllowed(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setColumnSelectionAllowed(boolean) public abstract void
-     * javax.swing.table.TableColumnModel.setColumnSelectionAllowed(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.TableColumnModel#setColumnSelectionAllowed(boolean) public abstract void
-     *      javax.swing.table.TableColumnModel.setColumnSelectionAllowed(boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -337,11 +260,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#removeColumn(javax.swing.table.TableColumn) public
-     * abstract void javax.swing.table.TableColumnModel.removeColumn(javax.swing.table.TableColumn)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumnSelectionAllowed() public
+     * abstract boolean javax.swing.table.TableColumnModel.getColumnSelectionAllowed()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnSelectionAllowed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#removeColumn(javax.swing.table.TableColumn) public
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#removeColumn(TableColumn) public
      * abstract void javax.swing.table.TableColumnModel.removeColumn(javax.swing.table.TableColumn)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -349,9 +290,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#removeColumn(javax.swing.table.TableColumn) public abstract void
-     *      javax.swing.table.TableColumnModel.removeColumn(javax.swing.table.TableColumn) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -365,20 +304,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#moveColumn(int, int) public abstract void
-     * javax.swing.table.TableColumnModel.moveColumn(int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#moveColumn(int, int) public abstract void
-     * javax.swing.table.TableColumnModel.moveColumn(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#moveColumn(int, int) public
+     * abstract void javax.swing.table.TableColumnModel.moveColumn(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#moveColumn(int, int) public abstract void
-     *      javax.swing.table.TableColumnModel.moveColumn(int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -392,20 +326,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectedColumns() public abstract int[]
-     * javax.swing.table.TableColumnModel.getSelectedColumns()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getSelectedColumns() public abstract int[]
-     * javax.swing.table.TableColumnModel.getSelectedColumns()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getSelectedColumns() public
+     * abstract int[] javax.swing.table.TableColumnModel.getSelectedColumns()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getSelectedColumns() public abstract int[]
-     *      javax.swing.table.TableColumnModel.getSelectedColumns() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -419,47 +348,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getTotalColumnWidth() public abstract int
-     * javax.swing.table.TableColumnModel.getTotalColumnWidth()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getTotalColumnWidth() public abstract int
-     * javax.swing.table.TableColumnModel.getTotalColumnWidth()}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#setColumnMargin(int) public
+     * abstract void javax.swing.table.TableColumnModel.setColumnMargin(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getTotalColumnWidth() public abstract int
-     *      javax.swing.table.TableColumnModel.getTotalColumnWidth() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTotalColumnWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setColumnMargin(int) public abstract void
-     * javax.swing.table.TableColumnModel.setColumnMargin(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#setColumnMargin(int) public abstract void
-     * javax.swing.table.TableColumnModel.setColumnMargin(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.table.TableColumnModel#setColumnMargin(int) public abstract void
-     *      javax.swing.table.TableColumnModel.setColumnMargin(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -473,15 +370,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
-     * public abstract void
-     * javax.swing.table.TableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getTotalColumnWidth() public
+     * abstract int javax.swing.table.TableColumnModel.getTotalColumnWidth()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTotalColumnWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link TableColumnModel#addColumnModelListener(TableColumnModelListener) public abstract void
      * javax.swing.table.TableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -489,10 +401,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#addColumnModelListener(javax.swing.event.TableColumnModelListener) public
-     *      abstract void
-     *      javax.swing.table.TableColumnModel.addColumnModelListener(javax.swing.event.TableColumnModelListener) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -506,11 +415,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumn(int) public abstract
-     * javax.swing.table.TableColumn javax.swing.table.TableColumnModel.getColumn(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumn(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumn(int) public abstract
      * javax.swing.table.TableColumn javax.swing.table.TableColumnModel.getColumn(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -518,8 +423,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumn(int) public abstract javax.swing.table.TableColumn
-     *      javax.swing.table.TableColumnModel.getColumn(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -533,20 +437,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnIndex(Object) public abstract int
-     * javax.swing.table.TableColumnModel.getColumnIndex(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.table.TableColumnModel#getColumnIndex(Object) public abstract int
-     * javax.swing.table.TableColumnModel.getColumnIndex(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link TableColumnModel#getColumnIndex(Object) public
+     * abstract int javax.swing.table.TableColumnModel.getColumnIndex(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableColumnModel#getColumnIndex(Object) public abstract int
-     *      javax.swing.table.TableColumnModel.getColumnIndex(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -557,5 +456,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.TableColumnModel]
 
 }

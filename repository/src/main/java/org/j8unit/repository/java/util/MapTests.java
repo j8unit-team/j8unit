@@ -1,5 +1,10 @@
 package org.j8unit.repository.java.util;
 
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.Function;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,93 +14,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.Map interface java.util.Map}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link MapClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Map public
+ * abstract interface java.util.Map<K,V>}.
  * </p>
  *
- * @see java.util.Map interface java.util.Map (the hereby targeted class-under-test class)
- * @see MapClassTests MapClassTests (the complementary j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.MapClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MapTests<SUT extends java.util.Map<K, V>, K, V>
+public abstract interface MapTests<SUT extends Map<K, V>, K, V>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#get(Object) public abstract V java.util.Map.get(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#get(Object) public abstract java.lang.Object
-     * java.util.Map.get(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#get(Object) public abstract java.lang.Object java.util.Map.get(java.lang.Object) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Map]
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#putAll(java.util.Map) public abstract void
-     * java.util.Map.putAll(java.util.Map<? extends K, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#putAll(java.util.Map) public abstract void
-     * java.util.Map.putAll(java.util.Map)}.
+     * Test method for the hereby targeted method-under-test {@link Map#merge(Object, Object, BiFunction) public default
+     * V java.util.Map.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#putAll(java.util.Map) public abstract void java.util.Map.putAll(java.util.Map) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putAll_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#merge(Object, Object, java.util.function.BiFunction) public default V
-     * java.util.Map.merge(K,V,java.util.function.BiFunction<? super V, ? super V, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#merge(Object, Object, java.util.function.BiFunction) public default
-     * java.lang.Object java.util.Map.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#merge(Object, Object, java.util.function.BiFunction) public default java.lang.Object
-     *      java.util.Map.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,23 +61,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#hashCode() public abstract int java.util.Map.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#hashCode() public abstract int java.util.Map.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Map#putAll(Map) public abstract void
+     * java.util.Map.putAll(java.util.Map<? extends K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#hashCode() public abstract int java.util.Map.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_putAll_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,331 +83,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#compute(Object, java.util.function.BiFunction) public default V
-     * java.util.Map.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#compute(Object, java.util.function.BiFunction) public default
-     * java.lang.Object java.util.Map.compute(java.lang.Object,java.util.function.BiFunction)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#compute(Object, java.util.function.BiFunction) public default java.lang.Object
-     *      java.util.Map.compute(java.lang.Object,java.util.function.BiFunction) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compute_Object_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#keySet() public abstract java.util.Set<K> java.util.Map.keySet()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#keySet() public abstract java.util.Set java.util.Map.keySet()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#keySet() public abstract java.util.Set java.util.Map.keySet() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_keySet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#values() public abstract java.util.Collection<V> java.util.Map.values()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#values() public abstract java.util.Collection java.util.Map.values()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#values() public abstract java.util.Collection java.util.Map.values() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_values()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#computeIfAbsent(Object, java.util.function.Function) public default V
-     * java.util.Map.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#computeIfAbsent(Object, java.util.function.Function) public default
-     * java.lang.Object java.util.Map.computeIfAbsent(java.lang.Object,java.util.function.Function)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#computeIfAbsent(Object, java.util.function.Function) public default java.lang.Object
-     *      java.util.Map.computeIfAbsent(java.lang.Object,java.util.function.Function) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_computeIfAbsent_Object_Function()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#getOrDefault(Object, Object) public default V
-     * java.util.Map.getOrDefault(java.lang.Object,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#getOrDefault(Object, Object) public default java.lang.Object
-     * java.util.Map.getOrDefault(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#getOrDefault(Object, Object) public default java.lang.Object
-     *      java.util.Map.getOrDefault(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOrDefault_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#remove(Object) public abstract V java.util.Map.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#remove(Object) public abstract java.lang.Object
-     * java.util.Map.remove(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#remove(Object) public abstract java.lang.Object java.util.Map.remove(java.lang.Object) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#remove(Object, Object) public default boolean
-     * java.util.Map.remove(java.lang.Object,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#remove(Object, Object) public default boolean
-     * java.util.Map.remove(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#remove(Object, Object) public default boolean
-     *      java.util.Map.remove(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#put(Object, Object) public abstract V java.util.Map.put(K,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#put(Object, Object) public abstract java.lang.Object
-     * java.util.Map.put(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#put(Object, Object) public abstract java.lang.Object
-     *      java.util.Map.put(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#containsValue(Object) public abstract boolean
-     * java.util.Map.containsValue(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#containsValue(Object) public abstract boolean
-     * java.util.Map.containsValue(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#containsValue(Object) public abstract boolean java.util.Map.containsValue(java.lang.Object)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_containsValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#replaceAll(java.util.function.BiFunction) public default void
-     * java.util.Map.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#replaceAll(java.util.function.BiFunction) public default void
-     * java.util.Map.replaceAll(java.util.function.BiFunction)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#replaceAll(java.util.function.BiFunction) public default void
-     *      java.util.Map.replaceAll(java.util.function.BiFunction) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceAll_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#replace(Object, Object) public default V java.util.Map.replace(K,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#replace(Object, Object) public default java.lang.Object
-     * java.util.Map.replace(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#replace(Object, Object) public default java.lang.Object
-     *      java.util.Map.replace(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#replace(Object, Object, Object) public default boolean
-     * java.util.Map.replace(K,V,V)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#replace(Object, Object, Object) public default boolean
-     * java.util.Map.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Map#replace(Object, Object, Object) public default boolean
-     *      java.util.Map.replace(java.lang.Object,java.lang.Object,java.lang.Object) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Map#equals(Object) public abstract boolean
-     * java.util.Map.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#equals(Object) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Map#equals(Object) public abstract boolean
      * java.util.Map.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -466,8 +91,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#equals(Object) public abstract boolean java.util.Map.equals(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -481,17 +105,59 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#size() public abstract int java.util.Map.size()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#size() public abstract int java.util.Map.size()}.
+     * Test method for the hereby targeted method-under-test {@link Map#get(Object) public abstract V
+     * java.util.Map.get(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#size() public abstract int java.util.Map.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#hashCode() public abstract int
+     * java.util.Map.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#size() public abstract int java.util.Map.size()}
+     * .
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -505,21 +171,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#computeIfPresent(Object, java.util.function.BiFunction) public default V
-     * java.util.Map.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#computeIfPresent(Object, java.util.function.BiFunction) public default
-     * java.lang.Object java.util.Map.computeIfPresent(java.lang.Object,java.util.function.BiFunction)}.
+     * Test method for the hereby targeted method-under-test {@link Map#computeIfPresent(Object, BiFunction) public
+     * default V java.util.Map.computeIfPresent(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#computeIfPresent(Object, java.util.function.BiFunction) public default java.lang.Object
-     *      java.util.Map.computeIfPresent(java.lang.Object,java.util.function.BiFunction) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -533,20 +193,59 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#putIfAbsent(Object, Object) public default V java.util.Map.putIfAbsent(K,V)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.util.Map#putIfAbsent(Object, Object) public default java.lang.Object
-     * java.util.Map.putIfAbsent(java.lang.Object,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Map#compute(Object, BiFunction) public default V
+     * java.util.Map.compute(K,java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#putIfAbsent(Object, Object) public default java.lang.Object
-     *      java.util.Map.putIfAbsent(java.lang.Object,java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compute_Object_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#keySet() public abstract java.util.Set
+     * <K> java.util.Map.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#putIfAbsent(Object, Object) public default V
+     * java.util.Map.putIfAbsent(K,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -560,25 +259,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#containsKey(Object) public abstract boolean
-     * java.util.Map.containsKey(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#containsKey(Object) public abstract boolean
-     * java.util.Map.containsKey(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Map#computeIfAbsent(Object, Function) public default
+     * V java.util.Map.computeIfAbsent(K,java.util.function.Function<? super K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#containsKey(Object) public abstract boolean java.util.Map.containsKey(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_containsKey_Object()
+    public default void test_computeIfAbsent_Object_Function()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -587,20 +281,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#forEach(java.util.function.BiConsumer) public default void
-     * java.util.Map.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#forEach(java.util.function.BiConsumer) public default void
-     * java.util.Map.forEach(java.util.function.BiConsumer)}.
+     * Test method for the hereby targeted method-under-test {@link Map#values() public abstract java.util.Collection
+     * <V> java.util.Map.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#forEach(java.util.function.BiConsumer) public default void
-     *      java.util.Map.forEach(java.util.function.BiConsumer) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_values()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#forEach(BiConsumer) public default void
+     * java.util.Map.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -614,19 +325,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#entrySet() public abstract
-     * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.Map.entrySet()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#entrySet() public abstract java.util.Set java.util.Map.entrySet()}.
+     * Test method for the hereby targeted method-under-test {@link Map#containsKey(Object) public abstract boolean
+     * java.util.Map.containsKey(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#entrySet() public abstract java.util.Set java.util.Map.entrySet() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_containsKey_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#entrySet() public abstract
+     * java.util.Set<java.util.Map.java.util.Map$Entry<K, V>> java.util.Map.entrySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -640,22 +369,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#clear() public abstract void java.util.Map.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#clear() public abstract void java.util.Map.clear()}.
+     * Test method for the hereby targeted method-under-test {@link Map#getOrDefault(Object, Object) public default V
+     * java.util.Map.getOrDefault(java.lang.Object,V)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#clear() public abstract void java.util.Map.clear() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clear()
+    public default void test_getOrDefault_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -664,18 +391,169 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Map#isEmpty() public abstract boolean java.util.Map.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Map#isEmpty() public abstract boolean java.util.Map.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link Map#containsValue(Object) public abstract boolean
+     * java.util.Map.containsValue(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Map#isEmpty() public abstract boolean java.util.Map.isEmpty() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_containsValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#put(Object, Object) public abstract V
+     * java.util.Map.put(K,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#remove(Object, Object) public default boolean
+     * java.util.Map.remove(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#remove(Object) public abstract V
+     * java.util.Map.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#replaceAll(BiFunction) public default void
+     * java.util.Map.replaceAll(java.util.function.BiFunction<? super K, ? super V, ? extends V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceAll_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#replace(Object, Object, Object) public default
+     * boolean java.util.Map.replace(K,V,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replace_Object_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#replace(Object, Object) public default V
+     * java.util.Map.replace(K,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replace_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Map#isEmpty() public abstract boolean
+     * java.util.Map.isEmpty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -689,56 +567,56 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.util.Map.Entry interface java.util.Map$Entry}. The complementary
-     * j8unit test interface containing the class relevant aspects is {@link MapClassTests.EntryClassTests}.
+     * Test method for the hereby targeted method-under-test {@link Map#clear() public abstract void
+     * java.util.Map.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
      * </p>
      *
-     * @see java.util.Map.Entry interface java.util.Map$Entry (the hereby targeted class-under-test class)
-     * @see MapClassTests.EntryClassTests MapClassTests.EntryClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map]
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Entry
+     * public abstract static interface java.util.Map$Entry<K,V>}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.MapClassTests.EntryClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface EntryTests<SUT extends java.util.Map.Entry<K, V>, K, V>
+    public static abstract interface EntryTests<SUT extends Entry<K, V>, K, V>
     extends RepositoryTests<SUT> {
 
-        /**
-         * <p>
-         * Test method for {@link java.util.Map.Entry#getValue() public abstract V java.util.Map$Entry.getValue()}.
-         *
-         * <p>
-         * Test method for {@link java.util.Map.Entry#getValue() public abstract java.lang.Object
-         * java.util.Map$Entry.getValue()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Map.Entry#getValue() public abstract java.lang.Object java.util.Map$Entry.getValue() (the
-         *      hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getValue()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Map$Entry]
 
         /**
          * <p>
-         * Test method for {@link java.util.Map.Entry#getKey() public abstract K java.util.Map$Entry.getKey()}.
-         *
-         * <p>
-         * Test method for {@link java.util.Map.Entry#getKey() public abstract java.lang.Object
+         * Test method for the hereby targeted method-under-test {@link Entry#getKey() public abstract K
          * java.util.Map$Entry.getKey()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -746,8 +624,7 @@ extends RepositoryTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see java.util.Map.Entry#getKey() public abstract java.lang.Object java.util.Map$Entry.getKey() (the hereby
-         *      targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -761,18 +638,37 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Map.Entry#hashCode() public abstract int java.util.Map$Entry.hashCode()}.
-         *
-         * <p>
-         * Test method for {@link java.util.Map.Entry#hashCode() public abstract int java.util.Map$Entry.hashCode()}.
+         * Test method for the hereby targeted method-under-test {@link Entry#getValue() public abstract V
+         * java.util.Map$Entry.getValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Map.Entry#hashCode() public abstract int java.util.Map$Entry.hashCode() (the hereby targeted
-         *      method-under-test)
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getValue()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link Entry#hashCode() public abstract int
+         * java.util.Map$Entry.hashCode()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -786,11 +682,29 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.util.Map.Entry#equals(Object) public abstract boolean
-         * java.util.Map$Entry.equals(java.lang.Object)}.
+         * Test method for the hereby targeted method-under-test {@link Entry#setValue(Object) public abstract V
+         * java.util.Map$Entry.setValue(V)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setValue_Object()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for {@link java.util.Map.Entry#equals(Object) public abstract boolean
+         * Test method for the hereby targeted method-under-test {@link Entry#equals(Object) public abstract boolean
          * java.util.Map$Entry.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -798,8 +712,7 @@ extends RepositoryTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see java.util.Map.Entry#equals(Object) public abstract boolean java.util.Map$Entry.equals(java.lang.Object)
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -811,32 +724,7 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.util.Map.Entry#setValue(Object) public abstract V
-         * java.util.Map$Entry.setValue(V)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Map.Entry#setValue(Object) public abstract java.lang.Object
-         * java.util.Map$Entry.setValue(java.lang.Object)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Map.Entry#setValue(Object) public abstract java.lang.Object
-         *      java.util.Map$Entry.setValue(java.lang.Object) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setValue_Object()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map$Entry]
 
     }
 

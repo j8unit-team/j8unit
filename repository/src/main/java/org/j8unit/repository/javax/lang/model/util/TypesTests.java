@@ -1,5 +1,13 @@
 package org.j8unit.repository.javax.lang.model.util;
 
+import javax.lang.model.element.Element;
+import javax.lang.model.element.TypeElement;
+import javax.lang.model.type.DeclaredType;
+import javax.lang.model.type.ExecutableType;
+import javax.lang.model.type.PrimitiveType;
+import javax.lang.model.type.TypeKind;
+import javax.lang.model.type.TypeMirror;
+import javax.lang.model.util.Types;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,62 +17,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.lang.model.util.Types interface javax.lang.model.util.Types}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link TypesClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Types public
+ * abstract interface javax.lang.model.util.Types}.
  * </p>
  *
- * @see javax.lang.model.util.Types interface javax.lang.model.util.Types (the hereby targeted class-under-test class)
- * @see TypesClassTests TypesClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.lang.model.util.TypesClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TypesTests<SUT extends javax.lang.model.util.Types>
+public abstract interface TypesTests<SUT extends Types>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getNullType() public abstract javax.lang.model.type.NullType
-     * javax.lang.model.util.Types.getNullType()}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getNullType() public abstract javax.lang.model.type.NullType
-     * javax.lang.model.util.Types.getNullType()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.lang.model.util.Types#getNullType() public abstract javax.lang.model.type.NullType
-     *      javax.lang.model.util.Types.getNullType() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNullType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.Types]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSubsignature(javax.lang.model.type.ExecutableType, javax.lang.model.type.ExecutableType)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isSubsignature(javax.lang.model.type.ExecutableType,javax.lang.model.type.ExecutableType)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSubsignature(javax.lang.model.type.ExecutableType, javax.lang.model.type.ExecutableType)
+     * Test method for the hereby targeted method-under-test {@link Types#isSubsignature(ExecutableType, ExecutableType)
      * public abstract boolean
      * javax.lang.model.util.Types.isSubsignature(javax.lang.model.type.ExecutableType,javax.lang.model.type.ExecutableType)}
      * .
@@ -74,10 +52,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#isSubsignature(javax.lang.model.type.ExecutableType,
-     *      javax.lang.model.type.ExecutableType) public abstract boolean
-     *      javax.lang.model.util.Types.isSubsignature(javax.lang.model.type.ExecutableType,javax.lang.model.type.
-     *      ExecutableType) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -91,11 +66,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#capture(javax.lang.model.type.TypeMirror) public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.capture(javax.lang.model.type.TypeMirror)}.
+     * Test method for the hereby targeted method-under-test {@link Types#getNullType() public abstract
+     * javax.lang.model.type.NullType javax.lang.model.util.Types.getNullType()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNullType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#capture(javax.lang.model.type.TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#capture(TypeMirror) public abstract
      * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.capture(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -103,9 +96,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#capture(javax.lang.model.type.TypeMirror) public abstract
-     *      javax.lang.model.type.TypeMirror javax.lang.model.util.Types.capture(javax.lang.model.type.TypeMirror) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -119,15 +110,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getWildcardType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract javax.lang.model.type.WildcardType
-     * javax.lang.model.util.Types.getWildcardType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getWildcardType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract javax.lang.model.type.WildcardType
+     * Test method for the hereby targeted method-under-test {@link Types#getWildcardType(TypeMirror, TypeMirror) public
+     * abstract javax.lang.model.type.WildcardType
      * javax.lang.model.util.Types.getWildcardType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -135,10 +119,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getWildcardType(javax.lang.model.type.TypeMirror,
-     *      javax.lang.model.type.TypeMirror) public abstract javax.lang.model.type.WildcardType
-     *      javax.lang.model.util.Types.getWildcardType(javax.lang.model.type.TypeMirror,javax.lang.model.type.
-     *      TypeMirror) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -152,11 +133,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#getNoType(javax.lang.model.type.TypeKind) public abstract
-     * javax.lang.model.type.NoType javax.lang.model.util.Types.getNoType(javax.lang.model.type.TypeKind)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getNoType(javax.lang.model.type.TypeKind) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#getNoType(TypeKind) public abstract
      * javax.lang.model.type.NoType javax.lang.model.util.Types.getNoType(javax.lang.model.type.TypeKind)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -164,9 +141,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getNoType(javax.lang.model.type.TypeKind) public abstract
-     *      javax.lang.model.type.NoType javax.lang.model.util.Types.getNoType(javax.lang.model.type.TypeKind) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,44 +155,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isAssignable(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isAssignable(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isAssignable(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isAssignable(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.lang.model.util.Types#isAssignable(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     *      public abstract boolean
-     *      javax.lang.model.util.Types.isAssignable(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAssignable_TypeMirror_TypeMirror()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getArrayType(javax.lang.model.type.TypeMirror) public abstract
-     * javax.lang.model.type.ArrayType javax.lang.model.util.Types.getArrayType(javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getArrayType(javax.lang.model.type.TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#getArrayType(TypeMirror) public abstract
      * javax.lang.model.type.ArrayType javax.lang.model.util.Types.getArrayType(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,9 +163,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getArrayType(javax.lang.model.type.TypeMirror) public abstract
-     *      javax.lang.model.type.ArrayType javax.lang.model.util.Types.getArrayType(javax.lang.model.type.TypeMirror)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,11 +177,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#erasure(javax.lang.model.type.TypeMirror) public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.erasure(javax.lang.model.type.TypeMirror)}.
+     * Test method for the hereby targeted method-under-test {@link Types#isAssignable(TypeMirror, TypeMirror) public
+     * abstract boolean
+     * javax.lang.model.util.Types.isAssignable(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAssignable_TypeMirror_TypeMirror()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#erasure(javax.lang.model.type.TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#erasure(TypeMirror) public abstract
      * javax.lang.model.type.TypeMirror javax.lang.model.util.Types.erasure(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -253,9 +208,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#erasure(javax.lang.model.type.TypeMirror) public abstract
-     *      javax.lang.model.type.TypeMirror javax.lang.model.util.Types.erasure(javax.lang.model.type.TypeMirror) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -269,11 +222,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#unboxedType(javax.lang.model.type.TypeMirror) public abstract
-     * javax.lang.model.type.PrimitiveType javax.lang.model.util.Types.unboxedType(javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#unboxedType(javax.lang.model.type.TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#unboxedType(TypeMirror) public abstract
      * javax.lang.model.type.PrimitiveType javax.lang.model.util.Types.unboxedType(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -281,10 +230,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#unboxedType(javax.lang.model.type.TypeMirror) public abstract
-     *      javax.lang.model.type.PrimitiveType
-     *      javax.lang.model.util.Types.unboxedType(javax.lang.model.type.TypeMirror) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -298,24 +244,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#boxedClass(javax.lang.model.type.PrimitiveType) public
-     * abstract javax.lang.model.element.TypeElement
-     * javax.lang.model.util.Types.boxedClass(javax.lang.model.type.PrimitiveType)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#boxedClass(javax.lang.model.type.PrimitiveType) public
-     * abstract javax.lang.model.element.TypeElement
-     * javax.lang.model.util.Types.boxedClass(javax.lang.model.type.PrimitiveType)}.
+     * Test method for the hereby targeted method-under-test {@link Types#boxedClass(PrimitiveType) public abstract
+     * javax.lang.model.element.TypeElement javax.lang.model.util.Types.boxedClass(javax.lang.model.type.PrimitiveType)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#boxedClass(javax.lang.model.type.PrimitiveType) public abstract
-     *      javax.lang.model.element.TypeElement
-     *      javax.lang.model.util.Types.boxedClass(javax.lang.model.type.PrimitiveType) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,48 +267,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSameType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isSameType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSameType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isSameType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.lang.model.util.Types#isSameType(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     *      public abstract boolean
-     *      javax.lang.model.util.Types.isSameType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSameType_TypeMirror_TypeMirror()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
-     * public abstract javax.lang.model.type.DeclaredType
-     * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
+     * Test method for the hereby targeted method-under-test {@link Types#getDeclaredType(TypeElement, TypeMirror...)
      * public abstract javax.lang.model.type.DeclaredType
      * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
      * .
@@ -380,10 +277,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getDeclaredType(javax.lang.model.element.TypeElement,
-     *      javax.lang.model.type.TypeMirror...) public abstract javax.lang.model.type.DeclaredType
-     *      javax.lang.model.util.Types.getDeclaredType(javax.lang.model.element.TypeElement,javax.lang.model.type.
-     *      TypeMirror[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -397,16 +291,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.type.DeclaredType, javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
-     * public abstract javax.lang.model.type.DeclaredType
-     * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.type.DeclaredType,javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#getDeclaredType(javax.lang.model.type.DeclaredType, javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...)
-     * public abstract javax.lang.model.type.DeclaredType
+     * Test method for the hereby targeted method-under-test
+     * {@link Types#getDeclaredType(DeclaredType, TypeElement, TypeMirror...) public abstract
+     * javax.lang.model.type.DeclaredType
      * javax.lang.model.util.Types.getDeclaredType(javax.lang.model.type.DeclaredType,javax.lang.model.element.TypeElement,javax.lang.model.type.TypeMirror...)}
      * .
      *
@@ -415,11 +302,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getDeclaredType(javax.lang.model.type.DeclaredType,
-     *      javax.lang.model.element.TypeElement, javax.lang.model.type.TypeMirror...) public abstract
-     *      javax.lang.model.type.DeclaredType
-     *      javax.lang.model.util.Types.getDeclaredType(javax.lang.model.type.DeclaredType,javax.lang.model.element.
-     *      TypeElement,javax.lang.model.type.TypeMirror[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -433,11 +316,30 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#asElement(javax.lang.model.type.TypeMirror) public abstract
-     * javax.lang.model.element.Element javax.lang.model.util.Types.asElement(javax.lang.model.type.TypeMirror)}.
+     * Test method for the hereby targeted method-under-test {@link Types#isSameType(TypeMirror, TypeMirror) public
+     * abstract boolean
+     * javax.lang.model.util.Types.isSameType(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSameType_TypeMirror_TypeMirror()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#asElement(javax.lang.model.type.TypeMirror) public abstract
+     * Test method for the hereby targeted method-under-test {@link Types#asElement(TypeMirror) public abstract
      * javax.lang.model.element.Element javax.lang.model.util.Types.asElement(javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -445,9 +347,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#asElement(javax.lang.model.type.TypeMirror) public abstract
-     *      javax.lang.model.element.Element javax.lang.model.util.Types.asElement(javax.lang.model.type.TypeMirror)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -461,15 +361,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#asMemberOf(javax.lang.model.type.DeclaredType, javax.lang.model.element.Element)
-     * public abstract javax.lang.model.type.TypeMirror
-     * javax.lang.model.util.Types.asMemberOf(javax.lang.model.type.DeclaredType,javax.lang.model.element.Element)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#asMemberOf(javax.lang.model.type.DeclaredType, javax.lang.model.element.Element)
-     * public abstract javax.lang.model.type.TypeMirror
+     * Test method for the hereby targeted method-under-test {@link Types#asMemberOf(DeclaredType, Element) public
+     * abstract javax.lang.model.type.TypeMirror
      * javax.lang.model.util.Types.asMemberOf(javax.lang.model.type.DeclaredType,javax.lang.model.element.Element)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -477,10 +370,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#asMemberOf(javax.lang.model.type.DeclaredType, javax.lang.model.element.Element)
-     *      public abstract javax.lang.model.type.TypeMirror
-     *      javax.lang.model.util.Types.asMemberOf(javax.lang.model.type.DeclaredType,javax.lang.model.element.Element)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -494,24 +384,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.Types#getPrimitiveType(javax.lang.model.type.TypeKind) public
-     * abstract javax.lang.model.type.PrimitiveType
-     * javax.lang.model.util.Types.getPrimitiveType(javax.lang.model.type.TypeKind)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#getPrimitiveType(javax.lang.model.type.TypeKind) public
-     * abstract javax.lang.model.type.PrimitiveType
-     * javax.lang.model.util.Types.getPrimitiveType(javax.lang.model.type.TypeKind)}.
+     * Test method for the hereby targeted method-under-test {@link Types#getPrimitiveType(TypeKind) public abstract
+     * javax.lang.model.type.PrimitiveType javax.lang.model.util.Types.getPrimitiveType(javax.lang.model.type.TypeKind)}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#getPrimitiveType(javax.lang.model.type.TypeKind) public abstract
-     *      javax.lang.model.type.PrimitiveType
-     *      javax.lang.model.util.Types.getPrimitiveType(javax.lang.model.type.TypeKind) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -525,15 +407,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSubtype(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.isSubtype(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#isSubtype(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Types#isSubtype(TypeMirror, TypeMirror) public
+     * abstract boolean
      * javax.lang.model.util.Types.isSubtype(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -541,10 +416,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#isSubtype(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     *      public abstract boolean
-     *      javax.lang.model.util.Types.isSubtype(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -558,15 +430,31 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#contains(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
-     * javax.lang.model.util.Types.contains(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
+     * Test method for the hereby targeted method-under-test {@link Types#directSupertypes(TypeMirror) public abstract
+     * java.util.List<? extends javax.lang.model.type.TypeMirror>
+     * javax.lang.model.util.Types.directSupertypes(javax.lang.model.type.TypeMirror)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_directSupertypes_TypeMirror()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.Types#contains(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     * public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link Types#contains(TypeMirror, TypeMirror) public
+     * abstract boolean
      * javax.lang.model.util.Types.contains(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -574,10 +462,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.Types#contains(javax.lang.model.type.TypeMirror, javax.lang.model.type.TypeMirror)
-     *      public abstract boolean
-     *      javax.lang.model.util.Types.contains(javax.lang.model.type.TypeMirror,javax.lang.model.type.TypeMirror) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -589,33 +474,6 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#directSupertypes(javax.lang.model.type.TypeMirror) public
-     * abstract java.util.List<? extends javax.lang.model.type.TypeMirror>
-     * javax.lang.model.util.Types.directSupertypes(javax.lang.model.type.TypeMirror)}.
-     *
-     * <p>
-     * Test method for {@link javax.lang.model.util.Types#directSupertypes(javax.lang.model.type.TypeMirror) public
-     * abstract java.util.List javax.lang.model.util.Types.directSupertypes(javax.lang.model.type.TypeMirror)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.lang.model.util.Types#directSupertypes(javax.lang.model.type.TypeMirror) public abstract
-     *      java.util.List javax.lang.model.util.Types.directSupertypes(javax.lang.model.type.TypeMirror) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_directSupertypes_TypeMirror()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.Types]
 
 }

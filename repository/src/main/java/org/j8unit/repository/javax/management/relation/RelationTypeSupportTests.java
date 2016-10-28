@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.management.relation;
 
+import javax.management.relation.RelationTypeSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.relation.RelationTypeSupport class
- * javax.management.relation.RelationTypeSupport}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RelationTypeSupportClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RelationTypeSupport public class javax.management.relation.RelationTypeSupport}.
  * </p>
  *
- * @see javax.management.relation.RelationTypeSupport class javax.management.relation.RelationTypeSupport (the hereby
- *      targeted class-under-test class)
- * @see RelationTypeSupportClassTests RelationTypeSupportClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.relation.RelationTypeSupportClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RelationTypeSupportTests<SUT extends javax.management.relation.RelationTypeSupport>
-extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface RelationTypeSupportTests<SUT extends RelationTypeSupport>
+extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationTypeSupport]
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRelationTypeName() public
-     * java.lang.String javax.management.relation.RelationTypeSupport.getRelationTypeName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRelationTypeName() public
+     * Test method for the hereby targeted method-under-test {@link RelationTypeSupport#getRelationTypeName() public
      * java.lang.String javax.management.relation.RelationTypeSupport.getRelationTypeName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationTypeSupport#getRelationTypeName() public java.lang.String
-     *      javax.management.relation.RelationTypeSupport.getRelationTypeName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,12 +57,7 @@ extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfo(String) public
-     * javax.management.relation.RoleInfo javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String)
-     * throws java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfo(String) public
+     * Test method for the hereby targeted method-under-test {@link RelationTypeSupport#getRoleInfo(String) public
      * javax.management.relation.RoleInfo javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String)
      * throws java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
      *
@@ -72,10 +66,7 @@ extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationTypeSupport#getRoleInfo(String) public javax.management.relation.RoleInfo
-     *      javax.management.relation.RelationTypeSupport.getRoleInfo(java.lang.String) throws
-     *      java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -90,20 +81,15 @@ extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
-     * <javax.management.relation.RoleInfo> javax.management.relation.RelationTypeSupport.getRoleInfos()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
-     * javax.management.relation.RelationTypeSupport.getRoleInfos()}.
+     * Test method for the hereby targeted method-under-test {@link RelationTypeSupport#getRoleInfos() public
+     * java.util.List<javax.management.relation.RoleInfo> javax.management.relation.RelationTypeSupport.getRoleInfos()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.RelationTypeSupport#getRoleInfos() public java.util.List
-     *      javax.management.relation.RelationTypeSupport.getRoleInfos() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,5 +101,7 @@ extends RelationTypeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT>
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationTypeSupport]
 
 }

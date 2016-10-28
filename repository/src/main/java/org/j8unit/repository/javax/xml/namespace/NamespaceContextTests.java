@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.namespace;
 
+import javax.xml.namespace.NamespaceContext;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,70 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.namespace.NamespaceContext interface
- * javax.xml.namespace.NamespaceContext}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link NamespaceContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link NamespaceContext public abstract interface javax.xml.namespace.NamespaceContext}.
  * </p>
  *
- * @see javax.xml.namespace.NamespaceContext interface javax.xml.namespace.NamespaceContext (the hereby targeted
- *      class-under-test class)
- * @see NamespaceContextClassTests NamespaceContextClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.namespace.NamespaceContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface NamespaceContextTests<SUT extends javax.xml.namespace.NamespaceContext>
+public abstract interface NamespaceContextTests<SUT extends NamespaceContext>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getPrefixes(String) public abstract
-     * java.util.Iterator javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getPrefixes(String) public abstract
-     * java.util.Iterator javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.namespace.NamespaceContext#getPrefixes(String) public abstract java.util.Iterator
-     *      javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefixes_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.namespace.NamespaceContext]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getNamespaceURI(String) public abstract
-     * java.lang.String javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getNamespaceURI(String) public abstract
-     * java.lang.String javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getNamespaceURI(String) public
+     * abstract java.lang.String javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.namespace.NamespaceContext#getNamespaceURI(String) public abstract java.lang.String
-     *      javax.xml.namespace.NamespaceContext.getNamespaceURI(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,20 +57,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getPrefix(String) public abstract java.lang.String
-     * javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.namespace.NamespaceContext#getPrefix(String) public abstract java.lang.String
-     * javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getPrefixes(String) public abstract
+     * java.util.Iterator javax.xml.namespace.NamespaceContext.getPrefixes(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.namespace.NamespaceContext#getPrefix(String) public abstract java.lang.String
-     *      javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefixes_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link NamespaceContext#getPrefix(String) public abstract
+     * java.lang.String javax.xml.namespace.NamespaceContext.getPrefix(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,5 +98,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.namespace.NamespaceContext]
 
 }

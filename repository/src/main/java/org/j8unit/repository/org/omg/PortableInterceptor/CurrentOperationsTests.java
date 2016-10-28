@@ -5,38 +5,38 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.Any;
+import org.omg.PortableInterceptor.CurrentOperations;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.CurrentOperations interface
- * org.omg.PortableInterceptor.CurrentOperations}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link CurrentOperationsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CurrentOperations public abstract interface org.omg.PortableInterceptor.CurrentOperations}.
  * </p>
  *
- * @see org.omg.PortableInterceptor.CurrentOperations interface org.omg.PortableInterceptor.CurrentOperations (the
- *      hereby targeted class-under-test class)
- * @see CurrentOperationsClassTests CurrentOperationsClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.CurrentOperationsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CurrentOperationsTests<SUT extends org.omg.PortableInterceptor.CurrentOperations>
+public abstract interface CurrentOperationsTests<SUT extends CurrentOperations>
 extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.CurrentOperations]
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#set_slot(int, org.omg.CORBA.Any) public
-     * abstract void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
-     * org.omg.PortableInterceptor.InvalidSlot}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#set_slot(int, org.omg.CORBA.Any) public
-     * abstract void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
+     * Test method for the hereby targeted method-under-test {@link CurrentOperations#set_slot(int, Any) public abstract
+     * void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
      * org.omg.PortableInterceptor.InvalidSlot}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +44,7 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.CurrentOperations#set_slot(int, org.omg.CORBA.Any) public abstract void
-     *      org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
-     *      org.omg.PortableInterceptor.InvalidSlot (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,12 +58,7 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#get_slot(int) public abstract
-     * org.omg.CORBA.Any org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws
-     * org.omg.PortableInterceptor.InvalidSlot}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#get_slot(int) public abstract
+     * Test method for the hereby targeted method-under-test {@link CurrentOperations#get_slot(int) public abstract
      * org.omg.CORBA.Any org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws
      * org.omg.PortableInterceptor.InvalidSlot}.
      *
@@ -74,9 +67,7 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableInterceptor.CurrentOperations#get_slot(int) public abstract org.omg.CORBA.Any
-     *      org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws org.omg.PortableInterceptor.InvalidSlot
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,5 +78,7 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.CurrentOperations]
 
 }

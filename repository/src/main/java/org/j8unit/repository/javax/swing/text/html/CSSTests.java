@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing.text.html;
 
+import javax.swing.text.html.CSS;
+import javax.swing.text.html.CSS.Attribute;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,52 +10,59 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.html.CSS class javax.swing.text.html.CSS}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link CSSClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CSS public
+ * class javax.swing.text.html.CSS}.
  * </p>
  *
- * @see javax.swing.text.html.CSS class javax.swing.text.html.CSS (the hereby targeted class-under-test class)
- * @see CSSClassTests CSSClassTests (the complementary j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.html.CSSClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CSSTests<SUT extends javax.swing.text.html.CSS>
+public abstract interface CSSTests<SUT extends CSS>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS]
 
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.text.html.CSS.Attribute class
-     * javax.swing.text.html.CSS$Attribute}. The complementary j8unit test interface containing the class relevant
-     * aspects is {@link CSSClassTests.AttributeClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Attribute
+     * public static final class javax.swing.text.html.CSS$Attribute}.
      * </p>
      *
-     * @see javax.swing.text.html.CSS.Attribute class javax.swing.text.html.CSS$Attribute (the hereby targeted
-     *      class-under-test class)
-     * @see CSSClassTests.AttributeClassTests CSSClassTests.AttributeClassTests (the complementary j8unit test interface
-     *      containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.html.CSSClassTests.AttributeClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface AttributeTests<SUT extends javax.swing.text.html.CSS.Attribute>
+    public static abstract interface AttributeTests<SUT extends Attribute>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#isInherited() public boolean
-         * javax.swing.text.html.CSS$Attribute.isInherited()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#isInherited() public boolean
+         * Test method for the hereby targeted method-under-test {@link Attribute#isInherited() public boolean
          * javax.swing.text.html.CSS$Attribute.isInherited()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +70,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.html.CSS.Attribute#isInherited() public boolean
-         *      javax.swing.text.html.CSS$Attribute.isInherited() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -76,11 +84,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#toString() public java.lang.String
-         * javax.swing.text.html.CSS$Attribute.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#toString() public java.lang.String
+         * Test method for the hereby targeted method-under-test {@link Attribute#toString() public java.lang.String
          * javax.swing.text.html.CSS$Attribute.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +92,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.html.CSS.Attribute#toString() public java.lang.String
-         *      javax.swing.text.html.CSS$Attribute.toString() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -104,20 +107,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
-         * javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
-         *
-         * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
-         * javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
+         * Test method for the hereby targeted method-under-test {@link Attribute#getDefaultValue() public
+         * java.lang.String javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
-         *      javax.swing.text.html.CSS$Attribute.getDefaultValue() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -128,6 +126,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
 
     }
 

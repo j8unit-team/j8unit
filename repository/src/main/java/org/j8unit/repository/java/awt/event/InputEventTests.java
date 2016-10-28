@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.event;
 
+import java.awt.event.InputEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.event.InputEvent class java.awt.event.InputEvent}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link InputEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link InputEvent
+ * public abstract class java.awt.event.InputEvent}.
  * </p>
  *
- * @see java.awt.event.InputEvent class java.awt.event.InputEvent (the hereby targeted class-under-test class)
- * @see InputEventClassTests InputEventClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.event.InputEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InputEventTests<SUT extends java.awt.event.InputEvent>
-extends ComponentEventTests<SUT> {
+public abstract interface InputEventTests<SUT extends InputEvent>
+extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.event.InputEvent]
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isConsumed() public boolean
-     * java.awt.event.InputEvent.isConsumed()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isConsumed() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isConsumed() public boolean
      * java.awt.event.InputEvent.isConsumed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isConsumed() public boolean java.awt.event.InputEvent.isConsumed() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isControlDown() public boolean
-     * java.awt.event.InputEvent.isControlDown()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isControlDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isControlDown() public boolean
      * java.awt.event.InputEvent.isControlDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isControlDown() public boolean java.awt.event.InputEvent.isControlDown() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +78,7 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isAltGraphDown() public boolean
-     * java.awt.event.InputEvent.isAltGraphDown()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isAltGraphDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isAltGraphDown() public boolean
      * java.awt.event.InputEvent.isAltGraphDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +86,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isAltGraphDown() public boolean java.awt.event.InputEvent.isAltGraphDown() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,18 +100,15 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#getWhen() public long java.awt.event.InputEvent.getWhen()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getWhen() public long java.awt.event.InputEvent.getWhen()}.
+     * Test method for the hereby targeted method-under-test {@link InputEvent#getWhen() public long
+     * java.awt.event.InputEvent.getWhen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#getWhen() public long java.awt.event.InputEvent.getWhen() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,11 +122,7 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isMetaDown() public boolean
-     * java.awt.event.InputEvent.isMetaDown()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isMetaDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isMetaDown() public boolean
      * java.awt.event.InputEvent.isMetaDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -146,8 +130,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isMetaDown() public boolean java.awt.event.InputEvent.isMetaDown() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -161,18 +144,15 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#consume() public void java.awt.event.InputEvent.consume()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#consume() public void java.awt.event.InputEvent.consume()}.
+     * Test method for the hereby targeted method-under-test {@link InputEvent#consume() public void
+     * java.awt.event.InputEvent.consume()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#consume() public void java.awt.event.InputEvent.consume() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -186,38 +166,7 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#getModifiers() public int
-     * java.awt.event.InputEvent.getModifiers()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getModifiers() public int
-     * java.awt.event.InputEvent.getModifiers()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.event.InputEvent#getModifiers() public int java.awt.event.InputEvent.getModifiers() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getModifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getModifiersEx() public int
-     * java.awt.event.InputEvent.getModifiersEx()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getModifiersEx() public int
+     * Test method for the hereby targeted method-under-test {@link InputEvent#getModifiersEx() public int
      * java.awt.event.InputEvent.getModifiersEx()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -225,8 +174,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#getModifiersEx() public int java.awt.event.InputEvent.getModifiersEx() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -240,11 +188,29 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isAltDown() public boolean
-     * java.awt.event.InputEvent.isAltDown()}.
+     * Test method for the hereby targeted method-under-test {@link InputEvent#getModifiers() public int
+     * java.awt.event.InputEvent.getModifiers()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getModifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isAltDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isAltDown() public boolean
      * java.awt.event.InputEvent.isAltDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -252,8 +218,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isAltDown() public boolean java.awt.event.InputEvent.isAltDown() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -267,11 +232,7 @@ extends ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isShiftDown() public boolean
-     * java.awt.event.InputEvent.isShiftDown()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isShiftDown() public boolean
+     * Test method for the hereby targeted method-under-test {@link InputEvent#isShiftDown() public boolean
      * java.awt.event.InputEvent.isShiftDown()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -279,8 +240,7 @@ extends ComponentEventTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.awt.event.InputEvent#isShiftDown() public boolean java.awt.event.InputEvent.isShiftDown() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -291,5 +251,7 @@ extends ComponentEventTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.InputEvent]
 
 }

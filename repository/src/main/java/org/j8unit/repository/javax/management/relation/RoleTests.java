@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.management.relation;
 
+import java.util.List;
+import javax.management.relation.Role;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.relation.Role class javax.management.relation.Role}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link RoleClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Role public
+ * class javax.management.relation.Role}.
  * </p>
  *
- * @see javax.management.relation.Role class javax.management.relation.Role (the hereby targeted class-under-test class)
- * @see RoleClassTests RoleClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.relation.RoleClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RoleTests<SUT extends javax.management.relation.Role>
+public abstract interface RoleTests<SUT extends Role>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.Role]
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.Role#getRoleName() public java.lang.String
-     * javax.management.relation.Role.getRoleName()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.Role#getRoleName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link Role#getRoleName() public java.lang.String
      * javax.management.relation.Role.getRoleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.Role#getRoleName() public java.lang.String
-     *      javax.management.relation.Role.getRoleName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,104 +57,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.Role#clone() public java.lang.Object
-     * javax.management.relation.Role.clone()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.Role#clone() public java.lang.Object
-     * javax.management.relation.Role.clone()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.Role#clone() public java.lang.Object javax.management.relation.Role.clone() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Role#getRoleValue() public java.util.List
-     * <javax.management.ObjectName> javax.management.relation.Role.getRoleValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.Role#getRoleValue() public java.util.List
-     * javax.management.relation.Role.getRoleValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.Role#getRoleValue() public java.util.List
-     *      javax.management.relation.Role.getRoleValue() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Role#setRoleName(String) public void
-     * javax.management.relation.Role.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException}.
-     *
-     * <p>
-     * Test method for {@link javax.management.relation.Role#setRoleName(String) public void
-     * javax.management.relation.Role.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.relation.Role#setRoleName(String) public void
-     *      javax.management.relation.Role.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRoleName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Role#setRoleValue(java.util.List) public void
+     * Test method for the hereby targeted method-under-test {@link Role#setRoleValue(List) public void
      * javax.management.relation.Role.setRoleValue(java.util.List<javax.management.ObjectName>) throws
      * java.lang.IllegalArgumentException}.
      *
-     * <p>
-     * Test method for {@link javax.management.relation.Role#setRoleValue(java.util.List) public void
-     * javax.management.relation.Role.setRoleValue(java.util.List) throws java.lang.IllegalArgumentException}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.Role#setRoleValue(java.util.List) public void
-     *      javax.management.relation.Role.setRoleValue(java.util.List) throws java.lang.IllegalArgumentException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,11 +80,73 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.Role#toString() public java.lang.String
-     * javax.management.relation.Role.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Role#setRoleName(String) public void
+     * javax.management.relation.Role.setRoleName(java.lang.String) throws java.lang.IllegalArgumentException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRoleName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.management.relation.Role#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link Role#getRoleValue() public java.util.List
+     * <javax.management.ObjectName> javax.management.relation.Role.getRoleValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Role#clone() public java.lang.Object
+     * javax.management.relation.Role.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Role#toString() public java.lang.String
      * javax.management.relation.Role.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,8 +154,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.management.relation.Role#toString() public java.lang.String javax.management.relation.Role.toString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -191,5 +166,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.Role]
 
 }

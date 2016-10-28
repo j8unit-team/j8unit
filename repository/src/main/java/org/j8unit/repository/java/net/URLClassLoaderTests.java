@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.net;
 
+import java.net.URLClassLoader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.net.URLClassLoader class java.net.URLClassLoader}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link URLClassLoaderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link URLClassLoader
+ * public class java.net.URLClassLoader}.
  * </p>
  *
- * @see java.net.URLClassLoader class java.net.URLClassLoader (the hereby targeted class-under-test class)
- * @see URLClassLoaderClassTests URLClassLoaderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.net.URLClassLoaderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface URLClassLoaderTests<SUT extends java.net.URLClassLoader>
+public abstract interface URLClassLoaderTests<SUT extends URLClassLoader>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.security.SecureClassLoaderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.URLClassLoader]
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#findResource(String) public java.net.URL
-     * java.net.URLClassLoader.findResource(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#findResource(String) public java.net.URL
-     * java.net.URLClassLoader.findResource(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link URLClassLoader#findResource(String) public
+     * java.net.URL java.net.URLClassLoader.findResource(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.URLClassLoader#findResource(String) public java.net.URL
-     *      java.net.URLClassLoader.findResource(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +56,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#getResourceAsStream(String) public java.io.InputStream
-     * java.net.URLClassLoader.getResourceAsStream(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#getResourceAsStream(String) public java.io.InputStream
-     * java.net.URLClassLoader.getResourceAsStream(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link URLClassLoader#getResourceAsStream(String) public
+     * java.io.InputStream java.net.URLClassLoader.getResourceAsStream(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.URLClassLoader#getResourceAsStream(String) public java.io.InputStream
-     *      java.net.URLClassLoader.getResourceAsStream(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,21 +79,16 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#findResources(String) public java.util.Enumeration
-     * <java.net.URL> java.net.URLClassLoader.findResources(java.lang.String) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#findResources(String) public java.util.Enumeration
-     * java.net.URLClassLoader.findResources(java.lang.String) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link URLClassLoader#findResources(String) public
+     * java.util.Enumeration<java.net.URL> java.net.URLClassLoader.findResources(java.lang.String) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.URLClassLoader#findResources(String) public java.util.Enumeration
-     *      java.net.URLClassLoader.findResources(java.lang.String) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +102,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#getURLs() public java.net.URL[] java.net.URLClassLoader.getURLs()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#getURLs() public java.net.URL[] java.net.URLClassLoader.getURLs()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link URLClassLoader#getURLs() public java.net.URL[]
+     * java.net.URLClassLoader.getURLs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.URLClassLoader#getURLs() public java.net.URL[] java.net.URLClassLoader.getURLs() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,20 +124,15 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#close() public void java.net.URLClassLoader.close() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#close() public void java.net.URLClassLoader.close() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link URLClassLoader#close() public void
+     * java.net.URLClassLoader.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.URLClassLoader#close() public void java.net.URLClassLoader.close() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -163,5 +144,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.URLClassLoader]
 
 }

@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.rmi.dgc;
 
+import java.rmi.dgc.DGC;
+import java.rmi.dgc.Lease;
+import java.rmi.dgc.VMID;
+import java.rmi.server.ObjID;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.dgc.DGC interface java.rmi.dgc.DGC}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link DGCClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DGC public
+ * abstract interface java.rmi.dgc.DGC}.
  * </p>
  *
- * @see java.rmi.dgc.DGC interface java.rmi.dgc.DGC (the hereby targeted class-under-test class)
- * @see DGCClassTests DGCClassTests (the complementary j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.dgc.DGCClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DGCTests<SUT extends java.rmi.dgc.DGC>
+public abstract interface DGCTests<SUT extends DGC>
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.dgc.DGC]
 
     /**
      * <p>
-     * Test method for {@link java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease) public abstract
-     * java.rmi.dgc.Lease java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws
-     * java.rmi.RemoteException}.
-     *
-     * <p>
-     * Test method for {@link java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease) public abstract
+     * Test method for the hereby targeted method-under-test {@link DGC#dirty(ObjID[], long, Lease) public abstract
      * java.rmi.dgc.Lease java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws
      * java.rmi.RemoteException}.
      *
@@ -41,9 +46,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease) public abstract java.rmi.dgc.Lease
-     *      java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws java.rmi.RemoteException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,12 +60,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.dgc.DGC#clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean) public
-     * abstract void java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws
-     * java.rmi.RemoteException}.
-     *
-     * <p>
-     * Test method for {@link java.rmi.dgc.DGC#clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean) public
+     * Test method for the hereby targeted method-under-test {@link DGC#clean(ObjID[], long, VMID, boolean) public
      * abstract void java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws
      * java.rmi.RemoteException}.
      *
@@ -71,9 +69,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.rmi.dgc.DGC#clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean) public abstract void
-     *      java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws
-     *      java.rmi.RemoteException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,5 +80,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.dgc.DGC]
 
 }

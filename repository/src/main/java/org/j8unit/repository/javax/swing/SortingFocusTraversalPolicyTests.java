@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing;
 
+import java.awt.Component;
+import java.awt.Container;
+import javax.swing.SortingFocusTraversalPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +11,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.SortingFocusTraversalPolicy class
- * javax.swing.SortingFocusTraversalPolicy}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link SortingFocusTraversalPolicyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SortingFocusTraversalPolicy public class javax.swing.SortingFocusTraversalPolicy}.
  * </p>
  *
- * @see javax.swing.SortingFocusTraversalPolicy class javax.swing.SortingFocusTraversalPolicy (the hereby targeted
- *      class-under-test class)
- * @see SortingFocusTraversalPolicyClassTests SortingFocusTraversalPolicyClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SortingFocusTraversalPolicyTests<SUT extends javax.swing.SortingFocusTraversalPolicy>
-extends InternalFrameFocusTraversalPolicyTests<SUT> {
+public abstract interface SortingFocusTraversalPolicyTests<SUT extends SortingFocusTraversalPolicy>
+extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SortingFocusTraversalPolicy]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getLastComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getLastComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getLastComponent(Container) public java.awt.Component
+     * javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getLastComponent(java.awt.Container) public java.awt.Component
-     *      javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,21 +60,16 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getDefaultComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getDefaultComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getDefaultComponent(Container) public java.awt.Component
+     * javax.swing.SortingFocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getDefaultComponent(java.awt.Container) public java.awt.Component
-     *      javax.swing.SortingFocusTraversalPolicy.getDefaultComponent(java.awt.Container) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -88,11 +84,8 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
-     * javax.swing.SortingFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
      * javax.swing.SortingFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -100,9 +93,7 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
-     *      javax.swing.SortingFocusTraversalPolicy.getImplicitDownCycleTraversal() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -116,15 +107,8 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component) public
-     * java.awt.Component
-     * javax.swing.SortingFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component) public
-     * java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getComponentAfter(Container, Component) public java.awt.Component
      * javax.swing.SortingFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -132,10 +116,7 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getComponentAfter(java.awt.Container, java.awt.Component) public
-     *      java.awt.Component
-     *      javax.swing.SortingFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -150,11 +131,8 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
-     * javax.swing.SortingFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
      * javax.swing.SortingFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -162,9 +140,7 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
-     *      javax.swing.SortingFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -178,21 +154,16 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getFirstComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getFirstComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getFirstComponent(Container) public java.awt.Component
+     * javax.swing.SortingFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getFirstComponent(java.awt.Container) public java.awt.Component
-     *      javax.swing.SortingFocusTraversalPolicy.getFirstComponent(java.awt.Container) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -207,15 +178,8 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component) public
-     * java.awt.Component
-     * javax.swing.SortingFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component) public
-     * java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link SortingFocusTraversalPolicy#getComponentBefore(Container, Component) public java.awt.Component
      * javax.swing.SortingFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -223,10 +187,7 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.SortingFocusTraversalPolicy#getComponentBefore(java.awt.Container, java.awt.Component) public
-     *      java.awt.Component
-     *      javax.swing.SortingFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -238,5 +199,7 @@ extends InternalFrameFocusTraversalPolicyTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SortingFocusTraversalPolicy]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.naming;
 
+import javax.naming.BinaryRefAddr;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.BinaryRefAddr class javax.naming.BinaryRefAddr}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link BinaryRefAddrClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BinaryRefAddr
+ * public class javax.naming.BinaryRefAddr}.
  * </p>
  *
- * @see javax.naming.BinaryRefAddr class javax.naming.BinaryRefAddr (the hereby targeted class-under-test class)
- * @see BinaryRefAddrClassTests BinaryRefAddrClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.BinaryRefAddrClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BinaryRefAddrTests<SUT extends javax.naming.BinaryRefAddr>
-extends RefAddrTests<SUT> {
+public abstract interface BinaryRefAddrTests<SUT extends BinaryRefAddr>
+extends org.j8unit.repository.javax.naming.RefAddrTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.BinaryRefAddr]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#hashCode() public int javax.naming.BinaryRefAddr.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#hashCode() public int javax.naming.BinaryRefAddr.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#hashCode() public int
+     * javax.naming.BinaryRefAddr.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.BinaryRefAddr#hashCode() public int javax.naming.BinaryRefAddr.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,39 +57,7 @@ extends RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#equals(Object) public boolean
-     * javax.naming.BinaryRefAddr.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#equals(Object) public boolean
-     * javax.naming.BinaryRefAddr.equals(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.naming.BinaryRefAddr#equals(Object) public boolean javax.naming.BinaryRefAddr.equals(java.lang.Object)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#getContent() public java.lang.Object
-     * javax.naming.BinaryRefAddr.getContent()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#getContent() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#getContent() public java.lang.Object
      * javax.naming.BinaryRefAddr.getContent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +65,7 @@ extends RefAddrTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.BinaryRefAddr#getContent() public java.lang.Object javax.naming.BinaryRefAddr.getContent() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,11 +80,30 @@ extends RefAddrTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#toString() public java.lang.String
-     * javax.naming.BinaryRefAddr.toString()}.
+     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#equals(Object) public boolean
+     * javax.naming.BinaryRefAddr.equals(java.lang.Object)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.naming.BinaryRefAddr#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link BinaryRefAddr#toString() public java.lang.String
      * javax.naming.BinaryRefAddr.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -122,8 +111,7 @@ extends RefAddrTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.BinaryRefAddr#toString() public java.lang.String javax.naming.BinaryRefAddr.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -135,5 +123,7 @@ extends RefAddrTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.BinaryRefAddr]
 
 }

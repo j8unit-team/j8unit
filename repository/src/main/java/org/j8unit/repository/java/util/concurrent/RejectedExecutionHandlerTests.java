@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.RejectedExecutionHandler;
+import java.util.concurrent.ThreadPoolExecutor;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,38 +11,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.RejectedExecutionHandler interface
- * java.util.concurrent.RejectedExecutionHandler}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RejectedExecutionHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RejectedExecutionHandler public abstract interface java.util.concurrent.RejectedExecutionHandler}.
  * </p>
  *
- * @see java.util.concurrent.RejectedExecutionHandler interface java.util.concurrent.RejectedExecutionHandler (the
- *      hereby targeted class-under-test class)
- * @see RejectedExecutionHandlerClassTests RejectedExecutionHandlerClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RejectedExecutionHandlerTests<SUT extends java.util.concurrent.RejectedExecutionHandler>
+public abstract interface RejectedExecutionHandlerTests<SUT extends RejectedExecutionHandler>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.RejectedExecutionHandler]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.RejectedExecutionHandler#rejectedExecution(Runnable, java.util.concurrent.ThreadPoolExecutor)
-     * public abstract void
-     * java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.RejectedExecutionHandler#rejectedExecution(Runnable, java.util.concurrent.ThreadPoolExecutor)
-     * public abstract void
+     * Test method for the hereby targeted method-under-test
+     * {@link RejectedExecutionHandler#rejectedExecution(Runnable, ThreadPoolExecutor) public abstract void
      * java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)}
      * .
      *
@@ -49,10 +46,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.RejectedExecutionHandler#rejectedExecution(Runnable,
-     *      java.util.concurrent.ThreadPoolExecutor) public abstract void
-     *      java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.
-     *      ThreadPoolExecutor) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +57,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.RejectedExecutionHandler]
 
 }

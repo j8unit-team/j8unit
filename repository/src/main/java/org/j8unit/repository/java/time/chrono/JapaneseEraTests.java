@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.time.chrono;
 
+import java.time.chrono.JapaneseEra;
+import java.time.temporal.TemporalField;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.chrono.JapaneseEra class java.time.chrono.JapaneseEra}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link JapaneseEraClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JapaneseEra
+ * public final class java.time.chrono.JapaneseEra}.
  * </p>
  *
- * @see java.time.chrono.JapaneseEra class java.time.chrono.JapaneseEra (the hereby targeted class-under-test class)
- * @see JapaneseEraClassTests JapaneseEraClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.chrono.JapaneseEraClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JapaneseEraTests<SUT extends java.time.chrono.JapaneseEra>
-extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface JapaneseEraTests<SUT extends JapaneseEra>
+extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.JapaneseEra]
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#getValue() public int
-     * java.time.chrono.JapaneseEra.getValue()}.
-     *
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link JapaneseEra#getValue() public int
      * java.time.chrono.JapaneseEra.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +44,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
      * methods soon.
      * </p>
      *
-     * @see java.time.chrono.JapaneseEra#getValue() public int java.time.chrono.JapaneseEra.getValue() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,11 +59,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#range(java.time.temporal.TemporalField) public
-     * java.time.temporal.ValueRange java.time.chrono.JapaneseEra.range(java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#range(java.time.temporal.TemporalField) public
+     * Test method for the hereby targeted method-under-test {@link JapaneseEra#range(TemporalField) public
      * java.time.temporal.ValueRange java.time.chrono.JapaneseEra.range(java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +67,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
      * methods soon.
      * </p>
      *
-     * @see java.time.chrono.JapaneseEra#range(java.time.temporal.TemporalField) public java.time.temporal.ValueRange
-     *      java.time.chrono.JapaneseEra.range(java.time.temporal.TemporalField) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +82,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#toString() public java.lang.String
-     * java.time.chrono.JapaneseEra.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseEra#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link JapaneseEra#toString() public java.lang.String
      * java.time.chrono.JapaneseEra.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +90,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
      * methods soon.
      * </p>
      *
-     * @see java.time.chrono.JapaneseEra#toString() public java.lang.String java.time.chrono.JapaneseEra.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -109,5 +102,7 @@ extends EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.JapaneseEra]
 
 }

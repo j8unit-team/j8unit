@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.net.ssl;
 
+import javax.net.ssl.HandshakeCompletedEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.net.ssl.HandshakeCompletedEvent class
- * javax.net.ssl.HandshakeCompletedEvent}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link HandshakeCompletedEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HandshakeCompletedEvent public class javax.net.ssl.HandshakeCompletedEvent}.
  * </p>
  *
- * @see javax.net.ssl.HandshakeCompletedEvent class javax.net.ssl.HandshakeCompletedEvent (the hereby targeted
- *      class-under-test class)
- * @see HandshakeCompletedEventClassTests HandshakeCompletedEventClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HandshakeCompletedEventTests<SUT extends javax.net.ssl.HandshakeCompletedEvent>
+public abstract interface HandshakeCompletedEventTests<SUT extends HandshakeCompletedEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.HandshakeCompletedEvent]
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getSocket() public javax.net.ssl.SSLSocket
-     * javax.net.ssl.HandshakeCompletedEvent.getSocket()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getSocket() public javax.net.ssl.SSLSocket
-     * javax.net.ssl.HandshakeCompletedEvent.getSocket()}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getSocket() public
+     * javax.net.ssl.SSLSocket javax.net.ssl.HandshakeCompletedEvent.getSocket()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getSocket() public javax.net.ssl.SSLSocket
-     *      javax.net.ssl.HandshakeCompletedEvent.getSocket() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getLocalPrincipal() public java.security.Principal
-     * javax.net.ssl.HandshakeCompletedEvent.getLocalPrincipal()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getLocalPrincipal() public java.security.Principal
-     * javax.net.ssl.HandshakeCompletedEvent.getLocalPrincipal()}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getLocalPrincipal() public
+     * java.security.Principal javax.net.ssl.HandshakeCompletedEvent.getLocalPrincipal()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getLocalPrincipal() public java.security.Principal
-     *      javax.net.ssl.HandshakeCompletedEvent.getLocalPrincipal() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,23 +78,16 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerCertificateChain() public
-     * javax.security.cert.X509Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificateChain() throws
-     * javax.net.ssl.SSLPeerUnverifiedException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerCertificateChain() public
-     * javax.security.cert.X509Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificateChain() throws
-     * javax.net.ssl.SSLPeerUnverifiedException}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getPeerCertificateChain()
+     * public javax.security.cert.X509Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificateChain()
+     * throws javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getPeerCertificateChain() public javax.security.cert.X509Certificate[]
-     *      javax.net.ssl.HandshakeCompletedEvent.getPeerCertificateChain() throws
-     *      javax.net.ssl.SSLPeerUnverifiedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -114,20 +101,15 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getCipherSuite() public java.lang.String
-     * javax.net.ssl.HandshakeCompletedEvent.getCipherSuite()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getCipherSuite() public java.lang.String
-     * javax.net.ssl.HandshakeCompletedEvent.getCipherSuite()}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getCipherSuite() public
+     * java.lang.String javax.net.ssl.HandshakeCompletedEvent.getCipherSuite()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getCipherSuite() public java.lang.String
-     *      javax.net.ssl.HandshakeCompletedEvent.getCipherSuite() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -141,21 +123,16 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerPrincipal() public java.security.Principal
-     * javax.net.ssl.HandshakeCompletedEvent.getPeerPrincipal() throws javax.net.ssl.SSLPeerUnverifiedException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerPrincipal() public java.security.Principal
-     * javax.net.ssl.HandshakeCompletedEvent.getPeerPrincipal() throws javax.net.ssl.SSLPeerUnverifiedException}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getPeerPrincipal() public
+     * java.security.Principal javax.net.ssl.HandshakeCompletedEvent.getPeerPrincipal() throws
+     * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getPeerPrincipal() public java.security.Principal
-     *      javax.net.ssl.HandshakeCompletedEvent.getPeerPrincipal() throws javax.net.ssl.SSLPeerUnverifiedException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -169,12 +146,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerCertificates() public
-     * java.security.cert.Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificates() throws
-     * javax.net.ssl.SSLPeerUnverifiedException}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getPeerCertificates() public
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getPeerCertificates() public
      * java.security.cert.Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificates() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
@@ -183,9 +155,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getPeerCertificates() public java.security.cert.Certificate[]
-     *      javax.net.ssl.HandshakeCompletedEvent.getPeerCertificates() throws javax.net.ssl.SSLPeerUnverifiedException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,20 +169,15 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getSession() public javax.net.ssl.SSLSession
-     * javax.net.ssl.HandshakeCompletedEvent.getSession()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getSession() public javax.net.ssl.SSLSession
-     * javax.net.ssl.HandshakeCompletedEvent.getSession()}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getSession() public
+     * javax.net.ssl.SSLSession javax.net.ssl.HandshakeCompletedEvent.getSession()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getSession() public javax.net.ssl.SSLSession
-     *      javax.net.ssl.HandshakeCompletedEvent.getSession() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,20 +191,15 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getLocalCertificates() public
-     * java.security.cert.Certificate[] javax.net.ssl.HandshakeCompletedEvent.getLocalCertificates()}.
-     *
-     * <p>
-     * Test method for {@link javax.net.ssl.HandshakeCompletedEvent#getLocalCertificates() public
-     * java.security.cert.Certificate[] javax.net.ssl.HandshakeCompletedEvent.getLocalCertificates()}.
+     * Test method for the hereby targeted method-under-test {@link HandshakeCompletedEvent#getLocalCertificates()
+     * public java.security.cert.Certificate[] javax.net.ssl.HandshakeCompletedEvent.getLocalCertificates()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.net.ssl.HandshakeCompletedEvent#getLocalCertificates() public java.security.cert.Certificate[]
-     *      javax.net.ssl.HandshakeCompletedEvent.getLocalCertificates() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,5 +210,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.HandshakeCompletedEvent]
 
 }

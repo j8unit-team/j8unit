@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.management.openmbean;
 
+import javax.management.openmbean.KeyAlreadyExistsException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.openmbean.KeyAlreadyExistsException class
- * javax.management.openmbean.KeyAlreadyExistsException}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link KeyAlreadyExistsExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link KeyAlreadyExistsException public class javax.management.openmbean.KeyAlreadyExistsException}.
  * </p>
  *
- * @see javax.management.openmbean.KeyAlreadyExistsException class javax.management.openmbean.KeyAlreadyExistsException
- *      (the hereby targeted class-under-test class)
- * @see KeyAlreadyExistsExceptionClassTests KeyAlreadyExistsExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface KeyAlreadyExistsExceptionTests<SUT extends javax.management.openmbean.KeyAlreadyExistsException>
+public abstract interface KeyAlreadyExistsExceptionTests<SUT extends KeyAlreadyExistsException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
 
 }

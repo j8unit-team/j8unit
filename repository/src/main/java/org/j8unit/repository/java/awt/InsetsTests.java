@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.Insets;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,39 +9,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.Insets class java.awt.Insets}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link InsetsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Insets public
+ * class java.awt.Insets}.
  * </p>
  *
- * @see java.awt.Insets class java.awt.Insets (the hereby targeted class-under-test class)
- * @see InsetsClassTests InsetsClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.InsetsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InsetsTests<SUT extends java.awt.Insets>
+public abstract interface InsetsTests<SUT extends Insets>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Insets]
+
     /**
      * <p>
-     * Test method for {@link java.awt.Insets#set(int, int, int, int) public void java.awt.Insets.set(int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Insets#set(int, int, int, int) public void java.awt.Insets.set(int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link Insets#set(int, int, int, int) public void
+     * java.awt.Insets.set(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Insets#set(int, int, int, int) public void java.awt.Insets.set(int,int,int,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -54,17 +57,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Insets#hashCode() public int java.awt.Insets.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Insets#hashCode() public int java.awt.Insets.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Insets#hashCode() public int
+     * java.awt.Insets.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Insets#hashCode() public int java.awt.Insets.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -79,18 +80,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Insets#equals(Object) public boolean java.awt.Insets.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Insets#equals(Object) public boolean java.awt.Insets.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Insets#equals(Object) public boolean
+     * java.awt.Insets.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Insets#equals(Object) public boolean java.awt.Insets.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -105,18 +103,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Insets#toString() public java.lang.String java.awt.Insets.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Insets#toString() public java.lang.String java.awt.Insets.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Insets#toString() public java.lang.String
+     * java.awt.Insets.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Insets#toString() public java.lang.String java.awt.Insets.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -131,18 +126,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Insets#clone() public java.lang.Object java.awt.Insets.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Insets#clone() public java.lang.Object java.awt.Insets.clone()}.
+     * Test method for the hereby targeted method-under-test {@link Insets#clone() public java.lang.Object
+     * java.awt.Insets.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Insets#clone() public java.lang.Object java.awt.Insets.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -153,5 +145,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Insets]
 
 }

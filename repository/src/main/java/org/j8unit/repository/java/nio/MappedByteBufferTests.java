@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.nio;
 
+import java.nio.MappedByteBuffer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.MappedByteBuffer class java.nio.MappedByteBuffer}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link MappedByteBufferClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MappedByteBuffer public abstract class java.nio.MappedByteBuffer}.
  * </p>
  *
- * @see java.nio.MappedByteBuffer class java.nio.MappedByteBuffer (the hereby targeted class-under-test class)
- * @see MappedByteBufferClassTests MappedByteBufferClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.MappedByteBufferClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MappedByteBufferTests<SUT extends java.nio.MappedByteBuffer>
-extends ByteBufferTests<SUT> {
+public abstract interface MappedByteBufferTests<SUT extends MappedByteBuffer>
+extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.MappedByteBuffer]
 
     /**
      * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#isLoaded() public final boolean
-     * java.nio.MappedByteBuffer.isLoaded()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#isLoaded() public final boolean
+     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#isLoaded() public final boolean
      * java.nio.MappedByteBuffer.isLoaded()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends ByteBufferTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.nio.MappedByteBuffer#isLoaded() public final boolean java.nio.MappedByteBuffer.isLoaded() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,20 +56,15 @@ extends ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#force() public final java.nio.MappedByteBuffer
-     * java.nio.MappedByteBuffer.force()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#force() public final java.nio.MappedByteBuffer
-     * java.nio.MappedByteBuffer.force()}.
+     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#force() public final
+     * java.nio.MappedByteBuffer java.nio.MappedByteBuffer.force()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.MappedByteBuffer#force() public final java.nio.MappedByteBuffer java.nio.MappedByteBuffer.force()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +78,15 @@ extends ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#load() public final java.nio.MappedByteBuffer
-     * java.nio.MappedByteBuffer.load()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#load() public final java.nio.MappedByteBuffer
-     * java.nio.MappedByteBuffer.load()}.
+     * Test method for the hereby targeted method-under-test {@link MappedByteBuffer#load() public final
+     * java.nio.MappedByteBuffer java.nio.MappedByteBuffer.load()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.MappedByteBuffer#load() public final java.nio.MappedByteBuffer java.nio.MappedByteBuffer.load()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,5 +97,7 @@ extends ByteBufferTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.MappedByteBuffer]
 
 }

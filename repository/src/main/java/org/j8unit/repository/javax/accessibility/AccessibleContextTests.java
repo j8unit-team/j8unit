@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.accessibility;
 
+import java.beans.PropertyChangeListener;
+import javax.accessibility.Accessible;
+import javax.accessibility.AccessibleContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleContext class
- * javax.accessibility.AccessibleContext}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link AccessibleContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccessibleContext public abstract class javax.accessibility.AccessibleContext}.
  * </p>
  *
- * @see javax.accessibility.AccessibleContext class javax.accessibility.AccessibleContext (the hereby targeted
- *      class-under-test class)
- * @see AccessibleContextClassTests AccessibleContextClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleContextTests<SUT extends javax.accessibility.AccessibleContext>
+public abstract interface AccessibleContextTests<SUT extends AccessibleContext>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleContext]
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleName(String) public void
-     * javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleName(String) public void
-     * javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#setAccessibleName(String) public
+     * void javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#setAccessibleName(String) public void
-     *      javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,11 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleValue() public
-     * javax.accessibility.AccessibleValue javax.accessibility.AccessibleContext.getAccessibleValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleValue() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleValue() public
      * javax.accessibility.AccessibleValue javax.accessibility.AccessibleContext.getAccessibleValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +66,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleValue() public javax.accessibility.AccessibleValue
-     *      javax.accessibility.AccessibleContext.getAccessibleValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,11 +80,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleParent(javax.accessibility.Accessible)
-     * public void javax.accessibility.AccessibleContext.setAccessibleParent(javax.accessibility.Accessible)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleParent(javax.accessibility.Accessible)
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#setAccessibleParent(Accessible)
      * public void javax.accessibility.AccessibleContext.setAccessibleParent(javax.accessibility.Accessible)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,9 +88,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#setAccessibleParent(javax.accessibility.Accessible) public void
-     *      javax.accessibility.AccessibleContext.setAccessibleParent(javax.accessibility.Accessible) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,11 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleText() public
-     * javax.accessibility.AccessibleText javax.accessibility.AccessibleContext.getAccessibleText()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleText() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleText() public
      * javax.accessibility.AccessibleText javax.accessibility.AccessibleContext.getAccessibleText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +110,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleText() public javax.accessibility.AccessibleText
-     *      javax.accessibility.AccessibleContext.getAccessibleText() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -140,15 +124,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleContext#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void
-     * javax.accessibility.AccessibleContext.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleContext#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link AccessibleContext#removePropertyChangeListener(PropertyChangeListener) public void
      * javax.accessibility.AccessibleContext.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -156,9 +133,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     *      void javax.accessibility.AccessibleContext.removePropertyChangeListener(java.beans.PropertyChangeListener)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -172,13 +147,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#firePropertyChange(String, Object, Object) public
-     * void
-     * javax.accessibility.AccessibleContext.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#firePropertyChange(String, Object, Object) public
-     * void
+     * Test method for the hereby targeted method-under-test
+     * {@link AccessibleContext#firePropertyChange(String, Object, Object) public void
      * javax.accessibility.AccessibleContext.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -186,9 +156,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#firePropertyChange(String, Object, Object) public void
-     *      javax.accessibility.AccessibleContext.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,11 +170,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRelationSet() public
-     * javax.accessibility.AccessibleRelationSet javax.accessibility.AccessibleContext.getAccessibleRelationSet()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRelationSet() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleRelationSet() public
      * javax.accessibility.AccessibleRelationSet javax.accessibility.AccessibleContext.getAccessibleRelationSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,9 +178,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleRelationSet() public
-     *      javax.accessibility.AccessibleRelationSet javax.accessibility.AccessibleContext.getAccessibleRelationSet()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -230,21 +192,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleStateSet() public abstract
-     * javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleStateSet() public abstract
-     * javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleStateSet() public
+     * abstract javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleStateSet() public abstract
-     *      javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -258,20 +214,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIndexInParent() public abstract int
-     * javax.accessibility.AccessibleContext.getAccessibleIndexInParent()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIndexInParent() public abstract int
-     * javax.accessibility.AccessibleContext.getAccessibleIndexInParent()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleIndexInParent()
+     * public abstract int javax.accessibility.AccessibleContext.getAccessibleIndexInParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleIndexInParent() public abstract int
-     *      javax.accessibility.AccessibleContext.getAccessibleIndexInParent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -285,20 +236,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleName() public java.lang.String
-     * javax.accessibility.AccessibleContext.getAccessibleName()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleName() public java.lang.String
-     * javax.accessibility.AccessibleContext.getAccessibleName()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleName() public
+     * java.lang.String javax.accessibility.AccessibleContext.getAccessibleName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleName() public java.lang.String
-     *      javax.accessibility.AccessibleContext.getAccessibleName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -312,11 +258,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleParent() public
-     * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleParent()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleParent() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleParent() public
      * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -324,8 +266,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleParent() public javax.accessibility.Accessible
-     *      javax.accessibility.AccessibleContext.getAccessibleParent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -339,11 +280,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleComponent() public
-     * javax.accessibility.AccessibleComponent javax.accessibility.AccessibleContext.getAccessibleComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleComponent() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleComponent() public
      * javax.accessibility.AccessibleComponent javax.accessibility.AccessibleContext.getAccessibleComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -351,9 +288,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleComponent() public
-     *      javax.accessibility.AccessibleComponent javax.accessibility.AccessibleContext.getAccessibleComponent() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -367,23 +302,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleContext#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     * void javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleContext#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     * void javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link AccessibleContext#addPropertyChangeListener(PropertyChangeListener) public void
+     * javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     *      void javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -397,48 +325,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getLocale() public abstract java.util.Locale
-     * javax.accessibility.AccessibleContext.getLocale() throws java.awt.IllegalComponentStateException}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getLocale() public abstract java.util.Locale
-     * javax.accessibility.AccessibleContext.getLocale() throws java.awt.IllegalComponentStateException}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleChildrenCount()
+     * public abstract int javax.accessibility.AccessibleContext.getAccessibleChildrenCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getLocale() public abstract java.util.Locale
-     *      javax.accessibility.AccessibleContext.getLocale() throws java.awt.IllegalComponentStateException (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChildrenCount() public abstract int
-     * javax.accessibility.AccessibleContext.getAccessibleChildrenCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChildrenCount() public abstract int
-     * javax.accessibility.AccessibleContext.getAccessibleChildrenCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleContext#getAccessibleChildrenCount() public abstract int
-     *      javax.accessibility.AccessibleContext.getAccessibleChildrenCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -452,25 +347,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleAction() public
-     * javax.accessibility.AccessibleAction javax.accessibility.AccessibleContext.getAccessibleAction()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleAction() public
-     * javax.accessibility.AccessibleAction javax.accessibility.AccessibleContext.getAccessibleAction()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getLocale() public abstract
+     * java.util.Locale javax.accessibility.AccessibleContext.getLocale() throws
+     * java.awt.IllegalComponentStateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleAction() public javax.accessibility.AccessibleAction
-     *      javax.accessibility.AccessibleContext.getAccessibleAction() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleAction()
+    public default void test_getLocale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -479,11 +370,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleTable() public
-     * javax.accessibility.AccessibleTable javax.accessibility.AccessibleContext.getAccessibleTable()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleTable() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleTable() public
      * javax.accessibility.AccessibleTable javax.accessibility.AccessibleContext.getAccessibleTable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -491,8 +378,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleTable() public javax.accessibility.AccessibleTable
-     *      javax.accessibility.AccessibleContext.getAccessibleTable() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -506,20 +392,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleDescription() public java.lang.String
-     * javax.accessibility.AccessibleContext.getAccessibleDescription()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleDescription() public java.lang.String
-     * javax.accessibility.AccessibleContext.getAccessibleDescription()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleAction() public
+     * javax.accessibility.AccessibleAction javax.accessibility.AccessibleContext.getAccessibleAction()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleDescription() public java.lang.String
-     *      javax.accessibility.AccessibleContext.getAccessibleDescription() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleDescription() public
+     * java.lang.String javax.accessibility.AccessibleContext.getAccessibleDescription()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -533,11 +436,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleEditableText() public
-     * javax.accessibility.AccessibleEditableText javax.accessibility.AccessibleContext.getAccessibleEditableText()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleEditableText() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleEditableText() public
      * javax.accessibility.AccessibleEditableText javax.accessibility.AccessibleContext.getAccessibleEditableText()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -545,9 +444,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleEditableText() public
-     *      javax.accessibility.AccessibleEditableText javax.accessibility.AccessibleContext.getAccessibleEditableText()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -561,21 +458,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleDescription(String) public void
-     * javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleDescription(String) public void
-     * javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#setAccessibleDescription(String)
+     * public void javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#setAccessibleDescription(String) public void
-     *      javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -589,20 +480,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChild(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleChild(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChild(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleChild(int)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleChild(int) public
+     * abstract javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleChild(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleChild(int) public abstract javax.accessibility.Accessible
-     *      javax.accessibility.AccessibleContext.getAccessibleChild(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -616,11 +502,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleSelection() public
-     * javax.accessibility.AccessibleSelection javax.accessibility.AccessibleContext.getAccessibleSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleSelection() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleSelection() public
      * javax.accessibility.AccessibleSelection javax.accessibility.AccessibleContext.getAccessibleSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -628,9 +510,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleSelection() public
-     *      javax.accessibility.AccessibleSelection javax.accessibility.AccessibleContext.getAccessibleSelection() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -644,20 +524,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRole() public abstract
-     * javax.accessibility.AccessibleRole javax.accessibility.AccessibleContext.getAccessibleRole()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRole() public abstract
-     * javax.accessibility.AccessibleRole javax.accessibility.AccessibleContext.getAccessibleRole()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleRole() public
+     * abstract javax.accessibility.AccessibleRole javax.accessibility.AccessibleContext.getAccessibleRole()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleRole() public abstract javax.accessibility.AccessibleRole
-     *      javax.accessibility.AccessibleContext.getAccessibleRole() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -671,11 +546,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIcon() public
-     * javax.accessibility.AccessibleIcon[] javax.accessibility.AccessibleContext.getAccessibleIcon()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIcon() public
+     * Test method for the hereby targeted method-under-test {@link AccessibleContext#getAccessibleIcon() public
      * javax.accessibility.AccessibleIcon[] javax.accessibility.AccessibleContext.getAccessibleIcon()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -683,8 +554,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleContext#getAccessibleIcon() public javax.accessibility.AccessibleIcon[]
-     *      javax.accessibility.AccessibleContext.getAccessibleIcon() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -695,5 +565,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleContext]
 
 }

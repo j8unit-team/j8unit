@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.AbstractButton;
+import javax.swing.ButtonGroup;
+import javax.swing.ButtonModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.ButtonGroup class javax.swing.ButtonGroup}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link ButtonGroupClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ButtonGroup
+ * public class javax.swing.ButtonGroup}.
  * </p>
  *
- * @see javax.swing.ButtonGroup class javax.swing.ButtonGroup (the hereby targeted class-under-test class)
- * @see ButtonGroupClassTests ButtonGroupClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.ButtonGroupClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ButtonGroupTests<SUT extends javax.swing.ButtonGroup>
+public abstract interface ButtonGroupTests<SUT extends ButtonGroup>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ButtonGroup]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel, boolean) public void
-     * javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel, boolean) public void
-     * javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#setSelected(ButtonModel, boolean) public
+     * void javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel, boolean) public void
-     *      javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,38 +58,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getElements() public java.util.Enumeration
-     * <javax.swing.AbstractButton> javax.swing.ButtonGroup.getElements()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getElements() public java.util.Enumeration
-     * javax.swing.ButtonGroup.getElements()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.ButtonGroup#getElements() public java.util.Enumeration javax.swing.ButtonGroup.getElements()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#clearSelection() public void
-     * javax.swing.ButtonGroup.clearSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#clearSelection() public void
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#clearSelection() public void
      * javax.swing.ButtonGroup.clearSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +66,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#clearSelection() public void javax.swing.ButtonGroup.clearSelection() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,11 +80,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
-     * javax.swing.ButtonGroup.add(javax.swing.AbstractButton)}.
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getElements() public
+     * java.util.Enumeration<javax.swing.AbstractButton> javax.swing.ButtonGroup.getElements()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#add(AbstractButton) public void
      * javax.swing.ButtonGroup.add(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,8 +110,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
-     *      javax.swing.ButtonGroup.add(javax.swing.AbstractButton) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,20 +124,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getSelection() public javax.swing.ButtonModel
-     * javax.swing.ButtonGroup.getSelection()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getSelection() public javax.swing.ButtonModel
-     * javax.swing.ButtonGroup.getSelection()}.
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getSelection() public
+     * javax.swing.ButtonModel javax.swing.ButtonGroup.getSelection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#getSelection() public javax.swing.ButtonModel javax.swing.ButtonGroup.getSelection()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,11 +146,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getButtonCount() public int
-     * javax.swing.ButtonGroup.getButtonCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getButtonCount() public int
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#getButtonCount() public int
      * javax.swing.ButtonGroup.getButtonCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -175,8 +154,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#getButtonCount() public int javax.swing.ButtonGroup.getButtonCount() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,11 +168,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#remove(javax.swing.AbstractButton) public void
-     * javax.swing.ButtonGroup.remove(javax.swing.AbstractButton)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#remove(javax.swing.AbstractButton) public void
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#remove(AbstractButton) public void
      * javax.swing.ButtonGroup.remove(javax.swing.AbstractButton)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -202,8 +176,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#remove(javax.swing.AbstractButton) public void
-     *      javax.swing.ButtonGroup.remove(javax.swing.AbstractButton) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,11 +190,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
-     * javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
+     * Test method for the hereby targeted method-under-test {@link ButtonGroup#isSelected(ButtonModel) public boolean
      * javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +198,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
-     *      javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,5 +209,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ButtonGroup]
 
 }

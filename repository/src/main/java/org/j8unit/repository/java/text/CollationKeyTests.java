@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.text;
 
+import java.text.CollationKey;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.text.CollationKey class java.text.CollationKey}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link CollationKeyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CollationKey
+ * public abstract class java.text.CollationKey}.
  * </p>
  *
- * @see java.text.CollationKey class java.text.CollationKey (the hereby targeted class-under-test class)
- * @see CollationKeyClassTests CollationKeyClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.text.CollationKeyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollationKeyTests<SUT extends java.text.CollationKey>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.CollationKey>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface CollationKeyTests<SUT extends CollationKey>
+extends org.j8unit.repository.java.lang.ComparableTests<SUT, CollationKey>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.CollationKey]
 
     /**
      * <p>
-     * Test method for {@link java.text.CollationKey#getSourceString() public java.lang.String
-     * java.text.CollationKey.getSourceString()}.
-     *
-     * <p>
-     * Test method for {@link java.text.CollationKey#getSourceString() public java.lang.String
-     * java.text.CollationKey.getSourceString()}.
+     * Test method for the hereby targeted method-under-test {@link CollationKey#getSourceString() public
+     * java.lang.String java.text.CollationKey.getSourceString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.CollationKey#getSourceString() public java.lang.String java.text.CollationKey.getSourceString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
 
     /**
      * <p>
-     * Test method for {@link java.text.CollationKey#toByteArray() public abstract byte[]
-     * java.text.CollationKey.toByteArray()}.
-     *
-     * <p>
-     * Test method for {@link java.text.CollationKey#toByteArray() public abstract byte[]
+     * Test method for the hereby targeted method-under-test {@link CollationKey#toByteArray() public abstract byte[]
      * java.text.CollationKey.toByteArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
      * methods soon.
      * </p>
      *
-     * @see java.text.CollationKey#toByteArray() public abstract byte[] java.text.CollationKey.toByteArray() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,20 +78,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
 
     /**
      * <p>
-     * Test method for {@link java.text.CollationKey#compareTo(java.text.CollationKey) public abstract int
-     * java.text.CollationKey.compareTo(java.text.CollationKey)}.
-     *
-     * <p>
-     * Test method for {@link java.text.CollationKey#compareTo(java.text.CollationKey) public abstract int
-     * java.text.CollationKey.compareTo(java.text.CollationKey)}.
+     * Test method for the hereby targeted method-under-test {@link CollationKey#compareTo(CollationKey) public abstract
+     * int java.text.CollationKey.compareTo(java.text.CollationKey)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.text.CollationKey#compareTo(java.text.CollationKey) public abstract int
-     *      java.text.CollationKey.compareTo(java.text.CollationKey) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,5 +97,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.CollationKey]
 
 }

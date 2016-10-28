@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.management;
 
+import javax.management.ServiceNotFoundException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.ServiceNotFoundException class
- * javax.management.ServiceNotFoundException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ServiceNotFoundExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ServiceNotFoundException public class javax.management.ServiceNotFoundException}.
  * </p>
  *
- * @see javax.management.ServiceNotFoundException class javax.management.ServiceNotFoundException (the hereby targeted
- *      class-under-test class)
- * @see ServiceNotFoundExceptionClassTests ServiceNotFoundExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.ServiceNotFoundExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ServiceNotFoundExceptionTests<SUT extends javax.management.ServiceNotFoundException>
-extends OperationsExceptionTests<SUT> {
+public abstract interface ServiceNotFoundExceptionTests<SUT extends ServiceNotFoundException>
+extends org.j8unit.repository.javax.management.OperationsExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ServiceNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ServiceNotFoundException]
 
 }

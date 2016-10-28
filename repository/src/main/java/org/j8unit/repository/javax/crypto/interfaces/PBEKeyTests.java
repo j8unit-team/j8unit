@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.crypto.interfaces;
 
+import javax.crypto.interfaces.PBEKey;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,32 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.interfaces.PBEKey interface javax.crypto.interfaces.PBEKey}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link PBEKeyClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PBEKey public
+ * abstract interface javax.crypto.interfaces.PBEKey}.
  * </p>
  *
- * @see javax.crypto.interfaces.PBEKey interface javax.crypto.interfaces.PBEKey (the hereby targeted class-under-test
- *      class)
- * @see PBEKeyClassTests PBEKeyClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.interfaces.PBEKeyClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PBEKeyTests<SUT extends javax.crypto.interfaces.PBEKey>
+public abstract interface PBEKeyTests<SUT extends PBEKey>
 extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.interfaces.PBEKey]
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getSalt() public abstract byte[]
-     * javax.crypto.interfaces.PBEKey.getSalt()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getSalt() public abstract byte[]
+     * Test method for the hereby targeted method-under-test {@link PBEKey#getSalt() public abstract byte[]
      * javax.crypto.interfaces.PBEKey.getSalt()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -41,8 +42,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.interfaces.PBEKey#getSalt() public abstract byte[] javax.crypto.interfaces.PBEKey.getSalt()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,11 +56,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getIterationCount() public abstract int
-     * javax.crypto.interfaces.PBEKey.getIterationCount()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getIterationCount() public abstract int
+     * Test method for the hereby targeted method-under-test {@link PBEKey#getIterationCount() public abstract int
      * javax.crypto.interfaces.PBEKey.getIterationCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +64,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.interfaces.PBEKey#getIterationCount() public abstract int
-     *      javax.crypto.interfaces.PBEKey.getIterationCount() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,11 +78,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getPassword() public abstract char[]
-     * javax.crypto.interfaces.PBEKey.getPassword()}.
-     *
-     * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getPassword() public abstract char[]
+     * Test method for the hereby targeted method-under-test {@link PBEKey#getPassword() public abstract char[]
      * javax.crypto.interfaces.PBEKey.getPassword()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,8 +86,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.crypto.interfaces.PBEKey#getPassword() public abstract char[]
-     *      javax.crypto.interfaces.PBEKey.getPassword() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,5 +97,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.PBEKey]
 
 }

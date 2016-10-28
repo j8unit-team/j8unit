@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.xml.xpath;
 
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import javax.xml.xpath.XPathException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.xpath.XPathException class javax.xml.xpath.XPathException}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link XPathExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XPathException
+ * public class javax.xml.xpath.XPathException}.
  * </p>
  *
- * @see javax.xml.xpath.XPathException class javax.xml.xpath.XPathException (the hereby targeted class-under-test class)
- * @see XPathExceptionClassTests XPathExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XPathExceptionTests<SUT extends javax.xml.xpath.XPathException>
+public abstract interface XPathExceptionTests<SUT extends XPathException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.xpath.XPathException]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#getCause() public java.lang.Throwable
-     * javax.xml.xpath.XPathException.getCause()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#getCause() public java.lang.Throwable
+     * Test method for the hereby targeted method-under-test {@link XPathException#getCause() public java.lang.Throwable
      * javax.xml.xpath.XPathException.getCause()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +44,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.xpath.XPathException#getCause() public java.lang.Throwable
-     *      javax.xml.xpath.XPathException.getCause() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,26 +59,21 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
-     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
-     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace() public void
+     * javax.xml.xpath.XPathException.printStackTrace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
-     *      javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_printStackTrace_PrintWriter()
+    public default void test_printStackTrace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -84,20 +82,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintStream) public void
-     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintStream) public void
-     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream)}.
+     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace(PrintStream) public
+     * void javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.xpath.XPathException#printStackTrace(java.io.PrintStream) public void
-     *      javax.xml.xpath.XPathException.printStackTrace(java.io.PrintStream) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,30 +105,27 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace() public void
-     * javax.xml.xpath.XPathException.printStackTrace()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace() public void
-     * javax.xml.xpath.XPathException.printStackTrace()}.
+     * Test method for the hereby targeted method-under-test {@link XPathException#printStackTrace(PrintWriter) public
+     * void javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.xpath.XPathException#printStackTrace() public void
-     *      javax.xml.xpath.XPathException.printStackTrace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_printStackTrace()
+    public default void test_printStackTrace_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.xpath.XPathException]
 
 }

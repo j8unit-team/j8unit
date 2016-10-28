@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.accessibility;
 
+import javax.accessibility.AccessibleTableModelChange;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleTableModelChange interface
- * javax.accessibility.AccessibleTableModelChange}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link AccessibleTableModelChangeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccessibleTableModelChange public abstract interface javax.accessibility.AccessibleTableModelChange}.
  * </p>
  *
- * @see javax.accessibility.AccessibleTableModelChange interface javax.accessibility.AccessibleTableModelChange (the
- *      hereby targeted class-under-test class)
- * @see AccessibleTableModelChangeClassTests AccessibleTableModelChangeClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleTableModelChangeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleTableModelChangeTests<SUT extends javax.accessibility.AccessibleTableModelChange>
+public abstract interface AccessibleTableModelChangeTests<SUT extends AccessibleTableModelChange>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleTableModelChange]
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getFirstRow() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getFirstRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getFirstRow() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getFirstRow()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getFirstRow() public
+     * abstract int javax.accessibility.AccessibleTableModelChange.getFirstRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleTableModelChange#getFirstRow() public abstract int
-     *      javax.accessibility.AccessibleTableModelChange.getFirstRow() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getLastRow() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getLastRow()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getLastRow() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getLastRow()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getLastRow() public
+     * abstract int javax.accessibility.AccessibleTableModelChange.getLastRow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleTableModelChange#getLastRow() public abstract int
-     *      javax.accessibility.AccessibleTableModelChange.getLastRow() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,20 +79,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getType() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getType()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getType() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getType()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getType() public abstract
+     * int javax.accessibility.AccessibleTableModelChange.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleTableModelChange#getType() public abstract int
-     *      javax.accessibility.AccessibleTableModelChange.getType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,20 +101,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getLastColumn() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getLastColumn()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getLastColumn() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getLastColumn()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getLastColumn() public
+     * abstract int javax.accessibility.AccessibleTableModelChange.getLastColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleTableModelChange#getLastColumn() public abstract int
-     *      javax.accessibility.AccessibleTableModelChange.getLastColumn() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,20 +123,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getFirstColumn() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getFirstColumn()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleTableModelChange#getFirstColumn() public abstract int
-     * javax.accessibility.AccessibleTableModelChange.getFirstColumn()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleTableModelChange#getFirstColumn() public
+     * abstract int javax.accessibility.AccessibleTableModelChange.getFirstColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleTableModelChange#getFirstColumn() public abstract int
-     *      javax.accessibility.AccessibleTableModelChange.getFirstColumn() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,5 +142,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleTableModelChange]
 
 }

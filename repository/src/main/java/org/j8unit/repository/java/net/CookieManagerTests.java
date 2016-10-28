@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.net;
 
+import java.net.CookieManager;
+import java.net.CookiePolicy;
+import java.net.URI;
+import java.util.Map;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +12,42 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.net.CookieManager class java.net.CookieManager}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link CookieManagerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CookieManager
+ * public class java.net.CookieManager}.
  * </p>
  *
- * @see java.net.CookieManager class java.net.CookieManager (the hereby targeted class-under-test class)
- * @see CookieManagerClassTests CookieManagerClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.net.CookieManagerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CookieManagerTests<SUT extends java.net.CookieManager>
-extends CookieHandlerTests<SUT> {
+public abstract interface CookieManagerTests<SUT extends CookieManager>
+extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookieManager]
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieManager#get(java.net.URI, java.util.Map) public
+     * Test method for the hereby targeted method-under-test {@link CookieManager#get(URI, Map) public
      * java.util.Map<java.lang.String, java.util.List<java.lang.String>>
      * java.net.CookieManager.get(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
      * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.net.CookieManager#get(java.net.URI, java.util.Map) public java.util.Map
-     * java.net.CookieManager.get(java.net.URI,java.util.Map) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.CookieManager#get(java.net.URI, java.util.Map) public java.util.Map
-     *      java.net.CookieManager.get(java.net.URI,java.util.Map) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +62,15 @@ extends CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
-     * java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
-     *
-     * <p>
-     * Test method for {@link java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
-     * java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
+     * Test method for the hereby targeted method-under-test {@link CookieManager#setCookiePolicy(CookiePolicy) public
+     * void java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
-     *      java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -86,22 +84,38 @@ extends CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieManager#put(java.net.URI, java.util.Map) public void
-     * java.net.CookieManager.put(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.net.CookieManager#put(java.net.URI, java.util.Map) public void
-     * java.net.CookieManager.put(java.net.URI,java.util.Map) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link CookieManager#getCookieStore() public
+     * java.net.CookieStore java.net.CookieManager.getCookieStore()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.net.CookieManager#put(java.net.URI, java.util.Map) public void
-     *      java.net.CookieManager.put(java.net.URI,java.util.Map) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCookieStore()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link CookieManager#put(URI, Map) public void
+     * java.net.CookieManager.put(java.net.URI,java.util.Map<java.lang.String, java.util.List<java.lang.String>>) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -114,31 +128,6 @@ extends CookieHandlerTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.CookieManager#getCookieStore() public java.net.CookieStore
-     * java.net.CookieManager.getCookieStore()}.
-     *
-     * <p>
-     * Test method for {@link java.net.CookieManager#getCookieStore() public java.net.CookieStore
-     * java.net.CookieManager.getCookieStore()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.net.CookieManager#getCookieStore() public java.net.CookieStore java.net.CookieManager.getCookieStore()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCookieStore()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookieManager]
 
 }

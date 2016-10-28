@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.util.logging;
 
+import java.util.logging.Handler;
+import java.util.logging.LogRecord;
+import java.util.logging.XMLFormatter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.logging.XMLFormatter class java.util.logging.XMLFormatter}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link XMLFormatterClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XMLFormatter
+ * public class java.util.logging.XMLFormatter}.
  * </p>
  *
- * @see java.util.logging.XMLFormatter class java.util.logging.XMLFormatter (the hereby targeted class-under-test class)
- * @see XMLFormatterClassTests XMLFormatterClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.logging.XMLFormatterClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLFormatterTests<SUT extends java.util.logging.XMLFormatter>
-extends FormatterTests<SUT> {
+public abstract interface XMLFormatterTests<SUT extends XMLFormatter>
+extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.XMLFormatter]
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
-     * java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
-     *
-     * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
-     * java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
+     * Test method for the hereby targeted method-under-test {@link XMLFormatter#getTail(Handler) public
+     * java.lang.String java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
-     *      java.util.logging.XMLFormatter.getTail(java.util.logging.Handler) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,20 +59,15 @@ extends FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#getHead(java.util.logging.Handler) public java.lang.String
-     * java.util.logging.XMLFormatter.getHead(java.util.logging.Handler)}.
-     *
-     * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#getHead(java.util.logging.Handler) public java.lang.String
-     * java.util.logging.XMLFormatter.getHead(java.util.logging.Handler)}.
+     * Test method for the hereby targeted method-under-test {@link XMLFormatter#getHead(Handler) public
+     * java.lang.String java.util.logging.XMLFormatter.getHead(java.util.logging.Handler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.logging.XMLFormatter#getHead(java.util.logging.Handler) public java.lang.String
-     *      java.util.logging.XMLFormatter.getHead(java.util.logging.Handler) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,20 +82,15 @@ extends FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
-     * java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
-     *
-     * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
-     * java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
+     * Test method for the hereby targeted method-under-test {@link XMLFormatter#format(LogRecord) public
+     * java.lang.String java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
-     *      java.util.logging.XMLFormatter.format(java.util.logging.LogRecord) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -109,5 +102,7 @@ extends FormatterTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.XMLFormatter]
 
 }

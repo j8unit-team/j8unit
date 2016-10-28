@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.naming.ldap;
 
+import javax.naming.ldap.StartTlsResponse;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.SSLSocketFactory;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,70 +11,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.ldap.StartTlsResponse class
- * javax.naming.ldap.StartTlsResponse}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link StartTlsResponseClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link StartTlsResponse public abstract class javax.naming.ldap.StartTlsResponse}.
  * </p>
  *
- * @see javax.naming.ldap.StartTlsResponse class javax.naming.ldap.StartTlsResponse (the hereby targeted
- *      class-under-test class)
- * @see StartTlsResponseClassTests StartTlsResponseClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.ldap.StartTlsResponseClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StartTlsResponseTests<SUT extends javax.naming.ldap.StartTlsResponse>
-extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface StartTlsResponseTests<SUT extends StartTlsResponse>
+extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.StartTlsResponse]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#close() public abstract void
-     * javax.naming.ldap.StartTlsResponse.close() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#close() public abstract void
-     * javax.naming.ldap.StartTlsResponse.close() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link StartTlsResponse#setHostnameVerifier(HostnameVerifier) public abstract void
+     * javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#close() public abstract void javax.naming.ldap.StartTlsResponse.close()
-     *      throws java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setHostnameVerifier(javax.net.ssl.HostnameVerifier)
-     * public abstract void javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setHostnameVerifier(javax.net.ssl.HostnameVerifier)
-     * public abstract void javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.naming.ldap.StartTlsResponse#setHostnameVerifier(javax.net.ssl.HostnameVerifier) public abstract void
-     *      javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,21 +59,37 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setEnabledCipherSuites(String[]) public abstract void
-     * javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[])}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setEnabledCipherSuites(String[]) public abstract void
-     * javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#close() public abstract void
+     * javax.naming.ldap.StartTlsResponse.close() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#setEnabledCipherSuites(String[]) public abstract void
-     *      javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[]) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#setEnabledCipherSuites(String[])
+     * public abstract void javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -113,11 +103,7 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#getID() public java.lang.String
-     * javax.naming.ldap.StartTlsResponse.getID()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#getID() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#getID() public java.lang.String
      * javax.naming.ldap.StartTlsResponse.getID()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -125,8 +111,7 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#getID() public java.lang.String
-     *      javax.naming.ldap.StartTlsResponse.getID() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -141,26 +126,20 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#getEncodedValue() public byte[]
-     * javax.naming.ldap.StartTlsResponse.getEncodedValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#getEncodedValue() public byte[]
-     * javax.naming.ldap.StartTlsResponse.getEncodedValue()}.
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#negotiate() public abstract
+     * javax.net.ssl.SSLSession javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#getEncodedValue() public byte[]
-     *      javax.naming.ldap.StartTlsResponse.getEncodedValue() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getEncodedValue()
+    public default void test_negotiate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,12 +148,7 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate(javax.net.ssl.SSLSocketFactory) public
-     * abstract javax.net.ssl.SSLSession javax.naming.ldap.StartTlsResponse.negotiate(javax.net.ssl.SSLSocketFactory)
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate(javax.net.ssl.SSLSocketFactory) public
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#negotiate(SSLSocketFactory) public
      * abstract javax.net.ssl.SSLSession javax.naming.ldap.StartTlsResponse.negotiate(javax.net.ssl.SSLSocketFactory)
      * throws java.io.IOException}.
      *
@@ -183,9 +157,7 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#negotiate(javax.net.ssl.SSLSocketFactory) public abstract
-     *      javax.net.ssl.SSLSession javax.naming.ldap.StartTlsResponse.negotiate(javax.net.ssl.SSLSocketFactory) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,30 +171,27 @@ extends ExtendedResponseTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate() public abstract javax.net.ssl.SSLSession
-     * javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate() public abstract javax.net.ssl.SSLSession
-     * javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link StartTlsResponse#getEncodedValue() public byte[]
+     * javax.naming.ldap.StartTlsResponse.getEncodedValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.ldap.StartTlsResponse#negotiate() public abstract javax.net.ssl.SSLSession
-     *      javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_negotiate()
+    public default void test_getEncodedValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.StartTlsResponse]
 
 }

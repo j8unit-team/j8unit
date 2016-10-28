@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.text.spi;
 
+import java.text.spi.CollatorProvider;
+import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.text.spi.CollatorProvider class java.text.spi.CollatorProvider}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link CollatorProviderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CollatorProvider public abstract class java.text.spi.CollatorProvider}.
  * </p>
  *
- * @see java.text.spi.CollatorProvider class java.text.spi.CollatorProvider (the hereby targeted class-under-test class)
- * @see CollatorProviderClassTests CollatorProviderClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.text.spi.CollatorProviderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CollatorProviderTests<SUT extends java.text.spi.CollatorProvider>
+public abstract interface CollatorProviderTests<SUT extends CollatorProvider>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.spi.CollatorProvider]
 
     /**
      * <p>
-     * Test method for {@link java.text.spi.CollatorProvider#getInstance(java.util.Locale) public abstract
-     * java.text.Collator java.text.spi.CollatorProvider.getInstance(java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.text.spi.CollatorProvider#getInstance(java.util.Locale) public abstract
+     * Test method for the hereby targeted method-under-test {@link CollatorProvider#getInstance(Locale) public abstract
      * java.text.Collator java.text.spi.CollatorProvider.getInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.text.spi.CollatorProvider#getInstance(java.util.Locale) public abstract java.text.Collator
-     *      java.text.spi.CollatorProvider.getInstance(java.util.Locale) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,5 +54,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.spi.CollatorProvider]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.awt.print;
 
+import java.awt.print.Paper;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.print.Paper class java.awt.print.Paper}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link PaperClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Paper public
+ * class java.awt.print.Paper}.
  * </p>
  *
- * @see java.awt.print.Paper class java.awt.print.Paper (the hereby targeted class-under-test class)
- * @see PaperClassTests PaperClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.print.PaperClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PaperTests<SUT extends java.awt.print.Paper>
+public abstract interface PaperTests<SUT extends Paper>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.Paper]
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableWidth() public double
-     * java.awt.print.Paper.getImageableWidth()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableWidth() public double
+     * Test method for the hereby targeted method-under-test {@link Paper#getImageableWidth() public double
      * java.awt.print.Paper.getImageableWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getImageableWidth() public double java.awt.print.Paper.getImageableWidth() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,18 +56,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getWidth() public double java.awt.print.Paper.getWidth()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getWidth() public double java.awt.print.Paper.getWidth()}.
+     * Test method for the hereby targeted method-under-test {@link Paper#getWidth() public double
+     * java.awt.print.Paper.getWidth()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getWidth() public double java.awt.print.Paper.getWidth() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,18 +78,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#clone() public java.lang.Object java.awt.print.Paper.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#clone() public java.lang.Object java.awt.print.Paper.clone()}.
+     * Test method for the hereby targeted method-under-test {@link Paper#clone() public java.lang.Object
+     * java.awt.print.Paper.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#clone() public java.lang.Object java.awt.print.Paper.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,11 +100,8 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#setImageableArea(double, double, double, double) public void
-     * java.awt.print.Paper.setImageableArea(double,double,double,double)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#setImageableArea(double, double, double, double) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link Paper#setImageableArea(double, double, double, double) public void
      * java.awt.print.Paper.setImageableArea(double,double,double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -117,8 +109,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#setImageableArea(double, double, double, double) public void
-     *      java.awt.print.Paper.setImageableArea(double,double,double,double) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,18 +123,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableY() public double java.awt.print.Paper.getImageableY()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableY() public double java.awt.print.Paper.getImageableY()}.
+     * Test method for the hereby targeted method-under-test {@link Paper#getImageableY() public double
+     * java.awt.print.Paper.getImageableY()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getImageableY() public double java.awt.print.Paper.getImageableY() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,18 +145,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableX() public double java.awt.print.Paper.getImageableX()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableX() public double java.awt.print.Paper.getImageableX()}.
+     * Test method for the hereby targeted method-under-test {@link Paper#getImageableX() public double
+     * java.awt.print.Paper.getImageableX()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getImageableX() public double java.awt.print.Paper.getImageableX() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -182,18 +167,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getHeight() public double java.awt.print.Paper.getHeight()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getHeight() public double java.awt.print.Paper.getHeight()}.
+     * Test method for the hereby targeted method-under-test {@link Paper#getHeight() public double
+     * java.awt.print.Paper.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getHeight() public double java.awt.print.Paper.getHeight() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,11 +189,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#setSize(double, double) public void
-     * java.awt.print.Paper.setSize(double,double)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#setSize(double, double) public void
+     * Test method for the hereby targeted method-under-test {@link Paper#setSize(double, double) public void
      * java.awt.print.Paper.setSize(double,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -219,8 +197,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#setSize(double, double) public void java.awt.print.Paper.setSize(double,double) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,11 +211,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableHeight() public double
-     * java.awt.print.Paper.getImageableHeight()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.print.Paper#getImageableHeight() public double
+     * Test method for the hereby targeted method-under-test {@link Paper#getImageableHeight() public double
      * java.awt.print.Paper.getImageableHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -246,8 +219,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * methods soon.
      * </p>
      *
-     * @see java.awt.print.Paper#getImageableHeight() public double java.awt.print.Paper.getImageableHeight() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -258,5 +230,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.Paper]
 
 }

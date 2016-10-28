@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.sound.midi.spi;
 
+import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
+import javax.sound.midi.spi.MidiFileReader;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,45 +12,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sound.midi.spi.MidiFileReader class
- * javax.sound.midi.spi.MidiFileReader}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link MidiFileReaderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MidiFileReader
+ * public abstract class javax.sound.midi.spi.MidiFileReader}.
  * </p>
  *
- * @see javax.sound.midi.spi.MidiFileReader class javax.sound.midi.spi.MidiFileReader (the hereby targeted
- *      class-under-test class)
- * @see MidiFileReaderClassTests MidiFileReaderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sound.midi.spi.MidiFileReaderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MidiFileReaderTests<SUT extends javax.sound.midi.spi.MidiFileReader>
+public abstract interface MidiFileReaderTests<SUT extends MidiFileReader>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.spi.MidiFileReader]
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.File) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.File) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getMidiFileFormat(File) public
+     * abstract javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.File)
+     * throws javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.File) public abstract
-     *      javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.File) throws
-     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,13 +60,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.net.URL) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.net.URL) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.net.URL) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.net.URL) throws
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getMidiFileFormat(InputStream) public
+     * abstract javax.sound.midi.MidiFileFormat
+     * javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.InputStream) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -74,39 +70,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.net.URL) public abstract
-     *      javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.net.URL) throws
-     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMidiFileFormat_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.InputStream) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.InputStream) public abstract
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.sound.midi.spi.MidiFileReader#getMidiFileFormat(java.io.InputStream) public abstract
-     *      javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.io.InputStream)
-     *      throws javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -120,28 +84,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.File) public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.File) public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getMidiFileFormat(URL) public
+     * abstract javax.sound.midi.MidiFileFormat javax.sound.midi.spi.MidiFileReader.getMidiFileFormat(java.net.URL)
+     * throws javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.spi.MidiFileReader#getSequence(java.io.File) public abstract javax.sound.midi.Sequence
-     *      javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
-     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSequence_File()
+    public default void test_getMidiFileFormat_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,12 +107,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.net.URL) public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.net.URL) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.net.URL) public abstract
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getSequence(URL) public abstract
      * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.net.URL) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
@@ -164,9 +116,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.spi.MidiFileReader#getSequence(java.net.URL) public abstract javax.sound.midi.Sequence
-     *      javax.sound.midi.spi.MidiFileReader.getSequence(java.net.URL) throws
-     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -180,13 +130,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.InputStream) public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.InputStream) public abstract
-     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.InputStream) throws
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getSequence(InputStream) public
+     * abstract javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.InputStream) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -194,9 +139,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.spi.MidiFileReader#getSequence(java.io.InputStream) public abstract
-     *      javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.InputStream) throws
-     *      javax.sound.midi.InvalidMidiDataException,java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -207,5 +150,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MidiFileReader#getSequence(File) public abstract
+     * javax.sound.midi.Sequence javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSequence_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.spi.MidiFileReader]
 
 }

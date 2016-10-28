@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
+import javax.swing.DefaultBoundedRangeModel;
+import javax.swing.event.ChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.DefaultBoundedRangeModel class
- * javax.swing.DefaultBoundedRangeModel}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link DefaultBoundedRangeModelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link DefaultBoundedRangeModel public class javax.swing.DefaultBoundedRangeModel}.
  * </p>
  *
- * @see javax.swing.DefaultBoundedRangeModel class javax.swing.DefaultBoundedRangeModel (the hereby targeted
- *      class-under-test class)
- * @see DefaultBoundedRangeModelClassTests DefaultBoundedRangeModelClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.DefaultBoundedRangeModelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DefaultBoundedRangeModelTests<SUT extends javax.swing.DefaultBoundedRangeModel>
-extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface DefaultBoundedRangeModelTests<SUT extends DefaultBoundedRangeModel>
+extends org.j8unit.repository.javax.swing.BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultBoundedRangeModel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getValueIsAdjusting() public boolean
-     * javax.swing.DefaultBoundedRangeModel.getValueIsAdjusting()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getValueIsAdjusting() public boolean
-     * javax.swing.DefaultBoundedRangeModel.getValueIsAdjusting()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getValueIsAdjusting()
+     * public boolean javax.swing.DefaultBoundedRangeModel.getValueIsAdjusting()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getValueIsAdjusting() public boolean
-     *      javax.swing.DefaultBoundedRangeModel.getValueIsAdjusting() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +59,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setMinimum(int) public void
-     * javax.swing.DefaultBoundedRangeModel.setMinimum(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setMinimum(int) public void
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#setMinimum(int) public void
      * javax.swing.DefaultBoundedRangeModel.setMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +67,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setMinimum(int) public void
-     *      javax.swing.DefaultBoundedRangeModel.setMinimum(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,21 +82,16 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setRangeProperties(int, int, int, int, boolean)
-     * public void javax.swing.DefaultBoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setRangeProperties(int, int, int, int, boolean)
-     * public void javax.swing.DefaultBoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultBoundedRangeModel#setRangeProperties(int, int, int, int, boolean) public void
+     * javax.swing.DefaultBoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setRangeProperties(int, int, int, int, boolean) public void
-     *      javax.swing.DefaultBoundedRangeModel.setRangeProperties(int,int,int,int,boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,11 +106,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getMinimum() public int
-     * javax.swing.DefaultBoundedRangeModel.getMinimum()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getMinimum() public int
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getMinimum() public int
      * javax.swing.DefaultBoundedRangeModel.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,8 +114,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getMinimum() public int
-     *      javax.swing.DefaultBoundedRangeModel.getMinimum() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -143,11 +129,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setExtent(int) public void
-     * javax.swing.DefaultBoundedRangeModel.setExtent(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setExtent(int) public void
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#setExtent(int) public void
      * javax.swing.DefaultBoundedRangeModel.setExtent(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -155,8 +137,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setExtent(int) public void
-     *      javax.swing.DefaultBoundedRangeModel.setExtent(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -171,20 +152,15 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#toString() public java.lang.String
-     * javax.swing.DefaultBoundedRangeModel.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#toString() public java.lang.String
-     * javax.swing.DefaultBoundedRangeModel.toString()}.
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#toString() public
+     * java.lang.String javax.swing.DefaultBoundedRangeModel.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#toString() public java.lang.String
-     *      javax.swing.DefaultBoundedRangeModel.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -199,11 +175,8 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setValueIsAdjusting(boolean) public void
-     * javax.swing.DefaultBoundedRangeModel.setValueIsAdjusting(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setValueIsAdjusting(boolean) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultBoundedRangeModel#setValueIsAdjusting(boolean) public void
      * javax.swing.DefaultBoundedRangeModel.setValueIsAdjusting(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +184,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setValueIsAdjusting(boolean) public void
-     *      javax.swing.DefaultBoundedRangeModel.setValueIsAdjusting(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -227,11 +199,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setValue(int) public void
-     * javax.swing.DefaultBoundedRangeModel.setValue(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setValue(int) public void
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#setValue(int) public void
      * javax.swing.DefaultBoundedRangeModel.setValue(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -239,8 +207,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setValue(int) public void
-     *      javax.swing.DefaultBoundedRangeModel.setValue(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -255,11 +222,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getValue() public int
-     * javax.swing.DefaultBoundedRangeModel.getValue()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getValue() public int
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getValue() public int
      * javax.swing.DefaultBoundedRangeModel.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -267,8 +230,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getValue() public int javax.swing.DefaultBoundedRangeModel.getValue()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -283,13 +245,8 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultBoundedRangeModel#removeChangeListener(javax.swing.event.ChangeListener) public void
-     * javax.swing.DefaultBoundedRangeModel.removeChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.DefaultBoundedRangeModel#removeChangeListener(javax.swing.event.ChangeListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultBoundedRangeModel#removeChangeListener(ChangeListener) public void
      * javax.swing.DefaultBoundedRangeModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -297,9 +254,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#removeChangeListener(javax.swing.event.ChangeListener) public void
-     *      javax.swing.DefaultBoundedRangeModel.removeChangeListener(javax.swing.event.ChangeListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -314,11 +269,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getMaximum() public int
-     * javax.swing.DefaultBoundedRangeModel.getMaximum()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getMaximum() public int
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getMaximum() public int
      * javax.swing.DefaultBoundedRangeModel.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -326,8 +277,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getMaximum() public int
-     *      javax.swing.DefaultBoundedRangeModel.getMaximum() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -342,21 +292,16 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener)
-     * public void javax.swing.DefaultBoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener)
-     * public void javax.swing.DefaultBoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link DefaultBoundedRangeModel#addChangeListener(ChangeListener) public void
+     * javax.swing.DefaultBoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener) public void
-     *      javax.swing.DefaultBoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -371,11 +316,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setMaximum(int) public void
-     * javax.swing.DefaultBoundedRangeModel.setMaximum(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#setMaximum(int) public void
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#setMaximum(int) public void
      * javax.swing.DefaultBoundedRangeModel.setMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -383,8 +324,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#setMaximum(int) public void
-     *      javax.swing.DefaultBoundedRangeModel.setMaximum(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -399,11 +339,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getExtent() public int
-     * javax.swing.DefaultBoundedRangeModel.getExtent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getExtent() public int
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getExtent() public int
      * javax.swing.DefaultBoundedRangeModel.getExtent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -411,8 +347,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getExtent() public int javax.swing.DefaultBoundedRangeModel.getExtent()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -427,20 +362,15 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getListeners(Class) public <T> T[]
-     * javax.swing.DefaultBoundedRangeModel.getListeners(java.lang.Class<T>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getListeners(Class) public java.util.EventListener[]
-     * javax.swing.DefaultBoundedRangeModel.getListeners(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getListeners(Class) public
+     * <T> T[] javax.swing.DefaultBoundedRangeModel.getListeners(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getListeners(Class) public java.util.EventListener[]
-     *      javax.swing.DefaultBoundedRangeModel.getListeners(java.lang.Class) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -454,11 +384,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getChangeListeners() public
-     * javax.swing.event.ChangeListener[] javax.swing.DefaultBoundedRangeModel.getChangeListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.DefaultBoundedRangeModel#getChangeListeners() public
+     * Test method for the hereby targeted method-under-test {@link DefaultBoundedRangeModel#getChangeListeners() public
      * javax.swing.event.ChangeListener[] javax.swing.DefaultBoundedRangeModel.getChangeListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -466,8 +392,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
      * methods soon.
      * </p>
      *
-     * @see javax.swing.DefaultBoundedRangeModel#getChangeListeners() public javax.swing.event.ChangeListener[]
-     *      javax.swing.DefaultBoundedRangeModel.getChangeListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -478,5 +403,7 @@ extends BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableT
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultBoundedRangeModel]
 
 }

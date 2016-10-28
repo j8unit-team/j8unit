@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.rmi.server;
 
+import java.lang.reflect.Method;
+import java.rmi.server.RemoteObjectInvocationHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +10,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.server.RemoteObjectInvocationHandler class
- * java.rmi.server.RemoteObjectInvocationHandler}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RemoteObjectInvocationHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RemoteObjectInvocationHandler public class java.rmi.server.RemoteObjectInvocationHandler}.
  * </p>
  *
- * @see java.rmi.server.RemoteObjectInvocationHandler class java.rmi.server.RemoteObjectInvocationHandler (the hereby
- *      targeted class-under-test class)
- * @see RemoteObjectInvocationHandlerClassTests RemoteObjectInvocationHandlerClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.server.RemoteObjectInvocationHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RemoteObjectInvocationHandlerTests<SUT extends java.rmi.server.RemoteObjectInvocationHandler>
-extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, RemoteObjectTests<SUT> {
+public abstract interface RemoteObjectInvocationHandlerTests<SUT extends RemoteObjectInvocationHandler>
+extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.RemoteObjectInvocationHandler]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
-     * java.lang.Object
-     * java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
-     * throws java.lang.Throwable}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
-     * java.lang.Object
+     * Test method for the hereby targeted method-under-test
+     * {@link RemoteObjectInvocationHandler#invoke(Object, Method, Object[]) public java.lang.Object
      * java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * throws java.lang.Throwable}.
      *
@@ -48,10 +45,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, Rem
      * methods soon.
      * </p>
      *
-     * @see java.rmi.server.RemoteObjectInvocationHandler#invoke(Object, java.lang.reflect.Method, Object[]) public
-     *      java.lang.Object
-     *      java.rmi.server.RemoteObjectInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,java.lang.
-     *      Object[]) throws java.lang.Throwable (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -63,5 +57,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, Rem
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteObjectInvocationHandler]
 
 }

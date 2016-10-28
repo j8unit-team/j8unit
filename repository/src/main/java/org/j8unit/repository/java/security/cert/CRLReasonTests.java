@@ -1,26 +1,34 @@
 package org.j8unit.repository.java.security.cert;
 
+import java.security.cert.CRLReason;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.cert.CRLReason class java.security.cert.CRLReason}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link CRLReasonClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CRLReason
+ * public final enum java.security.cert.CRLReason}.
  * </p>
  *
- * @see java.security.cert.CRLReason class java.security.cert.CRLReason (the hereby targeted class-under-test class)
- * @see CRLReasonClassTests CRLReasonClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.cert.CRLReasonClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CRLReasonTests<SUT extends java.security.cert.CRLReason>
-extends org.j8unit.repository.java.lang.EnumTests<SUT, java.security.cert.CRLReason> {
+public abstract interface CRLReasonTests<SUT extends CRLReason>
+extends org.j8unit.repository.java.lang.EnumTests<SUT, CRLReason> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CRLReason]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CRLReason]
 
 }

@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.lang;
 
+import java.nio.charset.Charset;
+import java.util.Locale;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain String class java.lang.String}. The complementary j8unit test interface
- * containing the class relevant aspects is {@link StringClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link String public
+ * final class java.lang.String}.
  * </p>
  *
- * @see String class java.lang.String (the hereby targeted class-under-test class)
- * @see StringClassTests StringClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.StringClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringTests<SUT extends String>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SUT, String>, CharSequenceTests<SUT>, ObjectTests<SUT> {
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, String>,
+org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.String]
 
     /**
      * <p>
-     * Test method for {@link String#codePointCount(int, int) public int java.lang.String.codePointCount(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#codePointCount(int, int) public int java.lang.String.codePointCount(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#codePointCount(int, int) public int
+     * java.lang.String.codePointCount(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#codePointCount(int, int) public int java.lang.String.codePointCount(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,17 +58,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#hashCode() public int java.lang.String.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link String#hashCode() public int java.lang.String.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link String#hashCode() public int
+     * java.lang.String.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#hashCode() public int java.lang.String.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -78,20 +81,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#replaceFirst(String, String) public java.lang.String
-     * java.lang.String.replaceFirst(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#replaceFirst(String, String) public java.lang.String
-     * java.lang.String.replaceFirst(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#replaceFirst(String, String) public
+     * java.lang.String java.lang.String.replaceFirst(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#replaceFirst(String, String) public java.lang.String
-     *      java.lang.String.replaceFirst(java.lang.String,java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -105,47 +103,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#regionMatches(int, String, int, int) public boolean
-     * java.lang.String.regionMatches(int,java.lang.String,int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#regionMatches(int, String, int, int) public boolean
-     * java.lang.String.regionMatches(int,java.lang.String,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#regionMatches(boolean, int, String, int, int)
+     * public boolean java.lang.String.regionMatches(boolean,int,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#regionMatches(int, String, int, int) public boolean
-     *      java.lang.String.regionMatches(int,java.lang.String,int,int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_regionMatches_int_String_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#regionMatches(boolean, int, String, int, int) public boolean
-     * java.lang.String.regionMatches(boolean,int,java.lang.String,int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#regionMatches(boolean, int, String, int, int) public boolean
-     * java.lang.String.regionMatches(boolean,int,java.lang.String,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#regionMatches(boolean, int, String, int, int) public boolean
-     *      java.lang.String.regionMatches(boolean,int,java.lang.String,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -159,23 +125,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#substring(int) public java.lang.String java.lang.String.substring(int)}.
-     *
-     * <p>
-     * Test method for {@link String#substring(int) public java.lang.String java.lang.String.substring(int)}.
+     * Test method for the hereby targeted method-under-test {@link String#regionMatches(int, String, int, int) public
+     * boolean java.lang.String.regionMatches(int,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#substring(int) public java.lang.String java.lang.String.substring(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_substring_int()
+    public default void test_regionMatches_int_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,18 +147,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#substring(int, int) public java.lang.String java.lang.String.substring(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#substring(int, int) public java.lang.String java.lang.String.substring(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#substring(int, int) public java.lang.String
+     * java.lang.String.substring(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#substring(int, int) public java.lang.String java.lang.String.substring(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,20 +169,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#replaceAll(String, String) public java.lang.String
-     * java.lang.String.replaceAll(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#replaceAll(String, String) public java.lang.String
-     * java.lang.String.replaceAll(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#substring(int) public java.lang.String
+     * java.lang.String.substring(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#replaceAll(String, String) public java.lang.String
-     *      java.lang.String.replaceAll(java.lang.String,java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_substring_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#replaceAll(String, String) public
+     * java.lang.String java.lang.String.replaceAll(java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,18 +213,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#toString() public java.lang.String java.lang.String.toString()}.
-     *
-     * <p>
-     * Test method for {@link String#toString() public java.lang.String java.lang.String.toString()}.
+     * Test method for the hereby targeted method-under-test {@link String#toString() public java.lang.String
+     * java.lang.String.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#toString() public java.lang.String java.lang.String.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -262,45 +236,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#startsWith(String, int) public boolean
-     * java.lang.String.startsWith(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link String#startsWith(String, int) public boolean
-     * java.lang.String.startsWith(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#startsWith(String) public boolean
+     * java.lang.String.startsWith(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#startsWith(String, int) public boolean java.lang.String.startsWith(java.lang.String,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startsWith_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#startsWith(String) public boolean java.lang.String.startsWith(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#startsWith(String) public boolean java.lang.String.startsWith(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#startsWith(String) public boolean java.lang.String.startsWith(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -314,17 +258,59 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#charAt(int) public char java.lang.String.charAt(int)}.
-     *
-     * <p>
-     * Test method for {@link String#charAt(int) public char java.lang.String.charAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link String#startsWith(String, int) public boolean
+     * java.lang.String.startsWith(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#charAt(int) public char java.lang.String.charAt(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startsWith_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#offsetByCodePoints(int, int) public int
+     * java.lang.String.offsetByCodePoints(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_offsetByCodePoints_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#charAt(int) public char
+     * java.lang.String.charAt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -339,121 +325,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#offsetByCodePoints(int, int) public int
-     * java.lang.String.offsetByCodePoints(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#offsetByCodePoints(int, int) public int
-     * java.lang.String.offsetByCodePoints(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#lastIndexOf(int, int) public int
+     * java.lang.String.lastIndexOf(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#offsetByCodePoints(int, int) public int java.lang.String.offsetByCodePoints(int,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_offsetByCodePoints_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#lastIndexOf(int) public int java.lang.String.lastIndexOf(int)}.
-     *
-     * <p>
-     * Test method for {@link String#lastIndexOf(int) public int java.lang.String.lastIndexOf(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#lastIndexOf(int) public int java.lang.String.lastIndexOf(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastIndexOf_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#lastIndexOf(String) public int java.lang.String.lastIndexOf(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#lastIndexOf(String) public int java.lang.String.lastIndexOf(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#lastIndexOf(String) public int java.lang.String.lastIndexOf(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastIndexOf_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#lastIndexOf(String, int) public int
-     * java.lang.String.lastIndexOf(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link String#lastIndexOf(String, int) public int
-     * java.lang.String.lastIndexOf(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#lastIndexOf(String, int) public int java.lang.String.lastIndexOf(java.lang.String,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastIndexOf_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#lastIndexOf(int, int) public int java.lang.String.lastIndexOf(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#lastIndexOf(int, int) public int java.lang.String.lastIndexOf(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#lastIndexOf(int, int) public int java.lang.String.lastIndexOf(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -467,18 +347,81 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#equals(Object) public boolean java.lang.String.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link String#equals(Object) public boolean java.lang.String.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link String#lastIndexOf(String, int) public int
+     * java.lang.String.lastIndexOf(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#equals(Object) public boolean java.lang.String.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastIndexOf_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#lastIndexOf(String) public int
+     * java.lang.String.lastIndexOf(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastIndexOf_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#lastIndexOf(int) public int
+     * java.lang.String.lastIndexOf(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastIndexOf_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#equals(Object) public boolean
+     * java.lang.String.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -493,20 +436,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#subSequence(int, int) public java.lang.CharSequence
-     * java.lang.String.subSequence(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#subSequence(int, int) public java.lang.CharSequence
-     * java.lang.String.subSequence(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#subSequence(int, int) public
+     * java.lang.CharSequence java.lang.String.subSequence(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#subSequence(int, int) public java.lang.CharSequence java.lang.String.subSequence(int,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -521,41 +459,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#isEmpty() public boolean java.lang.String.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link String#isEmpty() public boolean java.lang.String.isEmpty()}.
+     * Test method for the hereby targeted method-under-test {@link String#length() public int
+     * java.lang.String.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#isEmpty() public boolean java.lang.String.isEmpty() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#length() public int java.lang.String.length()}.
-     *
-     * <p>
-     * Test method for {@link String#length() public int java.lang.String.length()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#length() public int java.lang.String.length() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -570,18 +482,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#intern() public native java.lang.String java.lang.String.intern()}.
-     *
-     * <p>
-     * Test method for {@link String#intern() public native java.lang.String java.lang.String.intern()}.
+     * Test method for the hereby targeted method-under-test {@link String#isEmpty() public boolean
+     * java.lang.String.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#intern() public native java.lang.String java.lang.String.intern() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#intern() public native java.lang.String
+     * java.lang.String.intern()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -595,38 +526,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#contentEquals(CharSequence) public boolean
-     * java.lang.String.contentEquals(java.lang.CharSequence)}.
-     *
-     * <p>
-     * Test method for {@link String#contentEquals(CharSequence) public boolean
-     * java.lang.String.contentEquals(java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#contentEquals(CharSequence) public boolean java.lang.String.contentEquals(java.lang.CharSequence)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_contentEquals_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#contentEquals(StringBuffer) public boolean
-     * java.lang.String.contentEquals(java.lang.StringBuffer)}.
-     *
-     * <p>
-     * Test method for {@link String#contentEquals(StringBuffer) public boolean
+     * Test method for the hereby targeted method-under-test {@link String#contentEquals(StringBuffer) public boolean
      * java.lang.String.contentEquals(java.lang.StringBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -634,8 +534,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#contentEquals(StringBuffer) public boolean java.lang.String.contentEquals(java.lang.StringBuffer)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -649,11 +548,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#getChars(int, int, char[], int) public void
-     * java.lang.String.getChars(int,int,char[],int)}.
+     * Test method for the hereby targeted method-under-test {@link String#contentEquals(CharSequence) public boolean
+     * java.lang.String.contentEquals(java.lang.CharSequence)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_contentEquals_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link String#getChars(int, int, char[], int) public void
+     * Test method for the hereby targeted method-under-test {@link String#getChars(int, int, char[], int) public void
      * java.lang.String.getChars(int,int,char[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -661,8 +578,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#getChars(int, int, char[], int) public void java.lang.String.getChars(int,int,char[],int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -676,36 +592,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#toUpperCase() public java.lang.String java.lang.String.toUpperCase()}.
-     *
-     * <p>
-     * Test method for {@link String#toUpperCase() public java.lang.String java.lang.String.toUpperCase()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#toUpperCase() public java.lang.String java.lang.String.toUpperCase() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toUpperCase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#toUpperCase(java.util.Locale) public java.lang.String
-     * java.lang.String.toUpperCase(java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link String#toUpperCase(java.util.Locale) public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link String#toUpperCase(Locale) public java.lang.String
      * java.lang.String.toUpperCase(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -713,8 +600,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#toUpperCase(java.util.Locale) public java.lang.String java.lang.String.toUpperCase(java.util.Locale)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -728,11 +614,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#compareToIgnoreCase(String) public int
-     * java.lang.String.compareToIgnoreCase(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#toUpperCase() public java.lang.String
+     * java.lang.String.toUpperCase()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toUpperCase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link String#compareToIgnoreCase(String) public int
+     * Test method for the hereby targeted method-under-test {@link String#compareToIgnoreCase(String) public int
      * java.lang.String.compareToIgnoreCase(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -740,8 +644,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#compareToIgnoreCase(String) public int java.lang.String.compareToIgnoreCase(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -755,92 +658,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#indexOf(String, int) public int java.lang.String.indexOf(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link String#indexOf(String, int) public int java.lang.String.indexOf(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link String#indexOf(int) public int
+     * java.lang.String.indexOf(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#indexOf(String, int) public int java.lang.String.indexOf(java.lang.String,int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_indexOf_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#indexOf(String) public int java.lang.String.indexOf(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#indexOf(String) public int java.lang.String.indexOf(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#indexOf(String) public int java.lang.String.indexOf(java.lang.String) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_indexOf_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#indexOf(int, int) public int java.lang.String.indexOf(int,int)}.
-     *
-     * <p>
-     * Test method for {@link String#indexOf(int, int) public int java.lang.String.indexOf(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#indexOf(int, int) public int java.lang.String.indexOf(int,int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_indexOf_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#indexOf(int) public int java.lang.String.indexOf(int)}.
-     *
-     * <p>
-     * Test method for {@link String#indexOf(int) public int java.lang.String.indexOf(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#indexOf(int) public int java.lang.String.indexOf(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -854,23 +680,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#codePointBefore(int) public int java.lang.String.codePointBefore(int)}.
-     *
-     * <p>
-     * Test method for {@link String#codePointBefore(int) public int java.lang.String.codePointBefore(int)}.
+     * Test method for the hereby targeted method-under-test {@link String#indexOf(int, int) public int
+     * java.lang.String.indexOf(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#codePointBefore(int) public int java.lang.String.codePointBefore(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_codePointBefore_int()
+    public default void test_indexOf_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -879,11 +702,51 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#equalsIgnoreCase(String) public boolean
-     * java.lang.String.equalsIgnoreCase(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#indexOf(String) public int
+     * java.lang.String.indexOf(java.lang.String)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOf_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link String#equalsIgnoreCase(String) public boolean
+     * Test method for the hereby targeted method-under-test {@link String#indexOf(String, int) public int
+     * java.lang.String.indexOf(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOf_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#equalsIgnoreCase(String) public boolean
      * java.lang.String.equalsIgnoreCase(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -891,8 +754,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#equalsIgnoreCase(String) public boolean java.lang.String.equalsIgnoreCase(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -906,23 +768,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#split(String) public java.lang.String[] java.lang.String.split(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#split(String) public java.lang.String[] java.lang.String.split(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#codePointBefore(int) public int
+     * java.lang.String.codePointBefore(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#split(String) public java.lang.String[] java.lang.String.split(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_split_String()
+    public default void test_codePointBefore_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -931,11 +790,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#split(String, int) public java.lang.String[]
-     * java.lang.String.split(java.lang.String,int)}.
-     *
-     * <p>
-     * Test method for {@link String#split(String, int) public java.lang.String[]
+     * Test method for the hereby targeted method-under-test {@link String#split(String, int) public java.lang.String[]
      * java.lang.String.split(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -943,8 +798,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#split(String, int) public java.lang.String[] java.lang.String.split(java.lang.String,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -958,17 +812,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#trim() public java.lang.String java.lang.String.trim()}.
-     *
-     * <p>
-     * Test method for {@link String#trim() public java.lang.String java.lang.String.trim()}.
+     * Test method for the hereby targeted method-under-test {@link String#split(String) public java.lang.String[]
+     * java.lang.String.split(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#trim() public java.lang.String java.lang.String.trim() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_split_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#trim() public java.lang.String
+     * java.lang.String.trim()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -982,18 +856,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#compareTo(String) public int java.lang.String.compareTo(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#compareTo(String) public int java.lang.String.compareTo(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#compareTo(String) public int
+     * java.lang.String.compareTo(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#compareTo(String) public int java.lang.String.compareTo(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1007,46 +878,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#replace(char, char) public java.lang.String java.lang.String.replace(char,char)}.
-     *
-     * <p>
-     * Test method for {@link String#replace(char, char) public java.lang.String java.lang.String.replace(char,char)}.
+     * Test method for the hereby targeted method-under-test {@link String#replace(CharSequence, CharSequence) public
+     * java.lang.String java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#replace(char, char) public java.lang.String java.lang.String.replace(char,char) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_char_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#replace(CharSequence, CharSequence) public java.lang.String
-     * java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence)}.
-     *
-     * <p>
-     * Test method for {@link String#replace(CharSequence, CharSequence) public java.lang.String
-     * java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#replace(CharSequence, CharSequence) public java.lang.String
-     *      java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1060,25 +900,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#getBytes(int, int, byte[], int) public void
-     * java.lang.String.getBytes(int,int,byte[],int)}.
-     *
-     * <p>
-     * Test method for {@link String#getBytes(int, int, byte[], int) public void
-     * java.lang.String.getBytes(int,int,byte[],int)}.
+     * Test method for the hereby targeted method-under-test {@link String#replace(char, char) public java.lang.String
+     * java.lang.String.replace(char,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#getBytes(int, int, byte[], int) public void java.lang.String.getBytes(int,int,byte[],int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBytes_int_int_byteArray_int()
+    public default void test_replace_char_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1087,71 +922,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#getBytes(java.nio.charset.Charset) public byte[]
-     * java.lang.String.getBytes(java.nio.charset.Charset)}.
-     *
-     * <p>
-     * Test method for {@link String#getBytes(java.nio.charset.Charset) public byte[]
-     * java.lang.String.getBytes(java.nio.charset.Charset)}.
+     * Test method for the hereby targeted method-under-test {@link String#getBytes() public byte[]
+     * java.lang.String.getBytes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#getBytes(java.nio.charset.Charset) public byte[] java.lang.String.getBytes(java.nio.charset.Charset)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBytes_Charset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#getBytes(String) public byte[] java.lang.String.getBytes(java.lang.String) throws
-     * java.io.UnsupportedEncodingException}.
-     *
-     * <p>
-     * Test method for {@link String#getBytes(String) public byte[] java.lang.String.getBytes(java.lang.String) throws
-     * java.io.UnsupportedEncodingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#getBytes(String) public byte[] java.lang.String.getBytes(java.lang.String) throws
-     *      java.io.UnsupportedEncodingException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBytes_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link String#getBytes() public byte[] java.lang.String.getBytes()}.
-     *
-     * <p>
-     * Test method for {@link String#getBytes() public byte[] java.lang.String.getBytes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#getBytes() public byte[] java.lang.String.getBytes() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1165,17 +944,81 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#toCharArray() public char[] java.lang.String.toCharArray()}.
-     *
-     * <p>
-     * Test method for {@link String#toCharArray() public char[] java.lang.String.toCharArray()}.
+     * Test method for the hereby targeted method-under-test {@link String#getBytes(String) public byte[]
+     * java.lang.String.getBytes(java.lang.String) throws java.io.UnsupportedEncodingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#toCharArray() public char[] java.lang.String.toCharArray() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBytes_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#getBytes(Charset) public byte[]
+     * java.lang.String.getBytes(java.nio.charset.Charset)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBytes_Charset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#getBytes(int, int, byte[], int) public void
+     * java.lang.String.getBytes(int,int,byte[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBytes_int_int_byteArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#toCharArray() public char[]
+     * java.lang.String.toCharArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1189,17 +1032,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#codePointAt(int) public int java.lang.String.codePointAt(int)}.
-     *
-     * <p>
-     * Test method for {@link String#codePointAt(int) public int java.lang.String.codePointAt(int)}.
+     * Test method for the hereby targeted method-under-test {@link String#codePointAt(int) public int
+     * java.lang.String.codePointAt(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#codePointAt(int) public int java.lang.String.codePointAt(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1213,18 +1054,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#endsWith(String) public boolean java.lang.String.endsWith(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#endsWith(String) public boolean java.lang.String.endsWith(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#endsWith(String) public boolean
+     * java.lang.String.endsWith(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#endsWith(String) public boolean java.lang.String.endsWith(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1238,11 +1076,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#contains(CharSequence) public boolean
-     * java.lang.String.contains(java.lang.CharSequence)}.
-     *
-     * <p>
-     * Test method for {@link String#contains(CharSequence) public boolean
+     * Test method for the hereby targeted method-under-test {@link String#contains(CharSequence) public boolean
      * java.lang.String.contains(java.lang.CharSequence)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1250,8 +1084,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#contains(CharSequence) public boolean java.lang.String.contains(java.lang.CharSequence) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1265,18 +1098,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#concat(String) public java.lang.String java.lang.String.concat(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#concat(String) public java.lang.String java.lang.String.concat(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#concat(String) public java.lang.String
+     * java.lang.String.concat(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#concat(String) public java.lang.String java.lang.String.concat(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1290,18 +1120,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#matches(String) public boolean java.lang.String.matches(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link String#matches(String) public boolean java.lang.String.matches(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link String#matches(String) public boolean
+     * java.lang.String.matches(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see String#matches(String) public boolean java.lang.String.matches(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1315,11 +1142,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
 
     /**
      * <p>
-     * Test method for {@link String#toLowerCase(java.util.Locale) public java.lang.String
-     * java.lang.String.toLowerCase(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link String#toLowerCase() public java.lang.String
+     * java.lang.String.toLowerCase()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toLowerCase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link String#toLowerCase(java.util.Locale) public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link String#toLowerCase(Locale) public java.lang.String
      * java.lang.String.toLowerCase(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1327,8 +1172,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
      * methods soon.
      * </p>
      *
-     * @see String#toLowerCase(java.util.Locale) public java.lang.String java.lang.String.toLowerCase(java.util.Locale)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1340,29 +1184,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, ComparableTests<SU
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link String#toLowerCase() public java.lang.String java.lang.String.toLowerCase()}.
-     *
-     * <p>
-     * Test method for {@link String#toLowerCase() public java.lang.String java.lang.String.toLowerCase()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see String#toLowerCase() public java.lang.String java.lang.String.toLowerCase() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toLowerCase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.String]
 
 }

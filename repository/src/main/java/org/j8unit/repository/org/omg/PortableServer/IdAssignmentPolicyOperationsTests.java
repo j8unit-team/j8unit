@@ -5,36 +5,36 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.PortableServer.IdAssignmentPolicyOperations;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableServer.IdAssignmentPolicyOperations interface
- * org.omg.PortableServer.IdAssignmentPolicyOperations}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link IdAssignmentPolicyOperationsClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link IdAssignmentPolicyOperations public abstract interface org.omg.PortableServer.IdAssignmentPolicyOperations}.
  * </p>
  *
- * @see org.omg.PortableServer.IdAssignmentPolicyOperations interface
- *      org.omg.PortableServer.IdAssignmentPolicyOperations (the hereby targeted class-under-test class)
- * @see IdAssignmentPolicyOperationsClassTests IdAssignmentPolicyOperationsClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyOperationsClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface IdAssignmentPolicyOperationsTests<SUT extends org.omg.PortableServer.IdAssignmentPolicyOperations>
+public abstract interface IdAssignmentPolicyOperationsTests<SUT extends IdAssignmentPolicyOperations>
 extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.IdAssignmentPolicyOperations]
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.IdAssignmentPolicyOperations#value() public abstract
-     * org.omg.PortableServer.IdAssignmentPolicyValue org.omg.PortableServer.IdAssignmentPolicyOperations.value()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.PortableServer.IdAssignmentPolicyOperations#value() public abstract
+     * Test method for the hereby targeted method-under-test {@link IdAssignmentPolicyOperations#value() public abstract
      * org.omg.PortableServer.IdAssignmentPolicyValue org.omg.PortableServer.IdAssignmentPolicyOperations.value()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +42,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.PortableServer.IdAssignmentPolicyOperations#value() public abstract
-     *      org.omg.PortableServer.IdAssignmentPolicyValue org.omg.PortableServer.IdAssignmentPolicyOperations.value()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,5 +53,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.IdAssignmentPolicyOperations]
 
 }

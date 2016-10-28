@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.security;
 
+import java.security.PKCS12Attribute;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.PKCS12Attribute class java.security.PKCS12Attribute}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PKCS12AttributeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PKCS12Attribute
+ * public final class java.security.PKCS12Attribute}.
  * </p>
  *
- * @see java.security.PKCS12Attribute class java.security.PKCS12Attribute (the hereby targeted class-under-test class)
- * @see PKCS12AttributeClassTests PKCS12AttributeClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.PKCS12AttributeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PKCS12AttributeTests<SUT extends java.security.PKCS12Attribute>
-extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface PKCS12AttributeTests<SUT extends PKCS12Attribute>
+extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.PKCS12Attribute]
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#toString() public java.lang.String
-     * java.security.PKCS12Attribute.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#toString() public java.lang.String
      * java.security.PKCS12Attribute.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
      * methods soon.
      * </p>
      *
-     * @see java.security.PKCS12Attribute#toString() public java.lang.String java.security.PKCS12Attribute.toString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,11 +57,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getName() public java.lang.String
-     * java.security.PKCS12Attribute.getName()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getName() public java.lang.String
      * java.security.PKCS12Attribute.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +65,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
      * methods soon.
      * </p>
      *
-     * @see java.security.PKCS12Attribute#getName() public java.lang.String java.security.PKCS12Attribute.getName() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +80,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getValue() public java.lang.String
-     * java.security.PKCS12Attribute.getValue()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getValue() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getValue() public java.lang.String
      * java.security.PKCS12Attribute.getValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +88,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
      * methods soon.
      * </p>
      *
-     * @see java.security.PKCS12Attribute#getValue() public java.lang.String java.security.PKCS12Attribute.getValue()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,11 +103,29 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#hashCode() public int
-     * java.security.PKCS12Attribute.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#getEncoded() public byte[]
+     * java.security.PKCS12Attribute.getEncoded()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#hashCode() public int
      * java.security.PKCS12Attribute.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +133,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
      * methods soon.
      * </p>
      *
-     * @see java.security.PKCS12Attribute#hashCode() public int java.security.PKCS12Attribute.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,38 +148,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getEncoded() public byte[]
-     * java.security.PKCS12Attribute.getEncoded()}.
-     *
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getEncoded() public byte[]
-     * java.security.PKCS12Attribute.getEncoded()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.security.PKCS12Attribute#getEncoded() public byte[] java.security.PKCS12Attribute.getEncoded() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#equals(Object) public boolean
-     * java.security.PKCS12Attribute.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link PKCS12Attribute#equals(Object) public boolean
      * java.security.PKCS12Attribute.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +156,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
      * methods soon.
      * </p>
      *
-     * @see java.security.PKCS12Attribute#equals(Object) public boolean
-     *      java.security.PKCS12Attribute.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -192,5 +168,7 @@ extends KeyStoreTests.EntryTests.AttributeTests<SUT>, org.j8unit.repository.java
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PKCS12Attribute]
 
 }

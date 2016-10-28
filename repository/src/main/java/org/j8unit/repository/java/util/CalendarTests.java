@@ -1,5 +1,10 @@
 package org.j8unit.repository.java.util;
 
+import java.util.Calendar;
+import java.util.Calendar.Builder;
+import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +13,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.Calendar class java.util.Calendar}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link CalendarClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Calendar public
+ * abstract class java.util.Calendar}.
  * </p>
  *
- * @see java.util.Calendar class java.util.Calendar (the hereby targeted class-under-test class)
- * @see CalendarClassTests CalendarClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.CalendarClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CalendarTests<SUT extends java.util.Calendar>
+public abstract interface CalendarTests<SUT extends Calendar>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+org.j8unit.repository.java.lang.ComparableTests<SUT, Calendar>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Calendar]
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#get(int) public int java.util.Calendar.get(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#get(int) public int java.util.Calendar.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#get(int) public int
+     * java.util.Calendar.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#get(int) public int java.util.Calendar.get(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,18 +61,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#hashCode() public int java.util.Calendar.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#hashCode() public int java.util.Calendar.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#hashCode() public int
+     * java.util.Calendar.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#hashCode() public int java.util.Calendar.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -79,38 +84,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getActualMaximum(int) public int
-     * java.util.Calendar.getActualMaximum(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getActualMaximum(int) public int
-     * java.util.Calendar.getActualMaximum(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#getActualMaximum(int) public int java.util.Calendar.getActualMaximum(int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActualMaximum_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#getWeeksInWeekYear() public int
-     * java.util.Calendar.getWeeksInWeekYear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getWeeksInWeekYear() public int
+     * Test method for the hereby targeted method-under-test {@link Calendar#getWeeksInWeekYear() public int
      * java.util.Calendar.getWeeksInWeekYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -118,8 +92,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getWeeksInWeekYear() public int java.util.Calendar.getWeeksInWeekYear() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,11 +106,29 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#after(Object) public boolean
-     * java.util.Calendar.after(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getActualMaximum(int) public int
+     * java.util.Calendar.getActualMaximum(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getActualMaximum_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.Calendar#after(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link Calendar#after(Object) public boolean
      * java.util.Calendar.after(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +136,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#after(Object) public boolean java.util.Calendar.after(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,47 +150,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#setTimeZone(java.util.TimeZone) public void
-     * java.util.Calendar.setTimeZone(java.util.TimeZone)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setTimeZone(java.util.TimeZone) public void
-     * java.util.Calendar.setTimeZone(java.util.TimeZone)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getMinimum(int) public abstract int
+     * java.util.Calendar.getMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setTimeZone(java.util.TimeZone) public void
-     *      java.util.Calendar.setTimeZone(java.util.TimeZone) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTimeZone_TimeZone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#getMinimum(int) public abstract int java.util.Calendar.getMinimum(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getMinimum(int) public abstract int java.util.Calendar.getMinimum(int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#getMinimum(int) public abstract int java.util.Calendar.getMinimum(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -214,11 +172,29 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#setTime(java.util.Date) public final void
-     * java.util.Calendar.setTime(java.util.Date)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#setTimeZone(TimeZone) public void
+     * java.util.Calendar.setTimeZone(java.util.TimeZone)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTimeZone_TimeZone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.Calendar#setTime(java.util.Date) public final void
+     * Test method for the hereby targeted method-under-test {@link Calendar#setTime(Date) public final void
      * java.util.Calendar.setTime(java.util.Date)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,8 +202,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setTime(java.util.Date) public final void java.util.Calendar.setTime(java.util.Date) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,20 +216,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getDisplayNames(int, int, java.util.Locale) public
+     * Test method for the hereby targeted method-under-test {@link Calendar#getDisplayNames(int, int, Locale) public
      * java.util.Map<java.lang.String, java.lang.Integer> java.util.Calendar.getDisplayNames(int,int,java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getDisplayNames(int, int, java.util.Locale) public java.util.Map
-     * java.util.Calendar.getDisplayNames(int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getDisplayNames(int, int, java.util.Locale) public java.util.Map
-     *      java.util.Calendar.getDisplayNames(int,int,java.util.Locale) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,11 +238,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getMinimalDaysInFirstWeek() public int
-     * java.util.Calendar.getMinimalDaysInFirstWeek()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getMinimalDaysInFirstWeek() public int
+     * Test method for the hereby targeted method-under-test {@link Calendar#getMinimalDaysInFirstWeek() public int
      * java.util.Calendar.getMinimalDaysInFirstWeek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -280,8 +246,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getMinimalDaysInFirstWeek() public int java.util.Calendar.getMinimalDaysInFirstWeek()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -295,43 +260,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getTime() public final java.util.Date java.util.Calendar.getTime()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getTime() public final java.util.Date java.util.Calendar.getTime()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#isLenient() public boolean
+     * java.util.Calendar.isLenient()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getTime() public final java.util.Date java.util.Calendar.getTime() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#isLenient() public boolean java.util.Calendar.isLenient()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#isLenient() public boolean java.util.Calendar.isLenient()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#isLenient() public boolean java.util.Calendar.isLenient() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -345,25 +282,20 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#before(Object) public boolean
-     * java.util.Calendar.before(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#before(Object) public boolean
-     * java.util.Calendar.before(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getTime() public final java.util.Date
+     * java.util.Calendar.getTime()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#before(Object) public boolean java.util.Calendar.before(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_before_Object()
+    public default void test_getTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -372,45 +304,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getTimeZone() public java.util.TimeZone
-     * java.util.Calendar.getTimeZone()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getTimeZone() public java.util.TimeZone
-     * java.util.Calendar.getTimeZone()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getWeekYear() public int
+     * java.util.Calendar.getWeekYear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getTimeZone() public java.util.TimeZone java.util.Calendar.getTimeZone() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTimeZone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#getWeekYear() public int java.util.Calendar.getWeekYear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getWeekYear() public int java.util.Calendar.getWeekYear()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#getWeekYear() public int java.util.Calendar.getWeekYear() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -424,11 +326,51 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getGreatestMinimum(int) public abstract int
-     * java.util.Calendar.getGreatestMinimum(int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getTimeZone() public java.util.TimeZone
+     * java.util.Calendar.getTimeZone()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTimeZone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.Calendar#getGreatestMinimum(int) public abstract int
+     * Test method for the hereby targeted method-under-test {@link Calendar#before(Object) public boolean
+     * java.util.Calendar.before(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_before_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#getGreatestMinimum(int) public abstract int
      * java.util.Calendar.getGreatestMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -436,8 +378,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getGreatestMinimum(int) public abstract int java.util.Calendar.getGreatestMinimum(int)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -451,11 +392,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#compareTo(java.util.Calendar) public int
-     * java.util.Calendar.compareTo(java.util.Calendar)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#compareTo(java.util.Calendar) public int
+     * Test method for the hereby targeted method-under-test {@link Calendar#compareTo(Calendar) public int
      * java.util.Calendar.compareTo(java.util.Calendar)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -463,8 +400,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#compareTo(java.util.Calendar) public int java.util.Calendar.compareTo(java.util.Calendar)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -478,11 +414,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#setMinimalDaysInFirstWeek(int) public void
-     * java.util.Calendar.setMinimalDaysInFirstWeek(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setMinimalDaysInFirstWeek(int) public void
+     * Test method for the hereby targeted method-under-test {@link Calendar#setMinimalDaysInFirstWeek(int) public void
      * java.util.Calendar.setMinimalDaysInFirstWeek(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -490,8 +422,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setMinimalDaysInFirstWeek(int) public void
-     *      java.util.Calendar.setMinimalDaysInFirstWeek(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -505,11 +436,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#roll(int, boolean) public abstract void
-     * java.util.Calendar.roll(int,boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#roll(int, boolean) public abstract void
+     * Test method for the hereby targeted method-under-test {@link Calendar#roll(int, boolean) public abstract void
      * java.util.Calendar.roll(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -517,8 +444,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#roll(int, boolean) public abstract void java.util.Calendar.roll(int,boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -532,18 +458,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#roll(int, int) public void java.util.Calendar.roll(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#roll(int, int) public void java.util.Calendar.roll(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#roll(int, int) public void
+     * java.util.Calendar.roll(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#roll(int, int) public void java.util.Calendar.roll(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -557,20 +480,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#setLenient(boolean) public void java.util.Calendar.setLenient(boolean)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setLenient(boolean) public void java.util.Calendar.setLenient(boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link Calendar#setLenient(boolean) public void
+     * java.util.Calendar.setLenient(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setLenient(boolean) public void java.util.Calendar.setLenient(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -584,20 +502,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getMaximum(int) public abstract int java.util.Calendar.getMaximum(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getMaximum(int) public abstract int java.util.Calendar.getMaximum(int)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link Calendar#getMaximum(int) public abstract int
+     * java.util.Calendar.getMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getMaximum(int) public abstract int java.util.Calendar.getMaximum(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -611,11 +524,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#isWeekDateSupported() public boolean
-     * java.util.Calendar.isWeekDateSupported()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#isWeekDateSupported() public boolean
+     * Test method for the hereby targeted method-under-test {@link Calendar#isWeekDateSupported() public boolean
      * java.util.Calendar.isWeekDateSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -623,8 +532,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#isWeekDateSupported() public boolean java.util.Calendar.isWeekDateSupported() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -638,11 +546,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#equals(Object) public boolean
-     * java.util.Calendar.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link Calendar#equals(Object) public boolean
      * java.util.Calendar.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -650,8 +554,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#equals(Object) public boolean java.util.Calendar.equals(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -666,65 +569,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getDisplayName(int, int, java.util.Locale) public java.lang.String
-     * java.util.Calendar.getDisplayName(int,int,java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getDisplayName(int, int, java.util.Locale) public java.lang.String
-     * java.util.Calendar.getDisplayName(int,int,java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#getDisplayName(int, int, java.util.Locale) public java.lang.String
-     *      java.util.Calendar.getDisplayName(int,int,java.util.Locale) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayName_int_int_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#setTimeInMillis(long) public void
-     * java.util.Calendar.setTimeInMillis(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setTimeInMillis(long) public void
-     * java.util.Calendar.setTimeInMillis(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#setTimeInMillis(long) public void java.util.Calendar.setTimeInMillis(long) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTimeInMillis_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#setWeekDate(int, int, int) public void
-     * java.util.Calendar.setWeekDate(int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setWeekDate(int, int, int) public void
+     * Test method for the hereby targeted method-under-test {@link Calendar#setWeekDate(int, int, int) public void
      * java.util.Calendar.setWeekDate(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -732,8 +577,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setWeekDate(int, int, int) public void java.util.Calendar.setWeekDate(int,int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -747,18 +591,59 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getFirstDayOfWeek() public int java.util.Calendar.getFirstDayOfWeek()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getFirstDayOfWeek() public int java.util.Calendar.getFirstDayOfWeek()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#setTimeInMillis(long) public void
+     * java.util.Calendar.setTimeInMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getFirstDayOfWeek() public int java.util.Calendar.getFirstDayOfWeek() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTimeInMillis_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#getDisplayName(int, int, Locale) public
+     * java.lang.String java.util.Calendar.getDisplayName(int,int,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayName_int_int_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#getFirstDayOfWeek() public int
+     * java.util.Calendar.getFirstDayOfWeek()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -772,18 +657,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#toString() public java.lang.String java.util.Calendar.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#toString() public java.lang.String java.util.Calendar.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#toString() public java.lang.String
+     * java.util.Calendar.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#toString() public java.lang.String java.util.Calendar.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -798,18 +680,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#clone() public java.lang.Object java.util.Calendar.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#clone() public java.lang.Object java.util.Calendar.clone()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#clone() public java.lang.Object
+     * java.util.Calendar.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#clone() public java.lang.Object java.util.Calendar.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -823,117 +702,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int) public final void
-     * java.util.Calendar.set(int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int) public final void
-     * java.util.Calendar.set(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#set(int, int, int) public final void java.util.Calendar.set(int,int,int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int, int, int, int) public final void
-     * java.util.Calendar.set(int,int,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int, int, int, int) public final void
-     * java.util.Calendar.set(int,int,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#set(int, int, int, int, int, int) public final void
-     *      java.util.Calendar.set(int,int,int,int,int,int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int, int, int) public final void
-     * java.util.Calendar.set(int,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int, int, int, int) public final void
-     * java.util.Calendar.set(int,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#set(int, int, int, int, int) public final void
-     *      java.util.Calendar.set(int,int,int,int,int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int) public void java.util.Calendar.set(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#set(int, int) public void java.util.Calendar.set(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#set(int, int) public void java.util.Calendar.set(int,int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#getCalendarType() public java.lang.String
-     * java.util.Calendar.getCalendarType()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getCalendarType() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link Calendar#getCalendarType() public java.lang.String
      * java.util.Calendar.getCalendarType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -941,8 +710,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getCalendarType() public java.lang.String java.util.Calendar.getCalendarType() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -956,18 +724,103 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#add(int, int) public abstract void java.util.Calendar.add(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#add(int, int) public abstract void java.util.Calendar.add(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#set(int, int, int, int, int, int) public
+     * final void java.util.Calendar.set(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#add(int, int) public abstract void java.util.Calendar.add(int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#set(int, int, int, int, int) public final
+     * void java.util.Calendar.set(int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#set(int, int) public void
+     * java.util.Calendar.set(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#set(int, int, int) public final void
+     * java.util.Calendar.set(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#add(int, int) public abstract void
+     * java.util.Calendar.add(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -981,11 +834,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getLeastMaximum(int) public abstract int
-     * java.util.Calendar.getLeastMaximum(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getLeastMaximum(int) public abstract int
+     * Test method for the hereby targeted method-under-test {@link Calendar#getLeastMaximum(int) public abstract int
      * java.util.Calendar.getLeastMaximum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -993,8 +842,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getLeastMaximum(int) public abstract int java.util.Calendar.getLeastMaximum(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1008,18 +856,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#isSet(int) public final boolean java.util.Calendar.isSet(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#isSet(int) public final boolean java.util.Calendar.isSet(int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#isSet(int) public final boolean
+     * java.util.Calendar.isSet(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#isSet(int) public final boolean java.util.Calendar.isSet(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1033,11 +878,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#setFirstDayOfWeek(int) public void
-     * java.util.Calendar.setFirstDayOfWeek(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#setFirstDayOfWeek(int) public void
+     * Test method for the hereby targeted method-under-test {@link Calendar#setFirstDayOfWeek(int) public void
      * java.util.Calendar.setFirstDayOfWeek(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1045,8 +886,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#setFirstDayOfWeek(int) public void java.util.Calendar.setFirstDayOfWeek(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1060,68 +900,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#clear(int) public final void java.util.Calendar.clear(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#clear(int) public final void java.util.Calendar.clear(int)}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#getTimeInMillis() public long
+     * java.util.Calendar.getTimeInMillis()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#clear(int) public final void java.util.Calendar.clear(int) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clear_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#clear() public final void java.util.Calendar.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#clear() public final void java.util.Calendar.clear()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#clear() public final void java.util.Calendar.clear() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Calendar#getTimeInMillis() public long java.util.Calendar.getTimeInMillis()}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getTimeInMillis() public long java.util.Calendar.getTimeInMillis()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.Calendar#getTimeInMillis() public long java.util.Calendar.getTimeInMillis() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1135,11 +922,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getActualMinimum(int) public int
-     * java.util.Calendar.getActualMinimum(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.Calendar#getActualMinimum(int) public int
+     * Test method for the hereby targeted method-under-test {@link Calendar#getActualMinimum(int) public int
      * java.util.Calendar.getActualMinimum(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1147,8 +930,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#getActualMinimum(int) public int java.util.Calendar.getActualMinimum(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1162,11 +944,51 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#toInstant() public final java.time.Instant
-     * java.util.Calendar.toInstant()}.
+     * Test method for the hereby targeted method-under-test {@link Calendar#clear(int) public final void
+     * java.util.Calendar.clear(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clear_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.Calendar#toInstant() public final java.time.Instant
+     * Test method for the hereby targeted method-under-test {@link Calendar#clear() public final void
+     * java.util.Calendar.clear()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Calendar#toInstant() public final java.time.Instant
      * java.util.Calendar.toInstant()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1174,8 +996,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
      * methods soon.
      * </p>
      *
-     * @see java.util.Calendar#toInstant() public final java.time.Instant java.util.Calendar.toInstant() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1187,43 +1008,44 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Calendar]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.util.Calendar.Builder class java.util.Calendar$Builder}. The
-     * complementary j8unit test interface containing the class relevant aspects is
-     * {@link CalendarClassTests.BuilderClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Builder
+     * public static class java.util.Calendar$Builder}.
      * </p>
      *
-     * @see java.util.Calendar.Builder class java.util.Calendar$Builder (the hereby targeted class-under-test class)
-     * @see CalendarClassTests.BuilderClassTests CalendarClassTests.BuilderClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.CalendarClassTests.BuilderClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface BuilderTests<SUT extends java.util.Calendar.Builder>
+    public static abstract interface BuilderTests<SUT extends Builder>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Calendar$Builder]
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#set(int, int) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.set(int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#set(int, int) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.set(int,int)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#set(int, int) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.set(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#set(int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.set(int,int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1237,20 +1059,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setFields(int...) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setFields(int...)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setFields(int...) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setFields(int...)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setFields(int...) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setFields(int...)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setFields(int...) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setFields(int[]) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1264,11 +1081,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setWeekDefinition(int, int) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setWeekDefinition(int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setWeekDefinition(int, int) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setWeekDefinition(int, int) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setWeekDefinition(int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1276,8 +1089,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setWeekDefinition(int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setWeekDefinition(int,int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1291,20 +1103,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setLenient(boolean) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setLenient(boolean)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setLenient(boolean) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setLenient(boolean)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setLenient(boolean) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setLenient(boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setLenient(boolean) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setLenient(boolean) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1318,20 +1125,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setCalendarType(String) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setCalendarType(java.lang.String)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setCalendarType(String) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setCalendarType(java.lang.String)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setCalendarType(String) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setCalendarType(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setCalendarType(String) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setCalendarType(java.lang.String) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1345,11 +1147,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setInstant(java.util.Date) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setInstant(java.util.Date)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setInstant(java.util.Date) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setInstant(Date) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setInstant(java.util.Date)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1357,8 +1155,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setInstant(java.util.Date) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setInstant(java.util.Date) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1372,20 +1169,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setInstant(long) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setInstant(long)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setInstant(long) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setInstant(long)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setInstant(long) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setInstant(long)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setInstant(long) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setInstant(long) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1399,11 +1191,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setWeekDate(int, int, int) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setWeekDate(int,int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setWeekDate(int, int, int) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setWeekDate(int, int, int) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setWeekDate(int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1411,8 +1199,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setWeekDate(int, int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setWeekDate(int,int,int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1426,11 +1213,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#build() public java.util.Calendar
-         * java.util.Calendar$Builder.build()}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#build() public java.util.Calendar
+         * Test method for the hereby targeted method-under-test {@link Builder#build() public java.util.Calendar
          * java.util.Calendar$Builder.build()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1438,8 +1221,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#build() public java.util.Calendar java.util.Calendar$Builder.build() (the
-         *      hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1453,20 +1235,15 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setDate(int, int, int) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setDate(int,int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setDate(int, int, int) public java.util.Calendar$Builder
-         * java.util.Calendar$Builder.setDate(int,int,int)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setDate(int, int, int) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setDate(int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setDate(int, int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setDate(int,int,int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1480,11 +1257,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeZone(java.util.TimeZone) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeZone(java.util.TimeZone)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeZone(java.util.TimeZone) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setTimeZone(TimeZone) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeZone(java.util.TimeZone)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1492,8 +1265,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setTimeZone(java.util.TimeZone) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setTimeZone(java.util.TimeZone) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1507,38 +1279,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeOfDay(int, int, int, int) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeOfDay(int,int,int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeOfDay(int, int, int, int) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeOfDay(int,int,int,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @see java.util.Calendar.Builder#setTimeOfDay(int, int, int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setTimeOfDay(int,int,int,int) (the hereby targeted method-under-test)
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setTimeOfDay_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeOfDay(int, int, int) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeOfDay(int,int,int)}.
-         *
-         * <p>
-         * Test method for {@link java.util.Calendar.Builder#setTimeOfDay(int, int, int) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setTimeOfDay(int, int, int) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeOfDay(int,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1546,8 +1287,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setTimeOfDay(int, int, int) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setTimeOfDay(int,int,int) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1561,11 +1301,29 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
 
         /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setLocale(java.util.Locale) public
-         * java.util.Calendar$Builder java.util.Calendar$Builder.setLocale(java.util.Locale)}.
+         * Test method for the hereby targeted method-under-test {@link Builder#setTimeOfDay(int, int, int, int) public
+         * java.util.Calendar$Builder java.util.Calendar$Builder.setTimeOfDay(int,int,int,int)}.
          *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setTimeOfDay_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
          * <p>
-         * Test method for {@link java.util.Calendar.Builder#setLocale(java.util.Locale) public
+         * Test method for the hereby targeted method-under-test {@link Builder#setLocale(Locale) public
          * java.util.Calendar$Builder java.util.Calendar$Builder.setLocale(java.util.Locale)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -1573,8 +1331,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
          * test methods soon.
          * </p>
          *
-         * @see java.util.Calendar.Builder#setLocale(java.util.Locale) public java.util.Calendar$Builder
-         *      java.util.Calendar$Builder.setLocale(java.util.Locale) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -1585,6 +1342,8 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, java.util.Calendar>, org.j8
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Calendar$Builder]
 
     }
 

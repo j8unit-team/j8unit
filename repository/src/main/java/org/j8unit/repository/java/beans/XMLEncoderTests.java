@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.Expression;
+import java.beans.Statement;
+import java.beans.XMLEncoder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +11,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.XMLEncoder class java.beans.XMLEncoder}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link XMLEncoderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link XMLEncoder
+ * public class java.beans.XMLEncoder}.
  * </p>
  *
- * @see java.beans.XMLEncoder class java.beans.XMLEncoder (the hereby targeted class-under-test class)
- * @see XMLEncoderClassTests XMLEncoderClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.XMLEncoderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XMLEncoderTests<SUT extends java.beans.XMLEncoder>
-extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SUT> {
+public abstract interface XMLEncoderTests<SUT extends XMLEncoder>
+extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repository.java.beans.EncoderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.XMLEncoder]
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#flush() public void java.beans.XMLEncoder.flush()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#flush() public void java.beans.XMLEncoder.flush()}.
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#flush() public void
+     * java.beans.XMLEncoder.flush()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#flush() public void java.beans.XMLEncoder.flush() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +58,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeObject(Object) public void
-     * java.beans.XMLEncoder.writeObject(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeObject(Object) public void
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeObject(Object) public void
      * java.beans.XMLEncoder.writeObject(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +66,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#writeObject(Object) public void java.beans.XMLEncoder.writeObject(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,11 +80,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeExpression(java.beans.Expression) public void
-     * java.beans.XMLEncoder.writeExpression(java.beans.Expression)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeExpression(java.beans.Expression) public void
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeExpression(Expression) public void
      * java.beans.XMLEncoder.writeExpression(java.beans.Expression)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -92,8 +88,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#writeExpression(java.beans.Expression) public void
-     *      java.beans.XMLEncoder.writeExpression(java.beans.Expression) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -108,11 +103,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeStatement(java.beans.Statement) public void
-     * java.beans.XMLEncoder.writeStatement(java.beans.Statement)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeStatement(java.beans.Statement) public void
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#writeStatement(Statement) public void
      * java.beans.XMLEncoder.writeStatement(java.beans.Statement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -120,8 +111,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#writeStatement(java.beans.Statement) public void
-     *      java.beans.XMLEncoder.writeStatement(java.beans.Statement) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -136,20 +126,15 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#getOwner() public java.lang.Object java.beans.XMLEncoder.getOwner()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#getOwner() public java.lang.Object java.beans.XMLEncoder.getOwner()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#getOwner() public java.lang.Object
+     * java.beans.XMLEncoder.getOwner()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#getOwner() public java.lang.Object java.beans.XMLEncoder.getOwner() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,18 +148,15 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#close() public void java.beans.XMLEncoder.close()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#close() public void java.beans.XMLEncoder.close()}.
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#close() public void
+     * java.beans.XMLEncoder.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#close() public void java.beans.XMLEncoder.close() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -189,11 +171,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#setOwner(Object) public void
-     * java.beans.XMLEncoder.setOwner(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#setOwner(Object) public void
+     * Test method for the hereby targeted method-under-test {@link XMLEncoder#setOwner(Object) public void
      * java.beans.XMLEncoder.setOwner(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -201,8 +179,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.beans.XMLEncoder#setOwner(Object) public void java.beans.XMLEncoder.setOwner(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -213,5 +190,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, EncoderTests<SU
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.XMLEncoder]
 
 }

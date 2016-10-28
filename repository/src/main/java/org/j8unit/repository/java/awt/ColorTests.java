@@ -1,5 +1,12 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.Color;
+import java.awt.Rectangle;
+import java.awt.RenderingHints;
+import java.awt.color.ColorSpace;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Rectangle2D;
+import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +15,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.Color class java.awt.Color}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link ColorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Color public
+ * class java.awt.Color}.
  * </p>
  *
- * @see java.awt.Color class java.awt.Color (the hereby targeted class-under-test class)
- * @see ColorClassTests ColorClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.ColorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ColorTests<SUT extends java.awt.Color>
-extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface ColorTests<SUT extends Color>
+extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Color]
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#brighter() public java.awt.Color java.awt.Color.brighter()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#brighter() public java.awt.Color java.awt.Color.brighter()}.
+     * Test method for the hereby targeted method-under-test {@link Color#brighter() public java.awt.Color
+     * java.awt.Color.brighter()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#brighter() public java.awt.Color java.awt.Color.brighter() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,44 +62,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getBlue() public int java.awt.Color.getBlue()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getBlue() public int java.awt.Color.getBlue()}.
+     * Test method for the hereby targeted method-under-test {@link Color#getColorSpace() public
+     * java.awt.color.ColorSpace java.awt.Color.getColorSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getBlue() public int java.awt.Color.getBlue() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBlue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getColorSpace() public java.awt.color.ColorSpace
-     * java.awt.Color.getColorSpace()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getColorSpace() public java.awt.color.ColorSpace
-     * java.awt.Color.getColorSpace()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Color#getColorSpace() public java.awt.color.ColorSpace java.awt.Color.getColorSpace() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -104,16 +84,31 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.Color#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
-     * public synchronized java.awt.PaintContext
-     * java.awt.Color.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
+     * Test method for the hereby targeted method-under-test {@link Color#getBlue() public int java.awt.Color.getBlue()}
      * .
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBlue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link java.awt.Color#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)
-     * public synchronized java.awt.PaintContext
+     * Test method for the hereby targeted method-under-test
+     * {@link Color#createContext(ColorModel, Rectangle, Rectangle2D, AffineTransform, RenderingHints) public
+     * synchronized java.awt.PaintContext
      * java.awt.Color.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
      * .
      *
@@ -122,10 +117,7 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D,
-     *      java.awt.geom.AffineTransform, java.awt.RenderingHints) public synchronized java.awt.PaintContext
-     *      java.awt.Color.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt
-     *      .geom.AffineTransform,java.awt.RenderingHints) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,45 +132,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getRGBColorComponents(float[]) public float[]
-     * java.awt.Color.getRGBColorComponents(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getRGBColorComponents(float[]) public float[]
-     * java.awt.Color.getRGBColorComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link Color#getTransparency() public int
+     * java.awt.Color.getTransparency()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getRGBColorComponents(float[]) public float[] java.awt.Color.getRGBColorComponents(float[])
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRGBColorComponents_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getTransparency() public int java.awt.Color.getTransparency()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getTransparency() public int java.awt.Color.getTransparency()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Color#getTransparency() public int java.awt.Color.getTransparency() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -193,17 +155,37 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getAlpha() public int java.awt.Color.getAlpha()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getAlpha() public int java.awt.Color.getAlpha()}.
+     * Test method for the hereby targeted method-under-test {@link Color#getRGBColorComponents(float[]) public float[]
+     * java.awt.Color.getRGBColorComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getAlpha() public int java.awt.Color.getAlpha() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRGBColorComponents_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Color#getAlpha() public int
+     * java.awt.Color.getAlpha()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,47 +199,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getColorComponents(float[]) public float[]
-     * java.awt.Color.getColorComponents(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getColorComponents(float[]) public float[]
-     * java.awt.Color.getColorComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link Color#getColorComponents(ColorSpace, float[]) public
+     * float[] java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getColorComponents(float[]) public float[] java.awt.Color.getColorComponents(float[]) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColorComponents_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getColorComponents(java.awt.color.ColorSpace, float[]) public float[]
-     * java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getColorComponents(java.awt.color.ColorSpace, float[]) public float[]
-     * java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Color#getColorComponents(java.awt.color.ColorSpace, float[]) public float[]
-     *      java.awt.Color.getColorComponents(java.awt.color.ColorSpace,float[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -271,23 +221,20 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#darker() public java.awt.Color java.awt.Color.darker()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#darker() public java.awt.Color java.awt.Color.darker()}.
+     * Test method for the hereby targeted method-under-test {@link Color#getColorComponents(float[]) public float[]
+     * java.awt.Color.getColorComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#darker() public java.awt.Color java.awt.Color.darker() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_darker()
+    public default void test_getColorComponents_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -296,41 +243,14 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getGreen() public int java.awt.Color.getGreen()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getGreen() public int java.awt.Color.getGreen()}.
+     * Test method for the hereby targeted method-under-test {@link Color#getRed() public int java.awt.Color.getRed()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getGreen() public int java.awt.Color.getGreen() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGreen()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getRed() public int java.awt.Color.getRed()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getRed() public int java.awt.Color.getRed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.Color#getRed() public int java.awt.Color.getRed() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -344,11 +264,51 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getRGBComponents(float[]) public float[]
-     * java.awt.Color.getRGBComponents(float[])}.
+     * Test method for the hereby targeted method-under-test {@link Color#getGreen() public int
+     * java.awt.Color.getGreen()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGreen()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.Color#getRGBComponents(float[]) public float[]
+     * Test method for the hereby targeted method-under-test {@link Color#darker() public java.awt.Color
+     * java.awt.Color.darker()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_darker()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Color#getRGBComponents(float[]) public float[]
      * java.awt.Color.getRGBComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -356,8 +316,7 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getRGBComponents(float[]) public float[] java.awt.Color.getRGBComponents(float[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -371,17 +330,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#hashCode() public int java.awt.Color.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#hashCode() public int java.awt.Color.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link Color#hashCode() public int
+     * java.awt.Color.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#hashCode() public int java.awt.Color.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -396,18 +353,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#equals(Object) public boolean java.awt.Color.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#equals(Object) public boolean java.awt.Color.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Color#equals(Object) public boolean
+     * java.awt.Color.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#equals(Object) public boolean java.awt.Color.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -422,20 +376,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getComponents(java.awt.color.ColorSpace, float[]) public float[]
-     * java.awt.Color.getComponents(java.awt.color.ColorSpace,float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getComponents(java.awt.color.ColorSpace, float[]) public float[]
-     * java.awt.Color.getComponents(java.awt.color.ColorSpace,float[])}.
+     * Test method for the hereby targeted method-under-test {@link Color#getComponents(ColorSpace, float[]) public
+     * float[] java.awt.Color.getComponents(java.awt.color.ColorSpace,float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getComponents(java.awt.color.ColorSpace, float[]) public float[]
-     *      java.awt.Color.getComponents(java.awt.color.ColorSpace,float[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -449,11 +398,7 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getComponents(float[]) public float[]
-     * java.awt.Color.getComponents(float[])}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getComponents(float[]) public float[]
+     * Test method for the hereby targeted method-under-test {@link Color#getComponents(float[]) public float[]
      * java.awt.Color.getComponents(float[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -461,8 +406,7 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getComponents(float[]) public float[] java.awt.Color.getComponents(float[]) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,18 +420,15 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#toString() public java.lang.String java.awt.Color.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#toString() public java.lang.String java.awt.Color.toString()}.
+     * Test method for the hereby targeted method-under-test {@link Color#toString() public java.lang.String
+     * java.awt.Color.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#toString() public java.lang.String java.awt.Color.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -502,17 +443,14 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getRGB() public int java.awt.Color.getRGB()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.Color#getRGB() public int java.awt.Color.getRGB()}.
+     * Test method for the hereby targeted method-under-test {@link Color#getRGB() public int java.awt.Color.getRGB()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.Color#getRGB() public int java.awt.Color.getRGB() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -523,5 +461,7 @@ extends PaintTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, o
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Color]
 
 }

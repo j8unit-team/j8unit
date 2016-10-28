@@ -1,40 +1,45 @@
 package org.j8unit.repository.org.omg.DynamicAny;
 
+import java.io.Serializable;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.Any;
+import org.omg.CORBA.Object;
+import org.omg.CORBA.TypeCode;
+import org.omg.DynamicAny.DynAny;
+import org.omg.DynamicAny._DynUnionStub;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.DynamicAny._DynUnionStub class org.omg.DynamicAny._DynUnionStub}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link _DynUnionStubClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link _DynUnionStub
+ * public class org.omg.DynamicAny._DynUnionStub}.
  * </p>
  *
- * @see org.omg.DynamicAny._DynUnionStub class org.omg.DynamicAny._DynUnionStub (the hereby targeted class-under-test
- *      class)
- * @see _DynUnionStubClassTests _DynUnionStubClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.DynamicAny._DynUnionStubClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface _DynUnionStubTests<SUT extends org.omg.DynamicAny._DynUnionStub>
-extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
+public abstract interface _DynUnionStubTests<SUT extends _DynUnionStub>
+extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynUnionStub]
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_long(int) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_long(int) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_long(int) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_long(int) public void
      * org.omg.DynamicAny._DynUnionStub.insert_long(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -43,10 +48,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_long(int) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_long(int) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -61,12 +63,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_typecode(org.omg.CORBA.TypeCode) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_typecode(org.omg.CORBA.TypeCode) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_typecode(org.omg.CORBA.TypeCode) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_typecode(TypeCode) public void
      * org.omg.DynamicAny._DynUnionStub.insert_typecode(org.omg.CORBA.TypeCode) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -75,10 +72,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_typecode(org.omg.CORBA.TypeCode) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_typecode(org.omg.CORBA.TypeCode) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -93,12 +87,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_dyn_any(org.omg.DynamicAny.DynAny) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_dyn_any(org.omg.DynamicAny.DynAny) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_dyn_any(org.omg.DynamicAny.DynAny) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_dyn_any(DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.insert_dyn_any(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -107,10 +96,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_dyn_any(org.omg.DynamicAny.DynAny) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_dyn_any(org.omg.DynamicAny.DynAny) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -125,11 +111,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#to_any() public org.omg.CORBA.Any
-     * org.omg.DynamicAny._DynUnionStub.to_any()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#to_any() public org.omg.CORBA.Any
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#to_any() public org.omg.CORBA.Any
      * org.omg.DynamicAny._DynUnionStub.to_any()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -137,8 +119,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#to_any() public org.omg.CORBA.Any org.omg.DynamicAny._DynUnionStub.to_any()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -153,12 +134,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ulong(int) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_ulong(int) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ulong(int) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ulong(int) public void
      * org.omg.DynamicAny._DynUnionStub.insert_ulong(int) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -167,10 +143,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_ulong(int) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_ulong(int) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -185,20 +158,15 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#discriminator_kind() public org.omg.CORBA.TCKind
-     * org.omg.DynamicAny._DynUnionStub.discriminator_kind()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#discriminator_kind() public org.omg.CORBA.TCKind
-     * org.omg.DynamicAny._DynUnionStub.discriminator_kind()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#discriminator_kind() public
+     * org.omg.CORBA.TCKind org.omg.DynamicAny._DynUnionStub.discriminator_kind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#discriminator_kind() public org.omg.CORBA.TCKind
-     *      org.omg.DynamicAny._DynUnionStub.discriminator_kind() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -213,12 +181,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ulonglong() public long
-     * org.omg.DynamicAny._DynUnionStub.get_ulonglong() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ulonglong() public long
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ulonglong() public long
      * org.omg.DynamicAny._DynUnionStub.get_ulonglong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -227,10 +190,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_ulonglong() public long
-     *      org.omg.DynamicAny._DynUnionStub.get_ulonglong() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -245,12 +205,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_longlong(long) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_longlong(long) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_longlong(long) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_longlong(long) public void
      * org.omg.DynamicAny._DynUnionStub.insert_longlong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -259,10 +214,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_longlong(long) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_longlong(long) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -277,11 +229,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_to_default_member() public void
-     * org.omg.DynamicAny._DynUnionStub.set_to_default_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_to_default_member() public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_to_default_member() public void
      * org.omg.DynamicAny._DynUnionStub.set_to_default_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -289,9 +237,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#set_to_default_member() public void
-     *      org.omg.DynamicAny._DynUnionStub.set_to_default_member() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -306,43 +252,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_longlong() public long
-     * org.omg.DynamicAny._DynUnionStub.get_longlong() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_longlong() public long
-     * org.omg.DynamicAny._DynUnionStub.get_longlong() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#get_longlong() public long org.omg.DynamicAny._DynUnionStub.get_longlong()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_longlong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_short() public short
-     * org.omg.DynamicAny._DynUnionStub.get_short() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_short() public short
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_short() public short
      * org.omg.DynamicAny._DynUnionStub.get_short() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -351,9 +261,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_short() public short org.omg.DynamicAny._DynUnionStub.get_short()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -368,12 +276,31 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_val(java.io.Serializable) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_val(java.io.Serializable) throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_longlong() public long
+     * org.omg.DynamicAny._DynUnionStub.get_longlong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_longlong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_val(java.io.Serializable) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_val(Serializable) public void
      * org.omg.DynamicAny._DynUnionStub.insert_val(java.io.Serializable) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -382,10 +309,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_val(java.io.Serializable) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_val(java.io.Serializable) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -400,12 +324,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ushort() public short
-     * org.omg.DynamicAny._DynUnionStub.get_ushort() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ushort() public short
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ushort() public short
      * org.omg.DynamicAny._DynUnionStub.get_ushort() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -414,9 +333,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_ushort() public short org.omg.DynamicAny._DynUnionStub.get_ushort()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -431,12 +348,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_reference(org.omg.CORBA.Object) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_reference(org.omg.CORBA.Object) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_reference(org.omg.CORBA.Object) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_reference(Object) public void
      * org.omg.DynamicAny._DynUnionStub.insert_reference(org.omg.CORBA.Object) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -445,10 +357,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_reference(org.omg.CORBA.Object) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_reference(org.omg.CORBA.Object) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -463,12 +372,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#from_any(org.omg.CORBA.Any) public void
-     * org.omg.DynamicAny._DynUnionStub.from_any(org.omg.CORBA.Any) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#from_any(org.omg.CORBA.Any) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#from_any(Any) public void
      * org.omg.DynamicAny._DynUnionStub.from_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -477,10 +381,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#from_any(org.omg.CORBA.Any) public void
-     *      org.omg.DynamicAny._DynUnionStub.from_any(org.omg.CORBA.Any) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -495,11 +396,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#type() public org.omg.CORBA.TypeCode
-     * org.omg.DynamicAny._DynUnionStub.type()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#type() public org.omg.CORBA.TypeCode
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#type() public org.omg.CORBA.TypeCode
      * org.omg.DynamicAny._DynUnionStub.type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -507,8 +404,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#type() public org.omg.CORBA.TypeCode
-     *      org.omg.DynamicAny._DynUnionStub.type() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -523,13 +419,8 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_dyn_any() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_dyn_any() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_dyn_any() public
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -537,10 +428,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_dyn_any() public org.omg.DynamicAny.DynAny
-     *      org.omg.DynamicAny._DynUnionStub.get_dyn_any() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -555,12 +443,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_any() public org.omg.CORBA.Any
-     * org.omg.DynamicAny._DynUnionStub.get_any() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_any() public org.omg.CORBA.Any
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_any() public org.omg.CORBA.Any
      * org.omg.DynamicAny._DynUnionStub.get_any() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -569,10 +452,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_any() public org.omg.CORBA.Any
-     *      org.omg.DynamicAny._DynUnionStub.get_any() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -587,44 +467,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ushort(short) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_ushort(short) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ushort(short) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_ushort(short) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_ushort(short) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_ushort(short) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_ushort_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_long() public int
-     * org.omg.DynamicAny._DynUnionStub.get_long() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_long() public int
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_long() public int
      * org.omg.DynamicAny._DynUnionStub.get_long() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -633,9 +476,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_long() public int org.omg.DynamicAny._DynUnionStub.get_long() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -650,12 +491,31 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_wstring() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.get_wstring() throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ushort(short) public void
+     * org.omg.DynamicAny._DynUnionStub.insert_ushort(short) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_ushort_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_wstring() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_wstring() public java.lang.String
      * org.omg.DynamicAny._DynUnionStub.get_wstring() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -664,10 +524,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_wstring() public java.lang.String
-     *      org.omg.DynamicAny._DynUnionStub.get_wstring() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -682,12 +539,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_val() public java.io.Serializable
-     * org.omg.DynamicAny._DynUnionStub.get_val() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_val() public java.io.Serializable
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_val() public java.io.Serializable
      * org.omg.DynamicAny._DynUnionStub.get_val() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -696,10 +548,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_val() public java.io.Serializable
-     *      org.omg.DynamicAny._DynUnionStub.get_val() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -714,12 +563,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_octet() public byte
-     * org.omg.DynamicAny._DynUnionStub.get_octet() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_octet() public byte
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_octet() public byte
      * org.omg.DynamicAny._DynUnionStub.get_octet() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -728,9 +572,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_octet() public byte org.omg.DynamicAny._DynUnionStub.get_octet() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -745,12 +587,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ulong() public int
-     * org.omg.DynamicAny._DynUnionStub.get_ulong() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_ulong() public int
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_ulong() public int
      * org.omg.DynamicAny._DynUnionStub.get_ulong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -759,9 +596,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_ulong() public int org.omg.DynamicAny._DynUnionStub.get_ulong() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -776,44 +611,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_double(double) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_double(double) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_double(double) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_double(double) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_double(double) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_double(double) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_double() public double
-     * org.omg.DynamicAny._DynUnionStub.get_double() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_double() public double
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_double() public double
      * org.omg.DynamicAny._DynUnionStub.get_double() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -822,9 +620,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_double() public double org.omg.DynamicAny._DynUnionStub.get_double()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -839,12 +635,31 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_float() public float
-     * org.omg.DynamicAny._DynUnionStub.get_float() throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_double(double) public void
+     * org.omg.DynamicAny._DynUnionStub.insert_double(double) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_float() public float
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_float() public float
      * org.omg.DynamicAny._DynUnionStub.get_float() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -853,9 +668,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_float() public float org.omg.DynamicAny._DynUnionStub.get_float()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -870,12 +683,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_wchar() public char
-     * org.omg.DynamicAny._DynUnionStub.get_wchar() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_wchar() public char
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_wchar() public char
      * org.omg.DynamicAny._DynUnionStub.get_wchar() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -884,9 +692,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_wchar() public char org.omg.DynamicAny._DynUnionStub.get_wchar() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -901,44 +707,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_short(short) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_short(short) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_short(short) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_short_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_wstring(String) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_wstring(java.lang.String) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_wstring(String) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_wstring(String) public void
      * org.omg.DynamicAny._DynUnionStub.insert_wstring(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -947,10 +716,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_wstring(String) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_wstring(java.lang.String) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -965,26 +731,22 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#destroy() public void
-     * org.omg.DynamicAny._DynUnionStub.destroy()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#destroy() public void
-     * org.omg.DynamicAny._DynUnionStub.destroy()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_short(short) public void
+     * org.omg.DynamicAny._DynUnionStub.insert_short(short) throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#destroy() public void org.omg.DynamicAny._DynUnionStub.destroy() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_destroy()
+    public default void test_insert_short_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -993,13 +755,8 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_reference() public org.omg.CORBA.Object
-     * org.omg.DynamicAny._DynUnionStub.get_reference() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_reference() public org.omg.CORBA.Object
-     * org.omg.DynamicAny._DynUnionStub.get_reference() throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_reference() public
+     * org.omg.CORBA.Object org.omg.DynamicAny._DynUnionStub.get_reference() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1007,10 +764,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_reference() public org.omg.CORBA.Object
-     *      org.omg.DynamicAny._DynUnionStub.get_reference() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1025,11 +779,30 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#_ids() public java.lang.String[]
-     * org.omg.DynamicAny._DynUnionStub._ids()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#destroy() public void
+     * org.omg.DynamicAny._DynUnionStub.destroy()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_destroy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#_ids() public java.lang.String[]
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#_ids() public java.lang.String[]
      * org.omg.DynamicAny._DynUnionStub._ids()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1037,8 +810,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#_ids() public java.lang.String[] org.omg.DynamicAny._DynUnionStub._ids()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1053,12 +825,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_boolean() public boolean
-     * org.omg.DynamicAny._DynUnionStub.get_boolean() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_boolean() public boolean
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_boolean() public boolean
      * org.omg.DynamicAny._DynUnionStub.get_boolean() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1067,9 +834,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_boolean() public boolean org.omg.DynamicAny._DynUnionStub.get_boolean()
-     *      throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1084,44 +849,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_octet(byte) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_octet(byte) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_octet(byte) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_octet_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_char() public char
-     * org.omg.DynamicAny._DynUnionStub.get_char() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_char() public char
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_char() public char
      * org.omg.DynamicAny._DynUnionStub.get_char() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1130,9 +858,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_char() public char org.omg.DynamicAny._DynUnionStub.get_char() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1147,11 +873,31 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#has_no_active_member() public boolean
-     * org.omg.DynamicAny._DynUnionStub.has_no_active_member()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_octet(byte) public void
+     * org.omg.DynamicAny._DynUnionStub.insert_octet(byte) throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_octet_byte()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#has_no_active_member() public boolean
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#has_no_active_member() public boolean
      * org.omg.DynamicAny._DynUnionStub.has_no_active_member()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1159,8 +905,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#has_no_active_member() public boolean
-     *      org.omg.DynamicAny._DynUnionStub.has_no_active_member() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1175,41 +920,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.member() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.member() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.omg.DynamicAny._DynUnionStub#member() public org.omg.DynamicAny.DynAny
-     *      org.omg.DynamicAny._DynUnionStub.member() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_member()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_string(String) public void
      * org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1218,10 +929,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1236,26 +944,22 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#copy() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.copy()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#copy() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.copy()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member() public
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.member() throws
+     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#copy() public org.omg.DynamicAny.DynAny
-     *      org.omg.DynamicAny._DynUnionStub.copy() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_copy()
+    public default void test_member()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1264,11 +968,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#component_count() public int
-     * org.omg.DynamicAny._DynUnionStub.component_count()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#component_count() public int
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#component_count() public int
      * org.omg.DynamicAny._DynUnionStub.component_count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1276,8 +976,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#component_count() public int
-     *      org.omg.DynamicAny._DynUnionStub.component_count() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1292,26 +991,21 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#next() public boolean
-     * org.omg.DynamicAny._DynUnionStub.next()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#next() public boolean
-     * org.omg.DynamicAny._DynUnionStub.next()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#copy() public
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.copy()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#next() public boolean org.omg.DynamicAny._DynUnionStub.next() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_next()
+    public default void test_copy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1320,12 +1014,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_string() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.get_string() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_string() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_string() public java.lang.String
      * org.omg.DynamicAny._DynUnionStub.get_string() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1334,10 +1023,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_string() public java.lang.String
-     *      org.omg.DynamicAny._DynUnionStub.get_string() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1352,12 +1038,30 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_boolean(boolean) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_boolean(boolean) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#next() public boolean
+     * org.omg.DynamicAny._DynUnionStub.next()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_next()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_boolean(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_boolean(boolean) public void
      * org.omg.DynamicAny._DynUnionStub.insert_boolean(boolean) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1366,10 +1070,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_boolean(boolean) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_boolean(boolean) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1384,11 +1085,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#seek(int) public boolean
-     * org.omg.DynamicAny._DynUnionStub.seek(int)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#seek(int) public boolean
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#seek(int) public boolean
      * org.omg.DynamicAny._DynUnionStub.seek(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1396,8 +1093,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#seek(int) public boolean org.omg.DynamicAny._DynUnionStub.seek(int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1412,12 +1108,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_char(char) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_char(char) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_char(char) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_char(char) public void
      * org.omg.DynamicAny._DynUnionStub.insert_char(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1426,10 +1117,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_char(char) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_char(char) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1444,12 +1132,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_wchar(char) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_wchar(char) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_wchar(char) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_wchar(char) public void
      * org.omg.DynamicAny._DynUnionStub.insert_wchar(char) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1458,10 +1141,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_wchar(char) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_wchar(char) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1476,11 +1156,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#rewind() public void
-     * org.omg.DynamicAny._DynUnionStub.rewind()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#rewind() public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#rewind() public void
      * org.omg.DynamicAny._DynUnionStub.rewind()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1488,8 +1164,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#rewind() public void org.omg.DynamicAny._DynUnionStub.rewind() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1504,12 +1179,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_discriminator(org.omg.DynamicAny.DynAny) public void
-     * org.omg.DynamicAny._DynUnionStub.set_discriminator(org.omg.DynamicAny.DynAny) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_discriminator(org.omg.DynamicAny.DynAny) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_discriminator(DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.set_discriminator(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
@@ -1518,9 +1188,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#set_discriminator(org.omg.DynamicAny.DynAny) public void
-     *      org.omg.DynamicAny._DynUnionStub.set_discriminator(org.omg.DynamicAny.DynAny) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1535,11 +1203,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#equal(org.omg.DynamicAny.DynAny) public boolean
-     * org.omg.DynamicAny._DynUnionStub.equal(org.omg.DynamicAny.DynAny)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#equal(org.omg.DynamicAny.DynAny) public boolean
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#equal(DynAny) public boolean
      * org.omg.DynamicAny._DynUnionStub.equal(org.omg.DynamicAny.DynAny)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1547,8 +1211,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#equal(org.omg.DynamicAny.DynAny) public boolean
-     *      org.omg.DynamicAny._DynUnionStub.equal(org.omg.DynamicAny.DynAny) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1563,12 +1226,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_float(float) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_float(float) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_float(float) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_float(float) public void
      * org.omg.DynamicAny._DynUnionStub.insert_float(float) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1577,10 +1235,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_float(float) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_float(float) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1595,12 +1250,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_any(org.omg.CORBA.Any) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_any(org.omg.CORBA.Any) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_any(org.omg.CORBA.Any) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_any(Any) public void
      * org.omg.DynamicAny._DynUnionStub.insert_any(org.omg.CORBA.Any) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1609,10 +1259,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_any(org.omg.CORBA.Any) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_any(org.omg.CORBA.Any) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1627,12 +1274,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ulonglong(long) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_ulonglong(long) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#insert_ulonglong(long) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#insert_ulonglong(long) public void
      * org.omg.DynamicAny._DynUnionStub.insert_ulonglong(long) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
@@ -1641,10 +1283,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#insert_ulonglong(long) public void
-     *      org.omg.DynamicAny._DynUnionStub.insert_ulonglong(long) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1659,12 +1298,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#assign(org.omg.DynamicAny.DynAny) public void
-     * org.omg.DynamicAny._DynUnionStub.assign(org.omg.DynamicAny.DynAny) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#assign(org.omg.DynamicAny.DynAny) public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#assign(DynAny) public void
      * org.omg.DynamicAny._DynUnionStub.assign(org.omg.DynamicAny.DynAny) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
@@ -1673,9 +1307,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#assign(org.omg.DynamicAny.DynAny) public void
-     *      org.omg.DynamicAny._DynUnionStub.assign(org.omg.DynamicAny.DynAny) throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1690,21 +1322,16 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#current_component() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.current_component() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#current_component() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.current_component() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#current_component() public
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.current_component() throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#current_component() public org.omg.DynamicAny.DynAny
-     *      org.omg.DynamicAny._DynUnionStub.current_component() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1719,13 +1346,8 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_typecode() public org.omg.CORBA.TypeCode
-     * org.omg.DynamicAny._DynUnionStub.get_typecode() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_typecode() public org.omg.CORBA.TypeCode
-     * org.omg.DynamicAny._DynUnionStub.get_typecode() throws
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_typecode() public
+     * org.omg.CORBA.TypeCode org.omg.DynamicAny._DynUnionStub.get_typecode() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1733,10 +1355,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_typecode() public org.omg.CORBA.TypeCode
-     *      org.omg.DynamicAny._DynUnionStub.get_typecode() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1751,20 +1370,15 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_discriminator() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.get_discriminator()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#get_discriminator() public org.omg.DynamicAny.DynAny
-     * org.omg.DynamicAny._DynUnionStub.get_discriminator()}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#get_discriminator() public
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.get_discriminator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#get_discriminator() public org.omg.DynamicAny.DynAny
-     *      org.omg.DynamicAny._DynUnionStub.get_discriminator() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1779,21 +1393,16 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member_kind() public org.omg.CORBA.TCKind
-     * org.omg.DynamicAny._DynUnionStub.member_kind() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member_kind() public org.omg.CORBA.TCKind
-     * org.omg.DynamicAny._DynUnionStub.member_kind() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member_kind() public
+     * org.omg.CORBA.TCKind org.omg.DynamicAny._DynUnionStub.member_kind() throws
+     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#member_kind() public org.omg.CORBA.TCKind
-     *      org.omg.DynamicAny._DynUnionStub.member_kind() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1808,11 +1417,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member_name() public java.lang.String
-     * org.omg.DynamicAny._DynUnionStub.member_name() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#member_name() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#member_name() public java.lang.String
      * org.omg.DynamicAny._DynUnionStub.member_name() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1820,9 +1425,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#member_name() public java.lang.String
-     *      org.omg.DynamicAny._DynUnionStub.member_name() throws org.omg.DynamicAny.DynAnyPackage.InvalidValue (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1837,11 +1440,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_to_no_active_member() public void
-     * org.omg.DynamicAny._DynUnionStub.set_to_no_active_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
-     *
-     * <p>
-     * Test method for {@link org.omg.DynamicAny._DynUnionStub#set_to_no_active_member() public void
+     * Test method for the hereby targeted method-under-test {@link _DynUnionStub#set_to_no_active_member() public void
      * org.omg.DynamicAny._DynUnionStub.set_to_no_active_member() throws org.omg.DynamicAny.DynAnyPackage.TypeMismatch}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1849,9 +1448,7 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
      * methods soon.
      * </p>
      *
-     * @see org.omg.DynamicAny._DynUnionStub#set_to_no_active_member() public void
-     *      org.omg.DynamicAny._DynUnionStub.set_to_no_active_member() throws
-     *      org.omg.DynamicAny.DynAnyPackage.TypeMismatch (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1864,330 +1461,6 @@ extends DynUnionTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectI
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_is_equivalent(org.omg.CORBA.Object) class
-     * org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_is_equivalent(org.omg.CORBA.Object) interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__is_equivalent_Object()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>
-     * {@linkplain org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
-     * class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>
-     * {@linkplain org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
-     * interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__create_request_Context_String_NVList_NamedValue_ExceptionList_ContextList()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>
-     * {@linkplain org.omg.CORBA.portable.ObjectImpl#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
-     * class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>
-     * {@linkplain org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
-     * interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__create_request_Context_String_NVList_NamedValue()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_hash(int) class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_hash(int) interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__hash_int()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_is_a(String) class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_is_a(String) interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__is_a_String()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_get_policy(int) class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_get_policy(int) interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__get_policy_int()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_get_domain_managers() class org.omg.CORBA.portable.ObjectImpl}
-     * </li>
-     * <li>{@linkplain org.omg.CORBA.Object#_get_domain_managers() interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__get_domain_managers()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_non_existent() class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_non_existent() interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__non_existent()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_request(String) class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_request(String) interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__request_String()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_duplicate() class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_duplicate() interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__duplicate()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>
-     * {@linkplain org.omg.CORBA.portable.ObjectImpl#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
-     * class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_set_policy_override(org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
-     * interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__set_policy_override_PolicyArray_SetOverrideType()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_release() class org.omg.CORBA.portable.ObjectImpl}</li>
-     * <li>{@linkplain org.omg.CORBA.Object#_release() interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__release()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain org.omg.CORBA.portable.ObjectImpl#_get_interface_def() class org.omg.CORBA.portable.ObjectImpl}
-     * </li>
-     * <li>{@linkplain org.omg.CORBA.Object#_get_interface_def() interface org.omg.CORBA.Object}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__get_interface_def()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynUnionStub]
 
 }

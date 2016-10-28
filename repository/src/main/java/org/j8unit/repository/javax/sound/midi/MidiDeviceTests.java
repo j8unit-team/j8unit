@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.sound.midi;
 
+import javax.sound.midi.MidiDevice;
+import javax.sound.midi.MidiDevice.Info;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,68 +10,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sound.midi.MidiDevice interface javax.sound.midi.MidiDevice}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link MidiDeviceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MidiDevice
+ * public abstract interface javax.sound.midi.MidiDevice}.
  * </p>
  *
- * @see javax.sound.midi.MidiDevice interface javax.sound.midi.MidiDevice (the hereby targeted class-under-test class)
- * @see MidiDeviceClassTests MidiDeviceClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MidiDeviceTests<SUT extends javax.sound.midi.MidiDevice>
+public abstract interface MidiDeviceTests<SUT extends MidiDevice>
 extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#isOpen() public abstract boolean
-     * javax.sound.midi.MidiDevice.isOpen()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#isOpen() public abstract boolean
-     * javax.sound.midi.MidiDevice.isOpen()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.sound.midi.MidiDevice#isOpen() public abstract boolean javax.sound.midi.MidiDevice.isOpen() (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isOpen()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiDevice]
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getReceiver() public abstract javax.sound.midi.Receiver
-     * javax.sound.midi.MidiDevice.getReceiver() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getReceiver() public abstract javax.sound.midi.Receiver
-     * javax.sound.midi.MidiDevice.getReceiver() throws javax.sound.midi.MidiUnavailableException}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getReceiver() public abstract
+     * javax.sound.midi.Receiver javax.sound.midi.MidiDevice.getReceiver() throws
+     * javax.sound.midi.MidiUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getReceiver() public abstract javax.sound.midi.Receiver
-     *      javax.sound.midi.MidiDevice.getReceiver() throws javax.sound.midi.MidiUnavailableException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,25 +58,20 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getReceivers() public abstract java.util.List
-     * <javax.sound.midi.Receiver> javax.sound.midi.MidiDevice.getReceivers()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getReceivers() public abstract java.util.List
-     * javax.sound.midi.MidiDevice.getReceivers()}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#isOpen() public abstract boolean
+     * javax.sound.midi.MidiDevice.isOpen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getReceivers() public abstract java.util.List
-     *      javax.sound.midi.MidiDevice.getReceivers() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getReceivers()
+    public default void test_isOpen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,20 +80,15 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getTransmitters() public abstract java.util.List
-     * <javax.sound.midi.Transmitter> javax.sound.midi.MidiDevice.getTransmitters()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getTransmitters() public abstract java.util.List
-     * javax.sound.midi.MidiDevice.getTransmitters()}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getTransmitters() public abstract
+     * java.util.List<javax.sound.midi.Transmitter> javax.sound.midi.MidiDevice.getTransmitters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getTransmitters() public abstract java.util.List
-     *      javax.sound.midi.MidiDevice.getTransmitters() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,11 +102,29 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getDeviceInfo() public abstract
-     * javax.sound.midi.MidiDevice$Info javax.sound.midi.MidiDevice.getDeviceInfo()}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getReceivers() public abstract
+     * java.util.List<javax.sound.midi.Receiver> javax.sound.midi.MidiDevice.getReceivers()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReceivers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getDeviceInfo() public abstract
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getDeviceInfo() public abstract
      * javax.sound.midi.MidiDevice$Info javax.sound.midi.MidiDevice.getDeviceInfo()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +132,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getDeviceInfo() public abstract javax.sound.midi.MidiDevice$Info
-     *      javax.sound.midi.MidiDevice.getDeviceInfo() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,11 +146,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMaxTransmitters() public abstract int
-     * javax.sound.midi.MidiDevice.getMaxTransmitters()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMaxTransmitters() public abstract int
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getMaxTransmitters() public abstract int
      * javax.sound.midi.MidiDevice.getMaxTransmitters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +154,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getMaxTransmitters() public abstract int
-     *      javax.sound.midi.MidiDevice.getMaxTransmitters() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,20 +168,15 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMicrosecondPosition() public abstract long
-     * javax.sound.midi.MidiDevice.getMicrosecondPosition()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMicrosecondPosition() public abstract long
-     * javax.sound.midi.MidiDevice.getMicrosecondPosition()}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getMicrosecondPosition() public abstract
+     * long javax.sound.midi.MidiDevice.getMicrosecondPosition()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getMicrosecondPosition() public abstract long
-     *      javax.sound.midi.MidiDevice.getMicrosecondPosition() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,11 +190,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMaxReceivers() public abstract int
-     * javax.sound.midi.MidiDevice.getMaxReceivers()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getMaxReceivers() public abstract int
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getMaxReceivers() public abstract int
      * javax.sound.midi.MidiDevice.getMaxReceivers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,8 +198,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#getMaxReceivers() public abstract int
-     *      javax.sound.midi.MidiDevice.getMaxReceivers() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,48 +212,16 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#open() public abstract void javax.sound.midi.MidiDevice.open()
-     * throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#open() public abstract void javax.sound.midi.MidiDevice.open()
-     * throws javax.sound.midi.MidiUnavailableException}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#getTransmitter() public abstract
+     * javax.sound.midi.Transmitter javax.sound.midi.MidiDevice.getTransmitter() throws
+     * javax.sound.midi.MidiUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#open() public abstract void javax.sound.midi.MidiDevice.open() throws
-     *      javax.sound.midi.MidiUnavailableException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_open()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getTransmitter() public abstract javax.sound.midi.Transmitter
-     * javax.sound.midi.MidiDevice.getTransmitter() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#getTransmitter() public abstract javax.sound.midi.Transmitter
-     * javax.sound.midi.MidiDevice.getTransmitter() throws javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.sound.midi.MidiDevice#getTransmitter() public abstract javax.sound.midi.Transmitter
-     *      javax.sound.midi.MidiDevice.getTransmitter() throws javax.sound.midi.MidiUnavailableException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -300,11 +235,29 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#close() public abstract void
-     * javax.sound.midi.MidiDevice.close()}.
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#open() public abstract void
+     * javax.sound.midi.MidiDevice.open() throws javax.sound.midi.MidiUnavailableException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_open()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiDevice#close() public abstract void
+     * Test method for the hereby targeted method-under-test {@link MidiDevice#close() public abstract void
      * javax.sound.midi.MidiDevice.close()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -312,8 +265,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice#close() public abstract void javax.sound.midi.MidiDevice.close() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -326,35 +278,36 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiDevice]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.sound.midi.MidiDevice.Info class
-     * javax.sound.midi.MidiDevice$Info}. The complementary j8unit test interface containing the class relevant aspects
-     * is {@link MidiDeviceClassTests.InfoClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Info public
+     * static class javax.sound.midi.MidiDevice$Info}.
      * </p>
      *
-     * @see javax.sound.midi.MidiDevice.Info class javax.sound.midi.MidiDevice$Info (the hereby targeted
-     *      class-under-test class)
-     * @see MidiDeviceClassTests.InfoClassTests MidiDeviceClassTests.InfoClassTests (the complementary j8unit test
-     *      interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests.InfoClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InfoTests<SUT extends javax.sound.midi.MidiDevice.Info>
+    public static abstract interface InfoTests<SUT extends Info>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiDevice$Info]
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#hashCode() public final int
-         * javax.sound.midi.MidiDevice$Info.hashCode()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#hashCode() public final int
+         * Test method for the hereby targeted method-under-test {@link Info#hashCode() public final int
          * javax.sound.midi.MidiDevice$Info.hashCode()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -362,8 +315,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#hashCode() public final int javax.sound.midi.MidiDevice$Info.hashCode()
-         *      (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -378,11 +330,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#equals(Object) public final boolean
-         * javax.sound.midi.MidiDevice$Info.equals(java.lang.Object)}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#equals(Object) public final boolean
+         * Test method for the hereby targeted method-under-test {@link Info#equals(Object) public final boolean
          * javax.sound.midi.MidiDevice$Info.equals(java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -390,8 +338,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#equals(Object) public final boolean
-         *      javax.sound.midi.MidiDevice$Info.equals(java.lang.Object) (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -406,11 +353,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getName() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.getName()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getName() public final java.lang.String
+         * Test method for the hereby targeted method-under-test {@link Info#getName() public final java.lang.String
          * javax.sound.midi.MidiDevice$Info.getName()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -418,8 +361,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#getName() public final java.lang.String
-         *      javax.sound.midi.MidiDevice$Info.getName() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -433,11 +375,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getVersion() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.getVersion()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getVersion() public final java.lang.String
+         * Test method for the hereby targeted method-under-test {@link Info#getVersion() public final java.lang.String
          * javax.sound.midi.MidiDevice$Info.getVersion()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -445,8 +383,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#getVersion() public final java.lang.String
-         *      javax.sound.midi.MidiDevice$Info.getVersion() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -460,20 +397,15 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getDescription() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.getDescription()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getDescription() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.getDescription()}.
+         * Test method for the hereby targeted method-under-test {@link Info#getDescription() public final
+         * java.lang.String javax.sound.midi.MidiDevice$Info.getDescription()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#getDescription() public final java.lang.String
-         *      javax.sound.midi.MidiDevice$Info.getDescription() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -487,11 +419,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#toString() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.toString()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#toString() public final java.lang.String
+         * Test method for the hereby targeted method-under-test {@link Info#toString() public final java.lang.String
          * javax.sound.midi.MidiDevice$Info.toString()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -499,8 +427,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#toString() public final java.lang.String
-         *      javax.sound.midi.MidiDevice$Info.toString() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
@@ -515,11 +442,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getVendor() public final java.lang.String
-         * javax.sound.midi.MidiDevice$Info.getVendor()}.
-         *
-         * <p>
-         * Test method for {@link javax.sound.midi.MidiDevice.Info#getVendor() public final java.lang.String
+         * Test method for the hereby targeted method-under-test {@link Info#getVendor() public final java.lang.String
          * javax.sound.midi.MidiDevice$Info.getVendor()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -527,8 +450,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
          * test methods soon.
          * </p>
          *
-         * @see javax.sound.midi.MidiDevice.Info#getVendor() public final java.lang.String
-         *      javax.sound.midi.MidiDevice$Info.getVendor() (the hereby targeted method-under-test)
+         * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
@@ -539,6 +461,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiDevice$Info]
 
     }
 

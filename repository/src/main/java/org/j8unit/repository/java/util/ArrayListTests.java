@@ -1,5 +1,11 @@
 package org.j8unit.repository.java.util;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,67 +14,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.ArrayList class java.util.ArrayList}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link ArrayListClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ArrayList
+ * public class java.util.ArrayList<E>}.
  * </p>
  *
- * @see java.util.ArrayList class java.util.ArrayList (the hereby targeted class-under-test class)
- * @see ArrayListClassTests ArrayListClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.ArrayListClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayListTests<SUT extends java.util.ArrayList<E>, E>
-extends ListTests<SUT, E>, RandomAccessTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-AbstractListTests<SUT, E> {
+public abstract interface ArrayListTests<SUT extends ArrayList<E>, E>
+extends org.j8unit.repository.java.util.RandomAccessTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
+org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ArrayList]
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#remove(Object) public boolean
-     * java.util.ArrayList.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#remove(Object) public boolean
-     * java.util.ArrayList.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#remove(int) public E
+     * java.util.ArrayList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#remove(Object) public boolean java.util.ArrayList.remove(java.lang.Object) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#remove(int) public E java.util.ArrayList.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#remove(int) public java.lang.Object java.util.ArrayList.remove(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#remove(int) public java.lang.Object java.util.ArrayList.remove(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,20 +63,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#replaceAll(java.util.function.UnaryOperator) public void
-     * java.util.ArrayList.replaceAll(java.util.function.UnaryOperator<E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#replaceAll(java.util.function.UnaryOperator) public void
-     * java.util.ArrayList.replaceAll(java.util.function.UnaryOperator)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#remove(Object) public boolean
+     * java.util.ArrayList.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#replaceAll(java.util.function.UnaryOperator) public void
-     *      java.util.ArrayList.replaceAll(java.util.function.UnaryOperator) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#replaceAll(UnaryOperator) public void
+     * java.util.ArrayList.replaceAll(java.util.function.UnaryOperator<E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,11 +109,7 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#indexOf(Object) public int
-     * java.util.ArrayList.indexOf(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link ArrayList#indexOf(Object) public int
      * java.util.ArrayList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +117,7 @@ AbstractListTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#indexOf(Object) public int java.util.ArrayList.indexOf(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -139,45 +132,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#toArray(Object[]) public <T> T[] java.util.ArrayList.toArray(T[])}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#toArray(Object[]) public java.lang.Object[]
-     * java.util.ArrayList.toArray(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#toArray() public java.lang.Object[]
+     * java.util.ArrayList.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#toArray(Object[]) public java.lang.Object[]
-     *      java.util.ArrayList.toArray(java.lang.Object[]) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#toArray() public java.lang.Object[] java.util.ArrayList.toArray()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#toArray() public java.lang.Object[] java.util.ArrayList.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#toArray() public java.lang.Object[] java.util.ArrayList.toArray() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -192,18 +155,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#get(int) public E java.util.ArrayList.get(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#get(int) public java.lang.Object java.util.ArrayList.get(int)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#toArray(Object[]) public <T> T[]
+     * java.util.ArrayList.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#get(int) public java.lang.Object java.util.ArrayList.get(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#get(int) public E
+     * java.util.ArrayList.get(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -218,47 +201,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#iterator() public java.util.Iterator
-     * <E> java.util.ArrayList.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#iterator() public java.util.Iterator java.util.ArrayList.iterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#iterator() public java.util.Iterator java.util.ArrayList.iterator() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#removeAll(java.util.Collection) public boolean
+     * Test method for the hereby targeted method-under-test {@link ArrayList#removeAll(Collection) public boolean
      * java.util.ArrayList.removeAll(java.util.Collection<?>)}.
      *
-     * <p>
-     * Test method for {@link java.util.ArrayList#removeAll(java.util.Collection) public boolean
-     * java.util.ArrayList.removeAll(java.util.Collection)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#removeAll(java.util.Collection) public boolean
-     *      java.util.ArrayList.removeAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -273,20 +224,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#removeIf(java.util.function.Predicate) public boolean
-     * java.util.ArrayList.removeIf(java.util.function.Predicate<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#removeIf(java.util.function.Predicate) public boolean
-     * java.util.ArrayList.removeIf(java.util.function.Predicate)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#iterator() public java.util.Iterator
+     * <E> java.util.ArrayList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#removeIf(java.util.function.Predicate) public boolean
-     *      java.util.ArrayList.removeIf(java.util.function.Predicate) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#removeIf(Predicate) public boolean
+     * java.util.ArrayList.removeIf(java.util.function.Predicate<? super E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -301,20 +270,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#sort(java.util.Comparator) public void
+     * Test method for the hereby targeted method-under-test {@link ArrayList#sort(Comparator) public void
      * java.util.ArrayList.sort(java.util.Comparator<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#sort(java.util.Comparator) public void
-     * java.util.ArrayList.sort(java.util.Comparator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#sort(java.util.Comparator) public void java.util.ArrayList.sort(java.util.Comparator)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -329,43 +293,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#clear() public void java.util.ArrayList.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#clear() public void java.util.ArrayList.clear()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#isEmpty() public boolean
+     * java.util.ArrayList.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#clear() public void java.util.ArrayList.clear() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#isEmpty() public boolean java.util.ArrayList.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#isEmpty() public boolean java.util.ArrayList.isEmpty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#isEmpty() public boolean java.util.ArrayList.isEmpty() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -380,20 +316,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#forEach(java.util.function.Consumer) public void
-     * java.util.ArrayList.forEach(java.util.function.Consumer<? super E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#forEach(java.util.function.Consumer) public void
-     * java.util.ArrayList.forEach(java.util.function.Consumer)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#clear() public void
+     * java.util.ArrayList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#forEach(java.util.function.Consumer) public void
-     *      java.util.ArrayList.forEach(java.util.function.Consumer) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#forEach(Consumer) public void
+     * java.util.ArrayList.forEach(java.util.function.Consumer<? super E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -408,20 +362,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#spliterator() public java.util.Spliterator
+     * Test method for the hereby targeted method-under-test {@link ArrayList#spliterator() public java.util.Spliterator
      * <E> java.util.ArrayList.spliterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#spliterator() public java.util.Spliterator
-     * java.util.ArrayList.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#spliterator() public java.util.Spliterator java.util.ArrayList.spliterator() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -436,19 +385,37 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#set(int, Object) public E java.util.ArrayList.set(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#set(int, Object) public java.lang.Object
-     * java.util.ArrayList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#trimToSize() public void
+     * java.util.ArrayList.trimToSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#set(int, Object) public java.lang.Object java.util.ArrayList.set(int,java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_trimToSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#set(int, Object) public E
+     * java.util.ArrayList.set(int,E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -463,45 +430,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#trimToSize() public void java.util.ArrayList.trimToSize()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#trimToSize() public void java.util.ArrayList.trimToSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#trimToSize() public void java.util.ArrayList.trimToSize() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_trimToSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#subList(int, int) public java.util.List
+     * Test method for the hereby targeted method-under-test {@link ArrayList#subList(int, int) public java.util.List
      * <E> java.util.ArrayList.subList(int,int)}.
      *
-     * <p>
-     * Test method for {@link java.util.ArrayList#subList(int, int) public java.util.List
-     * java.util.ArrayList.subList(int,int)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#subList(int, int) public java.util.List java.util.ArrayList.subList(int,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -516,45 +453,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#add(Object) public boolean java.util.ArrayList.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#add(Object) public boolean java.util.ArrayList.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#add(int, Object) public void
+     * java.util.ArrayList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#add(Object) public boolean java.util.ArrayList.add(java.lang.Object) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#add(int, Object) public void java.util.ArrayList.add(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#add(int, Object) public void
-     * java.util.ArrayList.add(int,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#add(int, Object) public void java.util.ArrayList.add(int,java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -569,20 +476,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#retainAll(java.util.Collection) public boolean
-     * java.util.ArrayList.retainAll(java.util.Collection<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#retainAll(java.util.Collection) public boolean
-     * java.util.ArrayList.retainAll(java.util.Collection)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#add(Object) public boolean
+     * java.util.ArrayList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#retainAll(java.util.Collection) public boolean
-     *      java.util.ArrayList.retainAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#retainAll(Collection) public boolean
+     * java.util.ArrayList.retainAll(java.util.Collection<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -597,11 +522,7 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#ensureCapacity(int) public void
-     * java.util.ArrayList.ensureCapacity(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#ensureCapacity(int) public void
+     * Test method for the hereby targeted method-under-test {@link ArrayList#ensureCapacity(int) public void
      * java.util.ArrayList.ensureCapacity(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -609,8 +530,7 @@ AbstractListTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#ensureCapacity(int) public void java.util.ArrayList.ensureCapacity(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -624,48 +544,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#listIterator(int) public java.util.ListIterator
-     * <E> java.util.ArrayList.listIterator(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#listIterator(int) public java.util.ListIterator
-     * java.util.ArrayList.listIterator(int)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#listIterator() public
+     * java.util.ListIterator<E> java.util.ArrayList.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#listIterator(int) public java.util.ListIterator java.util.ArrayList.listIterator(int)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_listIterator_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#listIterator() public java.util.ListIterator
-     * <E> java.util.ArrayList.listIterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#listIterator() public java.util.ListIterator
-     * java.util.ArrayList.listIterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#listIterator() public java.util.ListIterator java.util.ArrayList.listIterator() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -680,18 +567,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#clone() public java.lang.Object java.util.ArrayList.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#clone() public java.lang.Object java.util.ArrayList.clone()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#listIterator(int) public
+     * java.util.ListIterator<E> java.util.ArrayList.listIterator(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#clone() public java.lang.Object java.util.ArrayList.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_listIterator_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#clone() public java.lang.Object
+     * java.util.ArrayList.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -705,48 +612,15 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#addAll(int, java.util.Collection) public boolean
-     * java.util.ArrayList.addAll(int,java.util.Collection<? extends E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#addAll(int, java.util.Collection) public boolean
-     * java.util.ArrayList.addAll(int,java.util.Collection)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayList#addAll(int, java.util.Collection) public boolean
-     *      java.util.ArrayList.addAll(int,java.util.Collection) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_int_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayList#addAll(java.util.Collection) public boolean
+     * Test method for the hereby targeted method-under-test {@link ArrayList#addAll(Collection) public boolean
      * java.util.ArrayList.addAll(java.util.Collection<? extends E>)}.
      *
-     * <p>
-     * Test method for {@link java.util.ArrayList#addAll(java.util.Collection) public boolean
-     * java.util.ArrayList.addAll(java.util.Collection)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#addAll(java.util.Collection) public boolean
-     *      java.util.ArrayList.addAll(java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -761,17 +635,38 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#size() public int java.util.ArrayList.size()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#size() public int java.util.ArrayList.size()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayList#addAll(int, Collection) public boolean
+     * java.util.ArrayList.addAll(int,java.util.Collection<? extends E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#size() public int java.util.ArrayList.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addAll_int_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayList#size() public int
+     * java.util.ArrayList.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -786,11 +681,7 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#contains(Object) public boolean
-     * java.util.ArrayList.contains(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link ArrayList#contains(Object) public boolean
      * java.util.ArrayList.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -798,8 +689,7 @@ AbstractListTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#contains(Object) public boolean java.util.ArrayList.contains(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -814,11 +704,7 @@ AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayList#lastIndexOf(Object) public int
-     * java.util.ArrayList.lastIndexOf(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayList#lastIndexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link ArrayList#lastIndexOf(Object) public int
      * java.util.ArrayList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -826,8 +712,7 @@ AbstractListTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayList#lastIndexOf(Object) public int java.util.ArrayList.lastIndexOf(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -840,76 +725,6 @@ AbstractListTests<SUT, E> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractList#containsAll(java.util.Collection) class java.util.AbstractList}</li>
-     * <li>{@linkplain java.util.List#containsAll(java.util.Collection) interface java.util.List}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractList#equals(Object) class java.util.AbstractList}</li>
-     * <li>{@linkplain java.util.List#equals(Object) interface java.util.List}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractList#hashCode() class java.util.AbstractList}</li>
-     * <li>{@linkplain java.util.List#hashCode() interface java.util.List}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ArrayList]
 
 }

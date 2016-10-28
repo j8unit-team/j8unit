@@ -2,28 +2,34 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.PortableInterceptor.RequestInfo;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.PortableInterceptor.RequestInfo interface
- * org.omg.PortableInterceptor.RequestInfo}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RequestInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link RequestInfo
+ * public abstract interface org.omg.PortableInterceptor.RequestInfo}.
  * </p>
  *
- * @see org.omg.PortableInterceptor.RequestInfo interface org.omg.PortableInterceptor.RequestInfo (the hereby targeted
- *      class-under-test class)
- * @see RequestInfoClassTests RequestInfoClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RequestInfoTests<SUT extends org.omg.PortableInterceptor.RequestInfo>
-extends RequestInfoOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
+public abstract interface RequestInfoTests<SUT extends RequestInfo>
+extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
 org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.RequestInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.RequestInfo]
 
 }

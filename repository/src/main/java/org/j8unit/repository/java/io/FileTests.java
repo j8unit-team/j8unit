@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.io;
 
+import java.io.File;
+import java.io.FileFilter;
+import java.io.FilenameFilter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,37 +11,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.File class java.io.File}. The complementary j8unit test interface
- * containing the class relevant aspects is {@link FileClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link File public
+ * class java.io.File}.
  * </p>
  *
- * @see java.io.File class java.io.File (the hereby targeted class-under-test class)
- * @see FileClassTests FileClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.FileClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileTests<SUT extends java.io.File>
-extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, java.io.File>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface FileTests<SUT extends File>
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, File>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.File]
 
     /**
      * <p>
-     * Test method for {@link java.io.File#isHidden() public boolean java.io.File.isHidden()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#isHidden() public boolean java.io.File.isHidden()}.
+     * Test method for the hereby targeted method-under-test {@link File#isHidden() public boolean
+     * java.io.File.isHidden()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#isHidden() public boolean java.io.File.isHidden() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,35 +59,7 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#list() public java.lang.String[] java.io.File.list()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#list() public java.lang.String[] java.io.File.list()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#list() public java.lang.String[] java.io.File.list() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_list()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#list(java.io.FilenameFilter) public java.lang.String[]
-     * java.io.File.list(java.io.FilenameFilter)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#list(java.io.FilenameFilter) public java.lang.String[]
+     * Test method for the hereby targeted method-under-test {@link File#list(FilenameFilter) public java.lang.String[]
      * java.io.File.list(java.io.FilenameFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -88,8 +67,7 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
      * methods soon.
      * </p>
      *
-     * @see java.io.File#list(java.io.FilenameFilter) public java.lang.String[]
-     *      java.io.File.list(java.io.FilenameFilter) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -103,17 +81,37 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#canWrite() public boolean java.io.File.canWrite()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#canWrite() public boolean java.io.File.canWrite()}.
+     * Test method for the hereby targeted method-under-test {@link File#list() public java.lang.String[]
+     * java.io.File.list()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#canWrite() public boolean java.io.File.canWrite() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_list()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#canWrite() public boolean
+     * java.io.File.canWrite()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -127,41 +125,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#length() public long java.io.File.length()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#length() public long java.io.File.length()}.
+     * Test method for the hereby targeted method-under-test {@link File#getFreeSpace() public long
+     * java.io.File.getFreeSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#length() public long java.io.File.length() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_length()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#getFreeSpace() public long java.io.File.getFreeSpace()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getFreeSpace() public long java.io.File.getFreeSpace()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#getFreeSpace() public long java.io.File.getFreeSpace() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,17 +147,36 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#toURI() public java.net.URI java.io.File.toURI()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#toURI() public java.net.URI java.io.File.toURI()}.
+     * Test method for the hereby targeted method-under-test {@link File#length() public long java.io.File.length()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#toURI() public java.net.URI java.io.File.toURI() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#toURI() public java.net.URI
+     * java.io.File.toURI()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,17 +190,14 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#isFile() public boolean java.io.File.isFile()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#isFile() public boolean java.io.File.isFile()}.
+     * Test method for the hereby targeted method-under-test {@link File#isFile() public boolean java.io.File.isFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#isFile() public boolean java.io.File.isFile() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,18 +211,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getAbsolutePath() public java.lang.String java.io.File.getAbsolutePath()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getAbsolutePath() public java.lang.String java.io.File.getAbsolutePath()}.
+     * Test method for the hereby targeted method-under-test {@link File#getAbsolutePath() public java.lang.String
+     * java.io.File.getAbsolutePath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getAbsolutePath() public java.lang.String java.io.File.getAbsolutePath() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -248,96 +233,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getCanonicalPath() public java.lang.String java.io.File.getCanonicalPath()
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getCanonicalPath() public java.lang.String java.io.File.getCanonicalPath()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link File#toURL() public java.net.URL
+     * java.io.File.toURL() throws java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getCanonicalPath() public java.lang.String java.io.File.getCanonicalPath() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCanonicalPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#getParent() public java.lang.String java.io.File.getParent()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getParent() public java.lang.String java.io.File.getParent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#getParent() public java.lang.String java.io.File.getParent() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#canExecute() public boolean java.io.File.canExecute()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#canExecute() public boolean java.io.File.canExecute()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#canExecute() public boolean java.io.File.canExecute() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canExecute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#toURL() public java.net.URL java.io.File.toURL() throws
-     * java.net.MalformedURLException}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#toURL() public java.net.URL java.io.File.toURL() throws
-     * java.net.MalformedURLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#toURL() public java.net.URL java.io.File.toURL() throws java.net.MalformedURLException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -351,25 +255,20 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setWritable(boolean, boolean) public boolean
-     * java.io.File.setWritable(boolean,boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setWritable(boolean, boolean) public boolean
-     * java.io.File.setWritable(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link File#canExecute() public boolean
+     * java.io.File.canExecute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#setWritable(boolean, boolean) public boolean java.io.File.setWritable(boolean,boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setWritable_boolean_boolean()
+    public default void test_canExecute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -378,18 +277,59 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setWritable(boolean) public boolean java.io.File.setWritable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setWritable(boolean) public boolean java.io.File.setWritable(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link File#getParent() public java.lang.String
+     * java.io.File.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#setWritable(boolean) public boolean java.io.File.setWritable(boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#getCanonicalPath() public java.lang.String
+     * java.io.File.getCanonicalPath() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCanonicalPath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#setWritable(boolean) public boolean
+     * java.io.File.setWritable(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -403,22 +343,20 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setReadOnly() public boolean java.io.File.setReadOnly()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setReadOnly() public boolean java.io.File.setReadOnly()}.
+     * Test method for the hereby targeted method-under-test {@link File#setWritable(boolean, boolean) public boolean
+     * java.io.File.setWritable(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#setReadOnly() public boolean java.io.File.setReadOnly() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setReadOnly()
+    public default void test_setWritable_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -427,42 +365,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#isDirectory() public boolean java.io.File.isDirectory()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#isDirectory() public boolean java.io.File.isDirectory()}.
+     * Test method for the hereby targeted method-under-test {@link File#setLastModified(long) public boolean
+     * java.io.File.setLastModified(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#isDirectory() public boolean java.io.File.isDirectory() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDirectory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#setLastModified(long) public boolean java.io.File.setLastModified(long)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setLastModified(long) public boolean java.io.File.setLastModified(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#setLastModified(long) public boolean java.io.File.setLastModified(long) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -476,20 +387,59 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#createNewFile() public boolean java.io.File.createNewFile() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#createNewFile() public boolean java.io.File.createNewFile() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link File#isDirectory() public boolean
+     * java.io.File.isDirectory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#createNewFile() public boolean java.io.File.createNewFile() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDirectory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#setReadOnly() public boolean
+     * java.io.File.setReadOnly()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReadOnly()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#createNewFile() public boolean
+     * java.io.File.createNewFile() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -503,18 +453,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#toString() public java.lang.String java.io.File.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#toString() public java.lang.String java.io.File.toString()}.
+     * Test method for the hereby targeted method-under-test {@link File#toString() public java.lang.String
+     * java.io.File.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#toString() public java.lang.String java.io.File.toString() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -529,17 +476,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#lastModified() public long java.io.File.lastModified()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#lastModified() public long java.io.File.lastModified()}.
+     * Test method for the hereby targeted method-under-test {@link File#lastModified() public long
+     * java.io.File.lastModified()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#lastModified() public long java.io.File.lastModified() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -553,41 +498,14 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#isAbsolute() public boolean java.io.File.isAbsolute()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#isAbsolute() public boolean java.io.File.isAbsolute()}.
+     * Test method for the hereby targeted method-under-test {@link File#exists() public boolean java.io.File.exists()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#isAbsolute() public boolean java.io.File.isAbsolute() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAbsolute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#exists() public boolean java.io.File.exists()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#exists() public boolean java.io.File.exists()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#exists() public boolean java.io.File.exists() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -601,18 +519,58 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#equals(Object) public boolean java.io.File.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#equals(Object) public boolean java.io.File.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link File#isAbsolute() public boolean
+     * java.io.File.isAbsolute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#equals(Object) public boolean java.io.File.equals(java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAbsolute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#mkdirs() public boolean java.io.File.mkdirs()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mkdirs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#equals(Object) public boolean
+     * java.io.File.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -627,42 +585,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#mkdirs() public boolean java.io.File.mkdirs()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#mkdirs() public boolean java.io.File.mkdirs()}.
+     * Test method for the hereby targeted method-under-test {@link File#toPath() public java.nio.file.Path
+     * java.io.File.toPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#mkdirs() public boolean java.io.File.mkdirs() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mkdirs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#toPath() public java.nio.file.Path java.io.File.toPath()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#toPath() public java.nio.file.Path java.io.File.toPath()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#toPath() public java.nio.file.Path java.io.File.toPath() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -676,17 +607,14 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#delete() public boolean java.io.File.delete()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#delete() public boolean java.io.File.delete()}.
+     * Test method for the hereby targeted method-under-test {@link File#delete() public boolean java.io.File.delete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#delete() public boolean java.io.File.delete() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -700,18 +628,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#compareTo(java.io.File) public int java.io.File.compareTo(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#compareTo(java.io.File) public int java.io.File.compareTo(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link File#compareTo(File) public int
+     * java.io.File.compareTo(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#compareTo(java.io.File) public int java.io.File.compareTo(java.io.File) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -725,20 +650,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getCanonicalFile() public java.io.File java.io.File.getCanonicalFile() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getCanonicalFile() public java.io.File java.io.File.getCanonicalFile() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link File#getCanonicalFile() public java.io.File
+     * java.io.File.getCanonicalFile() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getCanonicalFile() public java.io.File java.io.File.getCanonicalFile() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -752,69 +672,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#canRead() public boolean java.io.File.canRead()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#canRead() public boolean java.io.File.canRead()}.
+     * Test method for the hereby targeted method-under-test {@link File#setExecutable(boolean) public boolean
+     * java.io.File.setExecutable(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#canRead() public boolean java.io.File.canRead() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canRead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#setExecutable(boolean, boolean) public boolean
-     * java.io.File.setExecutable(boolean,boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setExecutable(boolean, boolean) public boolean
-     * java.io.File.setExecutable(boolean,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#setExecutable(boolean, boolean) public boolean java.io.File.setExecutable(boolean,boolean) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExecutable_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#setExecutable(boolean) public boolean java.io.File.setExecutable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setExecutable(boolean) public boolean java.io.File.setExecutable(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#setExecutable(boolean) public boolean java.io.File.setExecutable(boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -828,23 +694,20 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getName() public java.lang.String java.io.File.getName()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getName() public java.lang.String java.io.File.getName()}.
+     * Test method for the hereby targeted method-under-test {@link File#setExecutable(boolean, boolean) public boolean
+     * java.io.File.setExecutable(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getName() public java.lang.String java.io.File.getName() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_setExecutable_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -853,23 +716,20 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getUsableSpace() public long java.io.File.getUsableSpace()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getUsableSpace() public long java.io.File.getUsableSpace()}.
+     * Test method for the hereby targeted method-under-test {@link File#canRead() public boolean
+     * java.io.File.canRead()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getUsableSpace() public long java.io.File.getUsableSpace() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUsableSpace()
+    public default void test_canRead()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -878,18 +738,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#renameTo(java.io.File) public boolean java.io.File.renameTo(java.io.File)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#renameTo(java.io.File) public boolean java.io.File.renameTo(java.io.File)}.
+     * Test method for the hereby targeted method-under-test {@link File#renameTo(File) public boolean
+     * java.io.File.renameTo(java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#renameTo(java.io.File) public boolean java.io.File.renameTo(java.io.File) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -903,17 +760,59 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#deleteOnExit() public void java.io.File.deleteOnExit()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#deleteOnExit() public void java.io.File.deleteOnExit()}.
+     * Test method for the hereby targeted method-under-test {@link File#getUsableSpace() public long
+     * java.io.File.getUsableSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#deleteOnExit() public void java.io.File.deleteOnExit() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUsableSpace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#getName() public java.lang.String
+     * java.io.File.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#deleteOnExit() public void
+     * java.io.File.deleteOnExit()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -927,96 +826,14 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#listFiles() public java.io.File[] java.io.File.listFiles()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#listFiles() public java.io.File[] java.io.File.listFiles()}.
+     * Test method for the hereby targeted method-under-test {@link File#mkdir() public boolean java.io.File.mkdir()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#listFiles() public java.io.File[] java.io.File.listFiles() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_listFiles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FilenameFilter) public java.io.File[]
-     * java.io.File.listFiles(java.io.FilenameFilter)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FilenameFilter) public java.io.File[]
-     * java.io.File.listFiles(java.io.FilenameFilter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#listFiles(java.io.FilenameFilter) public java.io.File[]
-     *      java.io.File.listFiles(java.io.FilenameFilter) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_listFiles_FilenameFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FileFilter) public java.io.File[]
-     * java.io.File.listFiles(java.io.FileFilter)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FileFilter) public java.io.File[]
-     * java.io.File.listFiles(java.io.FileFilter)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#listFiles(java.io.FileFilter) public java.io.File[] java.io.File.listFiles(java.io.FileFilter)
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_listFiles_FileFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#mkdir() public boolean java.io.File.mkdir()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#mkdir() public boolean java.io.File.mkdir()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#mkdir() public boolean java.io.File.mkdir() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1030,18 +847,81 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getAbsoluteFile() public java.io.File java.io.File.getAbsoluteFile()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getAbsoluteFile() public java.io.File java.io.File.getAbsoluteFile()}.
+     * Test method for the hereby targeted method-under-test {@link File#listFiles(FileFilter) public java.io.File[]
+     * java.io.File.listFiles(java.io.FileFilter)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getAbsoluteFile() public java.io.File java.io.File.getAbsoluteFile() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_listFiles_FileFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#listFiles(FilenameFilter) public java.io.File[]
+     * java.io.File.listFiles(java.io.FilenameFilter)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_listFiles_FilenameFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#listFiles() public java.io.File[]
+     * java.io.File.listFiles()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_listFiles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#getAbsoluteFile() public java.io.File
+     * java.io.File.getAbsoluteFile()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1055,43 +935,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getParentFile() public java.io.File java.io.File.getParentFile()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getParentFile() public java.io.File java.io.File.getParentFile()}.
+     * Test method for the hereby targeted method-under-test {@link File#getPath() public java.lang.String
+     * java.io.File.getPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getParentFile() public java.io.File java.io.File.getParentFile() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParentFile()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.File#getPath() public java.lang.String java.io.File.getPath()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getPath() public java.lang.String java.io.File.getPath()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#getPath() public java.lang.String java.io.File.getPath() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1105,17 +957,36 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#hashCode() public int java.io.File.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#hashCode() public int java.io.File.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link File#getParentFile() public java.io.File
+     * java.io.File.getParentFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#hashCode() public int java.io.File.hashCode() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParentFile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link File#hashCode() public int java.io.File.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -1130,18 +1001,15 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getTotalSpace() public long java.io.File.getTotalSpace()}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#getTotalSpace() public long java.io.File.getTotalSpace()}.
+     * Test method for the hereby targeted method-under-test {@link File#getTotalSpace() public long
+     * java.io.File.getTotalSpace()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.File#getTotalSpace() public long java.io.File.getTotalSpace() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1155,11 +1023,29 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setReadable(boolean, boolean) public boolean
-     * java.io.File.setReadable(boolean,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link File#setReadable(boolean) public boolean
+     * java.io.File.setReadable(boolean)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReadable_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.io.File#setReadable(boolean, boolean) public boolean
+     * Test method for the hereby targeted method-under-test {@link File#setReadable(boolean, boolean) public boolean
      * java.io.File.setReadable(boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1167,8 +1053,7 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
      * methods soon.
      * </p>
      *
-     * @see java.io.File#setReadable(boolean, boolean) public boolean java.io.File.setReadable(boolean,boolean) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -1180,29 +1065,6 @@ extends SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.io.File#setReadable(boolean) public boolean java.io.File.setReadable(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.io.File#setReadable(boolean) public boolean java.io.File.setReadable(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.File#setReadable(boolean) public boolean java.io.File.setReadable(boolean) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReadable_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.File]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.sound.midi;
 
+import javax.sound.midi.Instrument;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.sound.midi.Instrument class javax.sound.midi.Instrument}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link InstrumentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Instrument
+ * public abstract class javax.sound.midi.Instrument}.
  * </p>
  *
- * @see javax.sound.midi.Instrument class javax.sound.midi.Instrument (the hereby targeted class-under-test class)
- * @see InstrumentClassTests InstrumentClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.sound.midi.InstrumentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InstrumentTests<SUT extends javax.sound.midi.Instrument>
-extends SoundbankResourceTests<SUT> {
+public abstract interface InstrumentTests<SUT extends Instrument>
+extends org.j8unit.repository.javax.sound.midi.SoundbankResourceTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.Instrument]
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Instrument#getPatch() public javax.sound.midi.Patch
-     * javax.sound.midi.Instrument.getPatch()}.
-     *
-     * <p>
-     * Test method for {@link javax.sound.midi.Instrument#getPatch() public javax.sound.midi.Patch
+     * Test method for the hereby targeted method-under-test {@link Instrument#getPatch() public javax.sound.midi.Patch
      * javax.sound.midi.Instrument.getPatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends SoundbankResourceTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.sound.midi.Instrument#getPatch() public javax.sound.midi.Patch javax.sound.midi.Instrument.getPatch()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -52,5 +53,7 @@ extends SoundbankResourceTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Instrument]
 
 }

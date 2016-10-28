@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.naming;
 
+import javax.naming.TimeLimitExceededException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.TimeLimitExceededException class
- * javax.naming.TimeLimitExceededException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link TimeLimitExceededExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TimeLimitExceededException public class javax.naming.TimeLimitExceededException}.
  * </p>
  *
- * @see javax.naming.TimeLimitExceededException class javax.naming.TimeLimitExceededException (the hereby targeted
- *      class-under-test class)
- * @see TimeLimitExceededExceptionClassTests TimeLimitExceededExceptionClassTests (the complementary j8unit test
- *      interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.TimeLimitExceededExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimeLimitExceededExceptionTests<SUT extends javax.naming.TimeLimitExceededException>
-extends LimitExceededExceptionTests<SUT> {
+public abstract interface TimeLimitExceededExceptionTests<SUT extends TimeLimitExceededException>
+extends org.j8unit.repository.javax.naming.LimitExceededExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.TimeLimitExceededException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.TimeLimitExceededException]
 
 }

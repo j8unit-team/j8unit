@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.security.auth;
 
+import javax.security.auth.RefreshFailedException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.security.auth.RefreshFailedException class
- * javax.security.auth.RefreshFailedException}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link RefreshFailedExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link RefreshFailedException public class javax.security.auth.RefreshFailedException}.
  * </p>
  *
- * @see javax.security.auth.RefreshFailedException class javax.security.auth.RefreshFailedException (the hereby targeted
- *      class-under-test class)
- * @see RefreshFailedExceptionClassTests RefreshFailedExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.security.auth.RefreshFailedExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface RefreshFailedExceptionTests<SUT extends javax.security.auth.RefreshFailedException>
+public abstract interface RefreshFailedExceptionTests<SUT extends RefreshFailedException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.RefreshFailedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.RefreshFailedException]
 
 }

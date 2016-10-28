@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf;
 
+import javax.swing.JTree;
+import javax.swing.plaf.TreeUI;
+import javax.swing.tree.TreePath;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.TreeUI class javax.swing.plaf.TreeUI}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link TreeUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TreeUI public
+ * abstract class javax.swing.plaf.TreeUI}.
  * </p>
  *
- * @see javax.swing.plaf.TreeUI class javax.swing.plaf.TreeUI (the hereby targeted class-under-test class)
- * @see TreeUIClassTests TreeUIClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.TreeUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TreeUITests<SUT extends javax.swing.plaf.TreeUI>
-extends ComponentUITests<SUT> {
+public abstract interface TreeUITests<SUT extends TreeUI>
+extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.TreeUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#stopEditing(javax.swing.JTree) public abstract boolean
-     * javax.swing.plaf.TreeUI.stopEditing(javax.swing.JTree)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#stopEditing(javax.swing.JTree) public abstract boolean
+     * Test method for the hereby targeted method-under-test {@link TreeUI#stopEditing(JTree) public abstract boolean
      * javax.swing.plaf.TreeUI.stopEditing(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +44,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#stopEditing(javax.swing.JTree) public abstract boolean
-     *      javax.swing.plaf.TreeUI.stopEditing(javax.swing.JTree) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,48 +58,16 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree) public abstract boolean
-     * javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree) public abstract boolean
-     * javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getClosestPathForLocation(JTree, int, int)
+     * public abstract javax.swing.tree.TreePath
+     * javax.swing.plaf.TreeUI.getClosestPathForLocation(javax.swing.JTree,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree) public abstract boolean
-     *      javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditing_JTree()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getClosestPathForLocation(javax.swing.JTree, int, int) public
-     * abstract javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getClosestPathForLocation(javax.swing.JTree,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getClosestPathForLocation(javax.swing.JTree, int, int) public
-     * abstract javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getClosestPathForLocation(javax.swing.JTree,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.TreeUI#getClosestPathForLocation(javax.swing.JTree, int, int) public abstract
-     *      javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getClosestPathForLocation(javax.swing.JTree,int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,21 +81,37 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#startEditingAtPath(javax.swing.JTree, javax.swing.tree.TreePath)
-     * public abstract void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#startEditingAtPath(javax.swing.JTree, javax.swing.tree.TreePath)
-     * public abstract void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     * Test method for the hereby targeted method-under-test {@link TreeUI#isEditing(JTree) public abstract boolean
+     * javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#startEditingAtPath(javax.swing.JTree, javax.swing.tree.TreePath) public abstract
-     *      void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEditing_JTree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link TreeUI#startEditingAtPath(JTree, TreePath) public
+     * abstract void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -138,11 +125,7 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
-     * javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getRowCount(JTree) public abstract int
      * javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -150,8 +133,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
-     *      javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -165,11 +147,7 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public
-     * abstract java.awt.Rectangle javax.swing.plaf.TreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getPathBounds(JTree, TreePath) public
      * abstract java.awt.Rectangle javax.swing.plaf.TreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,9 +155,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public abstract
-     *      java.awt.Rectangle javax.swing.plaf.TreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,11 +169,7 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getRowForPath(javax.swing.JTree, javax.swing.tree.TreePath) public
-     * abstract int javax.swing.plaf.TreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getRowForPath(javax.swing.JTree, javax.swing.tree.TreePath) public
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getRowForPath(JTree, TreePath) public
      * abstract int javax.swing.plaf.TreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -205,9 +177,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#getRowForPath(javax.swing.JTree, javax.swing.tree.TreePath) public abstract int
-     *      javax.swing.plaf.TreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -221,38 +191,7 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#cancelEditing(javax.swing.JTree) public abstract void
-     * javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#cancelEditing(javax.swing.JTree) public abstract void
-     * javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.TreeUI#cancelEditing(javax.swing.JTree) public abstract void
-     *      javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_cancelEditing_JTree()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getEditingPath(javax.swing.JTree) public abstract
-     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getEditingPath(javax.swing.JTree)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getEditingPath(javax.swing.JTree) public abstract
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getEditingPath(JTree) public abstract
      * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getEditingPath(javax.swing.JTree)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,8 +199,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#getEditingPath(javax.swing.JTree) public abstract javax.swing.tree.TreePath
-     *      javax.swing.plaf.TreeUI.getEditingPath(javax.swing.JTree) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -275,11 +213,29 @@ extends ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getPathForRow(javax.swing.JTree, int) public abstract
-     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getPathForRow(javax.swing.JTree,int)}.
+     * Test method for the hereby targeted method-under-test {@link TreeUI#cancelEditing(JTree) public abstract void
+     * javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_cancelEditing_JTree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getPathForRow(javax.swing.JTree, int) public abstract
+     * Test method for the hereby targeted method-under-test {@link TreeUI#getPathForRow(JTree, int) public abstract
      * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getPathForRow(javax.swing.JTree,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -287,8 +243,7 @@ extends ComponentUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.TreeUI#getPathForRow(javax.swing.JTree, int) public abstract javax.swing.tree.TreePath
-     *      javax.swing.plaf.TreeUI.getPathForRow(javax.swing.JTree,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -299,5 +254,7 @@ extends ComponentUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.TreeUI]
 
 }

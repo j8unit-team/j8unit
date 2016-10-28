@@ -1,5 +1,12 @@
 package org.j8unit.repository.java.security.cert;
 
+import java.net.URI;
+import java.security.cert.PKIXRevocationChecker;
+import java.security.cert.PKIXRevocationChecker.Option;
+import java.security.cert.X509Certificate;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,45 +15,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.cert.PKIXRevocationChecker class
- * java.security.cert.PKIXRevocationChecker}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link PKIXRevocationCheckerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PKIXRevocationChecker public abstract class java.security.cert.PKIXRevocationChecker}.
  * </p>
  *
- * @see java.security.cert.PKIXRevocationChecker class java.security.cert.PKIXRevocationChecker (the hereby targeted
- *      class-under-test class)
- * @see PKIXRevocationCheckerClassTests PKIXRevocationCheckerClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PKIXRevocationCheckerTests<SUT extends java.security.cert.PKIXRevocationChecker>
-extends PKIXCertPathCheckerTests<SUT> {
+public abstract interface PKIXRevocationCheckerTests<SUT extends PKIXRevocationChecker>
+extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PKIXRevocationChecker]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.cert.PKIXRevocationChecker#setOcspResponderCert(java.security.cert.X509Certificate) public
-     * void java.security.cert.PKIXRevocationChecker.setOcspResponderCert(java.security.cert.X509Certificate)}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.security.cert.PKIXRevocationChecker#setOcspResponderCert(java.security.cert.X509Certificate) public
-     * void java.security.cert.PKIXRevocationChecker.setOcspResponderCert(java.security.cert.X509Certificate)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link PKIXRevocationChecker#setOcspResponderCert(X509Certificate) public void
+     * java.security.cert.PKIXRevocationChecker.setOcspResponderCert(java.security.cert.X509Certificate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#setOcspResponderCert(java.security.cert.X509Certificate) public
-     *      void java.security.cert.PKIXRevocationChecker.setOcspResponderCert(java.security.cert.X509Certificate) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -60,20 +63,16 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOptions() public java.util.Set
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getOptions() public
+     * java.util.Set
      * <java.security.cert.PKIXRevocationChecker$Option> java.security.cert.PKIXRevocationChecker.getOptions()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOptions() public java.util.Set
-     * java.security.cert.PKIXRevocationChecker.getOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#getOptions() public java.util.Set
-     *      java.security.cert.PKIXRevocationChecker.getOptions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -87,50 +86,16 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspResponder(java.net.URI) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspResponder(java.net.URI)}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspResponder(java.net.URI) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspResponder(java.net.URI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.security.cert.PKIXRevocationChecker#setOcspResponder(java.net.URI) public void
-     *      java.security.cert.PKIXRevocationChecker.setOcspResponder(java.net.URI) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOcspResponder_URI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspResponses(java.util.Map) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspResponses(java.util.Map<java.security.cert.X509Certificate,
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#setOcspResponses(Map) public
+     * void java.security.cert.PKIXRevocationChecker.setOcspResponses(java.util.Map<java.security.cert.X509Certificate,
      * byte[]>)}.
      *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspResponses(java.util.Map) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspResponses(java.util.Map)}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#setOcspResponses(java.util.Map) public void
-     *      java.security.cert.PKIXRevocationChecker.setOcspResponses(java.util.Map) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -144,20 +109,37 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspExtensions() public java.util.List
-     * <java.security.cert.Extension> java.security.cert.PKIXRevocationChecker.getOcspExtensions()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspExtensions() public java.util.List
-     * java.security.cert.PKIXRevocationChecker.getOcspExtensions()}.
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#setOcspResponder(URI) public
+     * void java.security.cert.PKIXRevocationChecker.setOcspResponder(java.net.URI)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#getOcspExtensions() public java.util.List
-     *      java.security.cert.PKIXRevocationChecker.getOcspExtensions() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOcspResponder_URI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getOcspExtensions() public
+     * java.util.List<java.security.cert.Extension> java.security.cert.PKIXRevocationChecker.getOcspExtensions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -171,21 +153,16 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOptions(java.util.Set) public void
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#setOptions(Set) public void
      * java.security.cert.PKIXRevocationChecker.setOptions(java.util.Set
      * <java.security.cert.PKIXRevocationChecker$Option>)}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOptions(java.util.Set) public void
-     * java.security.cert.PKIXRevocationChecker.setOptions(java.util.Set)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#setOptions(java.util.Set) public void
-     *      java.security.cert.PKIXRevocationChecker.setOptions(java.util.Set) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -199,11 +176,7 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponderCert() public
-     * java.security.cert.X509Certificate java.security.cert.PKIXRevocationChecker.getOcspResponderCert()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponderCert() public
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getOcspResponderCert() public
      * java.security.cert.X509Certificate java.security.cert.PKIXRevocationChecker.getOcspResponderCert()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -211,8 +184,7 @@ extends PKIXCertPathCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#getOcspResponderCert() public java.security.cert.X509Certificate
-     *      java.security.cert.PKIXRevocationChecker.getOcspResponderCert() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -226,11 +198,7 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#clone() public
-     * java.security.cert.PKIXRevocationChecker java.security.cert.PKIXRevocationChecker.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#clone() public
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#clone() public
      * java.security.cert.PKIXRevocationChecker java.security.cert.PKIXRevocationChecker.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -238,8 +206,7 @@ extends PKIXCertPathCheckerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#clone() public java.security.cert.PKIXRevocationChecker
-     *      java.security.cert.PKIXRevocationChecker.clone() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -254,22 +221,17 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getSoftFailExceptions() public abstract
-     * java.util.List
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getSoftFailExceptions() public
+     * abstract java.util.List
      * <java.security.cert.CertPathValidatorException> java.security.cert.PKIXRevocationChecker.getSoftFailExceptions()}
      * .
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getSoftFailExceptions() public abstract
-     * java.util.List java.security.cert.PKIXRevocationChecker.getSoftFailExceptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#getSoftFailExceptions() public abstract java.util.List
-     *      java.security.cert.PKIXRevocationChecker.getSoftFailExceptions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -283,48 +245,16 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponder() public java.net.URI
-     * java.security.cert.PKIXRevocationChecker.getOcspResponder()}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponder() public java.net.URI
-     * java.security.cert.PKIXRevocationChecker.getOcspResponder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.security.cert.PKIXRevocationChecker#getOcspResponder() public java.net.URI
-     *      java.security.cert.PKIXRevocationChecker.getOcspResponder() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOcspResponder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponses() public
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getOcspResponses() public
      * java.util.Map<java.security.cert.X509Certificate, byte[]>
      * java.security.cert.PKIXRevocationChecker.getOcspResponses()}.
      *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#getOcspResponses() public java.util.Map
-     * java.security.cert.PKIXRevocationChecker.getOcspResponses()}.
-     *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#getOcspResponses() public java.util.Map
-     *      java.security.cert.PKIXRevocationChecker.getOcspResponses() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -338,21 +268,37 @@ extends PKIXCertPathCheckerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspExtensions(java.util.List) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspExtensions(java.util.List<java.security.cert.Extension>)}.
-     *
-     * <p>
-     * Test method for {@link java.security.cert.PKIXRevocationChecker#setOcspExtensions(java.util.List) public void
-     * java.security.cert.PKIXRevocationChecker.setOcspExtensions(java.util.List)}.
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#getOcspResponder() public
+     * java.net.URI java.security.cert.PKIXRevocationChecker.getOcspResponder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker#setOcspExtensions(java.util.List) public void
-     *      java.security.cert.PKIXRevocationChecker.setOcspExtensions(java.util.List) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOcspResponder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link PKIXRevocationChecker#setOcspExtensions(List) public
+     * void java.security.cert.PKIXRevocationChecker.setOcspExtensions(java.util.List<java.security.cert.Extension>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,27 +310,34 @@ extends PKIXCertPathCheckerTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXRevocationChecker]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain java.security.cert.PKIXRevocationChecker.Option class
-     * java.security.cert.PKIXRevocationChecker$Option}. The complementary j8unit test interface containing the class
-     * relevant aspects is {@link PKIXRevocationCheckerClassTests.OptionClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Option
+     * public static final enum java.security.cert.PKIXRevocationChecker$Option}.
      * </p>
      *
-     * @see java.security.cert.PKIXRevocationChecker.Option class java.security.cert.PKIXRevocationChecker$Option (the
-     *      hereby targeted class-under-test class)
-     * @see PKIXRevocationCheckerClassTests.OptionClassTests PKIXRevocationCheckerClassTests.OptionClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests.OptionClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OptionTests<SUT extends java.security.cert.PKIXRevocationChecker.Option>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.security.cert.PKIXRevocationChecker.Option> {
+    public static abstract interface OptionTests<SUT extends Option>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, Option> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PKIXRevocationChecker$Option]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXRevocationChecker$Option]
 
     }
 

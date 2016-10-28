@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.time.temporal;
 
+import java.time.temporal.TemporalField;
+import java.time.temporal.ValueRange;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.time.temporal.ValueRange class java.time.temporal.ValueRange}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ValueRangeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ValueRange
+ * public final class java.time.temporal.ValueRange}.
  * </p>
  *
- * @see java.time.temporal.ValueRange class java.time.temporal.ValueRange (the hereby targeted class-under-test class)
- * @see ValueRangeClassTests ValueRangeClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.time.temporal.ValueRangeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ValueRangeTests<SUT extends java.time.temporal.ValueRange>
+public abstract interface ValueRangeTests<SUT extends ValueRange>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.ValueRange]
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isIntValue() public boolean
-     * java.time.temporal.ValueRange.isIntValue()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isIntValue() public boolean
+     * Test method for the hereby targeted method-under-test {@link ValueRange#isIntValue() public boolean
      * java.time.temporal.ValueRange.isIntValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#isIntValue() public boolean java.time.temporal.ValueRange.isIntValue() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,38 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getLargestMinimum() public long
-     * java.time.temporal.ValueRange.getLargestMinimum()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getLargestMinimum() public long
-     * java.time.temporal.ValueRange.getLargestMinimum()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.temporal.ValueRange#getLargestMinimum() public long
-     *      java.time.temporal.ValueRange.getLargestMinimum() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLargestMinimum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isValidValue(long) public boolean
-     * java.time.temporal.ValueRange.isValidValue(long)}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isValidValue(long) public boolean
+     * Test method for the hereby targeted method-under-test {@link ValueRange#isValidValue(long) public boolean
      * java.time.temporal.ValueRange.isValidValue(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +65,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#isValidValue(long) public boolean
-     *      java.time.temporal.ValueRange.isValidValue(long) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,11 +79,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#hashCode() public int
-     * java.time.temporal.ValueRange.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link ValueRange#getLargestMinimum() public long
+     * java.time.temporal.ValueRange.getLargestMinimum()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLargestMinimum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link ValueRange#hashCode() public int
      * java.time.temporal.ValueRange.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,8 +109,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#hashCode() public int java.time.temporal.ValueRange.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -137,11 +124,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#equals(Object) public boolean
-     * java.time.temporal.ValueRange.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link ValueRange#equals(Object) public boolean
      * java.time.temporal.ValueRange.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +132,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#equals(Object) public boolean
-     *      java.time.temporal.ValueRange.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -165,11 +147,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#toString() public java.lang.String
-     * java.time.temporal.ValueRange.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link ValueRange#toString() public java.lang.String
      * java.time.temporal.ValueRange.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -177,8 +155,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#toString() public java.lang.String java.time.temporal.ValueRange.toString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -193,11 +170,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getMinimum() public long
-     * java.time.temporal.ValueRange.getMinimum()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getMinimum() public long
+     * Test method for the hereby targeted method-under-test {@link ValueRange#getMinimum() public long
      * java.time.temporal.ValueRange.getMinimum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -205,8 +178,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#getMinimum() public long java.time.temporal.ValueRange.getMinimum() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,39 +192,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#checkValidIntValue(long, java.time.temporal.TemporalField)
-     * public int java.time.temporal.ValueRange.checkValidIntValue(long,java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#checkValidIntValue(long, java.time.temporal.TemporalField)
-     * public int java.time.temporal.ValueRange.checkValidIntValue(long,java.time.temporal.TemporalField)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.temporal.ValueRange#checkValidIntValue(long, java.time.temporal.TemporalField) public int
-     *      java.time.temporal.ValueRange.checkValidIntValue(long,java.time.temporal.TemporalField) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkValidIntValue_long_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#checkValidValue(long, java.time.temporal.TemporalField)
-     * public long java.time.temporal.ValueRange.checkValidValue(long,java.time.temporal.TemporalField)}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#checkValidValue(long, java.time.temporal.TemporalField)
+     * Test method for the hereby targeted method-under-test {@link ValueRange#checkValidValue(long, TemporalField)
      * public long java.time.temporal.ValueRange.checkValidValue(long,java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -260,9 +200,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#checkValidValue(long, java.time.temporal.TemporalField) public long
-     *      java.time.temporal.ValueRange.checkValidValue(long,java.time.temporal.TemporalField) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -276,25 +214,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isValidIntValue(long) public boolean
-     * java.time.temporal.ValueRange.isValidIntValue(long)}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isValidIntValue(long) public boolean
-     * java.time.temporal.ValueRange.isValidIntValue(long)}.
+     * Test method for the hereby targeted method-under-test {@link ValueRange#checkValidIntValue(long, TemporalField)
+     * public int java.time.temporal.ValueRange.checkValidIntValue(long,java.time.temporal.TemporalField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#isValidIntValue(long) public boolean
-     *      java.time.temporal.ValueRange.isValidIntValue(long) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValidIntValue_long()
+    public default void test_checkValidIntValue_long_TemporalField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -303,38 +236,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isFixed() public boolean
-     * java.time.temporal.ValueRange.isFixed()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#isFixed() public boolean
-     * java.time.temporal.ValueRange.isFixed()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.time.temporal.ValueRange#isFixed() public boolean java.time.temporal.ValueRange.isFixed() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFixed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getMaximum() public long
-     * java.time.temporal.ValueRange.getMaximum()}.
-     *
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getMaximum() public long
+     * Test method for the hereby targeted method-under-test {@link ValueRange#getMaximum() public long
      * java.time.temporal.ValueRange.getMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -342,8 +244,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#getMaximum() public long java.time.temporal.ValueRange.getMaximum() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,11 +258,51 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getSmallestMaximum() public long
-     * java.time.temporal.ValueRange.getSmallestMaximum()}.
+     * Test method for the hereby targeted method-under-test {@link ValueRange#isFixed() public boolean
+     * java.time.temporal.ValueRange.isFixed()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFixed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.time.temporal.ValueRange#getSmallestMaximum() public long
+     * Test method for the hereby targeted method-under-test {@link ValueRange#isValidIntValue(long) public boolean
+     * java.time.temporal.ValueRange.isValidIntValue(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidIntValue_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ValueRange#getSmallestMaximum() public long
      * java.time.temporal.ValueRange.getSmallestMaximum()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -369,8 +310,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.time.temporal.ValueRange#getSmallestMaximum() public long
-     *      java.time.temporal.ValueRange.getSmallestMaximum() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,5 +321,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ValueRange]
 
 }

@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.util.spi;
 
+import java.util.Locale;
+import java.util.spi.CalendarNameProvider;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,35 +10,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.spi.CalendarNameProvider class
- * java.util.spi.CalendarNameProvider}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link CalendarNameProviderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link CalendarNameProvider public abstract class java.util.spi.CalendarNameProvider}.
  * </p>
  *
- * @see java.util.spi.CalendarNameProvider class java.util.spi.CalendarNameProvider (the hereby targeted
- *      class-under-test class)
- * @see CalendarNameProviderClassTests CalendarNameProviderClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.spi.CalendarNameProviderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface CalendarNameProviderTests<SUT extends java.util.spi.CalendarNameProvider>
-extends LocaleServiceProviderTests<SUT> {
+public abstract interface CalendarNameProviderTests<SUT extends CalendarNameProvider>
+extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.spi.CalendarNameProvider]
 
     /**
      * <p>
-     * Test method for {@link java.util.spi.CalendarNameProvider#getDisplayName(String, int, int, int, java.util.Locale)
-     * public abstract java.lang.String
-     * java.util.spi.CalendarNameProvider.getDisplayName(java.lang.String,int,int,int,java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.util.spi.CalendarNameProvider#getDisplayName(String, int, int, int, java.util.Locale)
-     * public abstract java.lang.String
+     * Test method for the hereby targeted method-under-test
+     * {@link CalendarNameProvider#getDisplayName(String, int, int, int, Locale) public abstract java.lang.String
      * java.util.spi.CalendarNameProvider.getDisplayName(java.lang.String,int,int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,10 +44,7 @@ extends LocaleServiceProviderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.spi.CalendarNameProvider#getDisplayName(String, int, int, int, java.util.Locale) public abstract
-     *      java.lang.String
-     *      java.util.spi.CalendarNameProvider.getDisplayName(java.lang.String,int,int,int,java.util.Locale) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -61,13 +58,9 @@ extends LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.spi.CalendarNameProvider#getDisplayNames(String, int, int, java.util.Locale)
-     * public abstract java.util.Map<java.lang.String, java.lang.Integer>
-     * java.util.spi.CalendarNameProvider.getDisplayNames(java.lang.String,int,int,java.util.Locale)}.
-     *
-     * <p>
-     * Test method for {@link java.util.spi.CalendarNameProvider#getDisplayNames(String, int, int, java.util.Locale)
-     * public abstract java.util.Map
+     * Test method for the hereby targeted method-under-test
+     * {@link CalendarNameProvider#getDisplayNames(String, int, int, Locale) public abstract
+     * java.util.Map<java.lang.String, java.lang.Integer>
      * java.util.spi.CalendarNameProvider.getDisplayNames(java.lang.String,int,int,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -75,9 +68,7 @@ extends LocaleServiceProviderTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.util.spi.CalendarNameProvider#getDisplayNames(String, int, int, java.util.Locale) public abstract
-     *      java.util.Map java.util.spi.CalendarNameProvider.getDisplayNames(java.lang.String,int,int,java.util.Locale)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -88,5 +79,7 @@ extends LocaleServiceProviderTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.spi.CalendarNameProvider]
 
 }

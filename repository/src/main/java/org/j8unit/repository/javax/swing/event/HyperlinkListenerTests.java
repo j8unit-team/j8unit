@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing.event;
 
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.event.HyperlinkListener interface
- * javax.swing.event.HyperlinkListener}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link HyperlinkListenerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link HyperlinkListener public abstract interface javax.swing.event.HyperlinkListener}.
  * </p>
  *
- * @see javax.swing.event.HyperlinkListener interface javax.swing.event.HyperlinkListener (the hereby targeted
- *      class-under-test class)
- * @see HyperlinkListenerClassTests HyperlinkListenerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.event.HyperlinkListenerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HyperlinkListenerTests<SUT extends javax.swing.event.HyperlinkListener>
+public abstract interface HyperlinkListenerTests<SUT extends HyperlinkListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.HyperlinkListener]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.HyperlinkListener#hyperlinkUpdate(javax.swing.event.HyperlinkEvent)
-     * public abstract void javax.swing.event.HyperlinkListener.hyperlinkUpdate(javax.swing.event.HyperlinkEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.event.HyperlinkListener#hyperlinkUpdate(javax.swing.event.HyperlinkEvent)
+     * Test method for the hereby targeted method-under-test {@link HyperlinkListener#hyperlinkUpdate(HyperlinkEvent)
      * public abstract void javax.swing.event.HyperlinkListener.hyperlinkUpdate(javax.swing.event.HyperlinkEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,9 +43,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.event.HyperlinkListener#hyperlinkUpdate(javax.swing.event.HyperlinkEvent) public abstract void
-     *      javax.swing.event.HyperlinkListener.hyperlinkUpdate(javax.swing.event.HyperlinkEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,5 +54,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.HyperlinkListener]
 
 }

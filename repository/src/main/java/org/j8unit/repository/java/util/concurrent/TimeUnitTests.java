@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util.concurrent;
 
+import java.util.concurrent.TimeUnit;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.TimeUnit class java.util.concurrent.TimeUnit}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link TimeUnitClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link TimeUnit public
+ * abstract enum java.util.concurrent.TimeUnit}.
  * </p>
  *
- * @see java.util.concurrent.TimeUnit class java.util.concurrent.TimeUnit (the hereby targeted class-under-test class)
- * @see TimeUnitClassTests TimeUnitClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.TimeUnitClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimeUnitTests<SUT extends java.util.concurrent.TimeUnit>
-extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.TimeUnit> {
+public abstract interface TimeUnitTests<SUT extends TimeUnit>
+extends org.j8unit.repository.java.lang.EnumTests<SUT, TimeUnit> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.TimeUnit]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#sleep(long) public void
-     * java.util.concurrent.TimeUnit.sleep(long) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#sleep(long) public void
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#sleep(long) public void
      * java.util.concurrent.TimeUnit.sleep(long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#sleep(long) public void java.util.concurrent.TimeUnit.sleep(long) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toNanos(long) public long
-     * java.util.concurrent.TimeUnit.toNanos(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toNanos(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toNanos(long) public long
      * java.util.concurrent.TimeUnit.toNanos(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toNanos(long) public long java.util.concurrent.TimeUnit.toNanos(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +78,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMinutes(long) public long
-     * java.util.concurrent.TimeUnit.toMinutes(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMinutes(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMinutes(long) public long
      * java.util.concurrent.TimeUnit.toMinutes(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +86,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toMinutes(long) public long java.util.concurrent.TimeUnit.toMinutes(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,11 +100,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#timedJoin(Thread, long) public void
-     * java.util.concurrent.TimeUnit.timedJoin(java.lang.Thread,long) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#timedJoin(Thread, long) public void
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#timedJoin(Thread, long) public void
      * java.util.concurrent.TimeUnit.timedJoin(java.lang.Thread,long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,9 +108,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#timedJoin(Thread, long) public void
-     *      java.util.concurrent.TimeUnit.timedJoin(java.lang.Thread,long) throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,11 +122,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toHours(long) public long
-     * java.util.concurrent.TimeUnit.toHours(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toHours(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toHours(long) public long
      * java.util.concurrent.TimeUnit.toHours(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +130,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toHours(long) public long java.util.concurrent.TimeUnit.toHours(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,11 +144,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#timedWait(Object, long) public void
-     * java.util.concurrent.TimeUnit.timedWait(java.lang.Object,long) throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#timedWait(Object, long) public void
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#timedWait(Object, long) public void
      * java.util.concurrent.TimeUnit.timedWait(java.lang.Object,long) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,9 +152,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#timedWait(Object, long) public void
-     *      java.util.concurrent.TimeUnit.timedWait(java.lang.Object,long) throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -192,11 +166,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMillis(long) public long
-     * java.util.concurrent.TimeUnit.toMillis(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMillis(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMillis(long) public long
      * java.util.concurrent.TimeUnit.toMillis(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -204,8 +174,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toMillis(long) public long java.util.concurrent.TimeUnit.toMillis(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -219,11 +188,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#convert(long, java.util.concurrent.TimeUnit) public long
-     * java.util.concurrent.TimeUnit.convert(long,java.util.concurrent.TimeUnit)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#convert(long, java.util.concurrent.TimeUnit) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#convert(long, TimeUnit) public long
      * java.util.concurrent.TimeUnit.convert(long,java.util.concurrent.TimeUnit)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -231,9 +196,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#convert(long, java.util.concurrent.TimeUnit) public long
-     *      java.util.concurrent.TimeUnit.convert(long,java.util.concurrent.TimeUnit) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -247,11 +210,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toDays(long) public long
-     * java.util.concurrent.TimeUnit.toDays(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toDays(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toDays(long) public long
      * java.util.concurrent.TimeUnit.toDays(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -259,8 +218,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toDays(long) public long java.util.concurrent.TimeUnit.toDays(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,11 +232,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMicros(long) public long
-     * java.util.concurrent.TimeUnit.toMicros(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toMicros(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toMicros(long) public long
      * java.util.concurrent.TimeUnit.toMicros(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,8 +240,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toMicros(long) public long java.util.concurrent.TimeUnit.toMicros(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -301,11 +254,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toSeconds(long) public long
-     * java.util.concurrent.TimeUnit.toSeconds(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.TimeUnit#toSeconds(long) public long
+     * Test method for the hereby targeted method-under-test {@link TimeUnit#toSeconds(long) public long
      * java.util.concurrent.TimeUnit.toSeconds(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -313,8 +262,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.TimeUnit#toSeconds(long) public long java.util.concurrent.TimeUnit.toSeconds(long) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -325,5 +273,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.concurrent.Time
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.TimeUnit]
 
 }

@@ -1,27 +1,34 @@
 package org.j8unit.repository.java.lang.annotation;
 
+import java.lang.annotation.Documented;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.lang.annotation.Documented interface java.lang.annotation.Documented}
- * . The complementary j8unit test interface containing the class relevant aspects is {@link DocumentedClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Documented
+ * public abstract @interface java.lang.annotation.Documented}.
  * </p>
  *
- * @see java.lang.annotation.Documented interface java.lang.annotation.Documented (the hereby targeted class-under-test
- *      class)
- * @see DocumentedClassTests DocumentedClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.lang.annotation.DocumentedClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DocumentedTests<SUT extends java.lang.annotation.Documented>
-extends AnnotationTests<SUT> {
+public abstract interface DocumentedTests<SUT extends Documented>
+extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.annotation.Documented]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.Documented]
 
 }

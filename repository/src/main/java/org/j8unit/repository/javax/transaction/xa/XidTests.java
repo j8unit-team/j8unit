@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.transaction.xa;
 
+import javax.transaction.xa.Xid;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,30 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.transaction.xa.Xid interface javax.transaction.xa.Xid}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link XidClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Xid public
+ * abstract interface javax.transaction.xa.Xid}.
  * </p>
  *
- * @see javax.transaction.xa.Xid interface javax.transaction.xa.Xid (the hereby targeted class-under-test class)
- * @see XidClassTests XidClassTests (the complementary j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.transaction.xa.XidClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface XidTests<SUT extends javax.transaction.xa.Xid>
+public abstract interface XidTests<SUT extends Xid>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.xa.Xid]
 
     /**
      * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getBranchQualifier() public abstract byte[]
-     * javax.transaction.xa.Xid.getBranchQualifier()}.
-     *
-     * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getBranchQualifier() public abstract byte[]
+     * Test method for the hereby targeted method-under-test {@link Xid#getBranchQualifier() public abstract byte[]
      * javax.transaction.xa.Xid.getBranchQualifier()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.transaction.xa.Xid#getBranchQualifier() public abstract byte[]
-     *      javax.transaction.xa.Xid.getBranchQualifier() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getFormatId() public abstract int
-     * javax.transaction.xa.Xid.getFormatId()}.
-     *
-     * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getFormatId() public abstract int
+     * Test method for the hereby targeted method-under-test {@link Xid#getFormatId() public abstract int
      * javax.transaction.xa.Xid.getFormatId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +65,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.transaction.xa.Xid#getFormatId() public abstract int javax.transaction.xa.Xid.getFormatId() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +79,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getGlobalTransactionId() public abstract byte[]
-     * javax.transaction.xa.Xid.getGlobalTransactionId()}.
-     *
-     * <p>
-     * Test method for {@link javax.transaction.xa.Xid#getGlobalTransactionId() public abstract byte[]
+     * Test method for the hereby targeted method-under-test {@link Xid#getGlobalTransactionId() public abstract byte[]
      * javax.transaction.xa.Xid.getGlobalTransactionId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +87,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.transaction.xa.Xid#getGlobalTransactionId() public abstract byte[]
-     *      javax.transaction.xa.Xid.getGlobalTransactionId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -106,5 +98,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.xa.Xid]
 
 }

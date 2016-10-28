@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
+import java.awt.Graphics;
+import javax.swing.JComponent;
+import javax.swing.plaf.multi.MultiInternalFrameUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,35 +11,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.multi.MultiInternalFrameUI class
- * javax.swing.plaf.multi.MultiInternalFrameUI}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link MultiInternalFrameUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link MultiInternalFrameUI public class javax.swing.plaf.multi.MultiInternalFrameUI}.
  * </p>
  *
- * @see javax.swing.plaf.multi.MultiInternalFrameUI class javax.swing.plaf.multi.MultiInternalFrameUI (the hereby
- *      targeted class-under-test class)
- * @see MultiInternalFrameUIClassTests MultiInternalFrameUIClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiInternalFrameUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MultiInternalFrameUITests<SUT extends javax.swing.plaf.multi.MultiInternalFrameUI>
+public abstract interface MultiInternalFrameUITests<SUT extends MultiInternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
-     * javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiInternalFrameUI#getAccessibleChildrenCount(JComponent) public int
      * javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,9 +45,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChildrenCount(javax.swing.JComponent) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -61,42 +60,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#uninstallUI(javax.swing.JComponent) public
-     * void javax.swing.plaf.multi.MultiInternalFrameUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#uninstallUI(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#uninstallUI(JComponent) public
      * void javax.swing.plaf.multi.MultiInternalFrameUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -104,9 +68,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -121,23 +83,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#paint(Graphics, JComponent)
+     * public void javax.swing.plaf.multi.MultiInternalFrameUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.paint(java.awt.Graphics,javax.swing.JComponent) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -152,11 +106,30 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getPreferredSize(javax.swing.JComponent)
-     * public java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#update(Graphics, JComponent)
+     * public void javax.swing.plaf.multi.MultiInternalFrameUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getPreferredSize(javax.swing.JComponent)
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#getPreferredSize(JComponent)
      * public java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -164,9 +137,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getPreferredSize(javax.swing.JComponent) public
-     *      java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getPreferredSize(javax.swing.JComponent) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -181,21 +152,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiInternalFrameUI.installUI(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#installUI(JComponent) public
+     * void javax.swing.plaf.multi.MultiInternalFrameUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -210,21 +175,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#getMaximumSize(JComponent)
+     * public java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -239,21 +198,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#getMinimumSize(JComponent)
+     * public java.awt.Dimension javax.swing.plaf.multi.MultiInternalFrameUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.getMinimumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -268,15 +221,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChild(javax.swing.JComponent, int) public
-     * javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChild(javax.swing.JComponent,int)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChild(javax.swing.JComponent, int) public
-     * javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test
+     * {@link MultiInternalFrameUI#getAccessibleChild(JComponent, int) public javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -284,10 +230,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getAccessibleChild(javax.swing.JComponent, int) public
-     *      javax.accessibility.Accessible
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.getAccessibleChild(javax.swing.JComponent,int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -302,20 +245,15 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiInternalFrameUI.getUIs()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiInternalFrameUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#getUIs() public
+     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiInternalFrameUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.getUIs() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -329,11 +267,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#contains(javax.swing.JComponent, int, int)
-     * public boolean javax.swing.plaf.multi.MultiInternalFrameUI.contains(javax.swing.JComponent,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiInternalFrameUI#contains(javax.swing.JComponent, int, int)
+     * Test method for the hereby targeted method-under-test {@link MultiInternalFrameUI#contains(JComponent, int, int)
      * public boolean javax.swing.plaf.multi.MultiInternalFrameUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -341,9 +275,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiInternalFrameUI#contains(javax.swing.JComponent, int, int) public boolean
-     *      javax.swing.plaf.multi.MultiInternalFrameUI.contains(javax.swing.JComponent,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -355,5 +287,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
 
 }

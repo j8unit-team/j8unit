@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.math;
 
+import java.math.MathContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.math.MathContext class java.math.MathContext}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link MathContextClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MathContext
+ * public final class java.math.MathContext}.
  * </p>
  *
- * @see java.math.MathContext class java.math.MathContext (the hereby targeted class-under-test class)
- * @see MathContextClassTests MathContextClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.math.MathContextClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MathContextTests<SUT extends java.math.MathContext>
+public abstract interface MathContextTests<SUT extends MathContext>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.MathContext]
 
     /**
      * <p>
-     * Test method for {@link java.math.MathContext#hashCode() public int java.math.MathContext.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.math.MathContext#hashCode() public int java.math.MathContext.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link MathContext#hashCode() public int
+     * java.math.MathContext.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.math.MathContext#hashCode() public int java.math.MathContext.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,11 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.math.MathContext#equals(Object) public boolean
-     * java.math.MathContext.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.math.MathContext#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link MathContext#equals(Object) public boolean
      * java.math.MathContext.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -66,8 +65,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.math.MathContext#equals(Object) public boolean java.math.MathContext.equals(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -82,20 +80,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.math.MathContext#getRoundingMode() public java.math.RoundingMode
-     * java.math.MathContext.getRoundingMode()}.
-     *
-     * <p>
-     * Test method for {@link java.math.MathContext#getRoundingMode() public java.math.RoundingMode
-     * java.math.MathContext.getRoundingMode()}.
+     * Test method for the hereby targeted method-under-test {@link MathContext#getRoundingMode() public
+     * java.math.RoundingMode java.math.MathContext.getRoundingMode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.math.MathContext#getRoundingMode() public java.math.RoundingMode
-     *      java.math.MathContext.getRoundingMode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,18 +102,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.math.MathContext#getPrecision() public int java.math.MathContext.getPrecision()}.
-     *
-     * <p>
-     * Test method for {@link java.math.MathContext#getPrecision() public int java.math.MathContext.getPrecision()}.
+     * Test method for the hereby targeted method-under-test {@link MathContext#getPrecision() public int
+     * java.math.MathContext.getPrecision()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.math.MathContext#getPrecision() public int java.math.MathContext.getPrecision() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -134,20 +124,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.math.MathContext#toString() public java.lang.String java.math.MathContext.toString()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.math.MathContext#toString() public java.lang.String java.math.MathContext.toString()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link MathContext#toString() public java.lang.String
+     * java.math.MathContext.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.math.MathContext#toString() public java.lang.String java.math.MathContext.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -159,5 +144,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.MathContext]
 
 }

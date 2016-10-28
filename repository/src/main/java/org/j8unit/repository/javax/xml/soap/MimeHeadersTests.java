@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.soap;
 
+import javax.xml.soap.MimeHeaders;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.soap.MimeHeaders class javax.xml.soap.MimeHeaders}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link MimeHeadersClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MimeHeaders
+ * public class javax.xml.soap.MimeHeaders}.
  * </p>
  *
- * @see javax.xml.soap.MimeHeaders class javax.xml.soap.MimeHeaders (the hereby targeted class-under-test class)
- * @see MimeHeadersClassTests MimeHeadersClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.soap.MimeHeadersClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MimeHeadersTests<SUT extends javax.xml.soap.MimeHeaders>
+public abstract interface MimeHeadersTests<SUT extends MimeHeaders>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getAllHeaders() public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getAllHeaders()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getAllHeaders() public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getAllHeaders()}.
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#getAllHeaders() public
+     * java.util.Iterator javax.xml.soap.MimeHeaders.getAllHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#getAllHeaders() public java.util.Iterator
-     *      javax.xml.soap.MimeHeaders.getAllHeaders() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeAllHeaders() public void
-     * javax.xml.soap.MimeHeaders.removeAllHeaders()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeAllHeaders() public void
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#removeAllHeaders() public void
      * javax.xml.soap.MimeHeaders.removeAllHeaders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#removeAllHeaders() public void javax.xml.soap.MimeHeaders.removeAllHeaders() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +78,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#setHeader(String, String) public void
-     * javax.xml.soap.MimeHeaders.setHeader(java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#setHeader(String, String) public void
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#setHeader(String, String) public void
      * javax.xml.soap.MimeHeaders.setHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,9 +86,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#setHeader(String, String) public void
-     *      javax.xml.soap.MimeHeaders.setHeader(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -110,20 +100,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getHeader(String) public java.lang.String[]
-     * javax.xml.soap.MimeHeaders.getHeader(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getHeader(String) public java.lang.String[]
-     * javax.xml.soap.MimeHeaders.getHeader(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#getHeader(String) public
+     * java.lang.String[] javax.xml.soap.MimeHeaders.getHeader(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#getHeader(String) public java.lang.String[]
-     *      javax.xml.soap.MimeHeaders.getHeader(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,11 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeHeader(String) public void
-     * javax.xml.soap.MimeHeaders.removeHeader(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeHeader(String) public void
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#removeHeader(String) public void
      * javax.xml.soap.MimeHeaders.removeHeader(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +130,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#removeHeader(String) public void
-     *      javax.xml.soap.MimeHeaders.removeHeader(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,47 +144,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getMatchingHeaders(String[]) public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getMatchingHeaders(java.lang.String[])}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getMatchingHeaders(String[]) public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getMatchingHeaders(java.lang.String[])}.
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#getNonMatchingHeaders(String[]) public
+     * java.util.Iterator javax.xml.soap.MimeHeaders.getNonMatchingHeaders(java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#getMatchingHeaders(String[]) public java.util.Iterator
-     *      javax.xml.soap.MimeHeaders.getMatchingHeaders(java.lang.String[]) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMatchingHeaders_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getNonMatchingHeaders(String[]) public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getNonMatchingHeaders(java.lang.String[])}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#getNonMatchingHeaders(String[]) public java.util.Iterator
-     * javax.xml.soap.MimeHeaders.getNonMatchingHeaders(java.lang.String[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.soap.MimeHeaders#getNonMatchingHeaders(String[]) public java.util.Iterator
-     *      javax.xml.soap.MimeHeaders.getNonMatchingHeaders(java.lang.String[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -218,11 +166,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#addHeader(String, String) public void
-     * javax.xml.soap.MimeHeaders.addHeader(java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#getMatchingHeaders(String[]) public
+     * java.util.Iterator javax.xml.soap.MimeHeaders.getMatchingHeaders(java.lang.String[])}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMatchingHeaders_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#addHeader(String, String) public void
+     * Test method for the hereby targeted method-under-test {@link MimeHeaders#addHeader(String, String) public void
      * javax.xml.soap.MimeHeaders.addHeader(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -230,9 +196,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.soap.MimeHeaders#addHeader(String, String) public void
-     *      javax.xml.soap.MimeHeaders.addHeader(java.lang.String,java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -243,5 +207,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
 
 }

@@ -5,44 +5,50 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.xml.sax.AttributeList;
+import org.xml.sax.HandlerBase;
+import org.xml.sax.Locator;
+import org.xml.sax.SAXParseException;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.xml.sax.HandlerBase class org.xml.sax.HandlerBase}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link HandlerBaseClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link HandlerBase
+ * public class org.xml.sax.HandlerBase}.
  * </p>
  *
- * @see org.xml.sax.HandlerBase class org.xml.sax.HandlerBase (the hereby targeted class-under-test class)
- * @see HandlerBaseClassTests HandlerBaseClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.xml.sax.HandlerBaseClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface HandlerBaseTests<SUT extends org.xml.sax.HandlerBase>
-extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT>, ErrorHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface HandlerBaseTests<SUT extends HandlerBase>
+extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT>,
+org.j8unit.repository.org.xml.sax.DocumentHandlerTests<SUT>, org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.HandlerBase]
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#resolveEntity(String, String) public org.xml.sax.InputSource
-     * org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#resolveEntity(String, String) public org.xml.sax.InputSource
-     * org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#resolveEntity(String, String) public
+     * org.xml.sax.InputSource org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#resolveEntity(String, String) public org.xml.sax.InputSource
-     *      org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws org.xml.sax.SAXException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -57,21 +63,15 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#notationDecl(String, String, String) public void
-     * org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#notationDecl(String, String, String) public void
-     * org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#notationDecl(String, String, String)
+     * public void org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#notationDecl(String, String, String) public void
-     *      org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,48 +86,15 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startDocument() public void
-     * org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startDocument() public void
-     * org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#endDocument() public void
+     * org.xml.sax.HandlerBase.endDocument() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#startDocument() public void org.xml.sax.HandlerBase.startDocument() throws
-     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_startDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endDocument() public void org.xml.sax.HandlerBase.endDocument()
-     * throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endDocument() public void org.xml.sax.HandlerBase.endDocument()
-     * throws org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.xml.sax.HandlerBase#endDocument() public void org.xml.sax.HandlerBase.endDocument() throws
-     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -142,11 +109,30 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void
-     * org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#startDocument() public void
+     * org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_startDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#error(SAXParseException) public void
      * org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -154,9 +140,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void
-     *      org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -171,21 +155,15 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void
-     * org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void
-     * org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#fatalError(SAXParseException) public
+     * void org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void
-     *      org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -200,23 +178,16 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startElement(String, org.xml.sax.AttributeList) public void
-     * org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws org.xml.sax.SAXException}
-     * .
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startElement(String, org.xml.sax.AttributeList) public void
-     * org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws org.xml.sax.SAXException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#startElement(String, AttributeList)
+     * public void org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#startElement(String, org.xml.sax.AttributeList) public void
-     *      org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws
-     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -231,11 +202,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void
-     * org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator)}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#setDocumentLocator(Locator) public void
      * org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -243,8 +210,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void
-     *      org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -259,11 +225,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void
-     * org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#warning(SAXParseException) public void
      * org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -271,9 +233,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void
-     *      org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -288,11 +248,8 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#unparsedEntityDecl(String, String, String, String) public void
-     * org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#unparsedEntityDecl(String, String, String, String) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link HandlerBase#unparsedEntityDecl(String, String, String, String) public void
      * org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -300,9 +257,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#unparsedEntityDecl(String, String, String, String) public void
-     *      org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.
-     *      String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -317,23 +272,16 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#processingInstruction(String, String) public void
-     * org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
-     * .
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#processingInstruction(String, String) public void
-     * org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
-     * .
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#processingInstruction(String, String)
+     * public void org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#processingInstruction(String, String) public void
-     *      org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws
-     *      org.xml.sax.SAXException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -348,21 +296,15 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#ignorableWhitespace(char[], int, int) public void
-     * org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#ignorableWhitespace(char[], int, int) public void
-     * org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#ignorableWhitespace(char[], int, int)
+     * public void org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#ignorableWhitespace(char[], int, int) public void
-     *      org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -377,11 +319,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endElement(String) public void
-     * org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endElement(String) public void
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#endElement(String) public void
      * org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -389,8 +327,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#endElement(String) public void org.xml.sax.HandlerBase.endElement(java.lang.String)
-     *      throws org.xml.sax.SAXException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -405,11 +342,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#characters(char[], int, int) public void
-     * org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
-     *
-     * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#characters(char[], int, int) public void
+     * Test method for the hereby targeted method-under-test {@link HandlerBase#characters(char[], int, int) public void
      * org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -417,9 +350,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
      * methods soon.
      * </p>
      *
-     * @see org.xml.sax.HandlerBase#characters(char[], int, int) public void
-     *      org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -431,5 +362,7 @@ extends EntityResolverTests<SUT>, DTDHandlerTests<SUT>, DocumentHandlerTests<SUT
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.HandlerBase]
 
 }

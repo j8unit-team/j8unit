@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.plaf.multi;
 
+import java.awt.Graphics;
+import javax.swing.JComponent;
+import javax.swing.plaf.multi.MultiLabelUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,62 +11,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.multi.MultiLabelUI class
- * javax.swing.plaf.multi.MultiLabelUI}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link MultiLabelUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MultiLabelUI
+ * public class javax.swing.plaf.multi.MultiLabelUI}.
  * </p>
  *
- * @see javax.swing.plaf.multi.MultiLabelUI class javax.swing.plaf.multi.MultiLabelUI (the hereby targeted
- *      class-under-test class)
- * @see MultiLabelUIClassTests MultiLabelUIClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiLabelUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MultiLabelUITests<SUT extends javax.swing.plaf.multi.MultiLabelUI>
+public abstract interface MultiLabelUITests<SUT extends MultiLabelUI>
 extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiLabelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiLabelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.multi.MultiLabelUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiLabelUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiLabelUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiLabelUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#uninstallUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#uninstallUI(JComponent) public void
      * javax.swing.plaf.multi.MultiLabelUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,9 +44,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiLabelUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -88,21 +59,15 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#paint(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiLabelUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#paint(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiLabelUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#paint(Graphics, JComponent) public void
+     * javax.swing.plaf.multi.MultiLabelUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiLabelUI.paint(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -117,11 +82,30 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getAccessibleChildrenCount(javax.swing.JComponent)
-     * public int javax.swing.plaf.multi.MultiLabelUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#update(Graphics, JComponent) public
+     * void javax.swing.plaf.multi.MultiLabelUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getAccessibleChildrenCount(javax.swing.JComponent)
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getAccessibleChildrenCount(JComponent)
      * public int javax.swing.plaf.multi.MultiLabelUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -129,9 +113,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
-     *      javax.swing.plaf.multi.MultiLabelUI.getAccessibleChildrenCount(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -146,11 +128,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#contains(javax.swing.JComponent, int, int) public
-     * boolean javax.swing.plaf.multi.MultiLabelUI.contains(javax.swing.JComponent,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#contains(javax.swing.JComponent, int, int) public
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#contains(JComponent, int, int) public
      * boolean javax.swing.plaf.multi.MultiLabelUI.contains(javax.swing.JComponent,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -158,9 +136,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#contains(javax.swing.JComponent, int, int) public boolean
-     *      javax.swing.plaf.multi.MultiLabelUI.contains(javax.swing.JComponent,int,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -175,20 +151,15 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiLabelUI.getUIs()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiLabelUI.getUIs()}.
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getUIs() public
+     * javax.swing.plaf.ComponentUI[] javax.swing.plaf.multi.MultiLabelUI.getUIs()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     *      javax.swing.plaf.multi.MultiLabelUI.getUIs() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -202,11 +173,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getMinimumSize(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getMinimumSize(JComponent) public
      * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -214,9 +181,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.multi.MultiLabelUI.getMinimumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -231,13 +196,8 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getAccessibleChild(javax.swing.JComponent, int) public
-     * javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiLabelUI.getAccessibleChild(javax.swing.JComponent,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getAccessibleChild(javax.swing.JComponent, int) public
-     * javax.accessibility.Accessible
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getAccessibleChild(JComponent, int)
+     * public javax.accessibility.Accessible
      * javax.swing.plaf.multi.MultiLabelUI.getAccessibleChild(javax.swing.JComponent,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -245,10 +205,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getAccessibleChild(javax.swing.JComponent, int) public
-     *      javax.accessibility.Accessible
-     *      javax.swing.plaf.multi.MultiLabelUI.getAccessibleChild(javax.swing.JComponent,int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -263,11 +220,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getPreferredSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getPreferredSize(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getPreferredSize(JComponent) public
      * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getPreferredSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -275,9 +228,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getPreferredSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.multi.MultiLabelUI.getPreferredSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -292,11 +243,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiLabelUI.installUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#installUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#installUI(JComponent) public void
      * javax.swing.plaf.multi.MultiLabelUI.installUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -304,9 +251,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#installUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.multi.MultiLabelUI.installUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -321,11 +266,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getMaximumSize(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLabelUI#getMaximumSize(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link MultiLabelUI#getMaximumSize(JComponent) public
      * java.awt.Dimension javax.swing.plaf.multi.MultiLabelUI.getMaximumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -333,9 +274,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.multi.MultiLabelUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
-     *      javax.swing.plaf.multi.MultiLabelUI.getMaximumSize(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -347,5 +286,7 @@ extends org.j8unit.repository.javax.swing.plaf.LabelUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiLabelUI]
 
 }

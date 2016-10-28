@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.awt;
 
+import java.awt.AWTEvent;
+import java.awt.Event;
+import java.awt.Font;
+import java.awt.MenuComponent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.awt.MenuComponent class java.awt.MenuComponent}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link MenuComponentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link MenuComponent
+ * public abstract class java.awt.MenuComponent}.
  * </p>
  *
- * @see java.awt.MenuComponent class java.awt.MenuComponent (the hereby targeted class-under-test class)
- * @see MenuComponentClassTests MenuComponentClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.awt.MenuComponentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface MenuComponentTests<SUT extends java.awt.MenuComponent>
+public abstract interface MenuComponentTests<SUT extends MenuComponent>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MenuComponent]
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#removeNotify() public void java.awt.MenuComponent.removeNotify()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#removeNotify() public void java.awt.MenuComponent.removeNotify()}.
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#removeNotify() public void
+     * java.awt.MenuComponent.removeNotify()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#removeNotify() public void java.awt.MenuComponent.removeNotify() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +59,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#toString() public java.lang.String
-     * java.awt.MenuComponent.toString()}.
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#getFont() public java.awt.Font
+     * java.awt.MenuComponent.getFont()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#toString() public java.lang.String
      * java.awt.MenuComponent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +89,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#toString() public java.lang.String java.awt.MenuComponent.toString() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -81,45 +104,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#getFont() public java.awt.Font java.awt.MenuComponent.getFont()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getFont() public java.awt.Font java.awt.MenuComponent.getFont()}.
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#getPeer() public
+     * java.awt.peer.MenuComponentPeer java.awt.MenuComponent.getPeer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#getFont() public java.awt.Font java.awt.MenuComponent.getFont() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getPeer() public java.awt.peer.MenuComponentPeer
-     * java.awt.MenuComponent.getPeer()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getPeer() public java.awt.peer.MenuComponentPeer
-     * java.awt.MenuComponent.getPeer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.MenuComponent#getPeer() public java.awt.peer.MenuComponentPeer java.awt.MenuComponent.getPeer()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -133,11 +126,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#setFont(java.awt.Font) public void
-     * java.awt.MenuComponent.setFont(java.awt.Font)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#setFont(java.awt.Font) public void
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#setFont(Font) public void
      * java.awt.MenuComponent.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,8 +134,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#setFont(java.awt.Font) public void java.awt.MenuComponent.setFont(java.awt.Font) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -160,20 +148,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.MenuComponent.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.MenuComponent.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext java.awt.MenuComponent.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      java.awt.MenuComponent.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,11 +170,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#postEvent(java.awt.Event) public boolean
-     * java.awt.MenuComponent.postEvent(java.awt.Event)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#postEvent(java.awt.Event) public boolean
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#postEvent(Event) public boolean
      * java.awt.MenuComponent.postEvent(java.awt.Event)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -199,8 +178,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#postEvent(java.awt.Event) public boolean
-     *      java.awt.MenuComponent.postEvent(java.awt.Event) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -214,11 +192,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#setName(String) public void
-     * java.awt.MenuComponent.setName(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#setName(String) public void
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#setName(String) public void
      * java.awt.MenuComponent.setName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -226,8 +200,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#setName(String) public void java.awt.MenuComponent.setName(java.lang.String) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -241,20 +214,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#getParent() public java.awt.MenuContainer
-     * java.awt.MenuComponent.getParent()}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getParent() public java.awt.MenuContainer
-     * java.awt.MenuComponent.getParent()}.
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#getParent() public
+     * java.awt.MenuContainer java.awt.MenuComponent.getParent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#getParent() public java.awt.MenuContainer java.awt.MenuComponent.getParent() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,20 +236,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuComponent#getName() public java.lang.String java.awt.MenuComponent.getName()}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#getName() public java.lang.String java.awt.MenuComponent.getName()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#dispatchEvent(AWTEvent) public final
+     * void java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.awt.MenuComponent#getName() public java.lang.String java.awt.MenuComponent.getName() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dispatchEvent_AWTEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link MenuComponent#getName() public java.lang.String
+     * java.awt.MenuComponent.getName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -293,31 +278,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#dispatchEvent(java.awt.AWTEvent) public final void
-     * java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent)}.
-     *
-     * <p>
-     * Test method for {@link java.awt.MenuComponent#dispatchEvent(java.awt.AWTEvent) public final void
-     * java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.awt.MenuComponent#dispatchEvent(java.awt.AWTEvent) public final void
-     *      java.awt.MenuComponent.dispatchEvent(java.awt.AWTEvent) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dispatchEvent_AWTEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MenuComponent]
 
 }

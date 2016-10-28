@@ -1,5 +1,12 @@
 package org.j8unit.repository.javax.swing;
 
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Graphics;
+import java.awt.LayoutManager;
+import javax.swing.JLayeredPane;
+import javax.swing.JWindow;
+import javax.swing.TransferHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +15,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.JWindow class javax.swing.JWindow}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link JWindowClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link JWindow public
+ * class javax.swing.JWindow}.
  * </p>
  *
- * @see javax.swing.JWindow class javax.swing.JWindow (the hereby targeted class-under-test class)
- * @see JWindowClassTests JWindowClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.JWindowClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface JWindowTests<SUT extends javax.swing.JWindow>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPaneContainerTests<SUT>, org.j8unit.repository.java.awt.WindowTests<SUT> {
+public abstract interface JWindowTests<SUT extends JWindow>
+extends org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.repository.java.awt.WindowTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JWindow]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#setTransferHandler(javax.swing.TransferHandler) public void
-     * javax.swing.JWindow.setTransferHandler(javax.swing.TransferHandler)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#setTransferHandler(javax.swing.TransferHandler) public void
-     * javax.swing.JWindow.setTransferHandler(javax.swing.TransferHandler)}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#setTransferHandler(TransferHandler) public
+     * void javax.swing.JWindow.setTransferHandler(javax.swing.TransferHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#setTransferHandler(javax.swing.TransferHandler) public void
-     *      javax.swing.JWindow.setTransferHandler(javax.swing.TransferHandler) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +62,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#setLayeredPane(javax.swing.JLayeredPane) public void
-     * javax.swing.JWindow.setLayeredPane(javax.swing.JLayeredPane)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#setLayeredPane(javax.swing.JLayeredPane) public void
+     * Test method for the hereby targeted method-under-test {@link JWindow#setLayeredPane(JLayeredPane) public void
      * javax.swing.JWindow.setLayeredPane(javax.swing.JLayeredPane)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +70,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#setLayeredPane(javax.swing.JLayeredPane) public void
-     *      javax.swing.JWindow.setLayeredPane(javax.swing.JLayeredPane) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -83,11 +85,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getGraphics() public java.awt.Graphics
-     * javax.swing.JWindow.getGraphics()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getGraphics() public java.awt.Graphics
+     * Test method for the hereby targeted method-under-test {@link JWindow#getGraphics() public java.awt.Graphics
      * javax.swing.JWindow.getGraphics()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -95,8 +93,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getGraphics() public java.awt.Graphics javax.swing.JWindow.getGraphics() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,11 +108,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#setContentPane(java.awt.Container) public void
-     * javax.swing.JWindow.setContentPane(java.awt.Container)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#setContentPane(java.awt.Container) public void
+     * Test method for the hereby targeted method-under-test {@link JWindow#setContentPane(Container) public void
      * javax.swing.JWindow.setContentPane(java.awt.Container)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,8 +116,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#setContentPane(java.awt.Container) public void
-     *      javax.swing.JWindow.setContentPane(java.awt.Container) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -139,20 +131,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getLayeredPane() public javax.swing.JLayeredPane
-     * javax.swing.JWindow.getLayeredPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getLayeredPane() public javax.swing.JLayeredPane
-     * javax.swing.JWindow.getLayeredPane()}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#getLayeredPane() public
+     * javax.swing.JLayeredPane javax.swing.JWindow.getLayeredPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getLayeredPane() public javax.swing.JLayeredPane javax.swing.JWindow.getLayeredPane()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -167,11 +154,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#setGlassPane(java.awt.Component) public void
-     * javax.swing.JWindow.setGlassPane(java.awt.Component)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#setGlassPane(java.awt.Component) public void
+     * Test method for the hereby targeted method-under-test {@link JWindow#setGlassPane(Component) public void
      * javax.swing.JWindow.setGlassPane(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -179,8 +162,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#setGlassPane(java.awt.Component) public void
-     *      javax.swing.JWindow.setGlassPane(java.awt.Component) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -195,20 +177,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getTransferHandler() public javax.swing.TransferHandler
-     * javax.swing.JWindow.getTransferHandler()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getTransferHandler() public javax.swing.TransferHandler
-     * javax.swing.JWindow.getTransferHandler()}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#getTransferHandler() public
+     * javax.swing.TransferHandler javax.swing.JWindow.getTransferHandler()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getTransferHandler() public javax.swing.TransferHandler
-     *      javax.swing.JWindow.getTransferHandler() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -222,20 +199,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#repaint(long, int, int, int, int) public void
-     * javax.swing.JWindow.repaint(long,int,int,int,int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#repaint(long, int, int, int, int) public void
-     * javax.swing.JWindow.repaint(long,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#repaint(long, int, int, int, int) public
+     * void javax.swing.JWindow.repaint(long,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#repaint(long, int, int, int, int) public void
-     *      javax.swing.JWindow.repaint(long,int,int,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -250,11 +222,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getRootPane() public javax.swing.JRootPane
-     * javax.swing.JWindow.getRootPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getRootPane() public javax.swing.JRootPane
+     * Test method for the hereby targeted method-under-test {@link JWindow#getRootPane() public javax.swing.JRootPane
      * javax.swing.JWindow.getRootPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -262,8 +230,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getRootPane() public javax.swing.JRootPane javax.swing.JWindow.getRootPane() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -278,11 +245,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getGlassPane() public java.awt.Component
-     * javax.swing.JWindow.getGlassPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getGlassPane() public java.awt.Component
+     * Test method for the hereby targeted method-under-test {@link JWindow#getGlassPane() public java.awt.Component
      * javax.swing.JWindow.getGlassPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -290,8 +253,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getGlassPane() public java.awt.Component javax.swing.JWindow.getGlassPane() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -306,11 +268,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#setLayout(java.awt.LayoutManager) public void
-     * javax.swing.JWindow.setLayout(java.awt.LayoutManager)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#setLayout(java.awt.LayoutManager) public void
+     * Test method for the hereby targeted method-under-test {@link JWindow#setLayout(LayoutManager) public void
      * javax.swing.JWindow.setLayout(java.awt.LayoutManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -318,8 +276,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#setLayout(java.awt.LayoutManager) public void
-     *      javax.swing.JWindow.setLayout(java.awt.LayoutManager) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -334,39 +291,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#update(java.awt.Graphics) public void
-     * javax.swing.JWindow.update(java.awt.Graphics)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#update(java.awt.Graphics) public void
-     * javax.swing.JWindow.update(java.awt.Graphics)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.JWindow#update(java.awt.Graphics) public void javax.swing.JWindow.update(java.awt.Graphics) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getContentPane() public java.awt.Container
-     * javax.swing.JWindow.getContentPane()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getContentPane() public java.awt.Container
+     * Test method for the hereby targeted method-under-test {@link JWindow#getContentPane() public java.awt.Container
      * javax.swing.JWindow.getContentPane()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -374,8 +299,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getContentPane() public java.awt.Container javax.swing.JWindow.getContentPane() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -390,11 +314,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#remove(java.awt.Component) public void
-     * javax.swing.JWindow.remove(java.awt.Component)}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#update(Graphics) public void
+     * javax.swing.JWindow.update(java.awt.Graphics)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#remove(java.awt.Component) public void
+     * Test method for the hereby targeted method-under-test {@link JWindow#remove(Component) public void
      * javax.swing.JWindow.remove(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -402,8 +345,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#remove(java.awt.Component) public void javax.swing.JWindow.remove(java.awt.Component)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -418,20 +360,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JWindow#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JWindow.getAccessibleContext()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.JWindow#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JWindow.getAccessibleContext()}.
+     * Test method for the hereby targeted method-under-test {@link JWindow#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JWindow.getAccessibleContext()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.JWindow#getAccessibleContext() public javax.accessibility.AccessibleContext
-     *      javax.swing.JWindow.getAccessibleContext() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -443,5 +380,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, RootPane
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JWindow]
 
 }

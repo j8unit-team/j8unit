@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.beans;
 
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Method;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.beans.PropertyDescriptor class java.beans.PropertyDescriptor}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PropertyDescriptorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link PropertyDescriptor public class java.beans.PropertyDescriptor}.
  * </p>
  *
- * @see java.beans.PropertyDescriptor class java.beans.PropertyDescriptor (the hereby targeted class-under-test class)
- * @see PropertyDescriptorClassTests PropertyDescriptorClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.beans.PropertyDescriptorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PropertyDescriptorTests<SUT extends java.beans.PropertyDescriptor>
-extends FeatureDescriptorTests<SUT> {
+public abstract interface PropertyDescriptorTests<SUT extends PropertyDescriptor>
+extends org.j8unit.repository.java.beans.FeatureDescriptorTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyDescriptor]
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#hashCode() public int
-     * java.beans.PropertyDescriptor.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#hashCode() public int
      * java.beans.PropertyDescriptor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#hashCode() public int java.beans.PropertyDescriptor.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,11 +58,7 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#equals(Object) public boolean
-     * java.beans.PropertyDescriptor.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#equals(Object) public boolean
      * java.beans.PropertyDescriptor.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +66,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#equals(Object) public boolean
-     *      java.beans.PropertyDescriptor.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +81,7 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#isBound() public boolean
-     * java.beans.PropertyDescriptor.isBound()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#isBound() public boolean
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#isBound() public boolean
      * java.beans.PropertyDescriptor.isBound()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +89,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#isBound() public boolean java.beans.PropertyDescriptor.isBound() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,21 +103,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setPropertyEditorClass(Class) public void
-     * java.beans.PropertyDescriptor.setPropertyEditorClass(java.lang.Class<?>)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setPropertyEditorClass(Class) public void
-     * java.beans.PropertyDescriptor.setPropertyEditorClass(java.lang.Class)}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#setPropertyEditorClass(Class)
+     * public void java.beans.PropertyDescriptor.setPropertyEditorClass(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#setPropertyEditorClass(Class) public void
-     *      java.beans.PropertyDescriptor.setPropertyEditorClass(java.lang.Class) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,40 +125,8 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#isConstrained() public boolean
-     * java.beans.PropertyDescriptor.isConstrained()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#isConstrained() public boolean
-     * java.beans.PropertyDescriptor.isConstrained()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.beans.PropertyDescriptor#isConstrained() public boolean java.beans.PropertyDescriptor.isConstrained()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConstrained()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setReadMethod(java.lang.reflect.Method) public synchronized
-     * void java.beans.PropertyDescriptor.setReadMethod(java.lang.reflect.Method) throws
-     * java.beans.IntrospectionException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setReadMethod(java.lang.reflect.Method) public synchronized
-     * void java.beans.PropertyDescriptor.setReadMethod(java.lang.reflect.Method) throws
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#setReadMethod(Method) public
+     * synchronized void java.beans.PropertyDescriptor.setReadMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -180,9 +134,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#setReadMethod(java.lang.reflect.Method) public synchronized void
-     *      java.beans.PropertyDescriptor.setReadMethod(java.lang.reflect.Method) throws
-     *      java.beans.IntrospectionException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -196,20 +148,37 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#createPropertyEditor(Object) public
-     * java.beans.PropertyEditor java.beans.PropertyDescriptor.createPropertyEditor(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#createPropertyEditor(Object) public
-     * java.beans.PropertyEditor java.beans.PropertyDescriptor.createPropertyEditor(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#isConstrained() public boolean
+     * java.beans.PropertyDescriptor.isConstrained()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#createPropertyEditor(Object) public java.beans.PropertyEditor
-     *      java.beans.PropertyDescriptor.createPropertyEditor(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConstrained()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#createPropertyEditor(Object)
+     * public java.beans.PropertyEditor java.beans.PropertyDescriptor.createPropertyEditor(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -223,11 +192,7 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setBound(boolean) public void
-     * java.beans.PropertyDescriptor.setBound(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setBound(boolean) public void
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#setBound(boolean) public void
      * java.beans.PropertyDescriptor.setBound(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -235,8 +200,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#setBound(boolean) public void java.beans.PropertyDescriptor.setBound(boolean)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -250,20 +214,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getWriteMethod() public synchronized
-     * java.lang.reflect.Method java.beans.PropertyDescriptor.getWriteMethod()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getWriteMethod() public synchronized
-     * java.lang.reflect.Method java.beans.PropertyDescriptor.getWriteMethod()}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#getWriteMethod() public
+     * synchronized java.lang.reflect.Method java.beans.PropertyDescriptor.getWriteMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#getWriteMethod() public synchronized java.lang.reflect.Method
-     *      java.beans.PropertyDescriptor.getWriteMethod() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -277,13 +236,8 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setWriteMethod(java.lang.reflect.Method) public synchronized
-     * void java.beans.PropertyDescriptor.setWriteMethod(java.lang.reflect.Method) throws
-     * java.beans.IntrospectionException}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setWriteMethod(java.lang.reflect.Method) public synchronized
-     * void java.beans.PropertyDescriptor.setWriteMethod(java.lang.reflect.Method) throws
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#setWriteMethod(Method) public
+     * synchronized void java.beans.PropertyDescriptor.setWriteMethod(java.lang.reflect.Method) throws
      * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -291,9 +245,7 @@ extends FeatureDescriptorTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#setWriteMethod(java.lang.reflect.Method) public synchronized void
-     *      java.beans.PropertyDescriptor.setWriteMethod(java.lang.reflect.Method) throws
-     *      java.beans.IntrospectionException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -307,20 +259,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setConstrained(boolean) public void
-     * java.beans.PropertyDescriptor.setConstrained(boolean)}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#setConstrained(boolean) public void
-     * java.beans.PropertyDescriptor.setConstrained(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#setConstrained(boolean) public
+     * void java.beans.PropertyDescriptor.setConstrained(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#setConstrained(boolean) public void
-     *      java.beans.PropertyDescriptor.setConstrained(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -334,20 +281,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getPropertyEditorClass() public java.lang.Class
-     * <?> java.beans.PropertyDescriptor.getPropertyEditorClass()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getPropertyEditorClass() public java.lang.Class
-     * java.beans.PropertyDescriptor.getPropertyEditorClass()}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#getPropertyEditorClass() public
+     * java.lang.Class<?> java.beans.PropertyDescriptor.getPropertyEditorClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#getPropertyEditorClass() public java.lang.Class
-     *      java.beans.PropertyDescriptor.getPropertyEditorClass() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -361,20 +303,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getPropertyType() public synchronized java.lang.Class
-     * <?> java.beans.PropertyDescriptor.getPropertyType()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getPropertyType() public synchronized java.lang.Class
-     * java.beans.PropertyDescriptor.getPropertyType()}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#getPropertyType() public
+     * synchronized java.lang.Class<?> java.beans.PropertyDescriptor.getPropertyType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#getPropertyType() public synchronized java.lang.Class
-     *      java.beans.PropertyDescriptor.getPropertyType() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -388,20 +325,15 @@ extends FeatureDescriptorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getReadMethod() public synchronized java.lang.reflect.Method
-     * java.beans.PropertyDescriptor.getReadMethod()}.
-     *
-     * <p>
-     * Test method for {@link java.beans.PropertyDescriptor#getReadMethod() public synchronized java.lang.reflect.Method
-     * java.beans.PropertyDescriptor.getReadMethod()}.
+     * Test method for the hereby targeted method-under-test {@link PropertyDescriptor#getReadMethod() public
+     * synchronized java.lang.reflect.Method java.beans.PropertyDescriptor.getReadMethod()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.beans.PropertyDescriptor#getReadMethod() public synchronized java.lang.reflect.Method
-     *      java.beans.PropertyDescriptor.getReadMethod() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -412,5 +344,7 @@ extends FeatureDescriptorTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.PropertyDescriptor]
 
 }

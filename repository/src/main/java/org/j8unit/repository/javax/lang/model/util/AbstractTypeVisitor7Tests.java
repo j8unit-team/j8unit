@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.lang.model.util;
 
+import javax.lang.model.type.UnionType;
+import javax.lang.model.util.AbstractTypeVisitor7;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,47 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.lang.model.util.AbstractTypeVisitor7 class
- * javax.lang.model.util.AbstractTypeVisitor7}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AbstractTypeVisitor7ClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AbstractTypeVisitor7 public abstract class javax.lang.model.util.AbstractTypeVisitor7<R,P>}.
  * </p>
  *
- * @see javax.lang.model.util.AbstractTypeVisitor7 class javax.lang.model.util.AbstractTypeVisitor7 (the hereby targeted
- *      class-under-test class)
- * @see AbstractTypeVisitor7ClassTests AbstractTypeVisitor7ClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor7ClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractTypeVisitor7Tests<SUT extends javax.lang.model.util.AbstractTypeVisitor7<R, P>, R, P>
-extends AbstractTypeVisitor6Tests<SUT, R, P> {
+public abstract interface AbstractTypeVisitor7Tests<SUT extends AbstractTypeVisitor7<R, P>, R, P>
+extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SUT, R, P> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor7]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.AbstractTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
-     * abstract R javax.lang.model.util.AbstractTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,P)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.AbstractTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
-     * abstract java.lang.Object
-     * javax.lang.model.util.AbstractTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractTypeVisitor7#visitUnion(UnionType, Object)
+     * public abstract R javax.lang.model.util.AbstractTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.lang.model.util.AbstractTypeVisitor7#visitUnion(javax.lang.model.type.UnionType, Object) public
-     *      abstract java.lang.Object
-     *      javax.lang.model.util.AbstractTypeVisitor7.visitUnion(javax.lang.model.type.UnionType,java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -60,5 +55,7 @@ extends AbstractTypeVisitor6Tests<SUT, R, P> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor7]
 
 }

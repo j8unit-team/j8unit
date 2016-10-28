@@ -2,26 +2,33 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.VersionSpecHelper;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.CORBA.VersionSpecHelper class org.omg.CORBA.VersionSpecHelper}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link VersionSpecHelperClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link VersionSpecHelper public abstract class org.omg.CORBA.VersionSpecHelper}.
  * </p>
  *
- * @see org.omg.CORBA.VersionSpecHelper class org.omg.CORBA.VersionSpecHelper (the hereby targeted class-under-test
- *      class)
- * @see VersionSpecHelperClassTests VersionSpecHelperClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.CORBA.VersionSpecHelperClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface VersionSpecHelperTests<SUT extends org.omg.CORBA.VersionSpecHelper>
+public abstract interface VersionSpecHelperTests<SUT extends VersionSpecHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.VersionSpecHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.VersionSpecHelper]
 
 }

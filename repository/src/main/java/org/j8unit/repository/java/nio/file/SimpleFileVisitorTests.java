@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.io.IOException;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,49 +11,42 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.SimpleFileVisitor class java.nio.file.SimpleFileVisitor}.
- * The complementary j8unit test interface containing the class relevant aspects is {@link SimpleFileVisitorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link SimpleFileVisitor public class java.nio.file.SimpleFileVisitor<T>}.
  * </p>
  *
- * @see java.nio.file.SimpleFileVisitor class java.nio.file.SimpleFileVisitor (the hereby targeted class-under-test
- *      class)
- * @see SimpleFileVisitorClassTests SimpleFileVisitorClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.SimpleFileVisitorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SimpleFileVisitorTests<SUT extends java.nio.file.SimpleFileVisitor<T>, T>
-extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+public abstract interface SimpleFileVisitorTests<SUT extends SimpleFileVisitor<T>, T>
+extends org.j8unit.repository.java.nio.file.FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.SimpleFileVisitor]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.file.SimpleFileVisitor#preVisitDirectory(Object, java.nio.file.attribute.BasicFileAttributes)
-     * public java.nio.file.FileVisitResult
+     * Test method for the hereby targeted method-under-test
+     * {@link SimpleFileVisitor#preVisitDirectory(Object, BasicFileAttributes) public java.nio.file.FileVisitResult
      * java.nio.file.SimpleFileVisitor.preVisitDirectory(T,java.nio.file.attribute.BasicFileAttributes) throws
      * java.io.IOException}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.nio.file.SimpleFileVisitor#preVisitDirectory(Object, java.nio.file.attribute.BasicFileAttributes)
-     * public java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.preVisitDirectory(java.lang.Object,java.nio.file.attribute.BasicFileAttributes)
-     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.SimpleFileVisitor#preVisitDirectory(Object, java.nio.file.attribute.BasicFileAttributes)
-     *      public java.nio.file.FileVisitResult
-     *      java.nio.file.SimpleFileVisitor.preVisitDirectory(java.lang.Object,java.nio.file.attribute.
-     *      BasicFileAttributes) throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -65,25 +61,16 @@ extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#visitFileFailed(Object, java.io.IOException) public
-     * java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor.visitFileFailed(T,java.io.IOException) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#visitFileFailed(Object, java.io.IOException) public
-     * java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.visitFileFailed(java.lang.Object,java.io.IOException) throws java.io.IOException}
-     * .
+     * Test method for the hereby targeted method-under-test
+     * {@link SimpleFileVisitor#visitFileFailed(Object, IOException) public java.nio.file.FileVisitResult
+     * java.nio.file.SimpleFileVisitor.visitFileFailed(T,java.io.IOException) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.SimpleFileVisitor#visitFileFailed(Object, java.io.IOException) public
-     *      java.nio.file.FileVisitResult
-     *      java.nio.file.SimpleFileVisitor.visitFileFailed(java.lang.Object,java.io.IOException) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -98,17 +85,9 @@ extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SU
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.file.SimpleFileVisitor#visitFile(Object, java.nio.file.attribute.BasicFileAttributes) public
-     * java.nio.file.FileVisitResult
+     * Test method for the hereby targeted method-under-test
+     * {@link SimpleFileVisitor#visitFile(Object, BasicFileAttributes) public java.nio.file.FileVisitResult
      * java.nio.file.SimpleFileVisitor.visitFile(T,java.nio.file.attribute.BasicFileAttributes) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.nio.file.SimpleFileVisitor#visitFile(Object, java.nio.file.attribute.BasicFileAttributes) public
-     * java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.visitFile(java.lang.Object,java.nio.file.attribute.BasicFileAttributes) throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -116,10 +95,7 @@ extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.SimpleFileVisitor#visitFile(Object, java.nio.file.attribute.BasicFileAttributes) public
-     *      java.nio.file.FileVisitResult
-     *      java.nio.file.SimpleFileVisitor.visitFile(java.lang.Object,java.nio.file.attribute.BasicFileAttributes)
-     *      throws java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -134,25 +110,16 @@ extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#postVisitDirectory(Object, java.io.IOException) public
-     * java.nio.file.FileVisitResult java.nio.file.SimpleFileVisitor.postVisitDirectory(T,java.io.IOException) throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#postVisitDirectory(Object, java.io.IOException) public
-     * java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.postVisitDirectory(java.lang.Object,java.io.IOException) throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link SimpleFileVisitor#postVisitDirectory(Object, IOException) public java.nio.file.FileVisitResult
+     * java.nio.file.SimpleFileVisitor.postVisitDirectory(T,java.io.IOException) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.SimpleFileVisitor#postVisitDirectory(Object, java.io.IOException) public
-     *      java.nio.file.FileVisitResult
-     *      java.nio.file.SimpleFileVisitor.postVisitDirectory(java.lang.Object,java.io.IOException) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -164,5 +131,7 @@ extends FileVisitorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SU
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.SimpleFileVisitor]
 
 }

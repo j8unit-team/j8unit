@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.transform.stax;
 
+import javax.xml.transform.stax.StAXSource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.transform.stax.StAXSource class
- * javax.xml.transform.stax.StAXSource}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link StAXSourceClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StAXSource
+ * public class javax.xml.transform.stax.StAXSource}.
  * </p>
  *
- * @see javax.xml.transform.stax.StAXSource class javax.xml.transform.stax.StAXSource (the hereby targeted
- *      class-under-test class)
- * @see StAXSourceClassTests StAXSourceClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.transform.stax.StAXSourceClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StAXSourceTests<SUT extends javax.xml.transform.stax.StAXSource>
+public abstract interface StAXSourceTests<SUT extends StAXSource>
 extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.stax.StAXSource]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#setSystemId(String) public void
-     * javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#setSystemId(String) public void
+     * Test method for the hereby targeted method-under-test {@link StAXSource#setSystemId(String) public void
      * javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.stax.StAXSource#setSystemId(String) public void
-     *      javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,11 +57,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getSystemId() public java.lang.String
-     * javax.xml.transform.stax.StAXSource.getSystemId()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getSystemId() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link StAXSource#getSystemId() public java.lang.String
      * javax.xml.transform.stax.StAXSource.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,8 +65,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.stax.StAXSource#getSystemId() public java.lang.String
-     *      javax.xml.transform.stax.StAXSource.getSystemId() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,11 +80,29 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getXMLEventReader() public
-     * javax.xml.stream.XMLEventReader javax.xml.transform.stax.StAXSource.getXMLEventReader()}.
+     * Test method for the hereby targeted method-under-test {@link StAXSource#getXMLStreamReader() public
+     * javax.xml.stream.XMLStreamReader javax.xml.transform.stax.StAXSource.getXMLStreamReader()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXMLStreamReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getXMLEventReader() public
+     * Test method for the hereby targeted method-under-test {@link StAXSource#getXMLEventReader() public
      * javax.xml.stream.XMLEventReader javax.xml.transform.stax.StAXSource.getXMLEventReader()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +110,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.stax.StAXSource#getXMLEventReader() public javax.xml.stream.XMLEventReader
-     *      javax.xml.transform.stax.StAXSource.getXMLEventReader() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,31 +122,6 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getXMLStreamReader() public
-     * javax.xml.stream.XMLStreamReader javax.xml.transform.stax.StAXSource.getXMLStreamReader()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#getXMLStreamReader() public
-     * javax.xml.stream.XMLStreamReader javax.xml.transform.stax.StAXSource.getXMLStreamReader()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.transform.stax.StAXSource#getXMLStreamReader() public javax.xml.stream.XMLStreamReader
-     *      javax.xml.transform.stax.StAXSource.getXMLStreamReader() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXMLStreamReader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.stax.StAXSource]
 
 }

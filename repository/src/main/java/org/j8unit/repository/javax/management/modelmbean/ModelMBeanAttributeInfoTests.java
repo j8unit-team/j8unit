@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.management.modelmbean;
 
+import javax.management.Descriptor;
+import javax.management.modelmbean.ModelMBeanAttributeInfo;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.management.modelmbean.ModelMBeanAttributeInfo class
- * javax.management.modelmbean.ModelMBeanAttributeInfo}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link ModelMBeanAttributeInfoClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ModelMBeanAttributeInfo public class javax.management.modelmbean.ModelMBeanAttributeInfo}.
  * </p>
  *
- * @see javax.management.modelmbean.ModelMBeanAttributeInfo class javax.management.modelmbean.ModelMBeanAttributeInfo
- *      (the hereby targeted class-under-test class)
- * @see ModelMBeanAttributeInfoClassTests ModelMBeanAttributeInfoClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanAttributeInfoClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ModelMBeanAttributeInfoTests<SUT extends javax.management.modelmbean.ModelMBeanAttributeInfo>
+public abstract interface ModelMBeanAttributeInfoTests<SUT extends ModelMBeanAttributeInfo>
 extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j8unit.repository.javax.management.MBeanAttributeInfoTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#getDescriptor() public
-     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanAttributeInfo.getDescriptor()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#getDescriptor() public
+     * Test method for the hereby targeted method-under-test {@link ModelMBeanAttributeInfo#getDescriptor() public
      * javax.management.Descriptor javax.management.modelmbean.ModelMBeanAttributeInfo.getDescriptor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +43,7 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
      * methods soon.
      * </p>
      *
-     * @see javax.management.modelmbean.ModelMBeanAttributeInfo#getDescriptor() public javax.management.Descriptor
-     *      javax.management.modelmbean.ModelMBeanAttributeInfo.getDescriptor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +58,15 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#toString() public java.lang.String
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#toString() public java.lang.String
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.toString()}.
+     * Test method for the hereby targeted method-under-test {@link ModelMBeanAttributeInfo#toString() public
+     * java.lang.String javax.management.modelmbean.ModelMBeanAttributeInfo.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.modelmbean.ModelMBeanAttributeInfo#toString() public java.lang.String
-     *      javax.management.modelmbean.ModelMBeanAttributeInfo.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,20 +81,38 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#clone() public java.lang.Object
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.clone()}.
-     *
-     * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanAttributeInfo#clone() public java.lang.Object
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.clone()}.
+     * Test method for the hereby targeted method-under-test {@link ModelMBeanAttributeInfo#setDescriptor(Descriptor)
+     * public void javax.management.modelmbean.ModelMBeanAttributeInfo.setDescriptor(javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.management.modelmbean.ModelMBeanAttributeInfo#clone() public java.lang.Object
-     *      javax.management.modelmbean.ModelMBeanAttributeInfo.clone() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setDescriptor_Descriptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ModelMBeanAttributeInfo#clone() public
+     * java.lang.Object javax.management.modelmbean.ModelMBeanAttributeInfo.clone()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,35 +125,6 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#setDescriptor(javax.management.Descriptor) public void
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.setDescriptor(javax.management.Descriptor)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#setDescriptor(javax.management.Descriptor) public void
-     * javax.management.modelmbean.ModelMBeanAttributeInfo.setDescriptor(javax.management.Descriptor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.management.modelmbean.ModelMBeanAttributeInfo#setDescriptor(javax.management.Descriptor) public void
-     *      javax.management.modelmbean.ModelMBeanAttributeInfo.setDescriptor(javax.management.Descriptor) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setDescriptor_Descriptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.io;
 
+import java.io.DataInput;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.DataInput interface java.io.DataInput}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link DataInputClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DataInput
+ * public abstract interface java.io.DataInput}.
  * </p>
  *
- * @see java.io.DataInput interface java.io.DataInput (the hereby targeted class-under-test class)
- * @see DataInputClassTests DataInputClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.DataInputClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface DataInputTests<SUT extends java.io.DataInput>
+public abstract interface DataInputTests<SUT extends DataInput>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.DataInput]
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readFloat() public abstract float java.io.DataInput.readFloat() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readFloat() public abstract float java.io.DataInput.readFloat() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readFloat() public abstract float
+     * java.io.DataInput.readFloat() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readFloat() public abstract float java.io.DataInput.readFloat() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -56,20 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readBoolean() public abstract boolean java.io.DataInput.readBoolean()
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readBoolean() public abstract boolean java.io.DataInput.readBoolean()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readBoolean() public abstract boolean
+     * java.io.DataInput.readBoolean() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readBoolean() public abstract boolean java.io.DataInput.readBoolean() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,47 +79,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readInt() public abstract int java.io.DataInput.readInt() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readInt() public abstract int java.io.DataInput.readInt() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readByte() public abstract byte
+     * java.io.DataInput.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readInt() public abstract int java.io.DataInput.readInt() throws java.io.IOException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readInt()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInput#readByte() public abstract byte java.io.DataInput.readByte() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readByte() public abstract byte java.io.DataInput.readByte() throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataInput#readByte() public abstract byte java.io.DataInput.readByte() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -137,11 +101,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readUnsignedByte() public abstract int
-     * java.io.DataInput.readUnsignedByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readInt() public abstract int
+     * java.io.DataInput.readInt() throws java.io.IOException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readInt()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.io.DataInput#readUnsignedByte() public abstract int
+     * Test method for the hereby targeted method-under-test {@link DataInput#readUnsignedByte() public abstract int
      * java.io.DataInput.readUnsignedByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +131,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readUnsignedByte() public abstract int java.io.DataInput.readUnsignedByte() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -164,11 +145,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readUnsignedShort() public abstract int
-     * java.io.DataInput.readUnsignedShort() throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readUnsignedShort() public abstract int
+     * Test method for the hereby targeted method-under-test {@link DataInput#readUnsignedShort() public abstract int
      * java.io.DataInput.readUnsignedShort() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +153,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readUnsignedShort() public abstract int java.io.DataInput.readUnsignedShort() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -191,47 +167,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readUTF() public abstract java.lang.String java.io.DataInput.readUTF()
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readUTF() public abstract java.lang.String java.io.DataInput.readUTF()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readLong() public abstract long
+     * java.io.DataInput.readLong() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readUTF() public abstract java.lang.String java.io.DataInput.readUTF() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readUTF()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInput#readLong() public abstract long java.io.DataInput.readLong() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readLong() public abstract long java.io.DataInput.readLong() throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataInput#readLong() public abstract long java.io.DataInput.readLong() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -245,20 +189,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readShort() public abstract short java.io.DataInput.readShort() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readShort() public abstract short java.io.DataInput.readShort() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readUTF() public abstract java.lang.String
+     * java.io.DataInput.readUTF() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readShort() public abstract short java.io.DataInput.readShort() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readUTF()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DataInput#readShort() public abstract short
+     * java.io.DataInput.readShort() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -272,75 +233,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readFully(byte[]) public abstract void
-     * java.io.DataInput.readFully(byte[]) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readFully(byte[]) public abstract void
-     * java.io.DataInput.readFully(byte[]) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readDouble() public abstract double
+     * java.io.DataInput.readDouble() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readFully(byte[]) public abstract void java.io.DataInput.readFully(byte[]) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInput#readFully(byte[], int, int) public abstract void
-     * java.io.DataInput.readFully(byte[],int,int) throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readFully(byte[], int, int) public abstract void
-     * java.io.DataInput.readFully(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataInput#readFully(byte[], int, int) public abstract void
-     *      java.io.DataInput.readFully(byte[],int,int) throws java.io.IOException (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readFully_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInput#readDouble() public abstract double java.io.DataInput.readDouble()
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readDouble() public abstract double java.io.DataInput.readDouble()
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.DataInput#readDouble() public abstract double java.io.DataInput.readDouble() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -354,20 +255,59 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readLine() public abstract java.lang.String java.io.DataInput.readLine()
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readLine() public abstract java.lang.String java.io.DataInput.readLine()
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readFully(byte[], int, int) public
+     * abstract void java.io.DataInput.readFully(byte[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readLine() public abstract java.lang.String java.io.DataInput.readLine() throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DataInput#readFully(byte[]) public abstract void
+     * java.io.DataInput.readFully(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readFully_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link DataInput#readLine() public abstract
+     * java.lang.String java.io.DataInput.readLine() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -381,20 +321,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#readChar() public abstract char java.io.DataInput.readChar() throws
-     * java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#readChar() public abstract char java.io.DataInput.readChar() throws
-     * java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#readChar() public abstract char
+     * java.io.DataInput.readChar() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#readChar() public abstract char java.io.DataInput.readChar() throws java.io.IOException
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -408,20 +343,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInput#skipBytes(int) public abstract int java.io.DataInput.skipBytes(int)
-     * throws java.io.IOException}.
-     *
-     * <p>
-     * Test method for {@link java.io.DataInput#skipBytes(int) public abstract int java.io.DataInput.skipBytes(int)
-     * throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link DataInput#skipBytes(int) public abstract int
+     * java.io.DataInput.skipBytes(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.DataInput#skipBytes(int) public abstract int java.io.DataInput.skipBytes(int) throws
-     *      java.io.IOException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -432,5 +362,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataInput]
 
 }

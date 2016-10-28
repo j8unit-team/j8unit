@@ -1,5 +1,13 @@
 package org.j8unit.repository.javax.accessibility;
 
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.event.FocusListener;
+import javax.accessibility.AccessibleComponent;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,69 +17,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.accessibility.AccessibleComponent interface
- * javax.accessibility.AccessibleComponent}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link AccessibleComponentClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AccessibleComponent public abstract interface javax.accessibility.AccessibleComponent}.
  * </p>
  *
- * @see javax.accessibility.AccessibleComponent interface javax.accessibility.AccessibleComponent (the hereby targeted
- *      class-under-test class)
- * @see AccessibleComponentClassTests AccessibleComponentClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.accessibility.AccessibleComponentClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AccessibleComponentTests<SUT extends javax.accessibility.AccessibleComponent>
+public abstract interface AccessibleComponentTests<SUT extends AccessibleComponent>
 extends RepositoryTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getFont() public abstract java.awt.Font
-     * javax.accessibility.AccessibleComponent.getFont()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getFont() public abstract java.awt.Font
-     * javax.accessibility.AccessibleComponent.getFont()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleComponent#getFont() public abstract java.awt.Font
-     *      javax.accessibility.AccessibleComponent.getFont() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleComponent]
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setCursor(java.awt.Cursor) public abstract void
-     * javax.accessibility.AccessibleComponent.setCursor(java.awt.Cursor)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setCursor(java.awt.Cursor) public abstract void
-     * javax.accessibility.AccessibleComponent.setCursor(java.awt.Cursor)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setCursor(Cursor) public
+     * abstract void javax.accessibility.AccessibleComponent.setCursor(java.awt.Cursor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setCursor(java.awt.Cursor) public abstract void
-     *      javax.accessibility.AccessibleComponent.setCursor(java.awt.Cursor) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -85,20 +64,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getBackground() public abstract java.awt.Color
-     * javax.accessibility.AccessibleComponent.getBackground()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getBackground() public abstract java.awt.Color
-     * javax.accessibility.AccessibleComponent.getBackground()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getFont() public abstract
+     * java.awt.Font javax.accessibility.AccessibleComponent.getFont()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getBackground() public abstract java.awt.Color
-     *      javax.accessibility.AccessibleComponent.getBackground() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getBackground() public abstract
+     * java.awt.Color javax.accessibility.AccessibleComponent.getBackground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,47 +108,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#contains(java.awt.Point) public abstract boolean
-     * javax.accessibility.AccessibleComponent.contains(java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#contains(java.awt.Point) public abstract boolean
-     * javax.accessibility.AccessibleComponent.contains(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getSize() public abstract
+     * java.awt.Dimension javax.accessibility.AccessibleComponent.getSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#contains(java.awt.Point) public abstract boolean
-     *      javax.accessibility.AccessibleComponent.contains(java.awt.Point) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getSize() public abstract java.awt.Dimension
-     * javax.accessibility.AccessibleComponent.getSize()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getSize() public abstract java.awt.Dimension
-     * javax.accessibility.AccessibleComponent.getSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleComponent#getSize() public abstract java.awt.Dimension
-     *      javax.accessibility.AccessibleComponent.getSize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,20 +130,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getForeground() public abstract java.awt.Color
-     * javax.accessibility.AccessibleComponent.getForeground()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getForeground() public abstract java.awt.Color
-     * javax.accessibility.AccessibleComponent.getForeground()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#contains(Point) public abstract
+     * boolean javax.accessibility.AccessibleComponent.contains(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getForeground() public abstract java.awt.Color
-     *      javax.accessibility.AccessibleComponent.getForeground() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_contains_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getForeground() public abstract
+     * java.awt.Color javax.accessibility.AccessibleComponent.getForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -193,20 +174,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setEnabled(boolean) public abstract void
-     * javax.accessibility.AccessibleComponent.setEnabled(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setEnabled(boolean) public abstract void
-     * javax.accessibility.AccessibleComponent.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setEnabled(boolean) public
+     * abstract void javax.accessibility.AccessibleComponent.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setEnabled(boolean) public abstract void
-     *      javax.accessibility.AccessibleComponent.setEnabled(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -220,20 +196,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isEnabled() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isEnabled()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isEnabled() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isEnabled()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#isEnabled() public abstract
+     * boolean javax.accessibility.AccessibleComponent.isEnabled()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#isEnabled() public abstract boolean
-     *      javax.accessibility.AccessibleComponent.isEnabled() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -247,20 +218,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isVisible() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isVisible()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isVisible() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isVisible()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#isVisible() public abstract
+     * boolean javax.accessibility.AccessibleComponent.isVisible()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#isVisible() public abstract boolean
-     *      javax.accessibility.AccessibleComponent.isVisible() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -274,21 +240,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setForeground(java.awt.Color) public abstract void
-     * javax.accessibility.AccessibleComponent.setForeground(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setForeground(java.awt.Color) public abstract void
-     * javax.accessibility.AccessibleComponent.setForeground(java.awt.Color)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setForeground(Color) public
+     * abstract void javax.accessibility.AccessibleComponent.setForeground(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setForeground(java.awt.Color) public abstract void
-     *      javax.accessibility.AccessibleComponent.setForeground(java.awt.Color) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -302,21 +262,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setBounds(java.awt.Rectangle) public abstract void
-     * javax.accessibility.AccessibleComponent.setBounds(java.awt.Rectangle)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setBounds(java.awt.Rectangle) public abstract void
-     * javax.accessibility.AccessibleComponent.setBounds(java.awt.Rectangle)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setBounds(Rectangle) public
+     * abstract void javax.accessibility.AccessibleComponent.setBounds(java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setBounds(java.awt.Rectangle) public abstract void
-     *      javax.accessibility.AccessibleComponent.setBounds(java.awt.Rectangle) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -330,20 +284,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setVisible(boolean) public abstract void
-     * javax.accessibility.AccessibleComponent.setVisible(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setVisible(boolean) public abstract void
-     * javax.accessibility.AccessibleComponent.setVisible(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setVisible(boolean) public
+     * abstract void javax.accessibility.AccessibleComponent.setVisible(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setVisible(boolean) public abstract void
-     *      javax.accessibility.AccessibleComponent.setVisible(boolean) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -357,20 +306,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getCursor() public abstract java.awt.Cursor
-     * javax.accessibility.AccessibleComponent.getCursor()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getCursor() public abstract java.awt.Cursor
-     * javax.accessibility.AccessibleComponent.getCursor()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getCursor() public abstract
+     * java.awt.Cursor javax.accessibility.AccessibleComponent.getCursor()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getCursor() public abstract java.awt.Cursor
-     *      javax.accessibility.AccessibleComponent.getCursor() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -384,20 +328,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setFont(java.awt.Font) public abstract void
-     * javax.accessibility.AccessibleComponent.setFont(java.awt.Font)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setFont(java.awt.Font) public abstract void
-     * javax.accessibility.AccessibleComponent.setFont(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setFont(Font) public abstract
+     * void javax.accessibility.AccessibleComponent.setFont(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setFont(java.awt.Font) public abstract void
-     *      javax.accessibility.AccessibleComponent.setFont(java.awt.Font) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -411,21 +350,16 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#removeFocusListener(java.awt.event.FocusListener)
-     * public abstract void javax.accessibility.AccessibleComponent.removeFocusListener(java.awt.event.FocusListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#removeFocusListener(java.awt.event.FocusListener)
-     * public abstract void javax.accessibility.AccessibleComponent.removeFocusListener(java.awt.event.FocusListener)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link AccessibleComponent#removeFocusListener(FocusListener) public abstract void
+     * javax.accessibility.AccessibleComponent.removeFocusListener(java.awt.event.FocusListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#removeFocusListener(java.awt.event.FocusListener) public abstract
-     *      void javax.accessibility.AccessibleComponent.removeFocusListener(java.awt.event.FocusListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -439,20 +373,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isShowing() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isShowing()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isShowing() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isShowing()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#isShowing() public abstract
+     * boolean javax.accessibility.AccessibleComponent.isShowing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#isShowing() public abstract boolean
-     *      javax.accessibility.AccessibleComponent.isShowing() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -466,20 +395,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setSize(java.awt.Dimension) public abstract void
-     * javax.accessibility.AccessibleComponent.setSize(java.awt.Dimension)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setSize(java.awt.Dimension) public abstract void
-     * javax.accessibility.AccessibleComponent.setSize(java.awt.Dimension)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setSize(Dimension) public
+     * abstract void javax.accessibility.AccessibleComponent.setSize(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setSize(java.awt.Dimension) public abstract void
-     *      javax.accessibility.AccessibleComponent.setSize(java.awt.Dimension) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -493,21 +417,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getFontMetrics(java.awt.Font) public abstract
-     * java.awt.FontMetrics javax.accessibility.AccessibleComponent.getFontMetrics(java.awt.Font)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getFontMetrics(java.awt.Font) public abstract
-     * java.awt.FontMetrics javax.accessibility.AccessibleComponent.getFontMetrics(java.awt.Font)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getFontMetrics(Font) public
+     * abstract java.awt.FontMetrics javax.accessibility.AccessibleComponent.getFontMetrics(java.awt.Font)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getFontMetrics(java.awt.Font) public abstract java.awt.FontMetrics
-     *      javax.accessibility.AccessibleComponent.getFontMetrics(java.awt.Font) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -521,20 +439,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setLocation(java.awt.Point) public abstract void
-     * javax.accessibility.AccessibleComponent.setLocation(java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setLocation(java.awt.Point) public abstract void
-     * javax.accessibility.AccessibleComponent.setLocation(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setLocation(Point) public
+     * abstract void javax.accessibility.AccessibleComponent.setLocation(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#setLocation(java.awt.Point) public abstract void
-     *      javax.accessibility.AccessibleComponent.setLocation(java.awt.Point) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -548,20 +461,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isFocusTraversable() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isFocusTraversable()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#isFocusTraversable() public abstract boolean
-     * javax.accessibility.AccessibleComponent.isFocusTraversable()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#isFocusTraversable() public
+     * abstract boolean javax.accessibility.AccessibleComponent.isFocusTraversable()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#isFocusTraversable() public abstract boolean
-     *      javax.accessibility.AccessibleComponent.isFocusTraversable() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -575,20 +483,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getBounds() public abstract java.awt.Rectangle
-     * javax.accessibility.AccessibleComponent.getBounds()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getBounds() public abstract java.awt.Rectangle
-     * javax.accessibility.AccessibleComponent.getBounds()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getBounds() public abstract
+     * java.awt.Rectangle javax.accessibility.AccessibleComponent.getBounds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getBounds() public abstract java.awt.Rectangle
-     *      javax.accessibility.AccessibleComponent.getBounds() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -602,49 +505,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getAccessibleAt(java.awt.Point) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleComponent.getAccessibleAt(java.awt.Point)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getAccessibleAt(java.awt.Point) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleComponent.getAccessibleAt(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#setBackground(Color) public
+     * abstract void javax.accessibility.AccessibleComponent.setBackground(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getAccessibleAt(java.awt.Point) public abstract
-     *      javax.accessibility.Accessible javax.accessibility.AccessibleComponent.getAccessibleAt(java.awt.Point) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleAt_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setBackground(java.awt.Color) public abstract void
-     * javax.accessibility.AccessibleComponent.setBackground(java.awt.Color)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#setBackground(java.awt.Color) public abstract void
-     * javax.accessibility.AccessibleComponent.setBackground(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.accessibility.AccessibleComponent#setBackground(java.awt.Color) public abstract void
-     *      javax.accessibility.AccessibleComponent.setBackground(java.awt.Color) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -658,25 +527,20 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getLocation() public abstract java.awt.Point
-     * javax.accessibility.AccessibleComponent.getLocation()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getLocation() public abstract java.awt.Point
-     * javax.accessibility.AccessibleComponent.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getAccessibleAt(Point) public
+     * abstract javax.accessibility.Accessible javax.accessibility.AccessibleComponent.getAccessibleAt(java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getLocation() public abstract java.awt.Point
-     *      javax.accessibility.AccessibleComponent.getLocation() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
+    public default void test_getAccessibleAt_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -685,20 +549,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#requestFocus() public abstract void
-     * javax.accessibility.AccessibleComponent.requestFocus()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#requestFocus() public abstract void
-     * javax.accessibility.AccessibleComponent.requestFocus()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#requestFocus() public abstract
+     * void javax.accessibility.AccessibleComponent.requestFocus()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#requestFocus() public abstract void
-     *      javax.accessibility.AccessibleComponent.requestFocus() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -712,20 +571,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getLocationOnScreen() public abstract
-     * java.awt.Point javax.accessibility.AccessibleComponent.getLocationOnScreen()}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#getLocationOnScreen() public abstract
-     * java.awt.Point javax.accessibility.AccessibleComponent.getLocationOnScreen()}.
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getLocation() public abstract
+     * java.awt.Point javax.accessibility.AccessibleComponent.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#getLocationOnScreen() public abstract java.awt.Point
-     *      javax.accessibility.AccessibleComponent.getLocationOnScreen() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#getLocationOnScreen() public
+     * abstract java.awt.Point javax.accessibility.AccessibleComponent.getLocationOnScreen()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -739,11 +615,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#addFocusListener(java.awt.event.FocusListener)
-     * public abstract void javax.accessibility.AccessibleComponent.addFocusListener(java.awt.event.FocusListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleComponent#addFocusListener(java.awt.event.FocusListener)
+     * Test method for the hereby targeted method-under-test {@link AccessibleComponent#addFocusListener(FocusListener)
      * public abstract void javax.accessibility.AccessibleComponent.addFocusListener(java.awt.event.FocusListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -751,9 +623,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.accessibility.AccessibleComponent#addFocusListener(java.awt.event.FocusListener) public abstract void
-     *      javax.accessibility.AccessibleComponent.addFocusListener(java.awt.event.FocusListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -764,5 +634,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleComponent]
 
 }

@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing;
 
+import java.awt.event.ActionListener;
+import javax.swing.Timer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.Timer class javax.swing.Timer}. The complementary j8unit test
- * interface containing the class relevant aspects is {@link TimerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Timer public
+ * class javax.swing.Timer}.
  * </p>
  *
- * @see javax.swing.Timer class javax.swing.Timer (the hereby targeted class-under-test class)
- * @see TimerClassTests TimerClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.TimerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TimerTests<SUT extends javax.swing.Timer>
+public abstract interface TimerTests<SUT extends Timer>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Timer]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#setDelay(int) public void javax.swing.Timer.setDelay(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#setDelay(int) public void javax.swing.Timer.setDelay(int)}.
+     * Test method for the hereby targeted method-under-test {@link Timer#setDelay(int) public void
+     * javax.swing.Timer.setDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#setDelay(int) public void javax.swing.Timer.setDelay(int) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -53,11 +57,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#getActionCommand() public java.lang.String
-     * javax.swing.Timer.getActionCommand()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#getActionCommand() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link Timer#getActionCommand() public java.lang.String
      * javax.swing.Timer.getActionCommand()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +65,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#getActionCommand() public java.lang.String javax.swing.Timer.getActionCommand() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -80,20 +79,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#getActionListeners() public java.awt.event.ActionListener[]
-     * javax.swing.Timer.getActionListeners()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#getActionListeners() public java.awt.event.ActionListener[]
-     * javax.swing.Timer.getActionListeners()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#getActionListeners() public
+     * java.awt.event.ActionListener[] javax.swing.Timer.getActionListeners()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#getActionListeners() public java.awt.event.ActionListener[]
-     *      javax.swing.Timer.getActionListeners() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -107,18 +101,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#isCoalesce() public boolean javax.swing.Timer.isCoalesce()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#isCoalesce() public boolean javax.swing.Timer.isCoalesce()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#isCoalesce() public boolean
+     * javax.swing.Timer.isCoalesce()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#isCoalesce() public boolean javax.swing.Timer.isCoalesce() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -132,18 +123,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#isRunning() public boolean javax.swing.Timer.isRunning()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#isRunning() public boolean javax.swing.Timer.isRunning()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#isRunning() public boolean
+     * javax.swing.Timer.isRunning()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#isRunning() public boolean javax.swing.Timer.isRunning() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -157,45 +145,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#stop() public void javax.swing.Timer.stop()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#stop() public void javax.swing.Timer.stop()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#removeActionListener(ActionListener) public
+     * void javax.swing.Timer.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#stop() public void javax.swing.Timer.stop() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stop()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Timer#removeActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.Timer.removeActionListener(java.awt.event.ActionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#removeActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.Timer.removeActionListener(java.awt.event.ActionListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.Timer#removeActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.Timer.removeActionListener(java.awt.event.ActionListener) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -209,18 +167,36 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#getInitialDelay() public int javax.swing.Timer.getInitialDelay()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#getInitialDelay() public int javax.swing.Timer.getInitialDelay()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#stop() public void javax.swing.Timer.stop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#getInitialDelay() public int javax.swing.Timer.getInitialDelay() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Timer#getInitialDelay() public int
+     * javax.swing.Timer.getInitialDelay()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -234,45 +210,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#setInitialDelay(int) public void javax.swing.Timer.setInitialDelay(int)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#setInitialDelay(int) public void javax.swing.Timer.setInitialDelay(int)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link Timer#setRepeats(boolean) public void
+     * javax.swing.Timer.setRepeats(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#setInitialDelay(int) public void javax.swing.Timer.setInitialDelay(int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInitialDelay_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Timer#setRepeats(boolean) public void javax.swing.Timer.setRepeats(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#setRepeats(boolean) public void javax.swing.Timer.setRepeats(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.Timer#setRepeats(boolean) public void javax.swing.Timer.setRepeats(boolean) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -286,20 +232,37 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#setCoalesce(boolean) public void javax.swing.Timer.setCoalesce(boolean)}
-     * .
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#setCoalesce(boolean) public void javax.swing.Timer.setCoalesce(boolean)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link Timer#setInitialDelay(int) public void
+     * javax.swing.Timer.setInitialDelay(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#setCoalesce(boolean) public void javax.swing.Timer.setCoalesce(boolean) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInitialDelay_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Timer#setCoalesce(boolean) public void
+     * javax.swing.Timer.setCoalesce(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -313,11 +276,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#setActionCommand(String) public void
-     * javax.swing.Timer.setActionCommand(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#setActionCommand(String) public void
+     * Test method for the hereby targeted method-under-test {@link Timer#setActionCommand(String) public void
      * javax.swing.Timer.setActionCommand(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -325,8 +284,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#setActionCommand(String) public void javax.swing.Timer.setActionCommand(java.lang.String)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -340,17 +298,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#start() public void javax.swing.Timer.start()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#start() public void javax.swing.Timer.start()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#start() public void javax.swing.Timer.start()}
+     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#start() public void javax.swing.Timer.start() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -364,11 +320,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#addActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.Timer.addActionListener(java.awt.event.ActionListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#addActionListener(java.awt.event.ActionListener) public void
+     * Test method for the hereby targeted method-under-test {@link Timer#addActionListener(ActionListener) public void
      * javax.swing.Timer.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -376,8 +328,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#addActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.Timer.addActionListener(java.awt.event.ActionListener) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -391,17 +342,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#restart() public void javax.swing.Timer.restart()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#restart() public void javax.swing.Timer.restart()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#restart() public void
+     * javax.swing.Timer.restart()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#restart() public void javax.swing.Timer.restart() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -415,18 +364,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#isRepeats() public boolean javax.swing.Timer.isRepeats()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#isRepeats() public boolean javax.swing.Timer.isRepeats()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#isRepeats() public boolean
+     * javax.swing.Timer.isRepeats()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#isRepeats() public boolean javax.swing.Timer.isRepeats() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -440,17 +386,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#getDelay() public int javax.swing.Timer.getDelay()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#getDelay() public int javax.swing.Timer.getDelay()}.
+     * Test method for the hereby targeted method-under-test {@link Timer#getDelay() public int
+     * javax.swing.Timer.getDelay()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#getDelay() public int javax.swing.Timer.getDelay() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -464,20 +408,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Timer#getListeners(Class) public <T> T[]
+     * Test method for the hereby targeted method-under-test {@link Timer#getListeners(Class) public <T> T[]
      * javax.swing.Timer.getListeners(java.lang.Class<T>)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.Timer#getListeners(Class) public java.util.EventListener[]
-     * javax.swing.Timer.getListeners(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.Timer#getListeners(Class) public java.util.EventListener[]
-     *      javax.swing.Timer.getListeners(java.lang.Class) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -488,5 +427,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Timer]
 
 }

@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.xml.bind;
 
+import javax.xml.bind.ValidationEventLocator;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,42 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.bind.ValidationEventLocator interface
- * javax.xml.bind.ValidationEventLocator}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link ValidationEventLocatorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ValidationEventLocator public abstract interface javax.xml.bind.ValidationEventLocator}.
  * </p>
  *
- * @see javax.xml.bind.ValidationEventLocator interface javax.xml.bind.ValidationEventLocator (the hereby targeted
- *      class-under-test class)
- * @see ValidationEventLocatorClassTests ValidationEventLocatorClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ValidationEventLocatorTests<SUT extends javax.xml.bind.ValidationEventLocator>
+public abstract interface ValidationEventLocatorTests<SUT extends ValidationEventLocator>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.ValidationEventLocator]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getOffset() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getOffset()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getOffset() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getOffset() public abstract
+     * int javax.xml.bind.ValidationEventLocator.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.ValidationEventLocator#getOffset() public abstract int
-     *      javax.xml.bind.ValidationEventLocator.getOffset() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -58,47 +57,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getURL() public abstract java.net.URL
-     * javax.xml.bind.ValidationEventLocator.getURL()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getURL() public abstract java.net.URL
-     * javax.xml.bind.ValidationEventLocator.getURL()}.
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getLineNumber() public
+     * abstract int javax.xml.bind.ValidationEventLocator.getLineNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.ValidationEventLocator#getURL() public abstract java.net.URL
-     *      javax.xml.bind.ValidationEventLocator.getURL() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getLineNumber() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getLineNumber()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getLineNumber() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getLineNumber()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.bind.ValidationEventLocator#getLineNumber() public abstract int
-     *      javax.xml.bind.ValidationEventLocator.getLineNumber() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,20 +79,37 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getObject() public abstract java.lang.Object
-     * javax.xml.bind.ValidationEventLocator.getObject()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getObject() public abstract java.lang.Object
-     * javax.xml.bind.ValidationEventLocator.getObject()}.
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getURL() public abstract
+     * java.net.URL javax.xml.bind.ValidationEventLocator.getURL()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.ValidationEventLocator#getObject() public abstract java.lang.Object
-     *      javax.xml.bind.ValidationEventLocator.getObject() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getObject() public abstract
+     * java.lang.Object javax.xml.bind.ValidationEventLocator.getObject()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -139,20 +123,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getColumnNumber() public
+     * abstract int javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
-     *      javax.xml.bind.ValidationEventLocator.getColumnNumber() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -166,20 +145,15 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getNode() public abstract org.w3c.dom.Node
-     * javax.xml.bind.ValidationEventLocator.getNode()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getNode() public abstract org.w3c.dom.Node
-     * javax.xml.bind.ValidationEventLocator.getNode()}.
+     * Test method for the hereby targeted method-under-test {@link ValidationEventLocator#getNode() public abstract
+     * org.w3c.dom.Node javax.xml.bind.ValidationEventLocator.getNode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.bind.ValidationEventLocator#getNode() public abstract org.w3c.dom.Node
-     *      javax.xml.bind.ValidationEventLocator.getNode() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,5 +164,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.ValidationEventLocator]
 
 }

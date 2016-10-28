@@ -1,28 +1,35 @@
 package org.j8unit.repository.javax.lang.model.util;
 
+import javax.lang.model.util.AbstractAnnotationValueVisitor7;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.lang.model.util.AbstractAnnotationValueVisitor7 class
- * javax.lang.model.util.AbstractAnnotationValueVisitor7}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link AbstractAnnotationValueVisitor7ClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link AbstractAnnotationValueVisitor7 public abstract class javax.lang.model.util.AbstractAnnotationValueVisitor7
+ * <R,P>}.
  * </p>
  *
- * @see javax.lang.model.util.AbstractAnnotationValueVisitor7 class
- *      javax.lang.model.util.AbstractAnnotationValueVisitor7 (the hereby targeted class-under-test class)
- * @see AbstractAnnotationValueVisitor7ClassTests AbstractAnnotationValueVisitor7ClassTests (the complementary j8unit
- *      test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor7ClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractAnnotationValueVisitor7Tests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor7<R, P>, R, P>
-extends AbstractAnnotationValueVisitor6Tests<SUT, R, P> {
+public abstract interface AbstractAnnotationValueVisitor7Tests<SUT extends AbstractAnnotationValueVisitor7<R, P>, R, P>
+extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor6Tests<SUT, R, P> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.AbstractAnnotationValueVisitor7]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractAnnotationValueVisitor7]
 
 }

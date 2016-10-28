@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.util.concurrent.locks;
 
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.StampedLock;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,60 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.concurrent.locks.StampedLock class
- * java.util.concurrent.locks.StampedLock}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link StampedLockClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link StampedLock
+ * public class java.util.concurrent.locks.StampedLock}.
  * </p>
  *
- * @see java.util.concurrent.locks.StampedLock class java.util.concurrent.locks.StampedLock (the hereby targeted
- *      class-under-test class)
- * @see StampedLockClassTests StampedLockClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.concurrent.locks.StampedLockClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface StampedLockTests<SUT extends java.util.concurrent.locks.StampedLock>
+public abstract interface StampedLockTests<SUT extends StampedLock>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryUnlockRead() public boolean
-     * java.util.concurrent.locks.StampedLock.tryUnlockRead()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryUnlockRead() public boolean
-     * java.util.concurrent.locks.StampedLock.tryUnlockRead()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryUnlockRead() public boolean
-     *      java.util.concurrent.locks.StampedLock.tryUnlockRead() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryUnlockRead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.StampedLock]
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlockRead(long) public void
-     * java.util.concurrent.locks.StampedLock.unlockRead(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlockRead(long) public void
+     * Test method for the hereby targeted method-under-test {@link StampedLock#unlockRead(long) public void
      * java.util.concurrent.locks.StampedLock.unlockRead(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#unlockRead(long) public void
-     *      java.util.concurrent.locks.StampedLock.unlockRead(long) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,11 +57,95 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#toString() public java.lang.String
-     * java.util.concurrent.locks.StampedLock.toString()}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryUnlockRead() public boolean
+     * java.util.concurrent.locks.StampedLock.tryUnlockRead()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryUnlockRead()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link StampedLock#validate(long) public boolean
+     * java.util.concurrent.locks.StampedLock.validate(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_validate_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#readLockInterruptibly() public long
+     * java.util.concurrent.locks.StampedLock.readLockInterruptibly() throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readLockInterruptibly()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#isWriteLocked() public boolean
+     * java.util.concurrent.locks.StampedLock.isWriteLocked()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isWriteLocked()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#toString() public java.lang.String
      * java.util.concurrent.locks.StampedLock.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +153,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#toString() public java.lang.String
-     *      java.util.concurrent.locks.StampedLock.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,394 +168,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryOptimisticRead() public long
-     * java.util.concurrent.locks.StampedLock.tryOptimisticRead()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryOptimisticRead() public long
-     * java.util.concurrent.locks.StampedLock.tryOptimisticRead()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryOptimisticRead() public long
-     *      java.util.concurrent.locks.StampedLock.tryOptimisticRead() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryOptimisticRead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToWriteLock(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToWriteLock(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToWriteLock(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToWriteLock(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryConvertToWriteLock(long) public long
-     *      java.util.concurrent.locks.StampedLock.tryConvertToWriteLock(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryConvertToWriteLock_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryReadLock(long, java.util.concurrent.TimeUnit)
-     * public long java.util.concurrent.locks.StampedLock.tryReadLock(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryReadLock(long, java.util.concurrent.TimeUnit)
-     * public long java.util.concurrent.locks.StampedLock.tryReadLock(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryReadLock(long, java.util.concurrent.TimeUnit) public long
-     *      java.util.concurrent.locks.StampedLock.tryReadLock(long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryReadLock_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryReadLock() public long
-     * java.util.concurrent.locks.StampedLock.tryReadLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryReadLock() public long
-     * java.util.concurrent.locks.StampedLock.tryReadLock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryReadLock() public long
-     *      java.util.concurrent.locks.StampedLock.tryReadLock() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryReadLock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryUnlockWrite() public boolean
-     * java.util.concurrent.locks.StampedLock.tryUnlockWrite()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryUnlockWrite() public boolean
-     * java.util.concurrent.locks.StampedLock.tryUnlockWrite()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryUnlockWrite() public boolean
-     *      java.util.concurrent.locks.StampedLock.tryUnlockWrite() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryUnlockWrite()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#getReadLockCount() public int
-     * java.util.concurrent.locks.StampedLock.getReadLockCount()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#getReadLockCount() public int
-     * java.util.concurrent.locks.StampedLock.getReadLockCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#getReadLockCount() public int
-     *      java.util.concurrent.locks.StampedLock.getReadLockCount() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReadLockCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#readLock() public long
-     * java.util.concurrent.locks.StampedLock.readLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#readLock() public long
-     * java.util.concurrent.locks.StampedLock.readLock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#readLock() public long
-     *      java.util.concurrent.locks.StampedLock.readLock() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readLock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asReadWriteLock() public
-     * java.util.concurrent.locks.ReadWriteLock java.util.concurrent.locks.StampedLock.asReadWriteLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asReadWriteLock() public
-     * java.util.concurrent.locks.ReadWriteLock java.util.concurrent.locks.StampedLock.asReadWriteLock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#asReadWriteLock() public java.util.concurrent.locks.ReadWriteLock
-     *      java.util.concurrent.locks.StampedLock.asReadWriteLock() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asReadWriteLock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlock(long) public void
-     * java.util.concurrent.locks.StampedLock.unlock(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlock(long) public void
-     * java.util.concurrent.locks.StampedLock.unlock(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#unlock(long) public void
-     *      java.util.concurrent.locks.StampedLock.unlock(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unlock_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#writeLockInterruptibly() public long
-     * java.util.concurrent.locks.StampedLock.writeLockInterruptibly() throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#writeLockInterruptibly() public long
-     * java.util.concurrent.locks.StampedLock.writeLockInterruptibly() throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#writeLockInterruptibly() public long
-     *      java.util.concurrent.locks.StampedLock.writeLockInterruptibly() throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeLockInterruptibly()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToReadLock(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToReadLock(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToReadLock(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToReadLock(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#tryConvertToReadLock(long) public long
-     *      java.util.concurrent.locks.StampedLock.tryConvertToReadLock(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryConvertToReadLock_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#validate(long) public boolean
-     * java.util.concurrent.locks.StampedLock.validate(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#validate(long) public boolean
-     * java.util.concurrent.locks.StampedLock.validate(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#validate(long) public boolean
-     *      java.util.concurrent.locks.StampedLock.validate(long) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_validate_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#readLockInterruptibly() public long
-     * java.util.concurrent.locks.StampedLock.readLockInterruptibly() throws java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#readLockInterruptibly() public long
-     * java.util.concurrent.locks.StampedLock.readLockInterruptibly() throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#readLockInterruptibly() public long
-     *      java.util.concurrent.locks.StampedLock.readLockInterruptibly() throws java.lang.InterruptedException (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readLockInterruptibly()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#isWriteLocked() public boolean
-     * java.util.concurrent.locks.StampedLock.isWriteLocked()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#isWriteLocked() public boolean
-     * java.util.concurrent.locks.StampedLock.isWriteLocked()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.concurrent.locks.StampedLock#isWriteLocked() public boolean
-     *      java.util.concurrent.locks.StampedLock.isWriteLocked() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWriteLocked()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asWriteLock() public
-     * java.util.concurrent.locks.Lock java.util.concurrent.locks.StampedLock.asWriteLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asWriteLock() public
+     * Test method for the hereby targeted method-under-test {@link StampedLock#asWriteLock() public
      * java.util.concurrent.locks.Lock java.util.concurrent.locks.StampedLock.asWriteLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -507,8 +176,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#asWriteLock() public java.util.concurrent.locks.Lock
-     *      java.util.concurrent.locks.StampedLock.asWriteLock() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -522,11 +190,96 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#isReadLocked() public boolean
-     * java.util.concurrent.locks.StampedLock.isReadLocked()}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryOptimisticRead() public long
+     * java.util.concurrent.locks.StampedLock.tryOptimisticRead()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryOptimisticRead()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#isReadLocked() public boolean
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryConvertToWriteLock(long) public long
+     * java.util.concurrent.locks.StampedLock.tryConvertToWriteLock(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryConvertToWriteLock_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryReadLock(long, TimeUnit) public long
+     * java.util.concurrent.locks.StampedLock.tryReadLock(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryReadLock_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryReadLock() public long
+     * java.util.concurrent.locks.StampedLock.tryReadLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryReadLock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#isReadLocked() public boolean
      * java.util.concurrent.locks.StampedLock.isReadLocked()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -534,8 +287,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#isReadLocked() public boolean
-     *      java.util.concurrent.locks.StampedLock.isReadLocked() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -549,11 +301,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlockWrite(long) public void
-     * java.util.concurrent.locks.StampedLock.unlockWrite(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#unlockWrite(long) public void
+     * Test method for the hereby targeted method-under-test {@link StampedLock#unlockWrite(long) public void
      * java.util.concurrent.locks.StampedLock.unlockWrite(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -561,8 +309,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#unlockWrite(long) public void
-     *      java.util.concurrent.locks.StampedLock.unlockWrite(long) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -576,25 +323,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryWriteLock() public long
-     * java.util.concurrent.locks.StampedLock.tryWriteLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryWriteLock() public long
-     * java.util.concurrent.locks.StampedLock.tryWriteLock()}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryUnlockWrite() public boolean
+     * java.util.concurrent.locks.StampedLock.tryUnlockWrite()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#tryWriteLock() public long
-     *      java.util.concurrent.locks.StampedLock.tryWriteLock() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_tryWriteLock()
+    public default void test_tryUnlockWrite()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -603,28 +345,20 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryWriteLock(long, java.util.concurrent.TimeUnit)
-     * public long java.util.concurrent.locks.StampedLock.tryWriteLock(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryWriteLock(long, java.util.concurrent.TimeUnit)
-     * public long java.util.concurrent.locks.StampedLock.tryWriteLock(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#getReadLockCount() public int
+     * java.util.concurrent.locks.StampedLock.getReadLockCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#tryWriteLock(long, java.util.concurrent.TimeUnit) public long
-     *      java.util.concurrent.locks.StampedLock.tryWriteLock(long,java.util.concurrent.TimeUnit) throws
-     *      java.lang.InterruptedException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_tryWriteLock_long_TimeUnit()
+    public default void test_getReadLockCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -633,21 +367,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToOptimisticRead(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToOptimisticRead(long)}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#tryConvertToOptimisticRead(long) public long
-     * java.util.concurrent.locks.StampedLock.tryConvertToOptimisticRead(long)}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryConvertToOptimisticRead(long) public
+     * long java.util.concurrent.locks.StampedLock.tryConvertToOptimisticRead(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#tryConvertToOptimisticRead(long) public long
-     *      java.util.concurrent.locks.StampedLock.tryConvertToOptimisticRead(long) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -661,11 +389,118 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#writeLock() public long
-     * java.util.concurrent.locks.StampedLock.writeLock()}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryWriteLock(long, TimeUnit) public long
+     * java.util.concurrent.locks.StampedLock.tryWriteLock(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryWriteLock_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#writeLock() public long
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryWriteLock() public long
+     * java.util.concurrent.locks.StampedLock.tryWriteLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryWriteLock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#readLock() public long
+     * java.util.concurrent.locks.StampedLock.readLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readLock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#asReadWriteLock() public
+     * java.util.concurrent.locks.ReadWriteLock java.util.concurrent.locks.StampedLock.asReadWriteLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asReadWriteLock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#writeLockInterruptibly() public long
+     * java.util.concurrent.locks.StampedLock.writeLockInterruptibly() throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeLockInterruptibly()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#writeLock() public long
      * java.util.concurrent.locks.StampedLock.writeLock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -673,8 +508,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#writeLock() public long
-     *      java.util.concurrent.locks.StampedLock.writeLock() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -688,20 +522,59 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asReadLock() public java.util.concurrent.locks.Lock
-     * java.util.concurrent.locks.StampedLock.asReadLock()}.
-     *
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.StampedLock#asReadLock() public java.util.concurrent.locks.Lock
-     * java.util.concurrent.locks.StampedLock.asReadLock()}.
+     * Test method for the hereby targeted method-under-test {@link StampedLock#unlock(long) public void
+     * java.util.concurrent.locks.StampedLock.unlock(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.concurrent.locks.StampedLock#asReadLock() public java.util.concurrent.locks.Lock
-     *      java.util.concurrent.locks.StampedLock.asReadLock() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unlock_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#tryConvertToReadLock(long) public long
+     * java.util.concurrent.locks.StampedLock.tryConvertToReadLock(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryConvertToReadLock_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StampedLock#asReadLock() public
+     * java.util.concurrent.locks.Lock java.util.concurrent.locks.StampedLock.asReadLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -712,5 +585,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.StampedLock]
 
 }

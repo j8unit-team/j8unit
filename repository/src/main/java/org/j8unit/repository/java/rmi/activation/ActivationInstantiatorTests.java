@@ -1,5 +1,8 @@
 package org.j8unit.repository.java.rmi.activation;
 
+import java.rmi.activation.ActivationDesc;
+import java.rmi.activation.ActivationID;
+import java.rmi.activation.ActivationInstantiator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +11,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.rmi.activation.ActivationInstantiator interface
- * java.rmi.activation.ActivationInstantiator}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ActivationInstantiatorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ActivationInstantiator public abstract interface java.rmi.activation.ActivationInstantiator}.
  * </p>
  *
- * @see java.rmi.activation.ActivationInstantiator interface java.rmi.activation.ActivationInstantiator (the hereby
- *      targeted class-under-test class)
- * @see ActivationInstantiatorClassTests ActivationInstantiatorClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ActivationInstantiatorTests<SUT extends java.rmi.activation.ActivationInstantiator>
+public abstract interface ActivationInstantiatorTests<SUT extends ActivationInstantiator>
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationInstantiator]
 
     /**
      * <p>
-     * Test method for
-     * {@link java.rmi.activation.ActivationInstantiator#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
-     * public abstract java.rmi.MarshalledObject<? extends java.rmi.Remote>
-     * java.rmi.activation.ActivationInstantiator.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
-     * throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
-     *
-     * <p>
-     * Test method for
-     * {@link java.rmi.activation.ActivationInstantiator#newInstance(java.rmi.activation.ActivationID, java.rmi.activation.ActivationDesc)
-     * public abstract java.rmi.MarshalledObject
+     * Test method for the hereby targeted method-under-test
+     * {@link ActivationInstantiator#newInstance(ActivationID, ActivationDesc) public abstract
+     * java.rmi.MarshalledObject<? extends java.rmi.Remote>
      * java.rmi.activation.ActivationInstantiator.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
      * throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
      *
@@ -48,11 +47,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.rmi.activation.ActivationInstantiator#newInstance(java.rmi.activation.ActivationID,
-     *      java.rmi.activation.ActivationDesc) public abstract java.rmi.MarshalledObject
-     *      java.rmi.activation.ActivationInstantiator.newInstance(java.rmi.activation.ActivationID,java.rmi.activation.
-     *      ActivationDesc) throws java.rmi.activation.ActivationException,java.rmi.RemoteException (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +58,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationInstantiator]
 
 }

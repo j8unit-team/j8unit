@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.swing.table;
 
+import javax.swing.JTable;
+import javax.swing.table.TableCellRenderer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -9,38 +11,34 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.table.TableCellRenderer interface
- * javax.swing.table.TableCellRenderer}. The complementary j8unit test interface containing the class relevant aspects
- * is {@link TableCellRendererClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TableCellRenderer public abstract interface javax.swing.table.TableCellRenderer}.
  * </p>
  *
- * @see javax.swing.table.TableCellRenderer interface javax.swing.table.TableCellRenderer (the hereby targeted
- *      class-under-test class)
- * @see TableCellRendererClassTests TableCellRendererClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.table.TableCellRendererClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TableCellRendererTests<SUT extends javax.swing.table.TableCellRenderer>
+public abstract interface TableCellRendererTests<SUT extends TableCellRenderer>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableCellRenderer]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.table.TableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean, boolean, int, int)
-     * public abstract java.awt.Component
-     * javax.swing.table.TableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.TableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean, boolean, int, int)
-     * public abstract java.awt.Component
+     * Test method for the hereby targeted method-under-test
+     * {@link TableCellRenderer#getTableCellRendererComponent(JTable, Object, boolean, boolean, int, int) public
+     * abstract java.awt.Component
      * javax.swing.table.TableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int)}
      * .
      *
@@ -49,10 +47,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.table.TableCellRenderer#getTableCellRendererComponent(javax.swing.JTable, Object, boolean,
-     *      boolean, int, int) public abstract java.awt.Component
-     *      javax.swing.table.TableCellRenderer.getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,
-     *      boolean,boolean,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +58,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.TableCellRenderer]
 
 }

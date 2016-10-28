@@ -5,43 +5,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.w3c.dom.Entity;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.w3c.dom.Entity interface org.w3c.dom.Entity}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link EntityClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Entity public
+ * abstract interface org.w3c.dom.Entity}.
  * </p>
  *
- * @see org.w3c.dom.Entity interface org.w3c.dom.Entity (the hereby targeted class-under-test class)
- * @see EntityClassTests EntityClassTests (the complementary j8unit test interface containing the class relevant test
- *      methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.w3c.dom.EntityClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface EntityTests<SUT extends org.w3c.dom.Entity>
-extends NodeTests<SUT> {
+public abstract interface EntityTests<SUT extends Entity>
+extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.Entity]
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getPublicId() public abstract java.lang.String
-     * org.w3c.dom.Entity.getPublicId()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getPublicId() public abstract java.lang.String
-     * org.w3c.dom.Entity.getPublicId()}.
+     * Test method for the hereby targeted method-under-test {@link Entity#getPublicId() public abstract
+     * java.lang.String org.w3c.dom.Entity.getPublicId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Entity#getPublicId() public abstract java.lang.String org.w3c.dom.Entity.getPublicId() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,47 +56,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getInputEncoding() public abstract java.lang.String
-     * org.w3c.dom.Entity.getInputEncoding()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getInputEncoding() public abstract java.lang.String
-     * org.w3c.dom.Entity.getInputEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link Entity#getXmlVersion() public abstract
+     * java.lang.String org.w3c.dom.Entity.getXmlVersion()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Entity#getInputEncoding() public abstract java.lang.String org.w3c.dom.Entity.getInputEncoding()
-     *      (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputEncoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlVersion() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlVersion()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlVersion() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlVersion()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see org.w3c.dom.Entity#getXmlVersion() public abstract java.lang.String org.w3c.dom.Entity.getXmlVersion() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,20 +78,37 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getNotationName() public abstract java.lang.String
-     * org.w3c.dom.Entity.getNotationName()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getNotationName() public abstract java.lang.String
-     * org.w3c.dom.Entity.getNotationName()}.
+     * Test method for the hereby targeted method-under-test {@link Entity#getInputEncoding() public abstract
+     * java.lang.String org.w3c.dom.Entity.getInputEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Entity#getNotationName() public abstract java.lang.String org.w3c.dom.Entity.getNotationName()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputEncoding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Entity#getNotationName() public abstract
+     * java.lang.String org.w3c.dom.Entity.getNotationName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,20 +122,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlEncoding() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlEncoding()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlEncoding() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlEncoding()}.
+     * Test method for the hereby targeted method-under-test {@link Entity#getXmlEncoding() public abstract
+     * java.lang.String org.w3c.dom.Entity.getXmlEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Entity#getXmlEncoding() public abstract java.lang.String org.w3c.dom.Entity.getXmlEncoding()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -163,20 +144,15 @@ extends NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getSystemId() public abstract java.lang.String
-     * org.w3c.dom.Entity.getSystemId()}.
-     *
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getSystemId() public abstract java.lang.String
-     * org.w3c.dom.Entity.getSystemId()}.
+     * Test method for the hereby targeted method-under-test {@link Entity#getSystemId() public abstract
+     * java.lang.String org.w3c.dom.Entity.getSystemId()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.w3c.dom.Entity#getSystemId() public abstract java.lang.String org.w3c.dom.Entity.getSystemId() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -187,5 +163,7 @@ extends NodeTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.Entity]
 
 }

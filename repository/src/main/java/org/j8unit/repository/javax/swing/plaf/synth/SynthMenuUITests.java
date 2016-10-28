@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.swing.plaf.synth;
 
+import java.awt.Graphics;
+import java.beans.PropertyChangeEvent;
+import javax.swing.JComponent;
+import javax.swing.plaf.synth.SynthContext;
+import javax.swing.plaf.synth.SynthMenuUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,34 +13,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.synth.SynthMenuUI class
- * javax.swing.plaf.synth.SynthMenuUI}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link SynthMenuUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link SynthMenuUI
+ * public class javax.swing.plaf.synth.SynthMenuUI}.
  * </p>
  *
- * @see javax.swing.plaf.synth.SynthMenuUI class javax.swing.plaf.synth.SynthMenuUI (the hereby targeted
- *      class-under-test class)
- * @see SynthMenuUIClassTests SynthMenuUIClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthMenuUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface SynthMenuUITests<SUT extends javax.swing.plaf.synth.SynthMenuUI>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, SynthUITests<SUT>,
+public abstract interface SynthMenuUITests<SUT extends SynthMenuUI>
+extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>,
 org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuUI]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthMenuUI.getContext(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#getContext(javax.swing.JComponent) public
+     * Test method for the hereby targeted method-under-test {@link SynthMenuUI#getContext(JComponent) public
      * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthMenuUI.getContext(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -43,9 +47,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthMenuUI#getContext(javax.swing.JComponent) public
-     *      javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthMenuUI.getContext(javax.swing.JComponent)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -60,40 +62,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#update(java.awt.Graphics, javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.synth.SynthMenuUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.synth.SynthMenuUI.update(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.synth.SynthMenuUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#uninstallUI(javax.swing.JComponent) public void
+     * Test method for the hereby targeted method-under-test {@link SynthMenuUI#uninstallUI(JComponent) public void
      * javax.swing.plaf.synth.SynthMenuUI.uninstallUI(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -101,9 +70,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthMenuUI#uninstallUI(javax.swing.JComponent) public void
-     *      javax.swing.plaf.synth.SynthMenuUI.uninstallUI(javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -118,21 +85,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#paint(java.awt.Graphics, javax.swing.JComponent) public
-     * void javax.swing.plaf.synth.SynthMenuUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#paint(java.awt.Graphics, javax.swing.JComponent) public
-     * void javax.swing.plaf.synth.SynthMenuUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for the hereby targeted method-under-test {@link SynthMenuUI#paint(Graphics, JComponent) public void
+     * javax.swing.plaf.synth.SynthMenuUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthMenuUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     *      javax.swing.plaf.synth.SynthMenuUI.paint(java.awt.Graphics,javax.swing.JComponent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -147,21 +108,38 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#propertyChange(java.beans.PropertyChangeEvent) public
-     * void javax.swing.plaf.synth.SynthMenuUI.propertyChange(java.beans.PropertyChangeEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthMenuUI#propertyChange(java.beans.PropertyChangeEvent) public
-     * void javax.swing.plaf.synth.SynthMenuUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for the hereby targeted method-under-test {@link SynthMenuUI#update(Graphics, JComponent) public void
+     * javax.swing.plaf.synth.SynthMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthMenuUI#propertyChange(java.beans.PropertyChangeEvent) public void
-     *      javax.swing.plaf.synth.SynthMenuUI.propertyChange(java.beans.PropertyChangeEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link SynthMenuUI#propertyChange(PropertyChangeEvent)
+     * public void javax.swing.plaf.synth.SynthMenuUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -176,16 +154,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthMenuUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
-     * public void
-     * javax.swing.plaf.synth.SynthMenuUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthMenuUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
-     * public void
+     * Test method for the hereby targeted method-under-test
+     * {@link SynthMenuUI#paintBorder(SynthContext, Graphics, int, int, int, int) public void
      * javax.swing.plaf.synth.SynthMenuUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
      * .
      *
@@ -194,10 +164,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.synth.SynthMenuUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int,
-     *      int, int, int) public void
-     *      javax.swing.plaf.synth.SynthMenuUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int
-     *      ,int,int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -209,5 +176,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuUI]
 
 }

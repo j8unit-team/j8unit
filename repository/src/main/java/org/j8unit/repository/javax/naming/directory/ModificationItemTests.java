@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.naming.directory;
 
+import javax.naming.directory.ModificationItem;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.directory.ModificationItem class
- * javax.naming.directory.ModificationItem}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ModificationItemClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ModificationItem public class javax.naming.directory.ModificationItem}.
  * </p>
  *
- * @see javax.naming.directory.ModificationItem class javax.naming.directory.ModificationItem (the hereby targeted
- *      class-under-test class)
- * @see ModificationItemClassTests ModificationItemClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.directory.ModificationItemClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ModificationItemTests<SUT extends javax.naming.directory.ModificationItem>
+public abstract interface ModificationItemTests<SUT extends ModificationItem>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.ModificationItem]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#getAttribute() public
-     * javax.naming.directory.Attribute javax.naming.directory.ModificationItem.getAttribute()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#getAttribute() public
+     * Test method for the hereby targeted method-under-test {@link ModificationItem#getAttribute() public
      * javax.naming.directory.Attribute javax.naming.directory.ModificationItem.getAttribute()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.naming.directory.ModificationItem#getAttribute() public javax.naming.directory.Attribute
-     *      javax.naming.directory.ModificationItem.getAttribute() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,11 +56,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#getModificationOp() public int
-     * javax.naming.directory.ModificationItem.getModificationOp()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#getModificationOp() public int
+     * Test method for the hereby targeted method-under-test {@link ModificationItem#getModificationOp() public int
      * javax.naming.directory.ModificationItem.getModificationOp()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +64,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.naming.directory.ModificationItem#getModificationOp() public int
-     *      javax.naming.directory.ModificationItem.getModificationOp() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,11 +78,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#toString() public java.lang.String
-     * javax.naming.directory.ModificationItem.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.directory.ModificationItem#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link ModificationItem#toString() public java.lang.String
      * javax.naming.directory.ModificationItem.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +86,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.naming.directory.ModificationItem#toString() public java.lang.String
-     *      javax.naming.directory.ModificationItem.toString() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -109,5 +98,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.ModificationItem]
 
 }

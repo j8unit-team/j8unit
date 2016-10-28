@@ -1,5 +1,7 @@
 package org.j8unit.repository.javax.naming;
 
+import javax.naming.LinkException;
+import javax.naming.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +10,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.LinkException class javax.naming.LinkException}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link LinkExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link LinkException
+ * public class javax.naming.LinkException}.
  * </p>
  *
- * @see javax.naming.LinkException class javax.naming.LinkException (the hereby targeted class-under-test class)
- * @see LinkExceptionClassTests LinkExceptionClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.LinkExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface LinkExceptionTests<SUT extends javax.naming.LinkException>
-extends NamingExceptionTests<SUT> {
+public abstract interface LinkExceptionTests<SUT extends LinkException>
+extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.LinkException]
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkResolvedObj() public java.lang.Object
-     * javax.naming.LinkException.getLinkResolvedObj()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkResolvedObj() public java.lang.Object
-     * javax.naming.LinkException.getLinkResolvedObj()}.
+     * Test method for the hereby targeted method-under-test {@link LinkException#getLinkResolvedObj() public
+     * java.lang.Object javax.naming.LinkException.getLinkResolvedObj()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#getLinkResolvedObj() public java.lang.Object
-     *      javax.naming.LinkException.getLinkResolvedObj() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,38 +57,7 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkExplanation(String) public void
-     * javax.naming.LinkException.setLinkExplanation(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkExplanation(String) public void
-     * javax.naming.LinkException.setLinkExplanation(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.naming.LinkException#setLinkExplanation(String) public void
-     *      javax.naming.LinkException.setLinkExplanation(java.lang.String) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLinkExplanation_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkResolvedObj(Object) public void
-     * javax.naming.LinkException.setLinkResolvedObj(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkResolvedObj(Object) public void
+     * Test method for the hereby targeted method-under-test {@link LinkException#setLinkResolvedObj(Object) public void
      * javax.naming.LinkException.setLinkResolvedObj(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +65,7 @@ extends NamingExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#setLinkResolvedObj(Object) public void
-     *      javax.naming.LinkException.setLinkResolvedObj(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -109,20 +79,37 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkRemainingName() public javax.naming.Name
-     * javax.naming.LinkException.getLinkRemainingName()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkRemainingName() public javax.naming.Name
-     * javax.naming.LinkException.getLinkRemainingName()}.
+     * Test method for the hereby targeted method-under-test {@link LinkException#setLinkExplanation(String) public void
+     * javax.naming.LinkException.setLinkExplanation(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#getLinkRemainingName() public javax.naming.Name
-     *      javax.naming.LinkException.getLinkRemainingName() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLinkExplanation_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link LinkException#getLinkRemainingName() public
+     * javax.naming.Name javax.naming.LinkException.getLinkRemainingName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,39 +123,7 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#toString(boolean) public java.lang.String
-     * javax.naming.LinkException.toString(boolean)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#toString(boolean) public java.lang.String
-     * javax.naming.LinkException.toString(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.naming.LinkException#toString(boolean) public java.lang.String
-     *      javax.naming.LinkException.toString(boolean) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.LinkException#toString() public java.lang.String
-     * javax.naming.LinkException.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link LinkException#toString() public java.lang.String
      * javax.naming.LinkException.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,8 +131,7 @@ extends NamingExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#toString() public java.lang.String javax.naming.LinkException.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -192,25 +146,21 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkResolvedName() public javax.naming.Name
-     * javax.naming.LinkException.getLinkResolvedName()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkResolvedName() public javax.naming.Name
-     * javax.naming.LinkException.getLinkResolvedName()}.
+     * Test method for the hereby targeted method-under-test {@link LinkException#toString(boolean) public
+     * java.lang.String javax.naming.LinkException.toString(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#getLinkResolvedName() public javax.naming.Name
-     *      javax.naming.LinkException.getLinkResolvedName() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getLinkResolvedName()
+    public default void test_toString_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -219,38 +169,7 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkRemainingName(javax.naming.Name) public void
-     * javax.naming.LinkException.setLinkRemainingName(javax.naming.Name)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkRemainingName(javax.naming.Name) public void
-     * javax.naming.LinkException.setLinkRemainingName(javax.naming.Name)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.naming.LinkException#setLinkRemainingName(javax.naming.Name) public void
-     *      javax.naming.LinkException.setLinkRemainingName(javax.naming.Name) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLinkRemainingName_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkResolvedName(javax.naming.Name) public void
-     * javax.naming.LinkException.setLinkResolvedName(javax.naming.Name)}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#setLinkResolvedName(javax.naming.Name) public void
+     * Test method for the hereby targeted method-under-test {@link LinkException#setLinkResolvedName(Name) public void
      * javax.naming.LinkException.setLinkResolvedName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +177,7 @@ extends NamingExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#setLinkResolvedName(javax.naming.Name) public void
-     *      javax.naming.LinkException.setLinkResolvedName(javax.naming.Name) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -273,20 +191,59 @@ extends NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkExplanation() public java.lang.String
-     * javax.naming.LinkException.getLinkExplanation()}.
-     *
-     * <p>
-     * Test method for {@link javax.naming.LinkException#getLinkExplanation() public java.lang.String
-     * javax.naming.LinkException.getLinkExplanation()}.
+     * Test method for the hereby targeted method-under-test {@link LinkException#setLinkRemainingName(Name) public void
+     * javax.naming.LinkException.setLinkRemainingName(javax.naming.Name)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.naming.LinkException#getLinkExplanation() public java.lang.String
-     *      javax.naming.LinkException.getLinkExplanation() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLinkRemainingName_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link LinkException#getLinkResolvedName() public
+     * javax.naming.Name javax.naming.LinkException.getLinkResolvedName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinkResolvedName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link LinkException#getLinkExplanation() public
+     * java.lang.String javax.naming.LinkException.getLinkExplanation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -297,5 +254,7 @@ extends NamingExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.LinkException]
 
 }

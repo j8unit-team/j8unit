@@ -6,46 +6,44 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.portable.ResponseHandler;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.CORBA.portable.ResponseHandler interface
- * org.omg.CORBA.portable.ResponseHandler}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ResponseHandlerClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ResponseHandler
+ * public abstract interface org.omg.CORBA.portable.ResponseHandler}.
  * </p>
  *
- * @see org.omg.CORBA.portable.ResponseHandler interface org.omg.CORBA.portable.ResponseHandler (the hereby targeted
- *      class-under-test class)
- * @see ResponseHandlerClassTests ResponseHandlerClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.CORBA.portable.ResponseHandlerClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ResponseHandlerTests<SUT extends org.omg.CORBA.portable.ResponseHandler>
+public abstract interface ResponseHandlerTests<SUT extends ResponseHandler>
 extends RepositoryTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ResponseHandler#createExceptionReply() public abstract
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ResponseHandler#createExceptionReply() public abstract
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply()}.
+     * Test method for the hereby targeted method-under-test {@link ResponseHandler#createExceptionReply() public
+     * abstract org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ResponseHandler#createExceptionReply() public abstract
-     *      org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createExceptionReply() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -59,11 +57,7 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.portable.ResponseHandler#createReply() public abstract
-     * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createReply()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.portable.ResponseHandler#createReply() public abstract
+     * Test method for the hereby targeted method-under-test {@link ResponseHandler#createReply() public abstract
      * org.omg.CORBA.portable.OutputStream org.omg.CORBA.portable.ResponseHandler.createReply()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -71,8 +65,7 @@ extends RepositoryTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.portable.ResponseHandler#createReply() public abstract org.omg.CORBA.portable.OutputStream
-     *      org.omg.CORBA.portable.ResponseHandler.createReply() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -83,5 +76,7 @@ extends RepositoryTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
 
 }

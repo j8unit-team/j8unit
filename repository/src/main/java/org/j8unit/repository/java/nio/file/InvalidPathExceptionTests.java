@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.InvalidPathException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.InvalidPathException class
- * java.nio.file.InvalidPathException}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link InvalidPathExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link InvalidPathException public class java.nio.file.InvalidPathException}.
  * </p>
  *
- * @see java.nio.file.InvalidPathException class java.nio.file.InvalidPathException (the hereby targeted
- *      class-under-test class)
- * @see InvalidPathExceptionClassTests InvalidPathExceptionClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.InvalidPathExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvalidPathExceptionTests<SUT extends java.nio.file.InvalidPathException>
+public abstract interface InvalidPathExceptionTests<SUT extends InvalidPathException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.InvalidPathException]
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getIndex() public int
-     * java.nio.file.InvalidPathException.getIndex()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getIndex() public int
+     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getIndex() public int
      * java.nio.file.InvalidPathException.getIndex()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.InvalidPathException#getIndex() public int java.nio.file.InvalidPathException.getIndex() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -57,20 +56,15 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getReason() public java.lang.String
-     * java.nio.file.InvalidPathException.getReason()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getReason() public java.lang.String
-     * java.nio.file.InvalidPathException.getReason()}.
+     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getReason() public
+     * java.lang.String java.nio.file.InvalidPathException.getReason()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.InvalidPathException#getReason() public java.lang.String
-     *      java.nio.file.InvalidPathException.getReason() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,20 +78,15 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getInput() public java.lang.String
-     * java.nio.file.InvalidPathException.getInput()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getInput() public java.lang.String
-     * java.nio.file.InvalidPathException.getInput()}.
+     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getInput() public
+     * java.lang.String java.nio.file.InvalidPathException.getInput()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.InvalidPathException#getInput() public java.lang.String
-     *      java.nio.file.InvalidPathException.getInput() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -111,20 +100,15 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getMessage() public java.lang.String
-     * java.nio.file.InvalidPathException.getMessage()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.InvalidPathException#getMessage() public java.lang.String
-     * java.nio.file.InvalidPathException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link InvalidPathException#getMessage() public
+     * java.lang.String java.nio.file.InvalidPathException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.InvalidPathException#getMessage() public java.lang.String
-     *      java.nio.file.InvalidPathException.getMessage() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -136,5 +120,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.InvalidPathException]
 
 }

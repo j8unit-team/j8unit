@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.print.event;
 
+import javax.print.event.PrintEvent;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.print.event.PrintEvent class javax.print.event.PrintEvent}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PrintEventClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PrintEvent
+ * public class javax.print.event.PrintEvent}.
  * </p>
  *
- * @see javax.print.event.PrintEvent class javax.print.event.PrintEvent (the hereby targeted class-under-test class)
- * @see PrintEventClassTests PrintEventClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.print.event.PrintEventClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PrintEventTests<SUT extends javax.print.event.PrintEvent>
+public abstract interface PrintEventTests<SUT extends PrintEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.event.PrintEvent]
 
     /**
      * <p>
-     * Test method for {@link javax.print.event.PrintEvent#toString() public java.lang.String
-     * javax.print.event.PrintEvent.toString()}.
-     *
-     * <p>
-     * Test method for {@link javax.print.event.PrintEvent#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link PrintEvent#toString() public java.lang.String
      * javax.print.event.PrintEvent.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.print.event.PrintEvent#toString() public java.lang.String javax.print.event.PrintEvent.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -53,5 +54,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.event.PrintEvent]
 
 }

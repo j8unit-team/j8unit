@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.naming.directory;
 
+import javax.naming.directory.InvalidAttributeIdentifierException;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.naming.directory.InvalidAttributeIdentifierException class
- * javax.naming.directory.InvalidAttributeIdentifierException}. The complementary j8unit test interface containing the
- * class relevant aspects is {@link InvalidAttributeIdentifierExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link InvalidAttributeIdentifierException public class javax.naming.directory.InvalidAttributeIdentifierException}.
  * </p>
  *
- * @see javax.naming.directory.InvalidAttributeIdentifierException class
- *      javax.naming.directory.InvalidAttributeIdentifierException (the hereby targeted class-under-test class)
- * @see InvalidAttributeIdentifierExceptionClassTests InvalidAttributeIdentifierExceptionClassTests (the complementary
- *      j8unit test interface containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifierExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface InvalidAttributeIdentifierExceptionTests<SUT extends javax.naming.directory.InvalidAttributeIdentifierException>
+public abstract interface InvalidAttributeIdentifierExceptionTests<SUT extends InvalidAttributeIdentifierException>
 extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InvalidAttributeIdentifierException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.InvalidAttributeIdentifierException]
 
 }

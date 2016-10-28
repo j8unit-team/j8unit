@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.io;
 
+import java.io.ObjectStreamField;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.io.ObjectStreamField class java.io.ObjectStreamField}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link ObjectStreamFieldClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ObjectStreamField public class java.io.ObjectStreamField}.
  * </p>
  *
- * @see java.io.ObjectStreamField class java.io.ObjectStreamField (the hereby targeted class-under-test class)
- * @see ObjectStreamFieldClassTests ObjectStreamFieldClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.io.ObjectStreamFieldClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ObjectStreamFieldTests<SUT extends java.io.ObjectStreamField>
+public abstract interface ObjectStreamFieldTests<SUT extends ObjectStreamField>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectStreamField]
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getTypeCode() public char
-     * java.io.ObjectStreamField.getTypeCode()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#getTypeCode() public char
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#getTypeCode() public char
      * java.io.ObjectStreamField.getTypeCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +42,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#getTypeCode() public char java.io.ObjectStreamField.getTypeCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -55,11 +56,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#isPrimitive() public boolean
-     * java.io.ObjectStreamField.isPrimitive()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#isPrimitive() public boolean
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#isPrimitive() public boolean
      * java.io.ObjectStreamField.isPrimitive()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -67,8 +64,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#isPrimitive() public boolean java.io.ObjectStreamField.isPrimitive() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -82,11 +78,29 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#compareTo(Object) public int
-     * java.io.ObjectStreamField.compareTo(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#isUnshared() public boolean
+     * java.io.ObjectStreamField.isUnshared()}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isUnshared()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#compareTo(Object) public int
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#compareTo(Object) public int
      * java.io.ObjectStreamField.compareTo(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -94,8 +108,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#compareTo(Object) public int java.io.ObjectStreamField.compareTo(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,38 +123,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#isUnshared() public boolean
-     * java.io.ObjectStreamField.isUnshared()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#isUnshared() public boolean
-     * java.io.ObjectStreamField.isUnshared()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.io.ObjectStreamField#isUnshared() public boolean java.io.ObjectStreamField.isUnshared() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isUnshared()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#toString() public java.lang.String
-     * java.io.ObjectStreamField.toString()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#toString() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#toString() public java.lang.String
      * java.io.ObjectStreamField.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -149,8 +131,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#toString() public java.lang.String java.io.ObjectStreamField.toString() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -165,18 +146,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getOffset() public int java.io.ObjectStreamField.getOffset()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#getOffset() public int java.io.ObjectStreamField.getOffset()}.
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#getOffset() public int
+     * java.io.ObjectStreamField.getOffset()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#getOffset() public int java.io.ObjectStreamField.getOffset() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -190,20 +168,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getType() public java.lang.Class
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#getType() public java.lang.Class
      * <?> java.io.ObjectStreamField.getType()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#getType() public java.lang.Class
-     * java.io.ObjectStreamField.getType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#getType() public java.lang.Class java.io.ObjectStreamField.getType() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -217,11 +190,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getName() public java.lang.String
-     * java.io.ObjectStreamField.getName()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#getName() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#getName() public java.lang.String
      * java.io.ObjectStreamField.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -229,8 +198,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#getName() public java.lang.String java.io.ObjectStreamField.getName() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -244,20 +212,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getTypeString() public java.lang.String
-     * java.io.ObjectStreamField.getTypeString()}.
-     *
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#getTypeString() public java.lang.String
-     * java.io.ObjectStreamField.getTypeString()}.
+     * Test method for the hereby targeted method-under-test {@link ObjectStreamField#getTypeString() public
+     * java.lang.String java.io.ObjectStreamField.getTypeString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.io.ObjectStreamField#getTypeString() public java.lang.String java.io.ObjectStreamField.getTypeString()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -268,5 +231,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Object>, org.j8unit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectStreamField]
 
 }

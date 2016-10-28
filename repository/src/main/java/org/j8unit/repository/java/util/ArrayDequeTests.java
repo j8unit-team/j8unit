@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.util;
 
+import java.util.ArrayDeque;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,40 +9,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.ArrayDeque class java.util.ArrayDeque}. The complementary j8unit
- * test interface containing the class relevant aspects is {@link ArrayDequeClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ArrayDeque
+ * public class java.util.ArrayDeque<E>}.
  * </p>
  *
- * @see java.util.ArrayDeque class java.util.ArrayDeque (the hereby targeted class-under-test class)
- * @see ArrayDequeClassTests ArrayDequeClassTests (the complementary j8unit test interface containing the class relevant
- *      test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.ArrayDequeClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ArrayDequeTests<SUT extends java.util.ArrayDeque<E>, E>
-extends DequeTests<SUT, E>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-AbstractCollectionTests<SUT, E> {
+public abstract interface ArrayDequeTests<SUT extends ArrayDeque<E>, E>
+extends org.j8unit.repository.java.util.DequeTests<SUT, E>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
+org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ArrayDeque]
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#addFirst(Object) public void java.util.ArrayDeque.addFirst(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#addFirst(Object) public void
-     * java.util.ArrayDeque.addFirst(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#addFirst(Object) public void
+     * java.util.ArrayDeque.addFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#addFirst(Object) public void java.util.ArrayDeque.addFirst(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,18 +58,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#clone() public java.util.ArrayDeque<E> java.util.ArrayDeque.clone()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#clone() public java.util.ArrayDeque java.util.ArrayDeque.clone()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#clone() public java.util.ArrayDeque
+     * <E> java.util.ArrayDeque.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#clone() public java.util.ArrayDeque java.util.ArrayDeque.clone() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -81,47 +80,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#pollFirst() public E java.util.ArrayDeque.pollFirst()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#pollFirst() public java.lang.Object java.util.ArrayDeque.pollFirst()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeFirstOccurrence(Object) public
+     * boolean java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#pollFirst() public java.lang.Object java.util.ArrayDeque.pollFirst() (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_pollFirst()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeFirstOccurrence(Object) public boolean
-     * java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeFirstOccurrence(Object) public boolean
-     * java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#removeFirstOccurrence(Object) public boolean
-     *      java.util.ArrayDeque.removeFirstOccurrence(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -136,17 +103,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#size() public int java.util.ArrayDeque.size()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#size() public int java.util.ArrayDeque.size()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pollFirst() public E
+     * java.util.ArrayDeque.pollFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#size() public int java.util.ArrayDeque.size() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_pollFirst()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#size() public int
+     * java.util.ArrayDeque.size()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -161,19 +149,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#offerLast(Object) public boolean java.util.ArrayDeque.offerLast(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#offerLast(Object) public boolean
-     * java.util.ArrayDeque.offerLast(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offerLast(Object) public boolean
+     * java.util.ArrayDeque.offerLast(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#offerLast(Object) public boolean java.util.ArrayDeque.offerLast(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -188,11 +172,7 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#contains(Object) public boolean
-     * java.util.ArrayDeque.contains(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#contains(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#contains(Object) public boolean
      * java.util.ArrayDeque.contains(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -200,8 +180,7 @@ AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#contains(Object) public boolean java.util.ArrayDeque.contains(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -216,19 +195,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#push(Object) public void java.util.ArrayDeque.push(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#push(Object) public void java.util.ArrayDeque.push(java.lang.Object)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#push(Object) public void
+     * java.util.ArrayDeque.push(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#push(Object) public void java.util.ArrayDeque.push(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -243,18 +218,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#peek() public E java.util.ArrayDeque.peek()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#peek() public java.lang.Object java.util.ArrayDeque.peek()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peek() public E
+     * java.util.ArrayDeque.peek()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#peek() public java.lang.Object java.util.ArrayDeque.peek() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -269,44 +241,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#clear() public void java.util.ArrayDeque.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#clear() public void java.util.ArrayDeque.clear()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#isEmpty() public boolean
+     * java.util.ArrayDeque.isEmpty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#clear() public void java.util.ArrayDeque.clear() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#isEmpty() public boolean java.util.ArrayDeque.isEmpty()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#isEmpty() public boolean java.util.ArrayDeque.isEmpty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#isEmpty() public boolean java.util.ArrayDeque.isEmpty() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -321,19 +264,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#peekFirst() public E java.util.ArrayDeque.peekFirst()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#peekFirst() public java.lang.Object java.util.ArrayDeque.peekFirst()}
-     * .
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#clear() public void
+     * java.util.ArrayDeque.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#peekFirst() public java.lang.Object java.util.ArrayDeque.peekFirst() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peekFirst() public E
+     * java.util.ArrayDeque.peekFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -348,18 +310,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#peekLast() public E java.util.ArrayDeque.peekLast()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#peekLast() public java.lang.Object java.util.ArrayDeque.peekLast()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#peekLast() public E
+     * java.util.ArrayDeque.peekLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#peekLast() public java.lang.Object java.util.ArrayDeque.peekLast() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -374,20 +333,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#spliterator() public java.util.Spliterator
-     * <E> java.util.ArrayDeque.spliterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#spliterator() public java.util.Spliterator
-     * java.util.ArrayDeque.spliterator()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#spliterator() public
+     * java.util.Spliterator<E> java.util.ArrayDeque.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#spliterator() public java.util.Spliterator java.util.ArrayDeque.spliterator() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -402,19 +356,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#add(Object) public boolean java.util.ArrayDeque.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#add(Object) public boolean
-     * java.util.ArrayDeque.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#add(Object) public boolean
+     * java.util.ArrayDeque.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#add(Object) public boolean java.util.ArrayDeque.add(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -429,46 +379,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#element() public E java.util.ArrayDeque.element()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#element() public java.lang.Object java.util.ArrayDeque.element()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeLastOccurrence(Object) public
+     * boolean java.util.ArrayDeque.removeLastOccurrence(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#element() public java.lang.Object java.util.ArrayDeque.element() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_element()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeLastOccurrence(Object) public boolean
-     * java.util.ArrayDeque.removeLastOccurrence(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeLastOccurrence(Object) public boolean
-     * java.util.ArrayDeque.removeLastOccurrence(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#removeLastOccurrence(Object) public boolean
-     *      java.util.ArrayDeque.removeLastOccurrence(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -483,25 +402,21 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#toArray(Object[]) public <T> T[] java.util.ArrayDeque.toArray(T[])}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#toArray(Object[]) public java.lang.Object[]
-     * java.util.ArrayDeque.toArray(java.lang.Object[])}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#element() public E
+     * java.util.ArrayDeque.element()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#toArray(Object[]) public java.lang.Object[]
-     *      java.util.ArrayDeque.toArray(java.lang.Object[]) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
+    public default void test_element()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -510,18 +425,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#toArray() public java.lang.Object[] java.util.ArrayDeque.toArray()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#toArray() public java.lang.Object[] java.util.ArrayDeque.toArray()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#toArray() public java.lang.Object[]
+     * java.util.ArrayDeque.toArray()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#toArray() public java.lang.Object[] java.util.ArrayDeque.toArray() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -536,18 +448,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#getFirst() public E java.util.ArrayDeque.getFirst()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#getFirst() public java.lang.Object java.util.ArrayDeque.getFirst()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#toArray(Object[]) public <T> T[]
+     * java.util.ArrayDeque.toArray(T[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#getFirst() public java.lang.Object java.util.ArrayDeque.getFirst() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#getFirst() public E
+     * java.util.ArrayDeque.getFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -562,10 +494,7 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#removeFirst() public E java.util.ArrayDeque.removeFirst()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeFirst() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeFirst() public E
      * java.util.ArrayDeque.removeFirst()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -573,8 +502,7 @@ AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#removeFirst() public java.lang.Object java.util.ArrayDeque.removeFirst() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -589,45 +517,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#pop() public E java.util.ArrayDeque.pop()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#pop() public java.lang.Object java.util.ArrayDeque.pop()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offer(Object) public boolean
+     * java.util.ArrayDeque.offer(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#pop() public java.lang.Object java.util.ArrayDeque.pop() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_pop()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#offer(Object) public boolean java.util.ArrayDeque.offer(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#offer(Object) public boolean
-     * java.util.ArrayDeque.offer(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#offer(Object) public boolean java.util.ArrayDeque.offer(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -642,19 +540,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#addLast(Object) public void java.util.ArrayDeque.addLast(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#addLast(Object) public void
-     * java.util.ArrayDeque.addLast(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pop() public E
+     * java.util.ArrayDeque.pop()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#addLast(Object) public void java.util.ArrayDeque.addLast(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_pop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#addLast(Object) public void
+     * java.util.ArrayDeque.addLast(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -669,20 +586,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#iterator() public java.util.Iterator
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#iterator() public java.util.Iterator
      * <E> java.util.ArrayDeque.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#iterator() public java.util.Iterator java.util.ArrayDeque.iterator()}
-     * .
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#iterator() public java.util.Iterator java.util.ArrayDeque.iterator() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -697,62 +609,7 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#getLast() public E java.util.ArrayDeque.getLast()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#getLast() public java.lang.Object java.util.ArrayDeque.getLast()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#getLast() public java.lang.Object java.util.ArrayDeque.getLast() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getLast()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#pollLast() public E java.util.ArrayDeque.pollLast()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#pollLast() public java.lang.Object java.util.ArrayDeque.pollLast()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.ArrayDeque#pollLast() public java.lang.Object java.util.ArrayDeque.pollLast() (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_pollLast()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeLast() public E java.util.ArrayDeque.removeLast()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#removeLast() public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#removeLast() public E
      * java.util.ArrayDeque.removeLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -760,8 +617,7 @@ AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#removeLast() public java.lang.Object java.util.ArrayDeque.removeLast() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -776,26 +632,21 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#remove(Object) public boolean
-     * java.util.ArrayDeque.remove(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#remove(Object) public boolean
-     * java.util.ArrayDeque.remove(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#pollLast() public E
+     * java.util.ArrayDeque.pollLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#remove(Object) public boolean java.util.ArrayDeque.remove(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_remove_Object()
+    public default void test_pollLast()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -804,18 +655,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#remove() public E java.util.ArrayDeque.remove()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#remove() public java.lang.Object java.util.ArrayDeque.remove()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#getLast() public E
+     * java.util.ArrayDeque.getLast()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#remove() public java.lang.Object java.util.ArrayDeque.remove() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLast()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#remove() public E
+     * java.util.ArrayDeque.remove()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -830,20 +701,38 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#descendingIterator() public java.util.Iterator
-     * <E> java.util.ArrayDeque.descendingIterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#descendingIterator() public java.util.Iterator
-     * java.util.ArrayDeque.descendingIterator()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#remove(Object) public boolean
+     * java.util.ArrayDeque.remove(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#descendingIterator() public java.util.Iterator
-     *      java.util.ArrayDeque.descendingIterator() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#descendingIterator() public
+     * java.util.Iterator<E> java.util.ArrayDeque.descendingIterator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -858,20 +747,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#offerFirst(Object) public boolean java.util.ArrayDeque.offerFirst(E)}
-     * .
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#offerFirst(Object) public boolean
-     * java.util.ArrayDeque.offerFirst(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#offerFirst(Object) public boolean
+     * java.util.ArrayDeque.offerFirst(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#offerFirst(Object) public boolean java.util.ArrayDeque.offerFirst(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -886,18 +770,15 @@ AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.ArrayDeque#poll() public E java.util.ArrayDeque.poll()}.
-     *
-     * <p>
-     * Test method for {@link java.util.ArrayDeque#poll() public java.lang.Object java.util.ArrayDeque.poll()}.
+     * Test method for the hereby targeted method-under-test {@link ArrayDeque#poll() public E
+     * java.util.ArrayDeque.poll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.ArrayDeque#poll() public java.lang.Object java.util.ArrayDeque.poll() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -910,152 +791,6 @@ AbstractCollectionTests<SUT, E> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#removeAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#removeAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#containsAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#containsAll(java.util.Collection) class
-     * java.util.AbstractCollection}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#addAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#addAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#hashCode() interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#hashCode() class java.util.AbstractCollection}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#retainAll(java.util.Collection) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#retainAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_retainAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.Collection#equals(Object) interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.AbstractCollection#equals(Object) class java.util.AbstractCollection}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ArrayDeque]
 
 }

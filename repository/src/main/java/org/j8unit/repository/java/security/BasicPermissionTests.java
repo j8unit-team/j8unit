@@ -1,5 +1,7 @@
 package org.j8unit.repository.java.security;
 
+import java.security.BasicPermission;
+import java.security.Permission;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,31 +10,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.security.BasicPermission class java.security.BasicPermission}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link BasicPermissionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BasicPermission
+ * public abstract class java.security.BasicPermission}.
  * </p>
  *
- * @see java.security.BasicPermission class java.security.BasicPermission (the hereby targeted class-under-test class)
- * @see BasicPermissionClassTests BasicPermissionClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.security.BasicPermissionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicPermissionTests<SUT extends java.security.BasicPermission>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SUT> {
+public abstract interface BasicPermissionTests<SUT extends BasicPermission>
+extends org.j8unit.repository.java.security.PermissionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.BasicPermission]
 
     /**
      * <p>
-     * Test method for {@link java.security.BasicPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.security.BasicPermission.newPermissionCollection()}.
-     *
-     * <p>
-     * Test method for {@link java.security.BasicPermission#newPermissionCollection() public
+     * Test method for the hereby targeted method-under-test {@link BasicPermission#newPermissionCollection() public
      * java.security.PermissionCollection java.security.BasicPermission.newPermissionCollection()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,8 +43,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.security.BasicPermission#newPermissionCollection() public java.security.PermissionCollection
-     *      java.security.BasicPermission.newPermissionCollection() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -56,11 +58,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.BasicPermission#equals(Object) public boolean
-     * java.security.BasicPermission.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.security.BasicPermission#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link BasicPermission#equals(Object) public boolean
      * java.security.BasicPermission.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -68,8 +66,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.security.BasicPermission#equals(Object) public boolean
-     *      java.security.BasicPermission.equals(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -84,11 +81,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.BasicPermission#hashCode() public int
-     * java.security.BasicPermission.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.security.BasicPermission#hashCode() public int
+     * Test method for the hereby targeted method-under-test {@link BasicPermission#hashCode() public int
      * java.security.BasicPermission.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -96,8 +89,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.security.BasicPermission#hashCode() public int java.security.BasicPermission.hashCode() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -112,11 +104,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.BasicPermission#getActions() public java.lang.String
-     * java.security.BasicPermission.getActions()}.
-     *
-     * <p>
-     * Test method for {@link java.security.BasicPermission#getActions() public java.lang.String
+     * Test method for the hereby targeted method-under-test {@link BasicPermission#getActions() public java.lang.String
      * java.security.BasicPermission.getActions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -124,8 +112,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.security.BasicPermission#getActions() public java.lang.String
-     *      java.security.BasicPermission.getActions() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -140,11 +127,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.BasicPermission#implies(java.security.Permission) public boolean
-     * java.security.BasicPermission.implies(java.security.Permission)}.
-     *
-     * <p>
-     * Test method for {@link java.security.BasicPermission#implies(java.security.Permission) public boolean
+     * Test method for the hereby targeted method-under-test {@link BasicPermission#implies(Permission) public boolean
      * java.security.BasicPermission.implies(java.security.Permission)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -152,8 +135,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
      * methods soon.
      * </p>
      *
-     * @see java.security.BasicPermission#implies(java.security.Permission) public boolean
-     *      java.security.BasicPermission.implies(java.security.Permission) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -165,5 +147,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, PermissionTests<SU
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.BasicPermission]
 
 }

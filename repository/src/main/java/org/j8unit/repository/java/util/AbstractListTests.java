@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.util;
 
+import java.util.AbstractCollection;
+import java.util.AbstractList;
+import java.util.Collection;
+import java.util.List;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,38 +12,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.util.AbstractList class java.util.AbstractList}. The complementary
- * j8unit test interface containing the class relevant aspects is {@link AbstractListClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link AbstractList
+ * public abstract class java.util.AbstractList<E>}.
  * </p>
  *
- * @see java.util.AbstractList class java.util.AbstractList (the hereby targeted class-under-test class)
- * @see AbstractListClassTests AbstractListClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.util.AbstractListClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface AbstractListTests<SUT extends java.util.AbstractList<E>, E>
-extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
+public abstract interface AbstractListTests<SUT extends AbstractList<E>, E>
+extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractList]
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#clear() public void java.util.AbstractList.clear()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#clear() public void java.util.AbstractList.clear()}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#clear() public void
+     * java.util.AbstractList.clear()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#clear() public void java.util.AbstractList.clear() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -54,10 +60,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#remove(int) public E java.util.AbstractList.remove(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#remove(int) public java.lang.Object
+     * Test method for the hereby targeted method-under-test {@link AbstractList#remove(int) public E
      * java.util.AbstractList.remove(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -65,8 +68,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#remove(int) public java.lang.Object java.util.AbstractList.remove(int) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -81,46 +83,15 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#add(int, Object) public void java.util.AbstractList.add(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#add(int, Object) public void
-     * java.util.AbstractList.add(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#add(Object) public boolean
+     * java.util.AbstractList.add(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#add(int, Object) public void java.util.AbstractList.add(int,java.lang.Object) (the
-     *      hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractList#add(Object) public boolean java.util.AbstractList.add(E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#add(Object) public boolean
-     * java.util.AbstractList.add(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractList#add(Object) public boolean java.util.AbstractList.add(java.lang.Object) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -135,19 +106,38 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#set(int, Object) public E java.util.AbstractList.set(int,E)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#set(int, Object) public java.lang.Object
-     * java.util.AbstractList.set(int,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#add(int, Object) public void
+     * java.util.AbstractList.add(int,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#set(int, Object) public java.lang.Object
-     *      java.util.AbstractList.set(int,java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AbstractList#set(int, Object) public E
+     * java.util.AbstractList.set(int,E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -162,20 +152,15 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#subList(int, int) public java.util.List
+     * Test method for the hereby targeted method-under-test {@link AbstractList#subList(int, int) public java.util.List
      * <E> java.util.AbstractList.subList(int,int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#subList(int, int) public java.util.List
-     * java.util.AbstractList.subList(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#subList(int, int) public java.util.List java.util.AbstractList.subList(int,int) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -190,48 +175,15 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#listIterator(int) public java.util.ListIterator
-     * <E> java.util.AbstractList.listIterator(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#listIterator(int) public java.util.ListIterator
-     * java.util.AbstractList.listIterator(int)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#listIterator() public
+     * java.util.ListIterator<E> java.util.AbstractList.listIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#listIterator(int) public java.util.ListIterator
-     *      java.util.AbstractList.listIterator(int) (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_listIterator_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractList#listIterator() public java.util.ListIterator
-     * <E> java.util.AbstractList.listIterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#listIterator() public java.util.ListIterator
-     * java.util.AbstractList.listIterator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractList#listIterator() public java.util.ListIterator java.util.AbstractList.listIterator()
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -246,11 +198,30 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#indexOf(Object) public int
-     * java.util.AbstractList.indexOf(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#listIterator(int) public
+     * java.util.ListIterator<E> java.util.AbstractList.listIterator(int)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_listIterator_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for {@link java.util.AbstractList#indexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link AbstractList#indexOf(Object) public int
      * java.util.AbstractList.indexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -258,8 +229,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#indexOf(Object) public int java.util.AbstractList.indexOf(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -274,11 +244,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#lastIndexOf(Object) public int
-     * java.util.AbstractList.lastIndexOf(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#lastIndexOf(Object) public int
+     * Test method for the hereby targeted method-under-test {@link AbstractList#lastIndexOf(Object) public int
      * java.util.AbstractList.lastIndexOf(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -286,8 +252,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#lastIndexOf(Object) public int java.util.AbstractList.lastIndexOf(java.lang.Object)
-     *      (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -302,20 +267,15 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#iterator() public java.util.Iterator
+     * Test method for the hereby targeted method-under-test {@link AbstractList#iterator() public java.util.Iterator
      * <E> java.util.AbstractList.iterator()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#iterator() public java.util.Iterator
-     * java.util.AbstractList.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#iterator() public java.util.Iterator java.util.AbstractList.iterator() (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -330,20 +290,15 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#addAll(int, java.util.Collection) public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractList#addAll(int, Collection) public boolean
      * java.util.AbstractList.addAll(int,java.util.Collection<? extends E>)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#addAll(int, java.util.Collection) public boolean
-     * java.util.AbstractList.addAll(int,java.util.Collection)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#addAll(int, java.util.Collection) public boolean
-     *      java.util.AbstractList.addAll(int,java.util.Collection) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -358,38 +313,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#get(int) public abstract E java.util.AbstractList.get(int)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#get(int) public abstract java.lang.Object
-     * java.util.AbstractList.get(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.util.AbstractList#get(int) public abstract java.lang.Object java.util.AbstractList.get(int) (the hereby
-     *      targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractList#equals(Object) public boolean
-     * java.util.AbstractList.equals(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#equals(Object) public boolean
+     * Test method for the hereby targeted method-under-test {@link AbstractList#equals(Object) public boolean
      * java.util.AbstractList.equals(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -397,8 +321,7 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#equals(Object) public boolean java.util.AbstractList.equals(java.lang.Object) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -413,18 +336,38 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractList#hashCode() public int java.util.AbstractList.hashCode()}.
-     *
-     * <p>
-     * Test method for {@link java.util.AbstractList#hashCode() public int java.util.AbstractList.hashCode()}.
+     * Test method for the hereby targeted method-under-test {@link AbstractList#get(int) public abstract E
+     * java.util.AbstractList.get(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.util.AbstractList#hashCode() public int java.util.AbstractList.hashCode() (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link AbstractList#hashCode() public int
+     * java.util.AbstractList.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -443,40 +386,17 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#contains(Object) interface java.util.List}</li>
+     * <li>{@link List#removeAll(Collection) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#removeAll(Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Object()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#removeAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * <li>{@linkplain java.util.List#removeAll(java.util.Collection) interface java.util.List}</li>
-     * </ul>
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -484,6 +404,8 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
     @Category(Draft.class)
     public default void test_removeAll_Collection()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_removeAll_Collection();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_removeAll_Collection();
     }
 
     /**
@@ -492,22 +414,26 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.Collection#spliterator() interface java.util.Collection}</li>
-     * <li>{@linkplain java.util.List#spliterator() interface java.util.List}</li>
+     * <li>{@link List#contains(Object) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#contains(Object) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_spliterator()
+    public default void test_contains_Object()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_contains_Object();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_contains_Object();
     }
 
     /**
@@ -516,40 +442,17 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#containsAll(java.util.Collection) class
-     * java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#containsAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link List#size() interface java.util.List}</li>
+     * <li>{@link AbstractCollection#size() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsAll_Collection()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#size() class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#size() interface java.util.List}</li>
-     * </ul>
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -557,6 +460,8 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
     @Category(Draft.class)
     public default void test_size()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_size();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_size();
     }
 
     /**
@@ -565,16 +470,17 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#addAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * <li>{@linkplain java.util.List#addAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link List#addAll(Collection) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#addAll(Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -582,6 +488,8 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
     @Category(Draft.class)
     public default void test_addAll_Collection()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_addAll_Collection();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_addAll_Collection();
     }
 
     /**
@@ -590,63 +498,17 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#isEmpty() interface java.util.List}</li>
+     * <li>{@link List#toArray(Object[]) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isEmpty()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#toArray() class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#toArray() interface java.util.List}</li>
-     * </ul>
      *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#toArray(Object[]) interface java.util.List}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
-     * </p>
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -654,6 +516,8 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
     @Category(Draft.class)
     public default void test_toArray_ObjectArray()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_toArray_ObjectArray();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray_ObjectArray();
     }
 
     /**
@@ -662,22 +526,26 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
-     * <li>{@linkplain java.util.List#remove(Object) interface java.util.List}</li>
+     * <li>{@link List#toArray() interface java.util.List}</li>
+     * <li>{@link AbstractCollection#toArray() class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_remove_Object()
+    public default void test_toArray()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_toArray();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray();
     }
 
     /**
@@ -686,16 +554,17 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@linkplain java.util.AbstractCollection#retainAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
-     * <li>{@linkplain java.util.List#retainAll(java.util.Collection) interface java.util.List}</li>
+     * <li>{@link List#retainAll(Collection) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#retainAll(Collection) class java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this situation,
-     * this method must be overridden. Dont't worry, there will be meaningful test methods soon and, thus, overriding
-     * becomes unnecessary.
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
      * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -703,6 +572,94 @@ extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
     @Category(Draft.class)
     public default void test_retainAll_Collection()
     throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_retainAll_Collection();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_retainAll_Collection();
     }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link List#containsAll(Collection) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#containsAll(Collection) class java.util.AbstractCollection}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsAll_Collection()
+    throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_containsAll_Collection();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_containsAll_Collection();
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link List#isEmpty() interface java.util.List}</li>
+     * <li>{@link AbstractCollection#isEmpty() class java.util.AbstractCollection}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isEmpty()
+    throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_isEmpty();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_isEmpty();
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link List#remove(Object) interface java.util.List}</li>
+     * <li>{@link AbstractCollection#remove(Object) class java.util.AbstractCollection}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        org.j8unit.repository.java.util.ListTests.super.test_remove_Object();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_remove_Object();
+    }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractList]
 
 }

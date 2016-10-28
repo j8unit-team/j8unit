@@ -1,5 +1,10 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import java.awt.event.MouseEvent;
+import javax.swing.JMenuItem;
+import javax.swing.MenuElement;
+import javax.swing.MenuSelectionManager;
+import javax.swing.plaf.basic.BasicCheckBoxMenuItemUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,37 +13,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicCheckBoxMenuItemUI class
- * javax.swing.plaf.basic.BasicCheckBoxMenuItemUI}. The complementary j8unit test interface containing the class
- * relevant aspects is {@link BasicCheckBoxMenuItemUIClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicCheckBoxMenuItemUI public class javax.swing.plaf.basic.BasicCheckBoxMenuItemUI}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicCheckBoxMenuItemUI class javax.swing.plaf.basic.BasicCheckBoxMenuItemUI (the hereby
- *      targeted class-under-test class)
- * @see BasicCheckBoxMenuItemUIClassTests BasicCheckBoxMenuItemUIClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicCheckBoxMenuItemUIClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicCheckBoxMenuItemUITests<SUT extends javax.swing.plaf.basic.BasicCheckBoxMenuItemUI>
-extends BasicMenuItemUITests<SUT> {
+public abstract interface BasicCheckBoxMenuItemUITests<SUT extends BasicCheckBoxMenuItemUI>
+extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxMenuItemUI]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicCheckBoxMenuItemUI#processMouseEvent(javax.swing.JMenuItem, java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * public void
-     * javax.swing.plaf.basic.BasicCheckBoxMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicCheckBoxMenuItemUI#processMouseEvent(javax.swing.JMenuItem, java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * Test method for the hereby targeted method-under-test
+     * {@link BasicCheckBoxMenuItemUI#processMouseEvent(JMenuItem, MouseEvent, MenuElement[], MenuSelectionManager)
      * public void
      * javax.swing.plaf.basic.BasicCheckBoxMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
      * .
@@ -48,11 +49,7 @@ extends BasicMenuItemUITests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicCheckBoxMenuItemUI#processMouseEvent(javax.swing.JMenuItem,
-     *      java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager) public void
-     *      javax.swing.plaf.basic.BasicCheckBoxMenuItemUI.processMouseEvent(javax.swing.JMenuItem,java.awt.event.
-     *      MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -63,5 +60,7 @@ extends BasicMenuItemUITests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxMenuItemUI]
 
 }

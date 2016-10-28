@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.lang.model.util;
 
+import javax.lang.model.util.ElementKindVisitor8;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.lang.model.util.ElementKindVisitor8 class
- * javax.lang.model.util.ElementKindVisitor8}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link ElementKindVisitor8ClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ElementKindVisitor8 public class javax.lang.model.util.ElementKindVisitor8<R,P>}.
  * </p>
  *
- * @see javax.lang.model.util.ElementKindVisitor8 class javax.lang.model.util.ElementKindVisitor8 (the hereby targeted
- *      class-under-test class)
- * @see ElementKindVisitor8ClassTests ElementKindVisitor8ClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.lang.model.util.ElementKindVisitor8ClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ElementKindVisitor8Tests<SUT extends javax.lang.model.util.ElementKindVisitor8<R, P>, R, P>
-extends ElementKindVisitor7Tests<SUT, R, P> {
+public abstract interface ElementKindVisitor8Tests<SUT extends ElementKindVisitor8<R, P>, R, P>
+extends org.j8unit.repository.javax.lang.model.util.ElementKindVisitor7Tests<SUT, R, P> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.ElementKindVisitor8]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.ElementKindVisitor8]
 
 }

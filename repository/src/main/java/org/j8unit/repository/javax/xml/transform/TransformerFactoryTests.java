@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.xml.transform;
 
+import javax.xml.transform.ErrorListener;
+import javax.xml.transform.Source;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.URIResolver;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,60 +12,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.xml.transform.TransformerFactory class
- * javax.xml.transform.TransformerFactory}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link TransformerFactoryClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link TransformerFactory public abstract class javax.xml.transform.TransformerFactory}.
  * </p>
  *
- * @see javax.xml.transform.TransformerFactory class javax.xml.transform.TransformerFactory (the hereby targeted
- *      class-under-test class)
- * @see TransformerFactoryClassTests TransformerFactoryClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface TransformerFactoryTests<SUT extends javax.xml.transform.TransformerFactory>
+public abstract interface TransformerFactoryTests<SUT extends TransformerFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getErrorListener() public abstract
-     * javax.xml.transform.ErrorListener javax.xml.transform.TransformerFactory.getErrorListener()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getErrorListener() public abstract
-     * javax.xml.transform.ErrorListener javax.xml.transform.TransformerFactory.getErrorListener()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.transform.TransformerFactory#getErrorListener() public abstract javax.xml.transform.ErrorListener
-     *      javax.xml.transform.TransformerFactory.getErrorListener() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getErrorListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.TransformerFactory]
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getURIResolver() public abstract
-     * javax.xml.transform.URIResolver javax.xml.transform.TransformerFactory.getURIResolver()}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getURIResolver() public abstract
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#getURIResolver() public abstract
      * javax.xml.transform.URIResolver javax.xml.transform.TransformerFactory.getURIResolver()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +45,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#getURIResolver() public abstract javax.xml.transform.URIResolver
-     *      javax.xml.transform.TransformerFactory.getURIResolver() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -84,26 +59,20 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setErrorListener(javax.xml.transform.ErrorListener)
-     * public abstract void javax.xml.transform.TransformerFactory.setErrorListener(javax.xml.transform.ErrorListener)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setErrorListener(javax.xml.transform.ErrorListener)
-     * public abstract void javax.xml.transform.TransformerFactory.setErrorListener(javax.xml.transform.ErrorListener)}.
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#getErrorListener() public
+     * abstract javax.xml.transform.ErrorListener javax.xml.transform.TransformerFactory.getErrorListener()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#setErrorListener(javax.xml.transform.ErrorListener) public abstract
-     *      void javax.xml.transform.TransformerFactory.setErrorListener(javax.xml.transform.ErrorListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setErrorListener_ErrorListener()
+    public default void test_getErrorListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,16 +81,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.transform.TransformerFactory#getAssociatedStylesheet(javax.xml.transform.Source, String, String, String)
-     * public abstract javax.xml.transform.Source
-     * javax.xml.transform.TransformerFactory.getAssociatedStylesheet(javax.xml.transform.Source,java.lang.String,java.lang.String,java.lang.String)
-     * throws javax.xml.transform.TransformerConfigurationException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.xml.transform.TransformerFactory#getAssociatedStylesheet(javax.xml.transform.Source, String, String, String)
-     * public abstract javax.xml.transform.Source
+     * Test method for the hereby targeted method-under-test
+     * {@link TransformerFactory#getAssociatedStylesheet(Source, String, String, String) public abstract
+     * javax.xml.transform.Source
      * javax.xml.transform.TransformerFactory.getAssociatedStylesheet(javax.xml.transform.Source,java.lang.String,java.lang.String,java.lang.String)
      * throws javax.xml.transform.TransformerConfigurationException}.
      *
@@ -130,11 +92,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#getAssociatedStylesheet(javax.xml.transform.Source, String, String,
-     *      String) public abstract javax.xml.transform.Source
-     *      javax.xml.transform.TransformerFactory.getAssociatedStylesheet(javax.xml.transform.Source,java.lang.String,
-     *      java.lang.String,java.lang.String) throws javax.xml.transform.TransformerConfigurationException (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -148,20 +106,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getFeature(String) public abstract boolean
-     * javax.xml.transform.TransformerFactory.getFeature(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getFeature(String) public abstract boolean
-     * javax.xml.transform.TransformerFactory.getFeature(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#setErrorListener(ErrorListener)
+     * public abstract void javax.xml.transform.TransformerFactory.setErrorListener(javax.xml.transform.ErrorListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#getFeature(String) public abstract boolean
-     *      javax.xml.transform.TransformerFactory.getFeature(java.lang.String) (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setErrorListener_ErrorListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#getFeature(String) public
+     * abstract boolean javax.xml.transform.TransformerFactory.getFeature(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -175,41 +150,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setURIResolver(javax.xml.transform.URIResolver)
-     * public abstract void javax.xml.transform.TransformerFactory.setURIResolver(javax.xml.transform.URIResolver)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setURIResolver(javax.xml.transform.URIResolver)
-     * public abstract void javax.xml.transform.TransformerFactory.setURIResolver(javax.xml.transform.URIResolver)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.xml.transform.TransformerFactory#setURIResolver(javax.xml.transform.URIResolver) public abstract void
-     *      javax.xml.transform.TransformerFactory.setURIResolver(javax.xml.transform.URIResolver) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setURIResolver_URIResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTemplates(javax.xml.transform.Source) public
-     * abstract javax.xml.transform.Templates
-     * javax.xml.transform.TransformerFactory.newTemplates(javax.xml.transform.Source) throws
-     * javax.xml.transform.TransformerConfigurationException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTemplates(javax.xml.transform.Source) public
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#newTemplates(Source) public
      * abstract javax.xml.transform.Templates
      * javax.xml.transform.TransformerFactory.newTemplates(javax.xml.transform.Source) throws
      * javax.xml.transform.TransformerConfigurationException}.
@@ -219,10 +160,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#newTemplates(javax.xml.transform.Source) public abstract
-     *      javax.xml.transform.Templates
-     *      javax.xml.transform.TransformerFactory.newTemplates(javax.xml.transform.Source) throws
-     *      javax.xml.transform.TransformerConfigurationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -236,21 +174,37 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getAttribute(String) public abstract
-     * java.lang.Object javax.xml.transform.TransformerFactory.getAttribute(java.lang.String)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#getAttribute(String) public abstract
-     * java.lang.Object javax.xml.transform.TransformerFactory.getAttribute(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#setURIResolver(URIResolver)
+     * public abstract void javax.xml.transform.TransformerFactory.setURIResolver(javax.xml.transform.URIResolver)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#getAttribute(String) public abstract java.lang.Object
-     *      javax.xml.transform.TransformerFactory.getAttribute(java.lang.String) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setURIResolver_URIResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#getAttribute(String) public
+     * abstract java.lang.Object javax.xml.transform.TransformerFactory.getAttribute(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -264,21 +218,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setAttribute(String, Object) public abstract void
-     * javax.xml.transform.TransformerFactory.setAttribute(java.lang.String,java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setAttribute(String, Object) public abstract void
-     * javax.xml.transform.TransformerFactory.setAttribute(java.lang.String,java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#setAttribute(String, Object)
+     * public abstract void javax.xml.transform.TransformerFactory.setAttribute(java.lang.String,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#setAttribute(String, Object) public abstract void
-     *      javax.xml.transform.TransformerFactory.setAttribute(java.lang.String,java.lang.Object) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -292,13 +240,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setFeature(String, boolean) public abstract void
-     * javax.xml.transform.TransformerFactory.setFeature(java.lang.String,boolean) throws
-     * javax.xml.transform.TransformerConfigurationException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#setFeature(String, boolean) public abstract void
-     * javax.xml.transform.TransformerFactory.setFeature(java.lang.String,boolean) throws
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#setFeature(String, boolean)
+     * public abstract void javax.xml.transform.TransformerFactory.setFeature(java.lang.String,boolean) throws
      * javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -306,9 +249,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#setFeature(String, boolean) public abstract void
-     *      javax.xml.transform.TransformerFactory.setFeature(java.lang.String,boolean) throws
-     *      javax.xml.transform.TransformerConfigurationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -322,13 +263,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTransformer(javax.xml.transform.Source) public
-     * abstract javax.xml.transform.Transformer
-     * javax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source) throws
-     * javax.xml.transform.TransformerConfigurationException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTransformer(javax.xml.transform.Source) public
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#newTransformer(Source) public
      * abstract javax.xml.transform.Transformer
      * javax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source) throws
      * javax.xml.transform.TransformerConfigurationException}.
@@ -338,10 +273,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#newTransformer(javax.xml.transform.Source) public abstract
-     *      javax.xml.transform.Transformer
-     *      javax.xml.transform.TransformerFactory.newTransformer(javax.xml.transform.Source) throws
-     *      javax.xml.transform.TransformerConfigurationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -355,12 +287,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTransformer() public abstract
-     * javax.xml.transform.Transformer javax.xml.transform.TransformerFactory.newTransformer() throws
-     * javax.xml.transform.TransformerConfigurationException}.
-     *
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerFactory#newTransformer() public abstract
+     * Test method for the hereby targeted method-under-test {@link TransformerFactory#newTransformer() public abstract
      * javax.xml.transform.Transformer javax.xml.transform.TransformerFactory.newTransformer() throws
      * javax.xml.transform.TransformerConfigurationException}.
      *
@@ -369,9 +296,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.xml.transform.TransformerFactory#newTransformer() public abstract javax.xml.transform.Transformer
-     *      javax.xml.transform.TransformerFactory.newTransformer() throws
-     *      javax.xml.transform.TransformerConfigurationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -382,5 +307,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.TransformerFactory]
 
 }

@@ -5,34 +5,38 @@ import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.omg.CORBA.PolicyHolder;
+import org.omg.CORBA.portable.InputStream;
+import org.omg.CORBA.portable.OutputStream;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain org.omg.CORBA.PolicyHolder class org.omg.CORBA.PolicyHolder}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PolicyHolderClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PolicyHolder
+ * public final class org.omg.CORBA.PolicyHolder}.
  * </p>
  *
- * @see org.omg.CORBA.PolicyHolder class org.omg.CORBA.PolicyHolder (the hereby targeted class-under-test class)
- * @see PolicyHolderClassTests PolicyHolderClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.org.omg.CORBA.PolicyHolderClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PolicyHolderTests<SUT extends org.omg.CORBA.PolicyHolder>
+public abstract interface PolicyHolderTests<SUT extends PolicyHolder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PolicyHolder]
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_write(org.omg.CORBA.portable.OutputStream) public void
-     * org.omg.CORBA.PolicyHolder._write(org.omg.CORBA.portable.OutputStream)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_write(org.omg.CORBA.portable.OutputStream) public void
+     * Test method for the hereby targeted method-under-test {@link PolicyHolder#_write(OutputStream) public void
      * org.omg.CORBA.PolicyHolder._write(org.omg.CORBA.portable.OutputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -40,9 +44,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.PolicyHolder#_write(org.omg.CORBA.portable.OutputStream) public void
-     *      org.omg.CORBA.PolicyHolder._write(org.omg.CORBA.portable.OutputStream) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -57,11 +59,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_type() public org.omg.CORBA.TypeCode
-     * org.omg.CORBA.PolicyHolder._type()}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_type() public org.omg.CORBA.TypeCode
+     * Test method for the hereby targeted method-under-test {@link PolicyHolder#_type() public org.omg.CORBA.TypeCode
      * org.omg.CORBA.PolicyHolder._type()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -69,8 +67,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.PolicyHolder#_type() public org.omg.CORBA.TypeCode org.omg.CORBA.PolicyHolder._type() (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -85,11 +82,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_read(org.omg.CORBA.portable.InputStream) public void
-     * org.omg.CORBA.PolicyHolder._read(org.omg.CORBA.portable.InputStream)}.
-     *
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHolder#_read(org.omg.CORBA.portable.InputStream) public void
+     * Test method for the hereby targeted method-under-test {@link PolicyHolder#_read(InputStream) public void
      * org.omg.CORBA.PolicyHolder._read(org.omg.CORBA.portable.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -97,8 +90,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
      * methods soon.
      * </p>
      *
-     * @see org.omg.CORBA.PolicyHolder#_read(org.omg.CORBA.portable.InputStream) public void
-     *      org.omg.CORBA.PolicyHolder._read(org.omg.CORBA.portable.InputStream) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -110,5 +102,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.PolicyHolder]
 
 }

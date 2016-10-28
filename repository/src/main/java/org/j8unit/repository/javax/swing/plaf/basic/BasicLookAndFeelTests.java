@@ -1,5 +1,6 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import javax.swing.plaf.basic.BasicLookAndFeel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,33 +9,32 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicLookAndFeel class
- * javax.swing.plaf.basic.BasicLookAndFeel}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicLookAndFeelClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicLookAndFeel public abstract class javax.swing.plaf.basic.BasicLookAndFeel}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicLookAndFeel class javax.swing.plaf.basic.BasicLookAndFeel (the hereby targeted
- *      class-under-test class)
- * @see BasicLookAndFeelClassTests BasicLookAndFeelClassTests (the complementary j8unit test interface containing the
- *      class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicLookAndFeelTests<SUT extends javax.swing.plaf.basic.BasicLookAndFeel>
+public abstract interface BasicLookAndFeelTests<SUT extends BasicLookAndFeel>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicLookAndFeel]
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#initialize() public void
-     * javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#initialize() public void
+     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#initialize() public void
      * javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -42,8 +42,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicLookAndFeel#initialize() public void
-     *      javax.swing.plaf.basic.BasicLookAndFeel.initialize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,20 +57,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
+     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#getDefaults() public
+     * javax.swing.UIDefaults javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     *      javax.swing.plaf.basic.BasicLookAndFeel.getDefaults() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -86,11 +80,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#uninitialize() public void
-     * javax.swing.plaf.basic.BasicLookAndFeel.uninitialize()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#uninitialize() public void
+     * Test method for the hereby targeted method-under-test {@link BasicLookAndFeel#uninitialize() public void
      * javax.swing.plaf.basic.BasicLookAndFeel.uninitialize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -98,8 +88,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicLookAndFeel#uninitialize() public void
-     *      javax.swing.plaf.basic.BasicLookAndFeel.uninitialize() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -111,5 +100,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicLookAndFeel]
 
 }

@@ -1,5 +1,9 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
+import java.awt.event.ActionListener;
+import java.awt.event.FocusEvent;
+import javax.swing.plaf.basic.BasicComboBoxEditor;
+import javax.swing.plaf.basic.BasicComboBoxEditor.UIResource;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,43 +12,41 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboBoxEditor class
- * javax.swing.plaf.basic.BasicComboBoxEditor}. The complementary j8unit test interface containing the class relevant
- * aspects is {@link BasicComboBoxEditorClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link BasicComboBoxEditor public class javax.swing.plaf.basic.BasicComboBoxEditor}.
  * </p>
  *
- * @see javax.swing.plaf.basic.BasicComboBoxEditor class javax.swing.plaf.basic.BasicComboBoxEditor (the hereby targeted
- *      class-under-test class)
- * @see BasicComboBoxEditorClassTests BasicComboBoxEditorClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface BasicComboBoxEditorTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor>
+public abstract interface BasicComboBoxEditorTests<SUT extends BasicComboBoxEditor>
 extends org.j8unit.repository.javax.swing.ComboBoxEditorTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor]
+
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#getItem() public java.lang.Object
-     * javax.swing.plaf.basic.BasicComboBoxEditor.getItem()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#getItem() public java.lang.Object
-     * javax.swing.plaf.basic.BasicComboBoxEditor.getItem()}.
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#getItem() public
+     * java.lang.Object javax.swing.plaf.basic.BasicComboBoxEditor.getItem()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#getItem() public java.lang.Object
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.getItem() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -59,20 +61,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#getEditorComponent() public java.awt.Component
-     * javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#getEditorComponent() public java.awt.Component
-     * javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent()}.
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#getEditorComponent() public
+     * java.awt.Component javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#getEditorComponent() public java.awt.Component
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.getEditorComponent() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -87,11 +84,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#setItem(Object) public void
-     * javax.swing.plaf.basic.BasicComboBoxEditor.setItem(java.lang.Object)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#setItem(Object) public void
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#setItem(Object) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.setItem(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,8 +92,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#setItem(Object) public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.setItem(java.lang.Object) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -115,11 +107,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusLost(java.awt.event.FocusEvent) public
-     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusLost(java.awt.event.FocusEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusLost(java.awt.event.FocusEvent) public
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#focusLost(FocusEvent) public
      * void javax.swing.plaf.basic.BasicComboBoxEditor.focusLost(java.awt.event.FocusEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -127,9 +115,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#focusLost(java.awt.event.FocusEvent) public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.focusLost(java.awt.event.FocusEvent) (the hereby targeted
-     *      method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -144,40 +130,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusGained(java.awt.event.FocusEvent) public
-     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#focusGained(java.awt.event.FocusEvent) public
-     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#focusGained(java.awt.event.FocusEvent) public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent) (the hereby targeted
-     *      method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_focusGained_FocusEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#selectAll() public void
-     * javax.swing.plaf.basic.BasicComboBoxEditor.selectAll()}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#selectAll() public void
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#selectAll() public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.selectAll()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -185,8 +138,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#selectAll() public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.selectAll() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -201,13 +153,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#removeActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.plaf.basic.BasicComboBoxEditor.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for the hereby targeted method-under-test {@link BasicComboBoxEditor#focusGained(FocusEvent) public
+     * void javax.swing.plaf.basic.BasicComboBoxEditor.focusGained(java.awt.event.FocusEvent)}.
      *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_focusGained_FocusEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#removeActionListener(java.awt.event.ActionListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link BasicComboBoxEditor#removeActionListener(ActionListener) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.removeActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -215,9 +185,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#removeActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.removeActionListener(java.awt.event.ActionListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -232,13 +200,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#addActionListener(java.awt.event.ActionListener) public void
-     * javax.swing.plaf.basic.BasicComboBoxEditor.addActionListener(java.awt.event.ActionListener)}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicComboBoxEditor#addActionListener(java.awt.event.ActionListener) public void
+     * Test method for the hereby targeted method-under-test
+     * {@link BasicComboBoxEditor#addActionListener(ActionListener) public void
      * javax.swing.plaf.basic.BasicComboBoxEditor.addActionListener(java.awt.event.ActionListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -246,9 +209,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor#addActionListener(java.awt.event.ActionListener) public void
-     *      javax.swing.plaf.basic.BasicComboBoxEditor.addActionListener(java.awt.event.ActionListener) (the hereby
-     *      targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -261,27 +222,34 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor]
+
     /**
      * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
-     * non-{@code static} methods) of {@linkplain javax.swing.plaf.basic.BasicComboBoxEditor.UIResource class
-     * javax.swing.plaf.basic.BasicComboBoxEditor$UIResource}. The complementary j8unit test interface containing the
-     * class relevant aspects is {@link BasicComboBoxEditorClassTests.UIResourceClassTests}.
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link UIResource
+     * public static class javax.swing.plaf.basic.BasicComboBoxEditor$UIResource}.
      * </p>
      *
-     * @see javax.swing.plaf.basic.BasicComboBoxEditor.UIResource class
-     *      javax.swing.plaf.basic.BasicComboBoxEditor$UIResource (the hereby targeted class-under-test class)
-     * @see BasicComboBoxEditorClassTests.UIResourceClassTests BasicComboBoxEditorClassTests.UIResourceClassTests (the
-     *      complementary j8unit test interface containing the class relevant test methods)
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests.UIResourceClassTests}).
+     * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
      */
+
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor.UIResource>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, BasicComboBoxEditorTests<SUT> {
+    public static abstract interface UIResourceTests<SUT extends UIResource>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
 
     }
 

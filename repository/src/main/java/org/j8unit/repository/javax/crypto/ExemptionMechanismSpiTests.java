@@ -1,28 +1,34 @@
 package org.j8unit.repository.javax.crypto;
 
+import javax.crypto.ExemptionMechanismSpi;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.crypto.ExemptionMechanismSpi class
- * javax.crypto.ExemptionMechanismSpi}. The complementary j8unit test interface containing the class relevant aspects is
- * {@link ExemptionMechanismSpiClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link ExemptionMechanismSpi public abstract class javax.crypto.ExemptionMechanismSpi}.
  * </p>
  *
- * @see javax.crypto.ExemptionMechanismSpi class javax.crypto.ExemptionMechanismSpi (the hereby targeted
- *      class-under-test class)
- * @see ExemptionMechanismSpiClassTests ExemptionMechanismSpiClassTests (the complementary j8unit test interface
- *      containing the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.crypto.ExemptionMechanismSpiClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface ExemptionMechanismSpiTests<SUT extends javax.crypto.ExemptionMechanismSpi>
+public abstract interface ExemptionMechanismSpiTests<SUT extends ExemptionMechanismSpi>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ExemptionMechanismSpi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.ExemptionMechanismSpi]
 
 }

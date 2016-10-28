@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.nio.file;
 
+import java.nio.file.FileSystemException;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,42 +9,40 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain java.nio.file.FileSystemException class java.nio.file.FileSystemException}
- * . The complementary j8unit test interface containing the class relevant aspects is
- * {@link FileSystemExceptionClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+ * {@link FileSystemException public class java.nio.file.FileSystemException}.
  * </p>
  *
- * @see java.nio.file.FileSystemException class java.nio.file.FileSystemException (the hereby targeted class-under-test
- *      class)
- * @see FileSystemExceptionClassTests FileSystemExceptionClassTests (the complementary j8unit test interface containing
- *      the class relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface FileSystemExceptionTests<SUT extends java.nio.file.FileSystemException>
+public abstract interface FileSystemExceptionTests<SUT extends FileSystemException>
 extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystemException]
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getMessage() public java.lang.String
-     * java.nio.file.FileSystemException.getMessage()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getMessage() public java.lang.String
-     * java.nio.file.FileSystemException.getMessage()}.
+     * Test method for the hereby targeted method-under-test {@link FileSystemException#getMessage() public
+     * java.lang.String java.nio.file.FileSystemException.getMessage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.FileSystemException#getMessage() public java.lang.String
-     *      java.nio.file.FileSystemException.getMessage() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -58,47 +57,15 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getFile() public java.lang.String
-     * java.nio.file.FileSystemException.getFile()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getFile() public java.lang.String
-     * java.nio.file.FileSystemException.getFile()}.
+     * Test method for the hereby targeted method-under-test {@link FileSystemException#getOtherFile() public
+     * java.lang.String java.nio.file.FileSystemException.getOtherFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.FileSystemException#getFile() public java.lang.String
-     *      java.nio.file.FileSystemException.getFile() (the hereby targeted method-under-test)
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFile()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getOtherFile() public java.lang.String
-     * java.nio.file.FileSystemException.getOtherFile()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getOtherFile() public java.lang.String
-     * java.nio.file.FileSystemException.getOtherFile()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @see java.nio.file.FileSystemException#getOtherFile() public java.lang.String
-     *      java.nio.file.FileSystemException.getOtherFile() (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -112,20 +79,37 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getReason() public java.lang.String
-     * java.nio.file.FileSystemException.getReason()}.
-     *
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getReason() public java.lang.String
-     * java.nio.file.FileSystemException.getReason()}.
+     * Test method for the hereby targeted method-under-test {@link FileSystemException#getFile() public
+     * java.lang.String java.nio.file.FileSystemException.getFile()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
      * methods soon.
      * </p>
      *
-     * @see java.nio.file.FileSystemException#getReason() public java.lang.String
-     *      java.nio.file.FileSystemException.getReason() (the hereby targeted method-under-test)
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link FileSystemException#getReason() public
+     * java.lang.String java.nio.file.FileSystemException.getReason()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
@@ -136,5 +120,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.FileSystemException]
 
 }

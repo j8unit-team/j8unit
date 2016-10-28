@@ -1,5 +1,8 @@
 package org.j8unit.repository.javax.swing.text;
 
+import java.awt.Shape;
+import javax.swing.text.PasswordView;
+import javax.swing.text.Position.Bias;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -8,35 +11,33 @@ import org.junit.experimental.categories.Category;
 
 /**
  * <p>
- * Reusable j8unit test interface containing the instance relevant aspects (i.&thinsp;e., test methods targeting the
- * non-{@code static} methods) of {@linkplain javax.swing.text.PasswordView class javax.swing.text.PasswordView}. The
- * complementary j8unit test interface containing the class relevant aspects is {@link PasswordViewClassTests}.
+ * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+ * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link PasswordView
+ * public class javax.swing.text.PasswordView}.
  * </p>
  *
- * @see javax.swing.text.PasswordView class javax.swing.text.PasswordView (the hereby targeted class-under-test class)
- * @see PasswordViewClassTests PasswordViewClassTests (the complementary j8unit test interface containing the class
- *      relevant test methods)
+ * <p>
+ * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
+ * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
+ * {@link org.j8unit.repository.javax.swing.text.PasswordViewClassTests}).
+ * </p>
  *
  * @param SUT
  *            the type of the subject-under-test
  * @since 0.9.0
  */
+
 @FunctionalInterface
 @Category(J8UnitRepository.class)
-public abstract interface PasswordViewTests<SUT extends javax.swing.text.PasswordView>
-extends FieldViewTests<SUT> {
+public abstract interface PasswordViewTests<SUT extends PasswordView>
+extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
+
+    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.PasswordView]
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.PasswordView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
-     * public int
-     * javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.PasswordView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
-     * public int
+     * Test method for the hereby targeted method-under-test
+     * {@link PasswordView#viewToModel(float, float, Shape, Bias[]) public int
      * javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -44,10 +45,7 @@ extends FieldViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.PasswordView#viewToModel(float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
-     *      public int
-     *      javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[]) (the
-     *      hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -62,14 +60,7 @@ extends FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.PasswordView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
-     * java.awt.Shape javax.swing.text.PasswordView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
-     * throws javax.swing.text.BadLocationException}.
-     *
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.PasswordView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
+     * Test method for the hereby targeted method-under-test {@link PasswordView#modelToView(int, Shape, Bias) public
      * java.awt.Shape javax.swing.text.PasswordView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
      * throws javax.swing.text.BadLocationException}.
      *
@@ -78,9 +69,7 @@ extends FieldViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.PasswordView#modelToView(int, java.awt.Shape, javax.swing.text.Position.Bias) public
-     *      java.awt.Shape javax.swing.text.PasswordView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
-     *      throws javax.swing.text.BadLocationException (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -95,11 +84,7 @@ extends FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.PasswordView#getPreferredSpan(int) public float
-     * javax.swing.text.PasswordView.getPreferredSpan(int)}.
-     *
-     * <p>
-     * Test method for {@link javax.swing.text.PasswordView#getPreferredSpan(int) public float
+     * Test method for the hereby targeted method-under-test {@link PasswordView#getPreferredSpan(int) public float
      * javax.swing.text.PasswordView.getPreferredSpan(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -107,8 +92,7 @@ extends FieldViewTests<SUT> {
      * methods soon.
      * </p>
      *
-     * @see javax.swing.text.PasswordView#getPreferredSpan(int) public float
-     *      javax.swing.text.PasswordView.getPreferredSpan(int) (the hereby targeted method-under-test)
+     * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Override
@@ -120,5 +104,7 @@ extends FieldViewTests<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.PasswordView]
 
 }
