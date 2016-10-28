@@ -45,7 +45,6 @@ import org.j8unit.generator.api.render.TargetRenderer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -392,7 +391,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s *%n", indt));
             out.append(format("%s * @since %s%n", indt, VERSION_REPO_UPDATE));
             out.append(format("%s */%n", indt));
-            out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(BeforeClass.class)));
+            out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Test.class)));
             out.append(format("%spublic default void %s() throws %s {%n", indt, VERIFY_METHOD_NAME, renderer.originCanonicalNameOf(Exception.class)));
             out.append(format("%s%s// create new instance%n", indt, indent()));
             out.append(format("%s%s%s<%s> sut = %s();%n", indt, indent(), renderer.originCanonicalNameOf(Class.class), SUT, SUT_FACTORY));
