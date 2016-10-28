@@ -65,7 +65,7 @@ implements J8UnitCodeGenerator {
                 // Case [1]: Enum Type
                 final @SuppressWarnings("unchecked") Class<? extends Enum<?>> enumm = (Class<? extends Enum<?>>) type;
                 final StringBuilder sutCreation = this.enumSUTCreation(enumm, depth + 1, renderer);
-                return this.asJ8UnitTest(enumm, control, renderer, complementary, depth, sutCreation).toString();
+                return this.asParameterizedJ8UnitTest(enumm, control, renderer, complementary, depth, sutCreation).toString();
             }
             final Set<? extends Field> instances = Arrays.stream(type.getDeclaredFields()) //
                                                          .filter(f -> type.isAssignableFrom(f.getType())) //
@@ -75,7 +75,7 @@ implements J8UnitCodeGenerator {
             if (!instances.isEmpty()) {
                 // Case [2]: Reuse Existing, Accessible Instances
                 final StringBuilder sutCreation = this.fieldsSUTCreation(type, instances, depth + 1, renderer);
-                return this.asJ8UnitTest(type, control, renderer, complementary, depth, sutCreation).toString();
+                return this.asParameterizedJ8UnitTest(type, control, renderer, complementary, depth, sutCreation).toString();
             } else if (isAbstract(type.getModifiers())) {
                 // Case [3]: Skip Abstract Types
                 final String msg = format("Due to the abstract modifier of this type-under-test [%s], j8unit does not support a generic way to provide instances.",
@@ -118,6 +118,51 @@ implements J8UnitCodeGenerator {
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
+            // content creation: J8Unit Test Interface Declaration
+            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
+            out.append(format("%simplements %s%s%n", indent, testClassInterfaceType, testClassInterfaceGenerics));
+            out.append(format("%s{%n", indent));
+            out.append(format("%n"));
+            // content creation: Begin Marker
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%n"));
+            // content creation: Custom Body Content
+            // out.append(modusOperandi.customTestInterfaceBody(depth + 1));
+            // content creation: SUT Creation
+            out.append(sutCreation);
+            // content creation: End Marker
+            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%n"));
+            // content creation: Enveloped Types
+            for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
+                out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
+                out.append(format("%n"));
+            }
+            out.append(format("%s}%n", indent));
+            // finalize content
+            return out;
+        }
+
+        private final <Renderer extends OriginRenderer & TargetRenderer> StringBuilder asParameterizedJ8UnitTest(final Class<?> type, final GeneratorUseControler control,
+                                                                                                    final Renderer renderer,
+                                                                                                    final TargetRenderer complementaryBehaviour,
+                                                                                                    final int depth, final StringBuilder sutCreation) {
+            // data preparations
+            final String indent = indent(depth);
+            final ModusOperandi modusOperandi = this.modusOperandi(type);
+            final String optionalModifiers = join(" ", this.optionalModifiers(depth));
+            final String j8unitName = renderer.targetSimpleNameOf(type);
+            final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
+            final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
+            final String testClassInterfaceGenerics = diamond(renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)
+                                                              + ofEmptyable(csv(renderer.listOfTypeParameterNamesOf(type))).prepend(", ").orEmpty());
+            // content storage
+            final StringBuilder out = new StringBuilder();
+            // content creation: @SuppressWarnings(...)
+            out.append(modusOperandi.renderWarnings(depth, renderer));
+            // content creation: @RunWith(J8Unit4.class)
+            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
+            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class), renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
             // content creation: J8Unit Test Interface Declaration
             out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%simplements %s%s%n", indent, testClassInterfaceType, testClassInterfaceGenerics));
